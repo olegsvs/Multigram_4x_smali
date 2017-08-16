@@ -1,0 +1,108 @@
+.class public Lorg/telegram/tgnet/TLRPC$TL_updateChannelMessageViews;
+.super Lorg/telegram/tgnet/TLRPC$Update;
+.source "TLRPC.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/telegram/tgnet/TLRPC;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "TL_updateChannelMessageViews"
+.end annotation
+
+
+# static fields
+.field public static constructor:I
+
+
+# instance fields
+.field public id:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .prologue
+    .line 13506
+    const v0, -0x675ed4b5
+
+    sput v0, Lorg/telegram/tgnet/TLRPC$TL_updateChannelMessageViews;->constructor:I
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 13505
+    invoke-direct {p0}, Lorg/telegram/tgnet/TLRPC$Update;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public readParams(Lorg/telegram/tgnet/AbstractSerializedData;Z)V
+    .locals 1
+    .param p1, "stream"    # Lorg/telegram/tgnet/AbstractSerializedData;
+    .param p2, "exception"    # Z
+
+    .prologue
+    .line 13511
+    invoke-virtual {p1, p2}, Lorg/telegram/tgnet/AbstractSerializedData;->readInt32(Z)I
+
+    move-result v0
+
+    iput v0, p0, Lorg/telegram/tgnet/TLRPC$TL_updateChannelMessageViews;->channel_id:I
+
+    .line 13512
+    invoke-virtual {p1, p2}, Lorg/telegram/tgnet/AbstractSerializedData;->readInt32(Z)I
+
+    move-result v0
+
+    iput v0, p0, Lorg/telegram/tgnet/TLRPC$TL_updateChannelMessageViews;->id:I
+
+    .line 13513
+    invoke-virtual {p1, p2}, Lorg/telegram/tgnet/AbstractSerializedData;->readInt32(Z)I
+
+    move-result v0
+
+    iput v0, p0, Lorg/telegram/tgnet/TLRPC$TL_updateChannelMessageViews;->views:I
+
+    .line 13514
+    return-void
+.end method
+
+.method public serializeToStream(Lorg/telegram/tgnet/AbstractSerializedData;)V
+    .locals 1
+    .param p1, "stream"    # Lorg/telegram/tgnet/AbstractSerializedData;
+
+    .prologue
+    .line 13517
+    sget v0, Lorg/telegram/tgnet/TLRPC$TL_updateChannelMessageViews;->constructor:I
+
+    invoke-virtual {p1, v0}, Lorg/telegram/tgnet/AbstractSerializedData;->writeInt32(I)V
+
+    .line 13518
+    iget v0, p0, Lorg/telegram/tgnet/TLRPC$TL_updateChannelMessageViews;->channel_id:I
+
+    invoke-virtual {p1, v0}, Lorg/telegram/tgnet/AbstractSerializedData;->writeInt32(I)V
+
+    .line 13519
+    iget v0, p0, Lorg/telegram/tgnet/TLRPC$TL_updateChannelMessageViews;->id:I
+
+    invoke-virtual {p1, v0}, Lorg/telegram/tgnet/AbstractSerializedData;->writeInt32(I)V
+
+    .line 13520
+    iget v0, p0, Lorg/telegram/tgnet/TLRPC$TL_updateChannelMessageViews;->views:I
+
+    invoke-virtual {p1, v0}, Lorg/telegram/tgnet/AbstractSerializedData;->writeInt32(I)V
+
+    .line 13521
+    return-void
+.end method
