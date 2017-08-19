@@ -28837,7 +28837,7 @@
     .line 3605
     sget-object v0, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v1, "mainconfig"
+    sget-object v1, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
