@@ -55,7 +55,7 @@
     :cond_0
     sget-object v20, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v21, "Notifications"
+    sget-object v21, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
 
     const/16 v22, 0x0
 

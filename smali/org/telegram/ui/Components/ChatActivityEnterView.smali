@@ -16213,7 +16213,7 @@
     .local v0, "currentChat":Lorg/telegram/tgnet/TLRPC$Chat;
     sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v7, "Notifications"
+    sget-object v7, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
 
     invoke-virtual {v3, v7, v5}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 

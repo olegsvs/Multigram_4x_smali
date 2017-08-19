@@ -2145,7 +2145,7 @@
     .local v9, "customDialogs":Ljava/util/ArrayList;, "Ljava/util/ArrayList<Ljava/lang/Long;>;"
     sget-object v29, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v31, "Notifications"
+    sget-object v31, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
 
     const/16 v32, 0x0
 

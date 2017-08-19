@@ -21128,7 +21128,7 @@
     .line 5397
     sget-object v6, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v7, "Notifications"
+    sget-object v7, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
 
     invoke-virtual {v6, v7, v10}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
@@ -21262,7 +21262,7 @@
     :cond_2
     sget-object v6, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v7, "Notifications"
+    sget-object v7, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
 
     invoke-virtual {v6, v7, v10}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
@@ -24315,7 +24315,7 @@
     :cond_2
     sget-object v5, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v6, "Notifications"
+    sget-object v6, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
 
     const/4 v7, 0x0
 
@@ -25471,7 +25471,7 @@
     :cond_0
     sget-object v4, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v5, "Notifications"
+    sget-object v5, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
 
     invoke-virtual {v4, v5, v3}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
@@ -64513,7 +64513,7 @@
     .line 810
     sget-object v5, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v6, "Notifications"
+    sget-object v6, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
 
     const/4 v7, 0x0
 
@@ -66478,7 +66478,7 @@
     .line 9003
     sget-object v0, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v1, "Notifications"
+    sget-object v1, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
 
     const/4 v2, 0x0
 

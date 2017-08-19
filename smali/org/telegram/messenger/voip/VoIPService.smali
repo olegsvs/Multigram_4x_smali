@@ -3632,7 +3632,7 @@
     invoke-direct {p0, v8}, Lorg/telegram/messenger/voip/VoIPService;->dispatchStateChanged(I)V
 
     .line 628
-    const-string/jumbo v8, "Notifications"
+    sget-object v8, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
 
     const/4 v9, 0x0
 

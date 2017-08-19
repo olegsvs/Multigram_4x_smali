@@ -2667,7 +2667,7 @@
 
     move-result-object v28
 
-    const-string/jumbo v29, "Notifications"
+    sget-object v29, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
 
     const v30, 0x7f0704dc
 

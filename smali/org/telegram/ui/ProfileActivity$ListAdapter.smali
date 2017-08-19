@@ -2457,7 +2457,7 @@
     .line 3445
     sget-object v29, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v30, "Notifications"
+    sget-object v30, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
 
     const/16 v31, 0x0
 
@@ -2677,7 +2677,7 @@
     if-eqz v27, :cond_2d
 
     .line 3503
-    const-string/jumbo v29, "Notifications"
+    sget-object v29, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
 
     const v30, 0x7f0704dc
 
@@ -3144,7 +3144,7 @@
     .end local v11    # "enabled":Z
     .restart local v27    # "val":Ljava/lang/String;
     :cond_2d
-    const-string/jumbo v29, "Notifications"
+    sget-object v29, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
 
     const v30, 0x7f0704dc
 

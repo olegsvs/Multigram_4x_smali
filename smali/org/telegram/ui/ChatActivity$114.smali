@@ -77,7 +77,7 @@
     .line 10775
     sget-object v0, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v1, "Notifications"
+    sget-object v1, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v4}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 

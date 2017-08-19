@@ -65,7 +65,7 @@
     .local v15, "old_unread_count":I
     sget-object v18, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v19, "Notifications"
+    sget-object v19, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
 
     const/16 v20, 0x0
 
