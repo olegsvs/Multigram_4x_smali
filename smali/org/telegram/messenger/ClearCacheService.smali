@@ -3,11 +3,38 @@
 .source "ClearCacheService.java"
 
 
+# static fields
+.field public static mainconfig:Ljava/lang/String;
+	
+	
 # direct methods
 .method public constructor <init>()V
     .locals 1
 
     .prologue
+	new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "mainconfig"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getUserTag()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    sput-object v0, Lorg/telegram/messenger/ClearCacheService;->mainconfig:Ljava/lang/String;
     .line 25
     const-string/jumbo v0, "ClearCacheService"
 
@@ -32,7 +59,7 @@
     .line 32
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v3, "mainconfig"
+    sget-object v3, Lorg/telegram/messenger/ClearCacheService;->mainconfig:Ljava/lang/String;
 
     const/4 v4, 0x0
 

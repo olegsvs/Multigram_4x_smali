@@ -46,7 +46,7 @@
     :try_start_0
     sget-object v14, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v16, "mainconfig"
+    sget-object v16, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
 
     const/16 v17, 0x0
 
@@ -135,7 +135,7 @@
     :try_start_1
     sget-object v14, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v16, "mainconfig"
+    sget-object v16, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
 
     const/16 v17, 0x0
 

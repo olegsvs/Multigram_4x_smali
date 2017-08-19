@@ -8,6 +8,8 @@
 
 .field public static final FLAG_TAG_BOLD:I = 0x2
 
+.field public static mainconfig:Ljava/lang/String;
+
 .field public static final FLAG_TAG_BR:I = 0x1
 
 .field public static final FLAG_TAG_COLOR:I = 0x4
@@ -104,6 +106,29 @@
 
     const/4 v9, 0x0
 
+	new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "mainconfig"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getUserTag()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    sput-object v0, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
     .line 112
     new-instance v8, Ljava/util/Hashtable;
 
@@ -1298,7 +1323,7 @@
     :cond_0
     sget-object v9, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v10, "mainconfig"
+    sget-object v10, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
 
     const/4 v11, 0x0
 
@@ -3925,7 +3950,7 @@
     .local v0, "s":Z
     sget-object v1, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v2, "mainconfig"
+    sget-object v2, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 

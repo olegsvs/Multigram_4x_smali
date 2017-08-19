@@ -699,7 +699,7 @@
     .line 250
     sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v4, "mainconfig"
+    sget-object v4, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
 
     const/4 v5, 0x0
 

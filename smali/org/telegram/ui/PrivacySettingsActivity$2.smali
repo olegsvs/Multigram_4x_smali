@@ -411,7 +411,7 @@
     :goto_1
     sget-object v8, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v9, "mainconfig"
+    sget-object v9, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
 
     const/4 v10, 0x0
 
@@ -502,7 +502,7 @@
 
     move-result-object v8
 
-    const-string/jumbo v9, "mainconfig"
+    sget-object v9, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
 
     const/4 v10, 0x0
 

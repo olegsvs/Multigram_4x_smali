@@ -182,7 +182,7 @@
     .line 308
     sget-object v8, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v9, "mainconfig"
+    sget-object v9, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
 
     invoke-virtual {v8, v9, v10}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 

@@ -14,6 +14,8 @@
 # instance fields
 .field private audioSize:J
 
+.field public static mainconfig:Ljava/lang/String;
+
 .field private cacheInfoRow:I
 
 .field private cacheRow:I
@@ -60,6 +62,30 @@
     .locals 4
 
     .prologue
+	new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "mainconfig"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getUserTag()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    sput-object v0, Lorg/telegram/ui/CacheControlActivity;->mainconfig:Ljava/lang/String;
+	
     const-wide/16 v2, -0x1
 
     .line 59

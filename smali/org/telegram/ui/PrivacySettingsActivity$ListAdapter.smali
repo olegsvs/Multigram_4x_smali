@@ -1361,7 +1361,7 @@
 
     move-result-object v7
 
-    const-string/jumbo v10, "mainconfig"
+    sget-object v10, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
 
     invoke-virtual {v7, v10, v9}, Landroid/app/Activity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 

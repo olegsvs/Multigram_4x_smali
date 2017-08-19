@@ -1778,7 +1778,7 @@
     invoke-interface {v3}, Landroid/content/SharedPreferences$Editor;->apply()V
 
     .line 1109
-    const-string/jumbo v3, "mainconfig"
+    sget-object v3, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -1935,7 +1935,7 @@
 
     if-eqz v3, :cond_8
 
-    const-string/jumbo v3, "mainconfig"
+    sget-object v3, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
 
     const/4 v5, 0x0
 
@@ -1963,7 +1963,7 @@
     .line 1119
     sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v4, "mainconfig"
+    sget-object v4, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
 
     const/4 v5, 0x0
 
@@ -6151,7 +6151,7 @@
     .line 285
     .end local v4    # "outFramesPerBuffer":I
     :goto_0
-    const-string/jumbo v7, "mainconfig"
+    sget-object v7, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
 
     invoke-virtual {p0, v7, v9}, Lorg/telegram/messenger/voip/VoIPService;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 

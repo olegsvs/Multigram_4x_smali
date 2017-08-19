@@ -26,12 +26,37 @@
 
 .field final synthetic val$user:Ljava/lang/String;
 
+.field public static mainconfig:Ljava/lang/String;
+
 
 # direct methods
 .method constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
     .prologue
+	new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "mainconfig"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getUserTag()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    sput-object v0, Lorg/telegram/messenger/AndroidUtilities$6;->mainconfig:Ljava/lang/String;
     .line 1757
     iput-object p1, p0, Lorg/telegram/messenger/AndroidUtilities$6;->val$address:Ljava/lang/String;
 
@@ -59,7 +84,7 @@
     .line 1760
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v3, "mainconfig"
+    sget-object v3, Lorg/telegram/messenger/AndroidUtilities$6;->mainconfig:Ljava/lang/String;
 
     invoke-virtual {v2, v3, v5}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
