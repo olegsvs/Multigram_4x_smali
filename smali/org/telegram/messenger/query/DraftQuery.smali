@@ -57,7 +57,7 @@
     .line 46
     sget-object v9, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v10, "drafts"
+    sget-object v10, Lorg/telegram/messenger/AndroidUtilities;->drafts:Ljava/lang/String;
 
     const/4 v11, 0x0
 

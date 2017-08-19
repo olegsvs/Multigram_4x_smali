@@ -10865,7 +10865,7 @@
     .line 1988
     sget-object v10, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v11, "themeconfig"
+    sget-object v11, Lorg/telegram/messenger/AndroidUtilities;->themeconfig:Ljava/lang/String;
 
     const/4 v12, 0x0
 
@@ -23220,7 +23220,7 @@
     .line 2536
     sget-object v5, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v6, "themeconfig"
+    sget-object v6, Lorg/telegram/messenger/AndroidUtilities;->themeconfig:Ljava/lang/String;
 
     const/4 v7, 0x0
 

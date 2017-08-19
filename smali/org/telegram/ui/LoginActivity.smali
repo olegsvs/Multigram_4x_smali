@@ -279,7 +279,7 @@
     .line 301
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v3, "logininfo2"
+    sget-object v3, Lorg/telegram/messenger/AndroidUtilities;->logininfo2:Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -518,7 +518,7 @@
     .local v1, "bundle":Landroid/os/Bundle;
     sget-object v9, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v10, "logininfo2"
+    sget-object v10, Lorg/telegram/messenger/AndroidUtilities;->logininfo2:Ljava/lang/String;
 
     const/4 v11, 0x0
 
@@ -4860,7 +4860,7 @@
     :cond_1
     sget-object v6, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v7, "logininfo2"
+    sget-object v7, Lorg/telegram/messenger/AndroidUtilities;->logininfo2:Ljava/lang/String;
 
     const/4 v8, 0x0
 
