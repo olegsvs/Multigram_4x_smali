@@ -143,7 +143,7 @@
     .line 71
     sget-object v9, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string/jumbo v12, "dataconfig"
+    sget-object v12, Lorg/telegram/messenger/AndroidUtilities;->dataconfig:Ljava/lang/String;
 
     invoke-virtual {v9, v12, v11}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
@@ -389,9 +389,44 @@
 .end method
 
 .method public static getFilesDirFixed()Ljava/io/File;
-    .locals 6
+    .locals 7
 
     .prologue
+	new-instance v4, Ljava/io/File;
+
+    new-instance v5, Ljava/lang/StringBuilder;
+
+    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget-object v6, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
+
+    invoke-virtual {v6}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+
+    move-result-object v6
+
+    invoke-static {v6}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v5
+
+    invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getUserTag()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-direct {v4, v5}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v4}, Ljava/io/File;->mkdir()Z
     .line 114
     const/4 v0, 0x0
 
@@ -412,13 +447,7 @@
     .local v3, "path":Ljava/io/File;
     if-eqz v3, :cond_0
 
-    .line 129
-    .end local v3    # "path":Ljava/io/File;
-    :goto_1
-    return-object v3
-
     .line 114
-    .restart local v3    # "path":Ljava/io/File;
     :cond_0
     add-int/lit8 v0, v0, 0x1
 
@@ -440,7 +469,27 @@
 
     iget-object v4, v2, Landroid/content/pm/ApplicationInfo;->dataDir:Ljava/lang/String;
 
-    const-string/jumbo v5, "files"
+    new-instance v5, Ljava/lang/StringBuilder;
+
+    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v6, "files"
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v5
+
+    invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getUserTag()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v5
 
     invoke-direct {v3, v4, v5}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -455,6 +504,10 @@
     .line 125
     .end local v2    # "info":Landroid/content/pm/ApplicationInfo;
     .end local v3    # "path":Ljava/io/File;
+	:goto_1
+    return-object v3
+
+    .line 208
     :catch_0
     move-exception v1
 
@@ -485,7 +538,27 @@
 
     move-result-object v4
 
-    const-string/jumbo v5, "/files"
+    new-instance v5, Ljava/lang/StringBuilder;
+
+    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v6, "/files"
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v5
+
+    invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getUserTag()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v5
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -518,7 +591,7 @@
 .end method
 
 .method public static postInitApplication()V
-    .locals 22
+    .locals 23
 
     .prologue
     .line 133
@@ -536,6 +609,7 @@
     .local v14, "enablePushConnection":Z
     .local v15, "app":Lorg/telegram/messenger/ApplicationLoader;
     .local v16, "e":Ljava/lang/Exception;
+	.local v20, "userID":Landroid/content/SharedPreferences;
     .local v21, "preferences":Landroid/content/SharedPreferences;
     :goto_0
     return-void
@@ -550,12 +624,63 @@
     .end local v14    # "enablePushConnection":Z
     .end local v15    # "app":Lorg/telegram/messenger/ApplicationLoader;
     .end local v16    # "e":Ljava/lang/Exception;
+	.end local v20    # "userID":Landroid/content/SharedPreferences;
     .end local v21    # "preferences":Landroid/content/SharedPreferences;
     :cond_0
     const/4 v2, 0x1
 
     sput-boolean v2, Lorg/telegram/messenger/ApplicationLoader;->applicationInited:Z
+	
+    sget-object v1, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
+    const-string/jumbo v2, "userID"
+
+    const/4 v3, 0x0
+
+    invoke-virtual {v1, v2, v3}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+
+    move-result-object v20
+
+    .line 122
+    .restart local v20    # "userID":Landroid/content/SharedPreferences;
+    const-string/jumbo v1, "userID"
+
+    const/4 v2, 0x0
+
+    move-object/from16 v0, v20
+
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
+
+    move-result v1
+
+    invoke-static {v1}, Lorg/telegram/messenger/ChangeUserHelper;->setUserTag(I)V
+
+    .line 123
+    const-string/jumbo v1, "userTAG"
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string/jumbo v3, "postInitApplication: "
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getUserTag()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
     .line 138
     invoke-static {}, Lorg/telegram/messenger/ApplicationLoader;->convertConfig()V
 

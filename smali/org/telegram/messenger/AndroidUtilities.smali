@@ -26,6 +26,8 @@
 
 .field public static drafts:Ljava/lang/String;
 
+.field public static dataconfig:Ljava/lang/String;
+
 .field public static final FLAG_TAG_BR:I = 0x1
 
 .field public static final FLAG_TAG_COLOR:I = 0x4
@@ -337,6 +339,30 @@
     move-result-object v0
 
     sput-object v0, Lorg/telegram/messenger/AndroidUtilities;->userconfig:Ljava/lang/String;
+	
+	new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "dataconfig"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getUserTag()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    sput-object v0, Lorg/telegram/messenger/AndroidUtilities;->dataconfig:Ljava/lang/String;
     .line 112
     new-instance v8, Ljava/util/Hashtable;
 
