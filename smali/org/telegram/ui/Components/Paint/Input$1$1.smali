@@ -52,7 +52,6 @@
 
     iget-wide v2, v1, Lorg/telegram/ui/Components/Paint/Path;->remainder:D
 
-    # setter for: Lorg/telegram/ui/Components/Paint/Input;->lastRemainder:D
     invoke-static {v0, v2, v3}, Lorg/telegram/ui/Components/Paint/Input;->access$002(Lorg/telegram/ui/Components/Paint/Input;D)D
 
     .line 194
@@ -62,7 +61,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/Paint/Input;->clearBuffer:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/Paint/Input;->access$102(Lorg/telegram/ui/Components/Paint/Input;Z)Z
 
     .line 195

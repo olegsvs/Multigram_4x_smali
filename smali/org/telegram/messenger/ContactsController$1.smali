@@ -46,7 +46,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/messenger/ContactsController;->completedRequestsCount:I
     invoke-static {v0, v1}, Lorg/telegram/messenger/ContactsController;->access$002(Lorg/telegram/messenger/ContactsController;I)I
 
     .line 176

@@ -52,7 +52,6 @@
     .line 790
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->checkingForLongPress:Z
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer;->access$2900(Lorg/telegram/ui/ArticleViewer;)Z
 
     move-result v3
@@ -61,7 +60,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->windowView:Lorg/telegram/ui/ArticleViewer$WindowView;
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer;->access$900(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/ArticleViewer$WindowView;
 
     move-result-object v3
@@ -71,13 +69,11 @@
     .line 791
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->checkingForLongPress:Z
     invoke-static {v3, v6}, Lorg/telegram/ui/ArticleViewer;->access$2902(Lorg/telegram/ui/ArticleViewer;Z)Z
 
     .line 792
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->windowView:Lorg/telegram/ui/ArticleViewer$WindowView;
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer;->access$900(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/ArticleViewer$WindowView;
 
     move-result-object v3
@@ -87,7 +83,6 @@
     .line 793
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->pressedLink:Lorg/telegram/ui/Components/TextPaintUrlSpan;
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer;->access$3000(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/Components/TextPaintUrlSpan;
 
     move-result-object v3
@@ -97,7 +92,6 @@
     .line 794
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->pressedLink:Lorg/telegram/ui/Components/TextPaintUrlSpan;
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer;->access$3000(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/Components/TextPaintUrlSpan;
 
     move-result-object v3
@@ -112,7 +106,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->parentActivity:Landroid/app/Activity;
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer;->access$1900(Lorg/telegram/ui/ArticleViewer;)Landroid/app/Activity;
 
     move-result-object v3
@@ -166,25 +159,21 @@
     .line 817
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->hideActionBar()V
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer;->access$3100(Lorg/telegram/ui/ArticleViewer;)V
 
     .line 818
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->pressedLink:Lorg/telegram/ui/Components/TextPaintUrlSpan;
     invoke-static {v3, v8}, Lorg/telegram/ui/ArticleViewer;->access$3002(Lorg/telegram/ui/ArticleViewer;Lorg/telegram/ui/Components/TextPaintUrlSpan;)Lorg/telegram/ui/Components/TextPaintUrlSpan;
 
     .line 819
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->pressedLinkOwnerLayout:Landroid/text/StaticLayout;
     invoke-static {v3, v8}, Lorg/telegram/ui/ArticleViewer;->access$3202(Lorg/telegram/ui/ArticleViewer;Landroid/text/StaticLayout;)Landroid/text/StaticLayout;
 
     .line 820
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->pressedLinkOwnerView:Landroid/view/View;
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer;->access$3300(Lorg/telegram/ui/ArticleViewer;)Landroid/view/View;
 
     move-result-object v3
@@ -202,7 +191,6 @@
     :cond_1
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->pressedLinkOwnerLayout:Landroid/text/StaticLayout;
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer;->access$3200(Lorg/telegram/ui/ArticleViewer;)Landroid/text/StaticLayout;
 
     move-result-object v3
@@ -211,7 +199,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->pressedLinkOwnerView:Landroid/view/View;
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer;->access$3300(Lorg/telegram/ui/ArticleViewer;)Landroid/view/View;
 
     move-result-object v3
@@ -221,7 +208,6 @@
     .line 822
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->pressedLinkOwnerView:Landroid/view/View;
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer;->access$3300(Lorg/telegram/ui/ArticleViewer;)Landroid/view/View;
 
     move-result-object v3
@@ -240,7 +226,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->pressedLayoutY:I
     invoke-static {v4}, Lorg/telegram/ui/ArticleViewer;->access$3400(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v4
@@ -258,7 +243,6 @@
     :cond_2
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->pressedLinkOwnerView:Landroid/view/View;
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer;->access$3300(Lorg/telegram/ui/ArticleViewer;)Landroid/view/View;
 
     move-result-object v3
@@ -268,7 +252,6 @@
     .line 828
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->drawBlockSelection:Z
     invoke-static {v3, v7}, Lorg/telegram/ui/ArticleViewer;->access$3502(Lorg/telegram/ui/ArticleViewer;Z)Z
 
     .line 829
@@ -276,20 +259,17 @@
 
     iget-object v4, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->pressedLinkOwnerView:Landroid/view/View;
     invoke-static {v4}, Lorg/telegram/ui/ArticleViewer;->access$3300(Lorg/telegram/ui/ArticleViewer;)Landroid/view/View;
 
     move-result-object v4
 
     const/16 v5, 0x30
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->showPopup(Landroid/view/View;III)V
     invoke-static {v3, v4, v5, v6, v2}, Lorg/telegram/ui/ArticleViewer;->access$3600(Lorg/telegram/ui/ArticleViewer;Landroid/view/View;III)V
 
     .line 830
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer;->access$3700(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v3
@@ -299,7 +279,6 @@
     .line 831
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$CheckForLongPress;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer;->access$3700(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v3

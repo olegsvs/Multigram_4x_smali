@@ -48,7 +48,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/CacheControlActivity$4;->this$0:Lorg/telegram/ui/CacheControlActivity;
 
-    # getter for: Lorg/telegram/ui/CacheControlActivity;->visibleDialog:Landroid/app/Dialog;
     invoke-static {v1}, Lorg/telegram/ui/CacheControlActivity;->access$1700(Lorg/telegram/ui/CacheControlActivity;)Landroid/app/Dialog;
 
     move-result-object v1
@@ -60,7 +59,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/CacheControlActivity$4;->this$0:Lorg/telegram/ui/CacheControlActivity;
 
-    # getter for: Lorg/telegram/ui/CacheControlActivity;->visibleDialog:Landroid/app/Dialog;
     invoke-static {v1}, Lorg/telegram/ui/CacheControlActivity;->access$1800(Lorg/telegram/ui/CacheControlActivity;)Landroid/app/Dialog;
 
     move-result-object v1
@@ -76,7 +74,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/CacheControlActivity$4;->this$0:Lorg/telegram/ui/CacheControlActivity;
 
-    # invokes: Lorg/telegram/ui/CacheControlActivity;->cleanupFolders()V
     invoke-static {v1}, Lorg/telegram/ui/CacheControlActivity;->access$1900(Lorg/telegram/ui/CacheControlActivity;)V
 
     .line 561

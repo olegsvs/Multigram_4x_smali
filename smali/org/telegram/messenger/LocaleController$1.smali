@@ -60,7 +60,6 @@
 
     iget-object v8, v8, Lorg/telegram/tgnet/TLRPC$TL_langPackDifference;->lang_code:Ljava/lang/String;
 
-    # invokes: Lorg/telegram/messenger/LocaleController;->getLanguageFromDict(Ljava/lang/String;)Lorg/telegram/messenger/LocaleController$LocaleInfo;
     invoke-static {v7, v8}, Lorg/telegram/messenger/LocaleController;->access$100(Lorg/telegram/messenger/LocaleController;Ljava/lang/String;)Lorg/telegram/messenger/LocaleController$LocaleInfo;
 
     move-result-object v4
@@ -80,13 +79,11 @@
     :cond_0
     iget-object v7, p0, Lorg/telegram/messenger/LocaleController$1;->this$0:Lorg/telegram/messenger/LocaleController;
 
-    # invokes: Lorg/telegram/messenger/LocaleController;->saveOtherLanguages()V
     invoke-static {v7}, Lorg/telegram/messenger/LocaleController;->access$200(Lorg/telegram/messenger/LocaleController;)V
 
     .line 1458
     iget-object v7, p0, Lorg/telegram/messenger/LocaleController$1;->this$0:Lorg/telegram/messenger/LocaleController;
 
-    # getter for: Lorg/telegram/messenger/LocaleController;->currentLocaleInfo:Lorg/telegram/messenger/LocaleController$LocaleInfo;
     invoke-static {v7}, Lorg/telegram/messenger/LocaleController;->access$300(Lorg/telegram/messenger/LocaleController;)Lorg/telegram/messenger/LocaleController$LocaleInfo;
 
     move-result-object v7
@@ -95,7 +92,6 @@
 
     iget-object v7, p0, Lorg/telegram/messenger/LocaleController$1;->this$0:Lorg/telegram/messenger/LocaleController;
 
-    # getter for: Lorg/telegram/messenger/LocaleController;->currentLocaleInfo:Lorg/telegram/messenger/LocaleController$LocaleInfo;
     invoke-static {v7}, Lorg/telegram/messenger/LocaleController;->access$300(Lorg/telegram/messenger/LocaleController;)Lorg/telegram/messenger/LocaleController$LocaleInfo;
 
     move-result-object v7
@@ -144,7 +140,6 @@
 
     iget-object v8, v4, Lorg/telegram/messenger/LocaleController$LocaleInfo;->shortName:Ljava/lang/String;
 
-    # setter for: Lorg/telegram/messenger/LocaleController;->languageOverride:Ljava/lang/String;
     invoke-static {v7, v8}, Lorg/telegram/messenger/LocaleController;->access$402(Lorg/telegram/messenger/LocaleController;Ljava/lang/String;)Ljava/lang/String;
 
     .line 1472
@@ -188,19 +183,16 @@
 
     iget-object v8, p0, Lorg/telegram/messenger/LocaleController$1;->val$valuesToSet:Ljava/util/HashMap;
 
-    # setter for: Lorg/telegram/messenger/LocaleController;->localeValues:Ljava/util/HashMap;
     invoke-static {v7, v8}, Lorg/telegram/messenger/LocaleController;->access$502(Lorg/telegram/messenger/LocaleController;Ljava/util/HashMap;)Ljava/util/HashMap;
 
     .line 1479
     iget-object v7, p0, Lorg/telegram/messenger/LocaleController$1;->this$0:Lorg/telegram/messenger/LocaleController;
 
-    # setter for: Lorg/telegram/messenger/LocaleController;->currentLocale:Ljava/util/Locale;
     invoke-static {v7, v5}, Lorg/telegram/messenger/LocaleController;->access$602(Lorg/telegram/messenger/LocaleController;Ljava/util/Locale;)Ljava/util/Locale;
 
     .line 1480
     iget-object v7, p0, Lorg/telegram/messenger/LocaleController$1;->this$0:Lorg/telegram/messenger/LocaleController;
 
-    # setter for: Lorg/telegram/messenger/LocaleController;->currentLocaleInfo:Lorg/telegram/messenger/LocaleController$LocaleInfo;
     invoke-static {v7, v4}, Lorg/telegram/messenger/LocaleController;->access$302(Lorg/telegram/messenger/LocaleController;Lorg/telegram/messenger/LocaleController$LocaleInfo;)Lorg/telegram/messenger/LocaleController$LocaleInfo;
 
     .line 1481
@@ -208,14 +200,12 @@
 
     iget-object v7, p0, Lorg/telegram/messenger/LocaleController$1;->this$0:Lorg/telegram/messenger/LocaleController;
 
-    # getter for: Lorg/telegram/messenger/LocaleController;->allRules:Ljava/util/HashMap;
     invoke-static {v7}, Lorg/telegram/messenger/LocaleController;->access$800(Lorg/telegram/messenger/LocaleController;)Ljava/util/HashMap;
 
     move-result-object v7
 
     iget-object v9, p0, Lorg/telegram/messenger/LocaleController$1;->this$0:Lorg/telegram/messenger/LocaleController;
 
-    # getter for: Lorg/telegram/messenger/LocaleController;->currentLocale:Ljava/util/Locale;
     invoke-static {v9}, Lorg/telegram/messenger/LocaleController;->access$600(Lorg/telegram/messenger/LocaleController;)Ljava/util/Locale;
 
     move-result-object v9
@@ -230,13 +220,11 @@
 
     check-cast v7, Lorg/telegram/messenger/LocaleController$PluralRules;
 
-    # setter for: Lorg/telegram/messenger/LocaleController;->currentPluralRules:Lorg/telegram/messenger/LocaleController$PluralRules;
     invoke-static {v8, v7}, Lorg/telegram/messenger/LocaleController;->access$702(Lorg/telegram/messenger/LocaleController;Lorg/telegram/messenger/LocaleController$PluralRules;)Lorg/telegram/messenger/LocaleController$PluralRules;
 
     .line 1482
     iget-object v7, p0, Lorg/telegram/messenger/LocaleController$1;->this$0:Lorg/telegram/messenger/LocaleController;
 
-    # getter for: Lorg/telegram/messenger/LocaleController;->currentPluralRules:Lorg/telegram/messenger/LocaleController$PluralRules;
     invoke-static {v7}, Lorg/telegram/messenger/LocaleController;->access$700(Lorg/telegram/messenger/LocaleController;)Lorg/telegram/messenger/LocaleController$PluralRules;
 
     move-result-object v7
@@ -248,7 +236,6 @@
 
     iget-object v7, p0, Lorg/telegram/messenger/LocaleController$1;->this$0:Lorg/telegram/messenger/LocaleController;
 
-    # getter for: Lorg/telegram/messenger/LocaleController;->allRules:Ljava/util/HashMap;
     invoke-static {v7}, Lorg/telegram/messenger/LocaleController;->access$800(Lorg/telegram/messenger/LocaleController;)Ljava/util/HashMap;
 
     move-result-object v7
@@ -261,7 +248,6 @@
 
     check-cast v7, Lorg/telegram/messenger/LocaleController$PluralRules;
 
-    # setter for: Lorg/telegram/messenger/LocaleController;->currentPluralRules:Lorg/telegram/messenger/LocaleController$PluralRules;
     invoke-static {v8, v7}, Lorg/telegram/messenger/LocaleController;->access$702(Lorg/telegram/messenger/LocaleController;Lorg/telegram/messenger/LocaleController$PluralRules;)Lorg/telegram/messenger/LocaleController$PluralRules;
 
     .line 1485
@@ -270,13 +256,11 @@
 
     const/4 v8, 0x1
 
-    # setter for: Lorg/telegram/messenger/LocaleController;->changingConfiguration:Z
     invoke-static {v7, v8}, Lorg/telegram/messenger/LocaleController;->access$902(Lorg/telegram/messenger/LocaleController;Z)Z
 
     .line 1486
     iget-object v7, p0, Lorg/telegram/messenger/LocaleController$1;->this$0:Lorg/telegram/messenger/LocaleController;
 
-    # getter for: Lorg/telegram/messenger/LocaleController;->currentLocale:Ljava/util/Locale;
     invoke-static {v7}, Lorg/telegram/messenger/LocaleController;->access$600(Lorg/telegram/messenger/LocaleController;)Ljava/util/Locale;
 
     move-result-object v7
@@ -292,7 +276,6 @@
     .local v1, "config":Landroid/content/res/Configuration;
     iget-object v7, p0, Lorg/telegram/messenger/LocaleController$1;->this$0:Lorg/telegram/messenger/LocaleController;
 
-    # getter for: Lorg/telegram/messenger/LocaleController;->currentLocale:Ljava/util/Locale;
     invoke-static {v7}, Lorg/telegram/messenger/LocaleController;->access$600(Lorg/telegram/messenger/LocaleController;)Ljava/util/Locale;
 
     move-result-object v7
@@ -323,7 +306,6 @@
 
     const/4 v8, 0x0
 
-    # setter for: Lorg/telegram/messenger/LocaleController;->changingConfiguration:Z
     invoke-static {v7, v8}, Lorg/telegram/messenger/LocaleController;->access$902(Lorg/telegram/messenger/LocaleController;Z)Z
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -385,7 +367,6 @@
     .line 1494
     iget-object v7, p0, Lorg/telegram/messenger/LocaleController$1;->this$0:Lorg/telegram/messenger/LocaleController;
 
-    # setter for: Lorg/telegram/messenger/LocaleController;->changingConfiguration:Z
     invoke-static {v7, v10}, Lorg/telegram/messenger/LocaleController;->access$902(Lorg/telegram/messenger/LocaleController;Z)Z
 
     goto :goto_2

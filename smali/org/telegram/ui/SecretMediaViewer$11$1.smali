@@ -46,7 +46,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/SecretMediaViewer$11;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->photoAnimationEndRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/ui/SecretMediaViewer;->access$2300(Lorg/telegram/ui/SecretMediaViewer;)Ljava/lang/Runnable;
 
     move-result-object v0
@@ -58,7 +57,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/SecretMediaViewer$11;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->photoAnimationEndRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/ui/SecretMediaViewer;->access$2300(Lorg/telegram/ui/SecretMediaViewer;)Ljava/lang/Runnable;
 
     move-result-object v0
@@ -72,7 +70,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/SecretMediaViewer;->photoAnimationEndRunnable:Ljava/lang/Runnable;
     invoke-static {v0, v1}, Lorg/telegram/ui/SecretMediaViewer;->access$2302(Lorg/telegram/ui/SecretMediaViewer;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 1254

@@ -46,7 +46,6 @@
     .line 699
     iget-object v2, p0, Lorg/telegram/ui/PlusChatsStatsActivity$7;->this$0:Lorg/telegram/ui/PlusChatsStatsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusChatsStatsActivity;->arrayIds:Ljava/util/List;
     invoke-static {v2}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$2900(Lorg/telegram/ui/PlusChatsStatsActivity;)Ljava/util/List;
 
     move-result-object v2

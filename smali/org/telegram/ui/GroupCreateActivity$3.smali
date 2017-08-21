@@ -47,7 +47,6 @@
     .line 432
     iget-object v1, p0, Lorg/telegram/ui/GroupCreateActivity$3;->this$0:Lorg/telegram/ui/GroupCreateActivity;
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->ignoreScrollEvent:Z
     invoke-static {v1}, Lorg/telegram/ui/GroupCreateActivity;->access$300(Lorg/telegram/ui/GroupCreateActivity;)Z
 
     move-result v1
@@ -57,7 +56,6 @@
     .line 433
     iget-object v1, p0, Lorg/telegram/ui/GroupCreateActivity$3;->this$0:Lorg/telegram/ui/GroupCreateActivity;
 
-    # setter for: Lorg/telegram/ui/GroupCreateActivity;->ignoreScrollEvent:Z
     invoke-static {v1, v0}, Lorg/telegram/ui/GroupCreateActivity;->access$302(Lorg/telegram/ui/GroupCreateActivity;Z)Z
 
     .line 439
@@ -93,7 +91,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/GroupCreateActivity$3;->this$0:Lorg/telegram/ui/GroupCreateActivity;
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->fieldY:I
     invoke-static {v1}, Lorg/telegram/ui/GroupCreateActivity;->access$100(Lorg/telegram/ui/GroupCreateActivity;)I
 
     move-result v1
@@ -115,7 +112,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/GroupCreateActivity$3;->this$0:Lorg/telegram/ui/GroupCreateActivity;
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->fieldY:I
     invoke-static {v1}, Lorg/telegram/ui/GroupCreateActivity;->access$100(Lorg/telegram/ui/GroupCreateActivity;)I
 
     move-result v1

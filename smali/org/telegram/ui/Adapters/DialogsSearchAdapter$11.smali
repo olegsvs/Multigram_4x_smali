@@ -46,7 +46,6 @@
     .line 1013
     iget-object v0, p0, Lorg/telegram/ui/Adapters/DialogsSearchAdapter$11;->this$0:Lorg/telegram/ui/Adapters/DialogsSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->delegate:Lorg/telegram/ui/Adapters/DialogsSearchAdapter$DialogsSearchAdapterDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$200(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;)Lorg/telegram/ui/Adapters/DialogsSearchAdapter$DialogsSearchAdapterDelegate;
 
     move-result-object v0
@@ -56,7 +55,6 @@
     .line 1014
     iget-object v0, p0, Lorg/telegram/ui/Adapters/DialogsSearchAdapter$11;->this$0:Lorg/telegram/ui/Adapters/DialogsSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->delegate:Lorg/telegram/ui/Adapters/DialogsSearchAdapter$DialogsSearchAdapterDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$200(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;)Lorg/telegram/ui/Adapters/DialogsSearchAdapter$DialogsSearchAdapterDelegate;
 
     move-result-object v1

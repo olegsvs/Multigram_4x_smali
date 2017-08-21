@@ -23193,6 +23193,8 @@
     .restart local v8    # "stream":Ljava/io/FileOutputStream;
     goto :goto_2
 
+    nop
+
     .line 2605
     :array_0
     .array-data 1

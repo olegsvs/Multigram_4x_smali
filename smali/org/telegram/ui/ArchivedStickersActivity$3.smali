@@ -44,7 +44,6 @@
     .line 162
     iget-object v0, p0, Lorg/telegram/ui/ArchivedStickersActivity$3;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/ArchivedStickersActivity;->loadingStickers:Z
     invoke-static {v0}, Lorg/telegram/ui/ArchivedStickersActivity;->access$300(Lorg/telegram/ui/ArchivedStickersActivity;)Z
 
     move-result v0
@@ -53,7 +52,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ArchivedStickersActivity$3;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/ArchivedStickersActivity;->endReached:Z
     invoke-static {v0}, Lorg/telegram/ui/ArchivedStickersActivity;->access$400(Lorg/telegram/ui/ArchivedStickersActivity;)Z
 
     move-result v0
@@ -62,7 +60,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ArchivedStickersActivity$3;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/ArchivedStickersActivity;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v0}, Lorg/telegram/ui/ArchivedStickersActivity;->access$500(Lorg/telegram/ui/ArchivedStickersActivity;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v0
@@ -73,7 +70,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ArchivedStickersActivity$3;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/ArchivedStickersActivity;->stickersLoadingRow:I
     invoke-static {v1}, Lorg/telegram/ui/ArchivedStickersActivity;->access$600(Lorg/telegram/ui/ArchivedStickersActivity;)I
 
     move-result v1
@@ -85,7 +81,6 @@
     .line 163
     iget-object v0, p0, Lorg/telegram/ui/ArchivedStickersActivity$3;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # invokes: Lorg/telegram/ui/ArchivedStickersActivity;->getStickers()V
     invoke-static {v0}, Lorg/telegram/ui/ArchivedStickersActivity;->access$700(Lorg/telegram/ui/ArchivedStickersActivity;)V
 
     .line 165

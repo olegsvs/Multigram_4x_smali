@@ -76,7 +76,6 @@
 
     check-cast v1, Lorg/telegram/tgnet/TLRPC$Message;
 
-    # invokes: Lorg/telegram/messenger/query/DraftQuery;->saveDraftReplyMessage(JLorg/telegram/tgnet/TLRPC$Message;)V
     invoke-static {v2, v3, v1}, Lorg/telegram/messenger/query/DraftQuery;->access$100(JLorg/telegram/tgnet/TLRPC$Message;)V
 
     .line 240

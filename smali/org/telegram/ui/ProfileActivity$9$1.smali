@@ -59,7 +59,6 @@
 
     iget v1, v1, Lorg/telegram/tgnet/TLRPC$ChatParticipant;->user_id:I
 
-    # invokes: Lorg/telegram/ui/ProfileActivity;->showUserMsgs(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ProfileActivity;->access$4200(Lorg/telegram/ui/ProfileActivity;I)V
 
     .line 1117
@@ -82,7 +81,6 @@
 
     iget v1, v1, Lorg/telegram/tgnet/TLRPC$ChatParticipant;->user_id:I
 
-    # invokes: Lorg/telegram/ui/ProfileActivity;->showUserMedia(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ProfileActivity;->access$4300(Lorg/telegram/ui/ProfileActivity;I)V
 
     goto :goto_0

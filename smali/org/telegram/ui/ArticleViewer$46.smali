@@ -50,7 +50,6 @@
     .line 7575
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$46;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->disableShowCheck:Z
     invoke-static {v0, v2}, Lorg/telegram/ui/ArticleViewer;->access$14802(Lorg/telegram/ui/ArticleViewer;Z)Z
 
     .line 7576

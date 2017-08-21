@@ -46,12 +46,10 @@
 
     iget-object v0, v0, Lorg/telegram/ui/IntroActivity$1;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # getter for: Lorg/telegram/ui/IntroActivity;->eglThread:Lorg/telegram/ui/IntroActivity$EGLThread;
     invoke-static {v0}, Lorg/telegram/ui/IntroActivity;->access$100(Lorg/telegram/ui/IntroActivity;)Lorg/telegram/ui/IntroActivity$EGLThread;
 
     move-result-object v0
 
-    # getter for: Lorg/telegram/ui/IntroActivity$EGLThread;->drawRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/ui/IntroActivity$EGLThread;->access$200(Lorg/telegram/ui/IntroActivity$EGLThread;)Ljava/lang/Runnable;
 
     move-result-object v0

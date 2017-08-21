@@ -45,13 +45,11 @@
     .line 137
     iget-object v0, p0, Lorg/telegram/ui/Components/ColorSelectorDialog$4;->this$0:Lorg/telegram/ui/Components/ColorSelectorDialog;
 
-    # invokes: Lorg/telegram/ui/Components/ColorSelectorDialog;->colorChangedInternal(I)V
     invoke-static {v0, p1}, Lorg/telegram/ui/Components/ColorSelectorDialog;->access$300(Lorg/telegram/ui/Components/ColorSelectorDialog;I)V
 
     .line 138
     iget-object v0, p0, Lorg/telegram/ui/Components/ColorSelectorDialog$4;->this$0:Lorg/telegram/ui/Components/ColorSelectorDialog;
 
-    # getter for: Lorg/telegram/ui/Components/ColorSelectorDialog;->content:Lorg/telegram/ui/Components/ColorSelectorView;
     invoke-static {v0}, Lorg/telegram/ui/Components/ColorSelectorDialog;->access$400(Lorg/telegram/ui/Components/ColorSelectorDialog;)Lorg/telegram/ui/Components/ColorSelectorView;
 
     move-result-object v0

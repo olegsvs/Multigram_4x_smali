@@ -567,7 +567,6 @@
     .local v1, "intent":Landroid/content/Intent;
     const-string/jumbo v3, "pakeageName"
 
-    # getter for: Lorg/telegram/messenger/NotificationBadge;->componentName:Landroid/content/ComponentName;
     invoke-static {}, Lorg/telegram/messenger/NotificationBadge;->access$000()Landroid/content/ComponentName;
 
     move-result-object v4
@@ -589,7 +588,6 @@
     invoke-virtual {v1, v3, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 275
-    # invokes: Lorg/telegram/messenger/NotificationBadge;->canResolveBroadcast(Landroid/content/Intent;)Z
     invoke-static {v1}, Lorg/telegram/messenger/NotificationBadge;->access$100(Landroid/content/Intent;)Z
 
     move-result v3

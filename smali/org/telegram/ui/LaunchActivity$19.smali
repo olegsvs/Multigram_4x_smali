@@ -46,7 +46,6 @@
     .line 2469
     iget-object v0, p0, Lorg/telegram/ui/LaunchActivity$19;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->mToast:Landroid/widget/Toast;
     invoke-static {v0}, Lorg/telegram/ui/LaunchActivity;->access$2200(Lorg/telegram/ui/LaunchActivity;)Landroid/widget/Toast;
 
     move-result-object v0
@@ -59,7 +58,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/LaunchActivity$19;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->time:J
     invoke-static {v2}, Lorg/telegram/ui/LaunchActivity;->access$2300(Lorg/telegram/ui/LaunchActivity;)J
 
     move-result-wide v2
@@ -73,7 +71,6 @@
     .line 2471
     iget-object v0, p0, Lorg/telegram/ui/LaunchActivity$19;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->mToast:Landroid/widget/Toast;
     invoke-static {v0}, Lorg/telegram/ui/LaunchActivity;->access$2200(Lorg/telegram/ui/LaunchActivity;)Landroid/widget/Toast;
 
     move-result-object v0
@@ -83,7 +80,6 @@
     .line 2473
     iget-object v0, p0, Lorg/telegram/ui/LaunchActivity$19;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->stat:I
     invoke-static {v0}, Lorg/telegram/ui/LaunchActivity;->access$2400(Lorg/telegram/ui/LaunchActivity;)I
 
     move-result v0
@@ -96,7 +92,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/LaunchActivity;->msg:Ljava/lang/String;
     invoke-static {v0, v1}, Lorg/telegram/ui/LaunchActivity;->access$2502(Lorg/telegram/ui/LaunchActivity;Ljava/lang/String;)Ljava/lang/String;
 
     .line 2474

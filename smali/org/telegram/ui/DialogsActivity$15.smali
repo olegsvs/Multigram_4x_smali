@@ -64,7 +64,6 @@
     .local v11, "plusPreferences":Landroid/content/SharedPreferences;
     iget-object v1, p0, Lorg/telegram/ui/DialogsActivity$15;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # setter for: Lorg/telegram/ui/DialogsActivity;->updateTabCounters:Z
     invoke-static {v1, v7}, Lorg/telegram/ui/DialogsActivity;->access$3002(Lorg/telegram/ui/DialogsActivity;Z)Z
 
     .line 1510
@@ -75,7 +74,6 @@
     .line 1511
     iget-object v1, p0, Lorg/telegram/ui/DialogsActivity$15;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # invokes: Lorg/telegram/ui/DialogsActivity;->getDialogsArray()Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/DialogsActivity;->access$2700(Lorg/telegram/ui/DialogsActivity;)Ljava/util/ArrayList;
 
     move-result-object v10
@@ -177,7 +175,6 @@
 
     iget-wide v2, v9, Lorg/telegram/tgnet/TLRPC$TL_dialog;->id:J
 
-    # invokes: Lorg/telegram/ui/DialogsActivity;->resetUnread(Landroid/content/SharedPreferences;J)V
     invoke-static {v1, v11, v2, v3}, Lorg/telegram/ui/DialogsActivity;->access$4900(Lorg/telegram/ui/DialogsActivity;Landroid/content/SharedPreferences;J)V
 
     goto :goto_1
@@ -195,7 +192,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/DialogsActivity$15;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->selectedDialog:J
     invoke-static {v2}, Lorg/telegram/ui/DialogsActivity;->access$2800(Lorg/telegram/ui/DialogsActivity;)J
 
     move-result-wide v2
@@ -279,7 +275,6 @@
 
     iget-wide v2, v9, Lorg/telegram/tgnet/TLRPC$TL_dialog;->id:J
 
-    # invokes: Lorg/telegram/ui/DialogsActivity;->resetUnread(Landroid/content/SharedPreferences;J)V
     invoke-static {v1, v11, v2, v3}, Lorg/telegram/ui/DialogsActivity;->access$4900(Lorg/telegram/ui/DialogsActivity;Landroid/content/SharedPreferences;J)V
 
     goto :goto_2

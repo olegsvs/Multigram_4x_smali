@@ -47,7 +47,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->searching:Z
     invoke-static {v0}, Lorg/telegram/ui/DialogsActivity;->access$100(Lorg/telegram/ui/DialogsActivity;)Z
 
     move-result v0
@@ -56,7 +55,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->searchWas:Z
     invoke-static {v0}, Lorg/telegram/ui/DialogsActivity;->access$1000(Lorg/telegram/ui/DialogsActivity;)Z
 
     move-result v0
@@ -91,7 +89,6 @@
     .line 1124
     iget-object v10, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v10}, Lorg/telegram/ui/DialogsActivity;->access$4000(Lorg/telegram/ui/DialogsActivity;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v10
@@ -104,7 +101,6 @@
     .local v3, "firstVisibleItem":I
     iget-object v10, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v10}, Lorg/telegram/ui/DialogsActivity;->access$4000(Lorg/telegram/ui/DialogsActivity;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v10
@@ -135,7 +131,6 @@
     .local v8, "totalItemCount":I
     iget-object v10, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->searching:Z
     invoke-static {v10}, Lorg/telegram/ui/DialogsActivity;->access$100(Lorg/telegram/ui/DialogsActivity;)Z
 
     move-result v10
@@ -144,7 +139,6 @@
 
     iget-object v10, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->searchWas:Z
     invoke-static {v10}, Lorg/telegram/ui/DialogsActivity;->access$1000(Lorg/telegram/ui/DialogsActivity;)Z
 
     move-result v10
@@ -156,7 +150,6 @@
 
     iget-object v10, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v10}, Lorg/telegram/ui/DialogsActivity;->access$4000(Lorg/telegram/ui/DialogsActivity;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v10
@@ -171,7 +164,6 @@
 
     iget-object v10, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->dialogsSearchAdapter:Lorg/telegram/ui/Adapters/DialogsSearchAdapter;
     invoke-static {v10}, Lorg/telegram/ui/DialogsActivity;->access$1400(Lorg/telegram/ui/DialogsActivity;)Lorg/telegram/ui/Adapters/DialogsSearchAdapter;
 
     move-result-object v10
@@ -185,7 +177,6 @@
     .line 1130
     iget-object v10, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->dialogsSearchAdapter:Lorg/telegram/ui/Adapters/DialogsSearchAdapter;
     invoke-static {v10}, Lorg/telegram/ui/DialogsActivity;->access$1400(Lorg/telegram/ui/DialogsActivity;)Lorg/telegram/ui/Adapters/DialogsSearchAdapter;
 
     move-result-object v10
@@ -204,7 +195,6 @@
     .line 1136
     iget-object v10, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v10}, Lorg/telegram/ui/DialogsActivity;->access$4000(Lorg/telegram/ui/DialogsActivity;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v10
@@ -215,7 +205,6 @@
 
     iget-object v11, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # invokes: Lorg/telegram/ui/DialogsActivity;->getDialogsArray()Ljava/util/ArrayList;
     invoke-static {v11}, Lorg/telegram/ui/DialogsActivity;->access$2700(Lorg/telegram/ui/DialogsActivity;)Ljava/util/ArrayList;
 
     move-result-object v11
@@ -269,7 +258,6 @@
     :cond_3
     iget-object v10, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->floatingButton:Landroid/widget/ImageView;
     invoke-static {v10}, Lorg/telegram/ui/DialogsActivity;->access$800(Lorg/telegram/ui/DialogsActivity;)Landroid/widget/ImageView;
 
     move-result-object v10
@@ -312,7 +300,6 @@
     .local v1, "changed":Z
     iget-object v10, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->prevPosition:I
     invoke-static {v10}, Lorg/telegram/ui/DialogsActivity;->access$4100(Lorg/telegram/ui/DialogsActivity;)I
 
     move-result v10
@@ -322,7 +309,6 @@
     .line 1165
     iget-object v10, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->prevTop:I
     invoke-static {v10}, Lorg/telegram/ui/DialogsActivity;->access$4200(Lorg/telegram/ui/DialogsActivity;)I
 
     move-result v10
@@ -333,7 +319,6 @@
     .local v7, "topDelta":I
     iget-object v10, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->prevTop:I
     invoke-static {v10}, Lorg/telegram/ui/DialogsActivity;->access$4200(Lorg/telegram/ui/DialogsActivity;)I
 
     move-result v10
@@ -362,7 +347,6 @@
 
     iget-object v10, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->scrollUpdated:Z
     invoke-static {v10}, Lorg/telegram/ui/DialogsActivity;->access$4300(Lorg/telegram/ui/DialogsActivity;)Z
 
     move-result v10
@@ -386,20 +370,17 @@
     :cond_6
     iget-object v10, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # invokes: Lorg/telegram/ui/DialogsActivity;->hideFloatingButton(Z)V
     invoke-static {v10, v5}, Lorg/telegram/ui/DialogsActivity;->access$1200(Lorg/telegram/ui/DialogsActivity;Z)V
 
     .line 1174
     :cond_7
     iget-object v10, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # setter for: Lorg/telegram/ui/DialogsActivity;->prevPosition:I
     invoke-static {v10, v3}, Lorg/telegram/ui/DialogsActivity;->access$4102(Lorg/telegram/ui/DialogsActivity;I)I
 
     .line 1175
     iget-object v10, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # setter for: Lorg/telegram/ui/DialogsActivity;->prevTop:I
     invoke-static {v10, v2}, Lorg/telegram/ui/DialogsActivity;->access$4202(Lorg/telegram/ui/DialogsActivity;I)I
 
     .line 1176
@@ -407,7 +388,6 @@
 
     const/4 v11, 0x1
 
-    # setter for: Lorg/telegram/ui/DialogsActivity;->scrollUpdated:Z
     invoke-static {v10, v11}, Lorg/telegram/ui/DialogsActivity;->access$4302(Lorg/telegram/ui/DialogsActivity;Z)Z
 
     .line 1179
@@ -454,7 +434,6 @@
 
     const/4 v11, 0x1
 
-    # invokes: Lorg/telegram/ui/DialogsActivity;->hideTabsAnimated(Z)V
     invoke-static {v10, v11}, Lorg/telegram/ui/DialogsActivity;->access$4400(Lorg/telegram/ui/DialogsActivity;Z)V
 
     .line 1192
@@ -476,7 +455,6 @@
 
     const/4 v11, 0x0
 
-    # invokes: Lorg/telegram/ui/DialogsActivity;->hideTabsAnimated(Z)V
     invoke-static {v10, v11}, Lorg/telegram/ui/DialogsActivity;->access$4400(Lorg/telegram/ui/DialogsActivity;Z)V
 
     .line 1196
@@ -485,7 +463,6 @@
     .line 1197
     iget-object v10, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v10}, Lorg/telegram/ui/DialogsActivity;->access$200(Lorg/telegram/ui/DialogsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v12
@@ -547,7 +524,6 @@
     :cond_d
     iget-object v10, p0, Lorg/telegram/ui/DialogsActivity$11;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->prevPosition:I
     invoke-static {v10}, Lorg/telegram/ui/DialogsActivity;->access$4100(Lorg/telegram/ui/DialogsActivity;)I
 
     move-result v10
@@ -575,7 +551,6 @@
 
     const/4 v11, 0x1
 
-    # invokes: Lorg/telegram/ui/DialogsActivity;->hideFloatingButton(Z)V
     invoke-static {v10, v11}, Lorg/telegram/ui/DialogsActivity;->access$1200(Lorg/telegram/ui/DialogsActivity;Z)V
 
     goto :goto_4
@@ -603,7 +578,6 @@
 
     const/4 v11, 0x0
 
-    # invokes: Lorg/telegram/ui/DialogsActivity;->hideFloatingButton(Z)V
     invoke-static {v10, v11}, Lorg/telegram/ui/DialogsActivity;->access$1200(Lorg/telegram/ui/DialogsActivity;Z)V
 
     goto/16 :goto_0

@@ -45,7 +45,6 @@
     .line 485
     iget-object v0, p0, Lorg/telegram/ui/ChannelEditInfoActivity$8;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->isPrivate:Z
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$700(Lorg/telegram/ui/ChannelEditInfoActivity;)Z
 
     move-result v0
@@ -62,13 +61,11 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->isPrivate:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$702(Lorg/telegram/ui/ChannelEditInfoActivity;Z)Z
 
     .line 489
     iget-object v0, p0, Lorg/telegram/ui/ChannelEditInfoActivity$8;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelEditInfoActivity;->updatePrivatePublic()V
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2100(Lorg/telegram/ui/ChannelEditInfoActivity;)V
 
     goto :goto_0

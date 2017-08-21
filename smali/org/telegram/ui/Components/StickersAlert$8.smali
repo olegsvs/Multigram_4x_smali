@@ -44,7 +44,6 @@
     .line 365
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$8;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # invokes: Lorg/telegram/ui/Components/StickersAlert;->updateLayout()V
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$2000(Lorg/telegram/ui/Components/StickersAlert;)V
 
     .line 366

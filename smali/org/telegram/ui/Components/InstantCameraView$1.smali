@@ -44,7 +44,6 @@
     .line 137
     iget-object v0, p0, Lorg/telegram/ui/Components/InstantCameraView$1;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->recording:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/InstantCameraView;->access$000(Lorg/telegram/ui/Components/InstantCameraView;)Z
 
     move-result v0
@@ -77,14 +76,12 @@
 
     iget-object v5, p0, Lorg/telegram/ui/Components/InstantCameraView$1;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->recordStartTime:J
     invoke-static {v5}, Lorg/telegram/ui/Components/InstantCameraView;->access$200(Lorg/telegram/ui/Components/InstantCameraView;)J
 
     move-result-wide v8
 
     sub-long/2addr v6, v8
 
-    # setter for: Lorg/telegram/ui/Components/InstantCameraView;->duration:J
     invoke-static {v4, v6, v7}, Lorg/telegram/ui/Components/InstantCameraView;->access$102(Lorg/telegram/ui/Components/InstantCameraView;J)J
 
     move-result-wide v4
@@ -110,7 +107,6 @@
     .line 141
     iget-object v0, p0, Lorg/telegram/ui/Components/InstantCameraView$1;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->timerRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/ui/Components/InstantCameraView;->access$300(Lorg/telegram/ui/Components/InstantCameraView;)Ljava/lang/Runnable;
 
     move-result-object v0

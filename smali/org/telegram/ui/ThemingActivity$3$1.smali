@@ -49,7 +49,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ThemingActivity$3;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # invokes: Lorg/telegram/ui/ThemingActivity;->commitInt(I)V
     invoke-static {v0, p1}, Lorg/telegram/ui/ThemingActivity;->access$300(Lorg/telegram/ui/ThemingActivity;I)V
 
     .line 211

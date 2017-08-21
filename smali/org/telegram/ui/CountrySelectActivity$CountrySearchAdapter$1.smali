@@ -46,7 +46,6 @@
     :try_start_0
     iget-object v1, p0, Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter$1;->this$1:Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;
 
-    # getter for: Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;->searchTimer:Ljava/util/Timer;
     invoke-static {v1}, Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;->access$800(Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;)Ljava/util/Timer;
 
     move-result-object v1
@@ -58,7 +57,6 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;->searchTimer:Ljava/util/Timer;
     invoke-static {v1, v2}, Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;->access$802(Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;Ljava/util/Timer;)Ljava/util/Timer;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -69,7 +67,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter$1;->val$query:Ljava/lang/String;
 
-    # invokes: Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;->processSearch(Ljava/lang/String;)V
     invoke-static {v1, v2}, Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;->access$900(Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;Ljava/lang/String;)V
 
     .line 387

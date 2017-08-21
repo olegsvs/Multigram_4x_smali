@@ -51,7 +51,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/SettingsActivity$9;->this$0:Lorg/telegram/ui/SettingsActivity;
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->avatarUpdater:Lorg/telegram/ui/Components/AvatarUpdater;
     invoke-static {v0}, Lorg/telegram/ui/SettingsActivity;->access$3800(Lorg/telegram/ui/SettingsActivity;)Lorg/telegram/ui/Components/AvatarUpdater;
 
     move-result-object v0
@@ -74,7 +73,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/SettingsActivity$9;->this$0:Lorg/telegram/ui/SettingsActivity;
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->avatarUpdater:Lorg/telegram/ui/Components/AvatarUpdater;
     invoke-static {v0}, Lorg/telegram/ui/SettingsActivity;->access$3800(Lorg/telegram/ui/SettingsActivity;)Lorg/telegram/ui/Components/AvatarUpdater;
 
     move-result-object v0

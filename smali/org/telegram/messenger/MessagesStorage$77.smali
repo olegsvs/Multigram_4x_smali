@@ -62,7 +62,6 @@
 
     iget-object v3, p0, Lorg/telegram/messenger/MessagesStorage$77;->val$encryptedMessages:Ljava/util/HashMap;
 
-    # invokes: Lorg/telegram/messenger/MessagesStorage;->markMessagesAsReadInternal(Landroid/util/SparseArray;Landroid/util/SparseArray;Ljava/util/HashMap;)V
     invoke-static {v0, v1, v2, v3}, Lorg/telegram/messenger/MessagesStorage;->access$1700(Lorg/telegram/messenger/MessagesStorage;Landroid/util/SparseArray;Landroid/util/SparseArray;Ljava/util/HashMap;)V
 
     .line 5170

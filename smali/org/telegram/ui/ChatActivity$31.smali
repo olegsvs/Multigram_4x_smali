@@ -49,7 +49,6 @@
     .line 2522
     iget-object v2, p0, Lorg/telegram/ui/ChatActivity$31;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionListViewIsScrolling:Z
     invoke-static {v2}, Lorg/telegram/ui/ChatActivity;->access$10500(Lorg/telegram/ui/ChatActivity;)Z
 
     move-result v2
@@ -58,7 +57,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ChatActivity$31;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionListViewScrollOffsetY:I
     invoke-static {v2}, Lorg/telegram/ui/ChatActivity;->access$10400(Lorg/telegram/ui/ChatActivity;)I
 
     move-result v2
@@ -71,7 +69,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ChatActivity$31;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionListViewScrollOffsetY:I
     invoke-static {v3}, Lorg/telegram/ui/ChatActivity;->access$10400(Lorg/telegram/ui/ChatActivity;)I
 
     move-result v3
@@ -95,7 +92,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ChatActivity$31;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionListView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v3}, Lorg/telegram/ui/ChatActivity;->access$500(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v3
@@ -152,7 +148,6 @@
     .local v8, "newTop":I
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$31;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionListView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$500(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v0
@@ -161,7 +156,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$31;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionListViewLastViewPosition:I
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$10600(Lorg/telegram/ui/ChatActivity;)I
 
     move-result v0
@@ -181,7 +175,6 @@
     .line 2554
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$31;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionListViewLastViewPosition:I
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$10600(Lorg/telegram/ui/ChatActivity;)I
 
     move-result v7
@@ -189,7 +182,6 @@
     .line 2555
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$31;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionListViewLastViewTop:I
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$10700(Lorg/telegram/ui/ChatActivity;)I
 
     move-result v0
@@ -220,13 +212,11 @@
 
     const/4 v2, 0x1
 
-    # setter for: Lorg/telegram/ui/ChatActivity;->mentionListViewIgnoreLayout:Z
     invoke-static {v0, v2}, Lorg/telegram/ui/ChatActivity;->access$6602(Lorg/telegram/ui/ChatActivity;Z)Z
 
     .line 2562
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$31;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionsAdapter:Lorg/telegram/ui/Adapters/MentionsAdapter;
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$6500(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/Adapters/MentionsAdapter;
 
     move-result-object v0
@@ -239,7 +229,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$31;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionsAdapter:Lorg/telegram/ui/Adapters/MentionsAdapter;
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$6500(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/Adapters/MentionsAdapter;
 
     move-result-object v0
@@ -253,7 +242,6 @@
     .line 2563
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$31;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionGridLayoutManager:Lorg/telegram/ui/Components/ExtendedGridLayoutManager;
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$6700(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/Components/ExtendedGridLayoutManager;
 
     move-result-object v0
@@ -277,7 +265,6 @@
     .line 2568
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$31;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # setter for: Lorg/telegram/ui/ChatActivity;->mentionListViewIgnoreLayout:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/ChatActivity;->access$6602(Lorg/telegram/ui/ChatActivity;Z)Z
 
     .line 2571
@@ -290,7 +277,6 @@
     .line 2573
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$31;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # invokes: Lorg/telegram/ui/ChatActivity;->mentionListViewUpdateLayout()V
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$10900(Lorg/telegram/ui/ChatActivity;)V
 
     .line 2574
@@ -300,7 +286,6 @@
     :cond_2
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$31;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionLayoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$10800(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v0
@@ -318,7 +303,6 @@
     .line 2531
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$31;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionListViewIsScrolling:Z
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$10500(Lorg/telegram/ui/ChatActivity;)Z
 
     move-result v0
@@ -327,7 +311,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$31;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionListViewScrollOffsetY:I
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$10400(Lorg/telegram/ui/ChatActivity;)I
 
     move-result v0
@@ -340,7 +323,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ChatActivity$31;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionListViewScrollOffsetY:I
     invoke-static {v1}, Lorg/telegram/ui/ChatActivity;->access$10400(Lorg/telegram/ui/ChatActivity;)I
 
     move-result v1
@@ -373,7 +355,6 @@
     .line 2540
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$31;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionListViewIgnoreLayout:Z
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$6600(Lorg/telegram/ui/ChatActivity;)Z
 
     move-result v0

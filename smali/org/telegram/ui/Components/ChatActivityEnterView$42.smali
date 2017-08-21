@@ -46,7 +46,6 @@
     .line 3263
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->stickersTabOpen:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$600(Lorg/telegram/ui/Components/ChatActivityEnterView;)Z
 
     move-result v0
@@ -55,7 +54,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->stickersExpanded:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$800(Lorg/telegram/ui/Components/ChatActivityEnterView;)Z
 
     move-result v0
@@ -64,7 +62,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->messageEditText:Lorg/telegram/ui/Components/EditTextCaption;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$100(Lorg/telegram/ui/Components/ChatActivityEnterView;)Lorg/telegram/ui/Components/EditTextCaption;
 
     move-result-object v0
@@ -78,7 +75,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->emojiView:Lorg/telegram/ui/Components/EmojiView;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$500(Lorg/telegram/ui/Components/ChatActivityEnterView;)Lorg/telegram/ui/Components/EmojiView;
 
     move-result-object v0
@@ -132,7 +128,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->keyboardHeightLand:I
     invoke-static {v1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$9600(Lorg/telegram/ui/Components/ChatActivityEnterView;)I
 
     move-result v0
@@ -153,7 +148,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->stickersExpandedHeight:I
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$9300(Lorg/telegram/ui/Components/ChatActivityEnterView;)I
 
     move-result v2
@@ -169,7 +163,6 @@
     .line 3256
     iget-object v1, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->emojiView:Lorg/telegram/ui/Components/EmojiView;
     invoke-static {v1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$500(Lorg/telegram/ui/Components/ChatActivityEnterView;)Lorg/telegram/ui/Components/EmojiView;
 
     move-result-object v1
@@ -192,7 +185,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->stickersExpandedHeight:I
     invoke-static {v3}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$9300(Lorg/telegram/ui/Components/ChatActivityEnterView;)I
 
     move-result v3
@@ -205,13 +197,11 @@
 
     div-float/2addr v2, v3
 
-    # setter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->stickersExpansionProgress:F
     invoke-static {v1, v2}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$9502(Lorg/telegram/ui/Components/ChatActivityEnterView;F)F
 
     .line 3259
     iget-object v1, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->sizeNotifierLayout:Lorg/telegram/ui/Components/SizeNotifierFrameLayout;
     invoke-static {v1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$9400(Lorg/telegram/ui/Components/ChatActivityEnterView;)Lorg/telegram/ui/Components/SizeNotifierFrameLayout;
 
     move-result-object v1
@@ -225,7 +215,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->keyboardHeight:I
     invoke-static {v1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$9700(Lorg/telegram/ui/Components/ChatActivityEnterView;)I
 
     move-result v0
@@ -240,7 +229,6 @@
     .line 3241
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->stickersTabOpen:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$600(Lorg/telegram/ui/Components/ChatActivityEnterView;)Z
 
     move-result v0
@@ -257,7 +245,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->stickersDragging:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$7102(Lorg/telegram/ui/Components/ChatActivityEnterView;Z)Z
 
     .line 3245
@@ -267,7 +254,6 @@
 
     const/4 v2, 0x1
 
-    # invokes: Lorg/telegram/ui/Components/ChatActivityEnterView;->setStickersExpanded(ZZ)V
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$900(Lorg/telegram/ui/Components/ChatActivityEnterView;ZZ)V
 
     goto :goto_0
@@ -297,7 +283,6 @@
     :cond_0
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # setter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->stickersDragging:Z
     invoke-static {v2, v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$7102(Lorg/telegram/ui/Components/ChatActivityEnterView;Z)Z
 
     .line 3232
@@ -341,7 +326,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->stickersExpansionProgress:F
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$9500(Lorg/telegram/ui/Components/ChatActivityEnterView;)F
 
     move-result v2
@@ -359,7 +343,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->stickersExpansionProgress:F
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$9500(Lorg/telegram/ui/Components/ChatActivityEnterView;)F
 
     move-result v2
@@ -381,7 +364,6 @@
     move v0, v1
 
     :cond_5
-    # invokes: Lorg/telegram/ui/Components/ChatActivityEnterView;->setStickersExpanded(ZZ)V
     invoke-static {v2, v0, v1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$900(Lorg/telegram/ui/Components/ChatActivityEnterView;ZZ)V
 
     goto :goto_0
@@ -392,7 +374,6 @@
 
     iget-boolean v2, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->wasExpanded:Z
 
-    # invokes: Lorg/telegram/ui/Components/ChatActivityEnterView;->setStickersExpanded(ZZ)V
     invoke-static {v0, v2, v1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$900(Lorg/telegram/ui/Components/ChatActivityEnterView;ZZ)V
 
     goto :goto_0
@@ -419,7 +400,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->stickersExpansionAnim:Landroid/animation/Animator;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$9200(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/animation/Animator;
 
     move-result-object v0
@@ -429,7 +409,6 @@
     .line 3215
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->stickersExpansionAnim:Landroid/animation/Animator;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$9200(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/animation/Animator;
 
     move-result-object v0
@@ -440,13 +419,11 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # setter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->stickersDragging:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$7102(Lorg/telegram/ui/Components/ChatActivityEnterView;Z)Z
 
     .line 3217
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->stickersExpanded:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$800(Lorg/telegram/ui/Components/ChatActivityEnterView;)Z
 
     move-result v0
@@ -456,7 +433,6 @@
     .line 3218
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # setter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->stickersExpanded:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$802(Lorg/telegram/ui/Components/ChatActivityEnterView;Z)Z
 
     .line 3219
@@ -464,7 +440,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->sizeNotifierLayout:Lorg/telegram/ui/Components/SizeNotifierFrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$9400(Lorg/telegram/ui/Components/ChatActivityEnterView;)Lorg/telegram/ui/Components/SizeNotifierFrameLayout;
 
     move-result-object v0
@@ -506,13 +481,11 @@
 
     add-int/2addr v0, v2
 
-    # setter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->stickersExpandedHeight:I
     invoke-static {v1, v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$9302(Lorg/telegram/ui/Components/ChatActivityEnterView;I)I
 
     .line 3220
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->emojiView:Lorg/telegram/ui/Components/EmojiView;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$500(Lorg/telegram/ui/Components/ChatActivityEnterView;)Lorg/telegram/ui/Components/EmojiView;
 
     move-result-object v0
@@ -523,7 +496,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->stickersExpandedHeight:I
     invoke-static {v1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$9300(Lorg/telegram/ui/Components/ChatActivityEnterView;)I
 
     move-result v1
@@ -533,7 +505,6 @@
     .line 3221
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->emojiView:Lorg/telegram/ui/Components/EmojiView;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$500(Lorg/telegram/ui/Components/ChatActivityEnterView;)Lorg/telegram/ui/Components/EmojiView;
 
     move-result-object v0
@@ -547,7 +518,6 @@
     .line 3222
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->sizeNotifierLayout:Lorg/telegram/ui/Components/SizeNotifierFrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$9400(Lorg/telegram/ui/Components/ChatActivityEnterView;)Lorg/telegram/ui/Components/SizeNotifierFrameLayout;
 
     move-result-object v0
@@ -557,7 +527,6 @@
     .line 3223
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$42;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->sizeNotifierLayout:Lorg/telegram/ui/Components/SizeNotifierFrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$9400(Lorg/telegram/ui/Components/ChatActivityEnterView;)Lorg/telegram/ui/Components/SizeNotifierFrameLayout;
 
     move-result-object v0

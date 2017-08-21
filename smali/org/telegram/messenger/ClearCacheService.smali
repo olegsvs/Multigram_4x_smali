@@ -5,28 +5,28 @@
 
 # static fields
 .field public static mainconfig:Ljava/lang/String;
-	
-	
+
+
 # direct methods
 .method public constructor <init>()V
     .locals 1
 
     .prologue
-	new-instance v0, Ljava/lang/StringBuilder;
+    new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v1, "mainconfig"
+    const-string p0, "mainconfig"
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
     invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getUserTag()Ljava/lang/String;
 
-    move-result-object v1
+    move-result-object p0
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
@@ -35,6 +35,7 @@
     move-result-object v0
 
     sput-object v0, Lorg/telegram/messenger/ClearCacheService;->mainconfig:Ljava/lang/String;
+
     .line 25
     const-string/jumbo v0, "ClearCacheService"
 

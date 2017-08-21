@@ -69,7 +69,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/LoginActivity$LoginActivityRecoverView$3;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivityRecoverView;
 
-    # setter for: Lorg/telegram/ui/LoginActivity$LoginActivityRecoverView;->nextPressed:Z
     invoke-static {v4, v9}, Lorg/telegram/ui/LoginActivity$LoginActivityRecoverView;->access$6702(Lorg/telegram/ui/LoginActivity$LoginActivityRecoverView;Z)Z
 
     .line 2600
@@ -176,7 +175,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/LoginActivity$LoginActivityRecoverView;->this$0:Lorg/telegram/ui/LoginActivity;
 
-    # invokes: Lorg/telegram/ui/LoginActivity;->needFinishActivity()V
     invoke-static {v4}, Lorg/telegram/ui/LoginActivity;->access$4900(Lorg/telegram/ui/LoginActivity;)V
 
     .line 2632
@@ -204,7 +202,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/LoginActivity$LoginActivityRecoverView$3;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivityRecoverView;
 
-    # invokes: Lorg/telegram/ui/LoginActivity$LoginActivityRecoverView;->onPasscodeError(Z)V
     invoke-static {v4, v8}, Lorg/telegram/ui/LoginActivity$LoginActivityRecoverView;->access$6800(Lorg/telegram/ui/LoginActivity$LoginActivityRecoverView;Z)V
 
     goto :goto_0
@@ -276,7 +273,6 @@
 
     move-result-object v6
 
-    # invokes: Lorg/telegram/ui/LoginActivity;->needShowAlert(Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {v4, v5, v6}, Lorg/telegram/ui/LoginActivity;->access$300(Lorg/telegram/ui/LoginActivity;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
@@ -315,7 +311,6 @@
 
     iget-object v6, v6, Lorg/telegram/tgnet/TLRPC$TL_error;->text:Ljava/lang/String;
 
-    # invokes: Lorg/telegram/ui/LoginActivity;->needShowAlert(Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {v4, v5, v6}, Lorg/telegram/ui/LoginActivity;->access$300(Lorg/telegram/ui/LoginActivity;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0

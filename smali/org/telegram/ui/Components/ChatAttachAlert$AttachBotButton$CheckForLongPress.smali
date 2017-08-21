@@ -52,7 +52,6 @@
     .line 240
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$CheckForLongPress;->this$1:Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->checkingForLongPress:Z
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->access$200(Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;)Z
 
     move-result v2
@@ -71,7 +70,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$CheckForLongPress;->this$1:Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->pressCount:I
     invoke-static {v3}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->access$100(Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;)I
 
     move-result v3
@@ -81,7 +79,6 @@
     .line 241
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$CheckForLongPress;->this$1:Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;
 
-    # setter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->checkingForLongPress:Z
     invoke-static {v2, v7}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->access$202(Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;Z)Z
 
     .line 242
@@ -92,7 +89,6 @@
     .line 243
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$CheckForLongPress;->this$1:Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;
 
-    # invokes: Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->onLongPress()V
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->access$300(Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;)V
 
     .line 244

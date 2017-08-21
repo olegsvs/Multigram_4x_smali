@@ -76,7 +76,6 @@
     .local v0, "in":Landroid/view/inputmethod/InputMethodManager;
     iget-object v1, p0, Lorg/telegram/ui/Components/HexSelectorView$4;->this$0:Lorg/telegram/ui/Components/HexSelectorView;
 
-    # getter for: Lorg/telegram/ui/Components/HexSelectorView;->edit:Landroid/widget/EditText;
     invoke-static {v1}, Lorg/telegram/ui/Components/HexSelectorView;->access$100(Lorg/telegram/ui/Components/HexSelectorView;)Landroid/widget/EditText;
 
     move-result-object v1

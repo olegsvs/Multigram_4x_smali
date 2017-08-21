@@ -53,7 +53,6 @@
     .line 239
     iget-object v1, p0, Lorg/telegram/ui/WallpapersActivity$4;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->updater:Lorg/telegram/ui/Components/WallpaperUpdater;
     invoke-static {v1}, Lorg/telegram/ui/WallpapersActivity;->access$600(Lorg/telegram/ui/WallpapersActivity;)Lorg/telegram/ui/Components/WallpaperUpdater;
 
     move-result-object v1
@@ -88,19 +87,16 @@
 
     const/4 v2, -0x2
 
-    # setter for: Lorg/telegram/ui/WallpapersActivity;->selectedBackground:I
     invoke-static {v1, v2}, Lorg/telegram/ui/WallpapersActivity;->access$002(Lorg/telegram/ui/WallpapersActivity;I)I
 
     .line 244
     iget-object v1, p0, Lorg/telegram/ui/WallpapersActivity$4;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # setter for: Lorg/telegram/ui/WallpapersActivity;->overrideThemeWallpaper:Z
     invoke-static {v1, v3}, Lorg/telegram/ui/WallpapersActivity;->access$102(Lorg/telegram/ui/WallpapersActivity;Z)Z
 
     .line 245
     iget-object v1, p0, Lorg/telegram/ui/WallpapersActivity$4;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->listAdapter:Lorg/telegram/ui/WallpapersActivity$ListAdapter;
     invoke-static {v1}, Lorg/telegram/ui/WallpapersActivity;->access$700(Lorg/telegram/ui/WallpapersActivity;)Lorg/telegram/ui/WallpapersActivity$ListAdapter;
 
     move-result-object v1
@@ -110,7 +106,6 @@
     .line 246
     iget-object v1, p0, Lorg/telegram/ui/WallpapersActivity$4;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # invokes: Lorg/telegram/ui/WallpapersActivity;->processSelectedBackground()V
     invoke-static {v1}, Lorg/telegram/ui/WallpapersActivity;->access$800(Lorg/telegram/ui/WallpapersActivity;)V
 
     goto :goto_1
@@ -123,7 +118,6 @@
     :goto_2
     iget-object v1, p0, Lorg/telegram/ui/WallpapersActivity$4;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->wallPapers:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/WallpapersActivity;->access$900(Lorg/telegram/ui/WallpapersActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -140,19 +134,16 @@
 
     iget v2, v0, Lorg/telegram/tgnet/TLRPC$WallPaper;->id:I
 
-    # setter for: Lorg/telegram/ui/WallpapersActivity;->selectedBackground:I
     invoke-static {v1, v2}, Lorg/telegram/ui/WallpapersActivity;->access$002(Lorg/telegram/ui/WallpapersActivity;I)I
 
     .line 256
     iget-object v1, p0, Lorg/telegram/ui/WallpapersActivity$4;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # setter for: Lorg/telegram/ui/WallpapersActivity;->overrideThemeWallpaper:Z
     invoke-static {v1, v4}, Lorg/telegram/ui/WallpapersActivity;->access$102(Lorg/telegram/ui/WallpapersActivity;Z)Z
 
     .line 257
     iget-object v1, p0, Lorg/telegram/ui/WallpapersActivity$4;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->listAdapter:Lorg/telegram/ui/WallpapersActivity$ListAdapter;
     invoke-static {v1}, Lorg/telegram/ui/WallpapersActivity;->access$700(Lorg/telegram/ui/WallpapersActivity;)Lorg/telegram/ui/WallpapersActivity$ListAdapter;
 
     move-result-object v1
@@ -162,7 +153,6 @@
     .line 258
     iget-object v1, p0, Lorg/telegram/ui/WallpapersActivity$4;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # invokes: Lorg/telegram/ui/WallpapersActivity;->processSelectedBackground()V
     invoke-static {v1}, Lorg/telegram/ui/WallpapersActivity;->access$800(Lorg/telegram/ui/WallpapersActivity;)V
 
     goto :goto_0

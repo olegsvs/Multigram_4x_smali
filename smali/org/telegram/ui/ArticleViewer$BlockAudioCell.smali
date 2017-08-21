@@ -527,7 +527,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$BlockAudioCell;->textLayout:Landroid/text/StaticLayout;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->drawLayoutLink(Landroid/graphics/Canvas;Landroid/text/StaticLayout;)V
     invoke-static {v0, p1, v1}, Lorg/telegram/ui/ArticleViewer;->access$9300(Lorg/telegram/ui/ArticleViewer;Landroid/graphics/Canvas;Landroid/text/StaticLayout;)V
 
     .line 4222
@@ -584,7 +583,6 @@
 
     int-to-float v4, v0
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->quoteLinePaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$9400()Landroid/graphics/Paint;
 
     move-result-object v5
@@ -794,7 +792,6 @@
 
     iget-object v7, v0, Lorg/telegram/ui/ArticleViewer$BlockAudioCell;->currentBlock:Lorg/telegram/tgnet/TLRPC$TL_pageBlockAudio;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->createLayoutForText(Ljava/lang/CharSequence;Lorg/telegram/tgnet/TLRPC$RichText;ILorg/telegram/tgnet/TLRPC$PageBlock;)Landroid/text/StaticLayout;
     invoke-static {v2, v4, v6, v15, v7}, Lorg/telegram/ui/ArticleViewer;->access$9200(Lorg/telegram/ui/ArticleViewer;Ljava/lang/CharSequence;Lorg/telegram/tgnet/TLRPC$RichText;ILorg/telegram/tgnet/TLRPC$PageBlock;)Landroid/text/StaticLayout;
 
     move-result-object v2
@@ -1013,7 +1010,6 @@
     .local v3, "stringFinal":Ljava/lang/CharSequence;
     new-instance v2, Landroid/text/StaticLayout;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->audioTimePaint:Landroid/text/TextPaint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$9700()Landroid/text/TextPaint;
 
     move-result-object v4
@@ -1419,7 +1415,6 @@
 
     move-object v2, p0
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->checkLayoutForLinks(Landroid/view/MotionEvent;Landroid/view/View;Landroid/text/StaticLayout;II)Z
     invoke-static/range {v0 .. v5}, Lorg/telegram/ui/ArticleViewer;->access$9100(Lorg/telegram/ui/ArticleViewer;Landroid/view/MotionEvent;Landroid/view/View;Landroid/text/StaticLayout;II)Z
 
     move-result v0
@@ -1517,7 +1512,6 @@
 
     iget-wide v2, v2, Lorg/telegram/tgnet/TLRPC$TL_pageBlockAudio;->audio_id:J
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->getDocumentWithId(J)Lorg/telegram/tgnet/TLRPC$Document;
     invoke-static {v1, v2, v3}, Lorg/telegram/ui/ArticleViewer;->access$8900(Lorg/telegram/ui/ArticleViewer;J)Lorg/telegram/tgnet/TLRPC$Document;
 
     move-result-object v1
@@ -1631,7 +1625,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ArticleViewer$BlockAudioCell;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->getTextColor()I
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$9600(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v2
@@ -1643,7 +1636,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ArticleViewer$BlockAudioCell;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->getTextColor()I
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$9600(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v2
@@ -1654,14 +1646,12 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$BlockAudioCell;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->getTextColor()I
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer;->access$9600(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v3
 
     iget-object v4, p0, Lorg/telegram/ui/ArticleViewer$BlockAudioCell;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->getTextColor()I
     invoke-static {v4}, Lorg/telegram/ui/ArticleViewer;->access$9600(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v4
@@ -2001,7 +1991,6 @@
     iput-object v1, p0, Lorg/telegram/ui/ArticleViewer$BlockAudioCell;->lastTimeString:Ljava/lang/String;
 
     .line 4259
-    # getter for: Lorg/telegram/ui/ArticleViewer;->audioTimePaint:Landroid/text/TextPaint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$9700()Landroid/text/TextPaint;
 
     move-result-object v0
@@ -2017,7 +2006,6 @@
     invoke-virtual {v0, v2}, Landroid/text/TextPaint;->setTextSize(F)V
 
     .line 4260
-    # getter for: Lorg/telegram/ui/ArticleViewer;->audioTimePaint:Landroid/text/TextPaint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$9700()Landroid/text/TextPaint;
 
     move-result-object v0
@@ -2038,7 +2026,6 @@
     .local v3, "timeWidth":I
     new-instance v0, Landroid/text/StaticLayout;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->audioTimePaint:Landroid/text/TextPaint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$9700()Landroid/text/TextPaint;
 
     move-result-object v2
@@ -2056,14 +2043,12 @@
     .line 4263
     .end local v3    # "timeWidth":I
     :cond_5
-    # getter for: Lorg/telegram/ui/ArticleViewer;->audioTimePaint:Landroid/text/TextPaint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$9700()Landroid/text/TextPaint;
 
     move-result-object v0
 
     iget-object v2, p0, Lorg/telegram/ui/ArticleViewer$BlockAudioCell;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->getTextColor()I
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$9600(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v2

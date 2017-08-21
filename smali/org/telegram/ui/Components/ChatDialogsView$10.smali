@@ -44,7 +44,6 @@
     .line 416
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatDialogsView$10;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatDialogsView;->access$600(Lorg/telegram/ui/Components/ChatDialogsView;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v0
@@ -55,7 +54,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/ChatDialogsView$10;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->membersAdapter:Lorg/telegram/messenger/support/widget/RecyclerView$Adapter;
     invoke-static {v1}, Lorg/telegram/ui/Components/ChatDialogsView;->access$1400(Lorg/telegram/ui/Components/ChatDialogsView;)Lorg/telegram/messenger/support/widget/RecyclerView$Adapter;
 
     move-result-object v1
@@ -64,7 +62,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatDialogsView$10;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->membersMap:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatDialogsView;->access$000(Lorg/telegram/ui/Components/ChatDialogsView;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -73,7 +70,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatDialogsView$10;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatDialogsView;->access$1500(Lorg/telegram/ui/Components/ChatDialogsView;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v0
@@ -84,7 +80,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/ChatDialogsView$10;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->loadMoreMembersRow:I
     invoke-static {v1}, Lorg/telegram/ui/Components/ChatDialogsView;->access$500(Lorg/telegram/ui/Components/ChatDialogsView;)I
 
     move-result v1
@@ -98,7 +93,6 @@
 
     const/4 v1, 0x0
 
-    # invokes: Lorg/telegram/ui/Components/ChatDialogsView;->getChannelParticipants(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/ChatDialogsView;->access$1600(Lorg/telegram/ui/Components/ChatDialogsView;Z)V
 
     .line 419

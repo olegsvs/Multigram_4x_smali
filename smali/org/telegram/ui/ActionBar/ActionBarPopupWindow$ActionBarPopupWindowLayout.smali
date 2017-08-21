@@ -82,7 +82,6 @@
     iput v7, p0, Lorg/telegram/ui/ActionBar/ActionBarPopupWindow$ActionBarPopupWindowLayout;->lastStartedChild:I
 
     .line 80
-    # getter for: Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;->allowAnimation:Z
     invoke-static {}, Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;->access$000()Z
 
     move-result v1
@@ -352,7 +351,6 @@
     invoke-virtual {v0, v2, v3}, Landroid/animation/AnimatorSet;->setDuration(J)Landroid/animation/AnimatorSet;
 
     .line 187
-    # getter for: Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;->decelerateInterpolator:Landroid/view/animation/DecelerateInterpolator;
     invoke-static {}, Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;->access$100()Landroid/view/animation/DecelerateInterpolator;
 
     move-result-object v1

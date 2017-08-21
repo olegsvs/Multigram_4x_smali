@@ -44,7 +44,6 @@
     .line 1954
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$11;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->linearSensor:Landroid/hardware/Sensor;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$4600(Lorg/telegram/messenger/MediaController;)Landroid/hardware/Sensor;
 
     move-result-object v0
@@ -54,7 +53,6 @@
     .line 1955
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$11;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->sensorManager:Landroid/hardware/SensorManager;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$4500(Lorg/telegram/messenger/MediaController;)Landroid/hardware/SensorManager;
 
     move-result-object v0
@@ -63,7 +61,6 @@
 
     iget-object v2, p0, Lorg/telegram/messenger/MediaController$11;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->linearSensor:Landroid/hardware/Sensor;
     invoke-static {v2}, Lorg/telegram/messenger/MediaController;->access$4600(Lorg/telegram/messenger/MediaController;)Landroid/hardware/Sensor;
 
     move-result-object v2
@@ -74,7 +71,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$11;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->gravitySensor:Landroid/hardware/Sensor;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$4400(Lorg/telegram/messenger/MediaController;)Landroid/hardware/Sensor;
 
     move-result-object v0
@@ -84,7 +80,6 @@
     .line 1958
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$11;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->sensorManager:Landroid/hardware/SensorManager;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$4500(Lorg/telegram/messenger/MediaController;)Landroid/hardware/SensorManager;
 
     move-result-object v0
@@ -93,7 +88,6 @@
 
     iget-object v2, p0, Lorg/telegram/messenger/MediaController$11;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->gravitySensor:Landroid/hardware/Sensor;
     invoke-static {v2}, Lorg/telegram/messenger/MediaController;->access$4400(Lorg/telegram/messenger/MediaController;)Landroid/hardware/Sensor;
 
     move-result-object v2
@@ -104,7 +98,6 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$11;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->accelerometerSensor:Landroid/hardware/Sensor;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$4700(Lorg/telegram/messenger/MediaController;)Landroid/hardware/Sensor;
 
     move-result-object v0
@@ -114,7 +107,6 @@
     .line 1961
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$11;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->sensorManager:Landroid/hardware/SensorManager;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$4500(Lorg/telegram/messenger/MediaController;)Landroid/hardware/SensorManager;
 
     move-result-object v0
@@ -123,7 +115,6 @@
 
     iget-object v2, p0, Lorg/telegram/messenger/MediaController$11;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->accelerometerSensor:Landroid/hardware/Sensor;
     invoke-static {v2}, Lorg/telegram/messenger/MediaController;->access$4700(Lorg/telegram/messenger/MediaController;)Landroid/hardware/Sensor;
 
     move-result-object v2
@@ -134,7 +125,6 @@
     :cond_2
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$11;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->sensorManager:Landroid/hardware/SensorManager;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$4500(Lorg/telegram/messenger/MediaController;)Landroid/hardware/SensorManager;
 
     move-result-object v0
@@ -143,7 +133,6 @@
 
     iget-object v2, p0, Lorg/telegram/messenger/MediaController$11;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->proximitySensor:Landroid/hardware/Sensor;
     invoke-static {v2}, Lorg/telegram/messenger/MediaController;->access$4800(Lorg/telegram/messenger/MediaController;)Landroid/hardware/Sensor;
 
     move-result-object v2

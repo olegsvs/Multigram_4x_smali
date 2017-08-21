@@ -45,7 +45,6 @@
     .line 552
     iget-object v0, p0, Lorg/telegram/ui/MediaActivity$3;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->dropDownContainer:Lorg/telegram/ui/ActionBar/ActionBarMenuItem;
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity;->access$1500(Lorg/telegram/ui/MediaActivity;)Lorg/telegram/ui/ActionBar/ActionBarMenuItem;
 
     move-result-object v0

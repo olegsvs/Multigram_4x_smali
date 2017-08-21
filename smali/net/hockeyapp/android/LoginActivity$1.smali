@@ -45,7 +45,6 @@
     .line 150
     iget-object v0, p0, Lnet/hockeyapp/android/LoginActivity$1;->this$0:Lnet/hockeyapp/android/LoginActivity;
 
-    # invokes: Lnet/hockeyapp/android/LoginActivity;->performAuthentication()V
     invoke-static {v0}, Lnet/hockeyapp/android/LoginActivity;->access$000(Lnet/hockeyapp/android/LoginActivity;)V
 
     .line 151

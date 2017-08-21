@@ -54,7 +54,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ChannelCreateActivity$12;->val$file:Lorg/telegram/tgnet/TLRPC$InputFile;
 
-    # setter for: Lorg/telegram/ui/ChannelCreateActivity;->uploadedAvatar:Lorg/telegram/tgnet/TLRPC$InputFile;
     invoke-static {v1, v2}, Lorg/telegram/ui/ChannelCreateActivity;->access$1402(Lorg/telegram/ui/ChannelCreateActivity;Lorg/telegram/tgnet/TLRPC$InputFile;)Lorg/telegram/tgnet/TLRPC$InputFile;
 
     .line 662
@@ -64,20 +63,17 @@
 
     iget-object v2, v2, Lorg/telegram/tgnet/TLRPC$PhotoSize;->location:Lorg/telegram/tgnet/TLRPC$FileLocation;
 
-    # setter for: Lorg/telegram/ui/ChannelCreateActivity;->avatar:Lorg/telegram/tgnet/TLRPC$FileLocation;
     invoke-static {v1, v2}, Lorg/telegram/ui/ChannelCreateActivity;->access$1302(Lorg/telegram/ui/ChannelCreateActivity;Lorg/telegram/tgnet/TLRPC$FileLocation;)Lorg/telegram/tgnet/TLRPC$FileLocation;
 
     .line 663
     iget-object v1, p0, Lorg/telegram/ui/ChannelCreateActivity$12;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->avatarImage:Lorg/telegram/ui/Components/BackupImageView;
     invoke-static {v1}, Lorg/telegram/ui/ChannelCreateActivity;->access$1600(Lorg/telegram/ui/ChannelCreateActivity;)Lorg/telegram/ui/Components/BackupImageView;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/ui/ChannelCreateActivity$12;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->avatar:Lorg/telegram/tgnet/TLRPC$FileLocation;
     invoke-static {v2}, Lorg/telegram/ui/ChannelCreateActivity;->access$1300(Lorg/telegram/ui/ChannelCreateActivity;)Lorg/telegram/tgnet/TLRPC$FileLocation;
 
     move-result-object v2
@@ -86,7 +82,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/ChannelCreateActivity$12;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->avatarDrawable:Lorg/telegram/ui/Components/AvatarDrawable;
     invoke-static {v4}, Lorg/telegram/ui/ChannelCreateActivity;->access$1500(Lorg/telegram/ui/ChannelCreateActivity;)Lorg/telegram/ui/Components/AvatarDrawable;
 
     move-result-object v4
@@ -96,7 +91,6 @@
     .line 664
     iget-object v1, p0, Lorg/telegram/ui/ChannelCreateActivity$12;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->createAfterUpload:Z
     invoke-static {v1}, Lorg/telegram/ui/ChannelCreateActivity;->access$500(Lorg/telegram/ui/ChannelCreateActivity;)Z
 
     move-result v1
@@ -107,7 +101,6 @@
     :try_start_0
     iget-object v1, p0, Lorg/telegram/ui/ChannelCreateActivity$12;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->progressDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v1}, Lorg/telegram/ui/ChannelCreateActivity;->access$600(Lorg/telegram/ui/ChannelCreateActivity;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     move-result-object v1
@@ -116,7 +109,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ChannelCreateActivity$12;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->progressDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v1}, Lorg/telegram/ui/ChannelCreateActivity;->access$600(Lorg/telegram/ui/ChannelCreateActivity;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     move-result-object v1
@@ -130,7 +122,6 @@
     .line 667
     iget-object v1, p0, Lorg/telegram/ui/ChannelCreateActivity$12;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->progressDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v1}, Lorg/telegram/ui/ChannelCreateActivity;->access$600(Lorg/telegram/ui/ChannelCreateActivity;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     move-result-object v1
@@ -142,7 +133,6 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/ui/ChannelCreateActivity;->progressDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v1, v2}, Lorg/telegram/ui/ChannelCreateActivity;->access$602(Lorg/telegram/ui/ChannelCreateActivity;Lorg/telegram/ui/ActionBar/AlertDialog;)Lorg/telegram/ui/ActionBar/AlertDialog;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -152,7 +142,6 @@
     :goto_0
     iget-object v1, p0, Lorg/telegram/ui/ChannelCreateActivity$12;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->doneButton:Landroid/view/View;
     invoke-static {v1}, Lorg/telegram/ui/ChannelCreateActivity;->access$1700(Lorg/telegram/ui/ChannelCreateActivity;)Landroid/view/View;
 
     move-result-object v1

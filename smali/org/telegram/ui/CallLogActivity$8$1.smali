@@ -83,7 +83,6 @@
 
     move-result v14
 
-    # setter for: Lorg/telegram/ui/CallLogActivity;->endReached:Z
     invoke-static {v10, v14}, Lorg/telegram/ui/CallLogActivity;->access$602(Lorg/telegram/ui/CallLogActivity;Z)Z
 
     .line 391
@@ -126,7 +125,6 @@
 
     iget-object v10, v10, Lorg/telegram/ui/CallLogActivity$8;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v10}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v10
@@ -141,7 +139,6 @@
 
     iget-object v10, v10, Lorg/telegram/ui/CallLogActivity$8;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v10}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v10
@@ -150,7 +147,6 @@
 
     iget-object v14, v14, Lorg/telegram/ui/CallLogActivity$8;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v14}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v14
@@ -286,7 +282,6 @@
 
     iget-object v10, v10, Lorg/telegram/ui/CallLogActivity$8;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v10}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v10
@@ -302,7 +297,6 @@
 
     iget-object v10, v10, Lorg/telegram/ui/CallLogActivity$8;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v10}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v10
@@ -387,7 +381,6 @@
 
     iget-object v10, v10, Lorg/telegram/ui/CallLogActivity$8;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v10}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v10
@@ -403,7 +396,6 @@
 
     iget-object v10, v10, Lorg/telegram/ui/CallLogActivity$8;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v10}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v10
@@ -421,7 +413,6 @@
 
     iget-object v10, v10, Lorg/telegram/ui/CallLogActivity$8;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # setter for: Lorg/telegram/ui/CallLogActivity;->loading:Z
     invoke-static {v10, v12}, Lorg/telegram/ui/CallLogActivity;->access$702(Lorg/telegram/ui/CallLogActivity;Z)Z
 
     .line 426
@@ -429,7 +420,6 @@
 
     iget-object v10, v10, Lorg/telegram/ui/CallLogActivity$8;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # setter for: Lorg/telegram/ui/CallLogActivity;->firstLoaded:Z
     invoke-static {v10, v13}, Lorg/telegram/ui/CallLogActivity;->access$1402(Lorg/telegram/ui/CallLogActivity;Z)Z
 
     .line 427
@@ -437,7 +427,6 @@
 
     iget-object v10, v10, Lorg/telegram/ui/CallLogActivity$8;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->emptyView:Lorg/telegram/ui/Components/EmptyTextProgressView;
     invoke-static {v10}, Lorg/telegram/ui/CallLogActivity;->access$1500(Lorg/telegram/ui/CallLogActivity;)Lorg/telegram/ui/Components/EmptyTextProgressView;
 
     move-result-object v10
@@ -449,7 +438,6 @@
 
     iget-object v10, v10, Lorg/telegram/ui/CallLogActivity$8;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->emptyView:Lorg/telegram/ui/Components/EmptyTextProgressView;
     invoke-static {v10}, Lorg/telegram/ui/CallLogActivity;->access$1500(Lorg/telegram/ui/CallLogActivity;)Lorg/telegram/ui/Components/EmptyTextProgressView;
 
     move-result-object v10
@@ -462,7 +450,6 @@
 
     iget-object v10, v10, Lorg/telegram/ui/CallLogActivity$8;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->listViewAdapter:Lorg/telegram/ui/CallLogActivity$ListAdapter;
     invoke-static {v10}, Lorg/telegram/ui/CallLogActivity;->access$500(Lorg/telegram/ui/CallLogActivity;)Lorg/telegram/ui/CallLogActivity$ListAdapter;
 
     move-result-object v10
@@ -474,7 +461,6 @@
 
     iget-object v10, v10, Lorg/telegram/ui/CallLogActivity$8;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->listViewAdapter:Lorg/telegram/ui/CallLogActivity$ListAdapter;
     invoke-static {v10}, Lorg/telegram/ui/CallLogActivity;->access$500(Lorg/telegram/ui/CallLogActivity;)Lorg/telegram/ui/CallLogActivity$ListAdapter;
 
     move-result-object v10
@@ -491,7 +477,6 @@
 
     iget-object v10, v10, Lorg/telegram/ui/CallLogActivity$8;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # setter for: Lorg/telegram/ui/CallLogActivity;->endReached:Z
     invoke-static {v10, v13}, Lorg/telegram/ui/CallLogActivity;->access$602(Lorg/telegram/ui/CallLogActivity;Z)Z
 
     goto :goto_6

@@ -44,7 +44,6 @@
     .line 629
     iget-object v0, p0, Lorg/telegram/ui/ThemingProfileActivity$5;->this$0:Lorg/telegram/ui/ThemingProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingProfileActivity;->fragmentView:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/ThemingProfileActivity;->access$2400(Lorg/telegram/ui/ThemingProfileActivity;)Landroid/view/View;
 
     move-result-object v0
@@ -54,7 +53,6 @@
     .line 631
     iget-object v0, p0, Lorg/telegram/ui/ThemingProfileActivity$5;->this$0:Lorg/telegram/ui/ThemingProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingProfileActivity;->fragmentView:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/ThemingProfileActivity;->access$2500(Lorg/telegram/ui/ThemingProfileActivity;)Landroid/view/View;
 
     move-result-object v0

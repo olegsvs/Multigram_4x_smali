@@ -123,7 +123,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->chat_id:I
     invoke-static {v2}, Lorg/telegram/ui/ChatActivity;->access$2200(Lorg/telegram/ui/ChatActivity;)I
 
     move-result v2

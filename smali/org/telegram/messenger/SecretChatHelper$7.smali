@@ -503,7 +503,6 @@
 
     iget-object v10, v0, Lorg/telegram/messenger/SecretChatHelper$7;->val$encryptedChat:Lorg/telegram/tgnet/TLRPC$EncryptedChat;
 
-    # invokes: Lorg/telegram/messenger/SecretChatHelper;->createDeleteMessage(IIIJLorg/telegram/tgnet/TLRPC$EncryptedChat;)Lorg/telegram/tgnet/TLRPC$Message;
     invoke-static/range {v4 .. v10}, Lorg/telegram/messenger/SecretChatHelper;->access$200(Lorg/telegram/messenger/SecretChatHelper;IIIJLorg/telegram/tgnet/TLRPC$EncryptedChat;)Lorg/telegram/tgnet/TLRPC$Message;
 
     move-result-object v26
@@ -584,7 +583,6 @@
 
     move-object/from16 v16, v0
 
-    # invokes: Lorg/telegram/messenger/SecretChatHelper;->createDeleteMessage(IIIJLorg/telegram/tgnet/TLRPC$EncryptedChat;)Lorg/telegram/tgnet/TLRPC$Message;
     invoke-static/range {v10 .. v16}, Lorg/telegram/messenger/SecretChatHelper;->access$200(Lorg/telegram/messenger/SecretChatHelper;IIIJLorg/telegram/tgnet/TLRPC$EncryptedChat;)Lorg/telegram/tgnet/TLRPC$Message;
 
     move-result-object v4

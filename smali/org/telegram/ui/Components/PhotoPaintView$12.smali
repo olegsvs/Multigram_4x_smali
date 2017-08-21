@@ -51,7 +51,6 @@
     .line 504
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$12;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->dimView:Landroid/widget/FrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$1200(Lorg/telegram/ui/Components/PhotoPaintView;)Landroid/widget/FrameLayout;
 
     move-result-object v0

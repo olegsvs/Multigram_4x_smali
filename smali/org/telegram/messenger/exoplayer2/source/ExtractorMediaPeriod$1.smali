@@ -44,7 +44,6 @@
     .line 127
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod$1;->this$0:Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;->maybeFinishPrepare()V
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;->access$000(Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;)V
 
     .line 128

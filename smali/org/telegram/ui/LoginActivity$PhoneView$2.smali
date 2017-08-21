@@ -49,7 +49,6 @@
     .line 680
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->ignoreOnTextChange:Z
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$600(Lorg/telegram/ui/LoginActivity$PhoneView;)Z
 
     move-result v8
@@ -66,13 +65,11 @@
 
     const/4 v9, 0x1
 
-    # setter for: Lorg/telegram/ui/LoginActivity$PhoneView;->ignoreOnTextChange:Z
     invoke-static {v8, v9}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$602(Lorg/telegram/ui/LoginActivity$PhoneView;Z)Z
 
     .line 684
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->codeField:Landroid/widget/EditText;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$700(Lorg/telegram/ui/LoginActivity$PhoneView;)Landroid/widget/EditText;
 
     move-result-object v8
@@ -93,7 +90,6 @@
     .local v6, "text":Ljava/lang/String;
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->codeField:Landroid/widget/EditText;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$700(Lorg/telegram/ui/LoginActivity$PhoneView;)Landroid/widget/EditText;
 
     move-result-object v8
@@ -110,7 +106,6 @@
     .line 687
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->countryButton:Landroid/widget/TextView;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$800(Lorg/telegram/ui/LoginActivity$PhoneView;)Landroid/widget/TextView;
 
     move-result-object v8
@@ -128,7 +123,6 @@
     .line 688
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$500(Lorg/telegram/ui/LoginActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v8
@@ -142,7 +136,6 @@
 
     const/4 v9, 0x1
 
-    # setter for: Lorg/telegram/ui/LoginActivity$PhoneView;->countryState:I
     invoke-static {v8, v9}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$902(Lorg/telegram/ui/LoginActivity$PhoneView;I)I
 
     .line 738
@@ -152,7 +145,6 @@
 
     const/4 v9, 0x0
 
-    # setter for: Lorg/telegram/ui/LoginActivity$PhoneView;->ignoreOnTextChange:Z
     invoke-static {v8, v9}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$602(Lorg/telegram/ui/LoginActivity$PhoneView;Z)Z
 
     goto :goto_0
@@ -195,7 +187,6 @@
     .local v5, "sub":Ljava/lang/String;
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->codesMap:Ljava/util/HashMap;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$1000(Lorg/telegram/ui/LoginActivity$PhoneView;)Ljava/util/HashMap;
 
     move-result-object v8
@@ -232,7 +223,6 @@
 
     iget-object v9, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v9}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$500(Lorg/telegram/ui/LoginActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v9
@@ -256,7 +246,6 @@
     .line 701
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->codeField:Landroid/widget/EditText;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$700(Lorg/telegram/ui/LoginActivity$PhoneView;)Landroid/widget/EditText;
 
     move-result-object v8
@@ -292,7 +281,6 @@
 
     iget-object v9, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v9}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$500(Lorg/telegram/ui/LoginActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v9
@@ -316,7 +304,6 @@
     .line 707
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->codeField:Landroid/widget/EditText;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$700(Lorg/telegram/ui/LoginActivity$PhoneView;)Landroid/widget/EditText;
 
     move-result-object v8
@@ -336,7 +323,6 @@
     :cond_4
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->codesMap:Ljava/util/HashMap;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$1000(Lorg/telegram/ui/LoginActivity$PhoneView;)Ljava/util/HashMap;
 
     move-result-object v8
@@ -354,7 +340,6 @@
     .line 712
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->countriesArray:Ljava/util/ArrayList;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$1100(Lorg/telegram/ui/LoginActivity$PhoneView;)Ljava/util/ArrayList;
 
     move-result-object v8
@@ -374,20 +359,17 @@
 
     const/4 v9, 0x1
 
-    # setter for: Lorg/telegram/ui/LoginActivity$PhoneView;->ignoreSelection:Z
     invoke-static {v8, v9}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$1202(Lorg/telegram/ui/LoginActivity$PhoneView;Z)Z
 
     .line 715
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->countryButton:Landroid/widget/TextView;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$800(Lorg/telegram/ui/LoginActivity$PhoneView;)Landroid/widget/TextView;
 
     move-result-object v9
 
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->countriesArray:Ljava/util/ArrayList;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$1100(Lorg/telegram/ui/LoginActivity$PhoneView;)Ljava/util/ArrayList;
 
     move-result-object v8
@@ -403,7 +385,6 @@
     .line 716
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->phoneFormatMap:Ljava/util/HashMap;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$1300(Lorg/telegram/ui/LoginActivity$PhoneView;)Ljava/util/HashMap;
 
     move-result-object v8
@@ -418,7 +399,6 @@
     .local v2, "hint":Ljava/lang/String;
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$500(Lorg/telegram/ui/LoginActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v9
@@ -441,7 +421,6 @@
 
     const/4 v9, 0x0
 
-    # setter for: Lorg/telegram/ui/LoginActivity$PhoneView;->countryState:I
     invoke-static {v8, v9}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$902(Lorg/telegram/ui/LoginActivity$PhoneView;I)I
 
     .line 729
@@ -453,14 +432,12 @@
     .line 730
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->codeField:Landroid/widget/EditText;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$700(Lorg/telegram/ui/LoginActivity$PhoneView;)Landroid/widget/EditText;
 
     move-result-object v8
 
     iget-object v9, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->codeField:Landroid/widget/EditText;
     invoke-static {v9}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$700(Lorg/telegram/ui/LoginActivity$PhoneView;)Landroid/widget/EditText;
 
     move-result-object v9
@@ -482,7 +459,6 @@
     .line 733
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$500(Lorg/telegram/ui/LoginActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v8
@@ -492,7 +468,6 @@
     .line 734
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$500(Lorg/telegram/ui/LoginActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v8
@@ -502,14 +477,12 @@
     .line 735
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$500(Lorg/telegram/ui/LoginActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v8
 
     iget-object v9, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v9}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$500(Lorg/telegram/ui/LoginActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v9
@@ -545,7 +518,6 @@
     :cond_8
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->countryButton:Landroid/widget/TextView;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$800(Lorg/telegram/ui/LoginActivity$PhoneView;)Landroid/widget/TextView;
 
     move-result-object v8
@@ -563,7 +535,6 @@
     .line 721
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$500(Lorg/telegram/ui/LoginActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v8
@@ -577,7 +548,6 @@
 
     const/4 v9, 0x2
 
-    # setter for: Lorg/telegram/ui/LoginActivity$PhoneView;->countryState:I
     invoke-static {v8, v9}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$902(Lorg/telegram/ui/LoginActivity$PhoneView;I)I
 
     goto :goto_4
@@ -587,7 +557,6 @@
     :cond_9
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->countryButton:Landroid/widget/TextView;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$800(Lorg/telegram/ui/LoginActivity$PhoneView;)Landroid/widget/TextView;
 
     move-result-object v8
@@ -605,7 +574,6 @@
     .line 726
     iget-object v8, p0, Lorg/telegram/ui/LoginActivity$PhoneView$2;->this$1:Lorg/telegram/ui/LoginActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v8}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$500(Lorg/telegram/ui/LoginActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v8
@@ -619,7 +587,6 @@
 
     const/4 v9, 0x2
 
-    # setter for: Lorg/telegram/ui/LoginActivity$PhoneView;->countryState:I
     invoke-static {v8, v9}, Lorg/telegram/ui/LoginActivity$PhoneView;->access$902(Lorg/telegram/ui/LoginActivity$PhoneView;I)I
 
     goto/16 :goto_4

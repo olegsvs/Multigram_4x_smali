@@ -44,7 +44,6 @@
     .line 115
     iget-object v3, p0, Lorg/telegram/ui/CommonGroupsActivity$3;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # getter for: Lorg/telegram/ui/CommonGroupsActivity;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v3}, Lorg/telegram/ui/CommonGroupsActivity;->access$100(Lorg/telegram/ui/CommonGroupsActivity;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v3
@@ -69,7 +68,6 @@
     .line 118
     iget-object v3, p0, Lorg/telegram/ui/CommonGroupsActivity$3;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # getter for: Lorg/telegram/ui/CommonGroupsActivity;->listViewAdapter:Lorg/telegram/ui/CommonGroupsActivity$ListAdapter;
     invoke-static {v3}, Lorg/telegram/ui/CommonGroupsActivity;->access$200(Lorg/telegram/ui/CommonGroupsActivity;)Lorg/telegram/ui/CommonGroupsActivity$ListAdapter;
 
     move-result-object v3
@@ -82,7 +80,6 @@
     .local v1, "totalItemCount":I
     iget-object v3, p0, Lorg/telegram/ui/CommonGroupsActivity$3;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # getter for: Lorg/telegram/ui/CommonGroupsActivity;->endReached:Z
     invoke-static {v3}, Lorg/telegram/ui/CommonGroupsActivity;->access$300(Lorg/telegram/ui/CommonGroupsActivity;)Z
 
     move-result v3
@@ -91,7 +88,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/CommonGroupsActivity$3;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # getter for: Lorg/telegram/ui/CommonGroupsActivity;->loading:Z
     invoke-static {v3}, Lorg/telegram/ui/CommonGroupsActivity;->access$400(Lorg/telegram/ui/CommonGroupsActivity;)Z
 
     move-result v3
@@ -100,7 +96,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/CommonGroupsActivity$3;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # getter for: Lorg/telegram/ui/CommonGroupsActivity;->chats:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/CommonGroupsActivity;->access$000(Lorg/telegram/ui/CommonGroupsActivity;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -122,14 +117,12 @@
 
     iget-object v3, p0, Lorg/telegram/ui/CommonGroupsActivity$3;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # getter for: Lorg/telegram/ui/CommonGroupsActivity;->chats:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/CommonGroupsActivity;->access$000(Lorg/telegram/ui/CommonGroupsActivity;)Ljava/util/ArrayList;
 
     move-result-object v3
 
     iget-object v5, p0, Lorg/telegram/ui/CommonGroupsActivity$3;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # getter for: Lorg/telegram/ui/CommonGroupsActivity;->chats:Ljava/util/ArrayList;
     invoke-static {v5}, Lorg/telegram/ui/CommonGroupsActivity;->access$000(Lorg/telegram/ui/CommonGroupsActivity;)Ljava/util/ArrayList;
 
     move-result-object v5
@@ -150,7 +143,6 @@
 
     const/16 v5, 0x64
 
-    # invokes: Lorg/telegram/ui/CommonGroupsActivity;->getChats(II)V
     invoke-static {v4, v3, v5}, Lorg/telegram/ui/CommonGroupsActivity;->access$500(Lorg/telegram/ui/CommonGroupsActivity;II)V
 
     .line 123
@@ -163,7 +155,6 @@
     :cond_1
     iget-object v3, p0, Lorg/telegram/ui/CommonGroupsActivity$3;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # getter for: Lorg/telegram/ui/CommonGroupsActivity;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v3}, Lorg/telegram/ui/CommonGroupsActivity;->access$100(Lorg/telegram/ui/CommonGroupsActivity;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v3

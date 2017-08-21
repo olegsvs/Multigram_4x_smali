@@ -44,7 +44,6 @@
     .line 984
     iget-object v1, p0, Lorg/telegram/ui/PopupNotificationActivity$11;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->avatarContainer:Landroid/widget/FrameLayout;
     invoke-static {v1}, Lorg/telegram/ui/PopupNotificationActivity;->access$1300(Lorg/telegram/ui/PopupNotificationActivity;)Landroid/widget/FrameLayout;
 
     move-result-object v1
@@ -54,7 +53,6 @@
     .line 985
     iget-object v1, p0, Lorg/telegram/ui/PopupNotificationActivity$11;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->avatarContainer:Landroid/widget/FrameLayout;
     invoke-static {v1}, Lorg/telegram/ui/PopupNotificationActivity;->access$1300(Lorg/telegram/ui/PopupNotificationActivity;)Landroid/widget/FrameLayout;
 
     move-result-object v1
@@ -85,14 +83,12 @@
     .local v0, "padding":I
     iget-object v1, p0, Lorg/telegram/ui/PopupNotificationActivity$11;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->avatarContainer:Landroid/widget/FrameLayout;
     invoke-static {v1}, Lorg/telegram/ui/PopupNotificationActivity;->access$1300(Lorg/telegram/ui/PopupNotificationActivity;)Landroid/widget/FrameLayout;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/ui/PopupNotificationActivity$11;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->avatarContainer:Landroid/widget/FrameLayout;
     invoke-static {v2}, Lorg/telegram/ui/PopupNotificationActivity;->access$1300(Lorg/telegram/ui/PopupNotificationActivity;)Landroid/widget/FrameLayout;
 
     move-result-object v2
@@ -103,7 +99,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/PopupNotificationActivity$11;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->avatarContainer:Landroid/widget/FrameLayout;
     invoke-static {v3}, Lorg/telegram/ui/PopupNotificationActivity;->access$1300(Lorg/telegram/ui/PopupNotificationActivity;)Landroid/widget/FrameLayout;
 
     move-result-object v3

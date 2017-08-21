@@ -49,7 +49,6 @@
     .line 77
     iget-object v0, p0, Lorg/telegram/ui/Components/HexSelectorView$1;->this$0:Lorg/telegram/ui/Components/HexSelectorView;
 
-    # getter for: Lorg/telegram/ui/Components/HexSelectorView;->dialog:Landroid/app/Dialog;
     invoke-static {v0}, Lorg/telegram/ui/Components/HexSelectorView;->access$000(Lorg/telegram/ui/Components/HexSelectorView;)Landroid/app/Dialog;
 
     move-result-object v0
@@ -58,7 +57,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/HexSelectorView$1;->this$0:Lorg/telegram/ui/Components/HexSelectorView;
 
-    # getter for: Lorg/telegram/ui/Components/HexSelectorView;->dialog:Landroid/app/Dialog;
     invoke-static {v0}, Lorg/telegram/ui/Components/HexSelectorView;->access$000(Lorg/telegram/ui/Components/HexSelectorView;)Landroid/app/Dialog;
 
     move-result-object v0

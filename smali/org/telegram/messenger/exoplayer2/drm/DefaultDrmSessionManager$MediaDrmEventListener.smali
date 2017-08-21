@@ -78,7 +78,6 @@
     .local p1, "md":Lorg/telegram/messenger/exoplayer2/drm/ExoMediaDrm;, "Lorg/telegram/messenger/exoplayer2/drm/ExoMediaDrm<+TT;>;"
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager$MediaDrmEventListener;->this$0:Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->mode:I
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->access$700(Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;)I
 
     move-result v0

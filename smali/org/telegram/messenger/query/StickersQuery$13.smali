@@ -37,13 +37,11 @@
     .line 591
     const/4 v0, 0x0
 
-    # setter for: Lorg/telegram/messenger/query/StickersQuery;->loadingFeaturedStickers:Z
     invoke-static {v0}, Lorg/telegram/messenger/query/StickersQuery;->access$902(Z)Z
 
     .line 592
     const/4 v0, 0x1
 
-    # setter for: Lorg/telegram/messenger/query/StickersQuery;->featuredStickersLoaded:Z
     invoke-static {v0}, Lorg/telegram/messenger/query/StickersQuery;->access$1002(Z)Z
 
     .line 593

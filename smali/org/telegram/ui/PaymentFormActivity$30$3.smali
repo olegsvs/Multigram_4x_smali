@@ -67,7 +67,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PaymentFormActivity$30;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->setDonePressed(Z)V
     invoke-static {v0, v4}, Lorg/telegram/ui/PaymentFormActivity;->access$500(Lorg/telegram/ui/PaymentFormActivity;Z)V
 
     .line 2496
@@ -75,7 +74,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PaymentFormActivity$30;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->showEditDoneProgress(ZZ)V
     invoke-static {v0, v4, v4}, Lorg/telegram/ui/PaymentFormActivity;->access$2400(Lorg/telegram/ui/PaymentFormActivity;ZZ)V
 
     .line 2497

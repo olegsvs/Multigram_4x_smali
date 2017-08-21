@@ -51,7 +51,6 @@
     .line 1435
     iget-object v1, p0, Lorg/telegram/ui/PhotoViewer$3;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->lastInsets:Ljava/lang/Object;
     invoke-static {v1}, Lorg/telegram/ui/PhotoViewer;->access$3200(Lorg/telegram/ui/PhotoViewer;)Ljava/lang/Object;
 
     move-result-object v0
@@ -62,7 +61,6 @@
     .local v0, "oldInsets":Landroid/view/WindowInsets;
     iget-object v1, p0, Lorg/telegram/ui/PhotoViewer$3;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->lastInsets:Ljava/lang/Object;
     invoke-static {v1, p2}, Lorg/telegram/ui/PhotoViewer;->access$3202(Lorg/telegram/ui/PhotoViewer;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 1437
@@ -86,7 +84,6 @@
     :cond_0
     iget-object v1, p0, Lorg/telegram/ui/PhotoViewer$3;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->windowView:Landroid/widget/FrameLayout;
     invoke-static {v1}, Lorg/telegram/ui/PhotoViewer;->access$4300(Lorg/telegram/ui/PhotoViewer;)Landroid/widget/FrameLayout;
 
     move-result-object v1

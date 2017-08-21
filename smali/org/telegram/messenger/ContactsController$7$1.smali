@@ -44,7 +44,6 @@
     const/4 v3, 0x0
 
     .line 951
-    # getter for: Lorg/telegram/messenger/ContactsController;->loadContactsSync:Ljava/lang/Object;
     invoke-static {}, Lorg/telegram/messenger/ContactsController;->access$300()Ljava/lang/Object;
 
     move-result-object v1
@@ -59,7 +58,6 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/messenger/ContactsController;->loadingContacts:Z
     invoke-static {v0, v2}, Lorg/telegram/messenger/ContactsController;->access$402(Lorg/telegram/messenger/ContactsController;Z)Z
 
     .line 953

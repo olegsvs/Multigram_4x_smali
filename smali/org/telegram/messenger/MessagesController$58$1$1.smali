@@ -50,7 +50,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/messenger/MessagesController;->migratingDialogs:Z
     invoke-static {v0, v1}, Lorg/telegram/messenger/MessagesController;->access$4602(Lorg/telegram/messenger/MessagesController;Z)Z
 
     .line 3342

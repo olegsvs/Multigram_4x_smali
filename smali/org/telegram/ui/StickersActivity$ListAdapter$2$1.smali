@@ -62,7 +62,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/StickersActivity$ListAdapter$2$1;->val$stickerSet:Lorg/telegram/tgnet/TLRPC$TL_messages_stickerSet;
 
-    # invokes: Lorg/telegram/ui/StickersActivity$ListAdapter;->processSelectionOption(ILorg/telegram/tgnet/TLRPC$TL_messages_stickerSet;)V
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/StickersActivity$ListAdapter;->access$1300(Lorg/telegram/ui/StickersActivity$ListAdapter;ILorg/telegram/tgnet/TLRPC$TL_messages_stickerSet;)V
 
     .line 475

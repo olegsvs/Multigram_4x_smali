@@ -123,7 +123,6 @@
     iput v1, p0, Lorg/telegram/ui/PhotoViewer$PhotoProgressView;->scale:F
 
     .line 558
-    # getter for: Lorg/telegram/ui/PhotoViewer;->decelerateInterpolator:Landroid/view/animation/DecelerateInterpolator;
     invoke-static {}, Lorg/telegram/ui/PhotoViewer;->access$1400()Landroid/view/animation/DecelerateInterpolator;
 
     move-result-object v0
@@ -137,7 +136,6 @@
 
     invoke-direct {v0, v1}, Landroid/view/animation/DecelerateInterpolator;-><init>(F)V
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->decelerateInterpolator:Landroid/view/animation/DecelerateInterpolator;
     invoke-static {v0}, Lorg/telegram/ui/PhotoViewer;->access$1402(Landroid/view/animation/DecelerateInterpolator;)Landroid/view/animation/DecelerateInterpolator;
 
     .line 560
@@ -147,11 +145,9 @@
 
     invoke-direct {v0, v1}, Landroid/graphics/Paint;-><init>(I)V
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->progressPaint:Landroid/graphics/Paint;
     invoke-static {v0}, Lorg/telegram/ui/PhotoViewer;->access$1502(Landroid/graphics/Paint;)Landroid/graphics/Paint;
 
     .line 561
-    # getter for: Lorg/telegram/ui/PhotoViewer;->progressPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/PhotoViewer;->access$1500()Landroid/graphics/Paint;
 
     move-result-object v0
@@ -161,7 +157,6 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     .line 562
-    # getter for: Lorg/telegram/ui/PhotoViewer;->progressPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/PhotoViewer;->access$1500()Landroid/graphics/Paint;
 
     move-result-object v0
@@ -171,7 +166,6 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeCap(Landroid/graphics/Paint$Cap;)V
 
     .line 563
-    # getter for: Lorg/telegram/ui/PhotoViewer;->progressPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/PhotoViewer;->access$1500()Landroid/graphics/Paint;
 
     move-result-object v0
@@ -187,7 +181,6 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 564
-    # getter for: Lorg/telegram/ui/PhotoViewer;->progressPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/PhotoViewer;->access$1500()Landroid/graphics/Paint;
 
     move-result-object v0
@@ -367,7 +360,6 @@
     :cond_4
     iget v5, p0, Lorg/telegram/ui/PhotoViewer$PhotoProgressView;->animationProgressStart:F
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->decelerateInterpolator:Landroid/view/animation/DecelerateInterpolator;
     invoke-static {}, Lorg/telegram/ui/PhotoViewer;->access$1400()Landroid/view/animation/DecelerateInterpolator;
 
     move-result-object v6
@@ -425,7 +417,6 @@
     .local v8, "sizeScaled":I
     iget-object v0, p0, Lorg/telegram/ui/PhotoViewer$PhotoProgressView;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->getContainerViewWidth()I
     invoke-static {v0}, Lorg/telegram/ui/PhotoViewer;->access$1600(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v0
@@ -438,7 +429,6 @@
     .local v9, "x":I
     iget-object v0, p0, Lorg/telegram/ui/PhotoViewer$PhotoProgressView;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->getContainerViewHeight()I
     invoke-static {v0}, Lorg/telegram/ui/PhotoViewer;->access$1700(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v0
@@ -458,7 +448,6 @@
     if-ge v0, v11, :cond_0
 
     .line 636
-    # getter for: Lorg/telegram/ui/PhotoViewer;->progressDrawables:[Landroid/graphics/drawable/Drawable;
     invoke-static {}, Lorg/telegram/ui/PhotoViewer;->access$1800()[Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -506,7 +495,6 @@
     if-ge v0, v11, :cond_1
 
     .line 645
-    # getter for: Lorg/telegram/ui/PhotoViewer;->progressDrawables:[Landroid/graphics/drawable/Drawable;
     invoke-static {}, Lorg/telegram/ui/PhotoViewer;->access$1800()[Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -584,7 +572,6 @@
     if-eq v0, v3, :cond_5
 
     .line 660
-    # getter for: Lorg/telegram/ui/PhotoViewer;->progressPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/PhotoViewer;->access$1500()Landroid/graphics/Paint;
 
     move-result-object v0
@@ -648,7 +635,6 @@
 
     const/4 v4, 0x0
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->progressPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/PhotoViewer;->access$1500()Landroid/graphics/Paint;
 
     move-result-object v5
@@ -682,7 +668,6 @@
     .end local v7    # "drawable":Landroid/graphics/drawable/Drawable;
     .restart local v6    # "diff":I
     :cond_5
-    # getter for: Lorg/telegram/ui/PhotoViewer;->progressPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/PhotoViewer;->access$1500()Landroid/graphics/Paint;
 
     move-result-object v0

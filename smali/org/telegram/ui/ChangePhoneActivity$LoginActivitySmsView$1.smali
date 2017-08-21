@@ -49,7 +49,6 @@
     .line 926
     iget-object v0, p0, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView$1;->this$1:Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->ignoreOnTextChange:Z
     invoke-static {v0}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1700(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Z
 
     move-result v0
@@ -65,7 +64,6 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView$1;->this$1:Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->length:I
     invoke-static {v0}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1800(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)I
 
     move-result v0
@@ -74,7 +72,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView$1;->this$1:Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v0
@@ -85,7 +82,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView$1;->this$1:Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->length:I
     invoke-static {v1}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1800(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)I
 
     move-result v1

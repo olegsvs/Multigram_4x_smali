@@ -44,7 +44,6 @@
     .line 811
     iget-object v0, p0, Lorg/telegram/ui/Components/PasscodeView$9;->this$0:Lorg/telegram/ui/Components/PasscodeView;
 
-    # getter for: Lorg/telegram/ui/Components/PasscodeView;->passwordEditText:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/Components/PasscodeView;->access$500(Lorg/telegram/ui/Components/PasscodeView;)Landroid/widget/EditText;
 
     move-result-object v0
@@ -54,7 +53,6 @@
     .line 812
     iget-object v0, p0, Lorg/telegram/ui/Components/PasscodeView$9;->this$0:Lorg/telegram/ui/Components/PasscodeView;
 
-    # getter for: Lorg/telegram/ui/Components/PasscodeView;->passwordEditText:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/Components/PasscodeView;->access$500(Lorg/telegram/ui/Components/PasscodeView;)Landroid/widget/EditText;
 
     move-result-object v0
@@ -64,7 +62,6 @@
     .line 813
     iget-object v0, p0, Lorg/telegram/ui/Components/PasscodeView$9;->this$0:Lorg/telegram/ui/Components/PasscodeView;
 
-    # getter for: Lorg/telegram/ui/Components/PasscodeView;->passwordEditText:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/Components/PasscodeView;->access$500(Lorg/telegram/ui/Components/PasscodeView;)Landroid/widget/EditText;
 
     move-result-object v0

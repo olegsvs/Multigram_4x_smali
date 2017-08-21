@@ -45,7 +45,6 @@
     .line 73
     iget-object v0, p0, Lorg/telegram/ui/Components/Crop/CropRotationWheel$1;->this$0:Lorg/telegram/ui/Components/Crop/CropRotationWheel;
 
-    # getter for: Lorg/telegram/ui/Components/Crop/CropRotationWheel;->rotationListener:Lorg/telegram/ui/Components/Crop/CropRotationWheel$RotationWheelListener;
     invoke-static {v0}, Lorg/telegram/ui/Components/Crop/CropRotationWheel;->access$000(Lorg/telegram/ui/Components/Crop/CropRotationWheel;)Lorg/telegram/ui/Components/Crop/CropRotationWheel$RotationWheelListener;
 
     move-result-object v0
@@ -55,7 +54,6 @@
     .line 74
     iget-object v0, p0, Lorg/telegram/ui/Components/Crop/CropRotationWheel$1;->this$0:Lorg/telegram/ui/Components/Crop/CropRotationWheel;
 
-    # getter for: Lorg/telegram/ui/Components/Crop/CropRotationWheel;->rotationListener:Lorg/telegram/ui/Components/Crop/CropRotationWheel$RotationWheelListener;
     invoke-static {v0}, Lorg/telegram/ui/Components/Crop/CropRotationWheel;->access$000(Lorg/telegram/ui/Components/Crop/CropRotationWheel;)Lorg/telegram/ui/Components/Crop/CropRotationWheel$RotationWheelListener;
 
     move-result-object v0

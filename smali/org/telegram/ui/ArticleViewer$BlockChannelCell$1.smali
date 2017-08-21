@@ -51,7 +51,6 @@
     .line 5943
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$BlockChannelCell$1;->this$1:Lorg/telegram/ui/ArticleViewer$BlockChannelCell;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockChannelCell;->currentState:I
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer$BlockChannelCell;->access$12100(Lorg/telegram/ui/ArticleViewer$BlockChannelCell;)I
 
     move-result v0
@@ -79,12 +78,10 @@
 
     iget-object v2, v2, Lorg/telegram/ui/ArticleViewer$BlockChannelCell;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->loadedChannel:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$8400(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v2
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->joinChannel(Lorg/telegram/ui/ArticleViewer$BlockChannelCell;Lorg/telegram/tgnet/TLRPC$Chat;)V
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/ArticleViewer;->access$12200(Lorg/telegram/ui/ArticleViewer;Lorg/telegram/ui/ArticleViewer$BlockChannelCell;Lorg/telegram/tgnet/TLRPC$Chat;)V
 
     goto :goto_0

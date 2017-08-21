@@ -48,7 +48,6 @@
 
     const/4 v2, -0x1
 
-    # setter for: Lorg/telegram/ui/WallpapersActivity;->selectedBackground:I
     invoke-static {v1, v2}, Lorg/telegram/ui/WallpapersActivity;->access$002(Lorg/telegram/ui/WallpapersActivity;I)I
 
     .line 115
@@ -56,7 +55,6 @@
 
     const/4 v2, 0x1
 
-    # setter for: Lorg/telegram/ui/WallpapersActivity;->overrideThemeWallpaper:Z
     invoke-static {v1, v2}, Lorg/telegram/ui/WallpapersActivity;->access$102(Lorg/telegram/ui/WallpapersActivity;Z)Z
 
     .line 116
@@ -64,19 +62,16 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/ui/WallpapersActivity;->selectedColor:I
     invoke-static {v1, v2}, Lorg/telegram/ui/WallpapersActivity;->access$202(Lorg/telegram/ui/WallpapersActivity;I)I
 
     .line 117
     iget-object v1, p0, Lorg/telegram/ui/WallpapersActivity$1;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # setter for: Lorg/telegram/ui/WallpapersActivity;->wallpaperFile:Ljava/io/File;
     invoke-static {v1, p1}, Lorg/telegram/ui/WallpapersActivity;->access$302(Lorg/telegram/ui/WallpapersActivity;Ljava/io/File;)Ljava/io/File;
 
     .line 118
     iget-object v1, p0, Lorg/telegram/ui/WallpapersActivity$1;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->backgroundImage:Landroid/widget/ImageView;
     invoke-static {v1}, Lorg/telegram/ui/WallpapersActivity;->access$400(Lorg/telegram/ui/WallpapersActivity;)Landroid/widget/ImageView;
 
     move-result-object v1
@@ -89,7 +84,6 @@
     .local v0, "drawable":Landroid/graphics/drawable/Drawable;
     iget-object v1, p0, Lorg/telegram/ui/WallpapersActivity$1;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->backgroundImage:Landroid/widget/ImageView;
     invoke-static {v1}, Lorg/telegram/ui/WallpapersActivity;->access$400(Lorg/telegram/ui/WallpapersActivity;)Landroid/widget/ImageView;
 
     move-result-object v1

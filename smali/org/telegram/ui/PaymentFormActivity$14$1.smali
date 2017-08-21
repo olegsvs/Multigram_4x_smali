@@ -48,7 +48,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PaymentFormActivity$14;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # getter for: Lorg/telegram/ui/PaymentFormActivity;->inputFields:[Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/PaymentFormActivity;->access$1200(Lorg/telegram/ui/PaymentFormActivity;)[Landroid/widget/EditText;
 
     move-result-object v0

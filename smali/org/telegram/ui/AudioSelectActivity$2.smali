@@ -58,7 +58,6 @@
     .local v1, "audioEntry":Lorg/telegram/messenger/MediaController$AudioEntry;
     iget-object v2, p0, Lorg/telegram/ui/AudioSelectActivity$2;->this$0:Lorg/telegram/ui/AudioSelectActivity;
 
-    # getter for: Lorg/telegram/ui/AudioSelectActivity;->selectedAudios:Ljava/util/HashMap;
     invoke-static {v2}, Lorg/telegram/ui/AudioSelectActivity;->access$000(Lorg/telegram/ui/AudioSelectActivity;)Ljava/util/HashMap;
 
     move-result-object v2
@@ -78,7 +77,6 @@
     .line 122
     iget-object v2, p0, Lorg/telegram/ui/AudioSelectActivity$2;->this$0:Lorg/telegram/ui/AudioSelectActivity;
 
-    # getter for: Lorg/telegram/ui/AudioSelectActivity;->selectedAudios:Ljava/util/HashMap;
     invoke-static {v2}, Lorg/telegram/ui/AudioSelectActivity;->access$000(Lorg/telegram/ui/AudioSelectActivity;)Ljava/util/HashMap;
 
     move-result-object v2
@@ -100,7 +98,6 @@
     :goto_0
     iget-object v2, p0, Lorg/telegram/ui/AudioSelectActivity$2;->this$0:Lorg/telegram/ui/AudioSelectActivity;
 
-    # invokes: Lorg/telegram/ui/AudioSelectActivity;->updateBottomLayoutCount()V
     invoke-static {v2}, Lorg/telegram/ui/AudioSelectActivity;->access$100(Lorg/telegram/ui/AudioSelectActivity;)V
 
     .line 129
@@ -110,7 +107,6 @@
     :cond_0
     iget-object v2, p0, Lorg/telegram/ui/AudioSelectActivity$2;->this$0:Lorg/telegram/ui/AudioSelectActivity;
 
-    # getter for: Lorg/telegram/ui/AudioSelectActivity;->selectedAudios:Ljava/util/HashMap;
     invoke-static {v2}, Lorg/telegram/ui/AudioSelectActivity;->access$000(Lorg/telegram/ui/AudioSelectActivity;)Ljava/util/HashMap;
 
     move-result-object v2

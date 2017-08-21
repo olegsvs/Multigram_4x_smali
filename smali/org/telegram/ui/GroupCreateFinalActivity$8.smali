@@ -46,7 +46,6 @@
     .line 458
     iget-object v0, p0, Lorg/telegram/ui/GroupCreateFinalActivity$8;->this$0:Lorg/telegram/ui/GroupCreateFinalActivity;
 
-    # getter for: Lorg/telegram/ui/GroupCreateFinalActivity;->doneItemAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/GroupCreateFinalActivity;->access$1500(Lorg/telegram/ui/GroupCreateFinalActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -55,7 +54,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/GroupCreateFinalActivity$8;->this$0:Lorg/telegram/ui/GroupCreateFinalActivity;
 
-    # getter for: Lorg/telegram/ui/GroupCreateFinalActivity;->doneItemAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/GroupCreateFinalActivity;->access$1500(Lorg/telegram/ui/GroupCreateFinalActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -71,7 +69,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/GroupCreateFinalActivity;->doneItemAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0, v1}, Lorg/telegram/ui/GroupCreateFinalActivity;->access$1502(Lorg/telegram/ui/GroupCreateFinalActivity;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 461
@@ -89,7 +86,6 @@
     .line 447
     iget-object v0, p0, Lorg/telegram/ui/GroupCreateFinalActivity$8;->this$0:Lorg/telegram/ui/GroupCreateFinalActivity;
 
-    # getter for: Lorg/telegram/ui/GroupCreateFinalActivity;->doneItemAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/GroupCreateFinalActivity;->access$1500(Lorg/telegram/ui/GroupCreateFinalActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -98,7 +94,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/GroupCreateFinalActivity$8;->this$0:Lorg/telegram/ui/GroupCreateFinalActivity;
 
-    # getter for: Lorg/telegram/ui/GroupCreateFinalActivity;->doneItemAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/GroupCreateFinalActivity;->access$1500(Lorg/telegram/ui/GroupCreateFinalActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -117,7 +112,6 @@
     .line 449
     iget-object v0, p0, Lorg/telegram/ui/GroupCreateFinalActivity$8;->this$0:Lorg/telegram/ui/GroupCreateFinalActivity;
 
-    # getter for: Lorg/telegram/ui/GroupCreateFinalActivity;->progressView:Lorg/telegram/ui/Components/ContextProgressView;
     invoke-static {v0}, Lorg/telegram/ui/GroupCreateFinalActivity;->access$1600(Lorg/telegram/ui/GroupCreateFinalActivity;)Lorg/telegram/ui/Components/ContextProgressView;
 
     move-result-object v0
@@ -133,7 +127,6 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/GroupCreateFinalActivity$8;->this$0:Lorg/telegram/ui/GroupCreateFinalActivity;
 
-    # getter for: Lorg/telegram/ui/GroupCreateFinalActivity;->doneItem:Lorg/telegram/ui/ActionBar/ActionBarMenuItem;
     invoke-static {v0}, Lorg/telegram/ui/GroupCreateFinalActivity;->access$1700(Lorg/telegram/ui/GroupCreateFinalActivity;)Lorg/telegram/ui/ActionBar/ActionBarMenuItem;
 
     move-result-object v0

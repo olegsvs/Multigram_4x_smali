@@ -47,7 +47,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ActionBar/BottomSheet$8;->this$0:Lorg/telegram/ui/ActionBar/BottomSheet;
 
-    # invokes: Landroid/app/Dialog;->dismiss()V
     invoke-static {v1}, Lorg/telegram/ui/ActionBar/BottomSheet;->access$1401(Lorg/telegram/ui/ActionBar/BottomSheet;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0

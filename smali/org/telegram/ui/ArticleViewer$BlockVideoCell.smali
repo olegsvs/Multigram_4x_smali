@@ -506,7 +506,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$BlockVideoCell;->textLayout:Landroid/text/StaticLayout;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->drawLayoutLink(Landroid/graphics/Canvas;Landroid/text/StaticLayout;)V
     invoke-static {v0, p1, v1}, Lorg/telegram/ui/ArticleViewer;->access$9300(Lorg/telegram/ui/ArticleViewer;Landroid/graphics/Canvas;Landroid/text/StaticLayout;)V
 
     .line 3894
@@ -565,7 +564,6 @@
 
     int-to-float v4, v0
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->quoteLinePaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$9400()Landroid/graphics/Paint;
 
     move-result-object v5
@@ -626,7 +624,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ArticleViewer$BlockVideoCell;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$3700(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v2
@@ -1047,7 +1044,6 @@
 
     move/from16 v0, v20
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->createLayoutForText(Ljava/lang/CharSequence;Lorg/telegram/tgnet/TLRPC$RichText;ILorg/telegram/tgnet/TLRPC$PageBlock;)Landroid/text/StaticLayout;
     invoke-static {v2, v3, v5, v0, v6}, Lorg/telegram/ui/ArticleViewer;->access$9200(Lorg/telegram/ui/ArticleViewer;Ljava/lang/CharSequence;Lorg/telegram/tgnet/TLRPC$RichText;ILorg/telegram/tgnet/TLRPC$PageBlock;)Landroid/text/StaticLayout;
 
     move-result-object v2
@@ -1289,7 +1285,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ArticleViewer$BlockVideoCell;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$3700(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v2
@@ -1302,7 +1297,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ArticleViewer$BlockVideoCell;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer;->access$3700(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v3
@@ -1599,7 +1593,6 @@
     .line 3772
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$BlockVideoCell;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->channelBlock:Lorg/telegram/tgnet/TLRPC$TL_pageBlockChannel;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$9000(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/tgnet/TLRPC$TL_pageBlockChannel;
 
     move-result-object v0
@@ -1615,7 +1608,6 @@
     .line 3773
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$BlockVideoCell;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->channelBlock:Lorg/telegram/tgnet/TLRPC$TL_pageBlockChannel;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$9000(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/tgnet/TLRPC$TL_pageBlockChannel;
 
     move-result-object v0
@@ -1626,7 +1618,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$BlockVideoCell;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->parentFragment:Lorg/telegram/ui/ActionBar/BaseFragment;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$4900(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/ActionBar/BaseFragment;
 
     move-result-object v1
@@ -1747,7 +1738,6 @@
 
     move-object v2, p0
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->checkLayoutForLinks(Landroid/view/MotionEvent;Landroid/view/View;Landroid/text/StaticLayout;II)Z
     invoke-static/range {v0 .. v5}, Lorg/telegram/ui/ArticleViewer;->access$9100(Lorg/telegram/ui/ArticleViewer;Landroid/view/MotionEvent;Landroid/view/View;Landroid/text/StaticLayout;II)Z
 
     move-result v0
@@ -1877,7 +1867,6 @@
 
     iget-wide v2, v1, Lorg/telegram/tgnet/TLRPC$TL_pageBlockVideo;->video_id:J
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->getDocumentWithId(J)Lorg/telegram/tgnet/TLRPC$Document;
     invoke-static {v0, v2, v3}, Lorg/telegram/ui/ArticleViewer;->access$8900(Lorg/telegram/ui/ArticleViewer;J)Lorg/telegram/tgnet/TLRPC$Document;
 
     move-result-object v0
@@ -1930,7 +1919,6 @@
     .line 3757
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$BlockVideoCell;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->channelBlock:Lorg/telegram/tgnet/TLRPC$TL_pageBlockChannel;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$9000(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/tgnet/TLRPC$TL_pageBlockChannel;
 
     move-result-object v0
@@ -1948,7 +1936,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$BlockVideoCell;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->channelBlock:Lorg/telegram/tgnet/TLRPC$TL_pageBlockChannel;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$9000(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/tgnet/TLRPC$TL_pageBlockChannel;
 
     move-result-object v1

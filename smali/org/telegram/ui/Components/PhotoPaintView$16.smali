@@ -50,7 +50,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/PhotoPaintView$16;->val$entityView:Lorg/telegram/ui/Components/Paint/Views/EntityView;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->removeEntity(Lorg/telegram/ui/Components/Paint/Views/EntityView;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/PhotoPaintView;->access$1600(Lorg/telegram/ui/Components/PhotoPaintView;Lorg/telegram/ui/Components/Paint/Views/EntityView;)V
 
     .line 835

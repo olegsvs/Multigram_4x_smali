@@ -65,7 +65,6 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/ui/ChannelCreateActivity;->donePressed:Z
     invoke-static {v1, v2}, Lorg/telegram/ui/ChannelCreateActivity;->access$202(Lorg/telegram/ui/ChannelCreateActivity;Z)Z
 
     .line 238

@@ -345,7 +345,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert;->selectedDialogs:Ljava/util/HashMap;
     invoke-static {v3}, Lorg/telegram/ui/Components/ShareAlert;->access$1300(Lorg/telegram/ui/Components/ShareAlert;)Ljava/util/HashMap;
 
     move-result-object v3
@@ -475,12 +474,10 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # invokes: Lorg/telegram/ui/Components/ShareAlert;->getCurrentTop()I
     invoke-static {v1}, Lorg/telegram/ui/Components/ShareAlert;->access$2300(Lorg/telegram/ui/Components/ShareAlert;)I
 
     move-result v1
 
-    # setter for: Lorg/telegram/ui/Components/ShareAlert;->topBeforeSwitch:I
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/ShareAlert;->access$2202(Lorg/telegram/ui/Components/ShareAlert;I)I
 
     .line 978

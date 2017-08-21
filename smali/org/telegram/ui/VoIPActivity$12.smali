@@ -61,7 +61,6 @@
     :cond_0
     iget-object v2, p0, Lorg/telegram/ui/VoIPActivity$12;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->tooltipHider:Ljava/lang/Runnable;
     invoke-static {v2}, Lorg/telegram/ui/VoIPActivity;->access$1700(Lorg/telegram/ui/VoIPActivity;)Ljava/lang/Runnable;
 
     move-result-object v2
@@ -71,14 +70,12 @@
     .line 641
     iget-object v2, p0, Lorg/telegram/ui/VoIPActivity$12;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->hintTextView:Landroid/widget/TextView;
     invoke-static {v2}, Lorg/telegram/ui/VoIPActivity;->access$1800(Lorg/telegram/ui/VoIPActivity;)Landroid/widget/TextView;
 
     move-result-object v2
 
     iget-object v3, p0, Lorg/telegram/ui/VoIPActivity$12;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->tooltipHider:Ljava/lang/Runnable;
     invoke-static {v3}, Lorg/telegram/ui/VoIPActivity;->access$1700(Lorg/telegram/ui/VoIPActivity;)Ljava/lang/Runnable;
 
     move-result-object v3
@@ -90,7 +87,6 @@
 
     const/4 v3, 0x0
 
-    # setter for: Lorg/telegram/ui/VoIPActivity;->tooltipHider:Ljava/lang/Runnable;
     invoke-static {v2, v3}, Lorg/telegram/ui/VoIPActivity;->access$1702(Lorg/telegram/ui/VoIPActivity;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 644
@@ -106,7 +102,6 @@
     move v0, v1
 
     :cond_2
-    # invokes: Lorg/telegram/ui/VoIPActivity;->setEmojiTooltipVisible(Z)V
     invoke-static {v2, v0}, Lorg/telegram/ui/VoIPActivity;->access$1600(Lorg/telegram/ui/VoIPActivity;Z)V
 
     .line 645
@@ -119,7 +114,6 @@
     .line 646
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$12;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->hintTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$1800(Lorg/telegram/ui/VoIPActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -130,7 +124,6 @@
 
     invoke-direct {v3, p0}, Lorg/telegram/ui/VoIPActivity$12$1;-><init>(Lorg/telegram/ui/VoIPActivity$12;)V
 
-    # setter for: Lorg/telegram/ui/VoIPActivity;->tooltipHider:Ljava/lang/Runnable;
     invoke-static {v2, v3}, Lorg/telegram/ui/VoIPActivity;->access$1702(Lorg/telegram/ui/VoIPActivity;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     move-result-object v2

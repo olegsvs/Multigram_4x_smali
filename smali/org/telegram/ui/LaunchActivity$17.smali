@@ -44,7 +44,6 @@
 
     .prologue
     .line 2276
-    # getter for: Lorg/telegram/ui/LaunchActivity;->mainFragmentsStack:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/ui/LaunchActivity;->access$1500()Ljava/util/ArrayList;
 
     move-result-object v0
@@ -58,12 +57,10 @@
     .line 2277
     const-string/jumbo v1, "spambot"
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->mainFragmentsStack:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/ui/LaunchActivity;->access$1500()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->mainFragmentsStack:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/ui/LaunchActivity;->access$1500()Ljava/util/ArrayList;
 
     move-result-object v2

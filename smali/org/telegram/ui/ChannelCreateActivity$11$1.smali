@@ -65,7 +65,6 @@
 
     check-cast v0, Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
 
-    # setter for: Lorg/telegram/ui/ChannelCreateActivity;->invite:Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
     invoke-static {v1, v0}, Lorg/telegram/ui/ChannelCreateActivity;->access$2002(Lorg/telegram/ui/ChannelCreateActivity;Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;)Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
 
     .line 604
@@ -74,7 +73,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$11;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelCreateActivity;->loadingInvite:Z
     invoke-static {v0, v3}, Lorg/telegram/ui/ChannelCreateActivity;->access$2102(Lorg/telegram/ui/ChannelCreateActivity;Z)Z
 
     .line 605
@@ -82,7 +80,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$11;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->privateContainer:Lorg/telegram/ui/Cells/TextBlockCell;
     invoke-static {v0}, Lorg/telegram/ui/ChannelCreateActivity;->access$2200(Lorg/telegram/ui/ChannelCreateActivity;)Lorg/telegram/ui/Cells/TextBlockCell;
 
     move-result-object v1
@@ -91,7 +88,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$11;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->invite:Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
     invoke-static {v0}, Lorg/telegram/ui/ChannelCreateActivity;->access$2000(Lorg/telegram/ui/ChannelCreateActivity;)Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
 
     move-result-object v0
@@ -102,7 +98,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$11;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->invite:Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
     invoke-static {v0}, Lorg/telegram/ui/ChannelCreateActivity;->access$2000(Lorg/telegram/ui/ChannelCreateActivity;)Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
 
     move-result-object v0

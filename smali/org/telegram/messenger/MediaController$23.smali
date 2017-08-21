@@ -48,7 +48,6 @@
     .line 3193
     iget-object v2, p0, Lorg/telegram/messenger/MediaController$23;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->audioRecorder:Landroid/media/AudioRecord;
     invoke-static {v2}, Lorg/telegram/messenger/MediaController;->access$000(Lorg/telegram/messenger/MediaController;)Landroid/media/AudioRecord;
 
     move-result-object v2
@@ -66,13 +65,11 @@
 
     iget v3, p0, Lorg/telegram/messenger/MediaController$23;->val$send:I
 
-    # setter for: Lorg/telegram/messenger/MediaController;->sendAfterDone:I
     invoke-static {v2, v3}, Lorg/telegram/messenger/MediaController;->access$1202(Lorg/telegram/messenger/MediaController;I)I
 
     .line 3198
     iget-object v2, p0, Lorg/telegram/messenger/MediaController$23;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->audioRecorder:Landroid/media/AudioRecord;
     invoke-static {v2}, Lorg/telegram/messenger/MediaController;->access$000(Lorg/telegram/messenger/MediaController;)Landroid/media/AudioRecord;
 
     move-result-object v2
@@ -93,7 +90,6 @@
 
     const/4 v3, 0x0
 
-    # invokes: Lorg/telegram/messenger/MediaController;->stopRecordingInternal(I)V
     invoke-static {v2, v3}, Lorg/telegram/messenger/MediaController;->access$1300(Lorg/telegram/messenger/MediaController;I)V
 
     .line 3209
@@ -139,7 +135,6 @@
     .line 3201
     iget-object v2, p0, Lorg/telegram/messenger/MediaController$23;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordingAudioFile:Ljava/io/File;
     invoke-static {v2}, Lorg/telegram/messenger/MediaController;->access$6400(Lorg/telegram/messenger/MediaController;)Ljava/io/File;
 
     move-result-object v2
@@ -149,7 +144,6 @@
     .line 3202
     iget-object v2, p0, Lorg/telegram/messenger/MediaController$23;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordingAudioFile:Ljava/io/File;
     invoke-static {v2}, Lorg/telegram/messenger/MediaController;->access$6400(Lorg/telegram/messenger/MediaController;)Ljava/io/File;
 
     move-result-object v2

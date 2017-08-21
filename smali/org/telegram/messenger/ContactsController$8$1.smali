@@ -456,7 +456,6 @@
 
     iget-object v4, v4, Lorg/telegram/messenger/ContactsController$8;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # getter for: Lorg/telegram/messenger/ContactsController;->contactsBookLoaded:Z
     invoke-static {v4}, Lorg/telegram/messenger/ContactsController;->access$700(Lorg/telegram/messenger/ContactsController;)Z
 
     move-result v4
@@ -614,7 +613,6 @@
 
     iget-object v4, v4, Lorg/telegram/messenger/ContactsController$8;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # getter for: Lorg/telegram/messenger/ContactsController;->sectionsToReplace:Ljava/util/HashMap;
     invoke-static {v4}, Lorg/telegram/messenger/ContactsController;->access$1100(Lorg/telegram/messenger/ContactsController;)Ljava/util/HashMap;
 
     move-result-object v4
@@ -765,7 +763,6 @@
 
     iget-object v4, v4, Lorg/telegram/messenger/ContactsController$8;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # getter for: Lorg/telegram/messenger/ContactsController;->delayedContactsUpdate:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/messenger/ContactsController;->access$800(Lorg/telegram/messenger/ContactsController;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -792,7 +789,6 @@
 
     iget-object v4, v4, Lorg/telegram/messenger/ContactsController$8;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # getter for: Lorg/telegram/messenger/ContactsController;->contactsBookLoaded:Z
     invoke-static {v4}, Lorg/telegram/messenger/ContactsController;->access$700(Lorg/telegram/messenger/ContactsController;)Z
 
     move-result v4
@@ -812,7 +808,6 @@
 
     iget-object v5, v5, Lorg/telegram/messenger/ContactsController$8;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # getter for: Lorg/telegram/messenger/ContactsController;->delayedContactsUpdate:Ljava/util/ArrayList;
     invoke-static {v5}, Lorg/telegram/messenger/ContactsController;->access$800(Lorg/telegram/messenger/ContactsController;)Ljava/util/ArrayList;
 
     move-result-object v5
@@ -829,7 +824,6 @@
 
     move-object/from16 v2, v24
 
-    # invokes: Lorg/telegram/messenger/ContactsController;->applyContactsUpdates(Ljava/util/ArrayList;Ljava/util/concurrent/ConcurrentHashMap;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
     invoke-static {v4, v5, v0, v1, v2}, Lorg/telegram/messenger/ContactsController;->access$900(Lorg/telegram/messenger/ContactsController;Ljava/util/ArrayList;Ljava/util/concurrent/ConcurrentHashMap;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
 
     .line 1168
@@ -839,7 +833,6 @@
 
     iget-object v4, v4, Lorg/telegram/messenger/ContactsController$8;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # getter for: Lorg/telegram/messenger/ContactsController;->delayedContactsUpdate:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/messenger/ContactsController;->access$800(Lorg/telegram/messenger/ContactsController;)Ljava/util/ArrayList;
 
     move-result-object v4

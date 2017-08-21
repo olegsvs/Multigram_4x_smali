@@ -48,7 +48,6 @@
     .line 536
     iget-object v0, p0, Lorg/telegram/tgnet/ConnectionsManager$11;->this$0:Lorg/telegram/tgnet/ConnectionsManager;
 
-    # getter for: Lorg/telegram/tgnet/ConnectionsManager;->isUpdating:Z
     invoke-static {v0}, Lorg/telegram/tgnet/ConnectionsManager;->access$500(Lorg/telegram/tgnet/ConnectionsManager;)Z
 
     move-result v0
@@ -68,13 +67,11 @@
 
     iget-boolean v1, p0, Lorg/telegram/tgnet/ConnectionsManager$11;->val$value:Z
 
-    # setter for: Lorg/telegram/tgnet/ConnectionsManager;->isUpdating:Z
     invoke-static {v0, v1}, Lorg/telegram/tgnet/ConnectionsManager;->access$502(Lorg/telegram/tgnet/ConnectionsManager;Z)Z
 
     .line 540
     iget-object v0, p0, Lorg/telegram/tgnet/ConnectionsManager$11;->this$0:Lorg/telegram/tgnet/ConnectionsManager;
 
-    # getter for: Lorg/telegram/tgnet/ConnectionsManager;->connectionState:I
     invoke-static {v0}, Lorg/telegram/tgnet/ConnectionsManager;->access$200(Lorg/telegram/tgnet/ConnectionsManager;)I
 
     move-result v0

@@ -111,7 +111,6 @@
     .line 254
     iget-object v1, p0, Lorg/telegram/ui/Adapters/MentionsAdapter$4;->this$0:Lorg/telegram/ui/Adapters/MentionsAdapter;
 
-    # invokes: Lorg/telegram/ui/Adapters/MentionsAdapter;->checkLocationPermissionsOrStart()V
     invoke-static {v1}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$800(Lorg/telegram/ui/Adapters/MentionsAdapter;)V
 
     .line 256

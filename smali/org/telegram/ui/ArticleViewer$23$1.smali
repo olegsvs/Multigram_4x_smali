@@ -58,7 +58,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/ArticleViewer$23;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->nightModeHintView:Landroid/widget/FrameLayout;
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$7400(Lorg/telegram/ui/ArticleViewer;)Landroid/widget/FrameLayout;
 
     move-result-object v2

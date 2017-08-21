@@ -52,7 +52,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/PaymentFormActivity$24;->val$totalPrice:Ljava/lang/String;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->showPayAlert(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/PaymentFormActivity;->access$3900(Lorg/telegram/ui/PaymentFormActivity;Ljava/lang/String;)V
 
     .line 1754

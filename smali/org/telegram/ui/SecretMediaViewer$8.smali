@@ -50,7 +50,6 @@
     .line 885
     iget-object v0, p0, Lorg/telegram/ui/SecretMediaViewer$8;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # setter for: Lorg/telegram/ui/SecretMediaViewer;->disableShowCheck:Z
     invoke-static {v0, v2}, Lorg/telegram/ui/SecretMediaViewer;->access$2602(Lorg/telegram/ui/SecretMediaViewer;Z)Z
 
     .line 886

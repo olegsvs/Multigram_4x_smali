@@ -48,7 +48,6 @@
     .line 566
     iget-object v0, p0, Lorg/telegram/messenger/MessagesStorage$2;->this$0:Lorg/telegram/messenger/MessagesStorage;
 
-    # invokes: Lorg/telegram/messenger/MessagesStorage;->cleanupInternal()V
     invoke-static {v0}, Lorg/telegram/messenger/MessagesStorage;->access$200(Lorg/telegram/messenger/MessagesStorage;)V
 
     .line 567

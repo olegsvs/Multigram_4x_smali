@@ -48,7 +48,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ProfileActivity$4;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->userBlocked:Z
     invoke-static {v0}, Lorg/telegram/ui/ProfileActivity;->access$800(Lorg/telegram/ui/ProfileActivity;)Z
 
     move-result v0
@@ -64,7 +63,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ProfileActivity$4;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->user_id:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -85,7 +83,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ProfileActivity$4;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->user_id:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1

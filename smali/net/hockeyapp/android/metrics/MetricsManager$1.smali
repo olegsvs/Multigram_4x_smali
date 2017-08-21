@@ -45,7 +45,6 @@
     if-ne v0, v1, :cond_0
 
     .line 241
-    # getter for: Lnet/hockeyapp/android/metrics/MetricsManager;->sChannel:Lnet/hockeyapp/android/metrics/Channel;
     invoke-static {}, Lnet/hockeyapp/android/metrics/MetricsManager;->access$000()Lnet/hockeyapp/android/metrics/Channel;
 
     move-result-object v0

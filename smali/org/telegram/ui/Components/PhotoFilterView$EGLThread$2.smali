@@ -58,7 +58,6 @@
     .line 1504
     iget-object v2, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$2;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->renderFrameBuffer:[I
     invoke-static {v2}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$4300(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)[I
 
     move-result-object v2
@@ -74,14 +73,12 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$2;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->renderTexture:[I
     invoke-static {v4}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$3700(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)[I
 
     move-result-object v4
 
     iget-object v5, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$2;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->blured:Z
     invoke-static {v5}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$3200(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Z
 
     move-result v5
@@ -103,7 +100,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$2;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->getRenderBufferBitmap()Landroid/graphics/Bitmap;
     invoke-static {v2}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$4400(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Landroid/graphics/Bitmap;
 
     move-result-object v2

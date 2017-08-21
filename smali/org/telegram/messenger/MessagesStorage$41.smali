@@ -57,7 +57,6 @@
     :try_start_0
     iget-object v5, p0, Lorg/telegram/messenger/MessagesStorage$41;->this$0:Lorg/telegram/messenger/MessagesStorage;
 
-    # getter for: Lorg/telegram/messenger/MessagesStorage;->database:Lorg/telegram/SQLite/SQLiteDatabase;
     invoke-static {v5}, Lorg/telegram/messenger/MessagesStorage;->access$000(Lorg/telegram/messenger/MessagesStorage;)Lorg/telegram/SQLite/SQLiteDatabase;
 
     move-result-object v5
@@ -76,7 +75,6 @@
     .line 2450
     iget-object v5, p0, Lorg/telegram/messenger/MessagesStorage$41;->this$0:Lorg/telegram/messenger/MessagesStorage;
 
-    # getter for: Lorg/telegram/messenger/MessagesStorage;->database:Lorg/telegram/SQLite/SQLiteDatabase;
     invoke-static {v5}, Lorg/telegram/messenger/MessagesStorage;->access$000(Lorg/telegram/messenger/MessagesStorage;)Lorg/telegram/SQLite/SQLiteDatabase;
 
     move-result-object v5
@@ -119,7 +117,6 @@
     .local v0, "currentMaxId":I
     iget-object v5, p0, Lorg/telegram/messenger/MessagesStorage$41;->this$0:Lorg/telegram/messenger/MessagesStorage;
 
-    # getter for: Lorg/telegram/messenger/MessagesStorage;->database:Lorg/telegram/SQLite/SQLiteDatabase;
     invoke-static {v5}, Lorg/telegram/messenger/MessagesStorage;->access$000(Lorg/telegram/messenger/MessagesStorage;)Lorg/telegram/SQLite/SQLiteDatabase;
 
     move-result-object v5
@@ -183,7 +180,6 @@
     .line 2473
     iget-object v5, p0, Lorg/telegram/messenger/MessagesStorage$41;->this$0:Lorg/telegram/messenger/MessagesStorage;
 
-    # getter for: Lorg/telegram/messenger/MessagesStorage;->database:Lorg/telegram/SQLite/SQLiteDatabase;
     invoke-static {v5}, Lorg/telegram/messenger/MessagesStorage;->access$000(Lorg/telegram/messenger/MessagesStorage;)Lorg/telegram/SQLite/SQLiteDatabase;
 
     move-result-object v5
@@ -218,7 +214,6 @@
     .line 2480
     iget-object v5, p0, Lorg/telegram/messenger/MessagesStorage$41;->this$0:Lorg/telegram/messenger/MessagesStorage;
 
-    # getter for: Lorg/telegram/messenger/MessagesStorage;->database:Lorg/telegram/SQLite/SQLiteDatabase;
     invoke-static {v5}, Lorg/telegram/messenger/MessagesStorage;->access$000(Lorg/telegram/messenger/MessagesStorage;)Lorg/telegram/SQLite/SQLiteDatabase;
 
     move-result-object v5
@@ -238,7 +233,6 @@
     :cond_1
     iget-object v5, p0, Lorg/telegram/messenger/MessagesStorage$41;->this$0:Lorg/telegram/messenger/MessagesStorage;
 
-    # getter for: Lorg/telegram/messenger/MessagesStorage;->database:Lorg/telegram/SQLite/SQLiteDatabase;
     invoke-static {v5}, Lorg/telegram/messenger/MessagesStorage;->access$000(Lorg/telegram/messenger/MessagesStorage;)Lorg/telegram/SQLite/SQLiteDatabase;
 
     move-result-object v5

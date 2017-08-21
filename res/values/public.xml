@@ -3014,5 +3014,7 @@
 	<public type="id" name="userName" id="0x7f0c007C" />
 	<public type="id" name="userPhone" id="0x7f0c007D" />
 	<public type="id" name="users_listview" id="0x7f0c007E" />
+	<public type="id" name="relativeLayout1" id="0x7f0c007F" />
+	<public type="id" name="buttonAddUser" id="0x7f0c0080" />
     <public type="integer" name="google_play_services_version" id="0x7f0d0000" />
 </resources>

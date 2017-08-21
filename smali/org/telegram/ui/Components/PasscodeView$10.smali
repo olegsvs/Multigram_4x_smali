@@ -45,7 +45,6 @@
     .line 894
     iget-object v0, p0, Lorg/telegram/ui/Components/PasscodeView$10;->this$0:Lorg/telegram/ui/Components/PasscodeView;
 
-    # getter for: Lorg/telegram/ui/Components/PasscodeView;->cancellationSignal:Landroid/support/v4/os/CancellationSignal;
     invoke-static {v0}, Lorg/telegram/ui/Components/PasscodeView;->access$900(Lorg/telegram/ui/Components/PasscodeView;)Landroid/support/v4/os/CancellationSignal;
 
     move-result-object v0
@@ -57,13 +56,11 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/ui/Components/PasscodeView;->selfCancelled:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/PasscodeView;->access$1002(Lorg/telegram/ui/Components/PasscodeView;Z)Z
 
     .line 896
     iget-object v0, p0, Lorg/telegram/ui/Components/PasscodeView$10;->this$0:Lorg/telegram/ui/Components/PasscodeView;
 
-    # getter for: Lorg/telegram/ui/Components/PasscodeView;->cancellationSignal:Landroid/support/v4/os/CancellationSignal;
     invoke-static {v0}, Lorg/telegram/ui/Components/PasscodeView;->access$900(Lorg/telegram/ui/Components/PasscodeView;)Landroid/support/v4/os/CancellationSignal;
 
     move-result-object v0
@@ -75,7 +72,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/PasscodeView;->cancellationSignal:Landroid/support/v4/os/CancellationSignal;
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/PasscodeView;->access$902(Lorg/telegram/ui/Components/PasscodeView;Landroid/support/v4/os/CancellationSignal;)Landroid/support/v4/os/CancellationSignal;
 
     .line 899

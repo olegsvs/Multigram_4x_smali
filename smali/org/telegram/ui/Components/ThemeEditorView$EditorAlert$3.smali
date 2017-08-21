@@ -48,7 +48,6 @@
     .line 630
     iget-object v0, p0, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert$3;->this$1:Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;
 
-    # invokes: Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->updateLayout()V
     invoke-static {v0}, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->access$1200(Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;)V
 
     .line 631

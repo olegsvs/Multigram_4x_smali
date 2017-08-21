@@ -63,7 +63,6 @@
     .line 375
     iget-object v0, p0, Lorg/telegram/ui/GroupCreateActivity$1;->this$0:Lorg/telegram/ui/GroupCreateActivity;
 
-    # invokes: Lorg/telegram/ui/GroupCreateActivity;->onDonePressed()Z
     invoke-static {v0}, Lorg/telegram/ui/GroupCreateActivity;->access$1000(Lorg/telegram/ui/GroupCreateActivity;)Z
 
     goto :goto_0

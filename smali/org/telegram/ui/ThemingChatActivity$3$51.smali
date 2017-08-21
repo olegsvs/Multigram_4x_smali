@@ -75,7 +75,6 @@
 
     move-result v4
 
-    # invokes: Lorg/telegram/ui/ThemingChatActivity;->commitInt(Ljava/lang/String;I)V
     invoke-static {v2, v3, v4}, Lorg/telegram/ui/ThemingChatActivity;->access$300(Lorg/telegram/ui/ThemingChatActivity;Ljava/lang/String;I)V
 
     .line 1275

@@ -54,21 +54,18 @@
 
     iget-object v2, v2, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->sharedMediaData:[Lorg/telegram/ui/MediaActivity$SharedMediaData;
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity;->access$2400(Lorg/telegram/ui/MediaActivity;)[Lorg/telegram/ui/MediaActivity$SharedMediaData;
 
     move-result-object v2
 
     iget-object v3, p0, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter$3;->this$1:Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->currentType:I
     invoke-static {v3}, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->access$4800(Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;)I
 
     move-result v3
 
     aget-object v2, v2, v3
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->messages:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$3000(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Ljava/util/ArrayList;
 
     move-result-object v2
@@ -82,7 +79,6 @@
     .line 2024
     iget-object v2, p0, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter$3;->this$1:Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->currentType:I
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->access$4800(Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;)I
 
     move-result v2
@@ -91,7 +87,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter$3;->this$1:Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->currentType:I
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->access$4800(Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;)I
 
     move-result v2
@@ -104,21 +99,18 @@
 
     iget-object v2, v2, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->sharedMediaData:[Lorg/telegram/ui/MediaActivity$SharedMediaData;
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity;->access$2400(Lorg/telegram/ui/MediaActivity;)[Lorg/telegram/ui/MediaActivity$SharedMediaData;
 
     move-result-object v2
 
     iget-object v3, p0, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter$3;->this$1:Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->currentType:I
     invoke-static {v3}, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->access$4800(Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;)I
 
     move-result v3
 
     aget-object v2, v2, v3
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->messages:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$3000(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Ljava/util/ArrayList;
 
     move-result-object v2
@@ -127,21 +119,18 @@
 
     iget-object v3, v3, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->sharedMediaData:[Lorg/telegram/ui/MediaActivity$SharedMediaData;
     invoke-static {v3}, Lorg/telegram/ui/MediaActivity;->access$2400(Lorg/telegram/ui/MediaActivity;)[Lorg/telegram/ui/MediaActivity$SharedMediaData;
 
     move-result-object v3
 
     iget-object v4, p0, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter$3;->this$1:Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->currentType:I
     invoke-static {v4}, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->access$4800(Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;)I
 
     move-result v4
 
     aget-object v3, v3, v4
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->messages:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$3000(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -180,7 +169,6 @@
     :goto_0
     iget-object v2, p0, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter$3;->this$1:Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->currentType:I
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->access$4800(Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;)I
 
     move-result v2
@@ -189,7 +177,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter$3;->this$1:Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->currentType:I
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->access$4800(Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;)I
 
     move-result v2
@@ -208,21 +195,18 @@
 
     iget-object v2, v2, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->sharedMediaData:[Lorg/telegram/ui/MediaActivity$SharedMediaData;
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity;->access$2400(Lorg/telegram/ui/MediaActivity;)[Lorg/telegram/ui/MediaActivity$SharedMediaData;
 
     move-result-object v2
 
     iget-object v3, p0, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter$3;->this$1:Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->currentType:I
     invoke-static {v3}, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->access$4800(Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;)I
 
     move-result v3
 
     aget-object v2, v2, v3
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->messages:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$3000(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Ljava/util/ArrayList;
 
     move-result-object v2
@@ -247,7 +231,6 @@
     :cond_4
     iget-object v2, p0, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter$3;->this$1:Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->currentType:I
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->access$4800(Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;)I
 
     move-result v2
@@ -267,7 +250,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->dialog_id:J
     invoke-static {v5}, Lorg/telegram/ui/MediaActivity;->access$000(Lorg/telegram/ui/MediaActivity;)J
 
     move-result-wide v6

@@ -632,7 +632,6 @@
 
     iget-boolean v12, v0, Lorg/telegram/messenger/query/SharedMediaQuery$7;->val$isChannel:Z
 
-    # invokes: Lorg/telegram/messenger/query/SharedMediaQuery;->processLoadedMedia(Lorg/telegram/tgnet/TLRPC$messages_Messages;JIIIIZIZZ)V
     invoke-static/range {v3 .. v13}, Lorg/telegram/messenger/query/SharedMediaQuery;->access$000(Lorg/telegram/tgnet/TLRPC$messages_Messages;JIIIIZIZZ)V
 
     .line 423
@@ -840,7 +839,6 @@
 
     iget-boolean v12, v0, Lorg/telegram/messenger/query/SharedMediaQuery$7;->val$isChannel:Z
 
-    # invokes: Lorg/telegram/messenger/query/SharedMediaQuery;->processLoadedMedia(Lorg/telegram/tgnet/TLRPC$messages_Messages;JIIIIZIZZ)V
     invoke-static/range {v3 .. v13}, Lorg/telegram/messenger/query/SharedMediaQuery;->access$000(Lorg/telegram/tgnet/TLRPC$messages_Messages;JIIIIZIZZ)V
 
     throw v29
@@ -1474,7 +1472,6 @@
 
     iget-boolean v12, v0, Lorg/telegram/messenger/query/SharedMediaQuery$7;->val$isChannel:Z
 
-    # invokes: Lorg/telegram/messenger/query/SharedMediaQuery;->processLoadedMedia(Lorg/telegram/tgnet/TLRPC$messages_Messages;JIIIIZIZZ)V
     invoke-static/range {v3 .. v13}, Lorg/telegram/messenger/query/SharedMediaQuery;->access$000(Lorg/telegram/tgnet/TLRPC$messages_Messages;JIIIIZIZZ)V
 
     goto/16 :goto_3

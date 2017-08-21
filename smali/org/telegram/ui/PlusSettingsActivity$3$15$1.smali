@@ -50,7 +50,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/PlusSettingsActivity$3;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # setter for: Lorg/telegram/ui/PlusSettingsActivity;->reseting:Z
     invoke-static {v2, v4}, Lorg/telegram/ui/PlusSettingsActivity;->access$7402(Lorg/telegram/ui/PlusSettingsActivity;Z)Z
 
     .line 1256
@@ -82,7 +81,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/PlusSettingsActivity$3;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->listView:Landroid/widget/ListView;
     invoke-static {v2}, Lorg/telegram/ui/PlusSettingsActivity;->access$300(Lorg/telegram/ui/PlusSettingsActivity;)Landroid/widget/ListView;
 
     move-result-object v2
@@ -96,7 +94,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/PlusSettingsActivity$3;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->listView:Landroid/widget/ListView;
     invoke-static {v2}, Lorg/telegram/ui/PlusSettingsActivity;->access$300(Lorg/telegram/ui/PlusSettingsActivity;)Landroid/widget/ListView;
 
     move-result-object v2
@@ -110,7 +107,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/PlusSettingsActivity$3;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # invokes: Lorg/telegram/ui/PlusSettingsActivity;->fixLayout()V
     invoke-static {v2}, Lorg/telegram/ui/PlusSettingsActivity;->access$7500(Lorg/telegram/ui/PlusSettingsActivity;)V
 
     .line 1264

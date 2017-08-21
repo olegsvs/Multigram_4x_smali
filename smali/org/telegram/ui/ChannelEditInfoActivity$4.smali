@@ -81,7 +81,6 @@
     .local v0, "builder":Lorg/telegram/ui/ActionBar/AlertDialog$Builder;
     iget-object v2, p0, Lorg/telegram/ui/ChannelEditInfoActivity$4;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->avatar:Lorg/telegram/tgnet/TLRPC$FileLocation;
     invoke-static {v2}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1700(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/tgnet/TLRPC$FileLocation;
 
     move-result-object v2

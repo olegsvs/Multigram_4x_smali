@@ -45,7 +45,6 @@
     .line 172
     iget-object v1, p0, Lorg/telegram/ui/Cells/SharedPhotoVideoCell$1;->this$0:Lorg/telegram/ui/Cells/SharedPhotoVideoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/SharedPhotoVideoCell;->delegate:Lorg/telegram/ui/Cells/SharedPhotoVideoCell$SharedPhotoVideoCellDelegate;
     invoke-static {v1}, Lorg/telegram/ui/Cells/SharedPhotoVideoCell;->access$100(Lorg/telegram/ui/Cells/SharedPhotoVideoCell;)Lorg/telegram/ui/Cells/SharedPhotoVideoCell$SharedPhotoVideoCellDelegate;
 
     move-result-object v1
@@ -67,7 +66,6 @@
     .local v0, "a":I
     iget-object v1, p0, Lorg/telegram/ui/Cells/SharedPhotoVideoCell$1;->this$0:Lorg/telegram/ui/Cells/SharedPhotoVideoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/SharedPhotoVideoCell;->delegate:Lorg/telegram/ui/Cells/SharedPhotoVideoCell$SharedPhotoVideoCellDelegate;
     invoke-static {v1}, Lorg/telegram/ui/Cells/SharedPhotoVideoCell;->access$100(Lorg/telegram/ui/Cells/SharedPhotoVideoCell;)Lorg/telegram/ui/Cells/SharedPhotoVideoCell$SharedPhotoVideoCellDelegate;
 
     move-result-object v1
@@ -76,7 +74,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Cells/SharedPhotoVideoCell$1;->this$0:Lorg/telegram/ui/Cells/SharedPhotoVideoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/SharedPhotoVideoCell;->indeces:[I
     invoke-static {v3}, Lorg/telegram/ui/Cells/SharedPhotoVideoCell;->access$200(Lorg/telegram/ui/Cells/SharedPhotoVideoCell;)[I
 
     move-result-object v3
@@ -85,7 +82,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Cells/SharedPhotoVideoCell$1;->this$0:Lorg/telegram/ui/Cells/SharedPhotoVideoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/SharedPhotoVideoCell;->messageObjects:[Lorg/telegram/messenger/MessageObject;
     invoke-static {v4}, Lorg/telegram/ui/Cells/SharedPhotoVideoCell;->access$300(Lorg/telegram/ui/Cells/SharedPhotoVideoCell;)[Lorg/telegram/messenger/MessageObject;
 
     move-result-object v4

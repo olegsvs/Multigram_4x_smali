@@ -2093,14 +2093,12 @@
 
     .line 187
     .local v1, "delayedPost":Lorg/telegram/messenger/NotificationCenter$DelayedPost;
-    # getter for: Lorg/telegram/messenger/NotificationCenter$DelayedPost;->id:I
     invoke-static {v1}, Lorg/telegram/messenger/NotificationCenter$DelayedPost;->access$000(Lorg/telegram/messenger/NotificationCenter$DelayedPost;)I
 
     move-result v2
 
     const/4 v3, 0x1
 
-    # getter for: Lorg/telegram/messenger/NotificationCenter$DelayedPost;->args:[Ljava/lang/Object;
     invoke-static {v1}, Lorg/telegram/messenger/NotificationCenter$DelayedPost;->access$100(Lorg/telegram/messenger/NotificationCenter$DelayedPost;)[Ljava/lang/Object;
 
     move-result-object v4

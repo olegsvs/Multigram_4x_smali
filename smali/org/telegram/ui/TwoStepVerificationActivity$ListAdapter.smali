@@ -47,7 +47,6 @@
     .line 925
     iget-object v0, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->loading:Z
     invoke-static {v0}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$1800(Lorg/telegram/ui/TwoStepVerificationActivity;)Z
 
     move-result v0
@@ -56,7 +55,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->currentPassword:Lorg/telegram/tgnet/TLRPC$account_Password;
     invoke-static {v0}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$200(Lorg/telegram/ui/TwoStepVerificationActivity;)Lorg/telegram/tgnet/TLRPC$account_Password;
 
     move-result-object v0
@@ -72,7 +70,6 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->rowCount:I
     invoke-static {v0}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$3100(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v0
@@ -88,7 +85,6 @@
     .line 991
     iget-object v0, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->setPasswordDetailRow:I
     invoke-static {v0}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2600(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v0
@@ -97,7 +93,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->shadowRow:I
     invoke-static {v0}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2700(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v0
@@ -106,7 +101,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->passwordSetupDetailRow:I
     invoke-static {v0}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2800(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v0
@@ -115,7 +109,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->passwordEnabledDetailRow:I
     invoke-static {v0}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$3000(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v0
@@ -124,7 +117,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->passwordEmailVerifyDetailRow:I
     invoke-static {v0}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2900(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v0
@@ -159,7 +151,6 @@
     .local v0, "position":I
     iget-object v1, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->setPasswordDetailRow:I
     invoke-static {v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2600(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v1
@@ -168,7 +159,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->shadowRow:I
     invoke-static {v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2700(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v1
@@ -177,7 +167,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->passwordSetupDetailRow:I
     invoke-static {v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2800(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v1
@@ -186,7 +175,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->passwordEmailVerifyDetailRow:I
     invoke-static {v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2900(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v1
@@ -195,7 +183,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->passwordEnabledDetailRow:I
     invoke-static {v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$3000(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v1
@@ -262,7 +249,6 @@
     .line 951
     iget-object v2, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->changePasswordRow:I
     invoke-static {v2}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$1000(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v2
@@ -296,7 +282,6 @@
     :cond_2
     iget-object v2, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->setPasswordRow:I
     invoke-static {v2}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$900(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v2
@@ -320,7 +305,6 @@
     :cond_3
     iget-object v2, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->turnPasswordOffRow:I
     invoke-static {v2}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$1500(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v2
@@ -344,7 +328,6 @@
     :cond_4
     iget-object v2, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->changeRecoveryEmailRow:I
     invoke-static {v2}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$1300(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v2
@@ -362,7 +345,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->abortPasswordRow:I
     invoke-static {v2}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$1600(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v2
@@ -387,7 +369,6 @@
     :cond_6
     iget-object v2, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->setRecoveryEmailRow:I
     invoke-static {v2}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$1200(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v2
@@ -411,7 +392,6 @@
     :cond_7
     iget-object v2, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->abortPasswordRow:I
     invoke-static {v2}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$1600(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v2
@@ -456,7 +436,6 @@
     .local v0, "privacyCell":Lorg/telegram/ui/Cells/TextInfoPrivacyCell;
     iget-object v2, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->setPasswordDetailRow:I
     invoke-static {v2}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2600(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v2
@@ -491,7 +470,6 @@
     :cond_8
     iget-object v2, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->shadowRow:I
     invoke-static {v2}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2700(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v2
@@ -520,7 +498,6 @@
     :cond_9
     iget-object v2, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->passwordSetupDetailRow:I
     invoke-static {v2}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2800(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v2
@@ -536,7 +513,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->currentPassword:Lorg/telegram/tgnet/TLRPC$account_Password;
     invoke-static {v6}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$200(Lorg/telegram/ui/TwoStepVerificationActivity;)Lorg/telegram/tgnet/TLRPC$account_Password;
 
     move-result-object v6
@@ -570,7 +546,6 @@
     :cond_a
     iget-object v2, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->passwordEnabledDetailRow:I
     invoke-static {v2}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$3000(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v2
@@ -605,7 +580,6 @@
     :cond_b
     iget-object v2, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->passwordEmailVerifyDetailRow:I
     invoke-static {v2}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2900(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v2
@@ -621,7 +595,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/TwoStepVerificationActivity$ListAdapter;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->currentPassword:Lorg/telegram/tgnet/TLRPC$account_Password;
     invoke-static {v6}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$200(Lorg/telegram/ui/TwoStepVerificationActivity;)Lorg/telegram/tgnet/TLRPC$account_Password;
 
     move-result-object v6

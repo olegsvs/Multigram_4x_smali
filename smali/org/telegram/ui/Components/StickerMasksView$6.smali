@@ -44,7 +44,6 @@
     .line 168
     iget-object v0, p0, Lorg/telegram/ui/Components/StickerMasksView$6;->this$0:Lorg/telegram/ui/Components/StickerMasksView;
 
-    # invokes: Lorg/telegram/ui/Components/StickerMasksView;->checkScroll()V
     invoke-static {v0}, Lorg/telegram/ui/Components/StickerMasksView;->access$1600(Lorg/telegram/ui/Components/StickerMasksView;)V
 
     .line 169

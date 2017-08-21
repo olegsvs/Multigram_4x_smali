@@ -992,7 +992,6 @@
 
     move-object/from16 v20, v0
 
-    # invokes: Lorg/telegram/messenger/support/widget/RecyclerView;->awakenScrollBars()Z
     invoke-static/range {v20 .. v20}, Lorg/telegram/messenger/support/widget/RecyclerView;->access$500(Lorg/telegram/messenger/support/widget/RecyclerView;)Z
 
     move-result v20
@@ -1102,7 +1101,6 @@
     invoke-virtual/range {v20 .. v21}, Lorg/telegram/messenger/support/widget/RecyclerView;->setScrollState(I)V
 
     .line 4809
-    # getter for: Lorg/telegram/messenger/support/widget/RecyclerView;->ALLOW_THREAD_GAP_WORK:Z
     invoke-static {}, Lorg/telegram/messenger/support/widget/RecyclerView;->access$600()Z
 
     move-result v20
@@ -1156,7 +1154,6 @@
 
     move/from16 v1, v21
 
-    # invokes: Lorg/telegram/messenger/support/widget/RecyclerView$SmoothScroller;->onAnimation(II)V
     invoke-static {v13, v0, v1}, Lorg/telegram/messenger/support/widget/RecyclerView$SmoothScroller;->access$400(Lorg/telegram/messenger/support/widget/RecyclerView$SmoothScroller;II)V
 
     .line 4824
@@ -1213,7 +1210,6 @@
 
     move/from16 v1, v21
 
-    # invokes: Lorg/telegram/messenger/support/widget/RecyclerView$SmoothScroller;->onAnimation(II)V
     invoke-static {v13, v0, v1}, Lorg/telegram/messenger/support/widget/RecyclerView$SmoothScroller;->access$400(Lorg/telegram/messenger/support/widget/RecyclerView$SmoothScroller;II)V
 
     goto/16 :goto_1
@@ -1228,7 +1224,6 @@
 
     move/from16 v1, v21
 
-    # invokes: Lorg/telegram/messenger/support/widget/RecyclerView$SmoothScroller;->onAnimation(II)V
     invoke-static {v13, v0, v1}, Lorg/telegram/messenger/support/widget/RecyclerView$SmoothScroller;->access$400(Lorg/telegram/messenger/support/widget/RecyclerView$SmoothScroller;II)V
 
     goto/16 :goto_1

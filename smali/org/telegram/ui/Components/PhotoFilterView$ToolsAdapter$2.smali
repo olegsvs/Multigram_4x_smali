@@ -65,7 +65,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/Components/PhotoFilterView$ToolsAdapter;->this$0:Lorg/telegram/ui/Components/PhotoFilterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView;->tintShadowsTool:I
     invoke-static {v3}, Lorg/telegram/ui/Components/PhotoFilterView;->access$8200(Lorg/telegram/ui/Components/PhotoFilterView;)I
 
     move-result v3
@@ -81,7 +80,6 @@
 
     move-result v3
 
-    # setter for: Lorg/telegram/ui/Components/PhotoFilterView;->tintShadowsColor:I
     invoke-static {v2, v3}, Lorg/telegram/ui/Components/PhotoFilterView;->access$1402(Lorg/telegram/ui/Components/PhotoFilterView;I)I
 
     .line 2229
@@ -90,7 +88,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/Components/PhotoFilterView$ToolsAdapter;->this$0:Lorg/telegram/ui/Components/PhotoFilterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView;->eglThread:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
     invoke-static {v2}, Lorg/telegram/ui/Components/PhotoFilterView;->access$5000(Lorg/telegram/ui/Components/PhotoFilterView;)Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
     move-result-object v2
@@ -102,7 +99,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/Components/PhotoFilterView$ToolsAdapter;->this$0:Lorg/telegram/ui/Components/PhotoFilterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView;->eglThread:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
     invoke-static {v2}, Lorg/telegram/ui/Components/PhotoFilterView;->access$5000(Lorg/telegram/ui/Components/PhotoFilterView;)Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
     move-result-object v2
@@ -125,7 +121,6 @@
 
     move-result v3
 
-    # setter for: Lorg/telegram/ui/Components/PhotoFilterView;->tintHighlightsColor:I
     invoke-static {v2, v3}, Lorg/telegram/ui/Components/PhotoFilterView;->access$1202(Lorg/telegram/ui/Components/PhotoFilterView;I)I
 
     goto :goto_0

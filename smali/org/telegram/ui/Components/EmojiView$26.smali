@@ -48,7 +48,6 @@
     .line 1388
     iget-object v0, p0, Lorg/telegram/ui/Components/EmojiView$26;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->backspacePressed:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/EmojiView;->access$5700(Lorg/telegram/ui/Components/EmojiView;)Z
 
     move-result v0
@@ -63,7 +62,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/Components/EmojiView$26;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->listener:Lorg/telegram/ui/Components/EmojiView$Listener;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmojiView;->access$000(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$Listener;
 
     move-result-object v0
@@ -72,7 +70,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/EmojiView$26;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->listener:Lorg/telegram/ui/Components/EmojiView$Listener;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmojiView;->access$000(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$Listener;
 
     move-result-object v0
@@ -86,7 +83,6 @@
     .line 1392
     iget-object v0, p0, Lorg/telegram/ui/Components/EmojiView$26;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->backspaceButton:Landroid/widget/ImageView;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmojiView;->access$6000(Lorg/telegram/ui/Components/EmojiView;)Landroid/widget/ImageView;
 
     move-result-object v0
@@ -101,7 +97,6 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/ui/Components/EmojiView;->backspaceOnce:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/EmojiView;->access$5802(Lorg/telegram/ui/Components/EmojiView;Z)Z
 
     .line 1395
@@ -117,7 +112,6 @@
 
     move-result v1
 
-    # invokes: Lorg/telegram/ui/Components/EmojiView;->postBackspaceRunnable(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/EmojiView;->access$5900(Lorg/telegram/ui/Components/EmojiView;I)V
 
     goto :goto_0

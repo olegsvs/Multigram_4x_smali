@@ -47,7 +47,6 @@
     .line 257
     iget-object v0, p0, Lorg/telegram/ui/ChangeChatNameActivity$4;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->avatarDrawable:Lorg/telegram/ui/Components/AvatarDrawable;
     invoke-static {v0}, Lorg/telegram/ui/ChangeChatNameActivity;->access$1000(Lorg/telegram/ui/ChangeChatNameActivity;)Lorg/telegram/ui/Components/AvatarDrawable;
 
     move-result-object v2
@@ -56,7 +55,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ChangeChatNameActivity$4;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->nameTextView:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/ChangeChatNameActivity;->access$100(Lorg/telegram/ui/ChangeChatNameActivity;)Landroid/widget/EditText;
 
     move-result-object v0
@@ -69,7 +67,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ChangeChatNameActivity$4;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->nameTextView:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/ChangeChatNameActivity;->access$100(Lorg/telegram/ui/ChangeChatNameActivity;)Landroid/widget/EditText;
 
     move-result-object v0
@@ -90,7 +87,6 @@
     .line 258
     iget-object v0, p0, Lorg/telegram/ui/ChangeChatNameActivity$4;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->avatarImage:Lorg/telegram/ui/Components/BackupImageView;
     invoke-static {v0}, Lorg/telegram/ui/ChangeChatNameActivity;->access$1100(Lorg/telegram/ui/ChangeChatNameActivity;)Lorg/telegram/ui/Components/BackupImageView;
 
     move-result-object v0

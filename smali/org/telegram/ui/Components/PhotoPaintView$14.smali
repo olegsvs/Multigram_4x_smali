@@ -45,13 +45,11 @@
     .line 790
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$14;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->closeStickersView()V
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$1300(Lorg/telegram/ui/Components/PhotoPaintView;)V
 
     .line 791
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$14;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->createSticker(Lorg/telegram/tgnet/TLRPC$Document;)V
     invoke-static {v0, p1}, Lorg/telegram/ui/Components/PhotoPaintView;->access$1400(Lorg/telegram/ui/Components/PhotoPaintView;Lorg/telegram/tgnet/TLRPC$Document;)V
 
     .line 792

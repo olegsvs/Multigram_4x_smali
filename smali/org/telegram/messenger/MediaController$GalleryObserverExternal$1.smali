@@ -48,7 +48,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/messenger/MediaController;->refreshGalleryRunnable:Ljava/lang/Runnable;
     invoke-static {v0, v1}, Lorg/telegram/messenger/MediaController;->access$1502(Lorg/telegram/messenger/MediaController;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 566

@@ -46,7 +46,6 @@
     .line 2828
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$25;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->containerView:Landroid/widget/FrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$1200(Lorg/telegram/ui/ArticleViewer;)Landroid/widget/FrameLayout;
 
     move-result-object v0
@@ -55,7 +54,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$25;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->windowView:Lorg/telegram/ui/ArticleViewer$WindowView;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$900(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/ArticleViewer$WindowView;
 
     move-result-object v0
@@ -78,7 +76,6 @@
     .line 2832
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$25;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->containerView:Landroid/widget/FrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$1200(Lorg/telegram/ui/ArticleViewer;)Landroid/widget/FrameLayout;
 
     move-result-object v0
@@ -91,7 +88,6 @@
     :cond_2
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$25;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->animationInProgress:I
     invoke-static {v0, v2}, Lorg/telegram/ui/ArticleViewer;->access$7702(Lorg/telegram/ui/ArticleViewer;I)I
 
     goto :goto_0

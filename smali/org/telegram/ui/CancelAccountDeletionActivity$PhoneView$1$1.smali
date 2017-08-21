@@ -56,7 +56,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/CancelAccountDeletionActivity$PhoneView$1;->this$1:Lorg/telegram/ui/CancelAccountDeletionActivity$PhoneView;
 
-    # setter for: Lorg/telegram/ui/CancelAccountDeletionActivity$PhoneView;->nextPressed:Z
     invoke-static {v0, v4}, Lorg/telegram/ui/CancelAccountDeletionActivity$PhoneView;->access$402(Lorg/telegram/ui/CancelAccountDeletionActivity$PhoneView;Z)Z
 
     .line 404
@@ -79,7 +78,6 @@
 
     check-cast v0, Lorg/telegram/tgnet/TLRPC$TL_auth_sentCode;
 
-    # invokes: Lorg/telegram/ui/CancelAccountDeletionActivity;->fillNextCodeParams(Landroid/os/Bundle;Lorg/telegram/tgnet/TLRPC$TL_auth_sentCode;)V
     invoke-static {v1, v2, v0}, Lorg/telegram/ui/CancelAccountDeletionActivity;->access$500(Lorg/telegram/ui/CancelAccountDeletionActivity;Landroid/os/Bundle;Lorg/telegram/tgnet/TLRPC$TL_auth_sentCode;)V
 
     .line 409
@@ -112,7 +110,6 @@
 
     move-result-object v1
 
-    # setter for: Lorg/telegram/ui/CancelAccountDeletionActivity;->errorDialog:Landroid/app/Dialog;
     invoke-static {v0, v1}, Lorg/telegram/ui/CancelAccountDeletionActivity;->access$602(Lorg/telegram/ui/CancelAccountDeletionActivity;Landroid/app/Dialog;)Landroid/app/Dialog;
 
     goto :goto_0

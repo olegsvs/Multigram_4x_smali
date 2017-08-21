@@ -65,7 +65,6 @@
     move v4, v5
 
     :goto_0
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->buttonForBrush(IIZ)Landroid/widget/FrameLayout;
     invoke-static {v7, v6, v8, v4}, Lorg/telegram/ui/Components/PhotoPaintView;->access$2500(Lorg/telegram/ui/Components/PhotoPaintView;IIZ)Landroid/widget/FrameLayout;
 
     move-result-object v3
@@ -74,7 +73,6 @@
     .local v3, "radial":Landroid/view/View;
     iget-object v4, p0, Lorg/telegram/ui/Components/PhotoPaintView$19;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->popupLayout:Lorg/telegram/ui/ActionBar/ActionBarPopupWindow$ActionBarPopupWindowLayout;
     invoke-static {v4}, Lorg/telegram/ui/Components/PhotoPaintView;->access$2300(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/ActionBar/ActionBarPopupWindow$ActionBarPopupWindowLayout;
 
     move-result-object v4
@@ -116,7 +114,6 @@
     move v4, v5
 
     :goto_1
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->buttonForBrush(IIZ)Landroid/widget/FrameLayout;
     invoke-static {v7, v5, v8, v4}, Lorg/telegram/ui/Components/PhotoPaintView;->access$2500(Lorg/telegram/ui/Components/PhotoPaintView;IIZ)Landroid/widget/FrameLayout;
 
     move-result-object v0
@@ -125,7 +122,6 @@
     .local v0, "elliptical":Landroid/view/View;
     iget-object v4, p0, Lorg/telegram/ui/Components/PhotoPaintView$19;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->popupLayout:Lorg/telegram/ui/ActionBar/ActionBarPopupWindow$ActionBarPopupWindowLayout;
     invoke-static {v4}, Lorg/telegram/ui/Components/PhotoPaintView;->access$2300(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/ActionBar/ActionBarPopupWindow$ActionBarPopupWindowLayout;
 
     move-result-object v4
@@ -166,7 +162,6 @@
     if-ne v8, v11, :cond_2
 
     :goto_2
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->buttonForBrush(IIZ)Landroid/widget/FrameLayout;
     invoke-static {v4, v11, v7, v5}, Lorg/telegram/ui/Components/PhotoPaintView;->access$2500(Lorg/telegram/ui/Components/PhotoPaintView;IIZ)Landroid/widget/FrameLayout;
 
     move-result-object v2
@@ -175,7 +170,6 @@
     .local v2, "neon":Landroid/view/View;
     iget-object v4, p0, Lorg/telegram/ui/Components/PhotoPaintView$19;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->popupLayout:Lorg/telegram/ui/ActionBar/ActionBarPopupWindow$ActionBarPopupWindowLayout;
     invoke-static {v4}, Lorg/telegram/ui/Components/PhotoPaintView;->access$2300(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/ActionBar/ActionBarPopupWindow$ActionBarPopupWindowLayout;
 
     move-result-object v4

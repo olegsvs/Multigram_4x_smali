@@ -44,7 +44,6 @@
     .line 1184
     iget-object v0, p0, Lorg/telegram/ui/SettingsActivity$13;->this$0:Lorg/telegram/ui/SettingsActivity;
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->fragmentView:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/SettingsActivity;->access$4400(Lorg/telegram/ui/SettingsActivity;)Landroid/view/View;
 
     move-result-object v0
@@ -54,13 +53,11 @@
     .line 1185
     iget-object v0, p0, Lorg/telegram/ui/SettingsActivity$13;->this$0:Lorg/telegram/ui/SettingsActivity;
 
-    # invokes: Lorg/telegram/ui/SettingsActivity;->needLayout()V
     invoke-static {v0}, Lorg/telegram/ui/SettingsActivity;->access$4100(Lorg/telegram/ui/SettingsActivity;)V
 
     .line 1186
     iget-object v0, p0, Lorg/telegram/ui/SettingsActivity$13;->this$0:Lorg/telegram/ui/SettingsActivity;
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->fragmentView:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/SettingsActivity;->access$4500(Lorg/telegram/ui/SettingsActivity;)Landroid/view/View;
 
     move-result-object v0

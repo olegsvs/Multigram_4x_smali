@@ -44,7 +44,6 @@
     .line 133
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod$2;->this$0:Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;->released:Z
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;->access$100(Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;)Z
 
     move-result v0
@@ -54,7 +53,6 @@
     .line 134
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod$2;->this$0:Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;->callback:Lorg/telegram/messenger/exoplayer2/source/MediaPeriod$Callback;
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;->access$200(Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;)Lorg/telegram/messenger/exoplayer2/source/MediaPeriod$Callback;
 
     move-result-object v0

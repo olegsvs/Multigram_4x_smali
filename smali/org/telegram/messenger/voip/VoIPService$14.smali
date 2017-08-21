@@ -46,7 +46,6 @@
     .line 972
     iget-object v0, p0, Lorg/telegram/messenger/voip/VoIPService$14;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # setter for: Lorg/telegram/messenger/voip/VoIPService;->timeoutRunnable:Ljava/lang/Runnable;
     invoke-static {v0, v2}, Lorg/telegram/messenger/voip/VoIPService;->access$1902(Lorg/telegram/messenger/voip/VoIPService;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 973

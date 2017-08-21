@@ -45,13 +45,11 @@
     .line 68
     iget-object v0, p0, Lorg/telegram/messenger/SendMessagesHelper$1;->this$0:Lorg/telegram/messenger/SendMessagesHelper;
 
-    # invokes: Lorg/telegram/messenger/SendMessagesHelper;->sendLocation(Landroid/location/Location;)V
     invoke-static {v0, p1}, Lorg/telegram/messenger/SendMessagesHelper;->access$000(Lorg/telegram/messenger/SendMessagesHelper;Landroid/location/Location;)V
 
     .line 69
     iget-object v0, p0, Lorg/telegram/messenger/SendMessagesHelper$1;->this$0:Lorg/telegram/messenger/SendMessagesHelper;
 
-    # getter for: Lorg/telegram/messenger/SendMessagesHelper;->waitingForLocation:Ljava/util/HashMap;
     invoke-static {v0}, Lorg/telegram/messenger/SendMessagesHelper;->access$100(Lorg/telegram/messenger/SendMessagesHelper;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -71,7 +69,6 @@
 
     iget-object v1, p0, Lorg/telegram/messenger/SendMessagesHelper$1;->this$0:Lorg/telegram/messenger/SendMessagesHelper;
 
-    # getter for: Lorg/telegram/messenger/SendMessagesHelper;->waitingForLocation:Ljava/util/HashMap;
     invoke-static {v1}, Lorg/telegram/messenger/SendMessagesHelper;->access$100(Lorg/telegram/messenger/SendMessagesHelper;)Ljava/util/HashMap;
 
     move-result-object v1
@@ -99,7 +96,6 @@
     .line 76
     iget-object v1, p0, Lorg/telegram/messenger/SendMessagesHelper$1;->this$0:Lorg/telegram/messenger/SendMessagesHelper;
 
-    # getter for: Lorg/telegram/messenger/SendMessagesHelper;->waitingForLocation:Ljava/util/HashMap;
     invoke-static {v1}, Lorg/telegram/messenger/SendMessagesHelper;->access$100(Lorg/telegram/messenger/SendMessagesHelper;)Ljava/util/HashMap;
 
     move-result-object v1

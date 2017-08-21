@@ -69,7 +69,6 @@
     .local v0, "args":Landroid/os/Bundle;
     iget-object v2, p0, Lorg/telegram/ui/PrivacyUsersActivity$1;->this$0:Lorg/telegram/ui/PrivacyUsersActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyUsersActivity;->isAlwaysShare:Z
     invoke-static {v2}, Lorg/telegram/ui/PrivacyUsersActivity;->access$000(Lorg/telegram/ui/PrivacyUsersActivity;)Z
 
     move-result v2
@@ -86,7 +85,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/PrivacyUsersActivity$1;->this$0:Lorg/telegram/ui/PrivacyUsersActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyUsersActivity;->isGroup:Z
     invoke-static {v3}, Lorg/telegram/ui/PrivacyUsersActivity;->access$100(Lorg/telegram/ui/PrivacyUsersActivity;)Z
 
     move-result v3

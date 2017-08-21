@@ -60,7 +60,6 @@
     :try_start_1
     iget-object v1, p0, Lorg/telegram/messenger/exoplayer2/upstream/cache/SimpleCache$1;->this$0:Lorg/telegram/messenger/exoplayer2/upstream/cache/SimpleCache;
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/upstream/cache/SimpleCache;->initialize()V
     invoke-static {v1}, Lorg/telegram/messenger/exoplayer2/upstream/cache/SimpleCache;->access$000(Lorg/telegram/messenger/exoplayer2/upstream/cache/SimpleCache;)V
     :try_end_1
     .catch Lorg/telegram/messenger/exoplayer2/upstream/cache/Cache$CacheException; {:try_start_1 .. :try_end_1} :catch_0
@@ -71,7 +70,6 @@
     :try_start_2
     iget-object v1, p0, Lorg/telegram/messenger/exoplayer2/upstream/cache/SimpleCache$1;->this$0:Lorg/telegram/messenger/exoplayer2/upstream/cache/SimpleCache;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/upstream/cache/SimpleCache;->evictor:Lorg/telegram/messenger/exoplayer2/upstream/cache/CacheEvictor;
     invoke-static {v1}, Lorg/telegram/messenger/exoplayer2/upstream/cache/SimpleCache;->access$200(Lorg/telegram/messenger/exoplayer2/upstream/cache/SimpleCache;)Lorg/telegram/messenger/exoplayer2/upstream/cache/CacheEvictor;
 
     move-result-object v1
@@ -92,7 +90,6 @@
     .local v0, "e":Lorg/telegram/messenger/exoplayer2/upstream/cache/Cache$CacheException;
     iget-object v1, p0, Lorg/telegram/messenger/exoplayer2/upstream/cache/SimpleCache$1;->this$0:Lorg/telegram/messenger/exoplayer2/upstream/cache/SimpleCache;
 
-    # setter for: Lorg/telegram/messenger/exoplayer2/upstream/cache/SimpleCache;->initializationException:Lorg/telegram/messenger/exoplayer2/upstream/cache/Cache$CacheException;
     invoke-static {v1, v0}, Lorg/telegram/messenger/exoplayer2/upstream/cache/SimpleCache;->access$102(Lorg/telegram/messenger/exoplayer2/upstream/cache/SimpleCache;Lorg/telegram/messenger/exoplayer2/upstream/cache/Cache$CacheException;)Lorg/telegram/messenger/exoplayer2/upstream/cache/Cache$CacheException;
 
     goto :goto_0

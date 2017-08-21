@@ -46,7 +46,6 @@
     .line 2778
     iget-object v3, p0, Lorg/telegram/ui/LaunchActivity$27;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->actionBarLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v3}, Lorg/telegram/ui/LaunchActivity;->access$100(Lorg/telegram/ui/LaunchActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v3
@@ -55,7 +54,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/LaunchActivity$27;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->actionBarLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v3}, Lorg/telegram/ui/LaunchActivity;->access$100(Lorg/telegram/ui/LaunchActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v3
@@ -87,7 +85,6 @@
     .local v2, "preferences":Landroid/content/SharedPreferences;
     iget-object v3, p0, Lorg/telegram/ui/LaunchActivity$27;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->actionBarLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v3}, Lorg/telegram/ui/LaunchActivity;->access$100(Lorg/telegram/ui/LaunchActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v3
@@ -96,7 +93,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/LaunchActivity$27;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->actionBarLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v4}, Lorg/telegram/ui/LaunchActivity;->access$100(Lorg/telegram/ui/LaunchActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v4

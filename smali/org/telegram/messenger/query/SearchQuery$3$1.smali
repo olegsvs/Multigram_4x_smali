@@ -150,7 +150,6 @@
     .line 350
     new-instance v2, Ljava/util/HashMap;
 
-    # getter for: Lorg/telegram/messenger/query/SearchQuery;->inlineDates:Ljava/util/HashMap;
     invoke-static {}, Lorg/telegram/messenger/query/SearchQuery;->access$400()Ljava/util/HashMap;
 
     move-result-object v4

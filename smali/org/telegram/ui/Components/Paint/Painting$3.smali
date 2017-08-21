@@ -50,7 +50,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/Paint/Painting$3;->val$slice:Lorg/telegram/ui/Components/Paint/Slice;
 
-    # invokes: Lorg/telegram/ui/Components/Paint/Painting;->restoreSlice(Lorg/telegram/ui/Components/Paint/Slice;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/Paint/Painting;->access$1700(Lorg/telegram/ui/Components/Paint/Painting;Lorg/telegram/ui/Components/Paint/Slice;)V
 
     .line 280

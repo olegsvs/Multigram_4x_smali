@@ -67,7 +67,6 @@
     .local v8, "mids":Ljava/util/ArrayList;, "Ljava/util/ArrayList<Ljava/lang/Integer;>;"
     iget-object v10, p0, Lorg/telegram/messenger/MessagesStorage$21;->this$0:Lorg/telegram/messenger/MessagesStorage;
 
-    # getter for: Lorg/telegram/messenger/MessagesStorage;->database:Lorg/telegram/SQLite/SQLiteDatabase;
     invoke-static {v10}, Lorg/telegram/messenger/MessagesStorage;->access$000(Lorg/telegram/messenger/MessagesStorage;)Lorg/telegram/SQLite/SQLiteDatabase;
 
     move-result-object v10
@@ -258,7 +257,6 @@
 
     iget v11, p0, Lorg/telegram/messenger/MessagesStorage$21;->val$channelId:I
 
-    # invokes: Lorg/telegram/messenger/MessagesStorage;->markMessagesAsDeletedInternal(Ljava/util/ArrayList;I)Ljava/util/ArrayList;
     invoke-static {v10, v8, v11}, Lorg/telegram/messenger/MessagesStorage;->access$700(Lorg/telegram/messenger/MessagesStorage;Ljava/util/ArrayList;I)Ljava/util/ArrayList;
 
     .line 1369
@@ -268,7 +266,6 @@
 
     iget v12, p0, Lorg/telegram/messenger/MessagesStorage$21;->val$channelId:I
 
-    # invokes: Lorg/telegram/messenger/MessagesStorage;->updateDialogsWithDeletedMessagesInternal(Ljava/util/ArrayList;Ljava/util/ArrayList;I)V
     invoke-static {v10, v8, v11, v12}, Lorg/telegram/messenger/MessagesStorage;->access$800(Lorg/telegram/messenger/MessagesStorage;Ljava/util/ArrayList;Ljava/util/ArrayList;I)V
 
     .line 1370

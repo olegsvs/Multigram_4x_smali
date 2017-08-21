@@ -45,7 +45,6 @@
     .line 447
     iget-object v0, p0, Lorg/telegram/ui/ChannelCreateActivity$7;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->isPrivate:Z
     invoke-static {v0}, Lorg/telegram/ui/ChannelCreateActivity;->access$800(Lorg/telegram/ui/ChannelCreateActivity;)Z
 
     move-result v0
@@ -62,13 +61,11 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/ChannelCreateActivity;->isPrivate:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/ChannelCreateActivity;->access$802(Lorg/telegram/ui/ChannelCreateActivity;Z)Z
 
     .line 451
     iget-object v0, p0, Lorg/telegram/ui/ChannelCreateActivity$7;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelCreateActivity;->updatePrivatePublic()V
     invoke-static {v0}, Lorg/telegram/ui/ChannelCreateActivity;->access$1800(Lorg/telegram/ui/ChannelCreateActivity;)V
 
     goto :goto_0

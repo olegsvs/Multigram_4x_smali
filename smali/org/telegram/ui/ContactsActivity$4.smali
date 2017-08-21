@@ -47,7 +47,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ContactsActivity$4;->this$0:Lorg/telegram/ui/ContactsActivity;
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->searching:Z
     invoke-static {v0}, Lorg/telegram/ui/ContactsActivity;->access$000(Lorg/telegram/ui/ContactsActivity;)Z
 
     move-result v0
@@ -56,7 +55,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ContactsActivity$4;->this$0:Lorg/telegram/ui/ContactsActivity;
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->searchWas:Z
     invoke-static {v0}, Lorg/telegram/ui/ContactsActivity;->access$300(Lorg/telegram/ui/ContactsActivity;)Z
 
     move-result v0

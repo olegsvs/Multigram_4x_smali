@@ -2284,7 +2284,6 @@
     iget-object v2, p0, Lorg/telegram/ui/AudioPlayerActivity;->seekBarView:Lorg/telegram/ui/AudioPlayerActivity$SeekBarView;
 
     .line 526
-    # getter for: Lorg/telegram/ui/AudioPlayerActivity$SeekBarView;->innerPaint1:Landroid/graphics/Paint;
     invoke-static {v2}, Lorg/telegram/ui/AudioPlayerActivity$SeekBarView;->access$400(Lorg/telegram/ui/AudioPlayerActivity$SeekBarView;)Landroid/graphics/Paint;
 
     move-result-object v4
@@ -2310,7 +2309,6 @@
     iget-object v2, p0, Lorg/telegram/ui/AudioPlayerActivity;->seekBarView:Lorg/telegram/ui/AudioPlayerActivity$SeekBarView;
 
     .line 527
-    # getter for: Lorg/telegram/ui/AudioPlayerActivity$SeekBarView;->outerPaint1:Landroid/graphics/Paint;
     invoke-static {v2}, Lorg/telegram/ui/AudioPlayerActivity$SeekBarView;->access$500(Lorg/telegram/ui/AudioPlayerActivity$SeekBarView;)Landroid/graphics/Paint;
 
     move-result-object v4

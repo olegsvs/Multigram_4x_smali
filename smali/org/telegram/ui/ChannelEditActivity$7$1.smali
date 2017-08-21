@@ -91,7 +91,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$7;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelEditActivity;->usersEndReached:Z
     invoke-static {v3, v7}, Lorg/telegram/ui/ChannelEditActivity;->access$1602(Lorg/telegram/ui/ChannelEditActivity;Z)Z
 
     .line 357
@@ -109,7 +108,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$7;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->participantsMap:Ljava/util/HashMap;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$1700(Lorg/telegram/ui/ChannelEditActivity;)Ljava/util/HashMap;
 
     move-result-object v3
@@ -121,7 +119,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$7;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v3
@@ -150,7 +147,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/ChannelEditActivity$7;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->chat_id:I
     invoke-static {v4}, Lorg/telegram/ui/ChannelEditActivity;->access$100(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v4
@@ -216,7 +212,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$7;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->participantsMap:Ljava/util/HashMap;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$1700(Lorg/telegram/ui/ChannelEditActivity;)Ljava/util/HashMap;
 
     move-result-object v3
@@ -238,7 +233,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$7;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v3
@@ -254,7 +248,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$7;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->participantsMap:Ljava/util/HashMap;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$1700(Lorg/telegram/ui/ChannelEditActivity;)Ljava/util/HashMap;
 
     move-result-object v3
@@ -282,7 +275,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$7;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelEditActivity;->loadingUsers:Z
     invoke-static {v3, v8}, Lorg/telegram/ui/ChannelEditActivity;->access$1802(Lorg/telegram/ui/ChannelEditActivity;Z)Z
 
     .line 376
@@ -300,7 +292,6 @@
 
     iget-object v6, v6, Lorg/telegram/ui/ChannelEditActivity$7;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v6}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v6

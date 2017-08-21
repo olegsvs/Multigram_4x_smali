@@ -48,7 +48,6 @@
     .line 546
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod$4;->this$0:Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;->eventListener:Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaSource$EventListener;
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;->access$600(Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;)Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaSource$EventListener;
 
     move-result-object v0

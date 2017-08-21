@@ -1677,7 +1677,6 @@
 
     check-cast v4, Lorg/telegram/ui/Components/ChatDialogsView$ChatDialogsAdapter;
 
-    # invokes: Lorg/telegram/ui/Components/ChatDialogsView$ChatDialogsAdapter;->getTitleRes()I
     invoke-static {v4}, Lorg/telegram/ui/Components/ChatDialogsView$ChatDialogsAdapter;->access$1700(Lorg/telegram/ui/Components/ChatDialogsView$ChatDialogsAdapter;)I
 
     move-result v3
@@ -2023,7 +2022,6 @@
 
     check-cast v4, Lorg/telegram/ui/Components/ChatDialogsView$ListAdapter;
 
-    # invokes: Lorg/telegram/ui/Components/ChatDialogsView$ListAdapter;->getTitleRes()I
     invoke-static {v4}, Lorg/telegram/ui/Components/ChatDialogsView$ListAdapter;->access$1800(Lorg/telegram/ui/Components/ChatDialogsView$ListAdapter;)I
 
     move-result v3

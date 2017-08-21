@@ -60,7 +60,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/EmbedBottomSheet$9;->this$0:Lorg/telegram/ui/Components/EmbedBottomSheet;
 
-    # getter for: Lorg/telegram/ui/Components/EmbedBottomSheet;->openUrl:Ljava/lang/String;
     invoke-static {v4}, Lorg/telegram/ui/Components/EmbedBottomSheet;->access$3800(Lorg/telegram/ui/Components/EmbedBottomSheet;)Ljava/lang/String;
 
     move-result-object v4

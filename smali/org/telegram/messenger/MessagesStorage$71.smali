@@ -74,7 +74,6 @@
 
     iget-boolean v5, p0, Lorg/telegram/messenger/MessagesStorage$71;->val$ifNoLastMessage:Z
 
-    # invokes: Lorg/telegram/messenger/MessagesStorage;->putMessagesInternal(Ljava/util/ArrayList;ZZIZ)V
     invoke-static/range {v0 .. v5}, Lorg/telegram/messenger/MessagesStorage;->access$1400(Lorg/telegram/messenger/MessagesStorage;Ljava/util/ArrayList;ZZIZ)V
 
     .line 4788

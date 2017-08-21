@@ -65,7 +65,6 @@
     .line 2100
     iget-object v5, p0, Lorg/telegram/messenger/ImageLoader$11;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # operator-- for: Lorg/telegram/messenger/ImageLoader;->currentHttpFileLoadTasksCount:I
     invoke-static {v5}, Lorg/telegram/messenger/ImageLoader;->access$4010(Lorg/telegram/messenger/ImageLoader;)I
 
     .line 2102
@@ -82,7 +81,6 @@
     .line 2104
     iget-object v5, p0, Lorg/telegram/messenger/ImageLoader$11;->val$oldTask:Lorg/telegram/messenger/ImageLoader$HttpFileTask;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader$HttpFileTask;->canRetry:Z
     invoke-static {v5}, Lorg/telegram/messenger/ImageLoader$HttpFileTask;->access$4100(Lorg/telegram/messenger/ImageLoader$HttpFileTask;)Z
 
     move-result v5
@@ -96,21 +94,18 @@
 
     iget-object v6, p0, Lorg/telegram/messenger/ImageLoader$11;->val$oldTask:Lorg/telegram/messenger/ImageLoader$HttpFileTask;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader$HttpFileTask;->url:Ljava/lang/String;
     invoke-static {v6}, Lorg/telegram/messenger/ImageLoader$HttpFileTask;->access$000(Lorg/telegram/messenger/ImageLoader$HttpFileTask;)Ljava/lang/String;
 
     move-result-object v6
 
     iget-object v7, p0, Lorg/telegram/messenger/ImageLoader$11;->val$oldTask:Lorg/telegram/messenger/ImageLoader$HttpFileTask;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader$HttpFileTask;->tempFile:Ljava/io/File;
     invoke-static {v7}, Lorg/telegram/messenger/ImageLoader$HttpFileTask;->access$4200(Lorg/telegram/messenger/ImageLoader$HttpFileTask;)Ljava/io/File;
 
     move-result-object v7
 
     iget-object v8, p0, Lorg/telegram/messenger/ImageLoader$11;->val$oldTask:Lorg/telegram/messenger/ImageLoader$HttpFileTask;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader$HttpFileTask;->ext:Ljava/lang/String;
     invoke-static {v8}, Lorg/telegram/messenger/ImageLoader$HttpFileTask;->access$4300(Lorg/telegram/messenger/ImageLoader$HttpFileTask;)Ljava/lang/String;
 
     move-result-object v8
@@ -127,14 +122,12 @@
     .local v3, "runnable":Ljava/lang/Runnable;
     iget-object v5, p0, Lorg/telegram/messenger/ImageLoader$11;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->retryHttpsTasks:Ljava/util/HashMap;
     invoke-static {v5}, Lorg/telegram/messenger/ImageLoader;->access$4500(Lorg/telegram/messenger/ImageLoader;)Ljava/util/HashMap;
 
     move-result-object v5
 
     iget-object v6, p0, Lorg/telegram/messenger/ImageLoader$11;->val$oldTask:Lorg/telegram/messenger/ImageLoader$HttpFileTask;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader$HttpFileTask;->url:Ljava/lang/String;
     invoke-static {v6}, Lorg/telegram/messenger/ImageLoader$HttpFileTask;->access$000(Lorg/telegram/messenger/ImageLoader$HttpFileTask;)Ljava/lang/String;
 
     move-result-object v6
@@ -153,7 +146,6 @@
     :goto_0
     iget-object v5, p0, Lorg/telegram/messenger/ImageLoader$11;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->currentHttpFileLoadTasksCount:I
     invoke-static {v5}, Lorg/telegram/messenger/ImageLoader;->access$4000(Lorg/telegram/messenger/ImageLoader;)I
 
     move-result v5
@@ -162,7 +154,6 @@
 
     iget-object v5, p0, Lorg/telegram/messenger/ImageLoader$11;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->httpFileLoadTasks:Ljava/util/LinkedList;
     invoke-static {v5}, Lorg/telegram/messenger/ImageLoader;->access$4400(Lorg/telegram/messenger/ImageLoader;)Ljava/util/LinkedList;
 
     move-result-object v5
@@ -176,7 +167,6 @@
     .line 2127
     iget-object v5, p0, Lorg/telegram/messenger/ImageLoader$11;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->httpFileLoadTasks:Ljava/util/LinkedList;
     invoke-static {v5}, Lorg/telegram/messenger/ImageLoader;->access$4400(Lorg/telegram/messenger/ImageLoader;)Ljava/util/LinkedList;
 
     move-result-object v5
@@ -206,7 +196,6 @@
     .line 2129
     iget-object v5, p0, Lorg/telegram/messenger/ImageLoader$11;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # operator++ for: Lorg/telegram/messenger/ImageLoader;->currentHttpFileLoadTasksCount:I
     invoke-static {v5}, Lorg/telegram/messenger/ImageLoader;->access$4008(Lorg/telegram/messenger/ImageLoader;)I
 
     goto :goto_0
@@ -216,14 +205,12 @@
     :cond_2
     iget-object v5, p0, Lorg/telegram/messenger/ImageLoader$11;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->httpFileLoadTasksByKeys:Ljava/util/HashMap;
     invoke-static {v5}, Lorg/telegram/messenger/ImageLoader;->access$4600(Lorg/telegram/messenger/ImageLoader;)Ljava/util/HashMap;
 
     move-result-object v5
 
     iget-object v6, p0, Lorg/telegram/messenger/ImageLoader$11;->val$oldTask:Lorg/telegram/messenger/ImageLoader$HttpFileTask;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader$HttpFileTask;->url:Ljava/lang/String;
     invoke-static {v6}, Lorg/telegram/messenger/ImageLoader$HttpFileTask;->access$000(Lorg/telegram/messenger/ImageLoader$HttpFileTask;)Ljava/lang/String;
 
     move-result-object v6
@@ -241,7 +228,6 @@
 
     iget-object v8, p0, Lorg/telegram/messenger/ImageLoader$11;->val$oldTask:Lorg/telegram/messenger/ImageLoader$HttpFileTask;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader$HttpFileTask;->url:Ljava/lang/String;
     invoke-static {v8}, Lorg/telegram/messenger/ImageLoader$HttpFileTask;->access$000(Lorg/telegram/messenger/ImageLoader$HttpFileTask;)Ljava/lang/String;
 
     move-result-object v8
@@ -267,14 +253,12 @@
     .line 2120
     iget-object v5, p0, Lorg/telegram/messenger/ImageLoader$11;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->httpFileLoadTasksByKeys:Ljava/util/HashMap;
     invoke-static {v5}, Lorg/telegram/messenger/ImageLoader;->access$4600(Lorg/telegram/messenger/ImageLoader;)Ljava/util/HashMap;
 
     move-result-object v5
 
     iget-object v6, p0, Lorg/telegram/messenger/ImageLoader$11;->val$oldTask:Lorg/telegram/messenger/ImageLoader$HttpFileTask;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader$HttpFileTask;->url:Ljava/lang/String;
     invoke-static {v6}, Lorg/telegram/messenger/ImageLoader$HttpFileTask;->access$000(Lorg/telegram/messenger/ImageLoader$HttpFileTask;)Ljava/lang/String;
 
     move-result-object v6
@@ -300,7 +284,6 @@
 
     iget-object v7, p0, Lorg/telegram/messenger/ImageLoader$11;->val$oldTask:Lorg/telegram/messenger/ImageLoader$HttpFileTask;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader$HttpFileTask;->url:Ljava/lang/String;
     invoke-static {v7}, Lorg/telegram/messenger/ImageLoader$HttpFileTask;->access$000(Lorg/telegram/messenger/ImageLoader$HttpFileTask;)Ljava/lang/String;
 
     move-result-object v7
@@ -321,7 +304,6 @@
 
     iget-object v7, p0, Lorg/telegram/messenger/ImageLoader$11;->val$oldTask:Lorg/telegram/messenger/ImageLoader$HttpFileTask;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader$HttpFileTask;->ext:Ljava/lang/String;
     invoke-static {v7}, Lorg/telegram/messenger/ImageLoader$HttpFileTask;->access$4300(Lorg/telegram/messenger/ImageLoader$HttpFileTask;)Ljava/lang/String;
 
     move-result-object v7
@@ -340,7 +322,6 @@
     .local v0, "file":Ljava/io/File;
     iget-object v5, p0, Lorg/telegram/messenger/ImageLoader$11;->val$oldTask:Lorg/telegram/messenger/ImageLoader$HttpFileTask;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader$HttpFileTask;->tempFile:Ljava/io/File;
     invoke-static {v5}, Lorg/telegram/messenger/ImageLoader$HttpFileTask;->access$4200(Lorg/telegram/messenger/ImageLoader$HttpFileTask;)Ljava/io/File;
 
     move-result-object v5
@@ -368,7 +349,6 @@
 
     iget-object v8, p0, Lorg/telegram/messenger/ImageLoader$11;->val$oldTask:Lorg/telegram/messenger/ImageLoader$HttpFileTask;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader$HttpFileTask;->url:Ljava/lang/String;
     invoke-static {v8}, Lorg/telegram/messenger/ImageLoader$HttpFileTask;->access$000(Lorg/telegram/messenger/ImageLoader$HttpFileTask;)Ljava/lang/String;
 
     move-result-object v8
@@ -386,7 +366,6 @@
     :cond_4
     iget-object v5, p0, Lorg/telegram/messenger/ImageLoader$11;->val$oldTask:Lorg/telegram/messenger/ImageLoader$HttpFileTask;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader$HttpFileTask;->tempFile:Ljava/io/File;
     invoke-static {v5}, Lorg/telegram/messenger/ImageLoader$HttpFileTask;->access$4200(Lorg/telegram/messenger/ImageLoader$HttpFileTask;)Ljava/io/File;
 
     move-result-object v5

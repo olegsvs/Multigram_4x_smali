@@ -142,7 +142,6 @@
     .local v1, "pid":I
     iget-object v5, p0, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor$PatReader;->this$0:Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->tsPayloadReaders:Landroid/util/SparseArray;
     invoke-static {v5}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$000(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Landroid/util/SparseArray;
 
     move-result-object v5
@@ -162,7 +161,6 @@
     .line 351
     iget-object v5, p0, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor$PatReader;->this$0:Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;
 
-    # operator++ for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->remainingPmts:I
     invoke-static {v5}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$108(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)I
 
     goto :goto_2
@@ -173,7 +171,6 @@
     :cond_3
     iget-object v5, p0, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor$PatReader;->this$0:Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->mode:I
     invoke-static {v5}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$200(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)I
 
     move-result v5
@@ -185,7 +182,6 @@
     .line 355
     iget-object v5, p0, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor$PatReader;->this$0:Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->tsPayloadReaders:Landroid/util/SparseArray;
     invoke-static {v5}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$000(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Landroid/util/SparseArray;
 
     move-result-object v5

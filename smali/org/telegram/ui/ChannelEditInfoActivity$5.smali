@@ -47,7 +47,6 @@
     .line 402
     iget-object v0, p0, Lorg/telegram/ui/ChannelEditInfoActivity$5;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->avatarDrawable:Lorg/telegram/ui/Components/AvatarDrawable;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1800(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/ui/Components/AvatarDrawable;
 
     move-result-object v2
@@ -56,7 +55,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ChannelEditInfoActivity$5;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->nameTextView:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$500(Lorg/telegram/ui/ChannelEditInfoActivity;)Landroid/widget/EditText;
 
     move-result-object v0
@@ -69,7 +67,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ChannelEditInfoActivity$5;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->nameTextView:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$500(Lorg/telegram/ui/ChannelEditInfoActivity;)Landroid/widget/EditText;
 
     move-result-object v0
@@ -90,7 +87,6 @@
     .line 403
     iget-object v0, p0, Lorg/telegram/ui/ChannelEditInfoActivity$5;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->avatarImage:Lorg/telegram/ui/Components/BackupImageView;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1900(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/ui/Components/BackupImageView;
 
     move-result-object v0

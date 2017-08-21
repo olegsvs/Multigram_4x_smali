@@ -136,7 +136,6 @@
 
     const/4 v3, 0x1
 
-    # invokes: Lorg/telegram/messenger/ContactsController;->buildContactsSectionsArrays(Z)V
     invoke-static {v2, v3}, Lorg/telegram/messenger/ContactsController;->access$1700(Lorg/telegram/messenger/ContactsController;Z)V
 
     .line 1747

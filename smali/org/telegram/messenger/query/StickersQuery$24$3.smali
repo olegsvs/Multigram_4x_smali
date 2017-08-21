@@ -42,7 +42,6 @@
 
     .prologue
     .line 1118
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->loadDate:[I
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$2800()[I
 
     move-result-object v0

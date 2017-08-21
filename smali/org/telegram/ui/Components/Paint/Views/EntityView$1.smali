@@ -42,7 +42,6 @@
     .line 54
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/Views/EntityView$1;->this$0:Lorg/telegram/ui/Components/Paint/Views/EntityView;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Views/EntityView;->hasPanned:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$000(Lorg/telegram/ui/Components/Paint/Views/EntityView;)Z
 
     move-result v0
@@ -51,7 +50,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/Views/EntityView$1;->this$0:Lorg/telegram/ui/Components/Paint/Views/EntityView;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Views/EntityView;->hasTransformed:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$100(Lorg/telegram/ui/Components/Paint/Views/EntityView;)Z
 
     move-result v0
@@ -60,7 +58,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/Views/EntityView$1;->this$0:Lorg/telegram/ui/Components/Paint/Views/EntityView;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Views/EntityView;->hasReleased:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$200(Lorg/telegram/ui/Components/Paint/Views/EntityView;)Z
 
     move-result v0
@@ -78,13 +75,11 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/ui/Components/Paint/Views/EntityView;->recognizedLongPress:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$302(Lorg/telegram/ui/Components/Paint/Views/EntityView;Z)Z
 
     .line 59
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/Views/EntityView$1;->this$0:Lorg/telegram/ui/Components/Paint/Views/EntityView;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Views/EntityView;->delegate:Lorg/telegram/ui/Components/Paint/Views/EntityView$EntityViewDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$400(Lorg/telegram/ui/Components/Paint/Views/EntityView;)Lorg/telegram/ui/Components/Paint/Views/EntityView$EntityViewDelegate;
 
     move-result-object v0
@@ -101,7 +96,6 @@
     .line 61
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/Views/EntityView$1;->this$0:Lorg/telegram/ui/Components/Paint/Views/EntityView;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Views/EntityView;->delegate:Lorg/telegram/ui/Components/Paint/Views/EntityView$EntityViewDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$400(Lorg/telegram/ui/Components/Paint/Views/EntityView;)Lorg/telegram/ui/Components/Paint/Views/EntityView$EntityViewDelegate;
 
     move-result-object v0

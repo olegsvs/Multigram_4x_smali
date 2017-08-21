@@ -51,7 +51,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ChannelEditInfoActivity$6;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->doneButton:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2000(Lorg/telegram/ui/ChannelEditInfoActivity;)Landroid/view/View;
 
     move-result-object v0
@@ -61,7 +60,6 @@
     .line 437
     iget-object v0, p0, Lorg/telegram/ui/ChannelEditInfoActivity$6;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->doneButton:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2000(Lorg/telegram/ui/ChannelEditInfoActivity;)Landroid/view/View;
 
     move-result-object v0

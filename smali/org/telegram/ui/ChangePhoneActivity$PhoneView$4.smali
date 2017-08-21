@@ -66,7 +66,6 @@
     .line 556
     iget-object v7, p0, Lorg/telegram/ui/ChangePhoneActivity$PhoneView$4;->this$1:Lorg/telegram/ui/ChangePhoneActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->ignoreOnPhoneChange:Z
     invoke-static {v7}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$1100(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Z
 
     move-result v7
@@ -81,7 +80,6 @@
     :cond_0
     iget-object v7, p0, Lorg/telegram/ui/ChangePhoneActivity$PhoneView$4;->this$1:Lorg/telegram/ui/ChangePhoneActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v7}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$200(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v7
@@ -98,7 +96,6 @@
     .local v4, "phoneChars":Ljava/lang/String;
     iget-object v7, p0, Lorg/telegram/ui/ChangePhoneActivity$PhoneView$4;->this$1:Lorg/telegram/ui/ChangePhoneActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v7}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$200(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v7
@@ -208,13 +205,11 @@
 
     const/4 v8, 0x1
 
-    # setter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->ignoreOnPhoneChange:Z
     invoke-static {v7, v8}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$1102(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;Z)Z
 
     .line 574
     iget-object v7, p0, Lorg/telegram/ui/ChangePhoneActivity$PhoneView$4;->this$1:Lorg/telegram/ui/ChangePhoneActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v7}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$200(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v7
@@ -301,7 +296,6 @@
     :cond_6
     iget-object v7, p0, Lorg/telegram/ui/ChangePhoneActivity$PhoneView$4;->this$1:Lorg/telegram/ui/ChangePhoneActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v7}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$200(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v7
@@ -314,14 +308,12 @@
     .line 596
     iget-object v7, p0, Lorg/telegram/ui/ChangePhoneActivity$PhoneView$4;->this$1:Lorg/telegram/ui/ChangePhoneActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v7}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$200(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v7
 
     iget-object v8, p0, Lorg/telegram/ui/ChangePhoneActivity$PhoneView$4;->this$1:Lorg/telegram/ui/ChangePhoneActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v8}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$200(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v8
@@ -340,7 +332,6 @@
     :cond_7
     iget-object v7, p0, Lorg/telegram/ui/ChangePhoneActivity$PhoneView$4;->this$1:Lorg/telegram/ui/ChangePhoneActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v7}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$200(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v7
@@ -350,7 +341,6 @@
     .line 599
     iget-object v7, p0, Lorg/telegram/ui/ChangePhoneActivity$PhoneView$4;->this$1:Lorg/telegram/ui/ChangePhoneActivity$PhoneView;
 
-    # setter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->ignoreOnPhoneChange:Z
     invoke-static {v7, v12}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$1102(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;Z)Z
 
     goto/16 :goto_0
@@ -360,7 +350,6 @@
     :cond_8
     iget-object v8, p0, Lorg/telegram/ui/ChangePhoneActivity$PhoneView$4;->this$1:Lorg/telegram/ui/ChangePhoneActivity$PhoneView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v8}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$200(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v8

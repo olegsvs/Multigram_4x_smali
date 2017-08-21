@@ -69,7 +69,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView$7;->this$1:Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;
 
-    # setter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->nextPressed:Z
     invoke-static {v0, v8}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$1002(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;Z)Z
 
     .line 857
@@ -114,7 +113,6 @@
 
     iget-object v7, v7, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView$7;->this$1:Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->phone:Ljava/lang/String;
     invoke-static {v7}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$1300(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Ljava/lang/String;
 
     move-result-object v7
@@ -141,7 +139,6 @@
 
     move-result-object v1
 
-    # setter for: Lorg/telegram/ui/CancelAccountDeletionActivity;->errorDialog:Landroid/app/Dialog;
     invoke-static {v0, v1}, Lorg/telegram/ui/CancelAccountDeletionActivity;->access$602(Lorg/telegram/ui/CancelAccountDeletionActivity;Landroid/app/Dialog;)Landroid/app/Dialog;
 
     .line 876
@@ -159,7 +156,6 @@
 
     iget-object v1, v1, Lorg/telegram/tgnet/TLRPC$TL_error;->text:Ljava/lang/String;
 
-    # setter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->lastError:Ljava/lang/String;
     invoke-static {v0, v1}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$1402(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;Ljava/lang/String;)Ljava/lang/String;
 
     .line 861
@@ -167,7 +163,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView$7;->this$1:Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->currentType:I
     invoke-static {v0}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$2600(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)I
 
     move-result v0
@@ -178,7 +173,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView$7;->this$1:Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->nextType:I
     invoke-static {v0}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$1100(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)I
 
     move-result v0
@@ -189,7 +183,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView$7;->this$1:Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->nextType:I
     invoke-static {v0}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$1100(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)I
 
     move-result v0
@@ -201,7 +194,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView$7;->this$1:Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->currentType:I
     invoke-static {v0}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$2600(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)I
 
     move-result v0
@@ -212,7 +204,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView$7;->this$1:Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->nextType:I
     invoke-static {v0}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$1100(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)I
 
     move-result v0
@@ -223,7 +214,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView$7;->this$1:Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->nextType:I
     invoke-static {v0}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$1100(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)I
 
     move-result v0
@@ -236,7 +226,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView$7;->this$1:Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;
 
-    # invokes: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->createTimer()V
     invoke-static {v0}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$3000(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)V
 
     .line 864
@@ -245,7 +234,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView$7;->this$1:Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->currentType:I
     invoke-static {v0}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$2600(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)I
 
     move-result v0
@@ -275,7 +263,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView$7;->this$1:Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;
 
-    # setter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->waitingForEvent:Z
     invoke-static {v0, v4}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$2702(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;Z)Z
 
     .line 872
@@ -283,7 +270,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView$7;->this$1:Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->currentType:I
     invoke-static {v0}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$2600(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)I
 
     move-result v0
@@ -315,7 +301,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView$7;->this$1:Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->currentType:I
     invoke-static {v0}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$2600(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)I
 
     move-result v0

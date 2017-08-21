@@ -54,7 +54,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ThemingActivity$3;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->saving:Z
     invoke-static {v1}, Lorg/telegram/ui/ThemingActivity;->access$700(Lorg/telegram/ui/ThemingActivity;)Z
 
     move-result v1
@@ -118,7 +117,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ThemingActivity$3;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # setter for: Lorg/telegram/ui/ThemingActivity;->saving:Z
     invoke-static {v1, v2}, Lorg/telegram/ui/ThemingActivity;->access$702(Lorg/telegram/ui/ThemingActivity;Z)Z
 
     .line 265

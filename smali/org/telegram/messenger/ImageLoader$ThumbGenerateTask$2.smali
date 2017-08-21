@@ -52,7 +52,6 @@
     .line 573
     iget-object v1, p0, Lorg/telegram/messenger/ImageLoader$ThumbGenerateTask$2;->this$1:Lorg/telegram/messenger/ImageLoader$ThumbGenerateTask;
 
-    # invokes: Lorg/telegram/messenger/ImageLoader$ThumbGenerateTask;->removeTask()V
     invoke-static {v1}, Lorg/telegram/messenger/ImageLoader$ThumbGenerateTask;->access$900(Lorg/telegram/messenger/ImageLoader$ThumbGenerateTask;)V
 
     .line 575
@@ -62,7 +61,6 @@
     .local v0, "kf":Ljava/lang/String;
     iget-object v1, p0, Lorg/telegram/messenger/ImageLoader$ThumbGenerateTask$2;->this$1:Lorg/telegram/messenger/ImageLoader$ThumbGenerateTask;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader$ThumbGenerateTask;->filter:Ljava/lang/String;
     invoke-static {v1}, Lorg/telegram/messenger/ImageLoader$ThumbGenerateTask;->access$1000(Lorg/telegram/messenger/ImageLoader$ThumbGenerateTask;)Ljava/lang/String;
 
     move-result-object v1
@@ -86,7 +84,6 @@
 
     iget-object v2, p0, Lorg/telegram/messenger/ImageLoader$ThumbGenerateTask$2;->this$1:Lorg/telegram/messenger/ImageLoader$ThumbGenerateTask;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader$ThumbGenerateTask;->filter:Ljava/lang/String;
     invoke-static {v2}, Lorg/telegram/messenger/ImageLoader$ThumbGenerateTask;->access$1000(Lorg/telegram/messenger/ImageLoader$ThumbGenerateTask;)Ljava/lang/String;
 
     move-result-object v2
@@ -128,7 +125,6 @@
 
     iget-object v1, v1, Lorg/telegram/messenger/ImageLoader$ThumbGenerateTask;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->memCache:Lorg/telegram/messenger/LruCache;
     invoke-static {v1}, Lorg/telegram/messenger/ImageLoader;->access$1100(Lorg/telegram/messenger/ImageLoader;)Lorg/telegram/messenger/LruCache;
 
     move-result-object v1

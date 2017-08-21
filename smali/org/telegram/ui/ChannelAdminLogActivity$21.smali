@@ -44,7 +44,6 @@
     .line 1731
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$21;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->avatarContainer:Lorg/telegram/ui/Components/ChatAvatarContainer;
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$1200(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/ui/Components/ChatAvatarContainer;
 
     move-result-object v0
@@ -54,7 +53,6 @@
     .line 1732
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$21;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->avatarContainer:Lorg/telegram/ui/Components/ChatAvatarContainer;
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$1200(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/ui/Components/ChatAvatarContainer;
 
     move-result-object v0

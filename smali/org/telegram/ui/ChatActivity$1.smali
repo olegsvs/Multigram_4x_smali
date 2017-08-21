@@ -46,7 +46,6 @@
     .line 410
     iget-object v1, p0, Lorg/telegram/ui/ChatActivity$1;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->readWhenResume:Z
     invoke-static {v1}, Lorg/telegram/ui/ChatActivity;->access$000(Lorg/telegram/ui/ChatActivity;)Z
 
     move-result v1
@@ -108,7 +107,6 @@
     :cond_0
     iget-object v1, p0, Lorg/telegram/ui/ChatActivity$1;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # setter for: Lorg/telegram/ui/ChatActivity;->readWhenResume:Z
     invoke-static {v1, v8}, Lorg/telegram/ui/ChatActivity;->access$002(Lorg/telegram/ui/ChatActivity;Z)Z
 
     .line 421
@@ -118,7 +116,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ChatActivity$1;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->dialog_id:J
     invoke-static {v2}, Lorg/telegram/ui/ChatActivity;->access$100(Lorg/telegram/ui/ChatActivity;)J
 
     move-result-wide v2
@@ -139,14 +136,12 @@
 
     iget-object v5, p0, Lorg/telegram/ui/ChatActivity$1;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->readWithMid:I
     invoke-static {v5}, Lorg/telegram/ui/ChatActivity;->access$200(Lorg/telegram/ui/ChatActivity;)I
 
     move-result v5
 
     iget-object v6, p0, Lorg/telegram/ui/ChatActivity$1;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->readWithDate:I
     invoke-static {v6}, Lorg/telegram/ui/ChatActivity;->access$300(Lorg/telegram/ui/ChatActivity;)I
 
     move-result v6

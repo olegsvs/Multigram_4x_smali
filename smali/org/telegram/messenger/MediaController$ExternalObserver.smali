@@ -50,7 +50,6 @@
 
     sget-object v1, Landroid/provider/MediaStore$Images$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
-    # invokes: Lorg/telegram/messenger/MediaController;->processMediaObserver(Landroid/net/Uri;)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/MediaController;->access$1400(Lorg/telegram/messenger/MediaController;Landroid/net/Uri;)V
 
     .line 519

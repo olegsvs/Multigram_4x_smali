@@ -48,7 +48,6 @@
     .line 2044
     iget-object v1, p0, Lorg/telegram/messenger/ImageLoader$10;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->imageLoadingByUrl:Ljava/util/HashMap;
     invoke-static {v1}, Lorg/telegram/messenger/ImageLoader;->access$2200(Lorg/telegram/messenger/ImageLoader;)Ljava/util/HashMap;
 
     move-result-object v1

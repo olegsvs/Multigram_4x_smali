@@ -44,7 +44,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/Crop/CropAreaView;->gridAnimator:Landroid/animation/Animator;
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/Crop/CropAreaView;->access$002(Lorg/telegram/ui/Components/Crop/CropAreaView;Landroid/animation/Animator;)Landroid/animation/Animator;
 
     .line 291

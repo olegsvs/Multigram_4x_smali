@@ -58,7 +58,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView$5;->this$1:Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;
 
-    # setter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->nextPressed:Z
     invoke-static {v0, v4}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$2002(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;Z)Z
 
     .line 1045
@@ -81,7 +80,6 @@
 
     check-cast v0, Lorg/telegram/tgnet/TLRPC$TL_auth_sentCode;
 
-    # invokes: Lorg/telegram/ui/ChangePhoneActivity;->fillNextCodeParams(Landroid/os/Bundle;Lorg/telegram/tgnet/TLRPC$TL_auth_sentCode;)V
     invoke-static {v1, v2, v0}, Lorg/telegram/ui/ChangePhoneActivity;->access$1600(Lorg/telegram/ui/ChangePhoneActivity;Landroid/os/Bundle;Lorg/telegram/tgnet/TLRPC$TL_auth_sentCode;)V
 
     .line 1054

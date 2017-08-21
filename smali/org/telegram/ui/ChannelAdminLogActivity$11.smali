@@ -67,14 +67,12 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ChannelAdminLogActivity$11;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v2}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4500(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v2
 
     iget-object v3, p0, Lorg/telegram/ui/ChannelAdminLogActivity$11;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->selectedAdmins:Ljava/util/HashMap;
     invoke-static {v3}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4600(Lorg/telegram/ui/ChannelAdminLogActivity;)Ljava/util/HashMap;
 
     move-result-object v3
@@ -91,7 +89,6 @@
     .local v0, "adminLogFilterAlert":Lorg/telegram/ui/Components/AdminLogFilterAlert;
     iget-object v1, p0, Lorg/telegram/ui/ChannelAdminLogActivity$11;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->admins:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4700(Lorg/telegram/ui/ChannelAdminLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v1

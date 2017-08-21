@@ -45,7 +45,6 @@
     .line 310
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$9;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->createText()V
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$1100(Lorg/telegram/ui/Components/PhotoPaintView;)V
 
     .line 311

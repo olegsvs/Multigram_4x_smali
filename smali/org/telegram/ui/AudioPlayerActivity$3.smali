@@ -94,7 +94,6 @@
     .local v3, "t":I
     iget-object v4, p0, Lorg/telegram/ui/AudioPlayerActivity$3;->this$0:Lorg/telegram/ui/AudioPlayerActivity;
 
-    # getter for: Lorg/telegram/ui/AudioPlayerActivity;->buttons:[Landroid/widget/ImageView;
     invoke-static {v4}, Lorg/telegram/ui/AudioPlayerActivity;->access$100(Lorg/telegram/ui/AudioPlayerActivity;)[Landroid/widget/ImageView;
 
     move-result-object v4
@@ -103,7 +102,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/AudioPlayerActivity$3;->this$0:Lorg/telegram/ui/AudioPlayerActivity;
 
-    # getter for: Lorg/telegram/ui/AudioPlayerActivity;->buttons:[Landroid/widget/ImageView;
     invoke-static {v5}, Lorg/telegram/ui/AudioPlayerActivity;->access$100(Lorg/telegram/ui/AudioPlayerActivity;)[Landroid/widget/ImageView;
 
     move-result-object v5
@@ -118,7 +116,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/AudioPlayerActivity$3;->this$0:Lorg/telegram/ui/AudioPlayerActivity;
 
-    # getter for: Lorg/telegram/ui/AudioPlayerActivity;->buttons:[Landroid/widget/ImageView;
     invoke-static {v6}, Lorg/telegram/ui/AudioPlayerActivity;->access$100(Lorg/telegram/ui/AudioPlayerActivity;)[Landroid/widget/ImageView;
 
     move-result-object v6

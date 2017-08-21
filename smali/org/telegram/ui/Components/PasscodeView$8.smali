@@ -63,7 +63,6 @@
 
     add-int/lit8 v2, v2, 0x1
 
-    # invokes: Lorg/telegram/ui/Components/PasscodeView;->shakeTextView(FI)V
     invoke-static {v1, v0, v2}, Lorg/telegram/ui/Components/PasscodeView;->access$800(Lorg/telegram/ui/Components/PasscodeView;FI)V
 
     .line 789

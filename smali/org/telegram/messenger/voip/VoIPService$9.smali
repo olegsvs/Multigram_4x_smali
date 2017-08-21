@@ -45,7 +45,6 @@
     .line 633
     iget-object v0, p0, Lorg/telegram/messenger/voip/VoIPService$9;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->ringtonePlayer:Landroid/media/MediaPlayer;
     invoke-static {v0}, Lorg/telegram/messenger/voip/VoIPService;->access$2300(Lorg/telegram/messenger/voip/VoIPService;)Landroid/media/MediaPlayer;
 
     move-result-object v0

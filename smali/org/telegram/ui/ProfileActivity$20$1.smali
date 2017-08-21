@@ -58,7 +58,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ProfileActivity$20;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # setter for: Lorg/telegram/ui/ProfileActivity;->linkSearchRequestId:I
     invoke-static {v0, v5}, Lorg/telegram/ui/ProfileActivity;->access$5902(Lorg/telegram/ui/ProfileActivity;I)I
 
     .line 1620
@@ -84,7 +83,6 @@
 
     iget-object v0, v0, Lorg/telegram/tgnet/TLRPC$TL_messageMediaWebPage;->webpage:Lorg/telegram/tgnet/TLRPC$WebPage;
 
-    # setter for: Lorg/telegram/ui/ProfileActivity;->foundWebPage:Lorg/telegram/tgnet/TLRPC$WebPage;
     invoke-static {v1, v0}, Lorg/telegram/ui/ProfileActivity;->access$6002(Lorg/telegram/ui/ProfileActivity;Lorg/telegram/tgnet/TLRPC$WebPage;)Lorg/telegram/tgnet/TLRPC$WebPage;
 
     .line 1623
@@ -92,7 +90,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ProfileActivity$20;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->foundWebPage:Lorg/telegram/tgnet/TLRPC$WebPage;
     invoke-static {v0}, Lorg/telegram/ui/ProfileActivity;->access$6000(Lorg/telegram/ui/ProfileActivity;)Lorg/telegram/tgnet/TLRPC$WebPage;
 
     move-result-object v0
@@ -110,14 +107,12 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ProfileActivity$20;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->foundWebPage:Lorg/telegram/tgnet/TLRPC$WebPage;
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$6000(Lorg/telegram/ui/ProfileActivity;)Lorg/telegram/tgnet/TLRPC$WebPage;
 
     move-result-object v1
 
     iget-object v1, v1, Lorg/telegram/tgnet/TLRPC$WebPage;->description:Ljava/lang/String;
 
-    # setter for: Lorg/telegram/ui/ProfileActivity;->userAbout:Ljava/lang/String;
     invoke-static {v0, v1}, Lorg/telegram/ui/ProfileActivity;->access$6102(Lorg/telegram/ui/ProfileActivity;Ljava/lang/String;)Ljava/lang/String;
 
     .line 1625
@@ -158,7 +153,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ProfileActivity$20;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->pass:I
     invoke-static {v0}, Lorg/telegram/ui/ProfileActivity;->access$6200(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v0
@@ -170,7 +164,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ProfileActivity$20;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # setter for: Lorg/telegram/ui/ProfileActivity;->pass:I
     invoke-static {v0, v4}, Lorg/telegram/ui/ProfileActivity;->access$6202(Lorg/telegram/ui/ProfileActivity;I)I
 
     .line 1629

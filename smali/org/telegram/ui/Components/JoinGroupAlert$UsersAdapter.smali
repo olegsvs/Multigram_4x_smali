@@ -47,7 +47,6 @@
     .line 218
     iget-object v2, p0, Lorg/telegram/ui/Components/JoinGroupAlert$UsersAdapter;->this$0:Lorg/telegram/ui/Components/JoinGroupAlert;
 
-    # getter for: Lorg/telegram/ui/Components/JoinGroupAlert;->chatInvite:Lorg/telegram/tgnet/TLRPC$ChatInvite;
     invoke-static {v2}, Lorg/telegram/ui/Components/JoinGroupAlert;->access$200(Lorg/telegram/ui/Components/JoinGroupAlert;)Lorg/telegram/tgnet/TLRPC$ChatInvite;
 
     move-result-object v2
@@ -62,7 +61,6 @@
     .local v0, "count":I
     iget-object v2, p0, Lorg/telegram/ui/Components/JoinGroupAlert$UsersAdapter;->this$0:Lorg/telegram/ui/Components/JoinGroupAlert;
 
-    # getter for: Lorg/telegram/ui/Components/JoinGroupAlert;->chatInvite:Lorg/telegram/tgnet/TLRPC$ChatInvite;
     invoke-static {v2}, Lorg/telegram/ui/Components/JoinGroupAlert;->access$200(Lorg/telegram/ui/Components/JoinGroupAlert;)Lorg/telegram/tgnet/TLRPC$ChatInvite;
 
     move-result-object v2
@@ -74,7 +72,6 @@
     .line 221
     iget-object v2, p0, Lorg/telegram/ui/Components/JoinGroupAlert$UsersAdapter;->this$0:Lorg/telegram/ui/Components/JoinGroupAlert;
 
-    # getter for: Lorg/telegram/ui/Components/JoinGroupAlert;->chatInvite:Lorg/telegram/tgnet/TLRPC$ChatInvite;
     invoke-static {v2}, Lorg/telegram/ui/Components/JoinGroupAlert;->access$200(Lorg/telegram/ui/Components/JoinGroupAlert;)Lorg/telegram/tgnet/TLRPC$ChatInvite;
 
     move-result-object v2
@@ -100,7 +97,6 @@
     :cond_1
     iget-object v2, p0, Lorg/telegram/ui/Components/JoinGroupAlert$UsersAdapter;->this$0:Lorg/telegram/ui/Components/JoinGroupAlert;
 
-    # getter for: Lorg/telegram/ui/Components/JoinGroupAlert;->chatInvite:Lorg/telegram/tgnet/TLRPC$ChatInvite;
     invoke-static {v2}, Lorg/telegram/ui/Components/JoinGroupAlert;->access$200(Lorg/telegram/ui/Components/JoinGroupAlert;)Lorg/telegram/tgnet/TLRPC$ChatInvite;
 
     move-result-object v2
@@ -159,7 +155,6 @@
     .local v0, "cell":Lorg/telegram/ui/Cells/JoinSheetUserCell;
     iget-object v2, p0, Lorg/telegram/ui/Components/JoinGroupAlert$UsersAdapter;->this$0:Lorg/telegram/ui/Components/JoinGroupAlert;
 
-    # getter for: Lorg/telegram/ui/Components/JoinGroupAlert;->chatInvite:Lorg/telegram/tgnet/TLRPC$ChatInvite;
     invoke-static {v2}, Lorg/telegram/ui/Components/JoinGroupAlert;->access$200(Lorg/telegram/ui/Components/JoinGroupAlert;)Lorg/telegram/tgnet/TLRPC$ChatInvite;
 
     move-result-object v2
@@ -175,7 +170,6 @@
     .line 252
     iget-object v2, p0, Lorg/telegram/ui/Components/JoinGroupAlert$UsersAdapter;->this$0:Lorg/telegram/ui/Components/JoinGroupAlert;
 
-    # getter for: Lorg/telegram/ui/Components/JoinGroupAlert;->chatInvite:Lorg/telegram/tgnet/TLRPC$ChatInvite;
     invoke-static {v2}, Lorg/telegram/ui/Components/JoinGroupAlert;->access$200(Lorg/telegram/ui/Components/JoinGroupAlert;)Lorg/telegram/tgnet/TLRPC$ChatInvite;
 
     move-result-object v2
@@ -194,7 +188,6 @@
     :goto_0
     iget-object v2, p0, Lorg/telegram/ui/Components/JoinGroupAlert$UsersAdapter;->this$0:Lorg/telegram/ui/Components/JoinGroupAlert;
 
-    # getter for: Lorg/telegram/ui/Components/JoinGroupAlert;->nameColor:I
     invoke-static {v2}, Lorg/telegram/ui/Components/JoinGroupAlert;->access$300(Lorg/telegram/ui/Components/JoinGroupAlert;)I
 
     move-result v2
@@ -208,7 +201,6 @@
     :cond_0
     iget-object v2, p0, Lorg/telegram/ui/Components/JoinGroupAlert$UsersAdapter;->this$0:Lorg/telegram/ui/Components/JoinGroupAlert;
 
-    # getter for: Lorg/telegram/ui/Components/JoinGroupAlert;->chatInvite:Lorg/telegram/tgnet/TLRPC$ChatInvite;
     invoke-static {v2}, Lorg/telegram/ui/Components/JoinGroupAlert;->access$200(Lorg/telegram/ui/Components/JoinGroupAlert;)Lorg/telegram/tgnet/TLRPC$ChatInvite;
 
     move-result-object v2
@@ -220,7 +212,6 @@
     .line 256
     iget-object v2, p0, Lorg/telegram/ui/Components/JoinGroupAlert$UsersAdapter;->this$0:Lorg/telegram/ui/Components/JoinGroupAlert;
 
-    # getter for: Lorg/telegram/ui/Components/JoinGroupAlert;->chatInvite:Lorg/telegram/tgnet/TLRPC$ChatInvite;
     invoke-static {v2}, Lorg/telegram/ui/Components/JoinGroupAlert;->access$200(Lorg/telegram/ui/Components/JoinGroupAlert;)Lorg/telegram/tgnet/TLRPC$ChatInvite;
 
     move-result-object v2
@@ -234,7 +225,6 @@
     :goto_1
     iget-object v2, p0, Lorg/telegram/ui/Components/JoinGroupAlert$UsersAdapter;->this$0:Lorg/telegram/ui/Components/JoinGroupAlert;
 
-    # getter for: Lorg/telegram/ui/Components/JoinGroupAlert;->chatInvite:Lorg/telegram/tgnet/TLRPC$ChatInvite;
     invoke-static {v2}, Lorg/telegram/ui/Components/JoinGroupAlert;->access$200(Lorg/telegram/ui/Components/JoinGroupAlert;)Lorg/telegram/tgnet/TLRPC$ChatInvite;
 
     move-result-object v2
@@ -256,7 +246,6 @@
     :cond_1
     iget-object v2, p0, Lorg/telegram/ui/Components/JoinGroupAlert$UsersAdapter;->this$0:Lorg/telegram/ui/Components/JoinGroupAlert;
 
-    # getter for: Lorg/telegram/ui/Components/JoinGroupAlert;->chatInvite:Lorg/telegram/tgnet/TLRPC$ChatInvite;
     invoke-static {v2}, Lorg/telegram/ui/Components/JoinGroupAlert;->access$200(Lorg/telegram/ui/Components/JoinGroupAlert;)Lorg/telegram/tgnet/TLRPC$ChatInvite;
 
     move-result-object v2

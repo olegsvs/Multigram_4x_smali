@@ -76,7 +76,6 @@
 
     sget v2, Lorg/telegram/ui/ActionBar/Theme;->chatDateSize:I
 
-    # invokes: Lorg/telegram/ui/ThemingChatActivity;->commitInt(Ljava/lang/String;I)V
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/ThemingChatActivity;->access$300(Lorg/telegram/ui/ThemingChatActivity;Ljava/lang/String;I)V
 
     .line 1325

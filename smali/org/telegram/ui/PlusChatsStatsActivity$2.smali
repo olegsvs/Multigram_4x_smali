@@ -44,14 +44,12 @@
     .line 239
     iget-object v6, p0, Lorg/telegram/ui/PlusChatsStatsActivity$2;->this$0:Lorg/telegram/ui/PlusChatsStatsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusChatsStatsActivity;->loadSize:I
     invoke-static {v6}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$200(Lorg/telegram/ui/PlusChatsStatsActivity;)I
 
     move-result v6
 
     iget-object v7, p0, Lorg/telegram/ui/PlusChatsStatsActivity$2;->this$0:Lorg/telegram/ui/PlusChatsStatsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusChatsStatsActivity;->totalChatsCount:I
     invoke-static {v7}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$300(Lorg/telegram/ui/PlusChatsStatsActivity;)I
 
     move-result v7
@@ -61,7 +59,6 @@
     .line 240
     iget-object v6, p0, Lorg/telegram/ui/PlusChatsStatsActivity$2;->this$0:Lorg/telegram/ui/PlusChatsStatsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusChatsStatsActivity;->other:Ljava/util/ArrayList;
     invoke-static {v6}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$400(Lorg/telegram/ui/PlusChatsStatsActivity;)Ljava/util/ArrayList;
 
     move-result-object v6
@@ -404,7 +401,6 @@
 
     move-result v7
 
-    # setter for: Lorg/telegram/ui/PlusChatsStatsActivity;->secretsCount:I
     invoke-static {v6, v7}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$502(Lorg/telegram/ui/PlusChatsStatsActivity;I)I
 
     .line 305
@@ -420,7 +416,6 @@
 
     move-result v7
 
-    # setter for: Lorg/telegram/ui/PlusChatsStatsActivity;->ownGroupsCount:I
     invoke-static {v6, v7}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$602(Lorg/telegram/ui/PlusChatsStatsActivity;I)I
 
     .line 306
@@ -436,7 +431,6 @@
 
     move-result v7
 
-    # setter for: Lorg/telegram/ui/PlusChatsStatsActivity;->ownSuperGroupsCount:I
     invoke-static {v6, v7}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$702(Lorg/telegram/ui/PlusChatsStatsActivity;I)I
 
     .line 307
@@ -452,7 +446,6 @@
 
     move-result v7
 
-    # setter for: Lorg/telegram/ui/PlusChatsStatsActivity;->ownChannelsCount:I
     invoke-static {v6, v7}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$802(Lorg/telegram/ui/PlusChatsStatsActivity;I)I
 
     .line 309
@@ -468,7 +461,6 @@
 
     move-result v7
 
-    # setter for: Lorg/telegram/ui/PlusChatsStatsActivity;->adminGroupsCount:I
     invoke-static {v6, v7}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$902(Lorg/telegram/ui/PlusChatsStatsActivity;I)I
 
     .line 310
@@ -484,7 +476,6 @@
 
     move-result v7
 
-    # setter for: Lorg/telegram/ui/PlusChatsStatsActivity;->adminSuperGroupsCount:I
     invoke-static {v6, v7}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$1002(Lorg/telegram/ui/PlusChatsStatsActivity;I)I
 
     .line 311
@@ -500,19 +491,16 @@
 
     move-result v7
 
-    # setter for: Lorg/telegram/ui/PlusChatsStatsActivity;->adminChannelsCount:I
     invoke-static {v6, v7}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$1102(Lorg/telegram/ui/PlusChatsStatsActivity;I)I
 
     .line 313
     iget-object v6, p0, Lorg/telegram/ui/PlusChatsStatsActivity$2;->this$0:Lorg/telegram/ui/PlusChatsStatsActivity;
 
-    # invokes: Lorg/telegram/ui/PlusChatsStatsActivity;->updateOther()V
     invoke-static {v6}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$1200(Lorg/telegram/ui/PlusChatsStatsActivity;)V
 
     .line 314
     iget-object v6, p0, Lorg/telegram/ui/PlusChatsStatsActivity$2;->this$0:Lorg/telegram/ui/PlusChatsStatsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusChatsStatsActivity;->listAdapter:Lorg/telegram/ui/PlusChatsStatsActivity$ListAdapter;
     invoke-static {v6}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$1300(Lorg/telegram/ui/PlusChatsStatsActivity;)Lorg/telegram/ui/PlusChatsStatsActivity$ListAdapter;
 
     move-result-object v6
@@ -522,7 +510,6 @@
     .line 315
     iget-object v6, p0, Lorg/telegram/ui/PlusChatsStatsActivity$2;->this$0:Lorg/telegram/ui/PlusChatsStatsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusChatsStatsActivity;->listAdapter:Lorg/telegram/ui/PlusChatsStatsActivity$ListAdapter;
     invoke-static {v6}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$1300(Lorg/telegram/ui/PlusChatsStatsActivity;)Lorg/telegram/ui/PlusChatsStatsActivity$ListAdapter;
 
     move-result-object v6

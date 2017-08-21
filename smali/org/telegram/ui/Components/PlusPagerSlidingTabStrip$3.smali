@@ -49,7 +49,6 @@
     .line 278
     iget-object v0, p0, Lorg/telegram/ui/Components/PlusPagerSlidingTabStrip$3;->this$0:Lorg/telegram/ui/Components/PlusPagerSlidingTabStrip;
 
-    # getter for: Lorg/telegram/ui/Components/PlusPagerSlidingTabStrip;->delegate:Lorg/telegram/ui/Components/PlusPagerSlidingTabStrip$PlusScrollSlidingTabStripDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/PlusPagerSlidingTabStrip;->access$600(Lorg/telegram/ui/Components/PlusPagerSlidingTabStrip;)Lorg/telegram/ui/Components/PlusPagerSlidingTabStrip$PlusScrollSlidingTabStripDelegate;
 
     move-result-object v0
@@ -59,7 +58,6 @@
     .line 279
     iget-object v0, p0, Lorg/telegram/ui/Components/PlusPagerSlidingTabStrip$3;->this$0:Lorg/telegram/ui/Components/PlusPagerSlidingTabStrip;
 
-    # getter for: Lorg/telegram/ui/Components/PlusPagerSlidingTabStrip;->delegate:Lorg/telegram/ui/Components/PlusPagerSlidingTabStrip$PlusScrollSlidingTabStripDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/PlusPagerSlidingTabStrip;->access$600(Lorg/telegram/ui/Components/PlusPagerSlidingTabStrip;)Lorg/telegram/ui/Components/PlusPagerSlidingTabStrip$PlusScrollSlidingTabStripDelegate;
 
     move-result-object v0

@@ -46,7 +46,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PhotoViewer$BackgroundDrawable;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->parentAlert:Lorg/telegram/ui/Components/ChatAttachAlert;
     invoke-static {v0}, Lorg/telegram/ui/PhotoViewer;->access$1200(Lorg/telegram/ui/PhotoViewer;)Lorg/telegram/ui/Components/ChatAttachAlert;
 
     move-result-object v0
@@ -58,14 +57,12 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PhotoViewer$BackgroundDrawable;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->parentAlert:Lorg/telegram/ui/Components/ChatAttachAlert;
     invoke-static {v0}, Lorg/telegram/ui/PhotoViewer;->access$1200(Lorg/telegram/ui/PhotoViewer;)Lorg/telegram/ui/Components/ChatAttachAlert;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/PhotoViewer$BackgroundDrawable$1;->this$1:Lorg/telegram/ui/PhotoViewer$BackgroundDrawable;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer$BackgroundDrawable;->allowDrawContent:Z
     invoke-static {v1}, Lorg/telegram/ui/PhotoViewer$BackgroundDrawable;->access$1300(Lorg/telegram/ui/PhotoViewer$BackgroundDrawable;)Z
 
     move-result v1

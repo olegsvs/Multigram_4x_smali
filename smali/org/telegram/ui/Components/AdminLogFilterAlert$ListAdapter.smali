@@ -47,7 +47,6 @@
     .line 389
     iget-object v0, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->isMegagroup:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$100(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Z
 
     move-result v0
@@ -59,7 +58,6 @@
     :goto_0
     iget-object v1, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentAdmins:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$300(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -68,7 +66,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentAdmins:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$300(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -103,7 +100,6 @@
     .line 394
     iget-object v0, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->allAdminsRow:I
     invoke-static {v0}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1100(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v0
@@ -114,7 +110,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->allAdminsRow:I
     invoke-static {v0}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1100(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v0
@@ -133,7 +128,6 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->allAdminsRow:I
     invoke-static {v0}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1100(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v0
@@ -223,7 +217,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v3}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v3
@@ -246,7 +239,6 @@
     :cond_2
     iget-object v3, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->restrictionsRow:I
     invoke-static {v3}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1300(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v3
@@ -266,7 +258,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -275,7 +266,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -286,7 +276,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -297,7 +286,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -308,7 +296,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -329,7 +316,6 @@
     :cond_5
     iget-object v3, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->adminsRow:I
     invoke-static {v3}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1400(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v3
@@ -349,7 +335,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -358,7 +343,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -369,7 +353,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -390,7 +373,6 @@
     :cond_8
     iget-object v3, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->membersRow:I
     invoke-static {v3}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1500(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v3
@@ -410,7 +392,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -419,7 +400,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -430,7 +410,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -451,7 +430,6 @@
     :cond_b
     iget-object v3, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->infoRow:I
     invoke-static {v3}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1600(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v3
@@ -461,7 +439,6 @@
     .line 489
     iget-object v3, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->isMegagroup:Z
     invoke-static {v3}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$100(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Z
 
     move-result v3
@@ -481,7 +458,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -490,7 +466,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -521,7 +496,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -530,7 +504,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -551,7 +524,6 @@
     :cond_11
     iget-object v3, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->deleteRow:I
     invoke-static {v3}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1700(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v3
@@ -571,7 +543,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -580,7 +551,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -601,7 +571,6 @@
     :cond_14
     iget-object v3, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->editRow:I
     invoke-static {v3}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1800(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v3
@@ -621,7 +590,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -630,7 +598,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -651,7 +618,6 @@
     :cond_17
     iget-object v3, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->pinnedRow:I
     invoke-static {v3}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1900(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v3
@@ -671,7 +637,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -680,7 +645,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -701,7 +665,6 @@
     :cond_1a
     iget-object v3, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->leavingRow:I
     invoke-static {v3}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$2000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v3
@@ -721,7 +684,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -730,7 +692,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v7
@@ -754,7 +715,6 @@
     :cond_1d
     iget-object v3, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->allAdminsRow:I
     invoke-static {v3}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1100(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v3
@@ -774,7 +734,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->selectedAdmins:Ljava/util/HashMap;
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1200(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Ljava/util/HashMap;
 
     move-result-object v7
@@ -799,14 +758,12 @@
     .local v1, "userCell":Lorg/telegram/ui/Cells/CheckBoxUserCell;
     iget-object v3, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentAdmins:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$300(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Ljava/util/ArrayList;
 
     move-result-object v3
 
     iget-object v6, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->allAdminsRow:I
     invoke-static {v6}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1100(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v6
@@ -839,7 +796,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->selectedAdmins:Ljava/util/HashMap;
     invoke-static {v3}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1200(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Ljava/util/HashMap;
 
     move-result-object v3
@@ -848,7 +804,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->selectedAdmins:Ljava/util/HashMap;
     invoke-static {v3}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1200(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Ljava/util/HashMap;
 
     move-result-object v3
@@ -1084,7 +1039,6 @@
     .line 444
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1107,7 +1061,6 @@
     :cond_2
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->restrictionsRow:I
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1300(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v4
@@ -1117,7 +1070,6 @@
     .line 446
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1126,7 +1078,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1137,7 +1088,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1148,7 +1098,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1159,7 +1108,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1183,7 +1131,6 @@
     :cond_5
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->adminsRow:I
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1400(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v4
@@ -1193,7 +1140,6 @@
     .line 448
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1202,7 +1148,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1213,7 +1158,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1237,7 +1181,6 @@
     :cond_8
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->membersRow:I
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1500(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v4
@@ -1247,7 +1190,6 @@
     .line 450
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1256,7 +1198,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1267,7 +1208,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1291,7 +1231,6 @@
     :cond_b
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->infoRow:I
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1600(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v4
@@ -1301,7 +1240,6 @@
     .line 452
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1310,7 +1248,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1334,7 +1271,6 @@
     :cond_e
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->deleteRow:I
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1700(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v4
@@ -1344,7 +1280,6 @@
     .line 454
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1353,7 +1288,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1377,7 +1311,6 @@
     :cond_11
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->editRow:I
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1800(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v4
@@ -1387,7 +1320,6 @@
     .line 456
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1396,7 +1328,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1420,7 +1351,6 @@
     :cond_14
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->pinnedRow:I
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1900(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v4
@@ -1430,7 +1360,6 @@
     .line 458
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1439,7 +1368,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1463,7 +1391,6 @@
     :cond_17
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->leavingRow:I
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$2000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v4
@@ -1473,7 +1400,6 @@
     .line 460
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1482,7 +1408,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v4
@@ -1506,7 +1431,6 @@
     :cond_1a
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->allAdminsRow:I
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1100(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v4
@@ -1516,7 +1440,6 @@
     .line 462
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->selectedAdmins:Ljava/util/HashMap;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1200(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Ljava/util/HashMap;
 
     move-result-object v4
@@ -1544,14 +1467,12 @@
     .local v2, "userCell":Lorg/telegram/ui/Cells/CheckBoxUserCell;
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentAdmins:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$300(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Ljava/util/ArrayList;
 
     move-result-object v4
 
     iget-object v7, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->allAdminsRow:I
     invoke-static {v7}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1100(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v7
@@ -1572,7 +1493,6 @@
     .local v3, "userId":I
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->selectedAdmins:Ljava/util/HashMap;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1200(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Ljava/util/HashMap;
 
     move-result-object v4
@@ -1581,7 +1501,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->selectedAdmins:Ljava/util/HashMap;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1200(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Ljava/util/HashMap;
 
     move-result-object v4

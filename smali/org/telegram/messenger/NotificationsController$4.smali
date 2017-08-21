@@ -73,7 +73,6 @@
 
     iget v1, p0, Lorg/telegram/messenger/NotificationsController$4;->val$time:I
 
-    # setter for: Lorg/telegram/messenger/NotificationsController;->lastOnlineFromOtherDevice:I
     invoke-static {v0, v1}, Lorg/telegram/messenger/NotificationsController;->access$1302(Lorg/telegram/messenger/NotificationsController;I)I
 
     .line 196

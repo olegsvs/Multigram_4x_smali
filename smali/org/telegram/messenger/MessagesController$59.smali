@@ -1050,7 +1050,6 @@
 
     iget-object v2, v0, Lorg/telegram/messenger/MessagesController$59;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->channelsPts:Ljava/util/HashMap;
     invoke-static {v2}, Lorg/telegram/messenger/MessagesController;->access$1400(Lorg/telegram/messenger/MessagesController;)Ljava/util/HashMap;
 
     move-result-object v2
@@ -1607,7 +1606,6 @@
 
     iget v3, v11, Lorg/telegram/tgnet/TLRPC$Chat;->id:I
 
-    # invokes: Lorg/telegram/messenger/MessagesController;->getChannelDifference(I)V
     invoke-static {v2, v3}, Lorg/telegram/messenger/MessagesController;->access$4400(Lorg/telegram/messenger/MessagesController;I)V
 
     .line 3572

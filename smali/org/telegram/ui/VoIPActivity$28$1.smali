@@ -46,7 +46,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/VoIPActivity$28;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->blurOverlayView1:Landroid/widget/ImageView;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$4500(Lorg/telegram/ui/VoIPActivity;)Landroid/widget/ImageView;
 
     move-result-object v0
@@ -55,7 +54,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/VoIPActivity$28;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->blurredPhoto1:Landroid/graphics/Bitmap;
     invoke-static {v1}, Lorg/telegram/ui/VoIPActivity;->access$4300(Lorg/telegram/ui/VoIPActivity;)Landroid/graphics/Bitmap;
 
     move-result-object v1
@@ -67,7 +65,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/VoIPActivity$28;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->blurOverlayView2:Landroid/widget/ImageView;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$4600(Lorg/telegram/ui/VoIPActivity;)Landroid/widget/ImageView;
 
     move-result-object v0
@@ -76,7 +73,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/VoIPActivity$28;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->blurredPhoto2:Landroid/graphics/Bitmap;
     invoke-static {v1}, Lorg/telegram/ui/VoIPActivity;->access$4400(Lorg/telegram/ui/VoIPActivity;)Landroid/graphics/Bitmap;
 
     move-result-object v1

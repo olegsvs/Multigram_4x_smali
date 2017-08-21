@@ -57,7 +57,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Components/RecyclerListView$2;->this$0:Lorg/telegram/ui/Components/RecyclerListView;
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->currentChildView:Landroid/view/View;
     invoke-static {v2}, Lorg/telegram/ui/Components/RecyclerListView;->access$200(Lorg/telegram/ui/Components/RecyclerListView;)Landroid/view/View;
 
     move-result-object v2
@@ -67,7 +66,6 @@
     .line 714
     iget-object v2, p0, Lorg/telegram/ui/Components/RecyclerListView$2;->this$0:Lorg/telegram/ui/Components/RecyclerListView;
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->selectChildRunnable:Ljava/lang/Runnable;
     invoke-static {v2}, Lorg/telegram/ui/Components/RecyclerListView;->access$700(Lorg/telegram/ui/Components/RecyclerListView;)Ljava/lang/Runnable;
 
     move-result-object v2
@@ -77,7 +75,6 @@
     .line 715
     iget-object v2, p0, Lorg/telegram/ui/Components/RecyclerListView$2;->this$0:Lorg/telegram/ui/Components/RecyclerListView;
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->selectChildRunnable:Ljava/lang/Runnable;
     invoke-static {v2}, Lorg/telegram/ui/Components/RecyclerListView;->access$700(Lorg/telegram/ui/Components/RecyclerListView;)Ljava/lang/Runnable;
 
     move-result-object v2
@@ -87,7 +84,6 @@
     .line 716
     iget-object v2, p0, Lorg/telegram/ui/Components/RecyclerListView$2;->this$0:Lorg/telegram/ui/Components/RecyclerListView;
 
-    # setter for: Lorg/telegram/ui/Components/RecyclerListView;->selectChildRunnable:Ljava/lang/Runnable;
     invoke-static {v2, v12}, Lorg/telegram/ui/Components/RecyclerListView;->access$702(Lorg/telegram/ui/Components/RecyclerListView;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 718
@@ -107,7 +103,6 @@
     :try_start_0
     iget-object v0, p0, Lorg/telegram/ui/Components/RecyclerListView$2;->this$0:Lorg/telegram/ui/Components/RecyclerListView;
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->gestureDetector:Landroid/view/GestureDetector;
     invoke-static {v0}, Lorg/telegram/ui/Components/RecyclerListView;->access$100(Lorg/telegram/ui/Components/RecyclerListView;)Landroid/view/GestureDetector;
 
     move-result-object v0
@@ -120,7 +115,6 @@
     :goto_0
     iget-object v0, p0, Lorg/telegram/ui/Components/RecyclerListView$2;->this$0:Lorg/telegram/ui/Components/RecyclerListView;
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->currentChildView:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/Components/RecyclerListView;->access$200(Lorg/telegram/ui/Components/RecyclerListView;)Landroid/view/View;
 
     move-result-object v0
@@ -133,7 +127,6 @@
     .line 726
     iget-object v0, p0, Lorg/telegram/ui/Components/RecyclerListView$2;->this$0:Lorg/telegram/ui/Components/RecyclerListView;
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->currentChildView:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/Components/RecyclerListView;->access$200(Lorg/telegram/ui/Components/RecyclerListView;)Landroid/view/View;
 
     move-result-object v8
@@ -142,7 +135,6 @@
     .local v8, "child":Landroid/view/View;
     iget-object v0, p0, Lorg/telegram/ui/Components/RecyclerListView$2;->this$0:Lorg/telegram/ui/Components/RecyclerListView;
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->currentChildView:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/Components/RecyclerListView;->access$200(Lorg/telegram/ui/Components/RecyclerListView;)Landroid/view/View;
 
     move-result-object v0
@@ -152,19 +144,16 @@
     .line 728
     iget-object v0, p0, Lorg/telegram/ui/Components/RecyclerListView$2;->this$0:Lorg/telegram/ui/Components/RecyclerListView;
 
-    # setter for: Lorg/telegram/ui/Components/RecyclerListView;->currentChildView:Landroid/view/View;
     invoke-static {v0, v12}, Lorg/telegram/ui/Components/RecyclerListView;->access$202(Lorg/telegram/ui/Components/RecyclerListView;Landroid/view/View;)Landroid/view/View;
 
     .line 729
     iget-object v0, p0, Lorg/telegram/ui/Components/RecyclerListView$2;->this$0:Lorg/telegram/ui/Components/RecyclerListView;
 
-    # invokes: Lorg/telegram/ui/Components/RecyclerListView;->removeSelection(Landroid/view/View;Landroid/view/MotionEvent;)V
     invoke-static {v0, v8, v12}, Lorg/telegram/ui/Components/RecyclerListView;->access$900(Lorg/telegram/ui/Components/RecyclerListView;Landroid/view/View;Landroid/view/MotionEvent;)V
 
     .line 730
     iget-object v0, p0, Lorg/telegram/ui/Components/RecyclerListView$2;->this$0:Lorg/telegram/ui/Components/RecyclerListView;
 
-    # setter for: Lorg/telegram/ui/Components/RecyclerListView;->interceptedByChild:Z
     invoke-static {v0, v7}, Lorg/telegram/ui/Components/RecyclerListView;->access$802(Lorg/telegram/ui/Components/RecyclerListView;Z)Z
 
     .line 732
@@ -173,7 +162,6 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/Components/RecyclerListView$2;->this$0:Lorg/telegram/ui/Components/RecyclerListView;
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->onScrollListener:Lorg/telegram/messenger/support/widget/RecyclerView$OnScrollListener;
     invoke-static {v0}, Lorg/telegram/ui/Components/RecyclerListView;->access$1600(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/messenger/support/widget/RecyclerView$OnScrollListener;
 
     move-result-object v0
@@ -183,7 +171,6 @@
     .line 733
     iget-object v0, p0, Lorg/telegram/ui/Components/RecyclerListView$2;->this$0:Lorg/telegram/ui/Components/RecyclerListView;
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->onScrollListener:Lorg/telegram/messenger/support/widget/RecyclerView$OnScrollListener;
     invoke-static {v0}, Lorg/telegram/ui/Components/RecyclerListView;->access$1600(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/messenger/support/widget/RecyclerView$OnScrollListener;
 
     move-result-object v0
@@ -233,7 +220,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->onScrollListener:Lorg/telegram/messenger/support/widget/RecyclerView$OnScrollListener;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$1600(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/messenger/support/widget/RecyclerView$OnScrollListener;
 
     move-result-object v19
@@ -247,7 +233,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->onScrollListener:Lorg/telegram/messenger/support/widget/RecyclerView$OnScrollListener;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$1600(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/messenger/support/widget/RecyclerView$OnScrollListener;
 
     move-result-object v19
@@ -270,7 +255,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->selectorPosition:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$1700(Lorg/telegram/ui/Components/RecyclerListView;)I
 
     move-result v19
@@ -290,7 +274,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->selectorRect:Landroid/graphics/Rect;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$1400(Lorg/telegram/ui/Components/RecyclerListView;)Landroid/graphics/Rect;
 
     move-result-object v19
@@ -316,7 +299,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->selectorDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$1200(Lorg/telegram/ui/Components/RecyclerListView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v19
@@ -327,7 +309,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->selectorRect:Landroid/graphics/Rect;
     invoke-static/range {v20 .. v20}, Lorg/telegram/ui/Components/RecyclerListView;->access$1400(Lorg/telegram/ui/Components/RecyclerListView;)Landroid/graphics/Rect;
 
     move-result-object v20
@@ -359,7 +340,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->fastScroll:Lorg/telegram/ui/Components/RecyclerListView$FastScroll;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$1800(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/ui/Components/RecyclerListView$FastScroll;
 
     move-result-object v19
@@ -373,7 +353,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsType:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$1900(Lorg/telegram/ui/Components/RecyclerListView;)I
 
     move-result v19
@@ -386,7 +365,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsAdapter:Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2000(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
 
     move-result-object v19
@@ -461,7 +439,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->selectorRect:Landroid/graphics/Rect;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$1400(Lorg/telegram/ui/Components/RecyclerListView;)Landroid/graphics/Rect;
 
     move-result-object v19
@@ -489,7 +466,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->fastScroll:Lorg/telegram/ui/Components/RecyclerListView$FastScroll;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$1800(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/ui/Components/RecyclerListView$FastScroll;
 
     move-result-object v19
@@ -522,7 +498,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->fastScroll:Lorg/telegram/ui/Components/RecyclerListView$FastScroll;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$1800(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/ui/Components/RecyclerListView$FastScroll;
 
     move-result-object v19
@@ -543,7 +518,6 @@
 
     div-float v20, v20, v21
 
-    # invokes: Lorg/telegram/ui/Components/RecyclerListView$FastScroll;->setProgress(F)V
     invoke-static/range {v19 .. v20}, Lorg/telegram/ui/Components/RecyclerListView$FastScroll;->access$2100(Lorg/telegram/ui/Components/RecyclerListView$FastScroll;F)V
 
     .line 765
@@ -555,7 +529,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsAdapter:Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2000(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
 
     move-result-object v19
@@ -569,7 +542,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsType:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$1900(Lorg/telegram/ui/Components/RecyclerListView;)I
 
     move-result v19
@@ -603,7 +575,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->headersCache:Ljava/util/ArrayList;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2300(Lorg/telegram/ui/Components/RecyclerListView;)Ljava/util/ArrayList;
 
     move-result-object v19
@@ -614,7 +585,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->headers:Ljava/util/ArrayList;
     invoke-static/range {v20 .. v20}, Lorg/telegram/ui/Components/RecyclerListView;->access$2200(Lorg/telegram/ui/Components/RecyclerListView;)Ljava/util/ArrayList;
 
     move-result-object v20
@@ -628,7 +598,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->headers:Ljava/util/ArrayList;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2200(Lorg/telegram/ui/Components/RecyclerListView;)Ljava/util/ArrayList;
 
     move-result-object v19
@@ -642,7 +611,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsAdapter:Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2000(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
 
     move-result-object v19
@@ -660,7 +628,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->currentFirst:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2400(Lorg/telegram/ui/Components/RecyclerListView;)I
 
     move-result v19
@@ -675,7 +642,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->currentVisible:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2500(Lorg/telegram/ui/Components/RecyclerListView;)I
 
     move-result v19
@@ -696,7 +662,6 @@
 
     move-object/from16 v0, v19
 
-    # setter for: Lorg/telegram/ui/Components/RecyclerListView;->currentFirst:I
     invoke-static {v0, v9}, Lorg/telegram/ui/Components/RecyclerListView;->access$2402(Lorg/telegram/ui/Components/RecyclerListView;I)I
 
     .line 775
@@ -710,7 +675,6 @@
 
     move/from16 v1, v18
 
-    # setter for: Lorg/telegram/ui/Components/RecyclerListView;->currentVisible:I
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/RecyclerListView;->access$2502(Lorg/telegram/ui/Components/RecyclerListView;I)I
 
     .line 777
@@ -722,7 +686,6 @@
 
     const/16 v20, 0x1
 
-    # setter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsCount:I
     invoke-static/range {v19 .. v20}, Lorg/telegram/ui/Components/RecyclerListView;->access$2602(Lorg/telegram/ui/Components/RecyclerListView;I)I
 
     .line 778
@@ -738,7 +701,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsAdapter:Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
     invoke-static/range {v20 .. v20}, Lorg/telegram/ui/Components/RecyclerListView;->access$2000(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
 
     move-result-object v20
@@ -749,7 +711,6 @@
 
     move-result v20
 
-    # setter for: Lorg/telegram/ui/Components/RecyclerListView;->startSection:I
     invoke-static/range {v19 .. v20}, Lorg/telegram/ui/Components/RecyclerListView;->access$2702(Lorg/telegram/ui/Components/RecyclerListView;I)I
 
     .line 779
@@ -759,7 +720,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsAdapter:Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2000(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
 
     move-result-object v19
@@ -770,7 +730,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->startSection:I
     invoke-static/range {v20 .. v20}, Lorg/telegram/ui/Components/RecyclerListView;->access$2700(Lorg/telegram/ui/Components/RecyclerListView;)I
 
     move-result v20
@@ -787,7 +746,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsAdapter:Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
     invoke-static/range {v20 .. v20}, Lorg/telegram/ui/Components/RecyclerListView;->access$2000(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
 
     move-result-object v20
@@ -822,7 +780,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->startSection:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2700(Lorg/telegram/ui/Components/RecyclerListView;)I
 
     move-result v4
@@ -835,7 +792,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->startSection:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2700(Lorg/telegram/ui/Components/RecyclerListView;)I
 
     move-result v19
@@ -846,7 +802,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsCount:I
     invoke-static/range {v20 .. v20}, Lorg/telegram/ui/Components/RecyclerListView;->access$2600(Lorg/telegram/ui/Components/RecyclerListView;)I
 
     move-result v20
@@ -868,7 +823,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->headersCache:Ljava/util/ArrayList;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2300(Lorg/telegram/ui/Components/RecyclerListView;)Ljava/util/ArrayList;
 
     move-result-object v19
@@ -886,7 +840,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->headersCache:Ljava/util/ArrayList;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2300(Lorg/telegram/ui/Components/RecyclerListView;)Ljava/util/ArrayList;
 
     move-result-object v19
@@ -908,7 +861,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->headersCache:Ljava/util/ArrayList;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2300(Lorg/telegram/ui/Components/RecyclerListView;)Ljava/util/ArrayList;
 
     move-result-object v19
@@ -927,7 +879,6 @@
 
     move-object/from16 v0, v19
 
-    # invokes: Lorg/telegram/ui/Components/RecyclerListView;->getSectionHeaderView(ILandroid/view/View;)Landroid/view/View;
     invoke-static {v0, v4, v10}, Lorg/telegram/ui/Components/RecyclerListView;->access$2800(Lorg/telegram/ui/Components/RecyclerListView;ILandroid/view/View;)Landroid/view/View;
 
     move-result-object v10
@@ -939,7 +890,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->headers:Ljava/util/ArrayList;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2200(Lorg/telegram/ui/Components/RecyclerListView;)Ljava/util/ArrayList;
 
     move-result-object v19
@@ -955,7 +905,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsAdapter:Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2000(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
 
     move-result-object v19
@@ -974,7 +923,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->startSection:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2700(Lorg/telegram/ui/Components/RecyclerListView;)I
 
     move-result v19
@@ -990,7 +938,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsAdapter:Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2000(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
 
     move-result-object v19
@@ -1038,7 +985,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsAdapter:Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2000(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
 
     move-result-object v19
@@ -1071,7 +1017,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsAdapter:Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2000(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
 
     move-result-object v19
@@ -1082,7 +1027,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->startSection:I
     invoke-static/range {v20 .. v20}, Lorg/telegram/ui/Components/RecyclerListView;->access$2700(Lorg/telegram/ui/Components/RecyclerListView;)I
 
     move-result v20
@@ -1093,7 +1037,6 @@
 
     move-object/from16 v21, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsCount:I
     invoke-static/range {v21 .. v21}, Lorg/telegram/ui/Components/RecyclerListView;->access$2600(Lorg/telegram/ui/Components/RecyclerListView;)I
 
     move-result v21
@@ -1113,7 +1056,6 @@
 
     move-object/from16 v19, v0
 
-    # operator++ for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsCount:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2608(Lorg/telegram/ui/Components/RecyclerListView;)I
 
     goto/16 :goto_2
@@ -1292,7 +1234,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsType:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$1900(Lorg/telegram/ui/Components/RecyclerListView;)I
 
     move-result v19
@@ -1312,7 +1253,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsAdapter:Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2000(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
 
     move-result-object v19
@@ -1330,7 +1270,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsAdapter:Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2000(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
 
     move-result-object v19
@@ -1349,7 +1288,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->currentFirst:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2400(Lorg/telegram/ui/Components/RecyclerListView;)I
 
     move-result v19
@@ -1366,7 +1304,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->pinnedHeader:Landroid/view/View;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2900(Lorg/telegram/ui/Components/RecyclerListView;)Landroid/view/View;
 
     move-result-object v19
@@ -1393,7 +1330,6 @@
 
     move-object/from16 v21, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->pinnedHeader:Landroid/view/View;
     invoke-static/range {v21 .. v21}, Lorg/telegram/ui/Components/RecyclerListView;->access$2900(Lorg/telegram/ui/Components/RecyclerListView;)Landroid/view/View;
 
     move-result-object v21
@@ -1404,12 +1340,10 @@
 
     move-object/from16 v2, v21
 
-    # invokes: Lorg/telegram/ui/Components/RecyclerListView;->getSectionHeaderView(ILandroid/view/View;)Landroid/view/View;
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/Components/RecyclerListView;->access$2800(Lorg/telegram/ui/Components/RecyclerListView;ILandroid/view/View;)Landroid/view/View;
 
     move-result-object v20
 
-    # setter for: Lorg/telegram/ui/Components/RecyclerListView;->pinnedHeader:Landroid/view/View;
     invoke-static/range {v19 .. v20}, Lorg/telegram/ui/Components/RecyclerListView;->access$2902(Lorg/telegram/ui/Components/RecyclerListView;Landroid/view/View;)Landroid/view/View;
 
     .line 837
@@ -1423,7 +1357,6 @@
 
     move/from16 v1, v17
 
-    # setter for: Lorg/telegram/ui/Components/RecyclerListView;->currentFirst:I
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/RecyclerListView;->access$2402(Lorg/telegram/ui/Components/RecyclerListView;I)I
 
     .line 840
@@ -1434,7 +1367,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsAdapter:Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2000(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
 
     move-result-object v19
@@ -1455,7 +1387,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->sectionsAdapter:Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2000(Lorg/telegram/ui/Components/RecyclerListView;)Lorg/telegram/ui/Components/RecyclerListView$SectionsAdapter;
 
     move-result-object v19
@@ -1497,7 +1428,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->pinnedHeader:Landroid/view/View;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2900(Lorg/telegram/ui/Components/RecyclerListView;)Landroid/view/View;
 
     move-result-object v19
@@ -1545,7 +1475,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->pinnedHeader:Landroid/view/View;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2900(Lorg/telegram/ui/Components/RecyclerListView;)Landroid/view/View;
 
     move-result-object v19
@@ -1596,7 +1525,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->pinnedHeader:Landroid/view/View;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2900(Lorg/telegram/ui/Components/RecyclerListView;)Landroid/view/View;
 
     move-result-object v19
@@ -1622,7 +1550,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->pinnedHeader:Landroid/view/View;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/RecyclerListView;->access$2900(Lorg/telegram/ui/Components/RecyclerListView;)Landroid/view/View;
 
     move-result-object v19

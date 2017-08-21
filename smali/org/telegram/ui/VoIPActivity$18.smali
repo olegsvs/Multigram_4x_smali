@@ -44,7 +44,6 @@
     .line 950
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$18;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->swipeViewsWrap:Landroid/widget/LinearLayout;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$2500(Lorg/telegram/ui/VoIPActivity;)Landroid/widget/LinearLayout;
 
     move-result-object v0
@@ -54,7 +53,6 @@
     .line 951
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$18;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->declineBtn:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$1300(Lorg/telegram/ui/VoIPActivity;)Landroid/view/View;
 
     move-result-object v0

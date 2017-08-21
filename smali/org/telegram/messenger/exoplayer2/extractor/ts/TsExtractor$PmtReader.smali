@@ -136,7 +136,6 @@
 
     .line 499
     .local v10, "formatIdentifier":J
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->AC3_FORMAT_IDENTIFIER:J
     invoke-static {}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$900()J
 
     move-result-wide v16
@@ -167,7 +166,6 @@
     .line 501
     .restart local v10    # "formatIdentifier":J
     :cond_1
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->E_AC3_FORMAT_IDENTIFIER:J
     invoke-static {}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$1000()J
 
     move-result-wide v16
@@ -183,7 +181,6 @@
 
     .line 503
     :cond_2
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->HEVC_FORMAT_IDENTIFIER:J
     invoke-static {}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$1100()J
 
     move-result-wide v16
@@ -390,7 +387,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->mode:I
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$200(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)I
 
     move-result v16
@@ -409,7 +405,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->mode:I
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$200(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)I
 
     move-result v16
@@ -428,7 +423,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->remainingPmts:I
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$100(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)I
 
     move-result v16
@@ -449,7 +443,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->timestampAdjusters:Ljava/util/List;
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$300(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Ljava/util/List;
 
     move-result-object v16
@@ -542,7 +535,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->mode:I
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$200(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)I
 
     move-result v16
@@ -561,7 +553,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->id3Reader:Lorg/telegram/messenger/exoplayer2/extractor/ts/TsPayloadReader;
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$400(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Lorg/telegram/messenger/exoplayer2/extractor/ts/TsPayloadReader;
 
     move-result-object v16
@@ -609,7 +600,6 @@
 
     move-object/from16 v17, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->payloadReaderFactory:Lorg/telegram/messenger/exoplayer2/extractor/ts/TsPayloadReader$Factory;
     invoke-static/range {v17 .. v17}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$500(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Lorg/telegram/messenger/exoplayer2/extractor/ts/TsPayloadReader$Factory;
 
     move-result-object v17
@@ -624,7 +614,6 @@
 
     move-result-object v17
 
-    # setter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->id3Reader:Lorg/telegram/messenger/exoplayer2/extractor/ts/TsPayloadReader;
     invoke-static/range {v16 .. v17}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$402(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;Lorg/telegram/messenger/exoplayer2/extractor/ts/TsPayloadReader;)Lorg/telegram/messenger/exoplayer2/extractor/ts/TsPayloadReader;
 
     .line 424
@@ -634,7 +623,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->id3Reader:Lorg/telegram/messenger/exoplayer2/extractor/ts/TsPayloadReader;
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$400(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Lorg/telegram/messenger/exoplayer2/extractor/ts/TsPayloadReader;
 
     move-result-object v16
@@ -645,7 +633,6 @@
 
     move-object/from16 v17, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->output:Lorg/telegram/messenger/exoplayer2/extractor/ExtractorOutput;
     invoke-static/range {v17 .. v17}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$600(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Lorg/telegram/messenger/exoplayer2/extractor/ExtractorOutput;
 
     move-result-object v17
@@ -799,7 +786,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->mode:I
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$200(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)I
 
     move-result v16
@@ -823,7 +809,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->trackIds:Landroid/util/SparseBooleanArray;
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$700(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Landroid/util/SparseBooleanArray;
 
     move-result-object v16
@@ -843,7 +828,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->trackIds:Landroid/util/SparseBooleanArray;
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$700(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Landroid/util/SparseBooleanArray;
 
     move-result-object v16
@@ -863,7 +847,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->mode:I
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$200(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)I
 
     move-result v16
@@ -889,7 +872,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->id3Reader:Lorg/telegram/messenger/exoplayer2/extractor/ts/TsPayloadReader;
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$400(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Lorg/telegram/messenger/exoplayer2/extractor/ts/TsPayloadReader;
 
     move-result-object v10
@@ -907,7 +889,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->tsPayloadReaders:Landroid/util/SparseArray;
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$000(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Landroid/util/SparseArray;
 
     move-result-object v16
@@ -939,7 +920,6 @@
     move-object/from16 v16, v0
 
     .line 400
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->timestampAdjusters:Ljava/util/List;
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$300(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Ljava/util/List;
 
     move-result-object v16
@@ -968,7 +948,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->timestampAdjusters:Ljava/util/List;
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$300(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Ljava/util/List;
 
     move-result-object v16
@@ -1001,7 +980,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->payloadReaderFactory:Lorg/telegram/messenger/exoplayer2/extractor/ts/TsPayloadReader$Factory;
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$500(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Lorg/telegram/messenger/exoplayer2/extractor/ts/TsPayloadReader$Factory;
 
     move-result-object v16
@@ -1023,7 +1001,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->output:Lorg/telegram/messenger/exoplayer2/extractor/ExtractorOutput;
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$600(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Lorg/telegram/messenger/exoplayer2/extractor/ExtractorOutput;
 
     move-result-object v16
@@ -1060,7 +1037,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->mode:I
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$200(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)I
 
     move-result v16
@@ -1080,7 +1056,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->tracksEnded:Z
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$800(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Z
 
     move-result v16
@@ -1094,7 +1069,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->output:Lorg/telegram/messenger/exoplayer2/extractor/ExtractorOutput;
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$600(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Lorg/telegram/messenger/exoplayer2/extractor/ExtractorOutput;
 
     move-result-object v16
@@ -1110,7 +1084,6 @@
 
     const/16 v17, 0x0
 
-    # setter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->remainingPmts:I
     invoke-static/range {v16 .. v17}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$102(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;I)I
 
     .line 467
@@ -1122,7 +1095,6 @@
 
     const/16 v17, 0x1
 
-    # setter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->tracksEnded:Z
     invoke-static/range {v16 .. v17}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$802(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;Z)Z
 
     goto/16 :goto_0
@@ -1135,7 +1107,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->tsPayloadReaders:Landroid/util/SparseArray;
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$000(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Landroid/util/SparseArray;
 
     move-result-object v16
@@ -1161,7 +1132,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->mode:I
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$200(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)I
 
     move-result v16
@@ -1181,7 +1151,6 @@
 
     move/from16 v1, v16
 
-    # setter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->remainingPmts:I
     invoke-static {v0, v1}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$102(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;I)I
 
     .line 472
@@ -1191,7 +1160,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->remainingPmts:I
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$100(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)I
 
     move-result v16
@@ -1205,7 +1173,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->output:Lorg/telegram/messenger/exoplayer2/extractor/ExtractorOutput;
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$600(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)Lorg/telegram/messenger/exoplayer2/extractor/ExtractorOutput;
 
     move-result-object v16
@@ -1221,7 +1188,6 @@
 
     const/16 v17, 0x1
 
-    # setter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->tracksEnded:Z
     invoke-static/range {v16 .. v17}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$802(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;Z)Z
 
     goto/16 :goto_0
@@ -1234,7 +1200,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->remainingPmts:I
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;->access$100(Lorg/telegram/messenger/exoplayer2/extractor/ts/TsExtractor;)I
 
     move-result v16

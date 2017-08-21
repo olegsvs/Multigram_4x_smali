@@ -51,7 +51,6 @@
     .line 557
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/BottomSheet$2;->this$0:Lorg/telegram/ui/ActionBar/BottomSheet;
 
-    # setter for: Lorg/telegram/ui/ActionBar/BottomSheet;->lastInsets:Landroid/view/WindowInsets;
     invoke-static {v0, p2}, Lorg/telegram/ui/ActionBar/BottomSheet;->access$502(Lorg/telegram/ui/ActionBar/BottomSheet;Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
 
     .line 558

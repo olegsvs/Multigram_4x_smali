@@ -47,7 +47,6 @@
     .line 371
     iget-object v0, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->loading:Z
     invoke-static {v0}, Lorg/telegram/ui/SessionsActivity;->access$600(Lorg/telegram/ui/SessionsActivity;)Z
 
     move-result v0
@@ -62,7 +61,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->rowCount:I
     invoke-static {v0}, Lorg/telegram/ui/SessionsActivity;->access$800(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v0
@@ -80,7 +78,6 @@
     .line 448
     iget-object v1, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->terminateAllSessionsRow:I
     invoke-static {v1}, Lorg/telegram/ui/SessionsActivity;->access$000(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v1
@@ -96,7 +93,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->terminateAllSessionsDetailRow:I
     invoke-static {v1}, Lorg/telegram/ui/SessionsActivity;->access$1000(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v1
@@ -105,7 +101,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->otherSessionsTerminateDetail:I
     invoke-static {v1}, Lorg/telegram/ui/SessionsActivity;->access$1100(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v1
@@ -122,7 +117,6 @@
     :cond_3
     iget-object v1, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->currentSessionSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/SessionsActivity;->access$1200(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v1
@@ -131,7 +125,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->otherSessionsSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/SessionsActivity;->access$1300(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v1
@@ -148,7 +141,6 @@
     :cond_5
     iget-object v1, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->noOtherSessionsRow:I
     invoke-static {v1}, Lorg/telegram/ui/SessionsActivity;->access$1500(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v1
@@ -164,7 +156,6 @@
     :cond_6
     iget-object v1, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->currentSessionRow:I
     invoke-static {v1}, Lorg/telegram/ui/SessionsActivity;->access$1400(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v1
@@ -173,7 +164,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->otherSessionsStartRow:I
     invoke-static {v1}, Lorg/telegram/ui/SessionsActivity;->access$100(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v1
@@ -182,7 +172,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->otherSessionsEndRow:I
     invoke-static {v1}, Lorg/telegram/ui/SessionsActivity;->access$200(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v1
@@ -210,7 +199,6 @@
     .local v0, "position":I
     iget-object v1, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->terminateAllSessionsRow:I
     invoke-static {v1}, Lorg/telegram/ui/SessionsActivity;->access$000(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v1
@@ -219,7 +207,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->otherSessionsStartRow:I
     invoke-static {v1}, Lorg/telegram/ui/SessionsActivity;->access$100(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v1
@@ -228,7 +215,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->otherSessionsEndRow:I
     invoke-static {v1}, Lorg/telegram/ui/SessionsActivity;->access$200(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v1
@@ -273,7 +259,6 @@
     .local v3, "sessionCell":Lorg/telegram/ui/Cells/SessionCell;
     iget-object v5, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->currentSessionRow:I
     invoke-static {v5}, Lorg/telegram/ui/SessionsActivity;->access$1400(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v5
@@ -283,14 +268,12 @@
     .line 438
     iget-object v5, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->currentSession:Lorg/telegram/tgnet/TLRPC$TL_authorization;
     invoke-static {v5}, Lorg/telegram/ui/SessionsActivity;->access$700(Lorg/telegram/ui/SessionsActivity;)Lorg/telegram/tgnet/TLRPC$TL_authorization;
 
     move-result-object v5
 
     iget-object v8, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->sessions:Ljava/util/ArrayList;
     invoke-static {v8}, Lorg/telegram/ui/SessionsActivity;->access$300(Lorg/telegram/ui/SessionsActivity;)Ljava/util/ArrayList;
 
     move-result-object v8
@@ -322,7 +305,6 @@
     .local v4, "textCell":Lorg/telegram/ui/Cells/TextSettingsCell;
     iget-object v5, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->terminateAllSessionsRow:I
     invoke-static {v5}, Lorg/telegram/ui/SessionsActivity;->access$000(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v5
@@ -362,7 +344,6 @@
     .local v2, "privacyCell":Lorg/telegram/ui/Cells/TextInfoPrivacyCell;
     iget-object v5, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->terminateAllSessionsDetailRow:I
     invoke-static {v5}, Lorg/telegram/ui/SessionsActivity;->access$1000(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v5
@@ -399,7 +380,6 @@
     :cond_2
     iget-object v5, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->otherSessionsTerminateDetail:I
     invoke-static {v5}, Lorg/telegram/ui/SessionsActivity;->access$1100(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v5
@@ -443,7 +423,6 @@
     .local v0, "headerCell":Lorg/telegram/ui/Cells/HeaderCell;
     iget-object v5, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->currentSessionSectionRow:I
     invoke-static {v5}, Lorg/telegram/ui/SessionsActivity;->access$1200(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v5
@@ -467,7 +446,6 @@
     :cond_3
     iget-object v5, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->otherSessionsSectionRow:I
     invoke-static {v5}, Lorg/telegram/ui/SessionsActivity;->access$1300(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v5
@@ -492,7 +470,6 @@
     :pswitch_3
     iget-object v5, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->emptyLayout:Landroid/widget/LinearLayout;
     invoke-static {v5}, Lorg/telegram/ui/SessionsActivity;->access$900(Lorg/telegram/ui/SessionsActivity;)Landroid/widget/LinearLayout;
 
     move-result-object v5
@@ -550,7 +527,6 @@
     .line 432
     iget-object v5, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->emptyLayout:Landroid/widget/LinearLayout;
     invoke-static {v5}, Lorg/telegram/ui/SessionsActivity;->access$900(Lorg/telegram/ui/SessionsActivity;)Landroid/widget/LinearLayout;
 
     move-result-object v5
@@ -571,14 +547,12 @@
     :cond_5
     iget-object v5, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->sessions:Ljava/util/ArrayList;
     invoke-static {v5}, Lorg/telegram/ui/SessionsActivity;->access$300(Lorg/telegram/ui/SessionsActivity;)Ljava/util/ArrayList;
 
     move-result-object v5
 
     iget-object v8, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->otherSessionsStartRow:I
     invoke-static {v8}, Lorg/telegram/ui/SessionsActivity;->access$100(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v8
@@ -593,7 +567,6 @@
 
     iget-object v8, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->otherSessionsEndRow:I
     invoke-static {v8}, Lorg/telegram/ui/SessionsActivity;->access$200(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v8
@@ -693,7 +666,6 @@
     :pswitch_3
     iget-object v1, p0, Lorg/telegram/ui/SessionsActivity$ListAdapter;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->emptyLayout:Landroid/widget/LinearLayout;
     invoke-static {v1}, Lorg/telegram/ui/SessionsActivity;->access$900(Lorg/telegram/ui/SessionsActivity;)Landroid/widget/LinearLayout;
 
     move-result-object v0

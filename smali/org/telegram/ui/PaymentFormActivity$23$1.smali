@@ -49,7 +49,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PaymentFormActivity$23;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # setter for: Lorg/telegram/ui/PaymentFormActivity;->paymentJson:Ljava/lang/String;
     invoke-static {v0, p1}, Lorg/telegram/ui/PaymentFormActivity;->access$002(Lorg/telegram/ui/PaymentFormActivity;Ljava/lang/String;)Ljava/lang/String;
 
     .line 1670
@@ -57,7 +56,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PaymentFormActivity$23;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # setter for: Lorg/telegram/ui/PaymentFormActivity;->saveCardInfo:Z
     invoke-static {v0, p3}, Lorg/telegram/ui/PaymentFormActivity;->access$2602(Lorg/telegram/ui/PaymentFormActivity;Z)Z
 
     .line 1671
@@ -65,7 +63,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PaymentFormActivity$23;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # setter for: Lorg/telegram/ui/PaymentFormActivity;->cardName:Ljava/lang/String;
     invoke-static {v0, p2}, Lorg/telegram/ui/PaymentFormActivity;->access$102(Lorg/telegram/ui/PaymentFormActivity;Ljava/lang/String;)Ljava/lang/String;
 
     .line 1672
@@ -73,7 +70,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PaymentFormActivity$23;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # getter for: Lorg/telegram/ui/PaymentFormActivity;->detailSettingsCell:[Lorg/telegram/ui/Cells/TextDetailSettingsCell;
     invoke-static {v0}, Lorg/telegram/ui/PaymentFormActivity;->access$3500(Lorg/telegram/ui/PaymentFormActivity;)[Lorg/telegram/ui/Cells/TextDetailSettingsCell;
 
     move-result-object v0
@@ -86,7 +82,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/PaymentFormActivity$23;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # getter for: Lorg/telegram/ui/PaymentFormActivity;->cardName:Ljava/lang/String;
     invoke-static {v1}, Lorg/telegram/ui/PaymentFormActivity;->access$100(Lorg/telegram/ui/PaymentFormActivity;)Ljava/lang/String;
 
     move-result-object v1

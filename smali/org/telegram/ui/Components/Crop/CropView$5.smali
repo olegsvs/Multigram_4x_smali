@@ -60,7 +60,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/Crop/CropView;->animating:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/Crop/CropView;->access$1902(Lorg/telegram/ui/Components/Crop/CropView;Z)Z
 
     .line 524
@@ -79,7 +78,6 @@
 
     const/4 v4, 0x1
 
-    # invokes: Lorg/telegram/ui/Components/Crop/CropView;->fitContentInBounds(ZZZZ)V
     invoke-static {v0, v1, v2, v3, v4}, Lorg/telegram/ui/Components/Crop/CropView;->access$2000(Lorg/telegram/ui/Components/Crop/CropView;ZZZZ)V
 
     .line 526

@@ -58,7 +58,6 @@
 
     iget v2, v2, Lorg/telegram/messenger/MessagesController$11;->val$chat_id:I
 
-    # invokes: Lorg/telegram/messenger/MessagesController;->checkChannelError(Ljava/lang/String;I)V
     invoke-static {v0, v1, v2}, Lorg/telegram/messenger/MessagesController;->access$2100(Lorg/telegram/messenger/MessagesController;Ljava/lang/String;I)V
 
     .line 1201
@@ -66,7 +65,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/MessagesController$11;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->loadingFullChats:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/messenger/MessagesController;->access$1900(Lorg/telegram/messenger/MessagesController;)Ljava/util/ArrayList;
 
     move-result-object v0

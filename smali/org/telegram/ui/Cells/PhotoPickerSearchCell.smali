@@ -44,7 +44,6 @@
 
     .line 90
     .local v2, "searchButton":Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;
-    # getter for: Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;->textView1:Landroid/widget/TextView;
     invoke-static {v2}, Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;->access$000(Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;)Landroid/widget/TextView;
 
     move-result-object v3
@@ -60,7 +59,6 @@
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 91
-    # getter for: Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;->textView2:Landroid/widget/TextView;
     invoke-static {v2}, Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;->access$100(Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;)Landroid/widget/TextView;
 
     move-result-object v3
@@ -76,7 +74,6 @@
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 92
-    # getter for: Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;->imageView:Landroid/widget/ImageView;
     invoke-static {v2}, Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;->access$200(Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;)Landroid/widget/ImageView;
 
     move-result-object v3
@@ -179,7 +176,6 @@
 
     .line 119
     .restart local v2    # "searchButton":Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;
-    # getter for: Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;->textView1:Landroid/widget/TextView;
     invoke-static {v2}, Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;->access$000(Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;)Landroid/widget/TextView;
 
     move-result-object v3
@@ -195,7 +191,6 @@
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 120
-    # getter for: Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;->textView2:Landroid/widget/TextView;
     invoke-static {v2}, Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;->access$100(Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;)Landroid/widget/TextView;
 
     move-result-object v3
@@ -205,7 +200,6 @@
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 121
-    # getter for: Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;->imageView:Landroid/widget/ImageView;
     invoke-static {v2}, Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;->access$200(Lorg/telegram/ui/Cells/PhotoPickerSearchCell$SearchButton;)Landroid/widget/ImageView;
 
     move-result-object v3

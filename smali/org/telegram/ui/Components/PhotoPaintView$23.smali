@@ -53,7 +53,6 @@
     .line 1180
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$23;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->popupWindow:Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$2000(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
 
     move-result-object v0
@@ -62,7 +61,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$23;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->popupWindow:Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$2000(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
 
     move-result-object v0
@@ -76,7 +74,6 @@
     .line 1181
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$23;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->popupRect:Landroid/graphics/Rect;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$2900(Lorg/telegram/ui/Components/PhotoPaintView;)Landroid/graphics/Rect;
 
     move-result-object v0
@@ -86,7 +83,6 @@
     .line 1182
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$23;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->popupRect:Landroid/graphics/Rect;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$2900(Lorg/telegram/ui/Components/PhotoPaintView;)Landroid/graphics/Rect;
 
     move-result-object v0
@@ -112,7 +108,6 @@
     .line 1183
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$23;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->popupWindow:Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$2000(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
 
     move-result-object v0

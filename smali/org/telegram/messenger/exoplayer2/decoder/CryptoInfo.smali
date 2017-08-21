@@ -164,7 +164,6 @@
 
     iget v2, p0, Lorg/telegram/messenger/exoplayer2/decoder/CryptoInfo;->patternBlocksToSkip:I
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/decoder/CryptoInfo$PatternHolderV24;->set(II)V
     invoke-static {v0, v1, v2}, Lorg/telegram/messenger/exoplayer2/decoder/CryptoInfo$PatternHolderV24;->access$100(Lorg/telegram/messenger/exoplayer2/decoder/CryptoInfo$PatternHolderV24;II)V
 
     .line 127
@@ -260,7 +259,6 @@
     .line 91
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/decoder/CryptoInfo;->patternHolder:Lorg/telegram/messenger/exoplayer2/decoder/CryptoInfo$PatternHolderV24;
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/decoder/CryptoInfo$PatternHolderV24;->set(II)V
     invoke-static {v0, p1, p2}, Lorg/telegram/messenger/exoplayer2/decoder/CryptoInfo$PatternHolderV24;->access$100(Lorg/telegram/messenger/exoplayer2/decoder/CryptoInfo$PatternHolderV24;II)V
 
     .line 93

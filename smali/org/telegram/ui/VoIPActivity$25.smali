@@ -44,7 +44,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/VoIPActivity;->tooltipAnim:Landroid/animation/Animator;
     invoke-static {v0, v1}, Lorg/telegram/ui/VoIPActivity;->access$4102(Lorg/telegram/ui/VoIPActivity;Landroid/animation/Animator;)Landroid/animation/Animator;
 
     .line 1327

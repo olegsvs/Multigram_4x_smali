@@ -42,7 +42,6 @@
     .line 292
     iget-object v0, p0, Lorg/telegram/ui/IdenticonActivity$5;->this$0:Lorg/telegram/ui/IdenticonActivity;
 
-    # getter for: Lorg/telegram/ui/IdenticonActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/IdenticonActivity;->access$600(Lorg/telegram/ui/IdenticonActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -58,7 +57,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/IdenticonActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v0, v1}, Lorg/telegram/ui/IdenticonActivity;->access$602(Lorg/telegram/ui/IdenticonActivity;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 295

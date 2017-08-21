@@ -47,13 +47,11 @@
     .line 2171
     iget-object v0, p0, Lorg/telegram/ui/PhotoViewer$20;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->showQualityView(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/PhotoViewer;->access$6600(Lorg/telegram/ui/PhotoViewer;Z)V
 
     .line 2172
     iget-object v0, p0, Lorg/telegram/ui/PhotoViewer$20;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->requestVideoPreview(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/PhotoViewer;->access$6700(Lorg/telegram/ui/PhotoViewer;I)V
 
     .line 2173

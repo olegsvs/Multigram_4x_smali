@@ -88,7 +88,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->headerColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$200(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -194,7 +193,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->headerGradientColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$400(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -284,7 +282,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->headerTitleColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$500(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -381,7 +378,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->headerIconsColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$600(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -478,7 +474,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->headerTabIconColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$700(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -568,7 +563,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->headerTabUnselectedIconColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$800(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -658,7 +652,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->headerTabCounterColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$900(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -748,7 +741,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->headerTabCounterBGColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$1000(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -838,7 +830,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->headerTabCounterSilentBGColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$1100(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -928,7 +919,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->rowColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$1200(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -1018,7 +1008,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->tabsBGColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$1300(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -1108,7 +1097,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->favIndicatorColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$1400(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -1198,7 +1186,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->rowGradientColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$1500(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -1288,7 +1275,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->rowGradientListCheckRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$1600(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -1393,7 +1379,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->pinnedMsgBGColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$1700(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -1483,7 +1468,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->dividerColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$1800(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -1580,7 +1564,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->headerTitleRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$1900(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -1828,7 +1811,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->headerGradientRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$2100(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -1994,7 +1976,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->rowGradientRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$2200(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -2160,7 +2141,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->nameColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$2300(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -2250,7 +2230,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->groupNameColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$2400(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -2347,7 +2326,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->unknownNameColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$2500(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -2444,7 +2422,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->groupIconColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$2600(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -2549,7 +2526,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->muteColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$2700(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -2646,7 +2622,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->checksColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$2800(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -2743,7 +2718,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->messageColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$2900(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -2840,7 +2814,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->highlightSearchColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$3000(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -2937,7 +2910,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->memberColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$3100(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -3034,7 +3006,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->mediaColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$3200(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -3141,7 +3112,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->typingColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$3300(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -3238,7 +3208,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->timeColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$3400(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -3335,7 +3304,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->countColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$3500(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -3432,7 +3400,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->countBGColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$3600(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -3529,7 +3496,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->countSilentBGColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$3700(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -3634,7 +3600,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->avatarRadiusRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$3800(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -3761,7 +3726,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->tabsTextSizeRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$3900(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -3888,7 +3852,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->tabsCounterSizeRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$4000(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -4015,7 +3978,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->avatarSizeRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$4100(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -4142,7 +4104,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->avatarMarginLeftRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$4200(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -4269,7 +4230,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->nameSizeRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$4300(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -4401,7 +4361,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->groupNameSizeRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$4400(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -4542,7 +4501,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->messageSizeRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$4500(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -4678,7 +4636,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->timeSizeRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$4600(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -4814,7 +4771,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->countSizeRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$4700(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -4941,7 +4897,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->floatingPencilColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$4800(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -5038,7 +4993,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->floatingBGColorRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$4900(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -5135,7 +5089,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->hideStatusIndicatorCheckRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$5000(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -5201,7 +5154,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->tabsToBottomRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$5100(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -5319,7 +5271,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->tabsTextModeRow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$5200(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3
@@ -5437,7 +5388,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ThemingChatsActivity$3;->this$0:Lorg/telegram/ui/ThemingChatsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatsActivity;->hideHeaderShadow:I
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatsActivity;->access$5300(Lorg/telegram/ui/ThemingChatsActivity;)I
 
     move-result v3

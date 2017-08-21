@@ -56,7 +56,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/ThemingActivity$3;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # setter for: Lorg/telegram/ui/ThemingActivity;->saving:Z
     invoke-static {v2, v3}, Lorg/telegram/ui/ThemingActivity;->access$702(Lorg/telegram/ui/ThemingActivity;Z)Z
 
     .line 269

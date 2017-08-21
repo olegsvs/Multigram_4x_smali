@@ -49,19 +49,16 @@
 
     const/4 v1, 0x2
 
-    # setter for: Lorg/telegram/ui/Components/PhotoFilterView;->blurType:I
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/PhotoFilterView;->access$1702(Lorg/telegram/ui/Components/PhotoFilterView;I)I
 
     .line 1901
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$10;->this$0:Lorg/telegram/ui/Components/PhotoFilterView;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoFilterView;->updateSelectedBlurType()V
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView;->access$5800(Lorg/telegram/ui/Components/PhotoFilterView;)V
 
     .line 1902
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$10;->this$0:Lorg/telegram/ui/Components/PhotoFilterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView;->blurControl:Lorg/telegram/ui/Components/PhotoFilterBlurControl;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView;->access$5900(Lorg/telegram/ui/Components/PhotoFilterView;)Lorg/telegram/ui/Components/PhotoFilterBlurControl;
 
     move-result-object v0
@@ -71,7 +68,6 @@
     .line 1903
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$10;->this$0:Lorg/telegram/ui/Components/PhotoFilterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView;->blurControl:Lorg/telegram/ui/Components/PhotoFilterBlurControl;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView;->access$5900(Lorg/telegram/ui/Components/PhotoFilterView;)Lorg/telegram/ui/Components/PhotoFilterBlurControl;
 
     move-result-object v0
@@ -81,7 +77,6 @@
     .line 1904
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$10;->this$0:Lorg/telegram/ui/Components/PhotoFilterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView;->eglThread:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView;->access$5000(Lorg/telegram/ui/Components/PhotoFilterView;)Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
     move-result-object v0
@@ -91,7 +86,6 @@
     .line 1905
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$10;->this$0:Lorg/telegram/ui/Components/PhotoFilterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView;->eglThread:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView;->access$5000(Lorg/telegram/ui/Components/PhotoFilterView;)Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
     move-result-object v0

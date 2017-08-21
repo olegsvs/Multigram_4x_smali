@@ -258,13 +258,11 @@
     .line 1410
     iget-object v2, p0, Lorg/telegram/ui/VoIPActivity$28;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # setter for: Lorg/telegram/ui/VoIPActivity;->blurredPhoto1:Landroid/graphics/Bitmap;
     invoke-static {v2, v0}, Lorg/telegram/ui/VoIPActivity;->access$4302(Lorg/telegram/ui/VoIPActivity;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     .line 1411
     iget-object v2, p0, Lorg/telegram/ui/VoIPActivity$28;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # setter for: Lorg/telegram/ui/VoIPActivity;->blurredPhoto2:Landroid/graphics/Bitmap;
     invoke-static {v2, v7}, Lorg/telegram/ui/VoIPActivity;->access$4402(Lorg/telegram/ui/VoIPActivity;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     .line 1412

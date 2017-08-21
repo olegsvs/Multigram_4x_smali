@@ -141,7 +141,6 @@
 
     .prologue
     .line 400
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->superListenerField:Ljava/lang/reflect/Field;
     invoke-static {}, Lorg/telegram/ui/Components/EmojiView;->access$2400()Ljava/lang/reflect/Field;
 
     move-result-object v1
@@ -150,7 +149,6 @@
 
     .line 402
     :try_start_0
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->superListenerField:Ljava/lang/reflect/Field;
     invoke-static {}, Lorg/telegram/ui/Components/EmojiView;->access$2400()Ljava/lang/reflect/Field;
 
     move-result-object v1
@@ -164,12 +162,10 @@
     iput-object v1, p0, Lorg/telegram/ui/Components/EmojiView$EmojiPopupWindow;->mSuperScrollListener:Landroid/view/ViewTreeObserver$OnScrollChangedListener;
 
     .line 403
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->superListenerField:Ljava/lang/reflect/Field;
     invoke-static {}, Lorg/telegram/ui/Components/EmojiView;->access$2400()Ljava/lang/reflect/Field;
 
     move-result-object v1
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->NOP:Landroid/view/ViewTreeObserver$OnScrollChangedListener;
     invoke-static {}, Lorg/telegram/ui/Components/EmojiView;->access$2500()Landroid/view/ViewTreeObserver$OnScrollChangedListener;
 
     move-result-object v2

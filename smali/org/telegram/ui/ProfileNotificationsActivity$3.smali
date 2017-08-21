@@ -52,7 +52,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->customRow:I
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$300(Lorg/telegram/ui/ProfileNotificationsActivity;)I
 
     move-result v2
@@ -88,7 +87,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->customEnabled:Z
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$100(Lorg/telegram/ui/ProfileNotificationsActivity;)Z
 
     move-result v2
@@ -98,7 +96,6 @@
     const/4 v2, 0x1
 
     :goto_0
-    # setter for: Lorg/telegram/ui/ProfileNotificationsActivity;->customEnabled:Z
     invoke-static {v3, v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$102(Lorg/telegram/ui/ProfileNotificationsActivity;Z)Z
 
     .line 225
@@ -110,12 +107,10 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->customEnabled:Z
     invoke-static {v3}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$100(Lorg/telegram/ui/ProfileNotificationsActivity;)Z
 
     move-result v3
 
-    # setter for: Lorg/telegram/ui/ProfileNotificationsActivity;->notificationsEnabled:Z
     invoke-static {v2, v3}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$002(Lorg/telegram/ui/ProfileNotificationsActivity;Z)Z
 
     .line 226
@@ -137,7 +132,6 @@
 
     iget-object v4, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->dialog_id:J
     invoke-static {v4}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$200(Lorg/telegram/ui/ProfileNotificationsActivity;)J
 
     move-result-wide v4
@@ -154,7 +148,6 @@
 
     iget-object v4, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->customEnabled:Z
     invoke-static {v4}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$100(Lorg/telegram/ui/ProfileNotificationsActivity;)Z
 
     move-result v4
@@ -176,7 +169,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->customEnabled:Z
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$100(Lorg/telegram/ui/ProfileNotificationsActivity;)Z
 
     move-result v2
@@ -188,7 +180,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$400(Lorg/telegram/ui/ProfileNotificationsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v2
@@ -216,7 +207,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$400(Lorg/telegram/ui/ProfileNotificationsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v2
@@ -231,7 +221,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$400(Lorg/telegram/ui/ProfileNotificationsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v2
@@ -258,7 +247,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->customRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$300(Lorg/telegram/ui/ProfileNotificationsActivity;)I
 
     move-result v3
@@ -313,7 +301,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->customEnabled:Z
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$100(Lorg/telegram/ui/ProfileNotificationsActivity;)Z
 
     move-result v2
@@ -341,7 +328,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->customEnabled:Z
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$100(Lorg/telegram/ui/ProfileNotificationsActivity;)Z
 
     move-result v2
@@ -369,7 +355,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->customEnabled:Z
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$100(Lorg/telegram/ui/ProfileNotificationsActivity;)Z
 
     move-result v2
@@ -397,7 +382,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->customEnabled:Z
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$100(Lorg/telegram/ui/ProfileNotificationsActivity;)Z
 
     move-result v2
@@ -425,7 +409,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$500(Lorg/telegram/ui/ProfileNotificationsActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v2
@@ -437,7 +420,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$500(Lorg/telegram/ui/ProfileNotificationsActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v2
@@ -454,7 +436,6 @@
 
     invoke-direct {v3}, Landroid/animation/AnimatorSet;-><init>()V
 
-    # setter for: Lorg/telegram/ui/ProfileNotificationsActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v2, v3}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$502(Lorg/telegram/ui/ProfileNotificationsActivity;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 265
@@ -462,7 +443,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$500(Lorg/telegram/ui/ProfileNotificationsActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v2
@@ -474,7 +454,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$500(Lorg/telegram/ui/ProfileNotificationsActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v2
@@ -492,7 +471,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$500(Lorg/telegram/ui/ProfileNotificationsActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v2
@@ -506,7 +484,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$500(Lorg/telegram/ui/ProfileNotificationsActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v2
@@ -529,7 +506,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->customEnabled:Z
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$100(Lorg/telegram/ui/ProfileNotificationsActivity;)Z
 
     move-result v2
@@ -541,7 +517,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->soundRow:I
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$600(Lorg/telegram/ui/ProfileNotificationsActivity;)I
 
     move-result v2
@@ -640,7 +615,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->dialog_id:J
     invoke-static {v3}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$200(Lorg/telegram/ui/ProfileNotificationsActivity;)J
 
     move-result-wide v4
@@ -761,7 +735,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->ringtoneRow:I
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$700(Lorg/telegram/ui/ProfileNotificationsActivity;)I
 
     move-result v2
@@ -860,7 +833,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->dialog_id:J
     invoke-static {v3}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$200(Lorg/telegram/ui/ProfileNotificationsActivity;)J
 
     move-result-wide v4
@@ -981,7 +953,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->vibrateRow:I
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$800(Lorg/telegram/ui/ProfileNotificationsActivity;)I
 
     move-result v2
@@ -1013,7 +984,6 @@
 
     iget-object v4, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->dialog_id:J
     invoke-static {v4}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$200(Lorg/telegram/ui/ProfileNotificationsActivity;)J
 
     move-result-wide v4
@@ -1044,7 +1014,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->callsVibrateRow:I
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$1000(Lorg/telegram/ui/ProfileNotificationsActivity;)I
 
     move-result v2
@@ -1074,7 +1043,6 @@
 
     iget-object v4, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->dialog_id:J
     invoke-static {v4}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$200(Lorg/telegram/ui/ProfileNotificationsActivity;)J
 
     move-result-wide v4
@@ -1101,7 +1069,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->priorityRow:I
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$1100(Lorg/telegram/ui/ProfileNotificationsActivity;)I
 
     move-result v2
@@ -1133,7 +1100,6 @@
 
     iget-object v4, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->dialog_id:J
     invoke-static {v4}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$200(Lorg/telegram/ui/ProfileNotificationsActivity;)J
 
     move-result-wide v4
@@ -1164,7 +1130,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->smartRow:I
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$1200(Lorg/telegram/ui/ProfileNotificationsActivity;)I
 
     move-result v2
@@ -1221,7 +1186,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->dialog_id:J
     invoke-static {v3}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$200(Lorg/telegram/ui/ProfileNotificationsActivity;)J
 
     move-result-wide v4
@@ -1258,7 +1222,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->dialog_id:J
     invoke-static {v3}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$200(Lorg/telegram/ui/ProfileNotificationsActivity;)J
 
     move-result-wide v4
@@ -1470,7 +1433,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->colorRow:I
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$1300(Lorg/telegram/ui/ProfileNotificationsActivity;)I
 
     move-result v2
@@ -1507,7 +1469,6 @@
 
     iget-object v4, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->dialog_id:J
     invoke-static {v4}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$200(Lorg/telegram/ui/ProfileNotificationsActivity;)J
 
     move-result-wide v4
@@ -1536,7 +1497,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->popupEnabledRow:I
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$1400(Lorg/telegram/ui/ProfileNotificationsActivity;)I
 
     move-result v2
@@ -1576,7 +1536,6 @@
 
     iget-object v4, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->dialog_id:J
     invoke-static {v4}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$200(Lorg/telegram/ui/ProfileNotificationsActivity;)J
 
     move-result-wide v4
@@ -1614,7 +1573,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$400(Lorg/telegram/ui/ProfileNotificationsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v2
@@ -1653,7 +1611,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->popupDisabledRow:I
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$1500(Lorg/telegram/ui/ProfileNotificationsActivity;)I
 
     move-result v2
@@ -1693,7 +1650,6 @@
 
     iget-object v4, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->dialog_id:J
     invoke-static {v4}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$200(Lorg/telegram/ui/ProfileNotificationsActivity;)J
 
     move-result-wide v4
@@ -1731,7 +1687,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v2}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$400(Lorg/telegram/ui/ProfileNotificationsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v2

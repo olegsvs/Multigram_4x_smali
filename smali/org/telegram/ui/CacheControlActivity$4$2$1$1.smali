@@ -61,7 +61,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/CacheControlActivity$4;->this$0:Lorg/telegram/ui/CacheControlActivity;
 
-    # getter for: Lorg/telegram/ui/CacheControlActivity;->listAdapter:Lorg/telegram/ui/CacheControlActivity$ListAdapter;
     invoke-static {v2}, Lorg/telegram/ui/CacheControlActivity;->access$1100(Lorg/telegram/ui/CacheControlActivity;)Lorg/telegram/ui/CacheControlActivity$ListAdapter;
 
     move-result-object v2
@@ -93,7 +92,6 @@
 
     move-result-wide v4
 
-    # setter for: Lorg/telegram/ui/CacheControlActivity;->databaseSize:J
     invoke-static {v2, v4, v5}, Lorg/telegram/ui/CacheControlActivity;->access$1502(Lorg/telegram/ui/CacheControlActivity;J)J
 
     .line 472
@@ -105,7 +103,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/CacheControlActivity$4;->this$0:Lorg/telegram/ui/CacheControlActivity;
 
-    # getter for: Lorg/telegram/ui/CacheControlActivity;->listAdapter:Lorg/telegram/ui/CacheControlActivity$ListAdapter;
     invoke-static {v2}, Lorg/telegram/ui/CacheControlActivity;->access$1100(Lorg/telegram/ui/CacheControlActivity;)Lorg/telegram/ui/CacheControlActivity$ListAdapter;
 
     move-result-object v2

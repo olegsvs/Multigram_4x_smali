@@ -46,7 +46,6 @@
     .line 699
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$7;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelAdminLogActivity;->createMenu(Landroid/view/View;)V
     invoke-static {v0, p1}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$3700(Lorg/telegram/ui/ChannelAdminLogActivity;Landroid/view/View;)V
 
     .line 700

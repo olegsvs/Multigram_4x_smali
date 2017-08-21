@@ -184,7 +184,6 @@
 
     aget-object v0, v0, p1
 
-    # getter for: Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->imageView:Lorg/telegram/ui/Components/BackupImageView;
     invoke-static {v0}, Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->access$500(Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;)Lorg/telegram/ui/Components/BackupImageView;
 
     move-result-object v0
@@ -484,7 +483,6 @@
 
     .line 239
     .local v23, "photoVideoView":Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;
-    # getter for: Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->imageView:Lorg/telegram/ui/Components/BackupImageView;
     invoke-static/range {v23 .. v23}, Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->access$500(Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;)Lorg/telegram/ui/Components/BackupImageView;
 
     move-result-object v1
@@ -498,7 +496,6 @@
     invoke-virtual {v1, v0}, Lorg/telegram/messenger/ImageReceiver;->setParentMessageObject(Lorg/telegram/messenger/MessageObject;)V
 
     .line 240
-    # getter for: Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->imageView:Lorg/telegram/ui/Components/BackupImageView;
     invoke-static/range {v23 .. v23}, Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->access$500(Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;)Lorg/telegram/ui/Components/BackupImageView;
 
     move-result-object v1
@@ -534,7 +531,6 @@
     if-eqz v1, :cond_4
 
     .line 242
-    # getter for: Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->videoInfoContainer:Landroid/widget/FrameLayout;
     invoke-static/range {v23 .. v23}, Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->access$600(Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;)Landroid/widget/FrameLayout;
 
     move-result-object v1
@@ -609,7 +605,6 @@
 
     .line 253
     .local v24, "seconds":I
-    # getter for: Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->videoTextView:Landroid/widget/TextView;
     invoke-static/range {v23 .. v23}, Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->access$700(Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;)Landroid/widget/TextView;
 
     move-result-object v1
@@ -662,7 +657,6 @@
 
     .line 256
     .local v7, "location":Lorg/telegram/tgnet/TLRPC$FileLocation;
-    # getter for: Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->imageView:Lorg/telegram/ui/Components/BackupImageView;
     invoke-static/range {v23 .. v23}, Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->access$500(Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;)Lorg/telegram/ui/Components/BackupImageView;
 
     move-result-object v1
@@ -726,7 +720,6 @@
     .restart local v21    # "minutes":I
     .restart local v24    # "seconds":I
     :cond_3
-    # getter for: Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->imageView:Lorg/telegram/ui/Components/BackupImageView;
     invoke-static/range {v23 .. v23}, Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->access$500(Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;)Lorg/telegram/ui/Components/BackupImageView;
 
     move-result-object v1
@@ -774,7 +767,6 @@
     if-nez v1, :cond_5
 
     .line 261
-    # getter for: Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->videoInfoContainer:Landroid/widget/FrameLayout;
     invoke-static/range {v23 .. v23}, Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->access$600(Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;)Landroid/widget/FrameLayout;
 
     move-result-object v1
@@ -796,7 +788,6 @@
 
     .line 263
     .local v22, "photoSize":Lorg/telegram/tgnet/TLRPC$PhotoSize;
-    # getter for: Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->imageView:Lorg/telegram/ui/Components/BackupImageView;
     invoke-static/range {v23 .. v23}, Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->access$500(Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;)Lorg/telegram/ui/Components/BackupImageView;
 
     move-result-object v8
@@ -838,7 +829,6 @@
     .line 265
     .end local v22    # "photoSize":Lorg/telegram/tgnet/TLRPC$PhotoSize;
     :cond_5
-    # getter for: Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->videoInfoContainer:Landroid/widget/FrameLayout;
     invoke-static/range {v23 .. v23}, Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->access$600(Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;)Landroid/widget/FrameLayout;
 
     move-result-object v1
@@ -848,7 +838,6 @@
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
     .line 266
-    # getter for: Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->imageView:Lorg/telegram/ui/Components/BackupImageView;
     invoke-static/range {v23 .. v23}, Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->access$500(Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;)Lorg/telegram/ui/Components/BackupImageView;
 
     move-result-object v1
@@ -965,7 +954,6 @@
 
     aget-object v1, v1, v0
 
-    # getter for: Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->checkBox:Lorg/telegram/ui/Components/CheckBox;
     invoke-static {v1}, Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;->access$400(Lorg/telegram/ui/Cells/SharedPhotoVideoCell$PhotoVideoView;)Lorg/telegram/ui/Components/CheckBox;
 
     move-result-object v2

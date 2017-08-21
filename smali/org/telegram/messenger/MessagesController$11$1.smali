@@ -66,7 +66,6 @@
 
     iget-object v6, v6, Lorg/telegram/tgnet/TLRPC$ChatFull;->notify_settings:Lorg/telegram/tgnet/TLRPC$PeerNotifySettings;
 
-    # invokes: Lorg/telegram/messenger/MessagesController;->applyDialogNotificationsSettings(JLorg/telegram/tgnet/TLRPC$PeerNotifySettings;)V
     invoke-static {v3, v4, v5, v6}, Lorg/telegram/messenger/MessagesController;->access$1700(Lorg/telegram/messenger/MessagesController;JLorg/telegram/tgnet/TLRPC$PeerNotifySettings;)V
 
     .line 1179
@@ -115,7 +114,6 @@
 
     iget-object v3, v3, Lorg/telegram/messenger/MessagesController$11;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->exportedChats:Ljava/util/HashMap;
     invoke-static {v3}, Lorg/telegram/messenger/MessagesController;->access$1800(Lorg/telegram/messenger/MessagesController;)Ljava/util/HashMap;
 
     move-result-object v3
@@ -141,7 +139,6 @@
 
     iget-object v3, v3, Lorg/telegram/messenger/MessagesController$11;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->loadingFullChats:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/messenger/MessagesController;->access$1900(Lorg/telegram/messenger/MessagesController;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -161,7 +158,6 @@
 
     iget-object v3, v3, Lorg/telegram/messenger/MessagesController$11;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->loadedFullChats:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/messenger/MessagesController;->access$2000(Lorg/telegram/messenger/MessagesController;)Ljava/util/ArrayList;
 
     move-result-object v3

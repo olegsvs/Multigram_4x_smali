@@ -2080,4 +2080,5 @@
     <string name="PlusVersion">Версия Telegram+</string>
     <string name="ShortAppName">Telegram+</string>
     <string name="ShowMySettings">Показать мои настройки</string>
+    <string name="Change_another_user">Мультиюзер</string>
 </resources>

@@ -48,7 +48,6 @@
     .line 110
     iget-object v1, p0, Lorg/telegram/ui/FeaturedStickersActivity$3;->this$0:Lorg/telegram/ui/FeaturedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/FeaturedStickersActivity;->stickersStartRow:I
     invoke-static {v1}, Lorg/telegram/ui/FeaturedStickersActivity;->access$000(Lorg/telegram/ui/FeaturedStickersActivity;)I
 
     move-result v1
@@ -57,7 +56,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/FeaturedStickersActivity$3;->this$0:Lorg/telegram/ui/FeaturedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/FeaturedStickersActivity;->stickersEndRow:I
     invoke-static {v1}, Lorg/telegram/ui/FeaturedStickersActivity;->access$100(Lorg/telegram/ui/FeaturedStickersActivity;)I
 
     move-result v1

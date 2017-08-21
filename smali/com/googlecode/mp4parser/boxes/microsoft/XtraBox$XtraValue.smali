@@ -235,7 +235,6 @@
     :try_start_1
     iget-object v1, p0, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraValue;->stringValue:Ljava/lang/String;
 
-    # invokes: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox;->writeUtf16String(Ljava/nio/ByteBuffer;Ljava/lang/String;)V
     invoke-static {p1, v1}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox;->access$4(Ljava/nio/ByteBuffer;Ljava/lang/String;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -273,7 +272,6 @@
 
     move-result-wide v2
 
-    # invokes: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox;->millisToFiletime(J)J
     invoke-static {v2, v3}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox;->access$5(J)J
 
     move-result-wide v2
@@ -449,7 +447,6 @@
 
     .line 425
     :sswitch_0
-    # invokes: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox;->readUtf16String(Ljava/nio/ByteBuffer;I)Ljava/lang/String;
     invoke-static {p1, v0}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox;->access$2(Ljava/nio/ByteBuffer;I)Ljava/lang/String;
 
     move-result-object v1
@@ -476,7 +473,6 @@
 
     move-result-wide v2
 
-    # invokes: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox;->filetimeToMillis(J)J
     invoke-static {v2, v3}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox;->access$3(J)J
 
     move-result-wide v2

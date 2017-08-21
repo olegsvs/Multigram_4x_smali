@@ -47,7 +47,6 @@
     .line 216
     iget-object v0, p0, Lorg/telegram/ui/PasscodeActivity$3;->this$0:Lorg/telegram/ui/PasscodeActivity;
 
-    # getter for: Lorg/telegram/ui/PasscodeActivity;->passwordEditText:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/PasscodeActivity;->access$500(Lorg/telegram/ui/PasscodeActivity;)Landroid/widget/EditText;
 
     move-result-object v0
@@ -63,7 +62,6 @@
     .line 217
     iget-object v0, p0, Lorg/telegram/ui/PasscodeActivity$3;->this$0:Lorg/telegram/ui/PasscodeActivity;
 
-    # getter for: Lorg/telegram/ui/PasscodeActivity;->type:I
     invoke-static {v0}, Lorg/telegram/ui/PasscodeActivity;->access$600(Lorg/telegram/ui/PasscodeActivity;)I
 
     move-result v0
@@ -79,7 +77,6 @@
     .line 218
     iget-object v0, p0, Lorg/telegram/ui/PasscodeActivity$3;->this$0:Lorg/telegram/ui/PasscodeActivity;
 
-    # invokes: Lorg/telegram/ui/PasscodeActivity;->processDone()V
     invoke-static {v0}, Lorg/telegram/ui/PasscodeActivity;->access$200(Lorg/telegram/ui/PasscodeActivity;)V
 
     .line 227
@@ -91,7 +88,6 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/PasscodeActivity$3;->this$0:Lorg/telegram/ui/PasscodeActivity;
 
-    # getter for: Lorg/telegram/ui/PasscodeActivity;->type:I
     invoke-static {v0}, Lorg/telegram/ui/PasscodeActivity;->access$600(Lorg/telegram/ui/PasscodeActivity;)I
 
     move-result v0
@@ -100,7 +96,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PasscodeActivity$3;->this$0:Lorg/telegram/ui/PasscodeActivity;
 
-    # getter for: Lorg/telegram/ui/PasscodeActivity;->currentPasswordType:I
     invoke-static {v0}, Lorg/telegram/ui/PasscodeActivity;->access$300(Lorg/telegram/ui/PasscodeActivity;)I
 
     move-result v0
@@ -110,7 +105,6 @@
     .line 220
     iget-object v0, p0, Lorg/telegram/ui/PasscodeActivity$3;->this$0:Lorg/telegram/ui/PasscodeActivity;
 
-    # getter for: Lorg/telegram/ui/PasscodeActivity;->passcodeSetStep:I
     invoke-static {v0}, Lorg/telegram/ui/PasscodeActivity;->access$000(Lorg/telegram/ui/PasscodeActivity;)I
 
     move-result v0
@@ -120,7 +114,6 @@
     .line 221
     iget-object v0, p0, Lorg/telegram/ui/PasscodeActivity$3;->this$0:Lorg/telegram/ui/PasscodeActivity;
 
-    # invokes: Lorg/telegram/ui/PasscodeActivity;->processNext()V
     invoke-static {v0}, Lorg/telegram/ui/PasscodeActivity;->access$100(Lorg/telegram/ui/PasscodeActivity;)V
 
     goto :goto_0
@@ -129,7 +122,6 @@
     :cond_2
     iget-object v0, p0, Lorg/telegram/ui/PasscodeActivity$3;->this$0:Lorg/telegram/ui/PasscodeActivity;
 
-    # getter for: Lorg/telegram/ui/PasscodeActivity;->passcodeSetStep:I
     invoke-static {v0}, Lorg/telegram/ui/PasscodeActivity;->access$000(Lorg/telegram/ui/PasscodeActivity;)I
 
     move-result v0
@@ -139,7 +131,6 @@
     .line 223
     iget-object v0, p0, Lorg/telegram/ui/PasscodeActivity$3;->this$0:Lorg/telegram/ui/PasscodeActivity;
 
-    # invokes: Lorg/telegram/ui/PasscodeActivity;->processDone()V
     invoke-static {v0}, Lorg/telegram/ui/PasscodeActivity;->access$200(Lorg/telegram/ui/PasscodeActivity;)V
 
     goto :goto_0

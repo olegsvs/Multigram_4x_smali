@@ -42,12 +42,10 @@
     .line 717
     iget-object v0, p0, Lorg/telegram/ui/Components/EmojiView$5;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->stickersGridAdapter:Lorg/telegram/ui/Components/EmojiView$StickersGridAdapter;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmojiView;->access$100(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$StickersGridAdapter;
 
     move-result-object v0
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView$StickersGridAdapter;->totalItems:I
     invoke-static {v0}, Lorg/telegram/ui/Components/EmojiView$StickersGridAdapter;->access$3000(Lorg/telegram/ui/Components/EmojiView$StickersGridAdapter;)I
 
     move-result v0
@@ -57,12 +55,10 @@
     .line 718
     iget-object v0, p0, Lorg/telegram/ui/Components/EmojiView$5;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->stickersGridAdapter:Lorg/telegram/ui/Components/EmojiView$StickersGridAdapter;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmojiView;->access$100(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$StickersGridAdapter;
 
     move-result-object v0
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView$StickersGridAdapter;->stickersPerRow:I
     invoke-static {v0}, Lorg/telegram/ui/Components/EmojiView$StickersGridAdapter;->access$3100(Lorg/telegram/ui/Components/EmojiView$StickersGridAdapter;)I
 
     move-result v0

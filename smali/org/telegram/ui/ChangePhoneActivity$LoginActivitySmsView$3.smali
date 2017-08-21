@@ -49,7 +49,6 @@
     .line 973
     iget-object v4, p0, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView$3;->this$1:Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->nextPressed:Z
     invoke-static {v4}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$2000(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Z
 
     move-result v4
@@ -64,7 +63,6 @@
     :cond_0
     iget-object v4, p0, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView$3;->this$1:Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->nextType:I
     invoke-static {v4}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$2100(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)I
 
     move-result v4
@@ -73,7 +71,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView$3;->this$1:Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->nextType:I
     invoke-static {v4}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$2100(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)I
 
     move-result v4
@@ -85,7 +82,6 @@
     .line 977
     iget-object v4, p0, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView$3;->this$1:Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;
 
-    # invokes: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->resendCode()V
     invoke-static {v4}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$2200(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)V
 
     goto :goto_0
@@ -195,7 +191,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView$3;->this$1:Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->emailPhone:Ljava/lang/String;
     invoke-static {v6}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$2300(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Ljava/lang/String;
 
     move-result-object v6
@@ -225,7 +220,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView$3;->this$1:Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->requestPhone:Ljava/lang/String;
     invoke-static {v6}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$2400(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Ljava/lang/String;
 
     move-result-object v6
@@ -296,7 +290,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView$3;->this$1:Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->lastError:Ljava/lang/String;
     invoke-static {v6}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$2500(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Ljava/lang/String;
 
     move-result-object v6

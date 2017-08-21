@@ -48,7 +48,6 @@
     .line 8718
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$94;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->favoritesItem:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$18000(Lorg/telegram/ui/ChatActivity;)Landroid/widget/TextView;
 
     move-result-object v1

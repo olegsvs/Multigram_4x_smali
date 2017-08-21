@@ -58,7 +58,6 @@
 
     iget-object v3, p0, Lorg/telegram/messenger/MessagesStorage$31;->val$outbox:Landroid/util/SparseArray;
 
-    # invokes: Lorg/telegram/messenger/MessagesStorage;->updateDialogsWithReadMessagesInternal(Ljava/util/ArrayList;Landroid/util/SparseArray;Landroid/util/SparseArray;)V
     invoke-static {v0, v1, v2, v3}, Lorg/telegram/messenger/MessagesStorage;->access$1000(Lorg/telegram/messenger/MessagesStorage;Ljava/util/ArrayList;Landroid/util/SparseArray;Landroid/util/SparseArray;)V
 
     .line 1953

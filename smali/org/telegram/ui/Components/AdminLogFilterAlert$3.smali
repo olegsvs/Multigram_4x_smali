@@ -44,7 +44,6 @@
     .line 213
     iget-object v0, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$3;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # invokes: Lorg/telegram/ui/Components/AdminLogFilterAlert;->updateLayout()V
     invoke-static {v0}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$700(Lorg/telegram/ui/Components/AdminLogFilterAlert;)V
 
     .line 214

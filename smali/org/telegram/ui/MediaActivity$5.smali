@@ -48,7 +48,6 @@
     .line 633
     iget-object v0, p0, Lorg/telegram/ui/MediaActivity$5;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->selectedMode:I
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity;->access$1000(Lorg/telegram/ui/MediaActivity;)I
 
     move-result v0
@@ -59,7 +58,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/MediaActivity$5;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->selectedMode:I
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity;->access$1000(Lorg/telegram/ui/MediaActivity;)I
 
     move-result v0
@@ -84,7 +82,6 @@
 
     move-result-object v0
 
-    # invokes: Lorg/telegram/ui/MediaActivity;->onItemClick(ILandroid/view/View;Lorg/telegram/messenger/MessageObject;I)V
     invoke-static {v1, p2, p1, v0, v2}, Lorg/telegram/ui/MediaActivity;->access$2100(Lorg/telegram/ui/MediaActivity;ILandroid/view/View;Lorg/telegram/messenger/MessageObject;I)V
 
     .line 638
@@ -96,7 +93,6 @@
     :cond_2
     iget-object v0, p0, Lorg/telegram/ui/MediaActivity$5;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->selectedMode:I
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity;->access$1000(Lorg/telegram/ui/MediaActivity;)I
 
     move-result v0
@@ -120,7 +116,6 @@
 
     move-result-object v0
 
-    # invokes: Lorg/telegram/ui/MediaActivity;->onItemClick(ILandroid/view/View;Lorg/telegram/messenger/MessageObject;I)V
     invoke-static {v1, p2, p1, v0, v2}, Lorg/telegram/ui/MediaActivity;->access$2100(Lorg/telegram/ui/MediaActivity;ILandroid/view/View;Lorg/telegram/messenger/MessageObject;I)V
 
     goto :goto_0

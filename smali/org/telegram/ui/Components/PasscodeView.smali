@@ -2096,7 +2096,6 @@
     .line 748
     iget-object v2, p0, Lorg/telegram/ui/Components/PasscodeView;->passwordEditText2:Lorg/telegram/ui/Components/PasscodeView$AnimatingTextView;
 
-    # invokes: Lorg/telegram/ui/Components/PasscodeView$AnimatingTextView;->eraseAllCharacters(Z)V
     invoke-static {v2, v7}, Lorg/telegram/ui/Components/PasscodeView$AnimatingTextView;->access$700(Lorg/telegram/ui/Components/PasscodeView$AnimatingTextView;Z)V
 
     .line 749
@@ -3826,7 +3825,6 @@
 
     const/4 v11, 0x0
 
-    # invokes: Lorg/telegram/ui/Components/PasscodeView$AnimatingTextView;->eraseAllCharacters(Z)V
     invoke-static {v10, v11}, Lorg/telegram/ui/Components/PasscodeView$AnimatingTextView;->access$700(Lorg/telegram/ui/Components/PasscodeView$AnimatingTextView;Z)V
 
     .line 1045
@@ -4061,8 +4059,6 @@
     goto/16 :goto_3
 
     .line 992
-    nop
-
     :pswitch_data_0
     .packed-switch 0x2
         :pswitch_0

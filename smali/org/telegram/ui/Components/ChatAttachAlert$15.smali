@@ -44,13 +44,11 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/ChatAttachAlert;->cameraAnimationInProgress:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/ChatAttachAlert;->access$1002(Lorg/telegram/ui/Components/ChatAttachAlert;Z)Z
 
     .line 1265
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatAttachAlert$15;->this$0:Lorg/telegram/ui/Components/ChatAttachAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert;->cameraOpened:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatAttachAlert;->access$1100(Lorg/telegram/ui/Components/ChatAttachAlert;)Z
 
     move-result v0
@@ -60,7 +58,6 @@
     .line 1266
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatAttachAlert$15;->this$0:Lorg/telegram/ui/Components/ChatAttachAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert;->delegate:Lorg/telegram/ui/Components/ChatAttachAlert$ChatAttachViewDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatAttachAlert;->access$600(Lorg/telegram/ui/Components/ChatAttachAlert;)Lorg/telegram/ui/Components/ChatAttachAlert$ChatAttachViewDelegate;
 
     move-result-object v0

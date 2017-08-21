@@ -65,7 +65,6 @@
     .line 99
     iget-object v2, p0, Lorg/telegram/ui/ContactAddActivity$1;->this$0:Lorg/telegram/ui/ContactAddActivity;
 
-    # getter for: Lorg/telegram/ui/ContactAddActivity;->firstNameField:Landroid/widget/EditText;
     invoke-static {v2}, Lorg/telegram/ui/ContactAddActivity;->access$000(Lorg/telegram/ui/ContactAddActivity;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -87,7 +86,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ContactAddActivity$1;->this$0:Lorg/telegram/ui/ContactAddActivity;
 
-    # getter for: Lorg/telegram/ui/ContactAddActivity;->user_id:I
     invoke-static {v3}, Lorg/telegram/ui/ContactAddActivity;->access$100(Lorg/telegram/ui/ContactAddActivity;)I
 
     move-result v3
@@ -104,7 +102,6 @@
     .local v1, "user":Lorg/telegram/tgnet/TLRPC$User;
     iget-object v2, p0, Lorg/telegram/ui/ContactAddActivity$1;->this$0:Lorg/telegram/ui/ContactAddActivity;
 
-    # getter for: Lorg/telegram/ui/ContactAddActivity;->firstNameField:Landroid/widget/EditText;
     invoke-static {v2}, Lorg/telegram/ui/ContactAddActivity;->access$000(Lorg/telegram/ui/ContactAddActivity;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -122,7 +119,6 @@
     .line 102
     iget-object v2, p0, Lorg/telegram/ui/ContactAddActivity$1;->this$0:Lorg/telegram/ui/ContactAddActivity;
 
-    # getter for: Lorg/telegram/ui/ContactAddActivity;->lastNameField:Landroid/widget/EditText;
     invoke-static {v2}, Lorg/telegram/ui/ContactAddActivity;->access$200(Lorg/telegram/ui/ContactAddActivity;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -176,7 +172,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/ContactAddActivity$1;->this$0:Lorg/telegram/ui/ContactAddActivity;
 
-    # getter for: Lorg/telegram/ui/ContactAddActivity;->user_id:I
     invoke-static {v4}, Lorg/telegram/ui/ContactAddActivity;->access$100(Lorg/telegram/ui/ContactAddActivity;)I
 
     move-result v4
@@ -223,7 +218,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/ContactAddActivity$1;->this$0:Lorg/telegram/ui/ContactAddActivity;
 
-    # getter for: Lorg/telegram/ui/ContactAddActivity;->user_id:I
     invoke-static {v5}, Lorg/telegram/ui/ContactAddActivity;->access$100(Lorg/telegram/ui/ContactAddActivity;)I
 
     move-result v5

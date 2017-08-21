@@ -46,7 +46,6 @@
     .line 90
     iget-object v1, p0, Lorg/telegram/ui/StickerPreviewViewer$1;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # getter for: Lorg/telegram/ui/StickerPreviewViewer;->parentActivity:Landroid/app/Activity;
     invoke-static {v1}, Lorg/telegram/ui/StickerPreviewViewer;->access$100(Lorg/telegram/ui/StickerPreviewViewer;)Landroid/app/Activity;
 
     move-result-object v1
@@ -55,7 +54,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/StickerPreviewViewer$1;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # getter for: Lorg/telegram/ui/StickerPreviewViewer;->currentSet:Lorg/telegram/tgnet/TLRPC$InputStickerSet;
     invoke-static {v1}, Lorg/telegram/ui/StickerPreviewViewer;->access$200(Lorg/telegram/ui/StickerPreviewViewer;)Lorg/telegram/tgnet/TLRPC$InputStickerSet;
 
     move-result-object v1
@@ -73,7 +71,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/StickerPreviewViewer$1;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # getter for: Lorg/telegram/ui/StickerPreviewViewer;->parentActivity:Landroid/app/Activity;
     invoke-static {v1}, Lorg/telegram/ui/StickerPreviewViewer;->access$100(Lorg/telegram/ui/StickerPreviewViewer;)Landroid/app/Activity;
 
     move-result-object v1
@@ -126,13 +123,11 @@
 
     move-result-object v2
 
-    # setter for: Lorg/telegram/ui/StickerPreviewViewer;->visibleDialog:Landroid/app/Dialog;
     invoke-static {v1, v2}, Lorg/telegram/ui/StickerPreviewViewer;->access$502(Lorg/telegram/ui/StickerPreviewViewer;Landroid/app/Dialog;)Landroid/app/Dialog;
 
     .line 112
     iget-object v1, p0, Lorg/telegram/ui/StickerPreviewViewer$1;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # getter for: Lorg/telegram/ui/StickerPreviewViewer;->visibleDialog:Landroid/app/Dialog;
     invoke-static {v1}, Lorg/telegram/ui/StickerPreviewViewer;->access$500(Lorg/telegram/ui/StickerPreviewViewer;)Landroid/app/Dialog;
 
     move-result-object v1
@@ -146,7 +141,6 @@
     .line 119
     iget-object v1, p0, Lorg/telegram/ui/StickerPreviewViewer$1;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # getter for: Lorg/telegram/ui/StickerPreviewViewer;->visibleDialog:Landroid/app/Dialog;
     invoke-static {v1}, Lorg/telegram/ui/StickerPreviewViewer;->access$500(Lorg/telegram/ui/StickerPreviewViewer;)Landroid/app/Dialog;
 
     move-result-object v1

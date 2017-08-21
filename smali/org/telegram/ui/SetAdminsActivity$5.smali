@@ -45,7 +45,6 @@
     .line 635
     iget-object v3, p0, Lorg/telegram/ui/SetAdminsActivity$5;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v3}, Lorg/telegram/ui/SetAdminsActivity;->access$200(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v3
@@ -65,7 +64,6 @@
     .line 637
     iget-object v3, p0, Lorg/telegram/ui/SetAdminsActivity$5;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v3}, Lorg/telegram/ui/SetAdminsActivity;->access$200(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v3

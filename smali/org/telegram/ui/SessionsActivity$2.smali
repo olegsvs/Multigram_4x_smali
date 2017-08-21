@@ -54,7 +54,6 @@
     .line 168
     iget-object v1, p0, Lorg/telegram/ui/SessionsActivity$2;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->terminateAllSessionsRow:I
     invoke-static {v1}, Lorg/telegram/ui/SessionsActivity;->access$000(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v1
@@ -146,7 +145,6 @@
     :cond_2
     iget-object v1, p0, Lorg/telegram/ui/SessionsActivity$2;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->otherSessionsStartRow:I
     invoke-static {v1}, Lorg/telegram/ui/SessionsActivity;->access$100(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v1
@@ -155,7 +153,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/SessionsActivity$2;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->otherSessionsEndRow:I
     invoke-static {v1}, Lorg/telegram/ui/SessionsActivity;->access$200(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v1

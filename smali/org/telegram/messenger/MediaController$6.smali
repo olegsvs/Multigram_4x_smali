@@ -63,7 +63,6 @@
 
     iget-object v1, p0, Lorg/telegram/messenger/MediaController$6;->val$screenshotDates:Ljava/util/ArrayList;
 
-    # invokes: Lorg/telegram/messenger/MediaController;->checkScreenshots(Ljava/util/ArrayList;)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/MediaController;->access$3300(Lorg/telegram/messenger/MediaController;Ljava/util/ArrayList;)V
 
     .line 1267

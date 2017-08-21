@@ -56,7 +56,6 @@
 
     iget-object v1, p0, Lnet/hockeyapp/android/UpdateFragment$3;->val$activity:Landroid/app/Activity;
 
-    # invokes: Lnet/hockeyapp/android/UpdateFragment;->startDownloadTask(Landroid/app/Activity;)V
     invoke-static {v0, v1}, Lnet/hockeyapp/android/UpdateFragment;->access$000(Lnet/hockeyapp/android/UpdateFragment;Landroid/app/Activity;)V
 
     .line 250

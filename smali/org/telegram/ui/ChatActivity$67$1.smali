@@ -46,7 +46,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChatActivity$67;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # invokes: Lorg/telegram/ui/ChatActivity;->hideVoiceHint()V
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$15600(Lorg/telegram/ui/ChatActivity;)V
 
     .line 4199

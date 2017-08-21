@@ -162,7 +162,6 @@
 
     move-object/from16 v24, v0
 
-    # getter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->dialogsType:I
     invoke-static/range {v24 .. v24}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$700(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;)I
 
     move-result v24
@@ -300,7 +299,6 @@
 
     move-object/from16 v24, v0
 
-    # getter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->dialogsType:I
     invoke-static/range {v24 .. v24}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$700(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;)I
 
     move-result v24
@@ -383,7 +381,6 @@
 
     move-object/from16 v24, v0
 
-    # getter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->dialogsType:I
     invoke-static/range {v24 .. v24}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$700(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;)I
 
     move-result v24

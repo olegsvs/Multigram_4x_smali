@@ -51,7 +51,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ChangeBioActivity$4;->this$0:Lorg/telegram/ui/ChangeBioActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeBioActivity;->doneButton:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/ChangeBioActivity;->access$100(Lorg/telegram/ui/ChangeBioActivity;)Landroid/view/View;
 
     move-result-object v0
@@ -61,7 +60,6 @@
     .line 141
     iget-object v0, p0, Lorg/telegram/ui/ChangeBioActivity$4;->this$0:Lorg/telegram/ui/ChangeBioActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeBioActivity;->doneButton:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/ChangeBioActivity;->access$100(Lorg/telegram/ui/ChangeBioActivity;)Landroid/view/View;
 
     move-result-object v0

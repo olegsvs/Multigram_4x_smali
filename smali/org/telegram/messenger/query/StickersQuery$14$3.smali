@@ -46,7 +46,6 @@
 
     iget v0, v0, Lorg/telegram/messenger/query/StickersQuery$14;->val$date:I
 
-    # setter for: Lorg/telegram/messenger/query/StickersQuery;->loadFeaturedDate:I
     invoke-static {v0}, Lorg/telegram/messenger/query/StickersQuery;->access$1602(I)I
 
     .line 645

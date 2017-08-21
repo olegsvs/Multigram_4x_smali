@@ -45,7 +45,6 @@
     .line 402
     iget-object v0, p0, Lorg/telegram/ui/PhotoPickerActivity$9;->this$0:Lorg/telegram/ui/PhotoPickerActivity;
 
-    # invokes: Lorg/telegram/ui/PhotoPickerActivity;->sendSelectedPhotos()V
     invoke-static {v0}, Lorg/telegram/ui/PhotoPickerActivity;->access$2200(Lorg/telegram/ui/PhotoPickerActivity;)V
 
     .line 403

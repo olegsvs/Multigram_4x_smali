@@ -45,7 +45,6 @@
     :try_start_0
     iget-object v2, p0, Lorg/telegram/ui/ArticleViewer$35;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->windowView:Lorg/telegram/ui/ArticleViewer$WindowView;
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$900(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/ArticleViewer$WindowView;
 
     move-result-object v2
@@ -59,7 +58,6 @@
     .line 3216
     iget-object v2, p0, Lorg/telegram/ui/ArticleViewer$35;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->parentActivity:Landroid/app/Activity;
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$1900(Lorg/telegram/ui/ArticleViewer;)Landroid/app/Activity;
 
     move-result-object v2
@@ -76,7 +74,6 @@
     .local v1, "wm":Landroid/view/WindowManager;
     iget-object v2, p0, Lorg/telegram/ui/ArticleViewer$35;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->windowView:Lorg/telegram/ui/ArticleViewer$WindowView;
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$900(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/ArticleViewer$WindowView;
 
     move-result-object v2

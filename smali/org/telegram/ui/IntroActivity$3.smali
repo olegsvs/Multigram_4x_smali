@@ -47,7 +47,6 @@
     .line 275
     iget-object v1, p0, Lorg/telegram/ui/IntroActivity$3;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # getter for: Lorg/telegram/ui/IntroActivity;->startPressed:Z
     invoke-static {v1}, Lorg/telegram/ui/IntroActivity;->access$1000(Lorg/telegram/ui/IntroActivity;)Z
 
     move-result v1
@@ -62,7 +61,6 @@
     :cond_0
     iget-object v1, p0, Lorg/telegram/ui/IntroActivity$3;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # setter for: Lorg/telegram/ui/IntroActivity;->startPressed:Z
     invoke-static {v1, v3}, Lorg/telegram/ui/IntroActivity;->access$1002(Lorg/telegram/ui/IntroActivity;Z)Z
 
     .line 279

@@ -49,7 +49,6 @@
 
     .prologue
     .line 158
-    # getter for: Lorg/telegram/messenger/Emoji;->emojiBmp:[[Landroid/graphics/Bitmap;
     invoke-static {}, Lorg/telegram/messenger/Emoji;->access$000()[[Landroid/graphics/Bitmap;
 
     move-result-object v0

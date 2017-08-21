@@ -61,7 +61,6 @@
     :try_start_0
     iget-object v2, p0, Lorg/telegram/messenger/MessagesStorage$9;->this$0:Lorg/telegram/messenger/MessagesStorage;
 
-    # getter for: Lorg/telegram/messenger/MessagesStorage;->lastSavedSeq:I
     invoke-static {v2}, Lorg/telegram/messenger/MessagesStorage;->access$300(Lorg/telegram/messenger/MessagesStorage;)I
 
     move-result v2
@@ -72,7 +71,6 @@
 
     iget-object v2, p0, Lorg/telegram/messenger/MessagesStorage$9;->this$0:Lorg/telegram/messenger/MessagesStorage;
 
-    # getter for: Lorg/telegram/messenger/MessagesStorage;->lastSavedPts:I
     invoke-static {v2}, Lorg/telegram/messenger/MessagesStorage;->access$400(Lorg/telegram/messenger/MessagesStorage;)I
 
     move-result v2
@@ -83,7 +81,6 @@
 
     iget-object v2, p0, Lorg/telegram/messenger/MessagesStorage$9;->this$0:Lorg/telegram/messenger/MessagesStorage;
 
-    # getter for: Lorg/telegram/messenger/MessagesStorage;->lastSavedDate:I
     invoke-static {v2}, Lorg/telegram/messenger/MessagesStorage;->access$500(Lorg/telegram/messenger/MessagesStorage;)I
 
     move-result v2
@@ -106,7 +103,6 @@
     :cond_0
     iget-object v2, p0, Lorg/telegram/messenger/MessagesStorage$9;->this$0:Lorg/telegram/messenger/MessagesStorage;
 
-    # getter for: Lorg/telegram/messenger/MessagesStorage;->database:Lorg/telegram/SQLite/SQLiteDatabase;
     invoke-static {v2}, Lorg/telegram/messenger/MessagesStorage;->access$000(Lorg/telegram/messenger/MessagesStorage;)Lorg/telegram/SQLite/SQLiteDatabase;
 
     move-result-object v2
@@ -157,7 +153,6 @@
 
     iget v3, p0, Lorg/telegram/messenger/MessagesStorage$9;->val$seq:I
 
-    # setter for: Lorg/telegram/messenger/MessagesStorage;->lastSavedSeq:I
     invoke-static {v2, v3}, Lorg/telegram/messenger/MessagesStorage;->access$302(Lorg/telegram/messenger/MessagesStorage;I)I
 
     .line 851
@@ -165,7 +160,6 @@
 
     iget v3, p0, Lorg/telegram/messenger/MessagesStorage$9;->val$pts:I
 
-    # setter for: Lorg/telegram/messenger/MessagesStorage;->lastSavedPts:I
     invoke-static {v2, v3}, Lorg/telegram/messenger/MessagesStorage;->access$402(Lorg/telegram/messenger/MessagesStorage;I)I
 
     .line 852
@@ -173,7 +167,6 @@
 
     iget v3, p0, Lorg/telegram/messenger/MessagesStorage$9;->val$date:I
 
-    # setter for: Lorg/telegram/messenger/MessagesStorage;->lastSavedDate:I
     invoke-static {v2, v3}, Lorg/telegram/messenger/MessagesStorage;->access$502(Lorg/telegram/messenger/MessagesStorage;I)I
 
     .line 853
@@ -181,7 +174,6 @@
 
     iget v3, p0, Lorg/telegram/messenger/MessagesStorage$9;->val$qts:I
 
-    # setter for: Lorg/telegram/messenger/MessagesStorage;->lastSavedQts:I
     invoke-static {v2, v3}, Lorg/telegram/messenger/MessagesStorage;->access$602(Lorg/telegram/messenger/MessagesStorage;I)I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0

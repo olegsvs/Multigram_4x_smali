@@ -45,7 +45,6 @@
     .line 2381
     iget-object v0, p0, Lorg/telegram/ui/PhotoViewer$24;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->currentEditMode:I
     invoke-static {v0}, Lorg/telegram/ui/PhotoViewer;->access$7800(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v0
@@ -56,7 +55,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PhotoViewer$24;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->photoCropView:Lorg/telegram/ui/Components/PhotoCropView;
     invoke-static {v0}, Lorg/telegram/ui/PhotoViewer;->access$7900(Lorg/telegram/ui/PhotoViewer;)Lorg/telegram/ui/Components/PhotoCropView;
 
     move-result-object v0
@@ -75,7 +73,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/PhotoViewer$24;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->applyCurrentEditMode()V
     invoke-static {v0}, Lorg/telegram/ui/PhotoViewer;->access$8000(Lorg/telegram/ui/PhotoViewer;)V
 
     .line 2385
@@ -83,7 +80,6 @@
 
     const/4 v1, 0x0
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->switchToEditMode(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/PhotoViewer;->access$7400(Lorg/telegram/ui/PhotoViewer;I)V
 
     goto :goto_0

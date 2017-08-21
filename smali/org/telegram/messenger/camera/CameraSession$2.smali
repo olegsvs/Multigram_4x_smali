@@ -43,7 +43,6 @@
     .line 71
     iget-object v2, p0, Lorg/telegram/messenger/camera/CameraSession$2;->this$0:Lorg/telegram/messenger/camera/CameraSession;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraSession;->orientationEventListener:Landroid/view/OrientationEventListener;
     invoke-static {v2}, Lorg/telegram/messenger/camera/CameraSession;->access$000(Lorg/telegram/messenger/camera/CameraSession;)Landroid/view/OrientationEventListener;
 
     move-result-object v2
@@ -52,7 +51,6 @@
 
     iget-object v2, p0, Lorg/telegram/messenger/camera/CameraSession$2;->this$0:Lorg/telegram/messenger/camera/CameraSession;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraSession;->initied:Z
     invoke-static {v2}, Lorg/telegram/messenger/camera/CameraSession;->access$100(Lorg/telegram/messenger/camera/CameraSession;)Z
 
     move-result v2
@@ -76,17 +74,14 @@
 
     iget-object v4, p0, Lorg/telegram/messenger/camera/CameraSession$2;->this$0:Lorg/telegram/messenger/camera/CameraSession;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraSession;->jpegOrientation:I
     invoke-static {v4}, Lorg/telegram/messenger/camera/CameraSession;->access$200(Lorg/telegram/messenger/camera/CameraSession;)I
 
     move-result v4
 
-    # invokes: Lorg/telegram/messenger/camera/CameraSession;->roundOrientation(II)I
     invoke-static {v3, p1, v4}, Lorg/telegram/messenger/camera/CameraSession;->access$300(Lorg/telegram/messenger/camera/CameraSession;II)I
 
     move-result v3
 
-    # setter for: Lorg/telegram/messenger/camera/CameraSession;->jpegOrientation:I
     invoke-static {v2, v3}, Lorg/telegram/messenger/camera/CameraSession;->access$202(Lorg/telegram/messenger/camera/CameraSession;I)I
 
     .line 75
@@ -114,14 +109,12 @@
     .local v1, "rotation":I
     iget-object v2, p0, Lorg/telegram/messenger/camera/CameraSession$2;->this$0:Lorg/telegram/messenger/camera/CameraSession;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraSession;->lastOrientation:I
     invoke-static {v2}, Lorg/telegram/messenger/camera/CameraSession;->access$400(Lorg/telegram/messenger/camera/CameraSession;)I
 
     move-result v2
 
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraSession$2;->this$0:Lorg/telegram/messenger/camera/CameraSession;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraSession;->jpegOrientation:I
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraSession;->access$200(Lorg/telegram/messenger/camera/CameraSession;)I
 
     move-result v3
@@ -130,7 +123,6 @@
 
     iget-object v2, p0, Lorg/telegram/messenger/camera/CameraSession$2;->this$0:Lorg/telegram/messenger/camera/CameraSession;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraSession;->lastDisplayOrientation:I
     invoke-static {v2}, Lorg/telegram/messenger/camera/CameraSession;->access$500(Lorg/telegram/messenger/camera/CameraSession;)I
 
     move-result v2
@@ -141,7 +133,6 @@
     :cond_2
     iget-object v2, p0, Lorg/telegram/messenger/camera/CameraSession$2;->this$0:Lorg/telegram/messenger/camera/CameraSession;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraSession;->isVideo:Z
     invoke-static {v2}, Lorg/telegram/messenger/camera/CameraSession;->access$600(Lorg/telegram/messenger/camera/CameraSession;)Z
 
     move-result v2
@@ -157,7 +148,6 @@
     :cond_3
     iget-object v2, p0, Lorg/telegram/messenger/camera/CameraSession$2;->this$0:Lorg/telegram/messenger/camera/CameraSession;
 
-    # setter for: Lorg/telegram/messenger/camera/CameraSession;->lastDisplayOrientation:I
     invoke-static {v2, v1}, Lorg/telegram/messenger/camera/CameraSession;->access$502(Lorg/telegram/messenger/camera/CameraSession;I)I
 
     .line 82
@@ -165,12 +155,10 @@
 
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraSession$2;->this$0:Lorg/telegram/messenger/camera/CameraSession;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraSession;->jpegOrientation:I
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraSession;->access$200(Lorg/telegram/messenger/camera/CameraSession;)I
 
     move-result v3
 
-    # setter for: Lorg/telegram/messenger/camera/CameraSession;->lastOrientation:I
     invoke-static {v2, v3}, Lorg/telegram/messenger/camera/CameraSession;->access$402(Lorg/telegram/messenger/camera/CameraSession;I)I
 
     goto :goto_0

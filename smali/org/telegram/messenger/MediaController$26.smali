@@ -161,7 +161,6 @@
 
     sget-object v3, Landroid/provider/MediaStore$Images$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->projectionPhotos:[Ljava/lang/String;
     invoke-static {}, Lorg/telegram/messenger/MediaController;->access$7000()[Ljava/lang/String;
 
     move-result-object v4
@@ -739,7 +738,6 @@
 
     sget-object v11, Landroid/provider/MediaStore$Video$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->projectionVideo:[Ljava/lang/String;
     invoke-static {}, Lorg/telegram/messenger/MediaController;->access$7100()[Ljava/lang/String;
 
     move-result-object v12
@@ -1435,7 +1433,6 @@
 
     move-object/from16 v15, v22
 
-    # invokes: Lorg/telegram/messenger/MediaController;->broadcastNewPhotos(ILjava/util/ArrayList;Ljava/util/ArrayList;Ljava/lang/Integer;Lorg/telegram/messenger/MediaController$AlbumEntry;Lorg/telegram/messenger/MediaController$AlbumEntry;I)V
     invoke-static/range {v10 .. v16}, Lorg/telegram/messenger/MediaController;->access$7200(ILjava/util/ArrayList;Ljava/util/ArrayList;Ljava/lang/Integer;Lorg/telegram/messenger/MediaController$AlbumEntry;Lorg/telegram/messenger/MediaController$AlbumEntry;I)V
 
     .line 3763

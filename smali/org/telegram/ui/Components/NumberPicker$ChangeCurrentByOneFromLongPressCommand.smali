@@ -72,7 +72,6 @@
 
     iget-boolean v1, p0, Lorg/telegram/ui/Components/NumberPicker$ChangeCurrentByOneFromLongPressCommand;->mIncrement:Z
 
-    # invokes: Lorg/telegram/ui/Components/NumberPicker;->changeValueByOne(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/NumberPicker;->access$500(Lorg/telegram/ui/Components/NumberPicker;Z)V
 
     .line 1065
@@ -80,7 +79,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/NumberPicker$ChangeCurrentByOneFromLongPressCommand;->this$0:Lorg/telegram/ui/Components/NumberPicker;
 
-    # getter for: Lorg/telegram/ui/Components/NumberPicker;->mLongPressUpdateInterval:J
     invoke-static {v1}, Lorg/telegram/ui/Components/NumberPicker;->access$600(Lorg/telegram/ui/Components/NumberPicker;)J
 
     move-result-wide v2

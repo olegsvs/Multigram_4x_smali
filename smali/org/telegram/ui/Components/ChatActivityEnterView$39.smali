@@ -62,7 +62,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$39;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->parentActivity:Landroid/app/Activity;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$1100(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/app/Activity;
 
     move-result-object v0
@@ -78,7 +77,6 @@
     .line 2993
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$39;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->parentActivity:Landroid/app/Activity;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$1100(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/app/Activity;
 
     move-result-object v0
@@ -104,7 +102,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$39;->val$messageObject:Lorg/telegram/messenger/MessageObject;
 
-    # setter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->pendingMessageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$8902(Lorg/telegram/ui/Components/ChatActivityEnterView;Lorg/telegram/messenger/MessageObject;)Lorg/telegram/messenger/MessageObject;
 
     .line 2995
@@ -112,7 +109,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$39;->val$button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
-    # setter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->pendingLocationButton:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$9002(Lorg/telegram/ui/Components/ChatActivityEnterView;Lorg/telegram/tgnet/TLRPC$KeyboardButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     .line 2999

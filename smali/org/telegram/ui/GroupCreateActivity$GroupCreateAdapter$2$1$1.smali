@@ -79,7 +79,6 @@
 
     invoke-direct {v13}, Ljava/util/ArrayList;-><init>()V
 
-    # invokes: Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;->updateSearchResults(Ljava/util/ArrayList;Ljava/util/ArrayList;)V
     invoke-static {v11, v12, v13}, Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;->access$2800(Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
 
     .line 1053
@@ -163,7 +162,6 @@
 
     iget-object v11, v11, Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter$2;->this$1:Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;->contacts:Ljava/util/ArrayList;
     invoke-static {v11}, Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;->access$2900(Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;)Ljava/util/ArrayList;
 
     move-result-object v11
@@ -181,7 +179,6 @@
 
     iget-object v11, v11, Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter$2;->this$1:Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;->contacts:Ljava/util/ArrayList;
     invoke-static {v11}, Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;->access$2900(Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;)Ljava/util/ArrayList;
 
     move-result-object v11
@@ -453,7 +450,6 @@
 
     iget-object v11, v11, Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter$2;->this$1:Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;
 
-    # invokes: Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;->updateSearchResults(Ljava/util/ArrayList;Ljava/util/ArrayList;)V
     invoke-static {v11, v4, v5}, Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;->access$2800(Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
 
     goto/16 :goto_0

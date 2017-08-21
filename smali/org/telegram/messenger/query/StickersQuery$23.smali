@@ -41,7 +41,6 @@
 
     .prologue
     .line 1016
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->loadingStickers:[Z
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$2200()[Z
 
     move-result-object v0
@@ -53,7 +52,6 @@
     aput-boolean v2, v0, v1
 
     .line 1017
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->stickersLoaded:[Z
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$2300()[Z
 
     move-result-object v0

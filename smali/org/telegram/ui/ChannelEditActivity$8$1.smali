@@ -197,7 +197,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$8;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->currentChat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v3
@@ -210,7 +209,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$8;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v3
@@ -221,7 +219,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$8;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v3
@@ -243,7 +240,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$8;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v3
@@ -263,7 +259,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$8;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v3
@@ -295,7 +290,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$8;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v3
@@ -307,7 +301,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$8;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v3
@@ -324,7 +317,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$8;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v3
@@ -345,7 +337,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$8;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v3
@@ -356,7 +347,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$8;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v3
@@ -373,7 +363,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$8;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v3
@@ -393,7 +382,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$8;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v3
@@ -423,7 +411,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$8;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v3
@@ -457,7 +444,6 @@
 
     iget-object v6, v6, Lorg/telegram/ui/ChannelEditActivity$8;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v6}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v6

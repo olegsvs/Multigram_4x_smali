@@ -61,7 +61,6 @@
     .line 121
     const-string/jumbo v1, "badge_count_package_name"
 
-    # getter for: Lorg/telegram/messenger/NotificationBadge;->componentName:Landroid/content/ComponentName;
     invoke-static {}, Lorg/telegram/messenger/NotificationBadge;->access$000()Landroid/content/ComponentName;
 
     move-result-object v2
@@ -75,7 +74,6 @@
     .line 122
     const-string/jumbo v1, "badge_count_class_name"
 
-    # getter for: Lorg/telegram/messenger/NotificationBadge;->componentName:Landroid/content/ComponentName;
     invoke-static {}, Lorg/telegram/messenger/NotificationBadge;->access$000()Landroid/content/ComponentName;
 
     move-result-object v2
@@ -94,7 +92,6 @@
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 124
-    # invokes: Lorg/telegram/messenger/NotificationBadge;->canResolveBroadcast(Landroid/content/Intent;)Z
     invoke-static {v0}, Lorg/telegram/messenger/NotificationBadge;->access$100(Landroid/content/Intent;)Z
 
     move-result v1

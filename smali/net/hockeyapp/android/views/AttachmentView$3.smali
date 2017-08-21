@@ -70,7 +70,6 @@
     .line 265
     iget-object v1, p0, Lnet/hockeyapp/android/views/AttachmentView$3;->this$0:Lnet/hockeyapp/android/views/AttachmentView;
 
-    # getter for: Lnet/hockeyapp/android/views/AttachmentView;->mAttachmentUri:Landroid/net/Uri;
     invoke-static {v1}, Lnet/hockeyapp/android/views/AttachmentView;->access$300(Lnet/hockeyapp/android/views/AttachmentView;)Landroid/net/Uri;
 
     move-result-object v1
@@ -82,7 +81,6 @@
     .line 266
     iget-object v1, p0, Lnet/hockeyapp/android/views/AttachmentView$3;->this$0:Lnet/hockeyapp/android/views/AttachmentView;
 
-    # getter for: Lnet/hockeyapp/android/views/AttachmentView;->mContext:Landroid/content/Context;
     invoke-static {v1}, Lnet/hockeyapp/android/views/AttachmentView;->access$400(Lnet/hockeyapp/android/views/AttachmentView;)Landroid/content/Context;
 
     move-result-object v1

@@ -54,7 +54,6 @@
 
     move-result-object v2
 
-    # setter for: Lorg/telegram/messenger/FileUploadOperation;->preferences:Landroid/content/SharedPreferences;
     invoke-static {v1, v2}, Lorg/telegram/messenger/FileUploadOperation;->access$002(Lorg/telegram/messenger/FileUploadOperation;Landroid/content/SharedPreferences;)Landroid/content/SharedPreferences;
 
     .line 106
@@ -69,7 +68,6 @@
     .line 107
     iget-object v1, p0, Lorg/telegram/messenger/FileUploadOperation$1;->this$0:Lorg/telegram/messenger/FileUploadOperation;
 
-    # invokes: Lorg/telegram/messenger/FileUploadOperation;->startUploadRequest()V
     invoke-static {v1}, Lorg/telegram/messenger/FileUploadOperation;->access$100(Lorg/telegram/messenger/FileUploadOperation;)V
 
     .line 106

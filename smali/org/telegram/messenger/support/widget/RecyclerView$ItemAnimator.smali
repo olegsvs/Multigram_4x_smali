@@ -106,7 +106,6 @@
     const/4 v4, -0x1
 
     .line 12186
-    # getter for: Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;->mFlags:I
     invoke-static {p0}, Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;->access$1400(Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;)I
 
     move-result v3

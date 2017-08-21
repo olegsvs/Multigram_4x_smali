@@ -60,7 +60,6 @@
     .line 689
     iget-object v0, p0, Lorg/telegram/ui/ProfileActivity$5;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # invokes: Lorg/telegram/ui/ProfileActivity;->checkListViewScroll()V
     invoke-static {v0}, Lorg/telegram/ui/ProfileActivity;->access$1300(Lorg/telegram/ui/ProfileActivity;)V
 
     .line 690

@@ -68,7 +68,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/ImageLoader$2;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->telegramPath:Ljava/io/File;
     invoke-static {v0}, Lorg/telegram/messenger/ImageLoader;->access$2700(Lorg/telegram/messenger/ImageLoader;)Ljava/io/File;
 
     move-result-object v0
@@ -111,7 +110,6 @@
 
     iget-object v1, v1, Lorg/telegram/messenger/ImageLoader$2;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->telegramPath:Ljava/io/File;
     invoke-static {v1}, Lorg/telegram/messenger/ImageLoader;->access$2700(Lorg/telegram/messenger/ImageLoader;)Ljava/io/File;
 
     move-result-object v1
@@ -166,7 +164,6 @@
 
     iget v3, p0, Lorg/telegram/messenger/ImageLoader$2$4;->val$type:I
 
-    # invokes: Lorg/telegram/messenger/ImageLoader;->fileDidLoaded(Ljava/lang/String;Ljava/io/File;I)V
     invoke-static {v0, v1, v2, v3}, Lorg/telegram/messenger/ImageLoader;->access$400(Lorg/telegram/messenger/ImageLoader;Ljava/lang/String;Ljava/io/File;I)V
 
     .line 1229

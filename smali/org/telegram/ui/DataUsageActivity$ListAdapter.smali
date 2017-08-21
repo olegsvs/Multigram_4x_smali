@@ -47,7 +47,6 @@
     .line 253
     iget-object v0, p0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->rowCount:I
     invoke-static {v0}, Lorg/telegram/ui/DataUsageActivity;->access$300(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v0
@@ -63,7 +62,6 @@
     .line 381
     iget-object v0, p0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->resetSection2Row:I
     invoke-static {v0}, Lorg/telegram/ui/DataUsageActivity;->access$400(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v0
@@ -81,7 +79,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->resetSection2Row:I
     invoke-static {v0}, Lorg/telegram/ui/DataUsageActivity;->access$400(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v0
@@ -90,7 +87,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->callsSection2Row:I
     invoke-static {v0}, Lorg/telegram/ui/DataUsageActivity;->access$3900(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v0
@@ -99,7 +95,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->filesSection2Row:I
     invoke-static {v0}, Lorg/telegram/ui/DataUsageActivity;->access$4000(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v0
@@ -108,7 +103,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->audiosSection2Row:I
     invoke-static {v0}, Lorg/telegram/ui/DataUsageActivity;->access$4100(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v0
@@ -117,7 +111,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->videosSection2Row:I
     invoke-static {v0}, Lorg/telegram/ui/DataUsageActivity;->access$4200(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v0
@@ -126,7 +119,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->photosSection2Row:I
     invoke-static {v0}, Lorg/telegram/ui/DataUsageActivity;->access$4300(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v0
@@ -135,7 +127,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->messagesSection2Row:I
     invoke-static {v0}, Lorg/telegram/ui/DataUsageActivity;->access$4400(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v0
@@ -144,7 +135,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->totalSection2Row:I
     invoke-static {v0}, Lorg/telegram/ui/DataUsageActivity;->access$4500(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v0
@@ -161,7 +151,6 @@
     :cond_2
     iget-object v0, p0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->totalSectionRow:I
     invoke-static {v0}, Lorg/telegram/ui/DataUsageActivity;->access$3200(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v0
@@ -170,7 +159,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->callsSectionRow:I
     invoke-static {v0}, Lorg/telegram/ui/DataUsageActivity;->access$3300(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v0
@@ -179,7 +167,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->filesSectionRow:I
     invoke-static {v0}, Lorg/telegram/ui/DataUsageActivity;->access$3400(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v0
@@ -188,7 +175,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->audiosSectionRow:I
     invoke-static {v0}, Lorg/telegram/ui/DataUsageActivity;->access$3500(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v0
@@ -197,7 +183,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->videosSectionRow:I
     invoke-static {v0}, Lorg/telegram/ui/DataUsageActivity;->access$3600(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v0
@@ -206,7 +191,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->photosSectionRow:I
     invoke-static {v0}, Lorg/telegram/ui/DataUsageActivity;->access$3700(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v0
@@ -215,7 +199,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->messagesSectionRow:I
     invoke-static {v0}, Lorg/telegram/ui/DataUsageActivity;->access$3800(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v0
@@ -247,7 +230,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->resetRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataUsageActivity;->access$000(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v1
@@ -289,7 +271,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->resetSection2Row:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$400(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -355,7 +336,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->resetRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$000(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -413,7 +393,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->callsSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$500(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -426,7 +405,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->callsReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$600(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -439,7 +417,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->callsBytesSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$700(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -452,7 +429,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->callsBytesReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$800(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -472,7 +448,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->callsSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$500(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -506,7 +481,6 @@
 
     iget-object v15, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->currentType:I
     invoke-static {v15}, Lorg/telegram/ui/DataUsageActivity;->access$100(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v15
@@ -538,7 +512,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->messagesSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$900(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -551,7 +524,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->messagesReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1000(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -564,7 +536,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->messagesBytesSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1100(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -577,7 +548,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->messagesBytesReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1200(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -600,7 +570,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->photosSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1300(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -613,7 +582,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->photosReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1400(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -626,7 +594,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->photosBytesSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1500(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -639,7 +606,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->photosBytesReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1600(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -662,7 +628,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->audiosSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1700(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -675,7 +640,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->audiosReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1800(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -688,7 +652,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->audiosBytesSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1900(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -701,7 +664,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->audiosBytesReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2000(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -724,7 +686,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->videosSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2100(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -737,7 +698,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->videosReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2200(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -750,7 +710,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->videosBytesSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2300(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -763,7 +722,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->videosBytesReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2400(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -786,7 +744,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->filesSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2500(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -799,7 +756,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->filesReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2600(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -812,7 +768,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->filesBytesSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2700(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -825,7 +780,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->filesBytesReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2800(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -855,7 +809,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->callsReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$600(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -889,7 +842,6 @@
 
     iget-object v15, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->currentType:I
     invoke-static {v15}, Lorg/telegram/ui/DataUsageActivity;->access$100(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v15
@@ -920,7 +872,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->callsTotalTimeRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2900(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -938,7 +889,6 @@
 
     iget-object v11, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->currentType:I
     invoke-static {v11}, Lorg/telegram/ui/DataUsageActivity;->access$100(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v11
@@ -1063,7 +1013,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->messagesSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$900(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1076,7 +1025,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->photosSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1300(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1089,7 +1037,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->videosSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2100(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1102,7 +1049,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->audiosSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1700(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1115,7 +1061,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->filesSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2500(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1150,7 +1095,6 @@
 
     iget-object v15, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->currentType:I
     invoke-static {v15}, Lorg/telegram/ui/DataUsageActivity;->access$100(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v15
@@ -1181,7 +1125,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->messagesReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1000(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1194,7 +1137,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->photosReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1400(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1207,7 +1149,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->videosReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2200(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1220,7 +1161,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->audiosReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1800(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1233,7 +1173,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->filesReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2600(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1268,7 +1207,6 @@
 
     iget-object v15, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->currentType:I
     invoke-static {v15}, Lorg/telegram/ui/DataUsageActivity;->access$100(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v15
@@ -1299,7 +1237,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->messagesBytesSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1100(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1312,7 +1249,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->photosBytesSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1500(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1325,7 +1261,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->videosBytesSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2300(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1338,7 +1273,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->audiosBytesSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1900(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1351,7 +1285,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->filesBytesSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2700(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1364,7 +1297,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->callsBytesSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$700(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1377,7 +1309,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->totalBytesSentRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$3000(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1404,7 +1335,6 @@
 
     iget-object v12, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->currentType:I
     invoke-static {v12}, Lorg/telegram/ui/DataUsageActivity;->access$100(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v12
@@ -1429,7 +1359,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->messagesBytesReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1200(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1442,7 +1371,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->photosBytesReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$1600(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1455,7 +1383,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->videosBytesReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2400(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1468,7 +1395,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->audiosBytesReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2000(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1481,7 +1407,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->filesBytesReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$2800(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1494,7 +1419,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->callsBytesReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$800(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1507,7 +1431,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->totalBytesReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$3100(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1534,7 +1457,6 @@
 
     iget-object v12, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->currentType:I
     invoke-static {v12}, Lorg/telegram/ui/DataUsageActivity;->access$100(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v12
@@ -1551,7 +1473,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->totalBytesReceivedRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$3100(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1588,7 +1509,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->totalSectionRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$3200(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1616,7 +1536,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->callsSectionRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$3300(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1644,7 +1563,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->filesSectionRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$3400(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1672,7 +1590,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->audiosSectionRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$3500(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1700,7 +1617,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->videosSectionRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$3600(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1728,7 +1644,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->photosSectionRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$3700(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1756,7 +1671,6 @@
 
     iget-object v10, v0, Lorg/telegram/ui/DataUsageActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->messagesSectionRow:I
     invoke-static {v10}, Lorg/telegram/ui/DataUsageActivity;->access$3800(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v10
@@ -1830,7 +1744,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->currentType:I
     invoke-static/range {v16 .. v16}, Lorg/telegram/ui/DataUsageActivity;->access$100(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v16

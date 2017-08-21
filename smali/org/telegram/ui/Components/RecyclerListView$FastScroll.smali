@@ -620,7 +620,6 @@
     .line 444
     iget-object v0, p0, Lorg/telegram/ui/Components/RecyclerListView$FastScroll;->this$0:Lorg/telegram/ui/Components/RecyclerListView;
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->selfOnLayout:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/RecyclerListView;->access$000(Lorg/telegram/ui/Components/RecyclerListView;)Z
 
     move-result v0

@@ -63,7 +63,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/SecretMediaViewer;->isVisible:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/SecretMediaViewer;->access$3002(Lorg/telegram/ui/SecretMediaViewer;Z)Z
 
     .line 1247

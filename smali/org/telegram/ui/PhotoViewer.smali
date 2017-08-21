@@ -3897,7 +3897,6 @@
 
     aget-object v11, v11, v12
 
-    # getter for: Lorg/telegram/ui/PhotoViewer$PhotoProgressView;->backgroundState:I
     invoke-static {v11}, Lorg/telegram/ui/PhotoViewer$PhotoProgressView;->access$9200(Lorg/telegram/ui/PhotoViewer$PhotoProgressView;)I
 
     move-result v11
@@ -15921,7 +15920,6 @@
 
     aget-object v2, v2, v3
 
-    # getter for: Lorg/telegram/ui/PhotoViewer$PhotoProgressView;->backgroundState:I
     invoke-static {v2}, Lorg/telegram/ui/PhotoViewer$PhotoProgressView;->access$9200(Lorg/telegram/ui/PhotoViewer$PhotoProgressView;)I
 
     move-result v2
@@ -20342,7 +20340,6 @@
 
     aget-object v2, v2, v3
 
-    # getter for: Lorg/telegram/ui/PhotoViewer$PhotoProgressView;->backgroundState:I
     invoke-static {v2}, Lorg/telegram/ui/PhotoViewer$PhotoProgressView;->access$9200(Lorg/telegram/ui/PhotoViewer$PhotoProgressView;)I
 
     move-result v2
@@ -29482,7 +29479,6 @@
 
     aget-object v6, v6, v5
 
-    # getter for: Lorg/telegram/ui/PhotoViewer$PhotoProgressView;->backgroundState:I
     invoke-static {v6}, Lorg/telegram/ui/PhotoViewer$PhotoProgressView;->access$9200(Lorg/telegram/ui/PhotoViewer$PhotoProgressView;)I
 
     move-result v1
@@ -29672,7 +29668,6 @@
 
     aget-object v6, v6, v5
 
-    # getter for: Lorg/telegram/ui/PhotoViewer$PhotoProgressView;->backgroundState:I
     invoke-static {v6}, Lorg/telegram/ui/PhotoViewer$PhotoProgressView;->access$9200(Lorg/telegram/ui/PhotoViewer$PhotoProgressView;)I
 
     move-result v1
@@ -31299,7 +31294,6 @@
 
     invoke-direct {v5, v0, v10}, Lorg/telegram/ui/PhotoViewer$52;-><init>(Lorg/telegram/ui/PhotoViewer;Lorg/telegram/ui/PhotoViewer$PlaceProviderObject;)V
 
-    # setter for: Lorg/telegram/ui/PhotoViewer$BackgroundDrawable;->drawRunnable:Ljava/lang/Runnable;
     invoke-static {v4, v5}, Lorg/telegram/ui/PhotoViewer$BackgroundDrawable;->access$11902(Lorg/telegram/ui/PhotoViewer$BackgroundDrawable;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 4959

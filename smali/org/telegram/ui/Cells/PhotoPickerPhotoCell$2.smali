@@ -46,7 +46,6 @@
     .line 126
     iget-object v0, p0, Lorg/telegram/ui/Cells/PhotoPickerPhotoCell$2;->this$0:Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;->animator:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;->access$100(Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -55,7 +54,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Cells/PhotoPickerPhotoCell$2;->this$0:Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;->animator:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;->access$100(Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -71,7 +69,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;->animator:Landroid/animation/AnimatorSet;
     invoke-static {v0, v1}, Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;->access$102(Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 129
@@ -87,7 +84,6 @@
     .line 116
     iget-object v0, p0, Lorg/telegram/ui/Cells/PhotoPickerPhotoCell$2;->this$0:Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;->animator:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;->access$100(Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -96,7 +92,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Cells/PhotoPickerPhotoCell$2;->this$0:Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;->animator:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;->access$100(Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -112,7 +107,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;->animator:Landroid/animation/AnimatorSet;
     invoke-static {v0, v1}, Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;->access$102(Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 118

@@ -45,19 +45,16 @@
     .line 117
     iget-object v0, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # setter for: Lorg/telegram/ui/SetAdminsActivity;->searching:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/SetAdminsActivity;->access$002(Lorg/telegram/ui/SetAdminsActivity;Z)Z
 
     .line 118
     iget-object v0, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # setter for: Lorg/telegram/ui/SetAdminsActivity;->searchWas:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/SetAdminsActivity;->access$302(Lorg/telegram/ui/SetAdminsActivity;Z)Z
 
     .line 119
     iget-object v0, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v0}, Lorg/telegram/ui/SetAdminsActivity;->access$200(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v0
@@ -67,7 +64,6 @@
     .line 120
     iget-object v0, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v0}, Lorg/telegram/ui/SetAdminsActivity;->access$200(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v0
@@ -77,7 +73,6 @@
     .line 121
     iget-object v0, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->emptyView:Lorg/telegram/ui/Components/EmptyTextProgressView;
     invoke-static {v0}, Lorg/telegram/ui/SetAdminsActivity;->access$100(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/EmptyTextProgressView;
 
     move-result-object v0
@@ -89,7 +84,6 @@
     .line 122
     iget-object v0, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v0}, Lorg/telegram/ui/SetAdminsActivity;->access$200(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v0
@@ -100,7 +94,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->listAdapter:Lorg/telegram/ui/SetAdminsActivity$ListAdapter;
     invoke-static {v1}, Lorg/telegram/ui/SetAdminsActivity;->access$400(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/SetAdminsActivity$ListAdapter;
 
     move-result-object v1
@@ -110,14 +103,12 @@
     .line 123
     iget-object v0, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v0}, Lorg/telegram/ui/SetAdminsActivity;->access$200(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->listAdapter:Lorg/telegram/ui/SetAdminsActivity$ListAdapter;
     invoke-static {v1}, Lorg/telegram/ui/SetAdminsActivity;->access$400(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/SetAdminsActivity$ListAdapter;
 
     move-result-object v1
@@ -128,7 +119,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->searchAdapter:Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
     invoke-static {v0}, Lorg/telegram/ui/SetAdminsActivity;->access$500(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
 
     move-result-object v0
@@ -138,7 +128,6 @@
     .line 127
     iget-object v0, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->searchAdapter:Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
     invoke-static {v0}, Lorg/telegram/ui/SetAdminsActivity;->access$500(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
 
     move-result-object v0
@@ -159,20 +148,17 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/ui/SetAdminsActivity;->searching:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/SetAdminsActivity;->access$002(Lorg/telegram/ui/SetAdminsActivity;Z)Z
 
     .line 112
     iget-object v0, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v0}, Lorg/telegram/ui/SetAdminsActivity;->access$200(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->emptyView:Lorg/telegram/ui/Components/EmptyTextProgressView;
     invoke-static {v1}, Lorg/telegram/ui/SetAdminsActivity;->access$100(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/EmptyTextProgressView;
 
     move-result-object v1
@@ -210,13 +196,11 @@
 
     const/4 v2, 0x1
 
-    # setter for: Lorg/telegram/ui/SetAdminsActivity;->searchWas:Z
     invoke-static {v1, v2}, Lorg/telegram/ui/SetAdminsActivity;->access$302(Lorg/telegram/ui/SetAdminsActivity;Z)Z
 
     .line 136
     iget-object v1, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->searchAdapter:Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
     invoke-static {v1}, Lorg/telegram/ui/SetAdminsActivity;->access$500(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
 
     move-result-object v1
@@ -225,7 +209,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v1}, Lorg/telegram/ui/SetAdminsActivity;->access$200(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v1
@@ -236,7 +219,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->searchAdapter:Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
     invoke-static {v2}, Lorg/telegram/ui/SetAdminsActivity;->access$500(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
 
     move-result-object v2
@@ -246,14 +228,12 @@
     .line 137
     iget-object v1, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v1}, Lorg/telegram/ui/SetAdminsActivity;->access$200(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->searchAdapter:Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
     invoke-static {v2}, Lorg/telegram/ui/SetAdminsActivity;->access$500(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
 
     move-result-object v2
@@ -263,7 +243,6 @@
     .line 138
     iget-object v1, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->fragmentView:Landroid/view/View;
     invoke-static {v1}, Lorg/telegram/ui/SetAdminsActivity;->access$600(Lorg/telegram/ui/SetAdminsActivity;)Landroid/view/View;
 
     move-result-object v1
@@ -280,7 +259,6 @@
     :cond_0
     iget-object v1, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->emptyView:Lorg/telegram/ui/Components/EmptyTextProgressView;
     invoke-static {v1}, Lorg/telegram/ui/SetAdminsActivity;->access$100(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/EmptyTextProgressView;
 
     move-result-object v1
@@ -289,7 +267,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v1}, Lorg/telegram/ui/SetAdminsActivity;->access$200(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v1
@@ -300,7 +277,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->emptyView:Lorg/telegram/ui/Components/EmptyTextProgressView;
     invoke-static {v2}, Lorg/telegram/ui/SetAdminsActivity;->access$100(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/EmptyTextProgressView;
 
     move-result-object v2
@@ -310,7 +286,6 @@
     .line 141
     iget-object v1, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->emptyView:Lorg/telegram/ui/Components/EmptyTextProgressView;
     invoke-static {v1}, Lorg/telegram/ui/SetAdminsActivity;->access$100(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/EmptyTextProgressView;
 
     move-result-object v1
@@ -320,14 +295,12 @@
     .line 142
     iget-object v1, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v1}, Lorg/telegram/ui/SetAdminsActivity;->access$200(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->emptyView:Lorg/telegram/ui/Components/EmptyTextProgressView;
     invoke-static {v2}, Lorg/telegram/ui/SetAdminsActivity;->access$100(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/EmptyTextProgressView;
 
     move-result-object v2
@@ -338,7 +311,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->searchAdapter:Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
     invoke-static {v1}, Lorg/telegram/ui/SetAdminsActivity;->access$500(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
 
     move-result-object v1
@@ -348,7 +320,6 @@
     .line 146
     iget-object v1, p0, Lorg/telegram/ui/SetAdminsActivity$2;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->searchAdapter:Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
     invoke-static {v1}, Lorg/telegram/ui/SetAdminsActivity;->access$500(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
 
     move-result-object v1

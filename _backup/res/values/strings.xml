@@ -2199,4 +2199,5 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="google_crash_reporting_api_key" />
     <string name="hockeyapp_update_version_details_label">"%1$s
 %2$s - %3$s"</string>
+    <string name="Change_another_user">Multiuser</string>
 </resources>

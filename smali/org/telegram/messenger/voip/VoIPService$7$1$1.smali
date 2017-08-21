@@ -67,7 +67,6 @@
 
     iget-object v1, v1, Lorg/telegram/tgnet/TLRPC$TL_phone_phoneCall;->phone_call:Lorg/telegram/tgnet/TLRPC$PhoneCall;
 
-    # setter for: Lorg/telegram/messenger/voip/VoIPService;->call:Lorg/telegram/tgnet/TLRPC$PhoneCall;
     invoke-static {v2, v1}, Lorg/telegram/messenger/voip/VoIPService;->access$1402(Lorg/telegram/messenger/voip/VoIPService;Lorg/telegram/tgnet/TLRPC$PhoneCall;)Lorg/telegram/tgnet/TLRPC$PhoneCall;
 
     .line 528
@@ -81,7 +80,6 @@
 
     iget-object v2, v2, Lorg/telegram/messenger/voip/VoIPService$7$1;->val$salt:[B
 
-    # setter for: Lorg/telegram/messenger/voip/VoIPService;->a_or_b:[B
     invoke-static {v1, v2}, Lorg/telegram/messenger/voip/VoIPService;->access$1502(Lorg/telegram/messenger/voip/VoIPService;[B)[B
 
     .line 529
@@ -93,7 +91,6 @@
 
     const/16 v2, 0xd
 
-    # invokes: Lorg/telegram/messenger/voip/VoIPService;->dispatchStateChanged(I)V
     invoke-static {v1, v2}, Lorg/telegram/messenger/voip/VoIPService;->access$1600(Lorg/telegram/messenger/voip/VoIPService;I)V
 
     .line 530
@@ -103,7 +100,6 @@
 
     iget-object v1, v1, Lorg/telegram/messenger/voip/VoIPService$7;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->endCallAfterRequest:Z
     invoke-static {v1}, Lorg/telegram/messenger/voip/VoIPService;->access$1700(Lorg/telegram/messenger/voip/VoIPService;)Z
 
     move-result v1
@@ -131,7 +127,6 @@
 
     iget-object v1, v1, Lorg/telegram/messenger/voip/VoIPService$7;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->pendingUpdates:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/messenger/voip/VoIPService;->access$1800(Lorg/telegram/messenger/voip/VoIPService;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -148,7 +143,6 @@
 
     iget-object v1, v1, Lorg/telegram/messenger/voip/VoIPService$7;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->call:Lorg/telegram/tgnet/TLRPC$PhoneCall;
     invoke-static {v1}, Lorg/telegram/messenger/voip/VoIPService;->access$1400(Lorg/telegram/messenger/voip/VoIPService;)Lorg/telegram/tgnet/TLRPC$PhoneCall;
 
     move-result-object v1
@@ -162,7 +156,6 @@
 
     iget-object v1, v1, Lorg/telegram/messenger/voip/VoIPService$7;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->pendingUpdates:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/messenger/voip/VoIPService;->access$1800(Lorg/telegram/messenger/voip/VoIPService;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -205,7 +198,6 @@
 
     iget-object v1, v1, Lorg/telegram/messenger/voip/VoIPService$7;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->pendingUpdates:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/messenger/voip/VoIPService;->access$1800(Lorg/telegram/messenger/voip/VoIPService;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -224,7 +216,6 @@
 
     invoke-direct {v2, p0}, Lorg/telegram/messenger/voip/VoIPService$7$1$1$1;-><init>(Lorg/telegram/messenger/voip/VoIPService$7$1$1;)V
 
-    # setter for: Lorg/telegram/messenger/voip/VoIPService;->timeoutRunnable:Ljava/lang/Runnable;
     invoke-static {v1, v2}, Lorg/telegram/messenger/voip/VoIPService;->access$1902(Lorg/telegram/messenger/voip/VoIPService;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 567
@@ -234,7 +225,6 @@
 
     iget-object v1, v1, Lorg/telegram/messenger/voip/VoIPService$7;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->timeoutRunnable:Ljava/lang/Runnable;
     invoke-static {v1}, Lorg/telegram/messenger/voip/VoIPService;->access$1900(Lorg/telegram/messenger/voip/VoIPService;)Ljava/lang/Runnable;
 
     move-result-object v1
@@ -282,7 +272,6 @@
 
     const/4 v2, -0x1
 
-    # invokes: Lorg/telegram/messenger/voip/VoIPService;->callFailed(I)V
     invoke-static {v1, v2}, Lorg/telegram/messenger/voip/VoIPService;->access$2000(Lorg/telegram/messenger/voip/VoIPService;I)V
 
     goto/16 :goto_0
@@ -318,7 +307,6 @@
 
     const/4 v2, -0x2
 
-    # invokes: Lorg/telegram/messenger/voip/VoIPService;->callFailed(I)V
     invoke-static {v1, v2}, Lorg/telegram/messenger/voip/VoIPService;->access$2000(Lorg/telegram/messenger/voip/VoIPService;I)V
 
     goto/16 :goto_0
@@ -342,7 +330,6 @@
 
     const/4 v2, -0x3
 
-    # invokes: Lorg/telegram/messenger/voip/VoIPService;->callFailed(I)V
     invoke-static {v1, v2}, Lorg/telegram/messenger/voip/VoIPService;->access$2000(Lorg/telegram/messenger/voip/VoIPService;I)V
 
     goto/16 :goto_0
@@ -378,7 +365,6 @@
 
     iget-object v1, v1, Lorg/telegram/messenger/voip/VoIPService$7;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # invokes: Lorg/telegram/messenger/voip/VoIPService;->callFailed()V
     invoke-static {v1}, Lorg/telegram/messenger/voip/VoIPService;->access$1100(Lorg/telegram/messenger/voip/VoIPService;)V
 
     goto/16 :goto_0

@@ -58,7 +58,6 @@
     .line 1365
     iget-object v7, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder$1;->this$1:Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->running:Z
     invoke-static {v7}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$3800(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;)Z
 
     move-result v7
@@ -67,7 +66,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder$1;->this$1:Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->audioRecorder:Landroid/media/AudioRecord;
     invoke-static {v7}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$3900(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;)Landroid/media/AudioRecord;
 
     move-result-object v7
@@ -82,7 +80,6 @@
     :try_start_0
     iget-object v7, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder$1;->this$1:Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->audioRecorder:Landroid/media/AudioRecord;
     invoke-static {v7}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$3900(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;)Landroid/media/AudioRecord;
 
     move-result-object v7
@@ -95,7 +92,6 @@
     :goto_1
     iget-object v7, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder$1;->this$1:Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->sendWhenDone:I
     invoke-static {v7}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$4000(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;)I
 
     move-result v7
@@ -107,7 +103,6 @@
     :try_start_1
     iget-object v7, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder$1;->this$1:Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->audioRecorder:Landroid/media/AudioRecord;
     invoke-static {v7}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$3900(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;)Landroid/media/AudioRecord;
 
     move-result-object v7
@@ -120,21 +115,18 @@
     :goto_2
     iget-object v7, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder$1;->this$1:Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->handler:Lorg/telegram/ui/Components/InstantCameraView$EncoderHandler;
     invoke-static {v7}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$4300(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;)Lorg/telegram/ui/Components/InstantCameraView$EncoderHandler;
 
     move-result-object v7
 
     iget-object v8, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder$1;->this$1:Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->handler:Lorg/telegram/ui/Components/InstantCameraView$EncoderHandler;
     invoke-static {v8}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$4300(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;)Lorg/telegram/ui/Components/InstantCameraView$EncoderHandler;
 
     move-result-object v8
 
     iget-object v9, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder$1;->this$1:Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->sendWhenDone:I
     invoke-static {v9}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$4000(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;)I
 
     move-result v9
@@ -163,7 +155,6 @@
     :cond_1
     iget-object v7, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder$1;->this$1:Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->buffers:Ljava/util/concurrent/ArrayBlockingQueue;
     invoke-static {v7}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$4100(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;)Ljava/util/concurrent/ArrayBlockingQueue;
 
     move-result-object v7
@@ -209,7 +200,6 @@
     .local v2, "audioPresentationTimeNs":J
     iget-object v7, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder$1;->this$1:Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->audioRecorder:Landroid/media/AudioRecord;
     invoke-static {v7}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$3900(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;)Landroid/media/AudioRecord;
 
     move-result-object v7
@@ -234,7 +224,6 @@
     .line 1388
     iget-object v7, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder$1;->this$1:Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->running:Z
     invoke-static {v7}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$3800(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;)Z
 
     move-result v7
@@ -260,7 +249,6 @@
     :cond_3
     iget-object v7, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder$1;->this$1:Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->running:Z
     invoke-static {v7}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$3800(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;)Z
 
     move-result v7
@@ -278,14 +266,12 @@
     :cond_4
     iget-object v7, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder$1;->this$1:Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->handler:Lorg/telegram/ui/Components/InstantCameraView$EncoderHandler;
     invoke-static {v7}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$4300(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;)Lorg/telegram/ui/Components/InstantCameraView$EncoderHandler;
 
     move-result-object v7
 
     iget-object v8, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder$1;->this$1:Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->handler:Lorg/telegram/ui/Components/InstantCameraView$EncoderHandler;
     invoke-static {v8}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$4300(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;)Lorg/telegram/ui/Components/InstantCameraView$EncoderHandler;
 
     move-result-object v8
@@ -306,7 +292,6 @@
     :cond_5
     iget-object v7, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder$1;->this$1:Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->buffers:Ljava/util/concurrent/ArrayBlockingQueue;
     invoke-static {v7}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$4100(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;)Ljava/util/concurrent/ArrayBlockingQueue;
 
     move-result-object v7
@@ -345,7 +330,6 @@
     :cond_7
     iget-object v7, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder$1;->this$1:Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->running:Z
     invoke-static {v7}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$3800(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;)Z
 
     move-result v7
@@ -362,7 +346,6 @@
     :try_start_2
     iget-object v7, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder$1;->this$1:Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->buffers:Ljava/util/concurrent/ArrayBlockingQueue;
     invoke-static {v7}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$4100(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;)Ljava/util/concurrent/ArrayBlockingQueue;
 
     move-result-object v7

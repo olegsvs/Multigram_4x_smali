@@ -425,7 +425,6 @@
     move-object/from16 v21, v0
 
     .line 287
-    # getter for: Lorg/telegram/messenger/NotificationsController;->total_unread_count:I
     invoke-static/range {v21 .. v21}, Lorg/telegram/messenger/NotificationsController;->access$400(Lorg/telegram/messenger/NotificationsController;)I
 
     move-result v21
@@ -663,7 +662,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->notificationManager:Landroid/support/v4/app/NotificationManagerCompat;
     invoke-static/range {v20 .. v20}, Lorg/telegram/messenger/NotificationsController;->access$1400(Lorg/telegram/messenger/NotificationsController;)Landroid/support/v4/app/NotificationManagerCompat;
 
     move-result-object v20
@@ -891,6 +889,8 @@
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_0
 
     goto/16 :goto_5
+
+    nop
 
     .line 323
     :array_0

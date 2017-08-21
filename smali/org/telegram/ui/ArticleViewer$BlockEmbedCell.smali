@@ -81,7 +81,6 @@
     invoke-virtual {p0, v1}, Lorg/telegram/ui/ArticleViewer$BlockEmbedCell;->addView(Landroid/view/View;)V
 
     .line 4682
-    # getter for: Lorg/telegram/ui/ArticleViewer;->createdWebViews:Ljava/util/ArrayList;
     invoke-static {p1}, Lorg/telegram/ui/ArticleViewer;->access$10600(Lorg/telegram/ui/ArticleViewer;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -305,7 +304,6 @@
     .line 4805
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$BlockEmbedCell;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->isVisible:Z
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$2000(Lorg/telegram/ui/ArticleViewer;)Z
 
     move-result v0
@@ -362,7 +360,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$BlockEmbedCell;->textLayout:Landroid/text/StaticLayout;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->drawLayoutLink(Landroid/graphics/Canvas;Landroid/text/StaticLayout;)V
     invoke-static {v0, p1, v1}, Lorg/telegram/ui/ArticleViewer;->access$9300(Lorg/telegram/ui/ArticleViewer;Landroid/graphics/Canvas;Landroid/text/StaticLayout;)V
 
     .line 4887
@@ -421,7 +418,6 @@
 
     int-to-float v4, v0
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->quoteLinePaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$9400()Landroid/graphics/Paint;
 
     move-result-object v5
@@ -679,7 +675,6 @@
 
     iget-object v8, p0, Lorg/telegram/ui/ArticleViewer$BlockEmbedCell;->currentBlock:Lorg/telegram/tgnet/TLRPC$TL_pageBlockEmbed;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->createLayoutForText(Ljava/lang/CharSequence;Lorg/telegram/tgnet/TLRPC$RichText;ILorg/telegram/tgnet/TLRPC$PageBlock;)Landroid/text/StaticLayout;
     invoke-static {v5, v6, v7, v3, v8}, Lorg/telegram/ui/ArticleViewer;->access$9200(Lorg/telegram/ui/ArticleViewer;Ljava/lang/CharSequence;Lorg/telegram/tgnet/TLRPC$RichText;ILorg/telegram/tgnet/TLRPC$PageBlock;)Landroid/text/StaticLayout;
 
     move-result-object v5
@@ -862,7 +857,6 @@
 
     move-object v2, p0
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->checkLayoutForLinks(Landroid/view/MotionEvent;Landroid/view/View;Landroid/text/StaticLayout;II)Z
     invoke-static/range {v0 .. v5}, Lorg/telegram/ui/ArticleViewer;->access$9100(Lorg/telegram/ui/ArticleViewer;Landroid/view/MotionEvent;Landroid/view/View;Landroid/text/StaticLayout;II)Z
 
     move-result v0
@@ -983,7 +977,6 @@
 
     iget-wide v6, v6, Lorg/telegram/tgnet/TLRPC$TL_pageBlockEmbed;->poster_photo_id:J
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->getPhotoWithId(J)Lorg/telegram/tgnet/TLRPC$Photo;
     invoke-static {v5, v6, v7}, Lorg/telegram/ui/ArticleViewer;->access$9800(Lorg/telegram/ui/ArticleViewer;J)Lorg/telegram/tgnet/TLRPC$Photo;
 
     move-result-object v4

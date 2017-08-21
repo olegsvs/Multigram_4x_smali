@@ -55,7 +55,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ArticleViewer$WindowView;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->saveCurrentPagePosition()V
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$2400(Lorg/telegram/ui/ArticleViewer;)V
 
     .line 736
@@ -63,20 +62,17 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ArticleViewer$WindowView;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->onClosed()V
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$2500(Lorg/telegram/ui/ArticleViewer;)V
 
     .line 738
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$WindowView$1;->this$1:Lorg/telegram/ui/ArticleViewer$WindowView;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer$WindowView;->startedTracking:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/ArticleViewer$WindowView;->access$2602(Lorg/telegram/ui/ArticleViewer$WindowView;Z)Z
 
     .line 739
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$WindowView$1;->this$1:Lorg/telegram/ui/ArticleViewer$WindowView;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer$WindowView;->closeAnimationInProgress:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/ArticleViewer$WindowView;->access$2702(Lorg/telegram/ui/ArticleViewer$WindowView;Z)Z
 
     .line 740

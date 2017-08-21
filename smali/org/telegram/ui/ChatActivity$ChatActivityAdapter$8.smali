@@ -55,7 +55,6 @@
 
     iget v1, p0, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter$8;->val$fromId:I
 
-    # invokes: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->showUserMsgs(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$21500(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;I)V
 
     .line 11847
@@ -74,7 +73,6 @@
 
     iget v1, p0, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter$8;->val$fromId:I
 
-    # invokes: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->showUserMedia(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$21600(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;I)V
 
     goto :goto_0

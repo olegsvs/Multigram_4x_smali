@@ -44,7 +44,6 @@
     .line 216
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$6;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->currentEntityView:Lorg/telegram/ui/Components/Paint/Views/EntityView;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$200(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/Components/Paint/Views/EntityView;
 
     move-result-object v0
@@ -58,7 +57,6 @@
 
     const/4 v1, 0x1
 
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->setDimVisibility(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/PhotoPaintView;->access$500(Lorg/telegram/ui/Components/PhotoPaintView;Z)V
 
     .line 219
@@ -75,7 +73,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/PhotoPaintView$6;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->colorPicker:Lorg/telegram/ui/Components/Paint/Views/ColorPicker;
     invoke-static {v1}, Lorg/telegram/ui/Components/PhotoPaintView;->access$100(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/Components/Paint/Views/ColorPicker;
 
     move-result-object v1
@@ -86,7 +83,6 @@
 
     const/4 v2, 0x0
 
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->setCurrentSwatch(Lorg/telegram/ui/Components/Paint/Swatch;Z)V
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/Components/PhotoPaintView;->access$600(Lorg/telegram/ui/Components/PhotoPaintView;Lorg/telegram/ui/Components/Paint/Swatch;Z)V
 
     .line 224
@@ -104,7 +100,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/PhotoPaintView$6;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->colorPicker:Lorg/telegram/ui/Components/Paint/Views/ColorPicker;
     invoke-static {v1}, Lorg/telegram/ui/Components/PhotoPaintView;->access$100(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/Components/Paint/Views/ColorPicker;
 
     move-result-object v1
@@ -113,13 +108,11 @@
 
     move-result-object v1
 
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->setCurrentSwatch(Lorg/telegram/ui/Components/Paint/Swatch;Z)V
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/Components/PhotoPaintView;->access$600(Lorg/telegram/ui/Components/PhotoPaintView;Lorg/telegram/ui/Components/Paint/Swatch;Z)V
 
     .line 230
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$6;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->currentEntityView:Lorg/telegram/ui/Components/Paint/Views/EntityView;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$200(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/Components/Paint/Views/EntityView;
 
     move-result-object v0
@@ -131,7 +124,6 @@
     .line 231
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$6;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->setDimVisibility(Z)V
     invoke-static {v0, v2}, Lorg/telegram/ui/Components/PhotoPaintView;->access$500(Lorg/telegram/ui/Components/PhotoPaintView;Z)V
 
     .line 233
@@ -146,7 +138,6 @@
     .line 237
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$6;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->currentEntityView:Lorg/telegram/ui/Components/Paint/Views/EntityView;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$200(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/Components/Paint/Views/EntityView;
 
     move-result-object v0
@@ -156,7 +147,6 @@
     .line 238
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$6;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->currentEntityView:Lorg/telegram/ui/Components/Paint/Views/EntityView;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$200(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/Components/Paint/Views/EntityView;
 
     move-result-object v0
@@ -168,7 +158,6 @@
     .line 239
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$6;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->mirrorSticker()V
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$700(Lorg/telegram/ui/Components/PhotoPaintView;)V
 
     .line 246
@@ -180,7 +169,6 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$6;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->currentEntityView:Lorg/telegram/ui/Components/Paint/Views/EntityView;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$200(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/Components/Paint/Views/EntityView;
 
     move-result-object v0
@@ -192,7 +180,6 @@
     .line 241
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$6;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->showTextSettings()V
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$800(Lorg/telegram/ui/Components/PhotoPaintView;)V
 
     goto :goto_0
@@ -201,7 +188,6 @@
     :cond_2
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$6;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->showBrushSettings()V
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$900(Lorg/telegram/ui/Components/PhotoPaintView;)V
 
     goto :goto_0
@@ -214,7 +200,6 @@
     .line 250
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$6;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->undoStore:Lorg/telegram/ui/Components/Paint/UndoStore;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$000(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/Components/Paint/UndoStore;
 
     move-result-object v0

@@ -393,7 +393,6 @@
     if-eqz v5, :cond_9
 
     .line 645
-    # getter for: Lorg/telegram/messenger/ImageLoader;->headerThumb:[B
     invoke-static {}, Lorg/telegram/messenger/ImageLoader;->access$1200()[B
 
     move-result-object v20
@@ -527,7 +526,6 @@
 
     move-result-wide v6
 
-    # setter for: Lorg/telegram/messenger/ImageLoader;->lastCacheOutTime:J
     invoke-static {v5, v6, v7}, Lorg/telegram/messenger/ImageLoader;->access$1402(Lorg/telegram/messenger/ImageLoader;J)J
 
     .line 683
@@ -617,7 +615,6 @@
     .restart local v47    # "useNativeWebpLoaded":Z
     :cond_9
     :try_start_a
-    # getter for: Lorg/telegram/messenger/ImageLoader;->header:[B
     invoke-static {}, Lorg/telegram/messenger/ImageLoader;->access$1300()[B
     :try_end_a
     .catch Ljava/lang/Exception; {:try_start_a .. :try_end_a} :catch_8
@@ -976,14 +973,12 @@
 
     .line 711
     .local v34, "len":I
-    # getter for: Lorg/telegram/messenger/ImageLoader;->bytesThumb:[B
     invoke-static {}, Lorg/telegram/messenger/ImageLoader;->access$1500()[B
 
     move-result-object v5
 
     if-eqz v5, :cond_14
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->bytesThumb:[B
     invoke-static {}, Lorg/telegram/messenger/ImageLoader;->access$1500()[B
 
     move-result-object v5
@@ -994,7 +989,6 @@
 
     if-lt v5, v0, :cond_14
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->bytesThumb:[B
     invoke-static {}, Lorg/telegram/messenger/ImageLoader;->access$1500()[B
 
     move-result-object v23
@@ -1011,7 +1005,6 @@
 
     move-object/from16 v23, v0
 
-    # setter for: Lorg/telegram/messenger/ImageLoader;->bytesThumb:[B
     invoke-static/range {v23 .. v23}, Lorg/telegram/messenger/ImageLoader;->access$1502([B)[B
 
     .line 715
@@ -1493,7 +1486,6 @@
 
     iget-object v5, v0, Lorg/telegram/messenger/ImageLoader$CacheOutTask;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->lastCacheOutTime:J
     invoke-static {v5}, Lorg/telegram/messenger/ImageLoader;->access$1400(Lorg/telegram/messenger/ImageLoader;)J
 
     move-result-wide v6
@@ -1508,7 +1500,6 @@
 
     iget-object v5, v0, Lorg/telegram/messenger/ImageLoader$CacheOutTask;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->lastCacheOutTime:J
     invoke-static {v5}, Lorg/telegram/messenger/ImageLoader;->access$1400(Lorg/telegram/messenger/ImageLoader;)J
 
     move-result-wide v6
@@ -1550,7 +1541,6 @@
 
     move-result-wide v6
 
-    # setter for: Lorg/telegram/messenger/ImageLoader;->lastCacheOutTime:J
     invoke-static {v5, v6, v7}, Lorg/telegram/messenger/ImageLoader;->access$1402(Lorg/telegram/messenger/ImageLoader;J)J
 
     .line 791
@@ -2473,14 +2463,12 @@
 
     .line 898
     .restart local v34    # "len":I
-    # getter for: Lorg/telegram/messenger/ImageLoader;->bytes:[B
     invoke-static {}, Lorg/telegram/messenger/ImageLoader;->access$1600()[B
 
     move-result-object v5
 
     if-eqz v5, :cond_3e
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->bytes:[B
     invoke-static {}, Lorg/telegram/messenger/ImageLoader;->access$1600()[B
 
     move-result-object v5
@@ -2491,7 +2479,6 @@
 
     if-lt v5, v0, :cond_3e
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->bytes:[B
     invoke-static {}, Lorg/telegram/messenger/ImageLoader;->access$1600()[B
 
     move-result-object v23
@@ -2508,7 +2495,6 @@
 
     move-object/from16 v23, v0
 
-    # setter for: Lorg/telegram/messenger/ImageLoader;->bytes:[B
     invoke-static/range {v23 .. v23}, Lorg/telegram/messenger/ImageLoader;->access$1602([B)[B
 
     .line 902

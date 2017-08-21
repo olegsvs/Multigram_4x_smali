@@ -58,7 +58,6 @@
 
     iget v2, v2, Lorg/telegram/messenger/MessagesController$97;->val$channelId:I
 
-    # invokes: Lorg/telegram/messenger/MessagesController;->checkChannelError(Ljava/lang/String;I)V
     invoke-static {v0, v1, v2}, Lorg/telegram/messenger/MessagesController;->access$2100(Lorg/telegram/messenger/MessagesController;Ljava/lang/String;I)V
 
     .line 5619

@@ -70,7 +70,6 @@
     const/4 v0, 0x1
 
     :goto_0
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->canCreatePublic:Z
     invoke-static {v1, v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$202(Lorg/telegram/ui/ChannelEditInfoActivity;Z)Z
 
     .line 190
@@ -78,7 +77,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$2;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->canCreatePublic:Z
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$200(Lorg/telegram/ui/ChannelEditInfoActivity;)Z
 
     move-result v0
@@ -90,7 +88,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$2;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelEditInfoActivity;->loadAdminedChannels()V
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$300(Lorg/telegram/ui/ChannelEditInfoActivity;)V
 
     .line 193

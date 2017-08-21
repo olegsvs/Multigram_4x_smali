@@ -48,7 +48,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/TwoStepVerificationActivity$7;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->shortPollRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2200(Lorg/telegram/ui/TwoStepVerificationActivity;)Ljava/lang/Runnable;
 
     move-result-object v0
@@ -69,7 +68,6 @@
 
     const/4 v1, 0x1
 
-    # invokes: Lorg/telegram/ui/TwoStepVerificationActivity;->loadPasswordInfo(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2300(Lorg/telegram/ui/TwoStepVerificationActivity;Z)V
 
     .line 434
@@ -81,7 +79,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/TwoStepVerificationActivity;->shortPollRunnable:Ljava/lang/Runnable;
     invoke-static {v0, v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2202(Lorg/telegram/ui/TwoStepVerificationActivity;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     goto :goto_0

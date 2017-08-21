@@ -60,7 +60,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/Adapters/SearchAdapterHelper$2;->this$0:Lorg/telegram/ui/Adapters/SearchAdapterHelper;
 
-    # getter for: Lorg/telegram/ui/Adapters/SearchAdapterHelper;->channelLastReqId2:I
     invoke-static {v2}, Lorg/telegram/ui/Adapters/SearchAdapterHelper;->access$500(Lorg/telegram/ui/Adapters/SearchAdapterHelper;)I
 
     move-result v2
@@ -91,7 +90,6 @@
 
     move-result-object v2
 
-    # setter for: Lorg/telegram/ui/Adapters/SearchAdapterHelper;->lastFoundChannel2:Ljava/lang/String;
     invoke-static {v1, v2}, Lorg/telegram/ui/Adapters/SearchAdapterHelper;->access$602(Lorg/telegram/ui/Adapters/SearchAdapterHelper;Ljava/lang/String;)Ljava/lang/String;
 
     .line 135
@@ -110,7 +108,6 @@
 
     iget-object v2, v0, Lorg/telegram/tgnet/TLRPC$TL_channels_channelParticipants;->participants:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/ui/Adapters/SearchAdapterHelper;->groupSearch2:Ljava/util/ArrayList;
     invoke-static {v1, v2}, Lorg/telegram/ui/Adapters/SearchAdapterHelper;->access$702(Lorg/telegram/ui/Adapters/SearchAdapterHelper;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 137
@@ -118,7 +115,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/Adapters/SearchAdapterHelper$2;->this$0:Lorg/telegram/ui/Adapters/SearchAdapterHelper;
 
-    # getter for: Lorg/telegram/ui/Adapters/SearchAdapterHelper;->delegate:Lorg/telegram/ui/Adapters/SearchAdapterHelper$SearchAdapterHelperDelegate;
     invoke-static {v1}, Lorg/telegram/ui/Adapters/SearchAdapterHelper;->access$300(Lorg/telegram/ui/Adapters/SearchAdapterHelper;)Lorg/telegram/ui/Adapters/SearchAdapterHelper$SearchAdapterHelperDelegate;
 
     move-result-object v1
@@ -132,7 +128,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/Adapters/SearchAdapterHelper$2;->this$0:Lorg/telegram/ui/Adapters/SearchAdapterHelper;
 
-    # setter for: Lorg/telegram/ui/Adapters/SearchAdapterHelper;->channelReqId2:I
     invoke-static {v1, v3}, Lorg/telegram/ui/Adapters/SearchAdapterHelper;->access$802(Lorg/telegram/ui/Adapters/SearchAdapterHelper;I)I
 
     .line 141

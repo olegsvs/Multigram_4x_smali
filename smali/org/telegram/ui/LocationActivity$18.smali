@@ -45,7 +45,6 @@
     .line 716
     iget-object v0, p0, Lorg/telegram/ui/LocationActivity$18;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # invokes: Lorg/telegram/ui/LocationActivity;->positionMarker(Landroid/location/Location;)V
     invoke-static {v0, p1}, Lorg/telegram/ui/LocationActivity;->access$2800(Lorg/telegram/ui/LocationActivity;Landroid/location/Location;)V
 
     .line 717

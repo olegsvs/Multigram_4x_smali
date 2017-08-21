@@ -868,7 +868,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 946
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$PhoneView;->progressBar:Lorg/telegram/ui/Components/RadialProgressView;
     invoke-static {v10}, Lorg/telegram/ui/CancelAccountDeletionActivity$PhoneView;->access$3100(Lorg/telegram/ui/CancelAccountDeletionActivity$PhoneView;)Lorg/telegram/ui/Components/RadialProgressView;
 
     move-result-object v2
@@ -894,7 +893,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 948
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->confirmTextView:Landroid/widget/TextView;
     invoke-static {v11}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$3200(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -920,7 +918,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 949
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v11}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$900(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -946,7 +943,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 950
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v11}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$900(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -972,7 +968,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 951
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v11}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$900(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -998,7 +993,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 952
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v11}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$900(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1028,7 +1022,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 953
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->timeText:Landroid/widget/TextView;
     invoke-static {v11}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$2200(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1054,7 +1047,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 954
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->problemText:Landroid/widget/TextView;
     invoke-static {v11}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$1700(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1080,7 +1072,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 955
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->progressView:Lorg/telegram/ui/CancelAccountDeletionActivity$ProgressView;
     invoke-static {v11}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$2300(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Lorg/telegram/ui/CancelAccountDeletionActivity$ProgressView;
 
     move-result-object v2
@@ -1124,7 +1115,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 956
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->progressView:Lorg/telegram/ui/CancelAccountDeletionActivity$ProgressView;
     invoke-static {v11}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$2300(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Lorg/telegram/ui/CancelAccountDeletionActivity$ProgressView;
 
     move-result-object v2
@@ -1168,7 +1158,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 958
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->confirmTextView:Landroid/widget/TextView;
     invoke-static {v12}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$3200(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1194,7 +1183,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 959
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v12}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$900(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1220,7 +1208,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 960
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v12}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$900(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1246,7 +1233,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 961
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v12}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$900(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1272,7 +1258,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 962
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v12}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$900(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1302,7 +1287,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 963
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->timeText:Landroid/widget/TextView;
     invoke-static {v12}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$2200(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1328,7 +1312,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 964
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->problemText:Landroid/widget/TextView;
     invoke-static {v12}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$1700(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1354,7 +1337,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 965
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->progressView:Lorg/telegram/ui/CancelAccountDeletionActivity$ProgressView;
     invoke-static {v12}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$2300(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Lorg/telegram/ui/CancelAccountDeletionActivity$ProgressView;
 
     move-result-object v2
@@ -1398,7 +1380,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 966
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->progressView:Lorg/telegram/ui/CancelAccountDeletionActivity$ProgressView;
     invoke-static {v12}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$2300(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Lorg/telegram/ui/CancelAccountDeletionActivity$ProgressView;
 
     move-result-object v2
@@ -1442,7 +1423,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 968
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->confirmTextView:Landroid/widget/TextView;
     invoke-static {v13}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$3200(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1468,7 +1448,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 969
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v13}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$900(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1494,7 +1473,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 970
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v13}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$900(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1520,7 +1498,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 971
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v13}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$900(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1546,7 +1523,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 972
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v13}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$900(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1576,7 +1552,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 973
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->timeText:Landroid/widget/TextView;
     invoke-static {v13}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$2200(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1602,7 +1577,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 974
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->problemText:Landroid/widget/TextView;
     invoke-static {v13}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$1700(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1628,7 +1602,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 975
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->progressView:Lorg/telegram/ui/CancelAccountDeletionActivity$ProgressView;
     invoke-static {v13}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$2300(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Lorg/telegram/ui/CancelAccountDeletionActivity$ProgressView;
 
     move-result-object v2
@@ -1672,7 +1645,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 976
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->progressView:Lorg/telegram/ui/CancelAccountDeletionActivity$ProgressView;
     invoke-static {v13}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$2300(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Lorg/telegram/ui/CancelAccountDeletionActivity$ProgressView;
 
     move-result-object v2
@@ -1716,7 +1688,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 978
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->confirmTextView:Landroid/widget/TextView;
     invoke-static {v14}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$3200(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1742,7 +1713,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 979
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v14}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$900(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1768,7 +1738,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 980
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v14}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$900(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1794,7 +1763,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 981
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v14}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$900(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1820,7 +1788,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 982
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v14}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$900(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1850,7 +1817,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 983
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->timeText:Landroid/widget/TextView;
     invoke-static {v14}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$2200(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1876,7 +1842,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 984
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->problemText:Landroid/widget/TextView;
     invoke-static {v14}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$1700(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1902,7 +1867,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 985
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->progressView:Lorg/telegram/ui/CancelAccountDeletionActivity$ProgressView;
     invoke-static {v14}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$2300(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Lorg/telegram/ui/CancelAccountDeletionActivity$ProgressView;
 
     move-result-object v2
@@ -1946,7 +1910,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 986
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->progressView:Lorg/telegram/ui/CancelAccountDeletionActivity$ProgressView;
     invoke-static {v14}, Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;->access$2300(Lorg/telegram/ui/CancelAccountDeletionActivity$LoginActivitySmsView;)Lorg/telegram/ui/CancelAccountDeletionActivity$ProgressView;
 
     move-result-object v2

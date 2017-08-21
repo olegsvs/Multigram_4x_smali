@@ -47,7 +47,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/LocationActivity$16;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->searching:Z
     invoke-static {v0}, Lorg/telegram/ui/LocationActivity;->access$200(Lorg/telegram/ui/LocationActivity;)Z
 
     move-result v0
@@ -56,7 +55,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/LocationActivity$16;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->searchWas:Z
     invoke-static {v0}, Lorg/telegram/ui/LocationActivity;->access$700(Lorg/telegram/ui/LocationActivity;)Z
 
     move-result v0

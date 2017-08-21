@@ -209,7 +209,6 @@
 
     iget v4, p0, Lorg/telegram/messenger/query/SharedMediaQuery$6;->val$type:I
 
-    # invokes: Lorg/telegram/messenger/query/SharedMediaQuery;->putMediaCountDatabase(JII)V
     invoke-static {v2, v3, v4, v1}, Lorg/telegram/messenger/query/SharedMediaQuery;->access$200(JII)V
 
     .line 284
@@ -222,7 +221,6 @@
 
     const/4 v6, 0x1
 
-    # invokes: Lorg/telegram/messenger/query/SharedMediaQuery;->processLoadedMediaCount(IJIIZ)V
     invoke-static/range {v1 .. v6}, Lorg/telegram/messenger/query/SharedMediaQuery;->access$100(IJIIZ)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0

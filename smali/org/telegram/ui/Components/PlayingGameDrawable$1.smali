@@ -44,7 +44,6 @@
     .line 114
     iget-object v0, p0, Lorg/telegram/ui/Components/PlayingGameDrawable$1;->this$0:Lorg/telegram/ui/Components/PlayingGameDrawable;
 
-    # invokes: Lorg/telegram/ui/Components/PlayingGameDrawable;->checkUpdate()V
     invoke-static {v0}, Lorg/telegram/ui/Components/PlayingGameDrawable;->access$000(Lorg/telegram/ui/Components/PlayingGameDrawable;)V
 
     .line 115

@@ -620,7 +620,6 @@
 
     aget-object v3, v3, v2
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/ClippingMediaPeriod$ClippingSampleStream;->stream:Lorg/telegram/messenger/exoplayer2/source/SampleStream;
     invoke-static {v3}, Lorg/telegram/messenger/exoplayer2/source/ClippingMediaPeriod$ClippingSampleStream;->access$000(Lorg/telegram/messenger/exoplayer2/source/ClippingMediaPeriod$ClippingSampleStream;)Lorg/telegram/messenger/exoplayer2/source/SampleStream;
 
     move-result-object v3
@@ -763,7 +762,6 @@
 
     aget-object v3, v3, v2
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/ClippingMediaPeriod$ClippingSampleStream;->stream:Lorg/telegram/messenger/exoplayer2/source/SampleStream;
     invoke-static {v3}, Lorg/telegram/messenger/exoplayer2/source/ClippingMediaPeriod$ClippingSampleStream;->access$000(Lorg/telegram/messenger/exoplayer2/source/ClippingMediaPeriod$ClippingSampleStream;)Lorg/telegram/messenger/exoplayer2/source/SampleStream;
 
     move-result-object v3

@@ -56,7 +56,6 @@
 
     const/4 v3, 0x0
 
-    # setter for: Lorg/telegram/ui/SessionsActivity;->loading:Z
     invoke-static {v2, v3}, Lorg/telegram/ui/SessionsActivity;->access$602(Lorg/telegram/ui/SessionsActivity;Z)Z
 
     .line 300
@@ -69,7 +68,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/SessionsActivity$3;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->sessions:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/SessionsActivity;->access$300(Lorg/telegram/ui/SessionsActivity;)Ljava/util/ArrayList;
 
     move-result-object v2
@@ -115,7 +113,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/SessionsActivity$3;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # setter for: Lorg/telegram/ui/SessionsActivity;->currentSession:Lorg/telegram/tgnet/TLRPC$TL_authorization;
     invoke-static {v3, v0}, Lorg/telegram/ui/SessionsActivity;->access$702(Lorg/telegram/ui/SessionsActivity;Lorg/telegram/tgnet/TLRPC$TL_authorization;)Lorg/telegram/tgnet/TLRPC$TL_authorization;
 
     goto :goto_0
@@ -126,7 +123,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/SessionsActivity$3;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->sessions:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/SessionsActivity;->access$300(Lorg/telegram/ui/SessionsActivity;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -142,7 +138,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/SessionsActivity$3;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # invokes: Lorg/telegram/ui/SessionsActivity;->updateRows()V
     invoke-static {v2}, Lorg/telegram/ui/SessionsActivity;->access$400(Lorg/telegram/ui/SessionsActivity;)V
 
     .line 312
@@ -152,7 +147,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/SessionsActivity$3;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->listAdapter:Lorg/telegram/ui/SessionsActivity$ListAdapter;
     invoke-static {v2}, Lorg/telegram/ui/SessionsActivity;->access$500(Lorg/telegram/ui/SessionsActivity;)Lorg/telegram/ui/SessionsActivity$ListAdapter;
 
     move-result-object v2
@@ -164,7 +158,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/SessionsActivity$3;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->listAdapter:Lorg/telegram/ui/SessionsActivity$ListAdapter;
     invoke-static {v2}, Lorg/telegram/ui/SessionsActivity;->access$500(Lorg/telegram/ui/SessionsActivity;)Lorg/telegram/ui/SessionsActivity$ListAdapter;
 
     move-result-object v2

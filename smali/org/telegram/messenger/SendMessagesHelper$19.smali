@@ -384,7 +384,6 @@
 
     move-wide/from16 v0, v30
 
-    # invokes: Lorg/telegram/messenger/SendMessagesHelper;->createVideoThumbnail(Ljava/lang/String;J)Landroid/graphics/Bitmap;
     invoke-static {v3, v0, v1}, Lorg/telegram/messenger/SendMessagesHelper;->access$1200(Ljava/lang/String;J)Landroid/graphics/Bitmap;
 
     move-result-object v2
@@ -911,7 +910,6 @@
 
     move-object/from16 v0, v18
 
-    # invokes: Lorg/telegram/messenger/SendMessagesHelper;->fillVideoAttribute(Ljava/lang/String;Lorg/telegram/tgnet/TLRPC$TL_documentAttributeVideo;Lorg/telegram/messenger/VideoEditedInfo;)V
     invoke-static {v3, v0, v4}, Lorg/telegram/messenger/SendMessagesHelper;->access$1300(Ljava/lang/String;Lorg/telegram/tgnet/TLRPC$TL_documentAttributeVideo;Lorg/telegram/messenger/VideoEditedInfo;)V
 
     .line 3933
@@ -1246,7 +1244,6 @@
 
     move-object/from16 v0, v18
 
-    # invokes: Lorg/telegram/messenger/SendMessagesHelper;->fillVideoAttribute(Ljava/lang/String;Lorg/telegram/tgnet/TLRPC$TL_documentAttributeVideo;Lorg/telegram/messenger/VideoEditedInfo;)V
     invoke-static {v3, v0, v4}, Lorg/telegram/messenger/SendMessagesHelper;->access$1300(Ljava/lang/String;Lorg/telegram/tgnet/TLRPC$TL_documentAttributeVideo;Lorg/telegram/messenger/VideoEditedInfo;)V
 
     goto/16 :goto_b
@@ -1308,7 +1305,6 @@
 
     move-object/from16 v17, v0
 
-    # invokes: Lorg/telegram/messenger/SendMessagesHelper;->prepareSendingDocumentInternal(Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Ljava/lang/String;JLorg/telegram/messenger/MessageObject;Ljava/lang/CharSequence;)Z
     invoke-static/range {v10 .. v17}, Lorg/telegram/messenger/SendMessagesHelper;->access$1000(Ljava/lang/String;Ljava/lang/String;Landroid/net/Uri;Ljava/lang/String;JLorg/telegram/messenger/MessageObject;Ljava/lang/CharSequence;)Z
 
     goto/16 :goto_7

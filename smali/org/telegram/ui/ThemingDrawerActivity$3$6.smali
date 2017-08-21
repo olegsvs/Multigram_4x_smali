@@ -73,7 +73,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ThemingDrawerActivity$3;->this$0:Lorg/telegram/ui/ThemingDrawerActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingDrawerActivity;->listView:Landroid/widget/ListView;
     invoke-static {v1}, Lorg/telegram/ui/ThemingDrawerActivity;->access$500(Lorg/telegram/ui/ThemingDrawerActivity;)Landroid/widget/ListView;
 
     move-result-object v1
@@ -85,7 +84,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ThemingDrawerActivity$3;->this$0:Lorg/telegram/ui/ThemingDrawerActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingDrawerActivity;->listView:Landroid/widget/ListView;
     invoke-static {v1}, Lorg/telegram/ui/ThemingDrawerActivity;->access$500(Lorg/telegram/ui/ThemingDrawerActivity;)Landroid/widget/ListView;
 
     move-result-object v1

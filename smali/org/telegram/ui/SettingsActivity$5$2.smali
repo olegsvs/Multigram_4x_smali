@@ -48,7 +48,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/SettingsActivity$5;->this$0:Lorg/telegram/ui/SettingsActivity;
 
-    # invokes: Lorg/telegram/ui/SettingsActivity;->performAskAQuestion()V
     invoke-static {v0}, Lorg/telegram/ui/SettingsActivity;->access$1000(Lorg/telegram/ui/SettingsActivity;)V
 
     .line 482

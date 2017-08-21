@@ -46,7 +46,6 @@
     .line 99
     iget-object v1, p0, Lorg/telegram/ui/ConvertGroupActivity$2;->this$0:Lorg/telegram/ui/ConvertGroupActivity;
 
-    # getter for: Lorg/telegram/ui/ConvertGroupActivity;->convertRow:I
     invoke-static {v1}, Lorg/telegram/ui/ConvertGroupActivity;->access$000(Lorg/telegram/ui/ConvertGroupActivity;)I
 
     move-result v1

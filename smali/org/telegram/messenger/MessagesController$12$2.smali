@@ -46,7 +46,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/MessagesController$12;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->loadingFullUsers:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/messenger/MessagesController;->access$2300(Lorg/telegram/messenger/MessagesController;)Ljava/util/ArrayList;
 
     move-result-object v0

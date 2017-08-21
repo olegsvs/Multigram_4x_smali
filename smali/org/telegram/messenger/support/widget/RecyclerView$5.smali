@@ -119,7 +119,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/messenger/support/widget/RecyclerView$5;->this$0:Lorg/telegram/messenger/support/widget/RecyclerView;
 
-    # invokes: Lorg/telegram/messenger/support/widget/RecyclerView;->attachViewToParent(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
     invoke-static {v1, p1, p2, p3}, Lorg/telegram/messenger/support/widget/RecyclerView;->access$000(Lorg/telegram/messenger/support/widget/RecyclerView;Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
 
     .line 770
@@ -198,7 +197,6 @@
     :cond_1
     iget-object v2, p0, Lorg/telegram/messenger/support/widget/RecyclerView$5;->this$0:Lorg/telegram/messenger/support/widget/RecyclerView;
 
-    # invokes: Lorg/telegram/messenger/support/widget/RecyclerView;->detachViewFromParent(I)V
     invoke-static {v2, p1}, Lorg/telegram/messenger/support/widget/RecyclerView;->access$100(Lorg/telegram/messenger/support/widget/RecyclerView;I)V
 
     .line 789
@@ -279,7 +277,6 @@
     .line 795
     iget-object v1, p0, Lorg/telegram/messenger/support/widget/RecyclerView$5;->this$0:Lorg/telegram/messenger/support/widget/RecyclerView;
 
-    # invokes: Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;->onEnteredHiddenState(Lorg/telegram/messenger/support/widget/RecyclerView;)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;->access$200(Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;Lorg/telegram/messenger/support/widget/RecyclerView;)V
 
     .line 797
@@ -304,7 +301,6 @@
     .line 803
     iget-object v1, p0, Lorg/telegram/messenger/support/widget/RecyclerView$5;->this$0:Lorg/telegram/messenger/support/widget/RecyclerView;
 
-    # invokes: Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;->onLeftHiddenState(Lorg/telegram/messenger/support/widget/RecyclerView;)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;->access$300(Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;Lorg/telegram/messenger/support/widget/RecyclerView;)V
 
     .line 805

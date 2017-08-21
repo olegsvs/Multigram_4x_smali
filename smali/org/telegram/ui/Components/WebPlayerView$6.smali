@@ -47,7 +47,6 @@
     .line 1388
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$6;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->initied:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$1700(Lorg/telegram/ui/Components/WebPlayerView;)Z
 
     move-result v0
@@ -56,7 +55,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$6;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->changingTextureView:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$2700(Lorg/telegram/ui/Components/WebPlayerView;)Z
 
     move-result v0
@@ -65,7 +63,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$6;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->switchingInlineMode:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$2800(Lorg/telegram/ui/Components/WebPlayerView;)Z
 
     move-result v0
@@ -74,7 +71,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$6;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->firstFrameRendered:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$4500(Lorg/telegram/ui/Components/WebPlayerView;)Z
 
     move-result v0
@@ -92,7 +88,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$6;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->inFullscreen:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$4300(Lorg/telegram/ui/Components/WebPlayerView;)Z
 
     move-result v0
@@ -102,13 +97,11 @@
     move v0, v1
 
     :goto_1
-    # setter for: Lorg/telegram/ui/Components/WebPlayerView;->inFullscreen:Z
     invoke-static {v2, v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$4302(Lorg/telegram/ui/Components/WebPlayerView;Z)Z
 
     .line 1392
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$6;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # invokes: Lorg/telegram/ui/Components/WebPlayerView;->updateFullscreenState(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/WebPlayerView;->access$5100(Lorg/telegram/ui/Components/WebPlayerView;Z)V
 
     goto :goto_0

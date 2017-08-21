@@ -60,7 +60,6 @@
     .line 535
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$2200(Lorg/telegram/ui/LocationActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v1
@@ -70,7 +69,6 @@
     .line 536
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$2200(Lorg/telegram/ui/LocationActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v1
@@ -85,13 +83,11 @@
 
     invoke-direct {v2}, Landroid/animation/AnimatorSet;-><init>()V
 
-    # setter for: Lorg/telegram/ui/LocationActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v1, v2}, Lorg/telegram/ui/LocationActivity;->access$2202(Lorg/telegram/ui/LocationActivity;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 539
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$2200(Lorg/telegram/ui/LocationActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v1
@@ -101,7 +97,6 @@
     .line 540
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$2200(Lorg/telegram/ui/LocationActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v1
@@ -111,7 +106,6 @@
     iget-object v3, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
     .line 541
-    # getter for: Lorg/telegram/ui/LocationActivity;->markerImageView:Landroid/widget/ImageView;
     invoke-static {v3}, Lorg/telegram/ui/LocationActivity;->access$2300(Lorg/telegram/ui/LocationActivity;)Landroid/widget/ImageView;
 
     move-result-object v3
@@ -122,7 +116,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->markerTop:I
     invoke-static {v6}, Lorg/telegram/ui/LocationActivity;->access$2400(Lorg/telegram/ui/LocationActivity;)I
 
     move-result v6
@@ -150,7 +143,6 @@
     iget-object v3, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
     .line 542
-    # getter for: Lorg/telegram/ui/LocationActivity;->markerXImageView:Landroid/widget/ImageView;
     invoke-static {v3}, Lorg/telegram/ui/LocationActivity;->access$2500(Lorg/telegram/ui/LocationActivity;)Landroid/widget/ImageView;
 
     move-result-object v3
@@ -173,7 +165,6 @@
     .line 543
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$2200(Lorg/telegram/ui/LocationActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v1
@@ -192,7 +183,6 @@
     .line 556
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->userLocationMoved:Z
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$2600(Lorg/telegram/ui/LocationActivity;)Z
 
     move-result v1
@@ -211,7 +201,6 @@
     .line 559
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->locationButton:Landroid/widget/ImageView;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$2700(Lorg/telegram/ui/LocationActivity;)Landroid/widget/ImageView;
 
     move-result-object v1
@@ -234,7 +223,6 @@
     .line 561
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # setter for: Lorg/telegram/ui/LocationActivity;->userLocationMoved:Z
     invoke-static {v1, v8}, Lorg/telegram/ui/LocationActivity;->access$2602(Lorg/telegram/ui/LocationActivity;Z)Z
 
     .line 563
@@ -242,7 +230,6 @@
     :cond_2
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->googleMap:Lcom/google/android/gms/maps/GoogleMap;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$000(Lorg/telegram/ui/LocationActivity;)Lcom/google/android/gms/maps/GoogleMap;
 
     move-result-object v1
@@ -251,7 +238,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->userLocation:Landroid/location/Location;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$900(Lorg/telegram/ui/LocationActivity;)Landroid/location/Location;
 
     move-result-object v1
@@ -261,14 +247,12 @@
     .line 564
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->userLocation:Landroid/location/Location;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$900(Lorg/telegram/ui/LocationActivity;)Landroid/location/Location;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->googleMap:Lcom/google/android/gms/maps/GoogleMap;
     invoke-static {v2}, Lorg/telegram/ui/LocationActivity;->access$000(Lorg/telegram/ui/LocationActivity;)Lcom/google/android/gms/maps/GoogleMap;
 
     move-result-object v2
@@ -286,14 +270,12 @@
     .line 565
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->userLocation:Landroid/location/Location;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$900(Lorg/telegram/ui/LocationActivity;)Landroid/location/Location;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->googleMap:Lcom/google/android/gms/maps/GoogleMap;
     invoke-static {v2}, Lorg/telegram/ui/LocationActivity;->access$000(Lorg/telegram/ui/LocationActivity;)Lcom/google/android/gms/maps/GoogleMap;
 
     move-result-object v2
@@ -312,14 +294,12 @@
     :cond_3
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->adapter:Lorg/telegram/ui/Adapters/LocationActivityAdapter;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$1700(Lorg/telegram/ui/LocationActivity;)Lorg/telegram/ui/Adapters/LocationActivityAdapter;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->userLocation:Landroid/location/Location;
     invoke-static {v2}, Lorg/telegram/ui/LocationActivity;->access$900(Lorg/telegram/ui/LocationActivity;)Landroid/location/Location;
 
     move-result-object v2
@@ -345,7 +325,6 @@
     .line 545
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$2200(Lorg/telegram/ui/LocationActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v1
@@ -355,7 +334,6 @@
     .line 546
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$2200(Lorg/telegram/ui/LocationActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v1
@@ -370,13 +348,11 @@
 
     invoke-direct {v2}, Landroid/animation/AnimatorSet;-><init>()V
 
-    # setter for: Lorg/telegram/ui/LocationActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v1, v2}, Lorg/telegram/ui/LocationActivity;->access$2202(Lorg/telegram/ui/LocationActivity;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 549
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$2200(Lorg/telegram/ui/LocationActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v1
@@ -386,7 +362,6 @@
     .line 550
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$2200(Lorg/telegram/ui/LocationActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v1
@@ -396,7 +371,6 @@
     iget-object v3, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
     .line 551
-    # getter for: Lorg/telegram/ui/LocationActivity;->markerImageView:Landroid/widget/ImageView;
     invoke-static {v3}, Lorg/telegram/ui/LocationActivity;->access$2300(Lorg/telegram/ui/LocationActivity;)Landroid/widget/ImageView;
 
     move-result-object v3
@@ -407,7 +381,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->markerTop:I
     invoke-static {v6}, Lorg/telegram/ui/LocationActivity;->access$2400(Lorg/telegram/ui/LocationActivity;)I
 
     move-result v6
@@ -425,7 +398,6 @@
     iget-object v3, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
     .line 552
-    # getter for: Lorg/telegram/ui/LocationActivity;->markerXImageView:Landroid/widget/ImageView;
     invoke-static {v3}, Lorg/telegram/ui/LocationActivity;->access$2500(Lorg/telegram/ui/LocationActivity;)Landroid/widget/ImageView;
 
     move-result-object v3
@@ -450,7 +422,6 @@
     .line 553
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$13;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$2200(Lorg/telegram/ui/LocationActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v1

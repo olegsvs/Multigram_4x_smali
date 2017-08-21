@@ -48,7 +48,6 @@
     .line 284
     iget-object v0, p0, Lorg/telegram/messenger/ContactsController$3;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # invokes: Lorg/telegram/messenger/ContactsController;->checkContactsInternal()Z
     invoke-static {v0}, Lorg/telegram/messenger/ContactsController;->access$200(Lorg/telegram/messenger/ContactsController;)Z
 
     move-result v0

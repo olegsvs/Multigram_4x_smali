@@ -6633,7 +6633,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ChatActivity;->chatAdapter:Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;
 
-    # getter for: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->botInfoRow:I
     invoke-static {v1}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$14400(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;)I
 
     move-result v1
@@ -19113,7 +19112,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ChatActivity;->chatAdapter:Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;
 
-    # getter for: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->messagesStartRow:I
     invoke-static {v2}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$16300(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;)I
 
     move-result v2
@@ -20204,6 +20202,8 @@
     invoke-virtual {v7}, Landroid/animation/AnimatorSet;->start()V
 
     goto/16 :goto_0
+
+    nop
 
     .line 4312
     :array_0
@@ -33883,7 +33883,6 @@
 
     iget-object v4, v0, Lorg/telegram/ui/ChatActivity;->chatAdapter:Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;
 
-    # getter for: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->botInfoRow:I
     invoke-static {v4}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$14400(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;)I
 
     move-result v4
@@ -37874,7 +37873,6 @@
 
     iget-object v5, v0, Lorg/telegram/ui/ChatActivity;->chatAdapter:Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;
 
-    # getter for: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->isBot:Z
     invoke-static {v5}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$8200(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;)Z
 
     move-result v5
@@ -38192,7 +38190,6 @@
 
     iget-object v5, v0, Lorg/telegram/ui/ChatActivity;->chatAdapter:Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;
 
-    # getter for: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->messagesStartRow:I
     invoke-static {v5}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$16300(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;)I
 
     move-result v5
@@ -38319,7 +38316,6 @@
 
     iget-object v5, v0, Lorg/telegram/ui/ChatActivity;->chatAdapter:Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;
 
-    # getter for: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->isBot:Z
     invoke-static {v5}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$8200(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;)Z
 
     move-result v5
@@ -38388,7 +38384,6 @@
 
     iget-object v5, v0, Lorg/telegram/ui/ChatActivity;->chatAdapter:Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;
 
-    # getter for: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->isBot:Z
     invoke-static {v5}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$8200(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;)Z
 
     move-result v5
@@ -38558,7 +38553,6 @@
 
     iget-object v5, v0, Lorg/telegram/ui/ChatActivity;->chatAdapter:Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;
 
-    # getter for: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->isBot:Z
     invoke-static {v5}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$8200(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;)Z
 
     move-result v5
@@ -41969,7 +41963,6 @@
 
     iget-object v5, v0, Lorg/telegram/ui/ChatActivity;->chatAdapter:Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;
 
-    # getter for: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->isBot:Z
     invoke-static {v5}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$8200(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;)Z
 
     move-result v5
@@ -45662,7 +45655,6 @@
 
     iget-object v5, v0, Lorg/telegram/ui/ChatActivity;->chatAdapter:Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;
 
-    # getter for: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->botInfoRow:I
     invoke-static {v5}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$14400(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;)I
 
     move-result v5
@@ -47364,7 +47356,6 @@
 
     iget-object v6, v0, Lorg/telegram/ui/ChatActivity;->chatAdapter:Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;
 
-    # getter for: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->messagesStartRow:I
     invoke-static {v6}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$16300(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;)I
 
     move-result v6
@@ -47502,7 +47493,6 @@
 
     iget-object v6, v0, Lorg/telegram/ui/ChatActivity;->chatAdapter:Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;
 
-    # getter for: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->messagesStartRow:I
     invoke-static {v6}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$16300(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;)I
 
     move-result v6
@@ -47570,7 +47560,6 @@
 
     iget-object v6, v0, Lorg/telegram/ui/ChatActivity;->chatAdapter:Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;
 
-    # getter for: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->messagesStartRow:I
     invoke-static {v6}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$16300(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;)I
 
     move-result v6
@@ -47627,7 +47616,6 @@
 
     iget-object v5, v0, Lorg/telegram/ui/ChatActivity;->chatAdapter:Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;
 
-    # getter for: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->isBot:Z
     invoke-static {v5}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$8200(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;)Z
 
     move-result v5
@@ -68596,7 +68584,6 @@
 
     iget-object v4, v0, Lorg/telegram/ui/ChatActivity;->chatAdapter:Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;
 
-    # getter for: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->messagesStartRow:I
     invoke-static {v4}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$16300(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;)I
 
     move-result v4
@@ -68694,7 +68681,6 @@
 
     iget-object v4, v0, Lorg/telegram/ui/ChatActivity;->chatAdapter:Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;
 
-    # getter for: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->messagesStartRow:I
     invoke-static {v4}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$16300(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;)I
 
     move-result v4

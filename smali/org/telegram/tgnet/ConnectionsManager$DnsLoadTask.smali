@@ -316,7 +316,6 @@
     if-eqz p1, :cond_0
 
     .line 776
-    # setter for: Lorg/telegram/tgnet/ConnectionsManager;->currentTask:Landroid/os/AsyncTask;
     invoke-static {v4}, Lorg/telegram/tgnet/ConnectionsManager;->access$602(Landroid/os/AsyncTask;)Landroid/os/AsyncTask;
 
     .line 777
@@ -357,7 +356,6 @@
     invoke-virtual {v0, v1, v2}, Lorg/telegram/tgnet/ConnectionsManager$DnsTxtLoadTask;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     .line 781
-    # setter for: Lorg/telegram/tgnet/ConnectionsManager;->currentTask:Landroid/os/AsyncTask;
     invoke-static {v0}, Lorg/telegram/tgnet/ConnectionsManager;->access$602(Landroid/os/AsyncTask;)Landroid/os/AsyncTask;
 
     goto :goto_0

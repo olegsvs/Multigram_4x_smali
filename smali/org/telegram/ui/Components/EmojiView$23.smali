@@ -78,7 +78,6 @@
 
     sub-int/2addr v1, v2
 
-    # invokes: Lorg/telegram/ui/Components/EmojiView;->onPageScrolled(III)V
     invoke-static {v0, p1, v1, p3}, Lorg/telegram/ui/Components/EmojiView;->access$5600(Lorg/telegram/ui/Components/EmojiView;III)V
 
     .line 1142
@@ -93,7 +92,6 @@
     .line 1146
     iget-object v0, p0, Lorg/telegram/ui/Components/EmojiView$23;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # invokes: Lorg/telegram/ui/Components/EmojiView;->saveNewPage()V
     invoke-static {v0}, Lorg/telegram/ui/Components/EmojiView;->access$5100(Lorg/telegram/ui/Components/EmojiView;)V
 
     .line 1147

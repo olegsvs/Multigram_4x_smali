@@ -567,7 +567,6 @@
 
     move/from16 v0, v20
 
-    # invokes: Lorg/telegram/messenger/query/StickersQuery;->putStickersToCache(ILjava/util/ArrayList;II)V
     invoke-static {v2, v6, v3, v0}, Lorg/telegram/messenger/query/StickersQuery;->access$2500(ILjava/util/ArrayList;II)V
 
     .line 1091
@@ -627,7 +626,6 @@
 
     move/from16 v1, v21
 
-    # invokes: Lorg/telegram/messenger/query/StickersQuery;->putStickersToCache(ILjava/util/ArrayList;II)V
     invoke-static {v2, v3, v0, v1}, Lorg/telegram/messenger/query/StickersQuery;->access$2500(ILjava/util/ArrayList;II)V
 
     goto/16 :goto_1

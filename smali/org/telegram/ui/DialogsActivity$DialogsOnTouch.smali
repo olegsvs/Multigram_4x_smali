@@ -108,7 +108,6 @@
 
     int-to-float v2, v2
 
-    # setter for: Lorg/telegram/ui/DialogsActivity;->touchPositionDP:F
     invoke-static {v1, v2}, Lorg/telegram/ui/DialogsActivity;->access$1902(Lorg/telegram/ui/DialogsActivity;F)F
 
     .line 1584
@@ -118,7 +117,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DialogsActivity$DialogsOnTouch;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->searching:Z
     invoke-static {v1}, Lorg/telegram/ui/DialogsActivity;->access$100(Lorg/telegram/ui/DialogsActivity;)Z
 
     move-result v1
@@ -138,7 +136,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/DialogsActivity$DialogsOnTouch;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->newTabsView:Lorg/telegram/ui/Components/TabsView;
     invoke-static {v1}, Lorg/telegram/ui/DialogsActivity;->access$2900(Lorg/telegram/ui/DialogsActivity;)Lorg/telegram/ui/Components/TabsView;
 
     move-result-object v1
@@ -148,7 +145,6 @@
     .line 1593
     iget-object v1, p0, Lorg/telegram/ui/DialogsActivity$DialogsOnTouch;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->newTabsView:Lorg/telegram/ui/Components/TabsView;
     invoke-static {v1}, Lorg/telegram/ui/DialogsActivity;->access$2900(Lorg/telegram/ui/DialogsActivity;)Lorg/telegram/ui/Components/TabsView;
 
     move-result-object v1
@@ -199,7 +195,6 @@
     .line 1601
     iget-object v1, p0, Lorg/telegram/ui/DialogsActivity$DialogsOnTouch;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->parentLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v1}, Lorg/telegram/ui/DialogsActivity;->access$5000(Lorg/telegram/ui/DialogsActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v1
@@ -228,7 +223,6 @@
     .line 1608
     iget-object v1, p0, Lorg/telegram/ui/DialogsActivity$DialogsOnTouch;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # getter for: Lorg/telegram/ui/DialogsActivity;->parentLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v1}, Lorg/telegram/ui/DialogsActivity;->access$5100(Lorg/telegram/ui/DialogsActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v1

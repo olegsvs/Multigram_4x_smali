@@ -81,7 +81,6 @@
     .local v0, "intent":Landroid/content/Intent;
     const-string/jumbo v1, "com.sonyericsson.home.intent.extra.badge.PACKAGE_NAME"
 
-    # getter for: Lorg/telegram/messenger/NotificationBadge;->componentName:Landroid/content/ComponentName;
     invoke-static {}, Lorg/telegram/messenger/NotificationBadge;->access$000()Landroid/content/ComponentName;
 
     move-result-object v2
@@ -95,7 +94,6 @@
     .line 507
     const-string/jumbo v1, "com.sonyericsson.home.intent.extra.badge.ACTIVITY_NAME"
 
-    # getter for: Lorg/telegram/messenger/NotificationBadge;->componentName:Landroid/content/ComponentName;
     invoke-static {}, Lorg/telegram/messenger/NotificationBadge;->access$000()Landroid/content/ComponentName;
 
     move-result-object v2
@@ -179,7 +177,6 @@
 
     .line 536
     :cond_1
-    # getter for: Lorg/telegram/messenger/NotificationBadge;->componentName:Landroid/content/ComponentName;
     invoke-static {}, Lorg/telegram/messenger/NotificationBadge;->access$000()Landroid/content/ComponentName;
 
     move-result-object v0
@@ -188,7 +185,6 @@
 
     move-result-object v0
 
-    # getter for: Lorg/telegram/messenger/NotificationBadge;->componentName:Landroid/content/ComponentName;
     invoke-static {}, Lorg/telegram/messenger/NotificationBadge;->access$000()Landroid/content/ComponentName;
 
     move-result-object v1

@@ -64,7 +64,6 @@
 
     iget-object v1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->onProvisionResponse(Ljava/lang/Object;)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->access$800(Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;Ljava/lang/Object;)V
 
     goto :goto_0
@@ -75,7 +74,6 @@
 
     iget-object v1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->onKeyResponse(Ljava/lang/Object;)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->access$900(Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;Ljava/lang/Object;)V
 
     goto :goto_0

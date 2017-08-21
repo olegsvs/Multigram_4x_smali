@@ -56,7 +56,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ThemingProfileActivity$3$6;->val$key:Ljava/lang/String;
 
-    # invokes: Lorg/telegram/ui/ThemingProfileActivity;->commitInt(Ljava/lang/String;I)V
     invoke-static {v0, v1, p1}, Lorg/telegram/ui/ThemingProfileActivity;->access$300(Lorg/telegram/ui/ThemingProfileActivity;Ljava/lang/String;I)V
 
     .line 306

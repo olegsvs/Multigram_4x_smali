@@ -78,7 +78,6 @@
 
     iget-object v2, v0, Lorg/telegram/tgnet/TLRPC$TL_channels_channelParticipants;->participants:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/ui/ChannelAdminLogActivity;->admins:Ljava/util/ArrayList;
     invoke-static {v1, v2}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4702(Lorg/telegram/ui/ChannelAdminLogActivity;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 1473
@@ -86,7 +85,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ChannelAdminLogActivity$19;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->visibleDialog:Landroid/app/Dialog;
     invoke-static {v1}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$5400(Lorg/telegram/ui/ChannelAdminLogActivity;)Landroid/app/Dialog;
 
     move-result-object v1
@@ -100,7 +98,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ChannelAdminLogActivity$19;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->visibleDialog:Landroid/app/Dialog;
     invoke-static {v1}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$5500(Lorg/telegram/ui/ChannelAdminLogActivity;)Landroid/app/Dialog;
 
     move-result-object v1
@@ -111,7 +108,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/ChannelAdminLogActivity$19;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->admins:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4700(Lorg/telegram/ui/ChannelAdminLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v2

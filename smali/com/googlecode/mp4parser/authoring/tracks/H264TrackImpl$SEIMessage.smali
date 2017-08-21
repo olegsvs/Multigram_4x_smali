@@ -321,7 +321,6 @@
     .end local v7    # "reader":Lcom/googlecode/mp4parser/h264/read/CAVLCReader;
     :cond_3
     :goto_6
-    # getter for: Lcom/googlecode/mp4parser/authoring/tracks/H264TrackImpl;->LOG:Ljava/util/logging/Logger;
     invoke-static {}, Lcom/googlecode/mp4parser/authoring/tracks/H264TrackImpl;->access$0()Ljava/util/logging/Logger;
 
     move-result-object v8

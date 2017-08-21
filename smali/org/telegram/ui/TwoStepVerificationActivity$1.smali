@@ -63,7 +63,6 @@
     .line 151
     iget-object v0, p0, Lorg/telegram/ui/TwoStepVerificationActivity$1;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # invokes: Lorg/telegram/ui/TwoStepVerificationActivity;->processDone()V
     invoke-static {v0}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$000(Lorg/telegram/ui/TwoStepVerificationActivity;)V
 
     goto :goto_0

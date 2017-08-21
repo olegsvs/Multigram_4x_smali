@@ -49,24 +49,20 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PhotoViewer$11;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->previousCompression:I
     invoke-static {v1}, Lorg/telegram/ui/PhotoViewer;->access$6400(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v1
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->selectedCompression:I
     invoke-static {v0, v1}, Lorg/telegram/ui/PhotoViewer;->access$6302(Lorg/telegram/ui/PhotoViewer;I)I
 
     .line 1963
     iget-object v0, p0, Lorg/telegram/ui/PhotoViewer$11;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->didChangedCompressionLevel(Z)V
     invoke-static {v0, v2}, Lorg/telegram/ui/PhotoViewer;->access$6500(Lorg/telegram/ui/PhotoViewer;Z)V
 
     .line 1964
     iget-object v0, p0, Lorg/telegram/ui/PhotoViewer$11;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->showQualityView(Z)V
     invoke-static {v0, v2}, Lorg/telegram/ui/PhotoViewer;->access$6600(Lorg/telegram/ui/PhotoViewer;Z)V
 
     .line 1965
@@ -74,7 +70,6 @@
 
     const/4 v1, 0x2
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->requestVideoPreview(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/PhotoViewer;->access$6700(Lorg/telegram/ui/PhotoViewer;I)V
 
     .line 1966

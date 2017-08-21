@@ -93,7 +93,6 @@
     .local v1, "newColor":I
     iget-object v3, p0, Lorg/telegram/ui/Cells/DrawerProfileCell$CloudView;->this$0:Lorg/telegram/ui/Cells/DrawerProfileCell;
 
-    # getter for: Lorg/telegram/ui/Cells/DrawerProfileCell;->lastCloudColor:I
     invoke-static {v3}, Lorg/telegram/ui/Cells/DrawerProfileCell;->access$000(Lorg/telegram/ui/Cells/DrawerProfileCell;)I
 
     move-result v3
@@ -103,7 +102,6 @@
     .line 83
     iget-object v3, p0, Lorg/telegram/ui/Cells/DrawerProfileCell$CloudView;->this$0:Lorg/telegram/ui/Cells/DrawerProfileCell;
 
-    # getter for: Lorg/telegram/ui/Cells/DrawerProfileCell;->cloudDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {v3}, Lorg/telegram/ui/Cells/DrawerProfileCell;->access$100(Lorg/telegram/ui/Cells/DrawerProfileCell;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v3
@@ -118,7 +116,6 @@
 
     move-result v6
 
-    # setter for: Lorg/telegram/ui/Cells/DrawerProfileCell;->lastCloudColor:I
     invoke-static {v5, v6}, Lorg/telegram/ui/Cells/DrawerProfileCell;->access$002(Lorg/telegram/ui/Cells/DrawerProfileCell;I)I
 
     move-result v5
@@ -192,7 +189,6 @@
     .local v2, "t":I
     iget-object v3, p0, Lorg/telegram/ui/Cells/DrawerProfileCell$CloudView;->this$0:Lorg/telegram/ui/Cells/DrawerProfileCell;
 
-    # getter for: Lorg/telegram/ui/Cells/DrawerProfileCell;->cloudDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {v3}, Lorg/telegram/ui/Cells/DrawerProfileCell;->access$100(Lorg/telegram/ui/Cells/DrawerProfileCell;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v3
@@ -214,7 +210,6 @@
     .line 89
     iget-object v3, p0, Lorg/telegram/ui/Cells/DrawerProfileCell$CloudView;->this$0:Lorg/telegram/ui/Cells/DrawerProfileCell;
 
-    # getter for: Lorg/telegram/ui/Cells/DrawerProfileCell;->cloudDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {v3}, Lorg/telegram/ui/Cells/DrawerProfileCell;->access$100(Lorg/telegram/ui/Cells/DrawerProfileCell;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v3

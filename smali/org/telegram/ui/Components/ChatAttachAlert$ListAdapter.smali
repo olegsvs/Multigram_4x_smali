@@ -406,7 +406,6 @@
     :pswitch_0
     iget-object v3, p0, Lorg/telegram/ui/Components/ChatAttachAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/ChatAttachAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert;->attachView:Landroid/view/ViewGroup;
     invoke-static {v3}, Lorg/telegram/ui/Components/ChatAttachAlert;->access$6600(Lorg/telegram/ui/Components/ChatAttachAlert;)Landroid/view/ViewGroup;
 
     move-result-object v2

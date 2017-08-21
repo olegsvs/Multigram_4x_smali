@@ -284,7 +284,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/MediaActivity$SharedMediaData;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->dialog_id:J
     invoke-static {v6}, Lorg/telegram/ui/MediaActivity;->access$000(Lorg/telegram/ui/MediaActivity;)J
 
     move-result-wide v6

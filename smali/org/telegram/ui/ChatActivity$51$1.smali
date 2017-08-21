@@ -86,7 +86,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/ChatActivity$51;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # invokes: Lorg/telegram/ui/ChatActivity;->clearChatData()V
     invoke-static {v5}, Lorg/telegram/ui/ChatActivity;->access$13800(Lorg/telegram/ui/ChatActivity;)V
 
     .line 3348
@@ -96,7 +95,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/ChatActivity$51;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->waitingForLoad:Ljava/util/ArrayList;
     invoke-static {v5}, Lorg/telegram/ui/ChatActivity;->access$14000(Lorg/telegram/ui/ChatActivity;)Ljava/util/ArrayList;
 
     move-result-object v5
@@ -107,7 +105,6 @@
 
     iget-object v6, v6, Lorg/telegram/ui/ChatActivity$51;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->lastLoadIndex:I
     invoke-static {v6}, Lorg/telegram/ui/ChatActivity;->access$13900(Lorg/telegram/ui/ChatActivity;)I
 
     move-result v6
@@ -129,7 +126,6 @@
 
     iget-object v6, v6, Lorg/telegram/ui/ChatActivity$51;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->dialog_id:J
     invoke-static {v6}, Lorg/telegram/ui/ChatActivity;->access$100(Lorg/telegram/ui/ChatActivity;)J
 
     move-result-wide v6
@@ -148,7 +144,6 @@
 
     iget-object v13, v13, Lorg/telegram/ui/ChatActivity$51;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->classGuid:I
     invoke-static {v13}, Lorg/telegram/ui/ChatActivity;->access$14100(Lorg/telegram/ui/ChatActivity;)I
 
     move-result v13
@@ -191,7 +186,6 @@
 
     move-object/from16 v17, v0
 
-    # operator++ for: Lorg/telegram/ui/ChatActivity;->lastLoadIndex:I
     invoke-static/range {v17 .. v17}, Lorg/telegram/ui/ChatActivity;->access$13908(Lorg/telegram/ui/ChatActivity;)I
 
     move-result v17

@@ -46,7 +46,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/ChatDialogsView;->disableLongCick:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/ChatDialogsView;->access$1202(Lorg/telegram/ui/Components/ChatDialogsView;Z)Z
 
     .line 556

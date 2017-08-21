@@ -50,7 +50,6 @@
     .line 203
     iget-object v0, p0, Lorg/telegram/ui/Components/ShareAlert$2;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert;->shadowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {v0}, Lorg/telegram/ui/Components/ShareAlert;->access$1200(Lorg/telegram/ui/Components/ShareAlert;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -59,12 +58,10 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Components/ShareAlert$2;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert;->scrollOffsetY:I
     invoke-static {v2}, Lorg/telegram/ui/Components/ShareAlert;->access$400(Lorg/telegram/ui/Components/ShareAlert;)I
 
     move-result v2
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert;->backgroundPaddingTop:I
     invoke-static {}, Lorg/telegram/ui/Components/ShareAlert;->access$1100()I
 
     move-result v3
@@ -84,7 +81,6 @@
     .line 204
     iget-object v0, p0, Lorg/telegram/ui/Components/ShareAlert$2;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert;->shadowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {v0}, Lorg/telegram/ui/Components/ShareAlert;->access$1200(Lorg/telegram/ui/Components/ShareAlert;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -109,7 +105,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/ShareAlert$2;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert;->scrollOffsetY:I
     invoke-static {v0}, Lorg/telegram/ui/Components/ShareAlert;->access$400(Lorg/telegram/ui/Components/ShareAlert;)I
 
     move-result v0
@@ -122,7 +117,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/ShareAlert$2;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert;->scrollOffsetY:I
     invoke-static {v1}, Lorg/telegram/ui/Components/ShareAlert;->access$400(Lorg/telegram/ui/Components/ShareAlert;)I
 
     move-result v1
@@ -168,7 +162,6 @@
     .line 190
     iget-object v0, p0, Lorg/telegram/ui/Components/ShareAlert$2;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # invokes: Lorg/telegram/ui/Components/ShareAlert;->updateLayout()V
     invoke-static {v0}, Lorg/telegram/ui/Components/ShareAlert;->access$1000(Lorg/telegram/ui/Components/ShareAlert;)V
 
     .line 191
@@ -207,7 +200,6 @@
     :cond_0
     iget-object v6, p0, Lorg/telegram/ui/Components/ShareAlert$2;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert;->searchAdapter:Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;
     invoke-static {v6}, Lorg/telegram/ui/Components/ShareAlert;->access$500(Lorg/telegram/ui/Components/ShareAlert;)Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;
 
     move-result-object v6
@@ -218,7 +210,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/ShareAlert$2;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert;->listAdapter:Lorg/telegram/ui/Components/ShareAlert$ShareDialogsAdapter;
     invoke-static {v7}, Lorg/telegram/ui/Components/ShareAlert;->access$600(Lorg/telegram/ui/Components/ShareAlert;)Lorg/telegram/ui/Components/ShareAlert$ShareDialogsAdapter;
 
     move-result-object v7
@@ -269,7 +260,6 @@
 
     add-int/2addr v6, v7
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert;->backgroundPaddingTop:I
     invoke-static {}, Lorg/telegram/ui/Components/ShareAlert;->access$700()I
 
     move-result v7
@@ -287,7 +277,6 @@
     :goto_0
     iget-object v6, p0, Lorg/telegram/ui/Components/ShareAlert$2;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert;->gridView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v6}, Lorg/telegram/ui/Components/ShareAlert;->access$800(Lorg/telegram/ui/Components/ShareAlert;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v6
@@ -306,14 +295,12 @@
     .line 181
     iget-object v6, p0, Lorg/telegram/ui/Components/ShareAlert$2;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert;->gridView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v6}, Lorg/telegram/ui/Components/ShareAlert;->access$800(Lorg/telegram/ui/Components/ShareAlert;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v6
 
     iget-object v7, p0, Lorg/telegram/ui/Components/ShareAlert$2;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert;->frameLayout2:Landroid/widget/FrameLayout;
     invoke-static {v7}, Lorg/telegram/ui/Components/ShareAlert;->access$900(Lorg/telegram/ui/Components/ShareAlert;)Landroid/widget/FrameLayout;
 
     move-result-object v7

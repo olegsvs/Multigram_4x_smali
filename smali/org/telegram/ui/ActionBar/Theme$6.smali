@@ -35,7 +35,6 @@
 
     .prologue
     .line 3717
-    # getter for: Lorg/telegram/ui/ActionBar/Theme;->wallpaperSync:Ljava/lang/Object;
     invoke-static {}, Lorg/telegram/ui/ActionBar/Theme;->access$200()Ljava/lang/Object;
 
     move-result-object v15
@@ -75,7 +74,6 @@
     if-nez v7, :cond_0
 
     .line 3721
-    # getter for: Lorg/telegram/ui/ActionBar/Theme;->currentColors:Ljava/util/HashMap;
     invoke-static {}, Lorg/telegram/ui/ActionBar/Theme;->access$300()Ljava/util/HashMap;
 
     move-result-object v14
@@ -105,20 +103,17 @@
 
     invoke-direct {v14, v0}, Landroid/graphics/drawable/ColorDrawable;-><init>(I)V
 
-    # setter for: Lorg/telegram/ui/ActionBar/Theme;->wallpaper:Landroid/graphics/drawable/Drawable;
     invoke-static {v14}, Lorg/telegram/ui/ActionBar/Theme;->access$402(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     .line 3724
     const/4 v14, 0x1
 
-    # setter for: Lorg/telegram/ui/ActionBar/Theme;->isCustomTheme:Z
     invoke-static {v14}, Lorg/telegram/ui/ActionBar/Theme;->access$502(Z)Z
 
     .line 3755
     .end local v2    # "backgroundColor":Ljava/lang/Integer;
     :cond_0
     :goto_0
-    # getter for: Lorg/telegram/ui/ActionBar/Theme;->wallpaper:Landroid/graphics/drawable/Drawable;
     invoke-static {}, Lorg/telegram/ui/ActionBar/Theme;->access$400()Landroid/graphics/drawable/Drawable;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -193,13 +188,11 @@
 
     move-result-object v14
 
-    # setter for: Lorg/telegram/ui/ActionBar/Theme;->wallpaper:Landroid/graphics/drawable/Drawable;
     invoke-static {v14}, Lorg/telegram/ui/ActionBar/Theme;->access$402(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     .line 3764
     const/4 v14, 0x0
 
-    # setter for: Lorg/telegram/ui/ActionBar/Theme;->isCustomTheme:Z
     invoke-static {v14}, Lorg/telegram/ui/ActionBar/Theme;->access$502(Z)Z
     :try_end_1
     .catch Ljava/lang/Throwable; {:try_start_1 .. :try_end_1} :catch_4
@@ -210,7 +203,6 @@
     :cond_1
     :goto_1
     :try_start_2
-    # getter for: Lorg/telegram/ui/ActionBar/Theme;->wallpaper:Landroid/graphics/drawable/Drawable;
     invoke-static {}, Lorg/telegram/ui/ActionBar/Theme;->access$400()Landroid/graphics/drawable/Drawable;
 
     move-result-object v14
@@ -229,13 +221,11 @@
 
     invoke-direct {v14, v10}, Landroid/graphics/drawable/ColorDrawable;-><init>(I)V
 
-    # setter for: Lorg/telegram/ui/ActionBar/Theme;->wallpaper:Landroid/graphics/drawable/Drawable;
     invoke-static {v14}, Lorg/telegram/ui/ActionBar/Theme;->access$402(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     .line 3786
     .end local v10    # "selectedColor":I
     :cond_3
-    # getter for: Lorg/telegram/ui/ActionBar/Theme;->wallpaper:Landroid/graphics/drawable/Drawable;
     invoke-static {}, Lorg/telegram/ui/ActionBar/Theme;->access$400()Landroid/graphics/drawable/Drawable;
 
     move-result-object v14
@@ -244,7 +234,6 @@
 
     move/from16 v0, v16
 
-    # invokes: Lorg/telegram/ui/ActionBar/Theme;->calcBackgroundColor(Landroid/graphics/drawable/Drawable;I)V
     invoke-static {v14, v0}, Lorg/telegram/ui/ActionBar/Theme;->access$900(Landroid/graphics/drawable/Drawable;I)V
 
     .line 3787
@@ -265,14 +254,12 @@
     .line 3725
     .restart local v2    # "backgroundColor":Ljava/lang/Integer;
     :cond_4
-    # getter for: Lorg/telegram/ui/ActionBar/Theme;->themedWallpaperFileOffset:I
     invoke-static {}, Lorg/telegram/ui/ActionBar/Theme;->access$600()I
 
     move-result v14
 
     if-lez v14, :cond_0
 
-    # getter for: Lorg/telegram/ui/ActionBar/Theme;->currentTheme:Lorg/telegram/ui/ActionBar/Theme$ThemeInfo;
     invoke-static {}, Lorg/telegram/ui/ActionBar/Theme;->access$700()Lorg/telegram/ui/ActionBar/Theme$ThemeInfo;
 
     move-result-object v14
@@ -281,7 +268,6 @@
 
     if-nez v14, :cond_5
 
-    # getter for: Lorg/telegram/ui/ActionBar/Theme;->currentTheme:Lorg/telegram/ui/ActionBar/Theme$ThemeInfo;
     invoke-static {}, Lorg/telegram/ui/ActionBar/Theme;->access$700()Lorg/telegram/ui/ActionBar/Theme$ThemeInfo;
 
     move-result-object v14
@@ -303,7 +289,6 @@
     .line 3730
     .local v4, "currentPosition":I
     :try_start_3
-    # getter for: Lorg/telegram/ui/ActionBar/Theme;->currentTheme:Lorg/telegram/ui/ActionBar/Theme$ThemeInfo;
     invoke-static {}, Lorg/telegram/ui/ActionBar/Theme;->access$700()Lorg/telegram/ui/ActionBar/Theme$ThemeInfo;
 
     move-result-object v14
@@ -313,7 +298,6 @@
     if-eqz v14, :cond_7
 
     .line 3731
-    # getter for: Lorg/telegram/ui/ActionBar/Theme;->currentTheme:Lorg/telegram/ui/ActionBar/Theme$ThemeInfo;
     invoke-static {}, Lorg/telegram/ui/ActionBar/Theme;->access$700()Lorg/telegram/ui/ActionBar/Theme$ThemeInfo;
 
     move-result-object v14
@@ -342,7 +326,6 @@
 
     move-result-object v14
 
-    # getter for: Lorg/telegram/ui/ActionBar/Theme;->themedWallpaperFileOffset:I
     invoke-static {}, Lorg/telegram/ui/ActionBar/Theme;->access$600()I
 
     move-result v16
@@ -371,18 +354,15 @@
 
     invoke-direct {v14, v3}, Landroid/graphics/drawable/BitmapDrawable;-><init>(Landroid/graphics/Bitmap;)V
 
-    # setter for: Lorg/telegram/ui/ActionBar/Theme;->wallpaper:Landroid/graphics/drawable/Drawable;
     invoke-static {v14}, Lorg/telegram/ui/ActionBar/Theme;->access$402(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v14
 
-    # setter for: Lorg/telegram/ui/ActionBar/Theme;->themedWallpaper:Landroid/graphics/drawable/Drawable;
     invoke-static {v14}, Lorg/telegram/ui/ActionBar/Theme;->access$802(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     .line 3740
     const/4 v14, 0x1
 
-    # setter for: Lorg/telegram/ui/ActionBar/Theme;->isCustomTheme:Z
     invoke-static {v14}, Lorg/telegram/ui/ActionBar/Theme;->access$502(Z)Z
     :try_end_4
     .catch Ljava/lang/Throwable; {:try_start_4 .. :try_end_4} :catch_5
@@ -440,7 +420,6 @@
     :try_start_7
     new-instance v6, Ljava/io/File;
 
-    # getter for: Lorg/telegram/ui/ActionBar/Theme;->currentTheme:Lorg/telegram/ui/ActionBar/Theme$ThemeInfo;
     invoke-static {}, Lorg/telegram/ui/ActionBar/Theme;->access$700()Lorg/telegram/ui/ActionBar/Theme$ThemeInfo;
 
     move-result-object v14
@@ -565,13 +544,11 @@
 
     move-result-object v14
 
-    # setter for: Lorg/telegram/ui/ActionBar/Theme;->wallpaper:Landroid/graphics/drawable/Drawable;
     invoke-static {v14}, Lorg/telegram/ui/ActionBar/Theme;->access$402(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     .line 3769
     const/4 v14, 0x1
 
-    # setter for: Lorg/telegram/ui/ActionBar/Theme;->isCustomTheme:Z
     invoke-static {v14}, Lorg/telegram/ui/ActionBar/Theme;->access$502(Z)Z
 
     goto/16 :goto_1
@@ -602,13 +579,11 @@
 
     move-result-object v14
 
-    # setter for: Lorg/telegram/ui/ActionBar/Theme;->wallpaper:Landroid/graphics/drawable/Drawable;
     invoke-static {v14}, Lorg/telegram/ui/ActionBar/Theme;->access$402(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     .line 3772
     const/4 v14, 0x0
 
-    # setter for: Lorg/telegram/ui/ActionBar/Theme;->isCustomTheme:Z
     invoke-static {v14}, Lorg/telegram/ui/ActionBar/Theme;->access$502(Z)Z
     :try_end_d
     .catch Ljava/lang/Throwable; {:try_start_d .. :try_end_d} :catch_4

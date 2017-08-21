@@ -59,7 +59,6 @@
 
     int-to-float v3, v3
 
-    # getter for: Lorg/telegram/ui/ActionBar/Theme;->maskPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ActionBar/Theme;->access$100()Landroid/graphics/Paint;
 
     move-result-object v4

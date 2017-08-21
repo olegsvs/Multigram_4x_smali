@@ -59,7 +59,6 @@
     .line 670
     iget-object v7, p0, Lorg/telegram/ui/SettingsActivity$6;->this$0:Lorg/telegram/ui/SettingsActivity;
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->versionRow:I
     invoke-static {v7}, Lorg/telegram/ui/SettingsActivity;->access$3700(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v7
@@ -198,7 +197,6 @@
     :cond_1
     iget-object v7, p0, Lorg/telegram/ui/SettingsActivity$6;->this$0:Lorg/telegram/ui/SettingsActivity;
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->bioRow:I
     invoke-static {v7}, Lorg/telegram/ui/SettingsActivity;->access$3000(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v7

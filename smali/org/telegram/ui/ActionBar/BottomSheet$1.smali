@@ -48,7 +48,6 @@
     :try_start_0
     iget-object v2, p0, Lorg/telegram/ui/ActionBar/BottomSheet$1;->this$0:Lorg/telegram/ui/ActionBar/BottomSheet;
 
-    # getter for: Lorg/telegram/ui/ActionBar/BottomSheet;->allowDrawContent:Z
     invoke-static {v2}, Lorg/telegram/ui/ActionBar/BottomSheet;->access$800(Lorg/telegram/ui/ActionBar/BottomSheet;)Z
 
     move-result v2

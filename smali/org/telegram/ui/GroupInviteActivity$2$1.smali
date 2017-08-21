@@ -50,7 +50,6 @@
 
     const/4 v1, 0x1
 
-    # invokes: Lorg/telegram/ui/GroupInviteActivity;->generateLink(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/GroupInviteActivity;->access$500(Lorg/telegram/ui/GroupInviteActivity;Z)V
 
     .line 162

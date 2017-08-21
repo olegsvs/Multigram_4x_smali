@@ -49,7 +49,6 @@
 
     const/4 v1, 0x1
 
-    # invokes: Lorg/telegram/messenger/time/FastDateParser;->escapeRegex(Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
     invoke-static {p2, v0, v1}, Lorg/telegram/messenger/time/FastDateParser;->access$100(Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
 
     .line 623

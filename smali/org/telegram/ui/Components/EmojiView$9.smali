@@ -42,12 +42,10 @@
     .line 767
     iget-object v0, p0, Lorg/telegram/ui/Components/EmojiView$9;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->trendingGridAdapter:Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmojiView;->access$3300(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;
 
     move-result-object v0
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;->cache:Ljava/util/HashMap;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;->access$3400(Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -66,12 +64,10 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/EmojiView$9;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->trendingGridAdapter:Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmojiView;->access$3300(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;
 
     move-result-object v0
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;->totalItems:I
     invoke-static {v0}, Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;->access$3500(Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;)I
 
     move-result v0
@@ -82,12 +78,10 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/Components/EmojiView$9;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->trendingGridAdapter:Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmojiView;->access$3300(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;
 
     move-result-object v0
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;->stickersPerRow:I
     invoke-static {v0}, Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;->access$3600(Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;)I
 
     move-result v0

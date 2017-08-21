@@ -52,7 +52,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/PrivacyUsersActivity$3;->this$0:Lorg/telegram/ui/PrivacyUsersActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyUsersActivity;->uidArray:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/PrivacyUsersActivity;->access$200(Lorg/telegram/ui/PrivacyUsersActivity;)Ljava/util/ArrayList;
 
     move-result-object v2
@@ -84,7 +83,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/PrivacyUsersActivity$3;->this$0:Lorg/telegram/ui/PrivacyUsersActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyUsersActivity;->uidArray:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/PrivacyUsersActivity;->access$200(Lorg/telegram/ui/PrivacyUsersActivity;)Ljava/util/ArrayList;
 
     move-result-object v2
@@ -99,7 +97,6 @@
 
     move-result v2
 
-    # setter for: Lorg/telegram/ui/PrivacyUsersActivity;->selectedUserId:I
     invoke-static {v5, v2}, Lorg/telegram/ui/PrivacyUsersActivity;->access$502(Lorg/telegram/ui/PrivacyUsersActivity;I)I
 
     .line 169

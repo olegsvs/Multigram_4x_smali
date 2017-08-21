@@ -46,7 +46,6 @@
     .line 737
     iget-object v2, p0, Lorg/telegram/ui/PlusChatsStatsActivity$8;->this$0:Lorg/telegram/ui/PlusChatsStatsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusChatsStatsActivity;->arrayIds:Ljava/util/List;
     invoke-static {v2}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$2900(Lorg/telegram/ui/PlusChatsStatsActivity;)Ljava/util/List;
 
     move-result-object v2
@@ -71,7 +70,6 @@
     .local v0, "args":Landroid/os/Bundle;
     iget-object v2, p0, Lorg/telegram/ui/PlusChatsStatsActivity$8;->this$0:Lorg/telegram/ui/PlusChatsStatsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusChatsStatsActivity;->arrayType:Ljava/util/List;
     invoke-static {v2}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$3000(Lorg/telegram/ui/PlusChatsStatsActivity;)Ljava/util/List;
 
     move-result-object v2

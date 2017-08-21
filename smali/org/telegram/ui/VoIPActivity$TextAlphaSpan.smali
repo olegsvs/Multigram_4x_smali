@@ -62,7 +62,6 @@
     .line 1436
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$TextAlphaSpan;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->stateText:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$3400(Lorg/telegram/ui/VoIPActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -72,7 +71,6 @@
     .line 1437
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$TextAlphaSpan;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->stateText2:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$4000(Lorg/telegram/ui/VoIPActivity;)Landroid/widget/TextView;
 
     move-result-object v0

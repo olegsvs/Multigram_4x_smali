@@ -50,7 +50,6 @@
 
     iget-wide v2, p0, Lorg/telegram/messenger/NotificationsController$3;->val$dialog_id:J
 
-    # setter for: Lorg/telegram/messenger/NotificationsController;->opened_dialog_id:J
     invoke-static {v0, v2, v3}, Lorg/telegram/messenger/NotificationsController;->access$302(Lorg/telegram/messenger/NotificationsController;J)J
 
     .line 186

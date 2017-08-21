@@ -50,7 +50,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->textSizeRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$300(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -225,7 +224,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->enableAnimationsRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$500(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -339,7 +337,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->notificationRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$600(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -373,7 +370,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->backgroundRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$700(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -407,7 +403,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->askQuestionRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$800(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -775,7 +770,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->sendLogsRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$1100(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -793,7 +787,6 @@
 
     move-object/from16 v25, v0
 
-    # invokes: Lorg/telegram/ui/SettingsActivity;->sendLogs()V
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$1200(Lorg/telegram/ui/SettingsActivity;)V
 
     goto/16 :goto_0
@@ -806,7 +799,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->clearLogsRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$1300(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -830,7 +822,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->sendByEnterRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$1400(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -944,7 +935,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->raiseToSpeakRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$1500(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -1000,7 +990,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->autoplayGifsRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$1600(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -1056,7 +1045,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->saveToGalleryRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$1700(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -1112,7 +1100,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->customTabsRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$1800(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -1168,7 +1155,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->directShareRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$1900(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -1224,7 +1210,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->privacyRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$2000(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -1258,7 +1243,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->dataRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$2100(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -1292,7 +1276,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->languageRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$2200(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -1326,7 +1309,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->themeRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$2300(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -1360,7 +1342,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->switchBackendButtonRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$2400(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -1492,7 +1473,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->telegramFaqRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$2500(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -1534,7 +1514,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->privacyPolicyRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$2600(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -1576,7 +1555,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->contactsReimportRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$2700(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -1594,7 +1572,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->contactsSortRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$2800(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -1755,7 +1732,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->usernameRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$2900(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -1789,7 +1765,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->bioRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$3000(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -1841,7 +1816,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->numberRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$3100(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -1875,7 +1849,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->stickersRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$3200(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -1911,7 +1884,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->emojiRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$3300(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25
@@ -2318,7 +2290,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->dumpCallStatsRow:I
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/SettingsActivity;->access$3600(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v25

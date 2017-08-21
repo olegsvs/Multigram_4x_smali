@@ -45,7 +45,6 @@
     .line 301
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->shadowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$2200(Lorg/telegram/ui/Components/StickersAlert;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -54,12 +53,10 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->scrollOffsetY:I
     invoke-static {v2}, Lorg/telegram/ui/Components/StickersAlert;->access$1300(Lorg/telegram/ui/Components/StickersAlert;)I
 
     move-result v2
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->backgroundPaddingTop:I
     invoke-static {}, Lorg/telegram/ui/Components/StickersAlert;->access$2100()I
 
     move-result v3
@@ -79,7 +76,6 @@
     .line 302
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->shadowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$2200(Lorg/telegram/ui/Components/StickersAlert;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -104,7 +100,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->scrollOffsetY:I
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$1300(Lorg/telegram/ui/Components/StickersAlert;)I
 
     move-result v0
@@ -117,7 +112,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->scrollOffsetY:I
     invoke-static {v1}, Lorg/telegram/ui/Components/StickersAlert;->access$1300(Lorg/telegram/ui/Components/StickersAlert;)I
 
     move-result v1
@@ -172,7 +166,6 @@
     .line 283
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->adapter:Lorg/telegram/ui/Components/StickersAlert$GridAdapter;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$700(Lorg/telegram/ui/Components/StickersAlert;)Lorg/telegram/ui/Components/StickersAlert$GridAdapter;
 
     move-result-object v0
@@ -181,7 +174,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->stickerSetCovereds:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$300(Lorg/telegram/ui/Components/StickersAlert;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -191,7 +183,6 @@
     .line 284
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->adapter:Lorg/telegram/ui/Components/StickersAlert$GridAdapter;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$700(Lorg/telegram/ui/Components/StickersAlert;)Lorg/telegram/ui/Components/StickersAlert$GridAdapter;
 
     move-result-object v0
@@ -205,7 +196,6 @@
     .line 288
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # invokes: Lorg/telegram/ui/Components/StickersAlert;->updateLayout()V
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$2000(Lorg/telegram/ui/Components/StickersAlert;)V
 
     .line 289
@@ -266,13 +256,11 @@
 
     div-int/lit8 v6, v6, 0x5
 
-    # setter for: Lorg/telegram/ui/Components/StickersAlert;->itemSize:I
     invoke-static {v4, v6}, Lorg/telegram/ui/Components/StickersAlert;->access$1402(Lorg/telegram/ui/Components/StickersAlert;I)I
 
     .line 255
     iget-object v4, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->stickerSetCovereds:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/ui/Components/StickersAlert;->access$300(Lorg/telegram/ui/Components/StickersAlert;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -294,7 +282,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->stickerSetCovereds:Ljava/util/ArrayList;
     invoke-static {v7}, Lorg/telegram/ui/Components/StickersAlert;->access$300(Lorg/telegram/ui/Components/StickersAlert;)Ljava/util/ArrayList;
 
     move-result-object v7
@@ -309,12 +296,10 @@
 
     iget-object v6, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->adapter:Lorg/telegram/ui/Components/StickersAlert$GridAdapter;
     invoke-static {v6}, Lorg/telegram/ui/Components/StickersAlert;->access$700(Lorg/telegram/ui/Components/StickersAlert;)Lorg/telegram/ui/Components/StickersAlert$GridAdapter;
 
     move-result-object v6
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert$GridAdapter;->stickersRowCount:I
     invoke-static {v6}, Lorg/telegram/ui/Components/StickersAlert$GridAdapter;->access$1500(Lorg/telegram/ui/Components/StickersAlert$GridAdapter;)I
 
     move-result v6
@@ -363,7 +348,6 @@
     if-nez v3, :cond_2
 
     .line 265
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->backgroundPaddingTop:I
     invoke-static {}, Lorg/telegram/ui/Components/StickersAlert;->access$1700()I
 
     move-result v3
@@ -372,7 +356,6 @@
     :cond_2
     iget-object v4, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->stickerSetCovereds:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/ui/Components/StickersAlert;->access$300(Lorg/telegram/ui/Components/StickersAlert;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -392,7 +375,6 @@
     :cond_3
     iget-object v4, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->gridView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v4}, Lorg/telegram/ui/Components/StickersAlert;->access$400(Lorg/telegram/ui/Components/StickersAlert;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v4
@@ -408,13 +390,11 @@
 
     const/4 v6, 0x1
 
-    # setter for: Lorg/telegram/ui/Components/StickersAlert;->ignoreLayout:Z
     invoke-static {v4, v6}, Lorg/telegram/ui/Components/StickersAlert;->access$1802(Lorg/telegram/ui/Components/StickersAlert;Z)Z
 
     .line 272
     iget-object v4, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->gridView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v4}, Lorg/telegram/ui/Components/StickersAlert;->access$400(Lorg/telegram/ui/Components/StickersAlert;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v4
@@ -432,7 +412,6 @@
     .line 273
     iget-object v4, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->emptyView:Landroid/widget/FrameLayout;
     invoke-static {v4}, Lorg/telegram/ui/Components/StickersAlert;->access$1900(Lorg/telegram/ui/Components/StickersAlert;)Landroid/widget/FrameLayout;
 
     move-result-object v4
@@ -442,7 +421,6 @@
     .line 274
     iget-object v4, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # setter for: Lorg/telegram/ui/Components/StickersAlert;->ignoreLayout:Z
     invoke-static {v4, v5}, Lorg/telegram/ui/Components/StickersAlert;->access$1802(Lorg/telegram/ui/Components/StickersAlert;Z)Z
 
     .line 276
@@ -476,7 +454,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->stickerSet:Lorg/telegram/tgnet/TLRPC$TL_messages_stickerSet;
     invoke-static {v4}, Lorg/telegram/ui/Components/StickersAlert;->access$900(Lorg/telegram/ui/Components/StickersAlert;)Lorg/telegram/tgnet/TLRPC$TL_messages_stickerSet;
 
     move-result-object v4
@@ -485,7 +462,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->stickerSet:Lorg/telegram/tgnet/TLRPC$TL_messages_stickerSet;
     invoke-static {v4}, Lorg/telegram/ui/Components/StickersAlert;->access$900(Lorg/telegram/ui/Components/StickersAlert;)Lorg/telegram/tgnet/TLRPC$TL_messages_stickerSet;
 
     move-result-object v4
@@ -523,7 +499,6 @@
 
     add-int/2addr v4, v6
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->backgroundPaddingTop:I
     invoke-static {}, Lorg/telegram/ui/Components/StickersAlert;->access$1600()I
 
     move-result v6
@@ -587,7 +562,6 @@
     .line 293
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$3;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->ignoreLayout:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$1800(Lorg/telegram/ui/Components/StickersAlert;)Z
 
     move-result v0

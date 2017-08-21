@@ -44,7 +44,6 @@
     .line 1921
     iget-object v0, p0, Lorg/telegram/ui/ProfileActivity$25;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->fragmentView:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/ProfileActivity;->access$6600(Lorg/telegram/ui/ProfileActivity;)Landroid/view/View;
 
     move-result-object v0
@@ -54,19 +53,16 @@
     .line 1922
     iget-object v0, p0, Lorg/telegram/ui/ProfileActivity$25;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # invokes: Lorg/telegram/ui/ProfileActivity;->checkListViewScroll()V
     invoke-static {v0}, Lorg/telegram/ui/ProfileActivity;->access$1300(Lorg/telegram/ui/ProfileActivity;)V
 
     .line 1923
     iget-object v0, p0, Lorg/telegram/ui/ProfileActivity$25;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # invokes: Lorg/telegram/ui/ProfileActivity;->needLayout()V
     invoke-static {v0}, Lorg/telegram/ui/ProfileActivity;->access$6700(Lorg/telegram/ui/ProfileActivity;)V
 
     .line 1924
     iget-object v0, p0, Lorg/telegram/ui/ProfileActivity$25;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->fragmentView:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/ProfileActivity;->access$6800(Lorg/telegram/ui/ProfileActivity;)Landroid/view/View;
 
     move-result-object v0

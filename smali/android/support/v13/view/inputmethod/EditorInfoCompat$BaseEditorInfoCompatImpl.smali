@@ -73,7 +73,6 @@
     if-nez v1, :cond_1
 
     .line 62
-    # getter for: Landroid/support/v13/view/inputmethod/EditorInfoCompat;->EMPTY_STRING_ARRAY:[Ljava/lang/String;
     invoke-static {}, Landroid/support/v13/view/inputmethod/EditorInfoCompat;->access$000()[Ljava/lang/String;
 
     move-result-object v0
@@ -97,7 +96,6 @@
     .local v0, "result":[Ljava/lang/String;
     if-nez v0, :cond_0
 
-    # getter for: Landroid/support/v13/view/inputmethod/EditorInfoCompat;->EMPTY_STRING_ARRAY:[Ljava/lang/String;
     invoke-static {}, Landroid/support/v13/view/inputmethod/EditorInfoCompat;->access$000()[Ljava/lang/String;
 
     move-result-object v0

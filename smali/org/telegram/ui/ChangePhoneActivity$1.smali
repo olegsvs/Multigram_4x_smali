@@ -47,14 +47,12 @@
     .line 150
     iget-object v0, p0, Lorg/telegram/ui/ChangePhoneActivity$1;->this$0:Lorg/telegram/ui/ChangePhoneActivity;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity;->views:[Lorg/telegram/ui/Components/SlideView;
     invoke-static {v0}, Lorg/telegram/ui/ChangePhoneActivity;->access$000(Lorg/telegram/ui/ChangePhoneActivity;)[Lorg/telegram/ui/Components/SlideView;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/ChangePhoneActivity$1;->this$0:Lorg/telegram/ui/ChangePhoneActivity;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity;->currentViewNum:I
     invoke-static {v1}, Lorg/telegram/ui/ChangePhoneActivity;->access$100(Lorg/telegram/ui/ChangePhoneActivity;)I
 
     move-result v1

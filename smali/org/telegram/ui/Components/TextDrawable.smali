@@ -48,7 +48,6 @@
 
     .prologue
     .line 29
-    # getter for: Lorg/telegram/ui/Components/TextDrawable$Builder;->shape:Landroid/graphics/drawable/shapes/RectShape;
     invoke-static {p1}, Lorg/telegram/ui/Components/TextDrawable$Builder;->access$000(Lorg/telegram/ui/Components/TextDrawable$Builder;)Landroid/graphics/drawable/shapes/RectShape;
 
     move-result-object v1
@@ -56,7 +55,6 @@
     invoke-direct {p0, v1}, Landroid/graphics/drawable/ShapeDrawable;-><init>(Landroid/graphics/drawable/shapes/Shape;)V
 
     .line 32
-    # getter for: Lorg/telegram/ui/Components/TextDrawable$Builder;->shape:Landroid/graphics/drawable/shapes/RectShape;
     invoke-static {p1}, Lorg/telegram/ui/Components/TextDrawable$Builder;->access$000(Lorg/telegram/ui/Components/TextDrawable$Builder;)Landroid/graphics/drawable/shapes/RectShape;
 
     move-result-object v1
@@ -64,7 +62,6 @@
     iput-object v1, p0, Lorg/telegram/ui/Components/TextDrawable;->shape:Landroid/graphics/drawable/shapes/RectShape;
 
     .line 33
-    # getter for: Lorg/telegram/ui/Components/TextDrawable$Builder;->height:I
     invoke-static {p1}, Lorg/telegram/ui/Components/TextDrawable$Builder;->access$100(Lorg/telegram/ui/Components/TextDrawable$Builder;)I
 
     move-result v1
@@ -72,7 +69,6 @@
     iput v1, p0, Lorg/telegram/ui/Components/TextDrawable;->height:I
 
     .line 34
-    # getter for: Lorg/telegram/ui/Components/TextDrawable$Builder;->width:I
     invoke-static {p1}, Lorg/telegram/ui/Components/TextDrawable$Builder;->access$200(Lorg/telegram/ui/Components/TextDrawable$Builder;)I
 
     move-result v1
@@ -85,14 +81,12 @@
     iput v1, p0, Lorg/telegram/ui/Components/TextDrawable;->radius:F
 
     .line 38
-    # getter for: Lorg/telegram/ui/Components/TextDrawable$Builder;->toUpperCase:Z
     invoke-static {p1}, Lorg/telegram/ui/Components/TextDrawable$Builder;->access$300(Lorg/telegram/ui/Components/TextDrawable$Builder;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    # getter for: Lorg/telegram/ui/Components/TextDrawable$Builder;->text:Ljava/lang/String;
     invoke-static {p1}, Lorg/telegram/ui/Components/TextDrawable$Builder;->access$400(Lorg/telegram/ui/Components/TextDrawable$Builder;)Ljava/lang/String;
 
     move-result-object v1
@@ -105,7 +99,6 @@
     iput-object v1, p0, Lorg/telegram/ui/Components/TextDrawable;->text:Ljava/lang/String;
 
     .line 39
-    # getter for: Lorg/telegram/ui/Components/TextDrawable$Builder;->color:I
     invoke-static {p1}, Lorg/telegram/ui/Components/TextDrawable$Builder;->access$500(Lorg/telegram/ui/Components/TextDrawable$Builder;)I
 
     move-result v1
@@ -113,7 +106,6 @@
     iput v1, p0, Lorg/telegram/ui/Components/TextDrawable;->color:I
 
     .line 42
-    # getter for: Lorg/telegram/ui/Components/TextDrawable$Builder;->fontSize:I
     invoke-static {p1}, Lorg/telegram/ui/Components/TextDrawable$Builder;->access$600(Lorg/telegram/ui/Components/TextDrawable$Builder;)I
 
     move-result v1
@@ -144,7 +136,6 @@
     .line 46
     iget-object v1, p0, Lorg/telegram/ui/Components/TextDrawable;->textPaint:Landroid/graphics/Paint;
 
-    # getter for: Lorg/telegram/ui/Components/TextDrawable$Builder;->isBold:Z
     invoke-static {p1}, Lorg/telegram/ui/Components/TextDrawable$Builder;->access$700(Lorg/telegram/ui/Components/TextDrawable$Builder;)Z
 
     move-result v2
@@ -161,7 +152,6 @@
     .line 48
     iget-object v1, p0, Lorg/telegram/ui/Components/TextDrawable;->textPaint:Landroid/graphics/Paint;
 
-    # getter for: Lorg/telegram/ui/Components/TextDrawable$Builder;->font:Landroid/graphics/Typeface;
     invoke-static {p1}, Lorg/telegram/ui/Components/TextDrawable$Builder;->access$800(Lorg/telegram/ui/Components/TextDrawable$Builder;)Landroid/graphics/Typeface;
 
     move-result-object v2
@@ -178,7 +168,6 @@
     .line 50
     iget-object v1, p0, Lorg/telegram/ui/Components/TextDrawable;->textPaint:Landroid/graphics/Paint;
 
-    # getter for: Lorg/telegram/ui/Components/TextDrawable$Builder;->borderThickness:I
     invoke-static {p1}, Lorg/telegram/ui/Components/TextDrawable$Builder;->access$900(Lorg/telegram/ui/Components/TextDrawable$Builder;)I
 
     move-result v2
@@ -188,7 +177,6 @@
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 53
-    # getter for: Lorg/telegram/ui/Components/TextDrawable$Builder;->borderThickness:I
     invoke-static {p1}, Lorg/telegram/ui/Components/TextDrawable$Builder;->access$900(Lorg/telegram/ui/Components/TextDrawable$Builder;)I
 
     move-result v1
@@ -246,7 +234,6 @@
     .line 38
     .end local v0    # "paint":Landroid/graphics/Paint;
     :cond_0
-    # getter for: Lorg/telegram/ui/Components/TextDrawable$Builder;->text:Ljava/lang/String;
     invoke-static {p1}, Lorg/telegram/ui/Components/TextDrawable$Builder;->access$400(Lorg/telegram/ui/Components/TextDrawable$Builder;)Ljava/lang/String;
 
     move-result-object v1

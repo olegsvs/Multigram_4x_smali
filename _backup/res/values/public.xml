@@ -2807,6 +2807,7 @@
     <public type="string" name="google_app_id" id="0x7f07081f" />
     <public type="string" name="google_crash_reporting_api_key" id="0x7f070820" />
     <public type="string" name="hockeyapp_update_version_details_label" id="0x7f070821" />
+    <public type="string" name="Change_another_user" id="0x7f070822" />
     <public type="bool" name="isTablet" id="0x7f080000" />
     <public type="bool" name="useHardwareAcceleration" id="0x7f080001" />
     <public type="style" name="myBackgroundStyle" id="0x7f090000" />

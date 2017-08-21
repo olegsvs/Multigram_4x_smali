@@ -48,7 +48,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lnet/hockeyapp/android/UpdateActivity;->mError:Lnet/hockeyapp/android/objects/ErrorObject;
     invoke-static {v0, v1}, Lnet/hockeyapp/android/UpdateActivity;->access$002(Lnet/hockeyapp/android/UpdateActivity;Lnet/hockeyapp/android/objects/ErrorObject;)Lnet/hockeyapp/android/objects/ErrorObject;
 
     .line 119

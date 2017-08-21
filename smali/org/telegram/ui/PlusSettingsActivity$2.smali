@@ -49,7 +49,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/PlusSettingsActivity$2;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showPrefix:Z
     invoke-static {v2}, Lorg/telegram/ui/PlusSettingsActivity;->access$000(Lorg/telegram/ui/PlusSettingsActivity;)Z
 
     move-result v2
@@ -59,7 +58,6 @@
     const/4 v2, 0x1
 
     :goto_0
-    # setter for: Lorg/telegram/ui/PlusSettingsActivity;->showPrefix:Z
     invoke-static {v4, v2}, Lorg/telegram/ui/PlusSettingsActivity;->access$002(Lorg/telegram/ui/PlusSettingsActivity;Z)Z
 
     .line 351
@@ -83,7 +81,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/PlusSettingsActivity$2;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showPrefix:Z
     invoke-static {v3}, Lorg/telegram/ui/PlusSettingsActivity;->access$000(Lorg/telegram/ui/PlusSettingsActivity;)Z
 
     move-result v3
@@ -97,7 +94,6 @@
     .line 354
     iget-object v2, p0, Lorg/telegram/ui/PlusSettingsActivity$2;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->listAdapter:Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;
     invoke-static {v2}, Lorg/telegram/ui/PlusSettingsActivity;->access$100(Lorg/telegram/ui/PlusSettingsActivity;)Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;
 
     move-result-object v2
@@ -107,7 +103,6 @@
     .line 355
     iget-object v2, p0, Lorg/telegram/ui/PlusSettingsActivity$2;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->listAdapter:Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;
     invoke-static {v2}, Lorg/telegram/ui/PlusSettingsActivity;->access$100(Lorg/telegram/ui/PlusSettingsActivity;)Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;
 
     move-result-object v2

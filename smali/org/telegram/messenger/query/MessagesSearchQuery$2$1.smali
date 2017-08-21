@@ -50,7 +50,6 @@
 
     iget v1, v1, Lorg/telegram/messenger/query/MessagesSearchQuery$2;->val$currentReqId:I
 
-    # getter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->lastReqId:I
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$500()I
 
     move-result v2
@@ -60,7 +59,6 @@
     .line 174
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->reqId:I
     invoke-static {v1}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$602(I)I
 
     .line 175
@@ -135,11 +133,9 @@
     .line 181
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->lastReturnedNum:I
     invoke-static {v1}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$702(I)I
 
     .line 182
-    # getter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->searchResultMessages:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$800()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -147,7 +143,6 @@
     invoke-virtual {v1}, Ljava/util/ArrayList;->clear()V
 
     .line 183
-    # getter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->messagesSearchCount:[I
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$300()[I
 
     move-result-object v1
@@ -196,7 +191,6 @@
     const/4 v9, 0x1
 
     .line 189
-    # getter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->searchResultMessages:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$800()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -219,7 +213,6 @@
     .line 191
     .end local v10    # "message":Lorg/telegram/tgnet/TLRPC$Message;
     :cond_1
-    # getter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->messagesSearchEndReached:[Z
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$200()[Z
 
     move-result-object v3
@@ -255,7 +248,6 @@
     aput-boolean v2, v3, v1
 
     .line 192
-    # getter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->messagesSearchCount:[I
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$300()[I
 
     move-result-object v3
@@ -285,7 +277,6 @@
     aput v2, v3, v1
 
     .line 193
-    # getter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->searchResultMessages:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$800()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -331,7 +322,6 @@
 
     const/4 v4, 0x2
 
-    # invokes: Lorg/telegram/messenger/query/MessagesSearchQuery;->getMask()I
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$900()I
 
     move-result v5
@@ -389,7 +379,6 @@
 
     if-nez v1, :cond_3
 
-    # getter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->messagesSearchEndReached:[Z
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$200()[Z
 
     move-result-object v1
@@ -410,7 +399,6 @@
 
     if-eqz v1, :cond_3
 
-    # getter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->messagesSearchEndReached:[Z
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$200()[Z
 
     move-result-object v1
@@ -422,7 +410,6 @@
     if-nez v1, :cond_3
 
     .line 205
-    # getter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->lastSearchQuery:Ljava/lang/String;
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$1000()Ljava/lang/String;
 
     move-result-object v1
@@ -443,7 +430,6 @@
 
     const/4 v8, 0x1
 
-    # invokes: Lorg/telegram/messenger/query/MessagesSearchQuery;->searchMessagesInChat(Ljava/lang/String;JJIIZ)V
     invoke-static/range {v1 .. v8}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$400(Ljava/lang/String;JJIIZ)V
 
     .line 209
@@ -487,12 +473,10 @@
     if-eqz v9, :cond_2
 
     .line 197
-    # getter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->lastReturnedNum:I
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$700()I
 
     move-result v1
 
-    # getter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->searchResultMessages:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$800()Ljava/util/ArrayList;
 
     move-result-object v2
@@ -504,7 +488,6 @@
     if-lt v1, v2, :cond_9
 
     .line 198
-    # getter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->searchResultMessages:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$800()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -515,17 +498,14 @@
 
     add-int/lit8 v1, v1, -0x1
 
-    # setter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->lastReturnedNum:I
     invoke-static {v1}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$702(I)I
 
     .line 200
     :cond_9
-    # getter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->searchResultMessages:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$800()Ljava/util/ArrayList;
 
     move-result-object v1
 
-    # getter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->lastReturnedNum:I
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$700()I
 
     move-result v2
@@ -574,7 +554,6 @@
 
     const/4 v4, 0x2
 
-    # invokes: Lorg/telegram/messenger/query/MessagesSearchQuery;->getMask()I
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$900()I
 
     move-result v5
@@ -599,7 +578,6 @@
 
     const/4 v4, 0x4
 
-    # getter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->lastReturnedNum:I
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$700()I
 
     move-result v5
@@ -612,7 +590,6 @@
 
     const/4 v4, 0x5
 
-    # getter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->messagesSearchCount:[I
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$300()[I
 
     move-result-object v5
@@ -621,7 +598,6 @@
 
     aget v5, v5, v6
 
-    # getter for: Lorg/telegram/messenger/query/MessagesSearchQuery;->messagesSearchCount:[I
     invoke-static {}, Lorg/telegram/messenger/query/MessagesSearchQuery;->access$300()[I
 
     move-result-object v6

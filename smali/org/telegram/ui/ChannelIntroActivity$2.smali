@@ -70,14 +70,12 @@
     .local v3, "y":I
     iget-object v4, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->imageView:Landroid/widget/ImageView;
     invoke-static {v4}, Lorg/telegram/ui/ChannelIntroActivity;->access$000(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/ImageView;
 
     move-result-object v4
 
     iget-object v5, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->imageView:Landroid/widget/ImageView;
     invoke-static {v5}, Lorg/telegram/ui/ChannelIntroActivity;->access$000(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/ImageView;
 
     move-result-object v5
@@ -88,7 +86,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->imageView:Landroid/widget/ImageView;
     invoke-static {v6}, Lorg/telegram/ui/ChannelIntroActivity;->access$000(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/ImageView;
 
     move-result-object v6
@@ -123,14 +120,12 @@
     .line 87
     iget-object v4, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->whatIsChannelText:Landroid/widget/TextView;
     invoke-static {v4}, Lorg/telegram/ui/ChannelIntroActivity;->access$100(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v4
 
     iget-object v5, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->whatIsChannelText:Landroid/widget/TextView;
     invoke-static {v5}, Lorg/telegram/ui/ChannelIntroActivity;->access$100(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v5
@@ -143,7 +138,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->whatIsChannelText:Landroid/widget/TextView;
     invoke-static {v6}, Lorg/telegram/ui/ChannelIntroActivity;->access$100(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v6
@@ -168,14 +162,12 @@
     .line 89
     iget-object v4, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->createChannelText:Landroid/widget/TextView;
     invoke-static {v4}, Lorg/telegram/ui/ChannelIntroActivity;->access$300(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v4
 
     iget-object v5, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->createChannelText:Landroid/widget/TextView;
     invoke-static {v5}, Lorg/telegram/ui/ChannelIntroActivity;->access$300(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v5
@@ -188,7 +180,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->createChannelText:Landroid/widget/TextView;
     invoke-static {v6}, Lorg/telegram/ui/ChannelIntroActivity;->access$300(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v6
@@ -222,14 +213,12 @@
     .line 92
     iget-object v4, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->descriptionText:Landroid/widget/TextView;
     invoke-static {v4}, Lorg/telegram/ui/ChannelIntroActivity;->access$200(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v4
 
     iget-object v5, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->descriptionText:Landroid/widget/TextView;
     invoke-static {v5}, Lorg/telegram/ui/ChannelIntroActivity;->access$200(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v5
@@ -242,7 +231,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->descriptionText:Landroid/widget/TextView;
     invoke-static {v6}, Lorg/telegram/ui/ChannelIntroActivity;->access$200(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v6
@@ -273,14 +261,12 @@
     .restart local v3    # "y":I
     iget-object v4, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->imageView:Landroid/widget/ImageView;
     invoke-static {v4}, Lorg/telegram/ui/ChannelIntroActivity;->access$000(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/ImageView;
 
     move-result-object v4
 
     iget-object v5, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->imageView:Landroid/widget/ImageView;
     invoke-static {v5}, Lorg/telegram/ui/ChannelIntroActivity;->access$000(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/ImageView;
 
     move-result-object v5
@@ -291,7 +277,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->imageView:Landroid/widget/ImageView;
     invoke-static {v6}, Lorg/telegram/ui/ChannelIntroActivity;->access$000(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/ImageView;
 
     move-result-object v6
@@ -316,14 +301,12 @@
     .line 97
     iget-object v4, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->whatIsChannelText:Landroid/widget/TextView;
     invoke-static {v4}, Lorg/telegram/ui/ChannelIntroActivity;->access$100(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v4
 
     iget-object v5, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->whatIsChannelText:Landroid/widget/TextView;
     invoke-static {v5}, Lorg/telegram/ui/ChannelIntroActivity;->access$100(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v5
@@ -334,7 +317,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->whatIsChannelText:Landroid/widget/TextView;
     invoke-static {v6}, Lorg/telegram/ui/ChannelIntroActivity;->access$100(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v6
@@ -367,14 +349,12 @@
     .restart local v2    # "x":I
     iget-object v4, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->descriptionText:Landroid/widget/TextView;
     invoke-static {v4}, Lorg/telegram/ui/ChannelIntroActivity;->access$200(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v4
 
     iget-object v5, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->descriptionText:Landroid/widget/TextView;
     invoke-static {v5}, Lorg/telegram/ui/ChannelIntroActivity;->access$200(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v5
@@ -387,7 +367,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->descriptionText:Landroid/widget/TextView;
     invoke-static {v6}, Lorg/telegram/ui/ChannelIntroActivity;->access$200(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v6
@@ -412,14 +391,12 @@
     .line 102
     iget-object v4, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->createChannelText:Landroid/widget/TextView;
     invoke-static {v4}, Lorg/telegram/ui/ChannelIntroActivity;->access$300(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v4
 
     iget-object v5, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->createChannelText:Landroid/widget/TextView;
     invoke-static {v5}, Lorg/telegram/ui/ChannelIntroActivity;->access$300(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v5
@@ -430,7 +407,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->createChannelText:Landroid/widget/TextView;
     invoke-static {v6}, Lorg/telegram/ui/ChannelIntroActivity;->access$300(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v6
@@ -478,7 +454,6 @@
     .line 63
     iget-object v2, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->imageView:Landroid/widget/ImageView;
     invoke-static {v2}, Lorg/telegram/ui/ChannelIntroActivity;->access$000(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/ImageView;
 
     move-result-object v2
@@ -512,7 +487,6 @@
     .line 64
     iget-object v2, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->whatIsChannelText:Landroid/widget/TextView;
     invoke-static {v2}, Lorg/telegram/ui/ChannelIntroActivity;->access$100(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -536,7 +510,6 @@
     .line 65
     iget-object v2, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->descriptionText:Landroid/widget/TextView;
     invoke-static {v2}, Lorg/telegram/ui/ChannelIntroActivity;->access$200(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -562,7 +535,6 @@
     .line 66
     iget-object v2, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->createChannelText:Landroid/widget/TextView;
     invoke-static {v2}, Lorg/telegram/ui/ChannelIntroActivity;->access$300(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -598,7 +570,6 @@
     :cond_0
     iget-object v2, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->imageView:Landroid/widget/ImageView;
     invoke-static {v2}, Lorg/telegram/ui/ChannelIntroActivity;->access$000(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/ImageView;
 
     move-result-object v2
@@ -624,7 +595,6 @@
     .line 69
     iget-object v2, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->whatIsChannelText:Landroid/widget/TextView;
     invoke-static {v2}, Lorg/telegram/ui/ChannelIntroActivity;->access$100(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -642,7 +612,6 @@
     .line 70
     iget-object v2, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->descriptionText:Landroid/widget/TextView;
     invoke-static {v2}, Lorg/telegram/ui/ChannelIntroActivity;->access$200(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -668,7 +637,6 @@
     .line 71
     iget-object v2, p0, Lorg/telegram/ui/ChannelIntroActivity$2;->this$0:Lorg/telegram/ui/ChannelIntroActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelIntroActivity;->createChannelText:Landroid/widget/TextView;
     invoke-static {v2}, Lorg/telegram/ui/ChannelIntroActivity;->access$300(Lorg/telegram/ui/ChannelIntroActivity;)Landroid/widget/TextView;
 
     move-result-object v2

@@ -51,7 +51,6 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/messenger/MessagesController;->offlineSent:Z
     invoke-static {v0, v1}, Lorg/telegram/messenger/MessagesController;->access$3902(Lorg/telegram/messenger/MessagesController;Z)Z
 
     .line 2432
@@ -61,7 +60,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/messenger/MessagesController;->statusRequest:I
     invoke-static {v0, v1}, Lorg/telegram/messenger/MessagesController;->access$4102(Lorg/telegram/messenger/MessagesController;I)I
 
     .line 2433
@@ -71,7 +69,6 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/messenger/MessagesController$47;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->lastStatusUpdateTime:J
     invoke-static {v0}, Lorg/telegram/messenger/MessagesController;->access$3800(Lorg/telegram/messenger/MessagesController;)J
 
     move-result-wide v0
@@ -87,7 +84,6 @@
 
     iget-object v1, p0, Lorg/telegram/messenger/MessagesController$47;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->lastStatusUpdateTime:J
     invoke-static {v1}, Lorg/telegram/messenger/MessagesController;->access$3800(Lorg/telegram/messenger/MessagesController;)J
 
     move-result-wide v2
@@ -96,7 +92,6 @@
 
     add-long/2addr v2, v4
 
-    # setter for: Lorg/telegram/messenger/MessagesController;->lastStatusUpdateTime:J
     invoke-static {v0, v2, v3}, Lorg/telegram/messenger/MessagesController;->access$3802(Lorg/telegram/messenger/MessagesController;J)J
 
     goto :goto_0

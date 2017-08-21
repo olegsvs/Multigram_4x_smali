@@ -50,7 +50,6 @@
 
     iget v5, v5, Landroid/graphics/Point;->x:I
 
-    # setter for: Lorg/telegram/ui/ActionBar/AlertDialog;->lastScreenWidth:I
     invoke-static {v4, v5}, Lorg/telegram/ui/ActionBar/AlertDialog;->access$1202(Lorg/telegram/ui/ActionBar/AlertDialog;I)I
 
     .line 247
@@ -122,7 +121,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/ActionBar/AlertDialog$1;->this$0:Lorg/telegram/ui/ActionBar/AlertDialog;
 
-    # getter for: Lorg/telegram/ui/ActionBar/AlertDialog;->backgroundPaddings:Landroid/graphics/Rect;
     invoke-static {v5}, Lorg/telegram/ui/ActionBar/AlertDialog;->access$1300(Lorg/telegram/ui/ActionBar/AlertDialog;)Landroid/graphics/Rect;
 
     move-result-object v5
@@ -135,7 +133,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/ActionBar/AlertDialog$1;->this$0:Lorg/telegram/ui/ActionBar/AlertDialog;
 
-    # getter for: Lorg/telegram/ui/ActionBar/AlertDialog;->backgroundPaddings:Landroid/graphics/Rect;
     invoke-static {v5}, Lorg/telegram/ui/ActionBar/AlertDialog;->access$1300(Lorg/telegram/ui/ActionBar/AlertDialog;)Landroid/graphics/Rect;
 
     move-result-object v5

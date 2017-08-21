@@ -59,7 +59,6 @@
     .local v0, "height":I
     iget-object v2, p0, Lorg/telegram/ui/ChatActivity$12;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->actionModeSubTextView:Lorg/telegram/ui/ActionBar/SimpleTextView;
     invoke-static {v2}, Lorg/telegram/ui/ChatActivity;->access$4500(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/ActionBar/SimpleTextView;
 
     move-result-object v2
@@ -75,7 +74,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ChatActivity$12;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->actionModeTextView:Lorg/telegram/ui/ActionBar/SimpleTextView;
     invoke-static {v3}, Lorg/telegram/ui/ChatActivity;->access$4400(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/ActionBar/SimpleTextView;
 
     move-result-object v3
@@ -120,14 +118,12 @@
     :goto_1
     iget-object v2, p0, Lorg/telegram/ui/ChatActivity$12;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->actionModeTextView:Lorg/telegram/ui/ActionBar/SimpleTextView;
     invoke-static {v2}, Lorg/telegram/ui/ChatActivity;->access$4400(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/ActionBar/SimpleTextView;
 
     move-result-object v2
 
     iget-object v3, p0, Lorg/telegram/ui/ChatActivity$12;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->actionModeTextView:Lorg/telegram/ui/ActionBar/SimpleTextView;
     invoke-static {v3}, Lorg/telegram/ui/ChatActivity;->access$4400(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/ActionBar/SimpleTextView;
 
     move-result-object v3
@@ -138,7 +134,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/ChatActivity$12;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->actionModeTextView:Lorg/telegram/ui/ActionBar/SimpleTextView;
     invoke-static {v4}, Lorg/telegram/ui/ChatActivity;->access$4400(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/ActionBar/SimpleTextView;
 
     move-result-object v4
@@ -154,7 +149,6 @@
     .line 1491
     iget-object v2, p0, Lorg/telegram/ui/ChatActivity$12;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->actionModeSubTextView:Lorg/telegram/ui/ActionBar/SimpleTextView;
     invoke-static {v2}, Lorg/telegram/ui/ChatActivity;->access$4500(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/ActionBar/SimpleTextView;
 
     move-result-object v2
@@ -172,7 +166,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/ChatActivity$12;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->actionModeSubTextView:Lorg/telegram/ui/ActionBar/SimpleTextView;
     invoke-static {v4}, Lorg/telegram/ui/ChatActivity;->access$4500(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/ActionBar/SimpleTextView;
 
     move-result-object v4
@@ -215,14 +208,12 @@
     .line 1493
     iget-object v2, p0, Lorg/telegram/ui/ChatActivity$12;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->actionModeSubTextView:Lorg/telegram/ui/ActionBar/SimpleTextView;
     invoke-static {v2}, Lorg/telegram/ui/ChatActivity;->access$4500(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/ActionBar/SimpleTextView;
 
     move-result-object v2
 
     iget-object v3, p0, Lorg/telegram/ui/ChatActivity$12;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->actionModeSubTextView:Lorg/telegram/ui/ActionBar/SimpleTextView;
     invoke-static {v3}, Lorg/telegram/ui/ChatActivity;->access$4500(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/ActionBar/SimpleTextView;
 
     move-result-object v3
@@ -233,7 +224,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/ChatActivity$12;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->actionModeSubTextView:Lorg/telegram/ui/ActionBar/SimpleTextView;
     invoke-static {v4}, Lorg/telegram/ui/ChatActivity;->access$4500(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/ActionBar/SimpleTextView;
 
     move-result-object v4
@@ -261,7 +251,6 @@
     :cond_3
     iget-object v2, p0, Lorg/telegram/ui/ChatActivity$12;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->actionModeTextView:Lorg/telegram/ui/ActionBar/SimpleTextView;
     invoke-static {v2}, Lorg/telegram/ui/ChatActivity;->access$4400(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/ActionBar/SimpleTextView;
 
     move-result-object v2
@@ -306,7 +295,6 @@
     .line 1470
     iget-object v2, p0, Lorg/telegram/ui/ChatActivity$12;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->actionModeTextView:Lorg/telegram/ui/ActionBar/SimpleTextView;
     invoke-static {v2}, Lorg/telegram/ui/ChatActivity;->access$4400(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/ActionBar/SimpleTextView;
 
     move-result-object v3
@@ -337,7 +325,6 @@
     .line 1471
     iget-object v2, p0, Lorg/telegram/ui/ChatActivity$12;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->actionModeTextView:Lorg/telegram/ui/ActionBar/SimpleTextView;
     invoke-static {v2}, Lorg/telegram/ui/ChatActivity;->access$4400(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/ActionBar/SimpleTextView;
 
     move-result-object v2
@@ -361,7 +348,6 @@
     .line 1473
     iget-object v2, p0, Lorg/telegram/ui/ChatActivity$12;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->actionModeSubTextView:Lorg/telegram/ui/ActionBar/SimpleTextView;
     invoke-static {v2}, Lorg/telegram/ui/ChatActivity;->access$4500(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/ActionBar/SimpleTextView;
 
     move-result-object v2
@@ -377,7 +363,6 @@
     .line 1474
     iget-object v2, p0, Lorg/telegram/ui/ChatActivity$12;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->actionModeSubTextView:Lorg/telegram/ui/ActionBar/SimpleTextView;
     invoke-static {v2}, Lorg/telegram/ui/ChatActivity;->access$4500(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/ActionBar/SimpleTextView;
 
     move-result-object v3
@@ -408,7 +393,6 @@
     .line 1475
     iget-object v2, p0, Lorg/telegram/ui/ChatActivity$12;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->actionModeSubTextView:Lorg/telegram/ui/ActionBar/SimpleTextView;
     invoke-static {v2}, Lorg/telegram/ui/ChatActivity;->access$4500(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/ActionBar/SimpleTextView;
 
     move-result-object v2

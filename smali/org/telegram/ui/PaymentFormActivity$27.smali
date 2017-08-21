@@ -48,13 +48,11 @@
 
     const/4 v1, 0x1
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->setDonePressed(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/PaymentFormActivity;->access$500(Lorg/telegram/ui/PaymentFormActivity;Z)V
 
     .line 1860
     iget-object v0, p0, Lorg/telegram/ui/PaymentFormActivity$27;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->sendData()V
     invoke-static {v0}, Lorg/telegram/ui/PaymentFormActivity;->access$4000(Lorg/telegram/ui/PaymentFormActivity;)V
 
     .line 1861

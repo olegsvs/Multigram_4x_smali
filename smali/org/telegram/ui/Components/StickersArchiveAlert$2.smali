@@ -46,7 +46,6 @@
     .line 91
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersArchiveAlert$2;->this$0:Lorg/telegram/ui/Components/StickersArchiveAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersArchiveAlert;->parentFragment:Lorg/telegram/ui/ActionBar/BaseFragment;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersArchiveAlert;->access$100(Lorg/telegram/ui/Components/StickersArchiveAlert;)Lorg/telegram/ui/ActionBar/BaseFragment;
 
     move-result-object v0
@@ -55,7 +54,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Components/StickersArchiveAlert$2;->this$0:Lorg/telegram/ui/Components/StickersArchiveAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersArchiveAlert;->currentType:I
     invoke-static {v2}, Lorg/telegram/ui/Components/StickersArchiveAlert;->access$000(Lorg/telegram/ui/Components/StickersArchiveAlert;)I
 
     move-result v2

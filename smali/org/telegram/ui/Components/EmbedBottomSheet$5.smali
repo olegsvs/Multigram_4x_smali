@@ -44,7 +44,6 @@
     .line 235
     iget-object v0, p0, Lorg/telegram/ui/Components/EmbedBottomSheet$5;->this$0:Lorg/telegram/ui/Components/EmbedBottomSheet;
 
-    # getter for: Lorg/telegram/ui/Components/EmbedBottomSheet;->customView:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmbedBottomSheet;->access$700(Lorg/telegram/ui/Components/EmbedBottomSheet;)Landroid/view/View;
 
     move-result-object v0
@@ -70,7 +69,6 @@
     .line 240
     iget-object v0, p0, Lorg/telegram/ui/Components/EmbedBottomSheet$5;->this$0:Lorg/telegram/ui/Components/EmbedBottomSheet;
 
-    # getter for: Lorg/telegram/ui/Components/EmbedBottomSheet;->fullscreenVideoContainer:Landroid/widget/FrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmbedBottomSheet;->access$800(Lorg/telegram/ui/Components/EmbedBottomSheet;)Landroid/widget/FrameLayout;
 
     move-result-object v0
@@ -82,14 +80,12 @@
     .line 241
     iget-object v0, p0, Lorg/telegram/ui/Components/EmbedBottomSheet$5;->this$0:Lorg/telegram/ui/Components/EmbedBottomSheet;
 
-    # getter for: Lorg/telegram/ui/Components/EmbedBottomSheet;->fullscreenVideoContainer:Landroid/widget/FrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmbedBottomSheet;->access$800(Lorg/telegram/ui/Components/EmbedBottomSheet;)Landroid/widget/FrameLayout;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/Components/EmbedBottomSheet$5;->this$0:Lorg/telegram/ui/Components/EmbedBottomSheet;
 
-    # getter for: Lorg/telegram/ui/Components/EmbedBottomSheet;->customView:Landroid/view/View;
     invoke-static {v1}, Lorg/telegram/ui/Components/EmbedBottomSheet;->access$700(Lorg/telegram/ui/Components/EmbedBottomSheet;)Landroid/view/View;
 
     move-result-object v1
@@ -99,7 +95,6 @@
     .line 243
     iget-object v0, p0, Lorg/telegram/ui/Components/EmbedBottomSheet$5;->this$0:Lorg/telegram/ui/Components/EmbedBottomSheet;
 
-    # getter for: Lorg/telegram/ui/Components/EmbedBottomSheet;->customViewCallback:Landroid/webkit/WebChromeClient$CustomViewCallback;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmbedBottomSheet;->access$900(Lorg/telegram/ui/Components/EmbedBottomSheet;)Landroid/webkit/WebChromeClient$CustomViewCallback;
 
     move-result-object v0
@@ -108,7 +103,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/EmbedBottomSheet$5;->this$0:Lorg/telegram/ui/Components/EmbedBottomSheet;
 
-    # getter for: Lorg/telegram/ui/Components/EmbedBottomSheet;->customViewCallback:Landroid/webkit/WebChromeClient$CustomViewCallback;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmbedBottomSheet;->access$900(Lorg/telegram/ui/Components/EmbedBottomSheet;)Landroid/webkit/WebChromeClient$CustomViewCallback;
 
     move-result-object v0
@@ -132,7 +126,6 @@
     .line 244
     iget-object v0, p0, Lorg/telegram/ui/Components/EmbedBottomSheet$5;->this$0:Lorg/telegram/ui/Components/EmbedBottomSheet;
 
-    # getter for: Lorg/telegram/ui/Components/EmbedBottomSheet;->customViewCallback:Landroid/webkit/WebChromeClient$CustomViewCallback;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmbedBottomSheet;->access$900(Lorg/telegram/ui/Components/EmbedBottomSheet;)Landroid/webkit/WebChromeClient$CustomViewCallback;
 
     move-result-object v0
@@ -145,7 +138,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/EmbedBottomSheet;->customView:Landroid/view/View;
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/EmbedBottomSheet;->access$702(Lorg/telegram/ui/Components/EmbedBottomSheet;Landroid/view/View;)Landroid/view/View;
 
     goto :goto_0
@@ -174,7 +166,6 @@
     .line 221
     iget-object v0, p0, Lorg/telegram/ui/Components/EmbedBottomSheet$5;->this$0:Lorg/telegram/ui/Components/EmbedBottomSheet;
 
-    # getter for: Lorg/telegram/ui/Components/EmbedBottomSheet;->customView:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmbedBottomSheet;->access$700(Lorg/telegram/ui/Components/EmbedBottomSheet;)Landroid/view/View;
 
     move-result-object v0
@@ -192,7 +183,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/Components/EmbedBottomSheet$5;->this$0:Lorg/telegram/ui/Components/EmbedBottomSheet;
 
-    # setter for: Lorg/telegram/ui/Components/EmbedBottomSheet;->customView:Landroid/view/View;
     invoke-static {v0, p1}, Lorg/telegram/ui/Components/EmbedBottomSheet;->access$702(Lorg/telegram/ui/Components/EmbedBottomSheet;Landroid/view/View;)Landroid/view/View;
 
     .line 226
@@ -209,7 +199,6 @@
     .line 227
     iget-object v0, p0, Lorg/telegram/ui/Components/EmbedBottomSheet$5;->this$0:Lorg/telegram/ui/Components/EmbedBottomSheet;
 
-    # getter for: Lorg/telegram/ui/Components/EmbedBottomSheet;->fullscreenVideoContainer:Landroid/widget/FrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmbedBottomSheet;->access$800(Lorg/telegram/ui/Components/EmbedBottomSheet;)Landroid/widget/FrameLayout;
 
     move-result-object v0
@@ -221,7 +210,6 @@
     .line 228
     iget-object v0, p0, Lorg/telegram/ui/Components/EmbedBottomSheet$5;->this$0:Lorg/telegram/ui/Components/EmbedBottomSheet;
 
-    # getter for: Lorg/telegram/ui/Components/EmbedBottomSheet;->fullscreenVideoContainer:Landroid/widget/FrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmbedBottomSheet;->access$800(Lorg/telegram/ui/Components/EmbedBottomSheet;)Landroid/widget/FrameLayout;
 
     move-result-object v0
@@ -239,7 +227,6 @@
     .line 229
     iget-object v0, p0, Lorg/telegram/ui/Components/EmbedBottomSheet$5;->this$0:Lorg/telegram/ui/Components/EmbedBottomSheet;
 
-    # setter for: Lorg/telegram/ui/Components/EmbedBottomSheet;->customViewCallback:Landroid/webkit/WebChromeClient$CustomViewCallback;
     invoke-static {v0, p2}, Lorg/telegram/ui/Components/EmbedBottomSheet;->access$902(Lorg/telegram/ui/Components/EmbedBottomSheet;Landroid/webkit/WebChromeClient$CustomViewCallback;)Landroid/webkit/WebChromeClient$CustomViewCallback;
 
     goto :goto_0

@@ -44,7 +44,6 @@
     .line 238
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/source/dash/DashMediaSource$1;->this$0:Lorg/telegram/messenger/exoplayer2/source/dash/DashMediaSource;
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/source/dash/DashMediaSource;->startLoadingManifest()V
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/source/dash/DashMediaSource;->access$100(Lorg/telegram/messenger/exoplayer2/source/dash/DashMediaSource;)V
 
     .line 239

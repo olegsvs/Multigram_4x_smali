@@ -70,12 +70,10 @@
 
     .prologue
     .line 275
-    # getter for: Lorg/telegram/messenger/video/Track$SamplePresentationTime;->presentationTime:J
     invoke-static {p1}, Lorg/telegram/messenger/video/Track$SamplePresentationTime;->access$000(Lorg/telegram/messenger/video/Track$SamplePresentationTime;)J
 
     move-result-wide v0
 
-    # getter for: Lorg/telegram/messenger/video/Track$SamplePresentationTime;->presentationTime:J
     invoke-static {p2}, Lorg/telegram/messenger/video/Track$SamplePresentationTime;->access$000(Lorg/telegram/messenger/video/Track$SamplePresentationTime;)J
 
     move-result-wide v2
@@ -93,12 +91,10 @@
 
     .line 277
     :cond_0
-    # getter for: Lorg/telegram/messenger/video/Track$SamplePresentationTime;->presentationTime:J
     invoke-static {p1}, Lorg/telegram/messenger/video/Track$SamplePresentationTime;->access$000(Lorg/telegram/messenger/video/Track$SamplePresentationTime;)J
 
     move-result-wide v0
 
-    # getter for: Lorg/telegram/messenger/video/Track$SamplePresentationTime;->presentationTime:J
     invoke-static {p2}, Lorg/telegram/messenger/video/Track$SamplePresentationTime;->access$000(Lorg/telegram/messenger/video/Track$SamplePresentationTime;)J
 
     move-result-wide v2

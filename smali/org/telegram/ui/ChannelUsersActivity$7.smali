@@ -53,7 +53,6 @@
     .line 658
     iget-object v1, p0, Lorg/telegram/ui/ChannelUsersActivity$7;->this$0:Lorg/telegram/ui/ChannelUsersActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelUsersActivity;->type:I
     invoke-static {v1}, Lorg/telegram/ui/ChannelUsersActivity;->access$700(Lorg/telegram/ui/ChannelUsersActivity;)I
 
     move-result v1
@@ -63,7 +62,6 @@
     .line 659
     iget-object v1, p0, Lorg/telegram/ui/ChannelUsersActivity$7;->this$0:Lorg/telegram/ui/ChannelUsersActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelUsersActivity;->participants:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/ChannelUsersActivity;->access$1600(Lorg/telegram/ui/ChannelUsersActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -75,13 +73,11 @@
     .line 660
     iget-object v1, p0, Lorg/telegram/ui/ChannelUsersActivity$7;->this$0:Lorg/telegram/ui/ChannelUsersActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelUsersActivity;->updateRows()V
     invoke-static {v1}, Lorg/telegram/ui/ChannelUsersActivity;->access$1700(Lorg/telegram/ui/ChannelUsersActivity;)V
 
     .line 661
     iget-object v1, p0, Lorg/telegram/ui/ChannelUsersActivity$7;->this$0:Lorg/telegram/ui/ChannelUsersActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelUsersActivity;->listViewAdapter:Lorg/telegram/ui/ChannelUsersActivity$ListAdapter;
     invoke-static {v1}, Lorg/telegram/ui/ChannelUsersActivity;->access$400(Lorg/telegram/ui/ChannelUsersActivity;)Lorg/telegram/ui/ChannelUsersActivity$ListAdapter;
 
     move-result-object v1
@@ -108,7 +104,6 @@
     .line 664
     iget-object v1, p0, Lorg/telegram/ui/ChannelUsersActivity$7;->this$0:Lorg/telegram/ui/ChannelUsersActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelUsersActivity;->chatId:I
     invoke-static {v1}, Lorg/telegram/ui/ChannelUsersActivity;->access$800(Lorg/telegram/ui/ChannelUsersActivity;)I
 
     move-result v1
@@ -147,7 +142,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/ChannelUsersActivity$7;->this$0:Lorg/telegram/ui/ChannelUsersActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelUsersActivity;->type:I
     invoke-static {v1}, Lorg/telegram/ui/ChannelUsersActivity;->access$700(Lorg/telegram/ui/ChannelUsersActivity;)I
 
     move-result v1
@@ -159,7 +153,6 @@
     .line 685
     iget-object v1, p0, Lorg/telegram/ui/ChannelUsersActivity$7;->this$0:Lorg/telegram/ui/ChannelUsersActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelUsersActivity;->chatId:I
     invoke-static {v1}, Lorg/telegram/ui/ChannelUsersActivity;->access$800(Lorg/telegram/ui/ChannelUsersActivity;)I
 
     move-result v1
@@ -186,7 +179,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/ChannelUsersActivity$7;->this$0:Lorg/telegram/ui/ChannelUsersActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelUsersActivity;->currentChat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v4}, Lorg/telegram/ui/ChannelUsersActivity;->access$1400(Lorg/telegram/ui/ChannelUsersActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v4
@@ -203,7 +195,6 @@
     :cond_2
     iget-object v1, p0, Lorg/telegram/ui/ChannelUsersActivity$7;->this$0:Lorg/telegram/ui/ChannelUsersActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelUsersActivity;->type:I
     invoke-static {v1}, Lorg/telegram/ui/ChannelUsersActivity;->access$700(Lorg/telegram/ui/ChannelUsersActivity;)I
 
     move-result v1
@@ -219,7 +210,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ChannelUsersActivity$7;->this$0:Lorg/telegram/ui/ChannelUsersActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelUsersActivity;->chatId:I
     invoke-static {v2}, Lorg/telegram/ui/ChannelUsersActivity;->access$800(Lorg/telegram/ui/ChannelUsersActivity;)I
 
     move-result v2

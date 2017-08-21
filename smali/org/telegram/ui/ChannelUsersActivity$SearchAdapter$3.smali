@@ -52,7 +52,6 @@
     .line 951
     iget-object v0, p0, Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter$3;->this$1:Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;
 
-    # getter for: Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;->searchAdapterHelper:Lorg/telegram/ui/Adapters/SearchAdapterHelper;
     invoke-static {v0}, Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;->access$2600(Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;)Lorg/telegram/ui/Adapters/SearchAdapterHelper;
 
     move-result-object v0
@@ -63,7 +62,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;->this$0:Lorg/telegram/ui/ChannelUsersActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelUsersActivity;->selectType:I
     invoke-static {v2}, Lorg/telegram/ui/ChannelUsersActivity;->access$1300(Lorg/telegram/ui/ChannelUsersActivity;)I
 
     move-result v2
@@ -77,7 +75,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;->this$0:Lorg/telegram/ui/ChannelUsersActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelUsersActivity;->chatId:I
     invoke-static {v5}, Lorg/telegram/ui/ChannelUsersActivity;->access$800(Lorg/telegram/ui/ChannelUsersActivity;)I
 
     move-result v6
@@ -86,7 +83,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;->this$0:Lorg/telegram/ui/ChannelUsersActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelUsersActivity;->type:I
     invoke-static {v5}, Lorg/telegram/ui/ChannelUsersActivity;->access$700(Lorg/telegram/ui/ChannelUsersActivity;)I
 
     move-result v5
@@ -105,7 +101,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;->this$0:Lorg/telegram/ui/ChannelUsersActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelUsersActivity;->selectType:I
     invoke-static {v0}, Lorg/telegram/ui/ChannelUsersActivity;->access$1300(Lorg/telegram/ui/ChannelUsersActivity;)I
 
     move-result v0

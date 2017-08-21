@@ -66,7 +66,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/ContactsController$6;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # operator++ for: Lorg/telegram/messenger/ContactsController;->completedRequestsCount:I
     invoke-static {v6}, Lorg/telegram/messenger/ContactsController;->access$008(Lorg/telegram/messenger/ContactsController;)I
 
     .line 819
@@ -143,7 +142,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/ContactsController$6;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # getter for: Lorg/telegram/messenger/ContactsController;->completedRequestsCount:I
     invoke-static {v6}, Lorg/telegram/messenger/ContactsController;->access$000(Lorg/telegram/messenger/ContactsController;)I
 
     move-result v6
@@ -249,7 +247,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/ContactsController$6;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # getter for: Lorg/telegram/messenger/ContactsController;->completedRequestsCount:I
     invoke-static {v6}, Lorg/telegram/messenger/ContactsController;->access$000(Lorg/telegram/messenger/ContactsController;)I
 
     move-result v6

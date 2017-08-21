@@ -46,7 +46,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/Components/EmojiView$29;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->mediaBanTooltip:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmojiView;->access$6200(Lorg/telegram/ui/Components/EmojiView;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -60,7 +59,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/Components/EmojiView$29;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->mediaBanTooltip:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmojiView;->access$6200(Lorg/telegram/ui/Components/EmojiView;)Landroid/widget/TextView;
 
     move-result-object v0

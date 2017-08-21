@@ -45,7 +45,6 @@
     .line 116
     iget-object v0, p0, Lorg/telegram/ui/Components/ColorSelectorDialog$2;->this$0:Lorg/telegram/ui/Components/ColorSelectorDialog;
 
-    # getter for: Lorg/telegram/ui/Components/ColorSelectorDialog;->listener:Lorg/telegram/ui/Components/ColorSelectorDialog$OnColorChangedListener;
     invoke-static {v0}, Lorg/telegram/ui/Components/ColorSelectorDialog;->access$000(Lorg/telegram/ui/Components/ColorSelectorDialog;)Lorg/telegram/ui/Components/ColorSelectorDialog$OnColorChangedListener;
 
     move-result-object v0
@@ -55,14 +54,12 @@
     .line 117
     iget-object v0, p0, Lorg/telegram/ui/Components/ColorSelectorDialog$2;->this$0:Lorg/telegram/ui/Components/ColorSelectorDialog;
 
-    # getter for: Lorg/telegram/ui/Components/ColorSelectorDialog;->listener:Lorg/telegram/ui/Components/ColorSelectorDialog$OnColorChangedListener;
     invoke-static {v0}, Lorg/telegram/ui/Components/ColorSelectorDialog;->access$000(Lorg/telegram/ui/Components/ColorSelectorDialog;)Lorg/telegram/ui/Components/ColorSelectorDialog$OnColorChangedListener;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/Components/ColorSelectorDialog$2;->this$0:Lorg/telegram/ui/Components/ColorSelectorDialog;
 
-    # getter for: Lorg/telegram/ui/Components/ColorSelectorDialog;->color:I
     invoke-static {v1}, Lorg/telegram/ui/Components/ColorSelectorDialog;->access$100(Lorg/telegram/ui/Components/ColorSelectorDialog;)I
 
     move-result v1
@@ -73,14 +70,12 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/Components/ColorSelectorDialog$2;->this$0:Lorg/telegram/ui/Components/ColorSelectorDialog;
 
-    # getter for: Lorg/telegram/ui/Components/ColorSelectorDialog;->history:Lorg/telegram/ui/Components/HistorySelectorView;
     invoke-static {v0}, Lorg/telegram/ui/Components/ColorSelectorDialog;->access$200(Lorg/telegram/ui/Components/ColorSelectorDialog;)Lorg/telegram/ui/Components/HistorySelectorView;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/Components/ColorSelectorDialog$2;->this$0:Lorg/telegram/ui/Components/ColorSelectorDialog;
 
-    # getter for: Lorg/telegram/ui/Components/ColorSelectorDialog;->color:I
     invoke-static {v1}, Lorg/telegram/ui/Components/ColorSelectorDialog;->access$100(Lorg/telegram/ui/Components/ColorSelectorDialog;)I
 
     move-result v1

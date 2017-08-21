@@ -56,7 +56,6 @@
     .line 430
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/audio/MediaCodecAudioRenderer$AudioTrackListener;->this$0:Lorg/telegram/messenger/exoplayer2/audio/MediaCodecAudioRenderer;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/audio/MediaCodecAudioRenderer;->eventDispatcher:Lorg/telegram/messenger/exoplayer2/audio/AudioRendererEventListener$EventDispatcher;
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/audio/MediaCodecAudioRenderer;->access$100(Lorg/telegram/messenger/exoplayer2/audio/MediaCodecAudioRenderer;)Lorg/telegram/messenger/exoplayer2/audio/AudioRendererEventListener$EventDispatcher;
 
     move-result-object v0
@@ -86,7 +85,6 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/messenger/exoplayer2/audio/MediaCodecAudioRenderer;->allowPositionDiscontinuity:Z
     invoke-static {v0, v1}, Lorg/telegram/messenger/exoplayer2/audio/MediaCodecAudioRenderer;->access$202(Lorg/telegram/messenger/exoplayer2/audio/MediaCodecAudioRenderer;Z)Z
 
     .line 439
@@ -103,7 +101,6 @@
     .line 443
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/audio/MediaCodecAudioRenderer$AudioTrackListener;->this$0:Lorg/telegram/messenger/exoplayer2/audio/MediaCodecAudioRenderer;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/audio/MediaCodecAudioRenderer;->eventDispatcher:Lorg/telegram/messenger/exoplayer2/audio/AudioRendererEventListener$EventDispatcher;
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/audio/MediaCodecAudioRenderer;->access$100(Lorg/telegram/messenger/exoplayer2/audio/MediaCodecAudioRenderer;)Lorg/telegram/messenger/exoplayer2/audio/AudioRendererEventListener$EventDispatcher;
 
     move-result-object v0

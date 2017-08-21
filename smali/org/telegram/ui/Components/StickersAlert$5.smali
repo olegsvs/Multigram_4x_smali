@@ -42,7 +42,6 @@
     .line 335
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$5;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->stickerSetCovereds:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$300(Lorg/telegram/ui/Components/StickersAlert;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -51,12 +50,10 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$5;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->adapter:Lorg/telegram/ui/Components/StickersAlert$GridAdapter;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$700(Lorg/telegram/ui/Components/StickersAlert;)Lorg/telegram/ui/Components/StickersAlert$GridAdapter;
 
     move-result-object v0
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert$GridAdapter;->cache:Ljava/util/HashMap;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert$GridAdapter;->access$2300(Lorg/telegram/ui/Components/StickersAlert$GridAdapter;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -76,12 +73,10 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$5;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->adapter:Lorg/telegram/ui/Components/StickersAlert$GridAdapter;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$700(Lorg/telegram/ui/Components/StickersAlert;)Lorg/telegram/ui/Components/StickersAlert$GridAdapter;
 
     move-result-object v0
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert$GridAdapter;->totalItems:I
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert$GridAdapter;->access$2400(Lorg/telegram/ui/Components/StickersAlert$GridAdapter;)I
 
     move-result v0
@@ -92,12 +87,10 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$5;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->adapter:Lorg/telegram/ui/Components/StickersAlert$GridAdapter;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$700(Lorg/telegram/ui/Components/StickersAlert;)Lorg/telegram/ui/Components/StickersAlert$GridAdapter;
 
     move-result-object v0
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert$GridAdapter;->stickersPerRow:I
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert$GridAdapter;->access$2500(Lorg/telegram/ui/Components/StickersAlert$GridAdapter;)I
 
     move-result v0

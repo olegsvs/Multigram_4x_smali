@@ -81,7 +81,6 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/messenger/voip/VoIPService$12;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # invokes: Lorg/telegram/messenger/voip/VoIPService;->callEnded()V
     invoke-static {v0}, Lorg/telegram/messenger/voip/VoIPService;->access$2500(Lorg/telegram/messenger/voip/VoIPService;)V
 
     goto :goto_0

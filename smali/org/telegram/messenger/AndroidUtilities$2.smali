@@ -54,7 +54,6 @@
     .line 775
     iget-object v0, p0, Lorg/telegram/messenger/AndroidUtilities$2;->val$number:Ljava/lang/String;
 
-    # invokes: Lorg/telegram/messenger/AndroidUtilities;->registerLoginContentObserver(ZLjava/lang/String;)V
     invoke-static {v1, v0}, Lorg/telegram/messenger/AndroidUtilities;->access$000(ZLjava/lang/String;)V
 
     .line 776

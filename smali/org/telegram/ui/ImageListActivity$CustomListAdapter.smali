@@ -100,7 +100,6 @@
     .local v4, "themePrefs":Landroid/content/SharedPreferences;
     iget-object v6, p0, Lorg/telegram/ui/ImageListActivity$CustomListAdapter;->this$0:Lorg/telegram/ui/ImageListActivity;
 
-    # getter for: Lorg/telegram/ui/ImageListActivity;->arrayId:I
     invoke-static {v6}, Lorg/telegram/ui/ImageListActivity;->access$000(Lorg/telegram/ui/ImageListActivity;)I
 
     move-result v6
@@ -211,7 +210,6 @@
     .line 142
     iget-object v6, p0, Lorg/telegram/ui/ImageListActivity$CustomListAdapter;->this$0:Lorg/telegram/ui/ImageListActivity;
 
-    # getter for: Lorg/telegram/ui/ImageListActivity;->arrayId:I
     invoke-static {v6}, Lorg/telegram/ui/ImageListActivity;->access$000(Lorg/telegram/ui/ImageListActivity;)I
 
     move-result v6

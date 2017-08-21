@@ -67,7 +67,6 @@
 
     iget-object v1, v0, Lorg/telegram/ui/ArticleViewer$12;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->headerPaint:Landroid/graphics/Paint;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$5200(Lorg/telegram/ui/ArticleViewer;)Landroid/graphics/Paint;
 
     move-result-object v6
@@ -81,7 +80,6 @@
 
     iget-object v1, v0, Lorg/telegram/ui/ArticleViewer$12;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$5300(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v1
@@ -99,7 +97,6 @@
 
     iget-object v1, v0, Lorg/telegram/ui/ArticleViewer$12;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$5300(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v1
@@ -114,7 +111,6 @@
 
     iget-object v1, v0, Lorg/telegram/ui/ArticleViewer$12;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$5300(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v1
@@ -129,7 +125,6 @@
 
     iget-object v1, v0, Lorg/telegram/ui/ArticleViewer$12;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$5300(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v1
@@ -149,7 +144,6 @@
 
     iget-object v1, v0, Lorg/telegram/ui/ArticleViewer$12;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$5300(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v1
@@ -182,7 +176,6 @@
 
     iget-object v1, v0, Lorg/telegram/ui/ArticleViewer$12;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$5300(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v1
@@ -218,7 +211,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/ArticleViewer$12;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$3700(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v2
@@ -260,7 +252,6 @@
 
     iget-object v1, v0, Lorg/telegram/ui/ArticleViewer$12;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->headerProgressPaint:Landroid/graphics/Paint;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$5400(Lorg/telegram/ui/ArticleViewer;)Landroid/graphics/Paint;
 
     move-result-object v6
@@ -283,7 +274,6 @@
 
     iget-object v1, v0, Lorg/telegram/ui/ArticleViewer$12;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$5300(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v1
@@ -312,7 +302,6 @@
 
     iget-object v5, v0, Lorg/telegram/ui/ArticleViewer$12;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v5}, Lorg/telegram/ui/ArticleViewer;->access$3700(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v5

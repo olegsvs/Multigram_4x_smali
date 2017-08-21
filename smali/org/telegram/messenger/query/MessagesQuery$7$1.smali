@@ -76,7 +76,6 @@
 
     const/4 v6, 0x0
 
-    # invokes: Lorg/telegram/messenger/query/MessagesQuery;->broadcastReplyMessages(Ljava/util/ArrayList;Ljava/util/HashMap;Ljava/util/ArrayList;Ljava/util/ArrayList;JZ)V
     invoke-static/range {v0 .. v6}, Lorg/telegram/messenger/query/MessagesQuery;->access$300(Ljava/util/ArrayList;Ljava/util/HashMap;Ljava/util/ArrayList;Ljava/util/ArrayList;JZ)V
 
     .line 353
@@ -97,7 +96,6 @@
 
     iget-object v1, v7, Lorg/telegram/tgnet/TLRPC$messages_Messages;->messages:Ljava/util/ArrayList;
 
-    # invokes: Lorg/telegram/messenger/query/MessagesQuery;->saveReplyMessages(Ljava/util/HashMap;Ljava/util/ArrayList;)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/query/MessagesQuery;->access$400(Ljava/util/HashMap;Ljava/util/ArrayList;)V
 
     .line 356

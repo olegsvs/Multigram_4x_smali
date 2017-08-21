@@ -58,7 +58,6 @@
     .line 269
     iget-object v0, p0, Lorg/telegram/ui/Adapters/MentionsAdapter$6;->this$0:Lorg/telegram/ui/Adapters/MentionsAdapter;
 
-    # invokes: Lorg/telegram/ui/Adapters/MentionsAdapter;->onLocationUnavailable()V
     invoke-static {v0}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$400(Lorg/telegram/ui/Adapters/MentionsAdapter;)V
 
     .line 271

@@ -456,7 +456,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ChannelEditActivity$SearchAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->chat_id:I
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$100(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v6

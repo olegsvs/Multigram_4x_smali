@@ -62,7 +62,6 @@
     .line 345
     iget-object v0, p0, Lorg/telegram/ui/PopupNotificationActivity$2;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->currentMessageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v0}, Lorg/telegram/ui/PopupNotificationActivity;->access$300(Lorg/telegram/ui/PopupNotificationActivity;)Lorg/telegram/messenger/MessageObject;
 
     move-result-object v0
@@ -76,7 +75,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PopupNotificationActivity$2;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->currentMessageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v1}, Lorg/telegram/ui/PopupNotificationActivity;->access$300(Lorg/telegram/ui/PopupNotificationActivity;)Lorg/telegram/messenger/MessageObject;
 
     move-result-object v1
@@ -89,7 +87,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/PopupNotificationActivity$2;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->classGuid:I
     invoke-static {v4}, Lorg/telegram/ui/PopupNotificationActivity;->access$700(Lorg/telegram/ui/PopupNotificationActivity;)I
 
     move-result v4
@@ -162,7 +159,6 @@
     .line 312
     iget-object v0, p0, Lorg/telegram/ui/PopupNotificationActivity$2;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->currentMessageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v0}, Lorg/telegram/ui/PopupNotificationActivity;->access$300(Lorg/telegram/ui/PopupNotificationActivity;)Lorg/telegram/messenger/MessageObject;
 
     move-result-object v0
@@ -177,7 +173,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/PopupNotificationActivity$2;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->currentMessageNum:I
     invoke-static {v0}, Lorg/telegram/ui/PopupNotificationActivity;->access$400(Lorg/telegram/ui/PopupNotificationActivity;)I
 
     move-result v0
@@ -186,14 +181,12 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PopupNotificationActivity$2;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->currentMessageNum:I
     invoke-static {v0}, Lorg/telegram/ui/PopupNotificationActivity;->access$400(Lorg/telegram/ui/PopupNotificationActivity;)I
 
     move-result v0
 
     iget-object v1, p0, Lorg/telegram/ui/PopupNotificationActivity$2;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->popupMessages:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/PopupNotificationActivity;->access$500(Lorg/telegram/ui/PopupNotificationActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -207,14 +200,12 @@
     .line 316
     iget-object v0, p0, Lorg/telegram/ui/PopupNotificationActivity$2;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->popupMessages:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/PopupNotificationActivity;->access$500(Lorg/telegram/ui/PopupNotificationActivity;)Ljava/util/ArrayList;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/PopupNotificationActivity$2;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->currentMessageNum:I
     invoke-static {v1}, Lorg/telegram/ui/PopupNotificationActivity;->access$400(Lorg/telegram/ui/PopupNotificationActivity;)I
 
     move-result v1
@@ -229,7 +220,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PopupNotificationActivity$2;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->currentMessageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v0}, Lorg/telegram/ui/PopupNotificationActivity;->access$300(Lorg/telegram/ui/PopupNotificationActivity;)Lorg/telegram/messenger/MessageObject;
 
     move-result-object v0
@@ -240,7 +230,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PopupNotificationActivity$2;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->currentMessageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v0}, Lorg/telegram/ui/PopupNotificationActivity;->access$300(Lorg/telegram/ui/PopupNotificationActivity;)Lorg/telegram/messenger/MessageObject;
 
     move-result-object v0
@@ -253,7 +242,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/PopupNotificationActivity$2;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->currentMessageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v5}, Lorg/telegram/ui/PopupNotificationActivity;->access$300(Lorg/telegram/ui/PopupNotificationActivity;)Lorg/telegram/messenger/MessageObject;
 
     move-result-object v5
@@ -268,7 +256,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PopupNotificationActivity$2;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->currentMessageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v0}, Lorg/telegram/ui/PopupNotificationActivity;->access$300(Lorg/telegram/ui/PopupNotificationActivity;)Lorg/telegram/messenger/MessageObject;
 
     move-result-object v0
@@ -286,13 +273,11 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/PopupNotificationActivity;->currentMessageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v0, v1}, Lorg/telegram/ui/PopupNotificationActivity;->access$302(Lorg/telegram/ui/PopupNotificationActivity;Lorg/telegram/messenger/MessageObject;)Lorg/telegram/messenger/MessageObject;
 
     .line 320
     iget-object v0, p0, Lorg/telegram/ui/PopupNotificationActivity$2;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # invokes: Lorg/telegram/ui/PopupNotificationActivity;->getNewMessage()V
     invoke-static {v0}, Lorg/telegram/ui/PopupNotificationActivity;->access$600(Lorg/telegram/ui/PopupNotificationActivity;)V
 
     goto :goto_0

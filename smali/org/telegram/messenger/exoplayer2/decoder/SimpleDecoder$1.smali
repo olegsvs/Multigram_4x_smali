@@ -43,7 +43,6 @@
     .local p0, "this":Lorg/telegram/messenger/exoplayer2/decoder/SimpleDecoder$1;, "Lorg/telegram/messenger/exoplayer2/decoder/SimpleDecoder.1;"
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/decoder/SimpleDecoder$1;->this$0:Lorg/telegram/messenger/exoplayer2/decoder/SimpleDecoder;
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/decoder/SimpleDecoder;->run()V
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/decoder/SimpleDecoder;->access$000(Lorg/telegram/messenger/exoplayer2/decoder/SimpleDecoder;)V
 
     .line 67

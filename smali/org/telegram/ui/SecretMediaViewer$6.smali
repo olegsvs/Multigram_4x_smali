@@ -48,19 +48,16 @@
     .line 855
     iget-object v0, p0, Lorg/telegram/ui/SecretMediaViewer$6;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # setter for: Lorg/telegram/ui/SecretMediaViewer;->photoAnimationInProgress:I
     invoke-static {v0, v2}, Lorg/telegram/ui/SecretMediaViewer;->access$2202(Lorg/telegram/ui/SecretMediaViewer;I)I
 
     .line 856
     iget-object v0, p0, Lorg/telegram/ui/SecretMediaViewer$6;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # setter for: Lorg/telegram/ui/SecretMediaViewer;->imageMoveAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0, v3}, Lorg/telegram/ui/SecretMediaViewer;->access$1402(Lorg/telegram/ui/SecretMediaViewer;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 857
     iget-object v0, p0, Lorg/telegram/ui/SecretMediaViewer$6;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->containerView:Lorg/telegram/ui/SecretMediaViewer$FrameLayoutDrawer;
     invoke-static {v0}, Lorg/telegram/ui/SecretMediaViewer;->access$1200(Lorg/telegram/ui/SecretMediaViewer;)Lorg/telegram/ui/SecretMediaViewer$FrameLayoutDrawer;
 
     move-result-object v0
@@ -82,7 +79,6 @@
     .line 861
     iget-object v0, p0, Lorg/telegram/ui/SecretMediaViewer$6;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->containerView:Lorg/telegram/ui/SecretMediaViewer$FrameLayoutDrawer;
     invoke-static {v0}, Lorg/telegram/ui/SecretMediaViewer;->access$1200(Lorg/telegram/ui/SecretMediaViewer;)Lorg/telegram/ui/SecretMediaViewer$FrameLayoutDrawer;
 
     move-result-object v0
@@ -93,7 +89,6 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/SecretMediaViewer$6;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->containerView:Lorg/telegram/ui/SecretMediaViewer$FrameLayoutDrawer;
     invoke-static {v0}, Lorg/telegram/ui/SecretMediaViewer;->access$1200(Lorg/telegram/ui/SecretMediaViewer;)Lorg/telegram/ui/SecretMediaViewer$FrameLayoutDrawer;
 
     move-result-object v0

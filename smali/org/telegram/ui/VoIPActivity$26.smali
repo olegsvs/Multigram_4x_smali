@@ -44,7 +44,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/VoIPActivity;->emojiAnimator:Landroid/animation/AnimatorSet;
     invoke-static {v0, v1}, Lorg/telegram/ui/VoIPActivity;->access$4202(Lorg/telegram/ui/VoIPActivity;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 1364

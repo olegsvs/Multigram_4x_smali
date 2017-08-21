@@ -50,7 +50,6 @@
     .line 738
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$21;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->shadowAnimation:[Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$3700(Lorg/telegram/ui/Components/StickersAlert;)[Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -63,7 +62,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$21;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->shadowAnimation:[Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$3700(Lorg/telegram/ui/Components/StickersAlert;)[Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -81,7 +79,6 @@
     .line 739
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$21;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->shadowAnimation:[Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$3700(Lorg/telegram/ui/Components/StickersAlert;)[Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -105,7 +102,6 @@
     .line 728
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$21;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->shadowAnimation:[Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$3700(Lorg/telegram/ui/Components/StickersAlert;)[Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -118,7 +114,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$21;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->shadowAnimation:[Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$3700(Lorg/telegram/ui/Components/StickersAlert;)[Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -141,7 +136,6 @@
     .line 730
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$21;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->shadow:[Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$600(Lorg/telegram/ui/Components/StickersAlert;)[Landroid/view/View;
 
     move-result-object v0
@@ -158,7 +152,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$21;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->shadowAnimation:[Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$3700(Lorg/telegram/ui/Components/StickersAlert;)[Landroid/animation/AnimatorSet;
 
     move-result-object v0

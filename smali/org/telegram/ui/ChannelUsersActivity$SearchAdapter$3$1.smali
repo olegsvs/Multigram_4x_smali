@@ -83,7 +83,6 @@
 
     invoke-direct {v15}, Ljava/util/ArrayList;-><init>()V
 
-    # invokes: Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;->updateSearchResults(Ljava/util/ArrayList;Ljava/util/ArrayList;)V
     invoke-static {v13, v14, v15}, Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;->access$2700(Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
 
     .line 1010
@@ -467,7 +466,6 @@
 
     iget-object v13, v13, Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter$3;->this$1:Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;
 
-    # invokes: Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;->updateSearchResults(Ljava/util/ArrayList;Ljava/util/ArrayList;)V
     invoke-static {v13, v6, v7}, Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;->access$2700(Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
 
     goto/16 :goto_0

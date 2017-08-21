@@ -45,7 +45,6 @@
     .line 552
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/AlertDialog$10;->this$0:Lorg/telegram/ui/ActionBar/AlertDialog;
 
-    # getter for: Lorg/telegram/ui/ActionBar/AlertDialog;->neutralButtonListener:Landroid/content/DialogInterface$OnClickListener;
     invoke-static {v0}, Lorg/telegram/ui/ActionBar/AlertDialog;->access$2100(Lorg/telegram/ui/ActionBar/AlertDialog;)Landroid/content/DialogInterface$OnClickListener;
 
     move-result-object v0
@@ -55,7 +54,6 @@
     .line 553
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/AlertDialog$10;->this$0:Lorg/telegram/ui/ActionBar/AlertDialog;
 
-    # getter for: Lorg/telegram/ui/ActionBar/AlertDialog;->neutralButtonListener:Landroid/content/DialogInterface$OnClickListener;
     invoke-static {v0}, Lorg/telegram/ui/ActionBar/AlertDialog;->access$2100(Lorg/telegram/ui/ActionBar/AlertDialog;)Landroid/content/DialogInterface$OnClickListener;
 
     move-result-object v0

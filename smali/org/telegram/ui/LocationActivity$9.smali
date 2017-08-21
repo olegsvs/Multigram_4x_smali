@@ -74,7 +74,6 @@
 
     const/4 v2, 0x1
 
-    # invokes: Lorg/telegram/ui/LocationActivity;->showPermissionAlert(Z)V
     invoke-static {v1, v2}, Lorg/telegram/ui/LocationActivity;->access$1500(Lorg/telegram/ui/LocationActivity;Z)V
 
     .line 465
@@ -87,7 +86,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$9;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->myLocation:Landroid/location/Location;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$1600(Lorg/telegram/ui/LocationActivity;)Landroid/location/Location;
 
     move-result-object v1
@@ -96,7 +94,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$9;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->googleMap:Lcom/google/android/gms/maps/GoogleMap;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$000(Lorg/telegram/ui/LocationActivity;)Lcom/google/android/gms/maps/GoogleMap;
 
     move-result-object v1
@@ -106,7 +103,6 @@
     .line 463
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$9;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->googleMap:Lcom/google/android/gms/maps/GoogleMap;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$000(Lorg/telegram/ui/LocationActivity;)Lcom/google/android/gms/maps/GoogleMap;
 
     move-result-object v1
@@ -115,7 +111,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/LocationActivity$9;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->myLocation:Landroid/location/Location;
     invoke-static {v3}, Lorg/telegram/ui/LocationActivity;->access$1600(Lorg/telegram/ui/LocationActivity;)Landroid/location/Location;
 
     move-result-object v3
@@ -126,7 +121,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/LocationActivity$9;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->myLocation:Landroid/location/Location;
     invoke-static {v3}, Lorg/telegram/ui/LocationActivity;->access$1600(Lorg/telegram/ui/LocationActivity;)Landroid/location/Location;
 
     move-result-object v3
@@ -139,7 +133,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/LocationActivity$9;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->googleMap:Lcom/google/android/gms/maps/GoogleMap;
     invoke-static {v3}, Lorg/telegram/ui/LocationActivity;->access$000(Lorg/telegram/ui/LocationActivity;)Lcom/google/android/gms/maps/GoogleMap;
 
     move-result-object v3

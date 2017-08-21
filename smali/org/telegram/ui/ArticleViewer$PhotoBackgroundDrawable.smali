@@ -93,7 +93,6 @@
     .line 6576
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$PhotoBackgroundDrawable;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->parentActivity:Landroid/app/Activity;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$1900(Lorg/telegram/ui/ArticleViewer;)Landroid/app/Activity;
 
     move-result-object v0
@@ -105,7 +104,6 @@
     .line 6577
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$PhotoBackgroundDrawable;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->parentActivity:Landroid/app/Activity;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$1900(Lorg/telegram/ui/ArticleViewer;)Landroid/app/Activity;
 
     move-result-object v0
@@ -116,7 +114,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$PhotoBackgroundDrawable;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->isPhotoVisible:Z
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$2300(Lorg/telegram/ui/ArticleViewer;)Z
 
     move-result v0

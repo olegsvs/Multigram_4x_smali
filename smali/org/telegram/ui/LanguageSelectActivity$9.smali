@@ -50,13 +50,11 @@
 
     iget-object v1, p0, Lorg/telegram/ui/LanguageSelectActivity$9;->val$arrCounties:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/ui/LanguageSelectActivity;->searchResult:Ljava/util/ArrayList;
     invoke-static {v0, v1}, Lorg/telegram/ui/LanguageSelectActivity;->access$602(Lorg/telegram/ui/LanguageSelectActivity;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 308
     iget-object v0, p0, Lorg/telegram/ui/LanguageSelectActivity$9;->this$0:Lorg/telegram/ui/LanguageSelectActivity;
 
-    # getter for: Lorg/telegram/ui/LanguageSelectActivity;->searchListViewAdapter:Lorg/telegram/ui/LanguageSelectActivity$ListAdapter;
     invoke-static {v0}, Lorg/telegram/ui/LanguageSelectActivity;->access$500(Lorg/telegram/ui/LanguageSelectActivity;)Lorg/telegram/ui/LanguageSelectActivity$ListAdapter;
 
     move-result-object v0

@@ -693,7 +693,6 @@
 
     .line 206
     .local v16, "parens_count":I
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->exprParensPattern:Ljava/util/regex/Pattern;
     invoke-static {}, Lorg/telegram/ui/Components/WebPlayerView;->access$300()Ljava/util/regex/Pattern;
 
     move-result-object v21
@@ -1854,7 +1853,6 @@
     move-result-object p1
 
     .line 339
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->stmtVarPattern:Ljava/util/regex/Pattern;
     invoke-static {}, Lorg/telegram/ui/Components/WebPlayerView;->access$400()Ljava/util/regex/Pattern;
 
     move-result-object v2
@@ -1895,7 +1893,6 @@
     .line 344
     .end local v0    # "expr":Ljava/lang/String;
     :cond_1
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->stmtReturnPattern:Ljava/util/regex/Pattern;
     invoke-static {}, Lorg/telegram/ui/Components/WebPlayerView;->access$500()Ljava/util/regex/Pattern;
 
     move-result-object v2

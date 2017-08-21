@@ -51,7 +51,6 @@
     .local v0, "result":Z
     iget-object v1, p0, Lorg/telegram/ui/GroupCreateFinalActivity$3;->this$0:Lorg/telegram/ui/GroupCreateFinalActivity;
 
-    # getter for: Lorg/telegram/ui/GroupCreateFinalActivity;->listView:Lorg/telegram/messenger/support/widget/RecyclerView;
     invoke-static {v1}, Lorg/telegram/ui/GroupCreateFinalActivity;->access$800(Lorg/telegram/ui/GroupCreateFinalActivity;)Lorg/telegram/messenger/support/widget/RecyclerView;
 
     move-result-object v1
@@ -61,14 +60,12 @@
     .line 211
     iget-object v1, p0, Lorg/telegram/ui/GroupCreateFinalActivity$3;->this$0:Lorg/telegram/ui/GroupCreateFinalActivity;
 
-    # getter for: Lorg/telegram/ui/GroupCreateFinalActivity;->parentLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v1}, Lorg/telegram/ui/GroupCreateFinalActivity;->access$1000(Lorg/telegram/ui/GroupCreateFinalActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/ui/GroupCreateFinalActivity$3;->this$0:Lorg/telegram/ui/GroupCreateFinalActivity;
 
-    # getter for: Lorg/telegram/ui/GroupCreateFinalActivity;->editTextContainer:Landroid/widget/FrameLayout;
     invoke-static {v2}, Lorg/telegram/ui/GroupCreateFinalActivity;->access$900(Lorg/telegram/ui/GroupCreateFinalActivity;)Landroid/widget/FrameLayout;
 
     move-result-object v2

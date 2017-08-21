@@ -47,7 +47,6 @@
     .line 606
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->rowCount:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$4400(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -63,7 +62,6 @@
     .line 815
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->messageSectionRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3100(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -72,7 +70,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->groupSectionRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3200(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -81,7 +78,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->inappSectionRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3300(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -91,7 +87,6 @@
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
     .line 816
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->eventsSectionRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3400(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -100,7 +95,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->otherSectionRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3500(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -109,7 +103,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->resetSectionRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3600(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -119,7 +112,6 @@
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
     .line 817
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->callsSectionRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$4300(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -138,7 +130,6 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->messageAlertRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$000(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -147,7 +138,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->messagePreviewRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$200(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -156,7 +146,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->groupAlertRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$100(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -166,7 +155,6 @@
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
     .line 820
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->groupPreviewRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$300(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -175,7 +163,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->inappSoundRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1000(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -184,7 +171,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->inappVibrateRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1100(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -194,7 +180,6 @@
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
     .line 821
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->inappPreviewRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1200(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -203,7 +188,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->contactJoinedRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1500(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -212,7 +196,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->pinnedMessageRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1600(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -222,7 +205,6 @@
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
     .line 822
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->notificationsServiceRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2000(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -231,7 +213,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->badgeNumberRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1800(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -240,7 +221,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->inappPriorityRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1400(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -250,7 +230,6 @@
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
     .line 823
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->inchatSoundRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1300(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -259,7 +238,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->androidAutoAlertRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1700(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -268,7 +246,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->notificationsServiceConnectionRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1900(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -285,7 +262,6 @@
     :cond_3
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->messageLedRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2100(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -294,7 +270,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->groupLedRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2200(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -311,7 +286,6 @@
     :cond_5
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->eventsSectionRow2:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3700(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -320,7 +294,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->groupSectionRow2:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3800(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -330,7 +303,6 @@
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
     .line 828
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->inappSectionRow2:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3900(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -339,7 +311,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->otherSectionRow2:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$4000(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -348,7 +319,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->resetSectionRow2:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$4100(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -358,7 +328,6 @@
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
     .line 829
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->callsSectionRow2:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$4200(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -375,7 +344,6 @@
     :cond_7
     iget-object v0, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->resetNotificationsRow:I
     invoke-static {v0}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$700(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v0
@@ -408,7 +376,6 @@
     .local v0, "position":I
     iget-object v1, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->messageSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3100(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v1
@@ -417,7 +384,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->groupSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3200(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v1
@@ -426,7 +392,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->inappSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3300(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v1
@@ -436,7 +401,6 @@
     iget-object v1, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
     .line 598
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->eventsSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3400(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v1
@@ -445,7 +409,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->otherSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3500(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v1
@@ -454,7 +417,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->resetSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3600(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v1
@@ -464,7 +426,6 @@
     iget-object v1, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
     .line 599
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->eventsSectionRow2:I
     invoke-static {v1}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3700(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v1
@@ -473,7 +434,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->groupSectionRow2:I
     invoke-static {v1}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3800(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v1
@@ -483,7 +443,6 @@
     iget-object v1, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
     .line 600
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->inappSectionRow2:I
     invoke-static {v1}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3900(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v1
@@ -492,7 +451,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->otherSectionRow2:I
     invoke-static {v1}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$4000(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v1
@@ -501,7 +459,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->resetSectionRow2:I
     invoke-static {v1}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$4100(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v1
@@ -511,7 +468,6 @@
     iget-object v1, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
     .line 601
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->callsSectionRow2:I
     invoke-static {v1}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$4200(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v1
@@ -520,7 +476,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->callsSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$4300(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v1
@@ -571,7 +526,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->messageSectionRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3100(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -599,7 +553,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->groupSectionRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3200(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -627,7 +580,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->inappSectionRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3300(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -655,7 +607,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->eventsSectionRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3400(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -683,7 +634,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->otherSectionRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3500(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -711,7 +661,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->resetSectionRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3600(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -739,7 +688,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->callsSectionRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$4300(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -788,7 +736,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->messageAlertRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$000(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -826,7 +773,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->groupAlertRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$100(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -864,7 +810,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->messagePreviewRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$200(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -902,7 +847,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->groupPreviewRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$300(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -940,7 +884,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->inappSoundRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1000(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -978,7 +921,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->inappVibrateRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1100(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1016,7 +958,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->inappPreviewRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1200(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1054,7 +995,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->inappPriorityRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1400(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1092,7 +1032,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->contactJoinedRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1500(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1130,7 +1069,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->pinnedMessageRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1600(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1168,7 +1106,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->androidAutoAlertRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1700(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1200,7 +1137,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->notificationsServiceRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2000(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1248,7 +1184,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->notificationsServiceConnectionRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1900(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1296,7 +1231,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->badgeNumberRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1800(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1334,7 +1268,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->inchatSoundRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$1300(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1372,7 +1305,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->callsVibrateRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2700(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1470,7 +1402,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->messageLedRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2100(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1579,7 +1510,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->messageSoundRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$400(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1592,7 +1522,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->groupSoundRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$500(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1605,7 +1534,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->callsRingtoneRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$600(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1624,7 +1552,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->messageSoundRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$400(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1676,7 +1603,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->callsRingtoneRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$600(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1708,7 +1634,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->groupSoundRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$500(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1740,7 +1665,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->callsRingtoneRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$600(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1791,7 +1715,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->messageVibrateRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2500(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1804,7 +1727,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->groupVibrateRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2600(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1817,7 +1739,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->callsVibrateRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2700(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1836,7 +1757,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->messageVibrateRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2500(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1888,7 +1808,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->groupVibrateRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2600(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -1914,7 +1833,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->callsVibrateRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2700(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -2065,7 +1983,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->repeatRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$3000(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -2154,7 +2071,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->messagePriorityRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2800(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -2167,7 +2083,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->groupPriorityRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2900(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -2186,7 +2101,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->messagePriorityRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2800(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -2238,7 +2152,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->groupPriorityRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2900(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -2327,7 +2240,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->messagePopupNotificationRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2300(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -2340,7 +2252,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->groupPopupNotificationRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2400(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -2359,7 +2270,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->messagePopupNotificationRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2300(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -2417,7 +2327,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->groupPopupNotificationRow:I
     invoke-static {v2}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$2400(Lorg/telegram/ui/NotificationsSettingsActivity;)I
 
     move-result v2
@@ -2487,6 +2396,8 @@
 
     .restart local v16    # "value":Ljava/lang/String;
     goto :goto_8
+
+    nop
 
     .line 643
     :pswitch_data_0

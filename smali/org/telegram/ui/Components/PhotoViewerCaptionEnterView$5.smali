@@ -56,7 +56,6 @@
     .line 205
     iget-object v2, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$5;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->windowView:Landroid/view/View;
     invoke-static {v2}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$400(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;)Landroid/view/View;
 
     move-result-object v2
@@ -80,7 +79,6 @@
     :cond_1
     iget-object v2, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$5;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->keyboardVisible:Z
     invoke-static {v2}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$500(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;)Z
 
     move-result v2
@@ -105,7 +103,6 @@
     .line 209
     iget-object v2, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$5;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->showPopup(I)V
     invoke-static {v2, v1}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$000(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;I)V
 
     goto :goto_0

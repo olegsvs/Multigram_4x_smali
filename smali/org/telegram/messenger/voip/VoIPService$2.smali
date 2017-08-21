@@ -69,13 +69,11 @@
     if-ne v6, v3, :cond_2
 
     :goto_0
-    # setter for: Lorg/telegram/messenger/voip/VoIPService;->isHeadsetPlugged:Z
     invoke-static {v5, v3}, Lorg/telegram/messenger/voip/VoIPService;->access$202(Lorg/telegram/messenger/voip/VoIPService;Z)Z
 
     .line 185
     iget-object v3, p0, Lorg/telegram/messenger/voip/VoIPService$2;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->isHeadsetPlugged:Z
     invoke-static {v3}, Lorg/telegram/messenger/voip/VoIPService;->access$200(Lorg/telegram/messenger/voip/VoIPService;)Z
 
     move-result v3
@@ -84,7 +82,6 @@
 
     iget-object v3, p0, Lorg/telegram/messenger/voip/VoIPService$2;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->proximityWakelock:Landroid/os/PowerManager$WakeLock;
     invoke-static {v3}, Lorg/telegram/messenger/voip/VoIPService;->access$300(Lorg/telegram/messenger/voip/VoIPService;)Landroid/os/PowerManager$WakeLock;
 
     move-result-object v3
@@ -93,7 +90,6 @@
 
     iget-object v3, p0, Lorg/telegram/messenger/voip/VoIPService$2;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->proximityWakelock:Landroid/os/PowerManager$WakeLock;
     invoke-static {v3}, Lorg/telegram/messenger/voip/VoIPService;->access$300(Lorg/telegram/messenger/voip/VoIPService;)Landroid/os/PowerManager$WakeLock;
 
     move-result-object v3
@@ -107,7 +103,6 @@
     .line 186
     iget-object v3, p0, Lorg/telegram/messenger/voip/VoIPService$2;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->proximityWakelock:Landroid/os/PowerManager$WakeLock;
     invoke-static {v3}, Lorg/telegram/messenger/voip/VoIPService;->access$300(Lorg/telegram/messenger/voip/VoIPService;)Landroid/os/PowerManager$WakeLock;
 
     move-result-object v3
@@ -118,7 +113,6 @@
     :cond_0
     iget-object v3, p0, Lorg/telegram/messenger/voip/VoIPService$2;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # setter for: Lorg/telegram/messenger/voip/VoIPService;->isProximityNear:Z
     invoke-static {v3, v4}, Lorg/telegram/messenger/voip/VoIPService;->access$402(Lorg/telegram/messenger/voip/VoIPService;Z)Z
 
     .line 231
@@ -149,7 +143,6 @@
     .line 190
     iget-object v3, p0, Lorg/telegram/messenger/voip/VoIPService$2;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # invokes: Lorg/telegram/messenger/voip/VoIPService;->updateNetworkType()V
     invoke-static {v3}, Lorg/telegram/messenger/voip/VoIPService;->access$500(Lorg/telegram/messenger/voip/VoIPService;)V
 
     goto :goto_1
@@ -199,7 +192,6 @@
 
     iget-object v5, p0, Lorg/telegram/messenger/voip/VoIPService$2;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->endHash:I
     invoke-static {v5}, Lorg/telegram/messenger/voip/VoIPService;->access$600(Lorg/telegram/messenger/voip/VoIPService;)I
 
     move-result v5
@@ -263,7 +255,6 @@
 
     iget-object v5, p0, Lorg/telegram/messenger/voip/VoIPService$2;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->endHash:I
     invoke-static {v5}, Lorg/telegram/messenger/voip/VoIPService;->access$600(Lorg/telegram/messenger/voip/VoIPService;)I
 
     move-result v5
@@ -331,7 +322,6 @@
 
     iget-object v4, p0, Lorg/telegram/messenger/voip/VoIPService$2;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->endHash:I
     invoke-static {v4}, Lorg/telegram/messenger/voip/VoIPService;->access$600(Lorg/telegram/messenger/voip/VoIPService;)I
 
     move-result v4
@@ -341,7 +331,6 @@
     .line 203
     iget-object v3, p0, Lorg/telegram/messenger/voip/VoIPService$2;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # invokes: Lorg/telegram/messenger/voip/VoIPService;->showNotification()V
     invoke-static {v3}, Lorg/telegram/messenger/voip/VoIPService;->access$700(Lorg/telegram/messenger/voip/VoIPService;)V
 
     .line 204
@@ -485,7 +474,6 @@
     if-ne v6, v7, :cond_9
 
     :goto_2
-    # invokes: Lorg/telegram/messenger/voip/VoIPService;->updateBluetoothHeadsetState(Z)V
     invoke-static {v5, v3}, Lorg/telegram/messenger/voip/VoIPService;->access$800(Lorg/telegram/messenger/voip/VoIPService;Z)V
 
     goto/16 :goto_1
@@ -512,7 +500,6 @@
     .line 223
     iget-object v3, p0, Lorg/telegram/messenger/voip/VoIPService$2;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->stateListeners:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/messenger/voip/VoIPService;->access$900(Lorg/telegram/messenger/voip/VoIPService;)Ljava/util/ArrayList;
 
     move-result-object v3

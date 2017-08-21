@@ -86,7 +86,6 @@
 
     const/16 v6, 0x3e8
 
-    # invokes: Lorg/telegram/messenger/MediaController;->broadcastNewPhotos(ILjava/util/ArrayList;Ljava/util/ArrayList;Ljava/lang/Integer;Lorg/telegram/messenger/MediaController$AlbumEntry;Lorg/telegram/messenger/MediaController$AlbumEntry;I)V
     invoke-static/range {v0 .. v6}, Lorg/telegram/messenger/MediaController;->access$7200(ILjava/util/ArrayList;Ljava/util/ArrayList;Ljava/lang/Integer;Lorg/telegram/messenger/MediaController$AlbumEntry;Lorg/telegram/messenger/MediaController$AlbumEntry;I)V
 
     .line 3784
@@ -97,7 +96,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    # setter for: Lorg/telegram/messenger/MediaController;->broadcastPhotosRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$7302(Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 3781

@@ -62,7 +62,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/ShareActivity;->visibleDialog:Landroid/app/Dialog;
     invoke-static {v0, v1}, Lorg/telegram/ui/ShareActivity;->access$002(Lorg/telegram/ui/ShareActivity;Landroid/app/Dialog;)Landroid/app/Dialog;
 
     .line 86

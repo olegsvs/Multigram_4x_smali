@@ -307,7 +307,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;->this$0:Lorg/telegram/ui/CountrySelectActivity;
 
-    # getter for: Lorg/telegram/ui/CountrySelectActivity;->needPhoneCode:Z
     invoke-static {v2}, Lorg/telegram/ui/CountrySelectActivity;->access$700(Lorg/telegram/ui/CountrySelectActivity;)Z
 
     move-result v2

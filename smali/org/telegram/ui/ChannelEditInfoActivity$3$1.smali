@@ -50,7 +50,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ChannelEditInfoActivity$3;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->createAfterUpload:Z
     invoke-static {v1, v3}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1102(Lorg/telegram/ui/ChannelEditInfoActivity;Z)Z
 
     .line 267
@@ -60,7 +59,6 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->progressDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v1, v2}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1202(Lorg/telegram/ui/ChannelEditInfoActivity;Lorg/telegram/ui/ActionBar/AlertDialog;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     .line 268
@@ -68,7 +66,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ChannelEditInfoActivity$3;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->donePressed:Z
     invoke-static {v1, v3}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$402(Lorg/telegram/ui/ChannelEditInfoActivity;Z)Z
 
     .line 270

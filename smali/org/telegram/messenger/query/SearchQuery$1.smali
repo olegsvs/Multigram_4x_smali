@@ -857,7 +857,6 @@
 
     .line 198
     .local v24, "shader":Landroid/graphics/BitmapShader;
-    # getter for: Lorg/telegram/messenger/query/SearchQuery;->roundPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/messenger/query/SearchQuery;->access$000()Landroid/graphics/Paint;
 
     move-result-object v31
@@ -871,7 +870,6 @@
 
     invoke-direct/range {v31 .. v32}, Landroid/graphics/Paint;-><init>(I)V
 
-    # setter for: Lorg/telegram/messenger/query/SearchQuery;->roundPaint:Landroid/graphics/Paint;
     invoke-static/range {v31 .. v31}, Lorg/telegram/messenger/query/SearchQuery;->access$002(Landroid/graphics/Paint;)Landroid/graphics/Paint;
 
     .line 200
@@ -879,7 +877,6 @@
 
     invoke-direct/range {v31 .. v31}, Landroid/graphics/RectF;-><init>()V
 
-    # setter for: Lorg/telegram/messenger/query/SearchQuery;->bitmapRect:Landroid/graphics/RectF;
     invoke-static/range {v31 .. v31}, Lorg/telegram/messenger/query/SearchQuery;->access$102(Landroid/graphics/RectF;)Landroid/graphics/RectF;
 
     .line 202
@@ -911,7 +908,6 @@
     invoke-virtual {v8, v0, v1}, Landroid/graphics/Canvas;->scale(FF)V
 
     .line 204
-    # getter for: Lorg/telegram/messenger/query/SearchQuery;->roundPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/messenger/query/SearchQuery;->access$000()Landroid/graphics/Paint;
 
     move-result-object v31
@@ -923,7 +919,6 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
     .line 205
-    # getter for: Lorg/telegram/messenger/query/SearchQuery;->bitmapRect:Landroid/graphics/RectF;
     invoke-static {}, Lorg/telegram/messenger/query/SearchQuery;->access$100()Landroid/graphics/RectF;
 
     move-result-object v31
@@ -979,7 +974,6 @@
     invoke-virtual/range {v31 .. v35}, Landroid/graphics/RectF;->set(FFFF)V
 
     .line 206
-    # getter for: Lorg/telegram/messenger/query/SearchQuery;->bitmapRect:Landroid/graphics/RectF;
     invoke-static {}, Lorg/telegram/messenger/query/SearchQuery;->access$100()Landroid/graphics/RectF;
 
     move-result-object v31
@@ -1004,7 +998,6 @@
 
     move/from16 v33, v0
 
-    # getter for: Lorg/telegram/messenger/query/SearchQuery;->roundPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/messenger/query/SearchQuery;->access$000()Landroid/graphics/Paint;
 
     move-result-object v34

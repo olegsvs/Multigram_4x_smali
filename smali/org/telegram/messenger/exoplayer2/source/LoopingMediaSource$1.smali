@@ -54,7 +54,6 @@
 
     move-result v1
 
-    # setter for: Lorg/telegram/messenger/exoplayer2/source/LoopingMediaSource;->childPeriodCount:I
     invoke-static {v0, v1}, Lorg/telegram/messenger/exoplayer2/source/LoopingMediaSource;->access$002(Lorg/telegram/messenger/exoplayer2/source/LoopingMediaSource;I)I
 
     .line 75
@@ -64,7 +63,6 @@
 
     iget-object v2, p0, Lorg/telegram/messenger/exoplayer2/source/LoopingMediaSource$1;->this$0:Lorg/telegram/messenger/exoplayer2/source/LoopingMediaSource;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/LoopingMediaSource;->loopCount:I
     invoke-static {v2}, Lorg/telegram/messenger/exoplayer2/source/LoopingMediaSource;->access$100(Lorg/telegram/messenger/exoplayer2/source/LoopingMediaSource;)I
 
     move-result v2

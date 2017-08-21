@@ -121,7 +121,6 @@
 
     iget-boolean v10, p0, Lorg/telegram/messenger/query/SharedMediaQuery$1;->val$isChannel:Z
 
-    # invokes: Lorg/telegram/messenger/query/SharedMediaQuery;->processLoadedMedia(Lorg/telegram/tgnet/TLRPC$messages_Messages;JIIIIZIZZ)V
     invoke-static/range {v1 .. v11}, Lorg/telegram/messenger/query/SharedMediaQuery;->access$000(Lorg/telegram/tgnet/TLRPC$messages_Messages;JIIIIZIZZ)V
 
     .line 84

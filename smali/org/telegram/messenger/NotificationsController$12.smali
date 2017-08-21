@@ -48,7 +48,6 @@
     .line 829
     iget-object v0, p0, Lorg/telegram/messenger/NotificationsController$12;->this$0:Lorg/telegram/messenger/NotificationsController;
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->lastBadgeCount:I
     invoke-static {v0}, Lorg/telegram/messenger/NotificationsController;->access$1100(Lorg/telegram/messenger/NotificationsController;)I
 
     move-result v0
@@ -67,7 +66,6 @@
 
     iget v1, p0, Lorg/telegram/messenger/NotificationsController$12;->val$count:I
 
-    # setter for: Lorg/telegram/messenger/NotificationsController;->lastBadgeCount:I
     invoke-static {v0, v1}, Lorg/telegram/messenger/NotificationsController;->access$1102(Lorg/telegram/messenger/NotificationsController;I)I
 
     .line 833

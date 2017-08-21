@@ -48,7 +48,6 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/messenger/SecretChatHelper;->startingSecretChat:Z
     invoke-static {v1, v2}, Lorg/telegram/messenger/SecretChatHelper;->access$402(Lorg/telegram/messenger/SecretChatHelper;Z)Z
 
     .line 1868

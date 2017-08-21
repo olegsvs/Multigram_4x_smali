@@ -56,7 +56,6 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/ui/PlusSettingsActivity;->saving:Z
     invoke-static {v1, v2}, Lorg/telegram/ui/PlusSettingsActivity;->access$7002(Lorg/telegram/ui/PlusSettingsActivity;Z)Z
 
     .line 1215

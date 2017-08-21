@@ -56,7 +56,6 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/ui/ChannelCreateActivity;->canCreatePublic:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/ChannelCreateActivity;->access$002(Lorg/telegram/ui/ChannelCreateActivity;Z)Z
 
     .line 807
@@ -72,7 +71,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$13;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->nameTextView:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/ChannelCreateActivity;->access$300(Lorg/telegram/ui/ChannelCreateActivity;)Landroid/widget/EditText;
 
     move-result-object v0
@@ -108,7 +106,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ChannelCreateActivity$13;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->nameTextView:Landroid/widget/EditText;
     invoke-static {v1}, Lorg/telegram/ui/ChannelCreateActivity;->access$300(Lorg/telegram/ui/ChannelCreateActivity;)Landroid/widget/EditText;
 
     move-result-object v1
@@ -121,7 +118,6 @@
 
     move-result-object v1
 
-    # invokes: Lorg/telegram/ui/ChannelCreateActivity;->checkUserName(Ljava/lang/String;)Z
     invoke-static {v0, v1}, Lorg/telegram/ui/ChannelCreateActivity;->access$1900(Lorg/telegram/ui/ChannelCreateActivity;Ljava/lang/String;)Z
 
     .line 810
@@ -138,7 +134,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$13;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelCreateActivity;->updatePrivatePublic()V
     invoke-static {v0}, Lorg/telegram/ui/ChannelCreateActivity;->access$1800(Lorg/telegram/ui/ChannelCreateActivity;)V
 
     .line 811

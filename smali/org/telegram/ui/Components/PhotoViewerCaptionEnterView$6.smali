@@ -61,7 +61,6 @@
     const/4 v0, 0x0
 
     :goto_0
-    # invokes: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->showPopup(I)V
     invoke-static {v1, v0}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$000(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;I)V
 
     .line 223

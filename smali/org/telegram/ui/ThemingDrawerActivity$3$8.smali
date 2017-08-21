@@ -52,7 +52,6 @@
 
     const-string/jumbo v1, "drawerIconColor"
 
-    # invokes: Lorg/telegram/ui/ThemingDrawerActivity;->commitInt(Ljava/lang/String;I)V
     invoke-static {v0, v1, p1}, Lorg/telegram/ui/ThemingDrawerActivity;->access$300(Lorg/telegram/ui/ThemingDrawerActivity;Ljava/lang/String;I)V
 
     .line 378
@@ -62,7 +61,6 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/ui/ThemingDrawerActivity;->player:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/ThemingDrawerActivity;->access$1102(Lorg/telegram/ui/ThemingDrawerActivity;Z)Z
 
     .line 380

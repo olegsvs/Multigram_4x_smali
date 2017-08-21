@@ -66,7 +66,6 @@
 
     .local v0, "a":I
     :goto_0
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->stickerSets:[Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$2600()[Ljava/util/ArrayList;
 
     move-result-object v2
@@ -84,7 +83,6 @@
     if-ge v0, v2, :cond_0
 
     .line 1095
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->stickerSets:[Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$2600()[Ljava/util/ArrayList;
 
     move-result-object v2
@@ -105,7 +103,6 @@
 
     .line 1096
     .local v1, "set":Lorg/telegram/tgnet/TLRPC$StickerSet;
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->stickerSetsById:Ljava/util/HashMap;
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$2100()Ljava/util/HashMap;
 
     move-result-object v2
@@ -119,7 +116,6 @@
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 1097
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->stickerSetsByName:Ljava/util/HashMap;
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$2700()Ljava/util/HashMap;
 
     move-result-object v2
@@ -136,7 +132,6 @@
     .line 1099
     .end local v1    # "set":Lorg/telegram/tgnet/TLRPC$StickerSet;
     :cond_0
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->stickerSetsById:Ljava/util/HashMap;
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$2100()Ljava/util/HashMap;
 
     move-result-object v2
@@ -146,7 +141,6 @@
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
 
     .line 1100
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->stickerSetsByName:Ljava/util/HashMap;
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$2700()Ljava/util/HashMap;
 
     move-result-object v2
@@ -156,7 +150,6 @@
     invoke-virtual {v2, v3}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
 
     .line 1101
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->stickerSets:[Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$2600()[Ljava/util/ArrayList;
 
     move-result-object v2
@@ -170,7 +163,6 @@
     aput-object v4, v2, v3
 
     .line 1102
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->loadHash:[I
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$2400()[I
 
     move-result-object v2
@@ -186,7 +178,6 @@
     aput v4, v2, v3
 
     .line 1103
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->loadDate:[I
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$2800()[I
 
     move-result-object v2
@@ -211,13 +202,11 @@
     .line 1105
     iget-object v2, p0, Lorg/telegram/messenger/query/StickersQuery$24$2;->val$allStickersNew:Ljava/util/HashMap;
 
-    # setter for: Lorg/telegram/messenger/query/StickersQuery;->allStickers:Ljava/util/HashMap;
     invoke-static {v2}, Lorg/telegram/messenger/query/StickersQuery;->access$2902(Ljava/util/HashMap;)Ljava/util/HashMap;
 
     .line 1106
     iget-object v2, p0, Lorg/telegram/messenger/query/StickersQuery$24$2;->val$stickersByEmojiNew:Ljava/util/HashMap;
 
-    # setter for: Lorg/telegram/messenger/query/StickersQuery;->stickersByEmoji:Ljava/util/HashMap;
     invoke-static {v2}, Lorg/telegram/messenger/query/StickersQuery;->access$3002(Ljava/util/HashMap;)Ljava/util/HashMap;
 
     .line 1108

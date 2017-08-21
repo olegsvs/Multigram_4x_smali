@@ -53,7 +53,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ProxySettingsActivity$2;->this$0:Lorg/telegram/ui/ProxySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ProxySettingsActivity;->useProxySettings:Z
     invoke-static {v0}, Lorg/telegram/ui/ProxySettingsActivity;->access$100(Lorg/telegram/ui/ProxySettingsActivity;)Z
 
     move-result v0
@@ -63,20 +62,17 @@
     const/4 v0, 0x1
 
     :goto_0
-    # setter for: Lorg/telegram/ui/ProxySettingsActivity;->useProxySettings:Z
     invoke-static {v2, v0}, Lorg/telegram/ui/ProxySettingsActivity;->access$102(Lorg/telegram/ui/ProxySettingsActivity;Z)Z
 
     .line 200
     iget-object v0, p0, Lorg/telegram/ui/ProxySettingsActivity$2;->this$0:Lorg/telegram/ui/ProxySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ProxySettingsActivity;->checkCell1:Lorg/telegram/ui/Cells/TextCheckCell;
     invoke-static {v0}, Lorg/telegram/ui/ProxySettingsActivity;->access$200(Lorg/telegram/ui/ProxySettingsActivity;)Lorg/telegram/ui/Cells/TextCheckCell;
 
     move-result-object v0
 
     iget-object v2, p0, Lorg/telegram/ui/ProxySettingsActivity$2;->this$0:Lorg/telegram/ui/ProxySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ProxySettingsActivity;->useProxySettings:Z
     invoke-static {v2}, Lorg/telegram/ui/ProxySettingsActivity;->access$100(Lorg/telegram/ui/ProxySettingsActivity;)Z
 
     move-result v2
@@ -86,7 +82,6 @@
     .line 201
     iget-object v0, p0, Lorg/telegram/ui/ProxySettingsActivity$2;->this$0:Lorg/telegram/ui/ProxySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ProxySettingsActivity;->useProxySettings:Z
     invoke-static {v0}, Lorg/telegram/ui/ProxySettingsActivity;->access$100(Lorg/telegram/ui/ProxySettingsActivity;)Z
 
     move-result v0
@@ -96,7 +91,6 @@
     .line 202
     iget-object v0, p0, Lorg/telegram/ui/ProxySettingsActivity$2;->this$0:Lorg/telegram/ui/ProxySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ProxySettingsActivity;->useForCallsCell:Lorg/telegram/ui/Cells/TextCheckCell;
     invoke-static {v0}, Lorg/telegram/ui/ProxySettingsActivity;->access$300(Lorg/telegram/ui/ProxySettingsActivity;)Lorg/telegram/ui/Cells/TextCheckCell;
 
     move-result-object v0
@@ -122,14 +116,12 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/ProxySettingsActivity$2;->this$0:Lorg/telegram/ui/ProxySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ProxySettingsActivity;->useForCallsCell:Lorg/telegram/ui/Cells/TextCheckCell;
     invoke-static {v0}, Lorg/telegram/ui/ProxySettingsActivity;->access$300(Lorg/telegram/ui/ProxySettingsActivity;)Lorg/telegram/ui/Cells/TextCheckCell;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/ProxySettingsActivity$2;->this$0:Lorg/telegram/ui/ProxySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ProxySettingsActivity;->useProxySettings:Z
     invoke-static {v1}, Lorg/telegram/ui/ProxySettingsActivity;->access$100(Lorg/telegram/ui/ProxySettingsActivity;)Z
 
     move-result v1

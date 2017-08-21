@@ -46,7 +46,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PhotoViewer$62;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->currentIndex:I
     invoke-static {v1}, Lorg/telegram/ui/PhotoViewer;->access$5400(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v1
@@ -55,7 +54,6 @@
 
     const/4 v2, 0x0
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->setImageIndex(IZ)V
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/PhotoViewer;->access$5900(Lorg/telegram/ui/PhotoViewer;IZ)V
 
     .line 5751

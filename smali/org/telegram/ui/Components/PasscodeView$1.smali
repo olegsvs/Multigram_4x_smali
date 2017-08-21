@@ -54,7 +54,6 @@
     .line 511
     iget-object v1, p0, Lorg/telegram/ui/Components/PasscodeView$1;->this$0:Lorg/telegram/ui/Components/PasscodeView;
 
-    # invokes: Lorg/telegram/ui/Components/PasscodeView;->processDone(Z)V
     invoke-static {v1, v0}, Lorg/telegram/ui/Components/PasscodeView;->access$400(Lorg/telegram/ui/Components/PasscodeView;Z)V
 
     .line 512

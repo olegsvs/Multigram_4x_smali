@@ -108,7 +108,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/PrivacyControlActivity$3;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->rulesType:I
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$100(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v4
@@ -137,7 +136,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/PrivacyControlActivity$3;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # invokes: Lorg/telegram/ui/PrivacyControlActivity;->showErrorAlert()V
     invoke-static {v2}, Lorg/telegram/ui/PrivacyControlActivity;->access$1500(Lorg/telegram/ui/PrivacyControlActivity;)V
 
     goto :goto_1

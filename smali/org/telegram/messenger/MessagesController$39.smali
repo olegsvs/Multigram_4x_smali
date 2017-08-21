@@ -48,7 +48,6 @@
     .line 2183
     iget-object v0, p0, Lorg/telegram/messenger/MessagesController$39;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->channelsPts:Ljava/util/HashMap;
     invoke-static {v0}, Lorg/telegram/messenger/MessagesController;->access$1400(Lorg/telegram/messenger/MessagesController;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -68,7 +67,6 @@
     .line 2184
     iget-object v0, p0, Lorg/telegram/messenger/MessagesController$39;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->shortPollChannels:Landroid/util/SparseIntArray;
     invoke-static {v0}, Lorg/telegram/messenger/MessagesController;->access$1500(Lorg/telegram/messenger/MessagesController;)Landroid/util/SparseIntArray;
 
     move-result-object v0
@@ -84,7 +82,6 @@
     .line 2185
     iget-object v0, p0, Lorg/telegram/messenger/MessagesController$39;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->needShortPollChannels:Landroid/util/SparseIntArray;
     invoke-static {v0}, Lorg/telegram/messenger/MessagesController;->access$1600(Lorg/telegram/messenger/MessagesController;)Landroid/util/SparseIntArray;
 
     move-result-object v0

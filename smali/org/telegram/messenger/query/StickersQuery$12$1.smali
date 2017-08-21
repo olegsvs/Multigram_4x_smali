@@ -79,7 +79,6 @@
 
     iget v4, v0, Lorg/telegram/tgnet/TLRPC$TL_messages_featuredStickers;->hash:I
 
-    # invokes: Lorg/telegram/messenger/query/StickersQuery;->processLoadedFeaturedStickers(Ljava/util/ArrayList;Ljava/util/ArrayList;ZII)V
     invoke-static {v1, v2, v6, v3, v4}, Lorg/telegram/messenger/query/StickersQuery;->access$800(Ljava/util/ArrayList;Ljava/util/ArrayList;ZII)V
 
     .line 580
@@ -103,7 +102,6 @@
 
     iget v2, v2, Lorg/telegram/tgnet/TLRPC$TL_messages_getFeaturedStickers;->hash:I
 
-    # invokes: Lorg/telegram/messenger/query/StickersQuery;->processLoadedFeaturedStickers(Ljava/util/ArrayList;Ljava/util/ArrayList;ZII)V
     invoke-static {v4, v4, v6, v1, v2}, Lorg/telegram/messenger/query/StickersQuery;->access$800(Ljava/util/ArrayList;Ljava/util/ArrayList;ZII)V
 
     goto :goto_0

@@ -45,7 +45,6 @@
     .line 284
     iget-object v3, p0, Lorg/telegram/ui/BlockedUsersActivity$4;->this$0:Lorg/telegram/ui/BlockedUsersActivity;
 
-    # getter for: Lorg/telegram/ui/BlockedUsersActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v3}, Lorg/telegram/ui/BlockedUsersActivity;->access$100(Lorg/telegram/ui/BlockedUsersActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v3
@@ -65,7 +64,6 @@
     .line 286
     iget-object v3, p0, Lorg/telegram/ui/BlockedUsersActivity$4;->this$0:Lorg/telegram/ui/BlockedUsersActivity;
 
-    # getter for: Lorg/telegram/ui/BlockedUsersActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v3}, Lorg/telegram/ui/BlockedUsersActivity;->access$100(Lorg/telegram/ui/BlockedUsersActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v3

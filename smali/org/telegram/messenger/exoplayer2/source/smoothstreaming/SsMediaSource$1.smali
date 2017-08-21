@@ -44,7 +44,6 @@
     .line 336
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/source/smoothstreaming/SsMediaSource$1;->this$0:Lorg/telegram/messenger/exoplayer2/source/smoothstreaming/SsMediaSource;
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/source/smoothstreaming/SsMediaSource;->startLoadingManifest()V
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/source/smoothstreaming/SsMediaSource;->access$000(Lorg/telegram/messenger/exoplayer2/source/smoothstreaming/SsMediaSource;)V
 
     .line 337

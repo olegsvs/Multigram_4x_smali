@@ -73,7 +73,6 @@
     .line 1056
     iget-object v0, p0, Lorg/telegram/ui/PaymentFormActivity$13;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->showAndroidPay()V
     invoke-static {v0}, Lorg/telegram/ui/PaymentFormActivity;->access$2700(Lorg/telegram/ui/PaymentFormActivity;)V
 
     .line 1061

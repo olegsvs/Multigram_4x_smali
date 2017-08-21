@@ -48,7 +48,6 @@
     .line 292
     iget-object v0, p0, Lorg/telegram/ui/AudioSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/AudioSelectActivity;
 
-    # getter for: Lorg/telegram/ui/AudioSelectActivity;->audioEntries:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/AudioSelectActivity;->access$300(Lorg/telegram/ui/AudioSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -67,7 +66,6 @@
     .line 288
     iget-object v0, p0, Lorg/telegram/ui/AudioSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/AudioSelectActivity;
 
-    # getter for: Lorg/telegram/ui/AudioSelectActivity;->audioEntries:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/AudioSelectActivity;->access$300(Lorg/telegram/ui/AudioSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -121,7 +119,6 @@
     .line 319
     iget-object v1, p0, Lorg/telegram/ui/AudioSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/AudioSelectActivity;
 
-    # getter for: Lorg/telegram/ui/AudioSelectActivity;->audioEntries:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/AudioSelectActivity;->access$300(Lorg/telegram/ui/AudioSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -140,7 +137,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/AudioSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/AudioSelectActivity;
 
-    # getter for: Lorg/telegram/ui/AudioSelectActivity;->audioEntries:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/AudioSelectActivity;->access$300(Lorg/telegram/ui/AudioSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v2
@@ -153,7 +149,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/AudioSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/AudioSelectActivity;
 
-    # getter for: Lorg/telegram/ui/AudioSelectActivity;->audioEntries:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/AudioSelectActivity;->access$300(Lorg/telegram/ui/AudioSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -171,7 +166,6 @@
     :goto_0
     iget-object v4, p0, Lorg/telegram/ui/AudioSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/AudioSelectActivity;
 
-    # getter for: Lorg/telegram/ui/AudioSelectActivity;->selectedAudios:Ljava/util/HashMap;
     invoke-static {v4}, Lorg/telegram/ui/AudioSelectActivity;->access$000(Lorg/telegram/ui/AudioSelectActivity;)Ljava/util/HashMap;
 
     move-result-object v4

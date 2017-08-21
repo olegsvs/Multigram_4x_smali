@@ -46,7 +46,6 @@
     .line 4917
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$BlockCollageCell$1;->this$1:Lorg/telegram/ui/ArticleViewer$BlockCollageCell;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockCollageCell;->inLayout:Z
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer$BlockCollageCell;->access$10900(Lorg/telegram/ui/ArticleViewer$BlockCollageCell;)Z
 
     move-result v0

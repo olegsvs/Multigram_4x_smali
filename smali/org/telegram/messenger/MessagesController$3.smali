@@ -88,7 +88,6 @@
 
     iget-object v8, v8, Lorg/telegram/tgnet/TLRPC$TL_config;->disabled_features:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/messenger/MessagesController;->disabledFeatures:Ljava/util/ArrayList;
     invoke-static {v7, v8}, Lorg/telegram/messenger/MessagesController;->access$202(Lorg/telegram/messenger/MessagesController;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 361
@@ -413,7 +412,6 @@
     .local v1, "data":Lorg/telegram/tgnet/SerializedData;
     iget-object v7, p0, Lorg/telegram/messenger/MessagesController$3;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->disabledFeatures:Ljava/util/ArrayList;
     invoke-static {v7}, Lorg/telegram/messenger/MessagesController;->access$200(Lorg/telegram/messenger/MessagesController;)Ljava/util/ArrayList;
 
     move-result-object v7
@@ -427,7 +425,6 @@
     .line 402
     iget-object v7, p0, Lorg/telegram/messenger/MessagesController$3;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->disabledFeatures:Ljava/util/ArrayList;
     invoke-static {v7}, Lorg/telegram/messenger/MessagesController;->access$200(Lorg/telegram/messenger/MessagesController;)Ljava/util/ArrayList;
 
     move-result-object v7

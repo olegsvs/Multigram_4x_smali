@@ -53,7 +53,6 @@
     .line 85
     iget-object v0, p0, Lnet/hockeyapp/android/views/AttachmentView$1;->this$0:Lnet/hockeyapp/android/views/AttachmentView;
 
-    # invokes: Lnet/hockeyapp/android/views/AttachmentView;->loadImageThumbnail()Landroid/graphics/Bitmap;
     invoke-static {v0}, Lnet/hockeyapp/android/views/AttachmentView;->access$000(Lnet/hockeyapp/android/views/AttachmentView;)Landroid/graphics/Bitmap;
 
     move-result-object v0
@@ -88,7 +87,6 @@
     .line 91
     iget-object v0, p0, Lnet/hockeyapp/android/views/AttachmentView$1;->this$0:Lnet/hockeyapp/android/views/AttachmentView;
 
-    # invokes: Lnet/hockeyapp/android/views/AttachmentView;->configureViewForThumbnail(Landroid/graphics/Bitmap;Z)V
     invoke-static {v0, p1, v1}, Lnet/hockeyapp/android/views/AttachmentView;->access$100(Lnet/hockeyapp/android/views/AttachmentView;Landroid/graphics/Bitmap;Z)V
 
     .line 95
@@ -99,7 +97,6 @@
     :cond_0
     iget-object v0, p0, Lnet/hockeyapp/android/views/AttachmentView$1;->this$0:Lnet/hockeyapp/android/views/AttachmentView;
 
-    # invokes: Lnet/hockeyapp/android/views/AttachmentView;->configureViewForPlaceholder(Z)V
     invoke-static {v0, v1}, Lnet/hockeyapp/android/views/AttachmentView;->access$200(Lnet/hockeyapp/android/views/AttachmentView;Z)V
 
     goto :goto_0

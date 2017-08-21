@@ -44,7 +44,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/Cells/PhotoEditToolCell$2;->this$0:Lorg/telegram/ui/Cells/PhotoEditToolCell;
 
-    # getter for: Lorg/telegram/ui/Cells/PhotoEditToolCell;->hideValueRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/ui/Cells/PhotoEditToolCell;->access$300(Lorg/telegram/ui/Cells/PhotoEditToolCell;)Ljava/lang/Runnable;
 
     move-result-object v0

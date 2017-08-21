@@ -45,7 +45,6 @@
     .line 517
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatDialogsView$11;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->tv:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatDialogsView;->access$1900(Lorg/telegram/ui/Components/ChatDialogsView;)Landroid/widget/TextView;
 
     move-result-object v0

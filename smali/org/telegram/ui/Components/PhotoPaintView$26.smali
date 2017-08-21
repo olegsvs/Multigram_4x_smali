@@ -117,7 +117,6 @@
 
     iget-object v11, p0, Lorg/telegram/ui/Components/PhotoPaintView$26;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->bitmapToEdit:Landroid/graphics/Bitmap;
     invoke-static {v11}, Lorg/telegram/ui/Components/PhotoPaintView;->access$3100(Lorg/telegram/ui/Components/PhotoPaintView;)Landroid/graphics/Bitmap;
 
     move-result-object v11
@@ -128,7 +127,6 @@
 
     iget-object v11, p0, Lorg/telegram/ui/Components/PhotoPaintView$26;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->getFrameRotation()I
     invoke-static {v11}, Lorg/telegram/ui/Components/PhotoPaintView;->access$3000(Lorg/telegram/ui/Components/PhotoPaintView;)I
 
     move-result v11
@@ -166,7 +164,6 @@
     .local v8, "result":Ljava/util/ArrayList;, "Ljava/util/ArrayList<Lorg/telegram/ui/Components/Paint/PhotoFace;>;"
     iget-object v10, p0, Lorg/telegram/ui/Components/PhotoPaintView$26;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->getPaintingSize()Lorg/telegram/ui/Components/Size;
     invoke-static {v10}, Lorg/telegram/ui/Components/PhotoPaintView;->access$3200(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/Components/Size;
 
     move-result-object v9
@@ -202,14 +199,12 @@
 
     iget-object v10, p0, Lorg/telegram/ui/Components/PhotoPaintView$26;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->bitmapToEdit:Landroid/graphics/Bitmap;
     invoke-static {v10}, Lorg/telegram/ui/Components/PhotoPaintView;->access$3100(Lorg/telegram/ui/Components/PhotoPaintView;)Landroid/graphics/Bitmap;
 
     move-result-object v10
 
     iget-object v11, p0, Lorg/telegram/ui/Components/PhotoPaintView$26;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->isSidewardOrientation()Z
     invoke-static {v11}, Lorg/telegram/ui/Components/PhotoPaintView;->access$3300(Lorg/telegram/ui/Components/PhotoPaintView;)Z
 
     move-result v11
@@ -269,7 +264,6 @@
     :try_start_4
     iget-object v10, p0, Lorg/telegram/ui/Components/PhotoPaintView$26;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # setter for: Lorg/telegram/ui/Components/PhotoPaintView;->faces:Ljava/util/ArrayList;
     invoke-static {v10, v8}, Lorg/telegram/ui/Components/PhotoPaintView;->access$3402(Lorg/telegram/ui/Components/PhotoPaintView;Ljava/util/ArrayList;)Ljava/util/ArrayList;
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_1

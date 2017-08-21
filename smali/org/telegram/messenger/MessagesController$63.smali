@@ -48,7 +48,6 @@
     .line 4074
     iget-object v3, p0, Lorg/telegram/messenger/MessagesController$63;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->channelViewsToSend:Landroid/util/SparseArray;
     invoke-static {v3}, Lorg/telegram/messenger/MessagesController;->access$5100(Lorg/telegram/messenger/MessagesController;)Landroid/util/SparseArray;
 
     move-result-object v0

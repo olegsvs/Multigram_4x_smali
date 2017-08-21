@@ -45,7 +45,6 @@
     .line 4968
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$BlockCollageCell$3;->this$1:Lorg/telegram/ui/ArticleViewer$BlockCollageCell;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockCollageCell;->currentBlock:Lorg/telegram/tgnet/TLRPC$TL_pageBlockCollage;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer$BlockCollageCell;->access$11000(Lorg/telegram/ui/ArticleViewer$BlockCollageCell;)Lorg/telegram/tgnet/TLRPC$TL_pageBlockCollage;
 
     move-result-object v0
@@ -62,7 +61,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$BlockCollageCell$3;->this$1:Lorg/telegram/ui/ArticleViewer$BlockCollageCell;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockCollageCell;->currentBlock:Lorg/telegram/tgnet/TLRPC$TL_pageBlockCollage;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer$BlockCollageCell;->access$11000(Lorg/telegram/ui/ArticleViewer$BlockCollageCell;)Lorg/telegram/tgnet/TLRPC$TL_pageBlockCollage;
 
     move-result-object v0
@@ -84,7 +82,6 @@
     .line 4976
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$BlockCollageCell$3;->this$1:Lorg/telegram/ui/ArticleViewer$BlockCollageCell;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockCollageCell;->currentBlock:Lorg/telegram/tgnet/TLRPC$TL_pageBlockCollage;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer$BlockCollageCell;->access$11000(Lorg/telegram/ui/ArticleViewer$BlockCollageCell;)Lorg/telegram/tgnet/TLRPC$TL_pageBlockCollage;
 
     move-result-object v1
@@ -140,7 +137,6 @@
     .local v0, "cell":Lorg/telegram/ui/ArticleViewer$BlockVideoCell;
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$BlockCollageCell$3;->this$1:Lorg/telegram/ui/ArticleViewer$BlockCollageCell;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockCollageCell;->currentBlock:Lorg/telegram/tgnet/TLRPC$TL_pageBlockCollage;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer$BlockCollageCell;->access$11000(Lorg/telegram/ui/ArticleViewer$BlockCollageCell;)Lorg/telegram/tgnet/TLRPC$TL_pageBlockCollage;
 
     move-result-object v1
@@ -170,7 +166,6 @@
     .local v0, "cell":Lorg/telegram/ui/ArticleViewer$BlockPhotoCell;
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$BlockCollageCell$3;->this$1:Lorg/telegram/ui/ArticleViewer$BlockCollageCell;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockCollageCell;->currentBlock:Lorg/telegram/tgnet/TLRPC$TL_pageBlockCollage;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer$BlockCollageCell;->access$11000(Lorg/telegram/ui/ArticleViewer$BlockCollageCell;)Lorg/telegram/tgnet/TLRPC$TL_pageBlockCollage;
 
     move-result-object v1

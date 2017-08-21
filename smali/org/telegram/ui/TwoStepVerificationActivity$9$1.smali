@@ -60,7 +60,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/TwoStepVerificationActivity$9;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # invokes: Lorg/telegram/ui/TwoStepVerificationActivity;->needHideProgress()V
     invoke-static {v4}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$400(Lorg/telegram/ui/TwoStepVerificationActivity;)V
 
     .line 674
@@ -88,7 +87,6 @@
 
     const/4 v5, 0x0
 
-    # setter for: Lorg/telegram/ui/TwoStepVerificationActivity;->currentPassword:Lorg/telegram/tgnet/TLRPC$account_Password;
     invoke-static {v4, v5}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$202(Lorg/telegram/ui/TwoStepVerificationActivity;Lorg/telegram/tgnet/TLRPC$account_Password;)Lorg/telegram/tgnet/TLRPC$account_Password;
 
     .line 677
@@ -98,7 +96,6 @@
 
     new-array v5, v9, [B
 
-    # setter for: Lorg/telegram/ui/TwoStepVerificationActivity;->currentPasswordHash:[B
     invoke-static {v4, v5}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$1102(Lorg/telegram/ui/TwoStepVerificationActivity;[B)[B
 
     .line 678
@@ -106,7 +103,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/TwoStepVerificationActivity$9;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # invokes: Lorg/telegram/ui/TwoStepVerificationActivity;->loadPasswordInfo(Z)V
     invoke-static {v4, v9}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2300(Lorg/telegram/ui/TwoStepVerificationActivity;Z)V
 
     .line 679
@@ -125,7 +121,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/TwoStepVerificationActivity$9;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # invokes: Lorg/telegram/ui/TwoStepVerificationActivity;->updateRows()V
     invoke-static {v4}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2400(Lorg/telegram/ui/TwoStepVerificationActivity;)V
 
     .line 735
@@ -349,7 +344,6 @@
 
     move-result-object v6
 
-    # invokes: Lorg/telegram/ui/TwoStepVerificationActivity;->showAlertWithText(Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {v4, v5, v6}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$600(Lorg/telegram/ui/TwoStepVerificationActivity;Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
@@ -421,7 +415,6 @@
 
     move-result-object v6
 
-    # invokes: Lorg/telegram/ui/TwoStepVerificationActivity;->showAlertWithText(Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {v4, v5, v6}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$600(Lorg/telegram/ui/TwoStepVerificationActivity;Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
@@ -458,7 +451,6 @@
 
     iget-object v6, v6, Lorg/telegram/tgnet/TLRPC$TL_error;->text:Ljava/lang/String;
 
-    # invokes: Lorg/telegram/ui/TwoStepVerificationActivity;->showAlertWithText(Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {v4, v5, v6}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$600(Lorg/telegram/ui/TwoStepVerificationActivity;Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0

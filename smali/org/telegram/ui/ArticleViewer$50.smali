@@ -42,7 +42,6 @@
     .line 7770
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$50;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->photoAnimationEndRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$14600(Lorg/telegram/ui/ArticleViewer;)Ljava/lang/Runnable;
 
     move-result-object v0
@@ -52,7 +51,6 @@
     .line 7771
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$50;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->photoAnimationEndRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$14600(Lorg/telegram/ui/ArticleViewer;)Ljava/lang/Runnable;
 
     move-result-object v0
@@ -64,7 +62,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->photoAnimationEndRunnable:Ljava/lang/Runnable;
     invoke-static {v0, v1}, Lorg/telegram/ui/ArticleViewer;->access$14602(Lorg/telegram/ui/ArticleViewer;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 7774

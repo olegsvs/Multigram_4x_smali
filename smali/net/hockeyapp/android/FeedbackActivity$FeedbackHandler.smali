@@ -156,7 +156,6 @@
     .end local v4    # "responseString":Ljava/lang/String;
     .end local v5    # "statusCode":Ljava/lang/String;
     :goto_1
-    # setter for: Lnet/hockeyapp/android/FeedbackActivity;->mError:Lnet/hockeyapp/android/objects/ErrorObject;
     invoke-static {v2, v1}, Lnet/hockeyapp/android/FeedbackActivity;->access$002(Lnet/hockeyapp/android/FeedbackActivity;Lnet/hockeyapp/android/objects/ErrorObject;)Lnet/hockeyapp/android/objects/ErrorObject;
 
     .line 831
@@ -209,7 +208,6 @@
 
     .line 817
     :cond_4
-    # invokes: Lnet/hockeyapp/android/FeedbackActivity;->resetFeedbackView()V
     invoke-static {v2}, Lnet/hockeyapp/android/FeedbackActivity;->access$600(Lnet/hockeyapp/android/FeedbackActivity;)V
 
     .line 818
@@ -222,7 +220,6 @@
     if-eqz v4, :cond_6
 
     .line 820
-    # invokes: Lnet/hockeyapp/android/FeedbackActivity;->startParseFeedbackTask(Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {v2, v4, v3}, Lnet/hockeyapp/android/FeedbackActivity;->access$700(Lnet/hockeyapp/android/FeedbackActivity;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 821

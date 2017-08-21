@@ -48,7 +48,6 @@
     invoke-direct {p0, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
     .line 372
-    # getter for: Lorg/telegram/ui/ArticleViewer;->colorPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$200()Landroid/graphics/Paint;
 
     move-result-object v0
@@ -60,7 +59,6 @@
 
     invoke-direct {v0, v5}, Landroid/graphics/Paint;-><init>(I)V
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->colorPaint:Landroid/graphics/Paint;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$202(Landroid/graphics/Paint;)Landroid/graphics/Paint;
 
     .line 374
@@ -68,11 +66,9 @@
 
     invoke-direct {v0, v5}, Landroid/graphics/Paint;-><init>(I)V
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->selectorPaint:Landroid/graphics/Paint;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$302(Landroid/graphics/Paint;)Landroid/graphics/Paint;
 
     .line 375
-    # getter for: Lorg/telegram/ui/ArticleViewer;->selectorPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$300()Landroid/graphics/Paint;
 
     move-result-object v0
@@ -82,7 +78,6 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 376
-    # getter for: Lorg/telegram/ui/ArticleViewer;->selectorPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$300()Landroid/graphics/Paint;
 
     move-result-object v0
@@ -92,7 +87,6 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     .line 377
-    # getter for: Lorg/telegram/ui/ArticleViewer;->selectorPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$300()Landroid/graphics/Paint;
 
     move-result-object v0
@@ -263,7 +257,6 @@
     const/high16 v4, 0x41e00000    # 28.0f
 
     .line 416
-    # getter for: Lorg/telegram/ui/ArticleViewer;->colorPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$200()Landroid/graphics/Paint;
 
     move-result-object v0
@@ -298,7 +291,6 @@
 
     int-to-float v2, v2
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->colorPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$200()Landroid/graphics/Paint;
 
     move-result-object v3
@@ -311,7 +303,6 @@
     if-eqz v0, :cond_3
 
     .line 419
-    # getter for: Lorg/telegram/ui/ArticleViewer;->selectorPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$300()Landroid/graphics/Paint;
 
     move-result-object v0
@@ -327,7 +318,6 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 420
-    # getter for: Lorg/telegram/ui/ArticleViewer;->selectorPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$300()Landroid/graphics/Paint;
 
     move-result-object v0
@@ -362,7 +352,6 @@
 
     int-to-float v2, v2
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->selectorPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$300()Landroid/graphics/Paint;
 
     move-result-object v3
@@ -415,7 +404,6 @@
     if-ne v0, v1, :cond_0
 
     .line 423
-    # getter for: Lorg/telegram/ui/ArticleViewer;->selectorPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$300()Landroid/graphics/Paint;
 
     move-result-object v0
@@ -431,7 +419,6 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 424
-    # getter for: Lorg/telegram/ui/ArticleViewer;->selectorPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$300()Landroid/graphics/Paint;
 
     move-result-object v0
@@ -468,7 +455,6 @@
 
     int-to-float v2, v2
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->selectorPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$300()Landroid/graphics/Paint;
 
     move-result-object v3

@@ -52,7 +52,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/MediaController$21;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->generatingWaveform:Ljava/util/HashMap;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$6900(Lorg/telegram/messenger/MediaController;)Ljava/util/HashMap;
 
     move-result-object v0

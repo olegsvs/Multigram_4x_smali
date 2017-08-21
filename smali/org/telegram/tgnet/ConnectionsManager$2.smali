@@ -43,7 +43,6 @@
     .line 256
     iget-object v0, p0, Lorg/telegram/tgnet/ConnectionsManager$2;->this$0:Lorg/telegram/tgnet/ConnectionsManager;
 
-    # invokes: Lorg/telegram/tgnet/ConnectionsManager;->checkConnection()V
     invoke-static {v0}, Lorg/telegram/tgnet/ConnectionsManager;->access$000(Lorg/telegram/tgnet/ConnectionsManager;)V
 
     .line 257

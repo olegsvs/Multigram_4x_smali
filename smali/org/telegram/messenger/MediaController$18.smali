@@ -51,7 +51,6 @@
     .line 2732
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$18;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->playlist:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$6100(Lorg/telegram/messenger/MediaController;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -64,7 +63,6 @@
 
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$18;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->playlist:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$6100(Lorg/telegram/messenger/MediaController;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -78,7 +76,6 @@
     .line 2733
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$18;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # invokes: Lorg/telegram/messenger/MediaController;->playNextMessage(Z)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/MediaController;->access$6200(Lorg/telegram/messenger/MediaController;Z)V
 
     .line 2737

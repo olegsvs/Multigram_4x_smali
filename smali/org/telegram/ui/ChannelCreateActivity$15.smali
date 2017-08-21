@@ -47,7 +47,6 @@
     .line 958
     iget-object v3, p0, Lorg/telegram/ui/ChannelCreateActivity$15;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->adminnedChannelsLayout:Landroid/widget/LinearLayout;
     invoke-static {v3}, Lorg/telegram/ui/ChannelCreateActivity;->access$2600(Lorg/telegram/ui/ChannelCreateActivity;)Landroid/widget/LinearLayout;
 
     move-result-object v3
@@ -57,7 +56,6 @@
     .line 959
     iget-object v3, p0, Lorg/telegram/ui/ChannelCreateActivity$15;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->adminnedChannelsLayout:Landroid/widget/LinearLayout;
     invoke-static {v3}, Lorg/telegram/ui/ChannelCreateActivity;->access$2600(Lorg/telegram/ui/ChannelCreateActivity;)Landroid/widget/LinearLayout;
 
     move-result-object v3
@@ -77,7 +75,6 @@
     .line 961
     iget-object v3, p0, Lorg/telegram/ui/ChannelCreateActivity$15;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->adminnedChannelsLayout:Landroid/widget/LinearLayout;
     invoke-static {v3}, Lorg/telegram/ui/ChannelCreateActivity;->access$2600(Lorg/telegram/ui/ChannelCreateActivity;)Landroid/widget/LinearLayout;
 
     move-result-object v3
@@ -110,7 +107,6 @@
     :cond_1
     iget-object v3, p0, Lorg/telegram/ui/ChannelCreateActivity$15;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->avatarImage:Lorg/telegram/ui/Components/BackupImageView;
     invoke-static {v3}, Lorg/telegram/ui/ChannelCreateActivity;->access$1600(Lorg/telegram/ui/ChannelCreateActivity;)Lorg/telegram/ui/Components/BackupImageView;
 
     move-result-object v3
@@ -120,7 +116,6 @@
     .line 968
     iget-object v3, p0, Lorg/telegram/ui/ChannelCreateActivity$15;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->avatarDrawable:Lorg/telegram/ui/Components/AvatarDrawable;
     invoke-static {v3}, Lorg/telegram/ui/ChannelCreateActivity;->access$1500(Lorg/telegram/ui/ChannelCreateActivity;)Lorg/telegram/ui/Components/AvatarDrawable;
 
     move-result-object v5
@@ -129,7 +124,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ChannelCreateActivity$15;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->nameTextView:Landroid/widget/EditText;
     invoke-static {v3}, Lorg/telegram/ui/ChannelCreateActivity;->access$300(Lorg/telegram/ui/ChannelCreateActivity;)Landroid/widget/EditText;
 
     move-result-object v3
@@ -142,7 +136,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ChannelCreateActivity$15;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->nameTextView:Landroid/widget/EditText;
     invoke-static {v3}, Lorg/telegram/ui/ChannelCreateActivity;->access$300(Lorg/telegram/ui/ChannelCreateActivity;)Landroid/widget/EditText;
 
     move-result-object v3
@@ -163,7 +156,6 @@
     .line 969
     iget-object v3, p0, Lorg/telegram/ui/ChannelCreateActivity$15;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->avatarImage:Lorg/telegram/ui/Components/BackupImageView;
     invoke-static {v3}, Lorg/telegram/ui/ChannelCreateActivity;->access$1600(Lorg/telegram/ui/ChannelCreateActivity;)Lorg/telegram/ui/Components/BackupImageView;
 
     move-result-object v3

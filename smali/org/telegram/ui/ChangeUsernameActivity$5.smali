@@ -73,7 +73,6 @@
 
     move-result v2
 
-    # setter for: Lorg/telegram/ui/ChangeUsernameActivity;->checkReqId:I
     invoke-static {v1, v2}, Lorg/telegram/ui/ChangeUsernameActivity;->access$802(Lorg/telegram/ui/ChangeUsernameActivity;I)I
 
     .line 378

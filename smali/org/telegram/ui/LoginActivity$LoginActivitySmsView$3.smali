@@ -49,7 +49,6 @@
     .line 1339
     iget-object v4, p0, Lorg/telegram/ui/LoginActivity$LoginActivitySmsView$3;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;->nextPressed:Z
     invoke-static {v4}, Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;->access$2800(Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;)Z
 
     move-result v4
@@ -64,7 +63,6 @@
     :cond_0
     iget-object v4, p0, Lorg/telegram/ui/LoginActivity$LoginActivitySmsView$3;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;->nextType:I
     invoke-static {v4}, Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;->access$2900(Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;)I
 
     move-result v4
@@ -73,7 +71,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/LoginActivity$LoginActivitySmsView$3;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;->nextType:I
     invoke-static {v4}, Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;->access$2900(Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;)I
 
     move-result v4
@@ -85,7 +82,6 @@
     .line 1343
     iget-object v4, p0, Lorg/telegram/ui/LoginActivity$LoginActivitySmsView$3;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;
 
-    # invokes: Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;->resendCode()V
     invoke-static {v4}, Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;->access$3000(Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;)V
 
     goto :goto_0
@@ -195,7 +191,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/LoginActivity$LoginActivitySmsView$3;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;->emailPhone:Ljava/lang/String;
     invoke-static {v6}, Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;->access$3100(Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;)Ljava/lang/String;
 
     move-result-object v6
@@ -225,7 +220,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/LoginActivity$LoginActivitySmsView$3;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;->requestPhone:Ljava/lang/String;
     invoke-static {v6}, Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;->access$3200(Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;)Ljava/lang/String;
 
     move-result-object v6
@@ -296,7 +290,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/LoginActivity$LoginActivitySmsView$3;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;->lastError:Ljava/lang/String;
     invoke-static {v6}, Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;->access$3300(Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;)Ljava/lang/String;
 
     move-result-object v6
@@ -359,7 +352,6 @@
 
     move-result-object v6
 
-    # invokes: Lorg/telegram/ui/LoginActivity;->needShowAlert(Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {v4, v5, v6}, Lorg/telegram/ui/LoginActivity;->access$300(Lorg/telegram/ui/LoginActivity;Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0

@@ -44,7 +44,6 @@
     .line 478
     iget-object v0, p0, Lorg/telegram/ui/PasscodeActivity$9;->this$0:Lorg/telegram/ui/PasscodeActivity;
 
-    # getter for: Lorg/telegram/ui/PasscodeActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v0}, Lorg/telegram/ui/PasscodeActivity;->access$1000(Lorg/telegram/ui/PasscodeActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v0
@@ -58,7 +57,6 @@
     .line 479
     iget-object v0, p0, Lorg/telegram/ui/PasscodeActivity$9;->this$0:Lorg/telegram/ui/PasscodeActivity;
 
-    # invokes: Lorg/telegram/ui/PasscodeActivity;->fixLayoutInternal()V
     invoke-static {v0}, Lorg/telegram/ui/PasscodeActivity;->access$1500(Lorg/telegram/ui/PasscodeActivity;)V
 
     .line 480

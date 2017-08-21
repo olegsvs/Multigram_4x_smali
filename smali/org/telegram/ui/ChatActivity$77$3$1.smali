@@ -90,7 +90,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/ChatActivity;->foundUrls:Ljava/util/ArrayList;
     invoke-static {v0, v1}, Lorg/telegram/ui/ChatActivity;->access$16002(Lorg/telegram/ui/ChatActivity;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 4809
@@ -112,7 +111,6 @@
 
     iget-boolean v2, v2, Lorg/telegram/ui/ChatActivity$77;->val$force:Z
 
-    # invokes: Lorg/telegram/ui/ChatActivity;->searchLinks(Ljava/lang/CharSequence;Z)V
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/ChatActivity;->access$12000(Lorg/telegram/ui/ChatActivity;Ljava/lang/CharSequence;Z)V
 
     .line 4810

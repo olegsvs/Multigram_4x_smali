@@ -51,7 +51,6 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->currentBitmap:Landroid/graphics/Bitmap;
     invoke-static {v1, v2}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$4602(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     .line 1586

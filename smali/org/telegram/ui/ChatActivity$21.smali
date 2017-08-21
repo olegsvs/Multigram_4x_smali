@@ -47,7 +47,6 @@
     .line 2153
     iget-object v4, p0, Lorg/telegram/ui/ChatActivity$21;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->floatingDateView:Lorg/telegram/ui/Cells/ChatActionCell;
     invoke-static {v4}, Lorg/telegram/ui/ChatActivity;->access$8700(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/Cells/ChatActionCell;
 
     move-result-object v4
@@ -76,7 +75,6 @@
     .local v0, "calendar":Ljava/util/Calendar;
     iget-object v4, p0, Lorg/telegram/ui/ChatActivity$21;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->floatingDateView:Lorg/telegram/ui/Cells/ChatActionCell;
     invoke-static {v4}, Lorg/telegram/ui/ChatActivity;->access$8700(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/Cells/ChatActionCell;
 
     move-result-object v4
@@ -136,7 +134,6 @@
 
     long-to-int v5, v6
 
-    # invokes: Lorg/telegram/ui/ChatActivity;->jumpToDate(I)V
     invoke-static {v4, v5}, Lorg/telegram/ui/ChatActivity;->access$9700(Lorg/telegram/ui/ChatActivity;I)V
 
     goto :goto_0

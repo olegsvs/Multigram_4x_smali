@@ -46,7 +46,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/FileUploadOperation$5;->this$0:Lorg/telegram/messenger/FileUploadOperation;
 
-    # getter for: Lorg/telegram/messenger/FileUploadOperation;->currentUploadRequetsCount:I
     invoke-static {v0}, Lorg/telegram/messenger/FileUploadOperation;->access$900(Lorg/telegram/messenger/FileUploadOperation;)I
 
     move-result v0
@@ -55,7 +54,6 @@
 
     iget-object v1, v1, Lorg/telegram/messenger/FileUploadOperation$5;->this$0:Lorg/telegram/messenger/FileUploadOperation;
 
-    # getter for: Lorg/telegram/messenger/FileUploadOperation;->maxRequestsCount:I
     invoke-static {v1}, Lorg/telegram/messenger/FileUploadOperation;->access$1000(Lorg/telegram/messenger/FileUploadOperation;)I
 
     move-result v1
@@ -67,7 +65,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/FileUploadOperation$5;->this$0:Lorg/telegram/messenger/FileUploadOperation;
 
-    # invokes: Lorg/telegram/messenger/FileUploadOperation;->startUploadRequest()V
     invoke-static {v0}, Lorg/telegram/messenger/FileUploadOperation;->access$100(Lorg/telegram/messenger/FileUploadOperation;)V
 
     .line 529

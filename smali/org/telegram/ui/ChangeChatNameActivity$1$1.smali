@@ -50,7 +50,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # setter for: Lorg/telegram/ui/ChangeChatNameActivity;->createAfterUpload:Z
     invoke-static {v1, v3}, Lorg/telegram/ui/ChangeChatNameActivity;->access$302(Lorg/telegram/ui/ChangeChatNameActivity;Z)Z
 
     .line 126
@@ -60,7 +59,6 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/ui/ChangeChatNameActivity;->progressDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v1, v2}, Lorg/telegram/ui/ChangeChatNameActivity;->access$402(Lorg/telegram/ui/ChangeChatNameActivity;Lorg/telegram/ui/ActionBar/AlertDialog;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     .line 127
@@ -68,7 +66,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # setter for: Lorg/telegram/ui/ChangeChatNameActivity;->donePressed:Z
     invoke-static {v1, v3}, Lorg/telegram/ui/ChangeChatNameActivity;->access$002(Lorg/telegram/ui/ChangeChatNameActivity;Z)Z
 
     .line 129

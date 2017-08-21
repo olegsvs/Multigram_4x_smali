@@ -73,7 +73,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/Components/Crop/CropGestureDetector$1;->this$0:Lorg/telegram/ui/Components/Crop/CropGestureDetector;
 
-    # getter for: Lorg/telegram/ui/Components/Crop/CropGestureDetector;->mListener:Lorg/telegram/ui/Components/Crop/CropGestureDetector$CropGestureListener;
     invoke-static {v1}, Lorg/telegram/ui/Components/Crop/CropGestureDetector;->access$000(Lorg/telegram/ui/Components/Crop/CropGestureDetector;)Lorg/telegram/ui/Components/Crop/CropGestureDetector$CropGestureListener;
 
     move-result-object v1

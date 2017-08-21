@@ -47,7 +47,6 @@
     iput p1, p0, Lorg/telegram/messenger/time/FastDateParser$TextStrategy;->field:I
 
     .line 643
-    # invokes: Lorg/telegram/messenger/time/FastDateParser;->getDisplayNames(ILjava/util/Calendar;Ljava/util/Locale;)Ljava/util/Map;
     invoke-static {p1, p2, p3}, Lorg/telegram/messenger/time/FastDateParser;->access$200(ILjava/util/Calendar;Ljava/util/Locale;)Ljava/util/Map;
 
     move-result-object v0
@@ -99,7 +98,6 @@
     .local v0, "textKeyValue":Ljava/lang/String;
     const/4 v2, 0x0
 
-    # invokes: Lorg/telegram/messenger/time/FastDateParser;->escapeRegex(Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
     invoke-static {p2, v0, v2}, Lorg/telegram/messenger/time/FastDateParser;->access$100(Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
 
     move-result-object v2

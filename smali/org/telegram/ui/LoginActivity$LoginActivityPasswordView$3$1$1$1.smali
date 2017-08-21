@@ -86,7 +86,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView$3;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;->requestPhone:Ljava/lang/String;
     invoke-static {v2}, Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;->access$5500(Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;)Ljava/lang/String;
 
     move-result-object v2
@@ -104,7 +103,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView$3;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;->phoneHash:Ljava/lang/String;
     invoke-static {v2}, Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;->access$5600(Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;)Ljava/lang/String;
 
     move-result-object v2
@@ -122,7 +120,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView$3;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;->phoneCode:Ljava/lang/String;
     invoke-static {v2}, Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;->access$5700(Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;)Ljava/lang/String;
 
     move-result-object v2
@@ -188,7 +185,6 @@
 
     move-result-object v3
 
-    # invokes: Lorg/telegram/ui/LoginActivity;->needShowAlert(Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {v1, v2, v3}, Lorg/telegram/ui/LoginActivity;->access$300(Lorg/telegram/ui/LoginActivity;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
@@ -224,7 +220,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView$3;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;->requestPhone:Ljava/lang/String;
     invoke-static {v2}, Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;->access$5500(Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;)Ljava/lang/String;
 
     move-result-object v2
@@ -242,7 +237,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView$3;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;->phoneHash:Ljava/lang/String;
     invoke-static {v2}, Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;->access$5600(Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;)Ljava/lang/String;
 
     move-result-object v2
@@ -260,7 +254,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView$3;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;->phoneCode:Ljava/lang/String;
     invoke-static {v2}, Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;->access$5700(Lorg/telegram/ui/LoginActivity$LoginActivityPasswordView;)Ljava/lang/String;
 
     move-result-object v2
@@ -345,7 +338,6 @@
 
     iget-object v3, v3, Lorg/telegram/tgnet/TLRPC$TL_error;->text:Ljava/lang/String;
 
-    # invokes: Lorg/telegram/ui/LoginActivity;->needShowAlert(Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {v1, v2, v3}, Lorg/telegram/ui/LoginActivity;->access$300(Lorg/telegram/ui/LoginActivity;Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0

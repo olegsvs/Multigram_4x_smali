@@ -74,7 +74,6 @@
     .line 142
     iget-object v3, p0, Lorg/telegram/ui/PrivacyControlActivity$1;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->currentType:I
     invoke-static {v3}, Lorg/telegram/ui/PrivacyControlActivity;->access$000(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v3
@@ -83,7 +82,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/PrivacyControlActivity$1;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->rulesType:I
     invoke-static {v3}, Lorg/telegram/ui/PrivacyControlActivity;->access$100(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v3
@@ -126,7 +124,6 @@
     .local v0, "builder":Lorg/telegram/ui/ActionBar/AlertDialog$Builder;
     iget-object v3, p0, Lorg/telegram/ui/PrivacyControlActivity$1;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->rulesType:I
     invoke-static {v3}, Lorg/telegram/ui/PrivacyControlActivity;->access$100(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v3
@@ -216,7 +213,6 @@
     :cond_3
     iget-object v3, p0, Lorg/telegram/ui/PrivacyControlActivity$1;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # invokes: Lorg/telegram/ui/PrivacyControlActivity;->applyCurrentPrivacySettings()V
     invoke-static {v3}, Lorg/telegram/ui/PrivacyControlActivity;->access$200(Lorg/telegram/ui/PrivacyControlActivity;)V
 
     goto/16 :goto_0

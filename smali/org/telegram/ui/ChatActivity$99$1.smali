@@ -113,7 +113,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChatActivity$99;->val$finalSelectedObject:Lorg/telegram/messenger/MessageObject;
 
-    # invokes: Lorg/telegram/ui/ChatActivity;->createDeleteMessagesAlert(Lorg/telegram/messenger/MessageObject;I)V
     invoke-static {v2, v3, v0}, Lorg/telegram/ui/ChatActivity;->access$18300(Lorg/telegram/ui/ChatActivity;Lorg/telegram/messenger/MessageObject;I)V
 
     .line 9285

@@ -95,7 +95,6 @@
 
     iget-object v13, v0, Lorg/telegram/ui/Components/VideoTimelinePlayView$1;->this$0:Lorg/telegram/ui/Components/VideoTimelinePlayView;
 
-    # getter for: Lorg/telegram/ui/Components/VideoTimelinePlayView;->mediaMetadataRetriever:Landroid/media/MediaMetadataRetriever;
     invoke-static {v13}, Lorg/telegram/ui/Components/VideoTimelinePlayView;->access$100(Lorg/telegram/ui/Components/VideoTimelinePlayView;)Landroid/media/MediaMetadataRetriever;
 
     move-result-object v13
@@ -104,7 +103,6 @@
 
     iget-object v14, v0, Lorg/telegram/ui/Components/VideoTimelinePlayView$1;->this$0:Lorg/telegram/ui/Components/VideoTimelinePlayView;
 
-    # getter for: Lorg/telegram/ui/Components/VideoTimelinePlayView;->frameTimeOffset:J
     invoke-static {v14}, Lorg/telegram/ui/Components/VideoTimelinePlayView;->access$000(Lorg/telegram/ui/Components/VideoTimelinePlayView;)J
 
     move-result-wide v14
@@ -154,7 +152,6 @@
 
     iget-object v13, v0, Lorg/telegram/ui/Components/VideoTimelinePlayView$1;->this$0:Lorg/telegram/ui/Components/VideoTimelinePlayView;
 
-    # getter for: Lorg/telegram/ui/Components/VideoTimelinePlayView;->frameWidth:I
     invoke-static {v13}, Lorg/telegram/ui/Components/VideoTimelinePlayView;->access$200(Lorg/telegram/ui/Components/VideoTimelinePlayView;)I
 
     move-result v13
@@ -163,7 +160,6 @@
 
     iget-object v14, v0, Lorg/telegram/ui/Components/VideoTimelinePlayView$1;->this$0:Lorg/telegram/ui/Components/VideoTimelinePlayView;
 
-    # getter for: Lorg/telegram/ui/Components/VideoTimelinePlayView;->frameHeight:I
     invoke-static {v14}, Lorg/telegram/ui/Components/VideoTimelinePlayView;->access$300(Lorg/telegram/ui/Components/VideoTimelinePlayView;)I
 
     move-result v14
@@ -188,7 +184,6 @@
 
     iget-object v13, v0, Lorg/telegram/ui/Components/VideoTimelinePlayView$1;->this$0:Lorg/telegram/ui/Components/VideoTimelinePlayView;
 
-    # getter for: Lorg/telegram/ui/Components/VideoTimelinePlayView;->frameWidth:I
     invoke-static {v13}, Lorg/telegram/ui/Components/VideoTimelinePlayView;->access$200(Lorg/telegram/ui/Components/VideoTimelinePlayView;)I
 
     move-result v13
@@ -209,7 +204,6 @@
 
     iget-object v13, v0, Lorg/telegram/ui/Components/VideoTimelinePlayView$1;->this$0:Lorg/telegram/ui/Components/VideoTimelinePlayView;
 
-    # getter for: Lorg/telegram/ui/Components/VideoTimelinePlayView;->frameHeight:I
     invoke-static {v13}, Lorg/telegram/ui/Components/VideoTimelinePlayView;->access$300(Lorg/telegram/ui/Components/VideoTimelinePlayView;)I
 
     move-result v13
@@ -285,7 +279,6 @@
 
     iget-object v13, v0, Lorg/telegram/ui/Components/VideoTimelinePlayView$1;->this$0:Lorg/telegram/ui/Components/VideoTimelinePlayView;
 
-    # getter for: Lorg/telegram/ui/Components/VideoTimelinePlayView;->frameWidth:I
     invoke-static {v13}, Lorg/telegram/ui/Components/VideoTimelinePlayView;->access$200(Lorg/telegram/ui/Components/VideoTimelinePlayView;)I
 
     move-result v13
@@ -298,7 +291,6 @@
 
     iget-object v14, v0, Lorg/telegram/ui/Components/VideoTimelinePlayView$1;->this$0:Lorg/telegram/ui/Components/VideoTimelinePlayView;
 
-    # getter for: Lorg/telegram/ui/Components/VideoTimelinePlayView;->frameHeight:I
     invoke-static {v14}, Lorg/telegram/ui/Components/VideoTimelinePlayView;->access$300(Lorg/telegram/ui/Components/VideoTimelinePlayView;)I
 
     move-result v14
@@ -393,7 +385,6 @@
     .line 319
     iget-object v0, p0, Lorg/telegram/ui/Components/VideoTimelinePlayView$1;->this$0:Lorg/telegram/ui/Components/VideoTimelinePlayView;
 
-    # getter for: Lorg/telegram/ui/Components/VideoTimelinePlayView;->frames:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/Components/VideoTimelinePlayView;->access$400(Lorg/telegram/ui/Components/VideoTimelinePlayView;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -410,7 +401,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/VideoTimelinePlayView$1;->this$0:Lorg/telegram/ui/Components/VideoTimelinePlayView;
 
-    # getter for: Lorg/telegram/ui/Components/VideoTimelinePlayView;->framesToLoad:I
     invoke-static {v1}, Lorg/telegram/ui/Components/VideoTimelinePlayView;->access$500(Lorg/telegram/ui/Components/VideoTimelinePlayView;)I
 
     move-result v1
@@ -424,7 +414,6 @@
 
     add-int/lit8 v1, v1, 0x1
 
-    # invokes: Lorg/telegram/ui/Components/VideoTimelinePlayView;->reloadFrames(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/VideoTimelinePlayView;->access$600(Lorg/telegram/ui/Components/VideoTimelinePlayView;I)V
 
     .line 325

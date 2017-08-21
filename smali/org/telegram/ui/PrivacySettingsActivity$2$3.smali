@@ -50,7 +50,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->visibleDialog:Landroid/app/Dialog;
     invoke-static {v2}, Lorg/telegram/ui/PrivacySettingsActivity;->access$1300(Lorg/telegram/ui/PrivacySettingsActivity;)Landroid/app/Dialog;
 
     move-result-object v2
@@ -62,7 +61,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->visibleDialog:Landroid/app/Dialog;
     invoke-static {v2}, Lorg/telegram/ui/PrivacySettingsActivity;->access$1400(Lorg/telegram/ui/PrivacySettingsActivity;)Landroid/app/Dialog;
 
     move-result-object v2
@@ -84,7 +82,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->clear:[Z
     invoke-static {v2}, Lorg/telegram/ui/PrivacySettingsActivity;->access$1200(Lorg/telegram/ui/PrivacySettingsActivity;)[Z
 
     move-result-object v2
@@ -100,7 +97,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->clear:[Z
     invoke-static {v2}, Lorg/telegram/ui/PrivacySettingsActivity;->access$1200(Lorg/telegram/ui/PrivacySettingsActivity;)[Z
 
     move-result-object v2

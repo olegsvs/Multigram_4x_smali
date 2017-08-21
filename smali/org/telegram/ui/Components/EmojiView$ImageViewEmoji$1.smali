@@ -51,7 +51,6 @@
 
     const/4 v1, 0x0
 
-    # invokes: Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->sendEmoji(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->access$300(Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;Ljava/lang/String;)V
 
     .line 187

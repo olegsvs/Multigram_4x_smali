@@ -209,7 +209,6 @@
 
     iget-wide v4, v2, Lorg/telegram/tgnet/TLRPC$TL_topPeer;->rating:D
 
-    # invokes: Lorg/telegram/messenger/query/SearchQuery;->savePeer(IID)V
     invoke-static {v3, v10, v4, v5}, Lorg/telegram/messenger/query/SearchQuery;->access$500(IID)V
 
     .line 567

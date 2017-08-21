@@ -46,7 +46,6 @@
     :try_start_0
     iget-object v1, p0, Lorg/telegram/ui/SetAdminsActivity$SearchAdapter$1;->this$1:Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;->searchTimer:Ljava/util/Timer;
     invoke-static {v1}, Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;->access$1800(Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;)Ljava/util/Timer;
 
     move-result-object v1
@@ -58,7 +57,6 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;->searchTimer:Ljava/util/Timer;
     invoke-static {v1, v2}, Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;->access$1802(Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;Ljava/util/Timer;)Ljava/util/Timer;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -69,7 +67,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/SetAdminsActivity$SearchAdapter$1;->val$query:Ljava/lang/String;
 
-    # invokes: Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;->processSearch(Ljava/lang/String;)V
     invoke-static {v1, v2}, Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;->access$1900(Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;Ljava/lang/String;)V
 
     .line 498

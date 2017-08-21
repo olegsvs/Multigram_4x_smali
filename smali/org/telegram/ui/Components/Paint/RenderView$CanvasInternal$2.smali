@@ -44,7 +44,6 @@
     .line 453
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal$2;->this$1:Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;->drawRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;->access$1700(Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;)Ljava/lang/Runnable;
 
     move-result-object v0

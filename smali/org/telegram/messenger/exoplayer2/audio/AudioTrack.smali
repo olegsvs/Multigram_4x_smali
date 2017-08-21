@@ -453,7 +453,6 @@
 
     check-cast v0, Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;->positionUs:J
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;->access$400(Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;)J
 
     move-result-wide v0
@@ -473,7 +472,6 @@
 
     .line 1230
     .local v6, "checkpoint":Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;
-    # getter for: Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;->playbackParameters:Lorg/telegram/messenger/exoplayer2/PlaybackParameters;
     invoke-static {v6}, Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;->access$200(Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;)Lorg/telegram/messenger/exoplayer2/PlaybackParameters;
 
     move-result-object v0
@@ -481,7 +479,6 @@
     iput-object v0, p0, Lorg/telegram/messenger/exoplayer2/audio/AudioTrack;->playbackParameters:Lorg/telegram/messenger/exoplayer2/PlaybackParameters;
 
     .line 1231
-    # getter for: Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;->positionUs:J
     invoke-static {v6}, Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;->access$400(Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;)J
 
     move-result-wide v0
@@ -489,7 +486,6 @@
     iput-wide v0, p0, Lorg/telegram/messenger/exoplayer2/audio/AudioTrack;->playbackParametersPositionUs:J
 
     .line 1232
-    # getter for: Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;->mediaTimeUs:J
     invoke-static {v6}, Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;->access$500(Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;)J
 
     move-result-wide v0
@@ -4844,7 +4840,6 @@
 
     check-cast v4, Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;->playbackParameters:Lorg/telegram/messenger/exoplayer2/PlaybackParameters;
     invoke-static {v4}, Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;->access$200(Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;)Lorg/telegram/messenger/exoplayer2/PlaybackParameters;
 
     move-result-object v4
@@ -5059,7 +5054,6 @@
 
     check-cast v2, Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;->playbackParameters:Lorg/telegram/messenger/exoplayer2/PlaybackParameters;
     invoke-static {v2}, Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;->access$200(Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$PlaybackParametersCheckpoint;)Lorg/telegram/messenger/exoplayer2/PlaybackParameters;
 
     move-result-object v0

@@ -48,7 +48,6 @@
     .line 130
     iget-object v1, p0, Lorg/telegram/ui/ArchivedStickersActivity$2;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/ArchivedStickersActivity;->stickersStartRow:I
     invoke-static {v1}, Lorg/telegram/ui/ArchivedStickersActivity;->access$000(Lorg/telegram/ui/ArchivedStickersActivity;)I
 
     move-result v1
@@ -57,7 +56,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ArchivedStickersActivity$2;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/ArchivedStickersActivity;->stickersEndRow:I
     invoke-static {v1}, Lorg/telegram/ui/ArchivedStickersActivity;->access$100(Lorg/telegram/ui/ArchivedStickersActivity;)I
 
     move-result v1
@@ -75,7 +73,6 @@
     .line 131
     iget-object v1, p0, Lorg/telegram/ui/ArchivedStickersActivity$2;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/ArchivedStickersActivity;->sets:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/ArchivedStickersActivity;->access$200(Lorg/telegram/ui/ArchivedStickersActivity;)Ljava/util/ArrayList;
 
     move-result-object v1

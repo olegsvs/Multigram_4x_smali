@@ -61,7 +61,6 @@
     .line 122
     iget-object v1, p0, Lorg/telegram/ui/Components/EditTextCaption$1;->this$0:Lorg/telegram/ui/Components/EditTextCaption;
 
-    # invokes: Lorg/telegram/ui/Components/EditTextCaption;->makeSelectedRegular()V
     invoke-static {v1}, Lorg/telegram/ui/Components/EditTextCaption;->access$100(Lorg/telegram/ui/Components/EditTextCaption;)V
 
     .line 123
@@ -84,7 +83,6 @@
     .line 126
     iget-object v1, p0, Lorg/telegram/ui/Components/EditTextCaption$1;->this$0:Lorg/telegram/ui/Components/EditTextCaption;
 
-    # invokes: Lorg/telegram/ui/Components/EditTextCaption;->makeSelectedBold()V
     invoke-static {v1}, Lorg/telegram/ui/Components/EditTextCaption;->access$200(Lorg/telegram/ui/Components/EditTextCaption;)V
 
     .line 127
@@ -105,7 +103,6 @@
     .line 130
     iget-object v1, p0, Lorg/telegram/ui/Components/EditTextCaption$1;->this$0:Lorg/telegram/ui/Components/EditTextCaption;
 
-    # invokes: Lorg/telegram/ui/Components/EditTextCaption;->makeSelectedItalic()V
     invoke-static {v1}, Lorg/telegram/ui/Components/EditTextCaption;->access$300(Lorg/telegram/ui/Components/EditTextCaption;)V
 
     .line 131
@@ -135,7 +132,6 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/ui/Components/EditTextCaption;->copyPasteShowed:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/EditTextCaption;->access$002(Lorg/telegram/ui/Components/EditTextCaption;Z)Z
 
     .line 111
@@ -158,7 +154,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/EditTextCaption;->copyPasteShowed:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/EditTextCaption;->access$002(Lorg/telegram/ui/Components/EditTextCaption;Z)Z
 
     .line 140

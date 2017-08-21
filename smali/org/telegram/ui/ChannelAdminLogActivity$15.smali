@@ -50,7 +50,6 @@
     .line 1080
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$15;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->selectedObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4900(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/messenger/MessageObject;
 
     move-result-object v0
@@ -88,7 +87,6 @@
 
     move-result v0
 
-    # invokes: Lorg/telegram/ui/ChannelAdminLogActivity;->processSelectedOption(I)V
     invoke-static {v1, v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$5000(Lorg/telegram/ui/ChannelAdminLogActivity;I)V
 
     goto :goto_0

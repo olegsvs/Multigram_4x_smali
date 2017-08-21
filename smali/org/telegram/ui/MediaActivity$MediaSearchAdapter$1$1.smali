@@ -54,7 +54,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter$1;->this$1:Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->lastReqId:I
     invoke-static {v1}, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->access$4300(Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;)I
 
     move-result v1
@@ -85,7 +84,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->reqId:I
     invoke-static {v0, v1}, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->access$4402(Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;I)I
 
     .line 1984

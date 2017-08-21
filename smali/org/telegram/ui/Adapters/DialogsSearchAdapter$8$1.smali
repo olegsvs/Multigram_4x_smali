@@ -50,7 +50,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/Adapters/DialogsSearchAdapter$8;->this$0:Lorg/telegram/ui/Adapters/DialogsSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->needMessagesSearch:I
     invoke-static {v0}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$1600(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;)I
 
     move-result v0
@@ -64,7 +63,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/Adapters/DialogsSearchAdapter$8;->this$0:Lorg/telegram/ui/Adapters/DialogsSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->searchAdapterHelper:Lorg/telegram/ui/Adapters/SearchAdapterHelper;
     invoke-static {v0}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$1700(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;)Lorg/telegram/ui/Adapters/SearchAdapterHelper;
 
     move-result-object v0
@@ -93,7 +91,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/Adapters/DialogsSearchAdapter$8;->val$query:Ljava/lang/String;
 
-    # invokes: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->searchMessagesInternal(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$1800(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;Ljava/lang/String;)V
 
     .line 888

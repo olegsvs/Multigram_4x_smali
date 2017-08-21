@@ -57,7 +57,6 @@
     .line 638
     iget-object v0, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->rowCount:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingActivity;->access$2600(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v0
@@ -97,7 +96,6 @@
     .line 755
     iget-object v1, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->screensSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/ThemingActivity;->access$3000(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v1
@@ -106,7 +104,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->themesSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/ThemingActivity;->access$3100(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v1
@@ -126,7 +123,6 @@
     :cond_2
     iget-object v1, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->generalSection2Row:I
     invoke-static {v1}, Lorg/telegram/ui/ThemingActivity;->access$2800(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v1
@@ -135,7 +131,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->screensSection2Row:I
     invoke-static {v1}, Lorg/telegram/ui/ThemingActivity;->access$2700(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v1
@@ -144,7 +139,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->themesSection2Row:I
     invoke-static {v1}, Lorg/telegram/ui/ThemingActivity;->access$2900(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v1
@@ -161,7 +155,6 @@
     :cond_4
     iget-object v1, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->chatsRow:I
     invoke-static {v1}, Lorg/telegram/ui/ThemingActivity;->access$1300(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v1
@@ -171,7 +164,6 @@
     .line 764
     iget-object v1, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->resetThemeRow:I
     invoke-static {v1}, Lorg/telegram/ui/ThemingActivity;->access$900(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v1
@@ -180,7 +172,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->saveThemeRow:I
     invoke-static {v1}, Lorg/telegram/ui/ThemingActivity;->access$600(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v1
@@ -189,7 +180,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->applyThemeRow:I
     invoke-static {v1}, Lorg/telegram/ui/ThemingActivity;->access$800(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v1
@@ -206,7 +196,6 @@
     :cond_6
     iget-object v1, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->themeColorRow:I
     invoke-static {v1}, Lorg/telegram/ui/ThemingActivity;->access$200(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v1
@@ -215,7 +204,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->dialogColorRow:I
     invoke-static {v1}, Lorg/telegram/ui/ThemingActivity;->access$400(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v1
@@ -232,7 +220,6 @@
     :cond_8
     iget-object v1, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->usePlusThemeRow:I
     invoke-static {v1}, Lorg/telegram/ui/ThemingActivity;->access$1900(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v1
@@ -265,7 +252,6 @@
     .local v5, "type":I
     iget-object v6, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->showPrefix:Z
     invoke-static {v6}, Lorg/telegram/ui/ThemingActivity;->access$000(Lorg/telegram/ui/ThemingActivity;)Z
 
     move-result v6
@@ -278,7 +264,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->screensSection2Row:I
     invoke-static {v7}, Lorg/telegram/ui/ThemingActivity;->access$2700(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v7
@@ -363,7 +348,6 @@
     :cond_4
     iget-object v6, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->generalSection2Row:I
     invoke-static {v6}, Lorg/telegram/ui/ThemingActivity;->access$2800(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v6
@@ -391,7 +375,6 @@
     :cond_5
     iget-object v6, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->screensSection2Row:I
     invoke-static {v6}, Lorg/telegram/ui/ThemingActivity;->access$2700(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v6
@@ -419,7 +402,6 @@
     :cond_6
     iget-object v6, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->themesSection2Row:I
     invoke-static {v6}, Lorg/telegram/ui/ThemingActivity;->access$2900(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v6
@@ -471,7 +453,6 @@
     .local v4, "textCell":Lorg/telegram/ui/Cells/TextSettingsCell;
     iget-object v6, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->chatsRow:I
     invoke-static {v6}, Lorg/telegram/ui/ThemingActivity;->access$1300(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v6
@@ -511,7 +492,6 @@
     :cond_9
     iget-object v6, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->chatRow:I
     invoke-static {v6}, Lorg/telegram/ui/ThemingActivity;->access$1400(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v6
@@ -551,7 +531,6 @@
     :cond_a
     iget-object v6, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->contactsRow:I
     invoke-static {v6}, Lorg/telegram/ui/ThemingActivity;->access$1500(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v6
@@ -591,7 +570,6 @@
     :cond_b
     iget-object v6, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->drawerRow:I
     invoke-static {v6}, Lorg/telegram/ui/ThemingActivity;->access$1600(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v6
@@ -631,7 +609,6 @@
     :cond_c
     iget-object v6, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->profileRow:I
     invoke-static {v6}, Lorg/telegram/ui/ThemingActivity;->access$1700(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v6
@@ -671,7 +648,6 @@
     :cond_d
     iget-object v6, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->settingsRow:I
     invoke-static {v6}, Lorg/telegram/ui/ThemingActivity;->access$1800(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v6
@@ -736,7 +712,6 @@
     .local v4, "textCell":Lorg/telegram/ui/Cells/TextDetailSettingsCell;
     iget-object v6, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->saveThemeRow:I
     invoke-static {v6}, Lorg/telegram/ui/ThemingActivity;->access$600(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v6
@@ -826,7 +801,6 @@
     :cond_11
     iget-object v6, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->applyThemeRow:I
     invoke-static {v6}, Lorg/telegram/ui/ThemingActivity;->access$800(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v6
@@ -864,7 +838,6 @@
     :cond_12
     iget-object v6, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->resetThemeRow:I
     invoke-static {v6}, Lorg/telegram/ui/ThemingActivity;->access$900(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v6
@@ -944,7 +917,6 @@
     .local v0, "defColor":I
     iget-object v6, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->themeColorRow:I
     invoke-static {v6}, Lorg/telegram/ui/ThemingActivity;->access$200(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v6
@@ -968,7 +940,6 @@
     :cond_15
     iget-object v6, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->dialogColorRow:I
     invoke-static {v6}, Lorg/telegram/ui/ThemingActivity;->access$400(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v6
@@ -1025,7 +996,6 @@
     .local v4, "textCell":Lorg/telegram/ui/Cells/TextCheckCell;
     iget-object v6, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->usePlusThemeRow:I
     invoke-static {v6}, Lorg/telegram/ui/ThemingActivity;->access$1900(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v6
@@ -1102,7 +1072,6 @@
     .line 632
     iget-object v0, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->themeColorRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingActivity;->access$200(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v0
@@ -1111,7 +1080,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->dialogColorRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingActivity;->access$400(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v0
@@ -1120,7 +1088,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->chatsRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingActivity;->access$1300(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v0
@@ -1129,7 +1096,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->chatRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingActivity;->access$1400(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v0
@@ -1138,7 +1104,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->contactsRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingActivity;->access$1500(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v0
@@ -1147,7 +1112,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->drawerRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingActivity;->access$1600(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v0
@@ -1157,7 +1121,6 @@
     iget-object v0, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
     .line 633
-    # getter for: Lorg/telegram/ui/ThemingActivity;->profileRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingActivity;->access$1700(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v0
@@ -1166,7 +1129,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->settingsRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingActivity;->access$1800(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v0
@@ -1175,7 +1137,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->resetThemeRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingActivity;->access$900(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v0
@@ -1184,7 +1145,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->saveThemeRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingActivity;->access$600(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v0
@@ -1193,7 +1153,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->applyThemeRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingActivity;->access$800(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v0
@@ -1202,7 +1161,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->usePlusThemeRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingActivity;->access$1900(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v0

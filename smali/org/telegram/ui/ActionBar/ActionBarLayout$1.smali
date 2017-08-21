@@ -48,7 +48,6 @@
 
     iget-boolean v1, p0, Lorg/telegram/ui/ActionBar/ActionBarLayout$1;->val$backAnimation:Z
 
-    # invokes: Lorg/telegram/ui/ActionBar/ActionBarLayout;->onSlideAnimationEnd(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ActionBar/ActionBarLayout;->access$400(Lorg/telegram/ui/ActionBar/ActionBarLayout;Z)V
 
     .line 477

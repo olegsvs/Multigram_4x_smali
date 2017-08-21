@@ -27,7 +27,7 @@
     .param p1, "this$1"    # Lorg/telegram/ui/IntroActivity$EGLThread;
 
     .prologue
-    .line 691
+    .line 729
     iput-object p1, p0, Lorg/telegram/ui/IntroActivity$EGLThread$2;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,24 +41,24 @@
     .locals 2
 
     .prologue
-    .line 694
+    .line 732
     iget-object v1, p0, Lorg/telegram/ui/IntroActivity$EGLThread$2;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
     invoke-virtual {v1}, Lorg/telegram/ui/IntroActivity$EGLThread;->finish()V
 
-    .line 695
+    .line 733
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object v0
 
-    .line 696
+    .line 734
     .local v0, "looper":Landroid/os/Looper;
     if-eqz v0, :cond_0
 
-    .line 697
+    .line 735
     invoke-virtual {v0}, Landroid/os/Looper;->quit()V
 
-    .line 699
+    .line 737
     :cond_0
     return-void
 .end method

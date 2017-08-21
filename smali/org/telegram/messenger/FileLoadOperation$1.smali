@@ -46,7 +46,6 @@
     .line 416
     iget-object v1, p0, Lorg/telegram/messenger/FileLoadOperation$1;->this$0:Lorg/telegram/messenger/FileLoadOperation;
 
-    # getter for: Lorg/telegram/messenger/FileLoadOperation;->totalBytesCount:I
     invoke-static {v1}, Lorg/telegram/messenger/FileLoadOperation;->access$000(Lorg/telegram/messenger/FileLoadOperation;)I
 
     move-result v1
@@ -55,14 +54,12 @@
 
     iget-object v1, p0, Lorg/telegram/messenger/FileLoadOperation$1;->this$0:Lorg/telegram/messenger/FileLoadOperation;
 
-    # getter for: Lorg/telegram/messenger/FileLoadOperation;->downloadedBytes:I
     invoke-static {v1}, Lorg/telegram/messenger/FileLoadOperation;->access$100(Lorg/telegram/messenger/FileLoadOperation;)I
 
     move-result v1
 
     iget-object v2, p0, Lorg/telegram/messenger/FileLoadOperation$1;->this$0:Lorg/telegram/messenger/FileLoadOperation;
 
-    # getter for: Lorg/telegram/messenger/FileLoadOperation;->totalBytesCount:I
     invoke-static {v2}, Lorg/telegram/messenger/FileLoadOperation;->access$000(Lorg/telegram/messenger/FileLoadOperation;)I
 
     move-result v2
@@ -75,7 +72,6 @@
 
     const/4 v2, 0x0
 
-    # invokes: Lorg/telegram/messenger/FileLoadOperation;->onFinishLoadingFile(Z)V
     invoke-static {v1, v2}, Lorg/telegram/messenger/FileLoadOperation;->access$200(Lorg/telegram/messenger/FileLoadOperation;Z)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -94,7 +90,6 @@
 
     const/4 v2, 0x1
 
-    # invokes: Lorg/telegram/messenger/FileLoadOperation;->onFail(ZI)V
     invoke-static {v1, v2, v3}, Lorg/telegram/messenger/FileLoadOperation;->access$300(Lorg/telegram/messenger/FileLoadOperation;ZI)V
 
     goto :goto_0
@@ -104,7 +99,6 @@
     :cond_0
     iget-object v1, p0, Lorg/telegram/messenger/FileLoadOperation$1;->this$0:Lorg/telegram/messenger/FileLoadOperation;
 
-    # invokes: Lorg/telegram/messenger/FileLoadOperation;->startDownloadRequest()V
     invoke-static {v1}, Lorg/telegram/messenger/FileLoadOperation;->access$400(Lorg/telegram/messenger/FileLoadOperation;)V
 
     goto :goto_0

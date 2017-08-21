@@ -44,7 +44,6 @@
     .line 175
     iget-object v0, p0, Lorg/telegram/messenger/camera/CameraView$1;->this$0:Lorg/telegram/messenger/camera/CameraView;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraView;->cameraSession:Lorg/telegram/messenger/camera/CameraSession;
     invoke-static {v0}, Lorg/telegram/messenger/camera/CameraView;->access$000(Lorg/telegram/messenger/camera/CameraView;)Lorg/telegram/messenger/camera/CameraSession;
 
     move-result-object v0
@@ -54,7 +53,6 @@
     .line 176
     iget-object v0, p0, Lorg/telegram/messenger/camera/CameraView$1;->this$0:Lorg/telegram/messenger/camera/CameraView;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraView;->cameraSession:Lorg/telegram/messenger/camera/CameraSession;
     invoke-static {v0}, Lorg/telegram/messenger/camera/CameraView;->access$000(Lorg/telegram/messenger/camera/CameraView;)Lorg/telegram/messenger/camera/CameraSession;
 
     move-result-object v0
@@ -65,7 +63,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/messenger/camera/CameraView$1;->this$0:Lorg/telegram/messenger/camera/CameraView;
 
-    # invokes: Lorg/telegram/messenger/camera/CameraView;->checkPreviewMatrix()V
     invoke-static {v0}, Lorg/telegram/messenger/camera/CameraView;->access$100(Lorg/telegram/messenger/camera/CameraView;)V
 
     .line 179

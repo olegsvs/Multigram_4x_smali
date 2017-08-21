@@ -46,7 +46,6 @@
     .line 442
     iget-object v2, p0, Lorg/telegram/messenger/FileLoadOperation$2;->this$0:Lorg/telegram/messenger/FileLoadOperation;
 
-    # getter for: Lorg/telegram/messenger/FileLoadOperation;->state:I
     invoke-static {v2}, Lorg/telegram/messenger/FileLoadOperation;->access$500(Lorg/telegram/messenger/FileLoadOperation;)I
 
     move-result v2
@@ -57,7 +56,6 @@
 
     iget-object v2, p0, Lorg/telegram/messenger/FileLoadOperation$2;->this$0:Lorg/telegram/messenger/FileLoadOperation;
 
-    # getter for: Lorg/telegram/messenger/FileLoadOperation;->state:I
     invoke-static {v2}, Lorg/telegram/messenger/FileLoadOperation;->access$500(Lorg/telegram/messenger/FileLoadOperation;)I
 
     move-result v2
@@ -75,7 +73,6 @@
     :cond_1
     iget-object v2, p0, Lorg/telegram/messenger/FileLoadOperation$2;->this$0:Lorg/telegram/messenger/FileLoadOperation;
 
-    # getter for: Lorg/telegram/messenger/FileLoadOperation;->requestInfos:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/messenger/FileLoadOperation;->access$600(Lorg/telegram/messenger/FileLoadOperation;)Ljava/util/ArrayList;
 
     move-result-object v2
@@ -89,7 +86,6 @@
     :goto_1
     iget-object v2, p0, Lorg/telegram/messenger/FileLoadOperation$2;->this$0:Lorg/telegram/messenger/FileLoadOperation;
 
-    # getter for: Lorg/telegram/messenger/FileLoadOperation;->requestInfos:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/messenger/FileLoadOperation;->access$600(Lorg/telegram/messenger/FileLoadOperation;)Ljava/util/ArrayList;
 
     move-result-object v2
@@ -103,7 +99,6 @@
     .line 447
     iget-object v2, p0, Lorg/telegram/messenger/FileLoadOperation$2;->this$0:Lorg/telegram/messenger/FileLoadOperation;
 
-    # getter for: Lorg/telegram/messenger/FileLoadOperation;->requestInfos:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/messenger/FileLoadOperation;->access$600(Lorg/telegram/messenger/FileLoadOperation;)Ljava/util/ArrayList;
 
     move-result-object v2
@@ -116,7 +111,6 @@
 
     .line 448
     .local v1, "requestInfo":Lorg/telegram/messenger/FileLoadOperation$RequestInfo;
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->requestToken:I
     invoke-static {v1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$700(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)I
 
     move-result v2
@@ -128,7 +122,6 @@
 
     move-result-object v2
 
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->requestToken:I
     invoke-static {v1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$700(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)I
 
     move-result v3
@@ -149,7 +142,6 @@
 
     const/4 v3, 0x0
 
-    # invokes: Lorg/telegram/messenger/FileLoadOperation;->onFail(ZI)V
     invoke-static {v2, v3, v4}, Lorg/telegram/messenger/FileLoadOperation;->access$300(Lorg/telegram/messenger/FileLoadOperation;ZI)V
 
     goto :goto_0

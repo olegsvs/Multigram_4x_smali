@@ -127,7 +127,6 @@
     .line 274
     iget-object v0, p0, Lorg/telegram/ui/SecretMediaViewer$PhotoBackgroundDrawable;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->parentActivity:Landroid/app/Activity;
     invoke-static {v0}, Lorg/telegram/ui/SecretMediaViewer;->access$600(Lorg/telegram/ui/SecretMediaViewer;)Landroid/app/Activity;
 
     move-result-object v0
@@ -139,7 +138,6 @@
     .line 275
     iget-object v0, p0, Lorg/telegram/ui/SecretMediaViewer$PhotoBackgroundDrawable;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->parentActivity:Landroid/app/Activity;
     invoke-static {v0}, Lorg/telegram/ui/SecretMediaViewer;->access$600(Lorg/telegram/ui/SecretMediaViewer;)Landroid/app/Activity;
 
     move-result-object v0
@@ -150,7 +148,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/SecretMediaViewer$PhotoBackgroundDrawable;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->isPhotoVisible:Z
     invoke-static {v0}, Lorg/telegram/ui/SecretMediaViewer;->access$700(Lorg/telegram/ui/SecretMediaViewer;)Z
 
     move-result v0

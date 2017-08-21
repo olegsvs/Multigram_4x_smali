@@ -238,7 +238,6 @@
 
     .line 127
     .local v0, "entry":Lcom/coremedia/iso/boxes/SampleDependencyTypeBox$Entry;
-    # getter for: Lcom/coremedia/iso/boxes/SampleDependencyTypeBox$Entry;->value:I
     invoke-static {v0}, Lcom/coremedia/iso/boxes/SampleDependencyTypeBox$Entry;->access$0(Lcom/coremedia/iso/boxes/SampleDependencyTypeBox$Entry;)I
 
     move-result v2

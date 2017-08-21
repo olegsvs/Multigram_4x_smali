@@ -116,7 +116,6 @@
     .local v7, "cx":I
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$SizeChooseView;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->selectedFontSize:I
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$000(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v0
@@ -138,7 +137,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$SizeChooseView;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->selectedFontSize:I
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$000(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v0
@@ -408,7 +406,6 @@
     .line 284
     iget-object v6, p0, Lorg/telegram/ui/ArticleViewer$SizeChooseView;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->selectedFontSize:I
     invoke-static {v6}, Lorg/telegram/ui/ArticleViewer;->access$000(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v6
@@ -426,7 +423,6 @@
     .line 286
     iget-object v4, p0, Lorg/telegram/ui/ArticleViewer$SizeChooseView;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->selectedFontSize:I
     invoke-static {v4}, Lorg/telegram/ui/ArticleViewer;->access$000(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v4
@@ -567,7 +563,6 @@
     .line 301
     iget-object v4, p0, Lorg/telegram/ui/ArticleViewer$SizeChooseView;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->selectedFontSize:I
     invoke-static {v4}, Lorg/telegram/ui/ArticleViewer;->access$000(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v4
@@ -577,13 +572,11 @@
     .line 302
     iget-object v4, p0, Lorg/telegram/ui/ArticleViewer$SizeChooseView;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->selectedFontSize:I
     invoke-static {v4, v0}, Lorg/telegram/ui/ArticleViewer;->access$002(Lorg/telegram/ui/ArticleViewer;I)I
 
     .line 303
     iget-object v4, p0, Lorg/telegram/ui/ArticleViewer$SizeChooseView;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->updatePaintSize()V
     invoke-static {v4}, Lorg/telegram/ui/ArticleViewer;->access$100(Lorg/telegram/ui/ArticleViewer;)V
 
     .line 304
@@ -683,7 +676,6 @@
     .line 315
     iget-object v6, p0, Lorg/telegram/ui/ArticleViewer$SizeChooseView;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->selectedFontSize:I
     invoke-static {v6}, Lorg/telegram/ui/ArticleViewer;->access$000(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v6
@@ -693,13 +685,11 @@
     .line 316
     iget-object v6, p0, Lorg/telegram/ui/ArticleViewer$SizeChooseView;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->selectedFontSize:I
     invoke-static {v6, v0}, Lorg/telegram/ui/ArticleViewer;->access$002(Lorg/telegram/ui/ArticleViewer;I)I
 
     .line 317
     iget-object v6, p0, Lorg/telegram/ui/ArticleViewer$SizeChooseView;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->updatePaintSize()V
     invoke-static {v6}, Lorg/telegram/ui/ArticleViewer;->access$100(Lorg/telegram/ui/ArticleViewer;)V
 
     .line 318
@@ -731,7 +721,6 @@
     :cond_a
     iget-object v6, p0, Lorg/telegram/ui/ArticleViewer$SizeChooseView;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->selectedFontSize:I
     invoke-static {v6}, Lorg/telegram/ui/ArticleViewer;->access$000(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v6
@@ -743,7 +732,6 @@
     .line 325
     iget-object v6, p0, Lorg/telegram/ui/ArticleViewer$SizeChooseView;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->updatePaintSize()V
     invoke-static {v6}, Lorg/telegram/ui/ArticleViewer;->access$100(Lorg/telegram/ui/ArticleViewer;)V
 
     goto :goto_4

@@ -69,7 +69,6 @@
     .line 116
     iget-object v4, p0, Lorg/telegram/ui/NewContactActivity$1;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->donePressed:Z
     invoke-static {v4}, Lorg/telegram/ui/NewContactActivity;->access$000(Lorg/telegram/ui/NewContactActivity;)Z
 
     move-result v4
@@ -79,7 +78,6 @@
     .line 119
     iget-object v4, p0, Lorg/telegram/ui/NewContactActivity$1;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->firstNameField:Landroid/widget/EditText;
     invoke-static {v4}, Lorg/telegram/ui/NewContactActivity;->access$100(Lorg/telegram/ui/NewContactActivity;)Landroid/widget/EditText;
 
     move-result-object v4
@@ -116,7 +114,6 @@
     :cond_2
     iget-object v4, p0, Lorg/telegram/ui/NewContactActivity$1;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->firstNameField:Landroid/widget/EditText;
     invoke-static {v4}, Lorg/telegram/ui/NewContactActivity;->access$100(Lorg/telegram/ui/NewContactActivity;)Landroid/widget/EditText;
 
     move-result-object v4
@@ -130,7 +127,6 @@
     :cond_3
     iget-object v4, p0, Lorg/telegram/ui/NewContactActivity$1;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->codeField:Landroid/widget/EditText;
     invoke-static {v4}, Lorg/telegram/ui/NewContactActivity;->access$200(Lorg/telegram/ui/NewContactActivity;)Landroid/widget/EditText;
 
     move-result-object v4
@@ -167,7 +163,6 @@
     :cond_4
     iget-object v4, p0, Lorg/telegram/ui/NewContactActivity$1;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->codeField:Landroid/widget/EditText;
     invoke-static {v4}, Lorg/telegram/ui/NewContactActivity;->access$200(Lorg/telegram/ui/NewContactActivity;)Landroid/widget/EditText;
 
     move-result-object v4
@@ -181,7 +176,6 @@
     :cond_5
     iget-object v4, p0, Lorg/telegram/ui/NewContactActivity$1;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v4}, Lorg/telegram/ui/NewContactActivity;->access$300(Lorg/telegram/ui/NewContactActivity;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v4
@@ -218,7 +212,6 @@
     :cond_6
     iget-object v4, p0, Lorg/telegram/ui/NewContactActivity$1;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v4}, Lorg/telegram/ui/NewContactActivity;->access$300(Lorg/telegram/ui/NewContactActivity;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v4
@@ -232,13 +225,11 @@
     :cond_7
     iget-object v4, p0, Lorg/telegram/ui/NewContactActivity$1;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # setter for: Lorg/telegram/ui/NewContactActivity;->donePressed:Z
     invoke-static {v4, v5}, Lorg/telegram/ui/NewContactActivity;->access$002(Lorg/telegram/ui/NewContactActivity;Z)Z
 
     .line 144
     iget-object v4, p0, Lorg/telegram/ui/NewContactActivity$1;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # invokes: Lorg/telegram/ui/NewContactActivity;->showEditDoneProgress(ZZ)V
     invoke-static {v4, v5, v5}, Lorg/telegram/ui/NewContactActivity;->access$400(Lorg/telegram/ui/NewContactActivity;ZZ)V
 
     .line 145
@@ -256,7 +247,6 @@
     .local v0, "inputPhoneContact":Lorg/telegram/tgnet/TLRPC$TL_inputPhoneContact;
     iget-object v4, p0, Lorg/telegram/ui/NewContactActivity$1;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->firstNameField:Landroid/widget/EditText;
     invoke-static {v4}, Lorg/telegram/ui/NewContactActivity;->access$100(Lorg/telegram/ui/NewContactActivity;)Landroid/widget/EditText;
 
     move-result-object v4
@@ -274,7 +264,6 @@
     .line 148
     iget-object v4, p0, Lorg/telegram/ui/NewContactActivity$1;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->lastNameField:Landroid/widget/EditText;
     invoke-static {v4}, Lorg/telegram/ui/NewContactActivity;->access$500(Lorg/telegram/ui/NewContactActivity;)Landroid/widget/EditText;
 
     move-result-object v4
@@ -302,7 +291,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/NewContactActivity$1;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->codeField:Landroid/widget/EditText;
     invoke-static {v5}, Lorg/telegram/ui/NewContactActivity;->access$200(Lorg/telegram/ui/NewContactActivity;)Landroid/widget/EditText;
 
     move-result-object v5
@@ -321,7 +309,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/NewContactActivity$1;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v5}, Lorg/telegram/ui/NewContactActivity;->access$300(Lorg/telegram/ui/NewContactActivity;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v5
@@ -372,7 +359,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/NewContactActivity$1;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->classGuid:I
     invoke-static {v5}, Lorg/telegram/ui/NewContactActivity;->access$600(Lorg/telegram/ui/NewContactActivity;)I
 
     move-result v5

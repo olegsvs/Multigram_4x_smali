@@ -47,7 +47,6 @@
     .line 239
     iget-object v0, p0, Lorg/telegram/ui/Components/voip/CallSwipeView$ArrowAnimWrapper;->this$0:Lorg/telegram/ui/Components/voip/CallSwipeView;
 
-    # getter for: Lorg/telegram/ui/Components/voip/CallSwipeView;->arrowAlphas:[I
     invoke-static {v0}, Lorg/telegram/ui/Components/voip/CallSwipeView;->access$300(Lorg/telegram/ui/Components/voip/CallSwipeView;)[I
 
     move-result-object v0
@@ -67,7 +66,6 @@
     .line 243
     iget-object v0, p0, Lorg/telegram/ui/Components/voip/CallSwipeView$ArrowAnimWrapper;->this$0:Lorg/telegram/ui/Components/voip/CallSwipeView;
 
-    # getter for: Lorg/telegram/ui/Components/voip/CallSwipeView;->arrowAlphas:[I
     invoke-static {v0}, Lorg/telegram/ui/Components/voip/CallSwipeView;->access$300(Lorg/telegram/ui/Components/voip/CallSwipeView;)[I
 
     move-result-object v0

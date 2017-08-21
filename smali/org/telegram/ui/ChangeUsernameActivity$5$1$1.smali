@@ -60,7 +60,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChangeUsernameActivity$5;->this$0:Lorg/telegram/ui/ChangeUsernameActivity;
 
-    # setter for: Lorg/telegram/ui/ChangeUsernameActivity;->checkReqId:I
     invoke-static {v0, v5}, Lorg/telegram/ui/ChangeUsernameActivity;->access$802(Lorg/telegram/ui/ChangeUsernameActivity;I)I
 
     .line 361
@@ -70,7 +69,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChangeUsernameActivity$5;->this$0:Lorg/telegram/ui/ChangeUsernameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeUsernameActivity;->lastCheckName:Ljava/lang/String;
     invoke-static {v0}, Lorg/telegram/ui/ChangeUsernameActivity;->access$900(Lorg/telegram/ui/ChangeUsernameActivity;)Ljava/lang/String;
 
     move-result-object v0
@@ -83,7 +81,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChangeUsernameActivity$5;->this$0:Lorg/telegram/ui/ChangeUsernameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeUsernameActivity;->lastCheckName:Ljava/lang/String;
     invoke-static {v0}, Lorg/telegram/ui/ChangeUsernameActivity;->access$900(Lorg/telegram/ui/ChangeUsernameActivity;)Ljava/lang/String;
 
     move-result-object v0
@@ -118,7 +115,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChangeUsernameActivity$5;->this$0:Lorg/telegram/ui/ChangeUsernameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeUsernameActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChangeUsernameActivity;->access$1000(Lorg/telegram/ui/ChangeUsernameActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -150,7 +146,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChangeUsernameActivity$5;->this$0:Lorg/telegram/ui/ChangeUsernameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeUsernameActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChangeUsernameActivity;->access$1000(Lorg/telegram/ui/ChangeUsernameActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -166,7 +161,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChangeUsernameActivity$5;->this$0:Lorg/telegram/ui/ChangeUsernameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeUsernameActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChangeUsernameActivity;->access$1000(Lorg/telegram/ui/ChangeUsernameActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -186,7 +180,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChangeUsernameActivity$5;->this$0:Lorg/telegram/ui/ChangeUsernameActivity;
 
-    # setter for: Lorg/telegram/ui/ChangeUsernameActivity;->lastNameAvailable:Z
     invoke-static {v0, v6}, Lorg/telegram/ui/ChangeUsernameActivity;->access$1102(Lorg/telegram/ui/ChangeUsernameActivity;Z)Z
 
     .line 374
@@ -202,7 +195,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChangeUsernameActivity$5;->this$0:Lorg/telegram/ui/ChangeUsernameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeUsernameActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChangeUsernameActivity;->access$1000(Lorg/telegram/ui/ChangeUsernameActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -224,7 +216,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChangeUsernameActivity$5;->this$0:Lorg/telegram/ui/ChangeUsernameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeUsernameActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChangeUsernameActivity;->access$1000(Lorg/telegram/ui/ChangeUsernameActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -240,7 +231,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChangeUsernameActivity$5;->this$0:Lorg/telegram/ui/ChangeUsernameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeUsernameActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChangeUsernameActivity;->access$1000(Lorg/telegram/ui/ChangeUsernameActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -260,7 +250,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChangeUsernameActivity$5;->this$0:Lorg/telegram/ui/ChangeUsernameActivity;
 
-    # setter for: Lorg/telegram/ui/ChangeUsernameActivity;->lastNameAvailable:Z
     invoke-static {v0, v5}, Lorg/telegram/ui/ChangeUsernameActivity;->access$1102(Lorg/telegram/ui/ChangeUsernameActivity;Z)Z
 
     goto :goto_0

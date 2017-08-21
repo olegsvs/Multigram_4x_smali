@@ -57,7 +57,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/TwoStepVerificationActivity$2;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # invokes: Lorg/telegram/ui/TwoStepVerificationActivity;->processDone()V
     invoke-static {v0}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$000(Lorg/telegram/ui/TwoStepVerificationActivity;)V
 
     .line 196

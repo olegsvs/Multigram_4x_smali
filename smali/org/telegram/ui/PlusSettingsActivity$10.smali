@@ -61,7 +61,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/PlusSettingsActivity$10;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->classGuid:I
     invoke-static {v2}, Lorg/telegram/ui/PlusSettingsActivity;->access$8900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v2

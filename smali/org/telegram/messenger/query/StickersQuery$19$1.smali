@@ -63,7 +63,6 @@
 
     .line 802
     .local v1, "res":Lorg/telegram/tgnet/TLRPC$TL_messages_archivedStickers;
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->archivedStickersCount:[I
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$1800()[I
 
     move-result-object v2

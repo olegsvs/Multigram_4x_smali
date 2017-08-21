@@ -48,7 +48,6 @@
     .line 193
     iget-object v0, p0, Lorg/telegram/ui/StickersActivity$2;->this$0:Lorg/telegram/ui/StickersActivity;
 
-    # getter for: Lorg/telegram/ui/StickersActivity;->stickersStartRow:I
     invoke-static {v0}, Lorg/telegram/ui/StickersActivity;->access$200(Lorg/telegram/ui/StickersActivity;)I
 
     move-result v0
@@ -57,7 +56,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/StickersActivity$2;->this$0:Lorg/telegram/ui/StickersActivity;
 
-    # getter for: Lorg/telegram/ui/StickersActivity;->stickersEndRow:I
     invoke-static {v0}, Lorg/telegram/ui/StickersActivity;->access$300(Lorg/telegram/ui/StickersActivity;)I
 
     move-result v0
@@ -75,13 +73,11 @@
     .line 194
     iget-object v0, p0, Lorg/telegram/ui/StickersActivity$2;->this$0:Lorg/telegram/ui/StickersActivity;
 
-    # invokes: Lorg/telegram/ui/StickersActivity;->sendReorder()V
     invoke-static {v0}, Lorg/telegram/ui/StickersActivity;->access$400(Lorg/telegram/ui/StickersActivity;)V
 
     .line 195
     iget-object v0, p0, Lorg/telegram/ui/StickersActivity$2;->this$0:Lorg/telegram/ui/StickersActivity;
 
-    # getter for: Lorg/telegram/ui/StickersActivity;->currentType:I
     invoke-static {v0}, Lorg/telegram/ui/StickersActivity;->access$500(Lorg/telegram/ui/StickersActivity;)I
 
     move-result v0
@@ -92,7 +88,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/StickersActivity$2;->this$0:Lorg/telegram/ui/StickersActivity;
 
-    # getter for: Lorg/telegram/ui/StickersActivity;->stickersStartRow:I
     invoke-static {v1}, Lorg/telegram/ui/StickersActivity;->access$200(Lorg/telegram/ui/StickersActivity;)I
 
     move-result v1
@@ -156,7 +151,6 @@
     :cond_2
     iget-object v0, p0, Lorg/telegram/ui/StickersActivity$2;->this$0:Lorg/telegram/ui/StickersActivity;
 
-    # getter for: Lorg/telegram/ui/StickersActivity;->featuredRow:I
     invoke-static {v0}, Lorg/telegram/ui/StickersActivity;->access$600(Lorg/telegram/ui/StickersActivity;)I
 
     move-result v0
@@ -166,7 +160,6 @@
     .line 202
     iget-object v0, p0, Lorg/telegram/ui/StickersActivity$2;->this$0:Lorg/telegram/ui/StickersActivity;
 
-    # invokes: Lorg/telegram/ui/StickersActivity;->sendReorder()V
     invoke-static {v0}, Lorg/telegram/ui/StickersActivity;->access$400(Lorg/telegram/ui/StickersActivity;)V
 
     .line 203
@@ -184,7 +177,6 @@
     :cond_3
     iget-object v0, p0, Lorg/telegram/ui/StickersActivity$2;->this$0:Lorg/telegram/ui/StickersActivity;
 
-    # getter for: Lorg/telegram/ui/StickersActivity;->archivedRow:I
     invoke-static {v0}, Lorg/telegram/ui/StickersActivity;->access$700(Lorg/telegram/ui/StickersActivity;)I
 
     move-result v0
@@ -194,7 +186,6 @@
     .line 205
     iget-object v0, p0, Lorg/telegram/ui/StickersActivity$2;->this$0:Lorg/telegram/ui/StickersActivity;
 
-    # invokes: Lorg/telegram/ui/StickersActivity;->sendReorder()V
     invoke-static {v0}, Lorg/telegram/ui/StickersActivity;->access$400(Lorg/telegram/ui/StickersActivity;)V
 
     .line 206
@@ -204,7 +195,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/StickersActivity$2;->this$0:Lorg/telegram/ui/StickersActivity;
 
-    # getter for: Lorg/telegram/ui/StickersActivity;->currentType:I
     invoke-static {v2}, Lorg/telegram/ui/StickersActivity;->access$500(Lorg/telegram/ui/StickersActivity;)I
 
     move-result v2
@@ -219,7 +209,6 @@
     :cond_4
     iget-object v0, p0, Lorg/telegram/ui/StickersActivity$2;->this$0:Lorg/telegram/ui/StickersActivity;
 
-    # getter for: Lorg/telegram/ui/StickersActivity;->masksRow:I
     invoke-static {v0}, Lorg/telegram/ui/StickersActivity;->access$800(Lorg/telegram/ui/StickersActivity;)I
 
     move-result v0

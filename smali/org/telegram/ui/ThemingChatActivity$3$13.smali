@@ -56,7 +56,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ThemingChatActivity$3$13;->val$key:Ljava/lang/String;
 
-    # invokes: Lorg/telegram/ui/ThemingChatActivity;->commitInt(Ljava/lang/String;I)V
     invoke-static {v0, v1, p1}, Lorg/telegram/ui/ThemingChatActivity;->access$300(Lorg/telegram/ui/ThemingChatActivity;Ljava/lang/String;I)V
 
     .line 672

@@ -76,7 +76,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChangeChatNameActivity$5;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->chatId:I
     invoke-static {v3}, Lorg/telegram/ui/ChangeChatNameActivity;->access$600(Lorg/telegram/ui/ChangeChatNameActivity;)I
 
     move-result v3
@@ -103,7 +102,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ChangeChatNameActivity$5;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->chatId:I
     invoke-static {v1}, Lorg/telegram/ui/ChangeChatNameActivity;->access$600(Lorg/telegram/ui/ChangeChatNameActivity;)I
 
     move-result v1

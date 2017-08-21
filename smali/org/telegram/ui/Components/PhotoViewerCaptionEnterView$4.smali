@@ -58,7 +58,6 @@
     .line 160
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$4;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # setter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->currentActionMode:Landroid/view/ActionMode;
     invoke-static {v0, p1}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$202(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;Landroid/view/ActionMode;)Landroid/view/ActionMode;
 
     .line 161
@@ -75,7 +74,6 @@
     .line 179
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$4;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->currentActionMode:Landroid/view/ActionMode;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$200(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;)Landroid/view/ActionMode;
 
     move-result-object v0
@@ -87,7 +85,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->currentActionMode:Landroid/view/ActionMode;
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$202(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;Landroid/view/ActionMode;)Landroid/view/ActionMode;
 
     .line 182
@@ -111,7 +108,6 @@
     .line 167
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$4;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->fixActionMode(Landroid/view/ActionMode;)V
     invoke-static {v0, p1}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$300(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;Landroid/view/ActionMode;)V
 
     .line 169

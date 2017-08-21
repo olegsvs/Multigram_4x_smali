@@ -75,7 +75,6 @@
 
     invoke-direct {v14}, Ljava/util/ArrayList;-><init>()V
 
-    # invokes: Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->updateSearchResults(Ljava/util/ArrayList;)V
     invoke-static {v13, v14}, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->access$4900(Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;Ljava/util/ArrayList;)V
 
     .line 2096
@@ -252,7 +251,6 @@
 
     iget-object v13, v13, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter$3;->this$1:Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->currentType:I
     invoke-static {v13}, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->access$4800(Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;)I
 
     move-result v13
@@ -391,7 +389,6 @@
 
     iget-object v13, v13, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter$3;->this$1:Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;
 
-    # invokes: Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->updateSearchResults(Ljava/util/ArrayList;)V
     invoke-static {v13, v9}, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->access$4900(Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;Ljava/util/ArrayList;)V
 
     goto/16 :goto_0

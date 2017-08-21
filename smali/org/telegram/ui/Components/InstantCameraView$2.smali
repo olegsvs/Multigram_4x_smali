@@ -60,7 +60,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Components/InstantCameraView$2;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->baseFragment:Lorg/telegram/ui/ChatActivity;
     invoke-static {v3}, Lorg/telegram/ui/Components/InstantCameraView;->access$400(Lorg/telegram/ui/Components/InstantCameraView;)Lorg/telegram/ui/ChatActivity;
 
     move-result-object v3
@@ -70,7 +69,6 @@
     .line 201
     iget-object v3, p0, Lorg/telegram/ui/Components/InstantCameraView$2;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->videoPlayer:Lorg/telegram/ui/Components/VideoPlayer;
     invoke-static {v3}, Lorg/telegram/ui/Components/InstantCameraView;->access$500(Lorg/telegram/ui/Components/InstantCameraView;)Lorg/telegram/ui/Components/VideoPlayer;
 
     move-result-object v3
@@ -80,7 +78,6 @@
     .line 202
     iget-object v3, p0, Lorg/telegram/ui/Components/InstantCameraView$2;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->videoPlayer:Lorg/telegram/ui/Components/VideoPlayer;
     invoke-static {v3}, Lorg/telegram/ui/Components/InstantCameraView;->access$500(Lorg/telegram/ui/Components/InstantCameraView;)Lorg/telegram/ui/Components/VideoPlayer;
 
     move-result-object v3
@@ -98,7 +95,6 @@
     :goto_0
     iget-object v3, p0, Lorg/telegram/ui/Components/InstantCameraView$2;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->videoPlayer:Lorg/telegram/ui/Components/VideoPlayer;
     invoke-static {v3}, Lorg/telegram/ui/Components/InstantCameraView;->access$500(Lorg/telegram/ui/Components/InstantCameraView;)Lorg/telegram/ui/Components/VideoPlayer;
 
     move-result-object v3
@@ -108,7 +104,6 @@
     .line 204
     iget-object v3, p0, Lorg/telegram/ui/Components/InstantCameraView$2;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->muteAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v3}, Lorg/telegram/ui/Components/InstantCameraView;->access$600(Lorg/telegram/ui/Components/InstantCameraView;)Landroid/animation/AnimatorSet;
 
     move-result-object v3
@@ -118,7 +113,6 @@
     .line 205
     iget-object v3, p0, Lorg/telegram/ui/Components/InstantCameraView$2;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->muteAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v3}, Lorg/telegram/ui/Components/InstantCameraView;->access$600(Lorg/telegram/ui/Components/InstantCameraView;)Landroid/animation/AnimatorSet;
 
     move-result-object v3
@@ -133,13 +127,11 @@
 
     invoke-direct {v6}, Landroid/animation/AnimatorSet;-><init>()V
 
-    # setter for: Lorg/telegram/ui/Components/InstantCameraView;->muteAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v3, v6}, Lorg/telegram/ui/Components/InstantCameraView;->access$602(Lorg/telegram/ui/Components/InstantCameraView;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 208
     iget-object v3, p0, Lorg/telegram/ui/Components/InstantCameraView$2;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->muteAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v3}, Lorg/telegram/ui/Components/InstantCameraView;->access$600(Lorg/telegram/ui/Components/InstantCameraView;)Landroid/animation/AnimatorSet;
 
     move-result-object v6
@@ -151,7 +143,6 @@
     iget-object v3, p0, Lorg/telegram/ui/Components/InstantCameraView$2;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
     .line 209
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->muteImageView:Landroid/widget/ImageView;
     invoke-static {v3}, Lorg/telegram/ui/Components/InstantCameraView;->access$700(Lorg/telegram/ui/Components/InstantCameraView;)Landroid/widget/ImageView;
 
     move-result-object v8
@@ -176,7 +167,6 @@
     iget-object v3, p0, Lorg/telegram/ui/Components/InstantCameraView$2;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
     .line 210
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->muteImageView:Landroid/widget/ImageView;
     invoke-static {v3}, Lorg/telegram/ui/Components/InstantCameraView;->access$700(Lorg/telegram/ui/Components/InstantCameraView;)Landroid/widget/ImageView;
 
     move-result-object v8
@@ -203,7 +193,6 @@
     iget-object v8, p0, Lorg/telegram/ui/Components/InstantCameraView$2;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
     .line 211
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->muteImageView:Landroid/widget/ImageView;
     invoke-static {v8}, Lorg/telegram/ui/Components/InstantCameraView;->access$700(Lorg/telegram/ui/Components/InstantCameraView;)Landroid/widget/ImageView;
 
     move-result-object v8
@@ -229,7 +218,6 @@
     .line 212
     iget-object v2, p0, Lorg/telegram/ui/Components/InstantCameraView$2;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->muteAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v2}, Lorg/telegram/ui/Components/InstantCameraView;->access$600(Lorg/telegram/ui/Components/InstantCameraView;)Landroid/animation/AnimatorSet;
 
     move-result-object v2
@@ -243,7 +231,6 @@
     .line 220
     iget-object v2, p0, Lorg/telegram/ui/Components/InstantCameraView$2;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->muteAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v2}, Lorg/telegram/ui/Components/InstantCameraView;->access$600(Lorg/telegram/ui/Components/InstantCameraView;)Landroid/animation/AnimatorSet;
 
     move-result-object v2
@@ -255,7 +242,6 @@
     .line 221
     iget-object v2, p0, Lorg/telegram/ui/Components/InstantCameraView$2;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->muteAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v2}, Lorg/telegram/ui/Components/InstantCameraView;->access$600(Lorg/telegram/ui/Components/InstantCameraView;)Landroid/animation/AnimatorSet;
 
     move-result-object v2
@@ -269,7 +255,6 @@
     .line 222
     iget-object v2, p0, Lorg/telegram/ui/Components/InstantCameraView$2;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->muteAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v2}, Lorg/telegram/ui/Components/InstantCameraView;->access$600(Lorg/telegram/ui/Components/InstantCameraView;)Landroid/animation/AnimatorSet;
 
     move-result-object v2
@@ -312,7 +297,6 @@
     :cond_6
     iget-object v2, p0, Lorg/telegram/ui/Components/InstantCameraView$2;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->baseFragment:Lorg/telegram/ui/ChatActivity;
     invoke-static {v2}, Lorg/telegram/ui/Components/InstantCameraView;->access$400(Lorg/telegram/ui/Components/InstantCameraView;)Lorg/telegram/ui/ChatActivity;
 
     move-result-object v2

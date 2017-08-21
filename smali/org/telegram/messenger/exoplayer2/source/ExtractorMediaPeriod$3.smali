@@ -53,7 +53,6 @@
     .line 151
     iget-object v2, p0, Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod$3;->this$0:Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;->sampleQueues:Landroid/util/SparseArray;
     invoke-static {v2}, Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;->access$300(Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;)Landroid/util/SparseArray;
 
     move-result-object v2
@@ -73,7 +72,6 @@
     .line 153
     iget-object v2, p0, Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod$3;->this$0:Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;->sampleQueues:Landroid/util/SparseArray;
     invoke-static {v2}, Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;->access$300(Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;)Landroid/util/SparseArray;
 
     move-result-object v2

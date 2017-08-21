@@ -51,7 +51,6 @@
 
     const/4 v2, 0x0
 
-    # invokes: Lorg/telegram/messenger/query/MessagesQuery;->loadPinnedMessageInternal(IIZ)Lorg/telegram/messenger/MessageObject;
     invoke-static {v0, v1, v2}, Lorg/telegram/messenger/query/MessagesQuery;->access$000(IIZ)Lorg/telegram/messenger/MessageObject;
 
     .line 58

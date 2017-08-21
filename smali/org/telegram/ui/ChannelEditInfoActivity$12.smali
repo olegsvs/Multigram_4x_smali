@@ -47,7 +47,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ChannelEditInfoActivity$12;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->signMessages:Z
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1500(Lorg/telegram/ui/ChannelEditInfoActivity;)Z
 
     move-result v0
@@ -57,7 +56,6 @@
     const/4 v0, 0x1
 
     :goto_0
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->signMessages:Z
     invoke-static {v1, v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1502(Lorg/telegram/ui/ChannelEditInfoActivity;Z)Z
 
     .line 647
@@ -66,7 +64,6 @@
     .end local p1    # "v":Landroid/view/View;
     iget-object v0, p0, Lorg/telegram/ui/ChannelEditInfoActivity$12;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->signMessages:Z
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1500(Lorg/telegram/ui/ChannelEditInfoActivity;)Z
 
     move-result v0

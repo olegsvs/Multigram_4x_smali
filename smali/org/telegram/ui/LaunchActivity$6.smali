@@ -51,7 +51,6 @@
     .line 785
     iget-object v0, p0, Lorg/telegram/ui/LaunchActivity$6;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->passcodeSaveIntent:Landroid/content/Intent;
     invoke-static {v0}, Lorg/telegram/ui/LaunchActivity;->access$1000(Lorg/telegram/ui/LaunchActivity;)Landroid/content/Intent;
 
     move-result-object v0
@@ -63,26 +62,22 @@
 
     iget-object v1, p0, Lorg/telegram/ui/LaunchActivity$6;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->passcodeSaveIntent:Landroid/content/Intent;
     invoke-static {v1}, Lorg/telegram/ui/LaunchActivity;->access$1000(Lorg/telegram/ui/LaunchActivity;)Landroid/content/Intent;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/ui/LaunchActivity$6;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->passcodeSaveIntentIsNew:Z
     invoke-static {v2}, Lorg/telegram/ui/LaunchActivity;->access$1100(Lorg/telegram/ui/LaunchActivity;)Z
 
     move-result v2
 
     iget-object v3, p0, Lorg/telegram/ui/LaunchActivity$6;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->passcodeSaveIntentIsRestore:Z
     invoke-static {v3}, Lorg/telegram/ui/LaunchActivity;->access$1200(Lorg/telegram/ui/LaunchActivity;)Z
 
     move-result v3
 
-    # invokes: Lorg/telegram/ui/LaunchActivity;->handleIntent(Landroid/content/Intent;ZZZ)Z
     invoke-static {v0, v1, v2, v3, v5}, Lorg/telegram/ui/LaunchActivity;->access$1300(Lorg/telegram/ui/LaunchActivity;Landroid/content/Intent;ZZZ)Z
 
     .line 787
@@ -90,7 +85,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/LaunchActivity;->passcodeSaveIntent:Landroid/content/Intent;
     invoke-static {v0, v1}, Lorg/telegram/ui/LaunchActivity;->access$1002(Lorg/telegram/ui/LaunchActivity;Landroid/content/Intent;)Landroid/content/Intent;
 
     .line 789
@@ -104,7 +98,6 @@
     .line 790
     iget-object v0, p0, Lorg/telegram/ui/LaunchActivity$6;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->actionBarLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v0}, Lorg/telegram/ui/LaunchActivity;->access$100(Lorg/telegram/ui/LaunchActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v0
@@ -121,7 +114,6 @@
     .line 792
     iget-object v0, p0, Lorg/telegram/ui/LaunchActivity$6;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->layersActionBarLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v0}, Lorg/telegram/ui/LaunchActivity;->access$600(Lorg/telegram/ui/LaunchActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v0
@@ -131,7 +123,6 @@
     .line 793
     iget-object v0, p0, Lorg/telegram/ui/LaunchActivity$6;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->rightActionBarLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v0}, Lorg/telegram/ui/LaunchActivity;->access$300(Lorg/telegram/ui/LaunchActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v0

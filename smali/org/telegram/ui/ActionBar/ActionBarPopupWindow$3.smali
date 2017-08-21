@@ -59,7 +59,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;->windowAnimatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v0, v1}, Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;->access$502(Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 429
@@ -73,7 +72,6 @@
     :try_start_0
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/ActionBarPopupWindow$3;->this$0:Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
 
-    # invokes: Landroid/widget/PopupWindow;->dismiss()V
     invoke-static {v0}, Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;->access$601(Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -82,7 +80,6 @@
     :goto_0
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/ActionBarPopupWindow$3;->this$0:Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
 
-    # invokes: Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;->unregisterListener()V
     invoke-static {v0}, Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;->access$700(Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;)V
 
     .line 436

@@ -158,7 +158,6 @@
     .local v3, "result":Z
     if-eqz v1, :cond_0
 
-    # getter for: Lorg/telegram/ui/ActionBar/ActionBarLayout;->headerShadowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {}, Lorg/telegram/ui/ActionBar/ActionBarLayout;->access$000()Landroid/graphics/drawable/Drawable;
 
     move-result-object v5
@@ -166,7 +165,6 @@
     if-eqz v5, :cond_0
 
     .line 81
-    # getter for: Lorg/telegram/ui/ActionBar/ActionBarLayout;->headerShadowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {}, Lorg/telegram/ui/ActionBar/ActionBarLayout;->access$000()Landroid/graphics/drawable/Drawable;
 
     move-result-object v5
@@ -177,7 +175,6 @@
 
     move-result v7
 
-    # getter for: Lorg/telegram/ui/ActionBar/ActionBarLayout;->headerShadowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {}, Lorg/telegram/ui/ActionBar/ActionBarLayout;->access$000()Landroid/graphics/drawable/Drawable;
 
     move-result-object v8
@@ -191,7 +188,6 @@
     invoke-virtual {v5, v6, v1, v7, v8}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     .line 82
-    # getter for: Lorg/telegram/ui/ActionBar/ActionBarLayout;->headerShadowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {}, Lorg/telegram/ui/ActionBar/ActionBarLayout;->access$000()Landroid/graphics/drawable/Drawable;
 
     move-result-object v5
@@ -282,7 +278,6 @@
     .line 101
     iget-object v2, p0, Lorg/telegram/ui/ActionBar/ActionBarLayout$LinearLayoutContainer;->this$0:Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
-    # getter for: Lorg/telegram/ui/ActionBar/ActionBarLayout;->waitingForKeyboardCloseRunnable:Ljava/lang/Runnable;
     invoke-static {v2}, Lorg/telegram/ui/ActionBar/ActionBarLayout;->access$100(Lorg/telegram/ui/ActionBar/ActionBarLayout;)Ljava/lang/Runnable;
 
     move-result-object v2
@@ -291,7 +286,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ActionBar/ActionBarLayout$LinearLayoutContainer;->this$0:Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
-    # getter for: Lorg/telegram/ui/ActionBar/ActionBarLayout;->containerView:Lorg/telegram/ui/ActionBar/ActionBarLayout$LinearLayoutContainer;
     invoke-static {v2}, Lorg/telegram/ui/ActionBar/ActionBarLayout;->access$200(Lorg/telegram/ui/ActionBar/ActionBarLayout;)Lorg/telegram/ui/ActionBar/ActionBarLayout$LinearLayoutContainer;
 
     move-result-object v2
@@ -302,7 +296,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ActionBar/ActionBarLayout$LinearLayoutContainer;->this$0:Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
-    # getter for: Lorg/telegram/ui/ActionBar/ActionBarLayout;->containerViewBack:Lorg/telegram/ui/ActionBar/ActionBarLayout$LinearLayoutContainer;
     invoke-static {v2}, Lorg/telegram/ui/ActionBar/ActionBarLayout;->access$300(Lorg/telegram/ui/ActionBar/ActionBarLayout;)Lorg/telegram/ui/ActionBar/ActionBarLayout$LinearLayoutContainer;
 
     move-result-object v2
@@ -314,7 +307,6 @@
     .line 102
     iget-object v2, p0, Lorg/telegram/ui/ActionBar/ActionBarLayout$LinearLayoutContainer;->this$0:Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
-    # getter for: Lorg/telegram/ui/ActionBar/ActionBarLayout;->waitingForKeyboardCloseRunnable:Ljava/lang/Runnable;
     invoke-static {v2}, Lorg/telegram/ui/ActionBar/ActionBarLayout;->access$100(Lorg/telegram/ui/ActionBar/ActionBarLayout;)Ljava/lang/Runnable;
 
     move-result-object v2
@@ -324,7 +316,6 @@
     .line 103
     iget-object v2, p0, Lorg/telegram/ui/ActionBar/ActionBarLayout$LinearLayoutContainer;->this$0:Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
-    # getter for: Lorg/telegram/ui/ActionBar/ActionBarLayout;->waitingForKeyboardCloseRunnable:Ljava/lang/Runnable;
     invoke-static {v2}, Lorg/telegram/ui/ActionBar/ActionBarLayout;->access$100(Lorg/telegram/ui/ActionBar/ActionBarLayout;)Ljava/lang/Runnable;
 
     move-result-object v2
@@ -336,7 +327,6 @@
 
     const/4 v3, 0x0
 
-    # setter for: Lorg/telegram/ui/ActionBar/ActionBarLayout;->waitingForKeyboardCloseRunnable:Ljava/lang/Runnable;
     invoke-static {v2, v3}, Lorg/telegram/ui/ActionBar/ActionBarLayout;->access$102(Lorg/telegram/ui/ActionBar/ActionBarLayout;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 106

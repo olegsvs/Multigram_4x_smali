@@ -123,7 +123,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->imageLoadingByUrl:Ljava/util/HashMap;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/ImageLoader;->access$2200(Lorg/telegram/messenger/ImageLoader;)Ljava/util/HashMap;
 
     move-result-object v22
@@ -148,7 +147,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->imageLoadingByKeys:Ljava/util/HashMap;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/ImageLoader;->access$2300(Lorg/telegram/messenger/ImageLoader;)Ljava/util/HashMap;
 
     move-result-object v22
@@ -173,7 +171,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->imageLoadingByTag:Ljava/util/HashMap;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/ImageLoader;->access$1800(Lorg/telegram/messenger/ImageLoader;)Ljava/util/HashMap;
 
     move-result-object v22
@@ -858,7 +855,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->imageLoadingByKeys:Ljava/util/HashMap;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/ImageLoader;->access$2300(Lorg/telegram/messenger/ImageLoader;)Ljava/util/HashMap;
 
     move-result-object v22
@@ -891,7 +887,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->cacheThumbOutQueue:Lorg/telegram/messenger/DispatchQueue;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/ImageLoader;->access$1900(Lorg/telegram/messenger/ImageLoader;)Lorg/telegram/messenger/DispatchQueue;
 
     move-result-object v22
@@ -1237,7 +1232,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->waitingForQualityThumb:Ljava/util/HashMap;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/ImageLoader;->access$3200(Lorg/telegram/messenger/ImageLoader;)Ljava/util/HashMap;
 
     move-result-object v22
@@ -1290,7 +1284,6 @@
 
     move-object/from16 v1, v22
 
-    # setter for: Lorg/telegram/messenger/ImageLoader$ThumbGenerateInfo;->fileLocation:Lorg/telegram/tgnet/TLRPC$FileLocation;
     invoke-static {v0, v1}, Lorg/telegram/messenger/ImageLoader$ThumbGenerateInfo;->access$3402(Lorg/telegram/messenger/ImageLoader$ThumbGenerateInfo;Lorg/telegram/tgnet/TLRPC$FileLocation;)Lorg/telegram/tgnet/TLRPC$FileLocation;
 
     .line 1754
@@ -1304,7 +1297,6 @@
 
     move-object/from16 v1, v22
 
-    # setter for: Lorg/telegram/messenger/ImageLoader$ThumbGenerateInfo;->filter:Ljava/lang/String;
     invoke-static {v0, v1}, Lorg/telegram/messenger/ImageLoader$ThumbGenerateInfo;->access$3502(Lorg/telegram/messenger/ImageLoader$ThumbGenerateInfo;Ljava/lang/String;)Ljava/lang/String;
 
     .line 1755
@@ -1314,7 +1306,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->waitingForQualityThumb:Ljava/util/HashMap;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/ImageLoader;->access$3200(Lorg/telegram/messenger/ImageLoader;)Ljava/util/HashMap;
 
     move-result-object v22
@@ -1329,7 +1320,6 @@
 
     .line 1757
     :cond_16
-    # operator++ for: Lorg/telegram/messenger/ImageLoader$ThumbGenerateInfo;->count:I
     invoke-static/range {v16 .. v16}, Lorg/telegram/messenger/ImageLoader$ThumbGenerateInfo;->access$2908(Lorg/telegram/messenger/ImageLoader$ThumbGenerateInfo;)I
 
     .line 1758
@@ -1339,7 +1329,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->waitingForQualityThumbByTag:Ljava/util/HashMap;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/ImageLoader;->access$3600(Lorg/telegram/messenger/ImageLoader;)Ljava/util/HashMap;
 
     move-result-object v22
@@ -1415,7 +1404,6 @@
 
     move-object/from16 v3, v25
 
-    # invokes: Lorg/telegram/messenger/ImageLoader;->generateThumb(ILjava/io/File;Lorg/telegram/tgnet/TLRPC$FileLocation;Ljava/lang/String;)V
     invoke-static {v0, v1, v9, v2, v3}, Lorg/telegram/messenger/ImageLoader;->access$3700(Lorg/telegram/messenger/ImageLoader;ILjava/io/File;Lorg/telegram/tgnet/TLRPC$FileLocation;Ljava/lang/String;)V
 
     goto/16 :goto_1
@@ -1677,7 +1665,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->cacheOutQueue:Lorg/telegram/messenger/DispatchQueue;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/ImageLoader;->access$2000(Lorg/telegram/messenger/ImageLoader;)Lorg/telegram/messenger/DispatchQueue;
 
     move-result-object v22
@@ -1720,7 +1707,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->imageLoadingByUrl:Ljava/util/HashMap;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/ImageLoader;->access$2200(Lorg/telegram/messenger/ImageLoader;)Ljava/util/HashMap;
 
     move-result-object v22
@@ -2029,7 +2015,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->httpTasks:Ljava/util/LinkedList;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/ImageLoader;->access$2100(Lorg/telegram/messenger/ImageLoader;)Ljava/util/LinkedList;
 
     move-result-object v22
@@ -2049,7 +2034,6 @@
 
     const/16 v23, 0x0
 
-    # invokes: Lorg/telegram/messenger/ImageLoader;->runHttpTasks(Z)V
     invoke-static/range {v22 .. v23}, Lorg/telegram/messenger/ImageLoader;->access$600(Lorg/telegram/messenger/ImageLoader;Z)V
 
     goto/16 :goto_5

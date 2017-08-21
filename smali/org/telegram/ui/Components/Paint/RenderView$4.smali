@@ -48,7 +48,6 @@
     .line 539
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/RenderView$4;->this$0:Lorg/telegram/ui/Components/Paint/RenderView;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/RenderView;->internal:Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/RenderView;->access$000(Lorg/telegram/ui/Components/Paint/RenderView;)Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;
 
     move-result-object v0
@@ -57,12 +56,10 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/RenderView$4;->this$0:Lorg/telegram/ui/Components/Paint/RenderView;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/RenderView;->internal:Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/RenderView;->access$000(Lorg/telegram/ui/Components/Paint/RenderView;)Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;
 
     move-result-object v0
 
-    # getter for: Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;->initialized:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;->access$600(Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;)Z
 
     move-result v0
@@ -78,12 +75,10 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/RenderView$4;->this$0:Lorg/telegram/ui/Components/Paint/RenderView;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/RenderView;->internal:Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/RenderView;->access$000(Lorg/telegram/ui/Components/Paint/RenderView;)Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;
 
     move-result-object v0
 
-    # invokes: Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;->setCurrentContext()Z
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;->access$1300(Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;)Z
 
     .line 544

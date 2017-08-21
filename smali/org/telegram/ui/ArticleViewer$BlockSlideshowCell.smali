@@ -58,7 +58,6 @@
     iput v1, p0, Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->textX:I
 
     .line 5092
-    # getter for: Lorg/telegram/ui/ArticleViewer;->dotsPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$11100()Landroid/graphics/Paint;
 
     move-result-object v1
@@ -70,11 +69,9 @@
 
     invoke-direct {v1, v3}, Landroid/graphics/Paint;-><init>(I)V
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->dotsPaint:Landroid/graphics/Paint;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$11102(Landroid/graphics/Paint;)Landroid/graphics/Paint;
 
     .line 5094
-    # getter for: Lorg/telegram/ui/ArticleViewer;->dotsPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$11100()Landroid/graphics/Paint;
 
     move-result-object v1
@@ -112,7 +109,6 @@
     invoke-virtual {v1, v2}, Landroid/support/v4/view/ViewPager;->setAdapter(Landroid/support/v4/view/PagerAdapter;)V
 
     .line 5184
-    # invokes: Lorg/telegram/ui/ArticleViewer;->getSelectedColor()I
     invoke-static {p1}, Lorg/telegram/ui/ArticleViewer;->access$8700(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v0
@@ -259,7 +255,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->textLayout:Landroid/text/StaticLayout;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->drawLayoutLink(Landroid/graphics/Canvas;Landroid/text/StaticLayout;)V
     invoke-static {v0, p1, v1}, Lorg/telegram/ui/ArticleViewer;->access$9300(Lorg/telegram/ui/ArticleViewer;Landroid/graphics/Canvas;Landroid/text/StaticLayout;)V
 
     .line 5270
@@ -500,7 +495,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->currentBlock:Lorg/telegram/tgnet/TLRPC$TL_pageBlockSlideshow;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->createLayoutForText(Ljava/lang/CharSequence;Lorg/telegram/tgnet/TLRPC$RichText;ILorg/telegram/tgnet/TLRPC$PageBlock;)Landroid/text/StaticLayout;
     invoke-static {v3, v4, v5, v6, v7}, Lorg/telegram/ui/ArticleViewer;->access$9200(Lorg/telegram/ui/ArticleViewer;Ljava/lang/CharSequence;Lorg/telegram/tgnet/TLRPC$RichText;ILorg/telegram/tgnet/TLRPC$PageBlock;)Landroid/text/StaticLayout;
 
     move-result-object v3
@@ -572,7 +566,6 @@
 
     move-object v2, p0
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->checkLayoutForLinks(Landroid/view/MotionEvent;Landroid/view/View;Landroid/text/StaticLayout;II)Z
     invoke-static/range {v0 .. v5}, Lorg/telegram/ui/ArticleViewer;->access$9100(Lorg/telegram/ui/ArticleViewer;Landroid/view/MotionEvent;Landroid/view/View;Landroid/text/StaticLayout;II)Z
 
     move-result v0

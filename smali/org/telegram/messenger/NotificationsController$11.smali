@@ -56,7 +56,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->pushDialogs:Ljava/util/HashMap;
     invoke-static/range {v20 .. v20}, Lorg/telegram/messenger/NotificationsController;->access$800(Lorg/telegram/messenger/NotificationsController;)Ljava/util/HashMap;
 
     move-result-object v20
@@ -70,7 +69,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->pushMessages:Ljava/util/ArrayList;
     invoke-static/range {v20 .. v20}, Lorg/telegram/messenger/NotificationsController;->access$600(Lorg/telegram/messenger/NotificationsController;)Ljava/util/ArrayList;
 
     move-result-object v20
@@ -84,7 +82,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->pushMessagesDict:Ljava/util/HashMap;
     invoke-static/range {v20 .. v20}, Lorg/telegram/messenger/NotificationsController;->access$700(Lorg/telegram/messenger/NotificationsController;)Ljava/util/HashMap;
 
     move-result-object v20
@@ -100,7 +97,6 @@
 
     const/16 v21, 0x0
 
-    # setter for: Lorg/telegram/messenger/NotificationsController;->total_unread_count:I
     invoke-static/range {v20 .. v21}, Lorg/telegram/messenger/NotificationsController;->access$402(Lorg/telegram/messenger/NotificationsController;I)I
 
     .line 744
@@ -112,7 +108,6 @@
 
     const/16 v21, 0x0
 
-    # setter for: Lorg/telegram/messenger/NotificationsController;->personal_count:I
     invoke-static/range {v20 .. v21}, Lorg/telegram/messenger/NotificationsController;->access$502(Lorg/telegram/messenger/NotificationsController;I)I
 
     .line 745
@@ -231,7 +226,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->pushMessagesDict:Ljava/util/HashMap;
     invoke-static/range {v20 .. v20}, Lorg/telegram/messenger/NotificationsController;->access$700(Lorg/telegram/messenger/NotificationsController;)Ljava/util/HashMap;
 
     move-result-object v20
@@ -277,7 +271,6 @@
 
     move-object/from16 v0, v20
 
-    # invokes: Lorg/telegram/messenger/NotificationsController;->isPersonalMessage(Lorg/telegram/messenger/MessageObject;)Z
     invoke-static {v0, v10}, Lorg/telegram/messenger/NotificationsController;->access$1500(Lorg/telegram/messenger/NotificationsController;Lorg/telegram/messenger/MessageObject;)Z
 
     move-result v20
@@ -291,7 +284,6 @@
 
     move-object/from16 v20, v0
 
-    # operator++ for: Lorg/telegram/messenger/NotificationsController;->personal_count:I
     invoke-static/range {v20 .. v20}, Lorg/telegram/messenger/NotificationsController;->access$508(Lorg/telegram/messenger/NotificationsController;)I
 
     .line 762
@@ -364,7 +356,6 @@
 
     move-object/from16 v1, v17
 
-    # invokes: Lorg/telegram/messenger/NotificationsController;->getNotifyOverride(Landroid/content/SharedPreferences;J)I
     invoke-static {v0, v1, v6, v7}, Lorg/telegram/messenger/NotificationsController;->access$2000(Lorg/telegram/messenger/NotificationsController;Landroid/content/SharedPreferences;J)I
 
     move-result v11
@@ -454,7 +445,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->opened_dialog_id:J
     invoke-static/range {v20 .. v20}, Lorg/telegram/messenger/NotificationsController;->access$300(Lorg/telegram/messenger/NotificationsController;)J
 
     move-result-wide v20
@@ -475,7 +465,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->pushMessagesDict:Ljava/util/HashMap;
     invoke-static/range {v20 .. v20}, Lorg/telegram/messenger/NotificationsController;->access$700(Lorg/telegram/messenger/NotificationsController;)Ljava/util/HashMap;
 
     move-result-object v20
@@ -497,7 +486,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->pushMessages:Ljava/util/ArrayList;
     invoke-static/range {v20 .. v20}, Lorg/telegram/messenger/NotificationsController;->access$600(Lorg/telegram/messenger/NotificationsController;)Ljava/util/ArrayList;
 
     move-result-object v20
@@ -522,7 +510,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->pushDialogsOverrideMention:Ljava/util/HashMap;
     invoke-static/range {v20 .. v20}, Lorg/telegram/messenger/NotificationsController;->access$1700(Lorg/telegram/messenger/NotificationsController;)Ljava/util/HashMap;
 
     move-result-object v20
@@ -629,7 +616,6 @@
 
     move-object/from16 v1, v17
 
-    # invokes: Lorg/telegram/messenger/NotificationsController;->getNotifyOverride(Landroid/content/SharedPreferences;J)I
     invoke-static {v0, v1, v6, v7}, Lorg/telegram/messenger/NotificationsController;->access$2000(Lorg/telegram/messenger/NotificationsController;Landroid/content/SharedPreferences;J)I
 
     move-result v11
@@ -642,7 +628,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->pushDialogsOverrideMention:Ljava/util/HashMap;
     invoke-static/range {v20 .. v20}, Lorg/telegram/messenger/NotificationsController;->access$1700(Lorg/telegram/messenger/NotificationsController;)Ljava/util/HashMap;
 
     move-result-object v20
@@ -684,7 +669,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->pushDialogsOverrideMention:Ljava/util/HashMap;
     invoke-static/range {v20 .. v20}, Lorg/telegram/messenger/NotificationsController;->access$1700(Lorg/telegram/messenger/NotificationsController;)Ljava/util/HashMap;
 
     move-result-object v20
@@ -809,7 +793,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->pushDialogs:Ljava/util/HashMap;
     invoke-static/range {v20 .. v20}, Lorg/telegram/messenger/NotificationsController;->access$800(Lorg/telegram/messenger/NotificationsController;)Ljava/util/HashMap;
 
     move-result-object v20
@@ -843,7 +826,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->total_unread_count:I
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/NotificationsController;->access$400(Lorg/telegram/messenger/NotificationsController;)I
 
     move-result v22
@@ -854,7 +836,6 @@
 
     move/from16 v1, v22
 
-    # setter for: Lorg/telegram/messenger/NotificationsController;->total_unread_count:I
     invoke-static {v0, v1}, Lorg/telegram/messenger/NotificationsController;->access$402(Lorg/telegram/messenger/NotificationsController;I)I
 
     goto/16 :goto_3
@@ -881,7 +862,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->total_unread_count:I
     invoke-static/range {v20 .. v20}, Lorg/telegram/messenger/NotificationsController;->access$400(Lorg/telegram/messenger/NotificationsController;)I
 
     move-result v20
@@ -928,7 +908,6 @@
 
     move/from16 v1, v20
 
-    # invokes: Lorg/telegram/messenger/NotificationsController;->showOrUpdateNotification(Z)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/NotificationsController;->access$100(Lorg/telegram/messenger/NotificationsController;Z)V
 
     .line 814
@@ -961,12 +940,10 @@
 
     move-object/from16 v21, v0
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->total_unread_count:I
     invoke-static/range {v21 .. v21}, Lorg/telegram/messenger/NotificationsController;->access$400(Lorg/telegram/messenger/NotificationsController;)I
 
     move-result v21
 
-    # invokes: Lorg/telegram/messenger/NotificationsController;->setBadge(I)V
     invoke-static/range {v20 .. v21}, Lorg/telegram/messenger/NotificationsController;->access$1200(Lorg/telegram/messenger/NotificationsController;I)V
 
     .line 817

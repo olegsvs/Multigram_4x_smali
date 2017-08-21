@@ -74,7 +74,6 @@
     .line 433
     iget-object v3, p0, Lorg/telegram/ui/LocationActivity$8;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # invokes: Lorg/telegram/ui/LocationActivity;->showPermissionAlert(Z)V
     invoke-static {v3, v5}, Lorg/telegram/ui/LocationActivity;->access$1500(Lorg/telegram/ui/LocationActivity;Z)V
 
     .line 446
@@ -87,7 +86,6 @@
     :cond_1
     iget-object v3, p0, Lorg/telegram/ui/LocationActivity$8;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->myLocation:Landroid/location/Location;
     invoke-static {v3}, Lorg/telegram/ui/LocationActivity;->access$1600(Lorg/telegram/ui/LocationActivity;)Landroid/location/Location;
 
     move-result-object v3
@@ -112,7 +110,6 @@
 
     iget-object v8, p0, Lorg/telegram/ui/LocationActivity$8;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->myLocation:Landroid/location/Location;
     invoke-static {v8}, Lorg/telegram/ui/LocationActivity;->access$1600(Lorg/telegram/ui/LocationActivity;)Landroid/location/Location;
 
     move-result-object v8
@@ -131,7 +128,6 @@
 
     iget-object v8, p0, Lorg/telegram/ui/LocationActivity$8;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->myLocation:Landroid/location/Location;
     invoke-static {v8}, Lorg/telegram/ui/LocationActivity;->access$1600(Lorg/telegram/ui/LocationActivity;)Landroid/location/Location;
 
     move-result-object v8
@@ -150,7 +146,6 @@
 
     iget-object v8, p0, Lorg/telegram/ui/LocationActivity$8;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->messageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v8}, Lorg/telegram/ui/LocationActivity;->access$100(Lorg/telegram/ui/LocationActivity;)Lorg/telegram/messenger/MessageObject;
 
     move-result-object v8
@@ -173,7 +168,6 @@
 
     iget-object v8, p0, Lorg/telegram/ui/LocationActivity$8;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->messageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v8}, Lorg/telegram/ui/LocationActivity;->access$100(Lorg/telegram/ui/LocationActivity;)Lorg/telegram/messenger/MessageObject;
 
     move-result-object v8

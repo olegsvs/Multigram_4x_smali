@@ -50,7 +50,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->searching:Z
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$000(Lorg/telegram/ui/ContactsActivity;)Z
 
     move-result v18
@@ -63,7 +62,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->searchWas:Z
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$300(Lorg/telegram/ui/ContactsActivity;)Z
 
     move-result v18
@@ -77,7 +75,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->searchListViewAdapter:Lorg/telegram/ui/Adapters/SearchAdapter;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$200(Lorg/telegram/ui/ContactsActivity;)Lorg/telegram/ui/Adapters/SearchAdapter;
 
     move-result-object v18
@@ -111,7 +108,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->searchListViewAdapter:Lorg/telegram/ui/Adapters/SearchAdapter;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$200(Lorg/telegram/ui/ContactsActivity;)Lorg/telegram/ui/Adapters/SearchAdapter;
 
     move-result-object v18
@@ -186,7 +182,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->returnAsResult:Z
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$700(Lorg/telegram/ui/ContactsActivity;)Z
 
     move-result v18
@@ -200,7 +195,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->ignoreUsers:Ljava/util/HashMap;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$800(Lorg/telegram/ui/ContactsActivity;)Ljava/util/HashMap;
 
     move-result-object v18
@@ -213,7 +207,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->ignoreUsers:Ljava/util/HashMap;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$800(Lorg/telegram/ui/ContactsActivity;)Ljava/util/HashMap;
 
     move-result-object v18
@@ -254,7 +247,6 @@
 
     move-object/from16 v3, v20
 
-    # invokes: Lorg/telegram/ui/ContactsActivity;->didSelectResult(Lorg/telegram/tgnet/TLRPC$User;ZLjava/lang/String;)V
     invoke-static {v0, v1, v2, v3}, Lorg/telegram/ui/ContactsActivity;->access$900(Lorg/telegram/ui/ContactsActivity;Lorg/telegram/tgnet/TLRPC$User;ZLjava/lang/String;)V
 
     goto/16 :goto_0
@@ -267,7 +259,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->createSecretChat:Z
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$1000(Lorg/telegram/ui/ContactsActivity;)Z
 
     move-result v18
@@ -300,7 +291,6 @@
 
     const/16 v19, 0x1
 
-    # setter for: Lorg/telegram/ui/ContactsActivity;->creatingChat:Z
     invoke-static/range {v18 .. v19}, Lorg/telegram/ui/ContactsActivity;->access$1102(Lorg/telegram/ui/ContactsActivity;Z)Z
 
     .line 302
@@ -394,7 +384,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->listViewAdapter:Lorg/telegram/ui/Adapters/ContactsAdapter;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$400(Lorg/telegram/ui/ContactsActivity;)Lorg/telegram/ui/Adapters/ContactsAdapter;
 
     move-result-object v18
@@ -415,7 +404,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->listViewAdapter:Lorg/telegram/ui/Adapters/ContactsAdapter;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$400(Lorg/telegram/ui/ContactsActivity;)Lorg/telegram/ui/Adapters/ContactsAdapter;
 
     move-result-object v18
@@ -441,7 +429,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->onlyUsers:Z
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$1200(Lorg/telegram/ui/ContactsActivity;)Z
 
     move-result v18
@@ -454,7 +441,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->chat_id:I
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$1300(Lorg/telegram/ui/ContactsActivity;)I
 
     move-result v18
@@ -471,7 +457,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->needPhonebook:Z
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$1400(Lorg/telegram/ui/ContactsActivity;)Z
 
     move-result v18
@@ -569,7 +554,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->chat_id:I
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$1300(Lorg/telegram/ui/ContactsActivity;)I
 
     move-result v18
@@ -594,7 +578,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->chat_id:I
     invoke-static/range {v20 .. v20}, Lorg/telegram/ui/ContactsActivity;->access$1300(Lorg/telegram/ui/ContactsActivity;)I
 
     move-result v20
@@ -848,7 +831,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->listViewAdapter:Lorg/telegram/ui/Adapters/ContactsAdapter;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$400(Lorg/telegram/ui/ContactsActivity;)Lorg/telegram/ui/Adapters/ContactsAdapter;
 
     move-result-object v18
@@ -880,7 +862,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->returnAsResult:Z
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$700(Lorg/telegram/ui/ContactsActivity;)Z
 
     move-result v18
@@ -894,7 +875,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->ignoreUsers:Ljava/util/HashMap;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$800(Lorg/telegram/ui/ContactsActivity;)Ljava/util/HashMap;
 
     move-result-object v18
@@ -907,7 +887,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->ignoreUsers:Ljava/util/HashMap;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$800(Lorg/telegram/ui/ContactsActivity;)Ljava/util/HashMap;
 
     move-result-object v18
@@ -948,7 +927,6 @@
 
     move-object/from16 v3, v20
 
-    # invokes: Lorg/telegram/ui/ContactsActivity;->didSelectResult(Lorg/telegram/tgnet/TLRPC$User;ZLjava/lang/String;)V
     invoke-static {v0, v1, v2, v3}, Lorg/telegram/ui/ContactsActivity;->access$900(Lorg/telegram/ui/ContactsActivity;Lorg/telegram/tgnet/TLRPC$User;ZLjava/lang/String;)V
 
     goto/16 :goto_0
@@ -961,7 +939,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/ContactsActivity;->createSecretChat:Z
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/ContactsActivity;->access$1000(Lorg/telegram/ui/ContactsActivity;)Z
 
     move-result v18
@@ -977,7 +954,6 @@
 
     const/16 v19, 0x1
 
-    # setter for: Lorg/telegram/ui/ContactsActivity;->creatingChat:Z
     invoke-static/range {v18 .. v19}, Lorg/telegram/ui/ContactsActivity;->access$1102(Lorg/telegram/ui/ContactsActivity;Z)Z
 
     .line 374

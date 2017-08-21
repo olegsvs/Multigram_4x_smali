@@ -5163,7 +5163,6 @@
     .line 9519
     iget-object v0, p0, Lorg/telegram/messenger/support/widget/RecyclerView$LayoutManager;->mRecyclerView:Lorg/telegram/messenger/support/widget/RecyclerView;
 
-    # invokes: Lorg/telegram/messenger/support/widget/RecyclerView;->setMeasuredDimension(II)V
     invoke-static {v0, p1, p2}, Lorg/telegram/messenger/support/widget/RecyclerView;->access$1000(Lorg/telegram/messenger/support/widget/RecyclerView;II)V
 
     .line 9520

@@ -2128,7 +2128,6 @@
 
     .line 289
     .local v11, "presentationTime":Lorg/telegram/messenger/video/Track$SamplePresentationTime;
-    # getter for: Lorg/telegram/messenger/video/Track$SamplePresentationTime;->presentationTime:J
     invoke-static {v11}, Lorg/telegram/messenger/video/Track$SamplePresentationTime;->access$000(Lorg/telegram/messenger/video/Track$SamplePresentationTime;)J
 
     move-result-wide v12
@@ -2137,7 +2136,6 @@
 
     .line 290
     .local v4, "delta":J
-    # getter for: Lorg/telegram/messenger/video/Track$SamplePresentationTime;->presentationTime:J
     invoke-static {v11}, Lorg/telegram/messenger/video/Track$SamplePresentationTime;->access$000(Lorg/telegram/messenger/video/Track$SamplePresentationTime;)J
 
     move-result-wide v6
@@ -2147,7 +2145,6 @@
 
     iget-object v12, v0, Lorg/telegram/messenger/video/Track;->sampleDurations:[J
 
-    # getter for: Lorg/telegram/messenger/video/Track$SamplePresentationTime;->index:I
     invoke-static {v11}, Lorg/telegram/messenger/video/Track$SamplePresentationTime;->access$100(Lorg/telegram/messenger/video/Track$SamplePresentationTime;)I
 
     move-result v13
@@ -2155,7 +2152,6 @@
     aput-wide v4, v12, v13
 
     .line 292
-    # getter for: Lorg/telegram/messenger/video/Track$SamplePresentationTime;->index:I
     invoke-static {v11}, Lorg/telegram/messenger/video/Track$SamplePresentationTime;->access$100(Lorg/telegram/messenger/video/Track$SamplePresentationTime;)I
 
     move-result v12
@@ -2188,7 +2184,6 @@
 
     .line 298
     :cond_1
-    # getter for: Lorg/telegram/messenger/video/Track$SamplePresentationTime;->index:I
     invoke-static {v11}, Lorg/telegram/messenger/video/Track$SamplePresentationTime;->access$100(Lorg/telegram/messenger/video/Track$SamplePresentationTime;)I
 
     move-result v12
@@ -2268,14 +2263,12 @@
 
     check-cast v13, Lorg/telegram/messenger/video/Track$SamplePresentationTime;
 
-    # getter for: Lorg/telegram/messenger/video/Track$SamplePresentationTime;->dt:J
     invoke-static {v13}, Lorg/telegram/messenger/video/Track$SamplePresentationTime;->access$200(Lorg/telegram/messenger/video/Track$SamplePresentationTime;)J
 
     move-result-wide v16
 
     add-long v14, v14, v16
 
-    # setter for: Lorg/telegram/messenger/video/Track$SamplePresentationTime;->dt:J
     invoke-static {v12, v14, v15}, Lorg/telegram/messenger/video/Track$SamplePresentationTime;->access$202(Lorg/telegram/messenger/video/Track$SamplePresentationTime;J)J
 
     .line 306
@@ -2333,17 +2326,14 @@
 
     iget-object v12, v0, Lorg/telegram/messenger/video/Track;->sampleCompositions:[I
 
-    # getter for: Lorg/telegram/messenger/video/Track$SamplePresentationTime;->index:I
     invoke-static {v11}, Lorg/telegram/messenger/video/Track$SamplePresentationTime;->access$100(Lorg/telegram/messenger/video/Track$SamplePresentationTime;)I
 
     move-result v13
 
-    # getter for: Lorg/telegram/messenger/video/Track$SamplePresentationTime;->presentationTime:J
     invoke-static {v11}, Lorg/telegram/messenger/video/Track$SamplePresentationTime;->access$000(Lorg/telegram/messenger/video/Track$SamplePresentationTime;)J
 
     move-result-wide v14
 
-    # getter for: Lorg/telegram/messenger/video/Track$SamplePresentationTime;->dt:J
     invoke-static {v11}, Lorg/telegram/messenger/video/Track$SamplePresentationTime;->access$200(Lorg/telegram/messenger/video/Track$SamplePresentationTime;)J
 
     move-result-wide v16

@@ -46,7 +46,6 @@
     .line 678
     iget-object v0, p0, Lorg/telegram/messenger/MessagesController$5;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->updatesQueueSeq:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/messenger/MessagesController;->access$300(Lorg/telegram/messenger/MessagesController;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -56,7 +55,6 @@
     .line 679
     iget-object v0, p0, Lorg/telegram/messenger/MessagesController$5;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->updatesQueuePts:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/messenger/MessagesController;->access$400(Lorg/telegram/messenger/MessagesController;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -66,7 +64,6 @@
     .line 680
     iget-object v0, p0, Lorg/telegram/messenger/MessagesController$5;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->updatesQueueQts:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/messenger/MessagesController;->access$500(Lorg/telegram/messenger/MessagesController;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -76,7 +73,6 @@
     .line 681
     iget-object v0, p0, Lorg/telegram/messenger/MessagesController$5;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->gettingUnknownChannels:Ljava/util/HashMap;
     invoke-static {v0}, Lorg/telegram/messenger/MessagesController;->access$600(Lorg/telegram/messenger/MessagesController;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -86,25 +82,21 @@
     .line 682
     iget-object v0, p0, Lorg/telegram/messenger/MessagesController$5;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # setter for: Lorg/telegram/messenger/MessagesController;->updatesStartWaitTimeSeq:J
     invoke-static {v0, v2, v3}, Lorg/telegram/messenger/MessagesController;->access$702(Lorg/telegram/messenger/MessagesController;J)J
 
     .line 683
     iget-object v0, p0, Lorg/telegram/messenger/MessagesController$5;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # setter for: Lorg/telegram/messenger/MessagesController;->updatesStartWaitTimePts:J
     invoke-static {v0, v2, v3}, Lorg/telegram/messenger/MessagesController;->access$802(Lorg/telegram/messenger/MessagesController;J)J
 
     .line 684
     iget-object v0, p0, Lorg/telegram/messenger/MessagesController$5;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # setter for: Lorg/telegram/messenger/MessagesController;->updatesStartWaitTimeQts:J
     invoke-static {v0, v2, v3}, Lorg/telegram/messenger/MessagesController;->access$902(Lorg/telegram/messenger/MessagesController;J)J
 
     .line 685
     iget-object v0, p0, Lorg/telegram/messenger/MessagesController$5;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->createdDialogIds:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/messenger/MessagesController;->access$1000(Lorg/telegram/messenger/MessagesController;)Ljava/util/ArrayList;
 
     move-result-object v0

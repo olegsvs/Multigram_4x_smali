@@ -107,7 +107,6 @@
     .local v0, "e":Landroid/os/IBinder$DeathRecipient;
     iget-object v4, p0, Lorg/telegram/messenger/support/customtabs/CustomTabsService$1;->this$0:Lorg/telegram/messenger/support/customtabs/CustomTabsService;
 
-    # getter for: Lorg/telegram/messenger/support/customtabs/CustomTabsService;->mDeathRecipientMap:Ljava/util/Map;
     invoke-static {v4}, Lorg/telegram/messenger/support/customtabs/CustomTabsService;->access$000(Lorg/telegram/messenger/support/customtabs/CustomTabsService;)Ljava/util/Map;
 
     move-result-object v5
@@ -129,7 +128,6 @@
     .line 52
     iget-object v4, p0, Lorg/telegram/messenger/support/customtabs/CustomTabsService$1;->this$0:Lorg/telegram/messenger/support/customtabs/CustomTabsService;
 
-    # getter for: Lorg/telegram/messenger/support/customtabs/CustomTabsService;->mDeathRecipientMap:Ljava/util/Map;
     invoke-static {v4}, Lorg/telegram/messenger/support/customtabs/CustomTabsService;->access$000(Lorg/telegram/messenger/support/customtabs/CustomTabsService;)Ljava/util/Map;
 
     move-result-object v4

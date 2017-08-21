@@ -358,7 +358,6 @@
 
     iget-object v15, v15, Lorg/telegram/messenger/MessagesController$97;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->createdDialogIds:Ljava/util/ArrayList;
     invoke-static {v15}, Lorg/telegram/messenger/MessagesController;->access$1000(Lorg/telegram/messenger/MessagesController;)Ljava/util/ArrayList;
 
     move-result-object v15
@@ -584,7 +583,6 @@
 
     const/16 v16, 0x1
 
-    # invokes: Lorg/telegram/messenger/MessagesController;->processChannelsUpdatesQueue(II)V
     invoke-static/range {v14 .. v16}, Lorg/telegram/messenger/MessagesController;->access$5500(Lorg/telegram/messenger/MessagesController;II)V
 
     .line 5569
@@ -631,7 +629,6 @@
 
     iget-object v14, v14, Lorg/telegram/messenger/MessagesController$97;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->gettingDifferenceChannels:Ljava/util/HashMap;
     invoke-static {v14}, Lorg/telegram/messenger/MessagesController;->access$1300(Lorg/telegram/messenger/MessagesController;)Ljava/util/HashMap;
 
     move-result-object v14
@@ -659,7 +656,6 @@
 
     iget-object v14, v14, Lorg/telegram/messenger/MessagesController$97;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->channelsPts:Ljava/util/HashMap;
     invoke-static {v14}, Lorg/telegram/messenger/MessagesController;->access$1400(Lorg/telegram/messenger/MessagesController;)Ljava/util/HashMap;
 
     move-result-object v14
@@ -722,7 +718,6 @@
 
     iget-object v14, v14, Lorg/telegram/messenger/MessagesController$97;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->shortPollChannels:Landroid/util/SparseIntArray;
     invoke-static {v14}, Lorg/telegram/messenger/MessagesController;->access$1500(Lorg/telegram/messenger/MessagesController;)Landroid/util/SparseIntArray;
 
     move-result-object v14
@@ -800,7 +795,6 @@
 
     iget v15, v15, Lorg/telegram/messenger/MessagesController$97;->val$channelId:I
 
-    # invokes: Lorg/telegram/messenger/MessagesController;->getChannelDifference(I)V
     invoke-static {v14, v15}, Lorg/telegram/messenger/MessagesController;->access$4400(Lorg/telegram/messenger/MessagesController;I)V
 
     .line 5604

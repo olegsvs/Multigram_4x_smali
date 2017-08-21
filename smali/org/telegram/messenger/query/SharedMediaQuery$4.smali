@@ -103,7 +103,6 @@
 
     iget v5, p0, Lorg/telegram/messenger/query/SharedMediaQuery$4;->val$count:I
 
-    # invokes: Lorg/telegram/messenger/query/SharedMediaQuery;->putMediaCountDatabase(JII)V
     invoke-static {v2, v3, v4, v5}, Lorg/telegram/messenger/query/SharedMediaQuery;->access$200(JII)V
 
     .line 236

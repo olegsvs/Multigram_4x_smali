@@ -53,7 +53,6 @@
     .line 987
     iget-object v1, p0, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter$3;->this$1:Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->searchTimer:Ljava/util/Timer;
     invoke-static {v1}, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->access$3300(Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;)Ljava/util/Timer;
 
     move-result-object v1
@@ -65,7 +64,6 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->searchTimer:Ljava/util/Timer;
     invoke-static {v1, v2}, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->access$3302(Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;Ljava/util/Timer;)Ljava/util/Timer;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -78,7 +76,6 @@
 
     iget v3, p0, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter$3;->val$searchId:I
 
-    # invokes: Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->searchDialogsInternal(Ljava/lang/String;I)V
     invoke-static {v1, v2, v3}, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->access$3400(Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;Ljava/lang/String;I)V
 
     .line 993

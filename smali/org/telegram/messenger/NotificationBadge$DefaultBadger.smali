@@ -61,7 +61,6 @@
     .line 150
     const-string/jumbo v1, "badge_count_package_name"
 
-    # getter for: Lorg/telegram/messenger/NotificationBadge;->componentName:Landroid/content/ComponentName;
     invoke-static {}, Lorg/telegram/messenger/NotificationBadge;->access$000()Landroid/content/ComponentName;
 
     move-result-object v2
@@ -75,7 +74,6 @@
     .line 151
     const-string/jumbo v1, "badge_count_class_name"
 
-    # getter for: Lorg/telegram/messenger/NotificationBadge;->componentName:Landroid/content/ComponentName;
     invoke-static {}, Lorg/telegram/messenger/NotificationBadge;->access$000()Landroid/content/ComponentName;
 
     move-result-object v2

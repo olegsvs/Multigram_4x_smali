@@ -55,7 +55,6 @@
 
     add-int/lit8 v1, v1, 0x1
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->barQualityValue:I
     invoke-static {v0, v1}, Lorg/telegram/ui/PhotoViewer;->access$7302(Lorg/telegram/ui/PhotoViewer;I)I
 
     .line 2119
@@ -67,7 +66,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/PhotoViewer$16;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->barQualityValue:I
     invoke-static {v2}, Lorg/telegram/ui/PhotoViewer;->access$7300(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v2
@@ -133,7 +131,6 @@
     .local v0, "editor":Landroid/content/SharedPreferences$Editor;
     iget-object v3, p0, Lorg/telegram/ui/PhotoViewer$16;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->barQualityValue:I
     invoke-static {v3}, Lorg/telegram/ui/PhotoViewer;->access$7300(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v3
@@ -160,7 +157,6 @@
     :cond_0
     iget-object v2, p0, Lorg/telegram/ui/PhotoViewer$16;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->barQualityValue:I
     invoke-static {v2}, Lorg/telegram/ui/PhotoViewer;->access$7300(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v2

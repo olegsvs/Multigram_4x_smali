@@ -65,7 +65,6 @@
     .line 103
     iget-object v1, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->donePressed:Z
     invoke-static {v1}, Lorg/telegram/ui/ChangeChatNameActivity;->access$000(Lorg/telegram/ui/ChangeChatNameActivity;)Z
 
     move-result v1
@@ -75,7 +74,6 @@
     .line 106
     iget-object v1, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->nameTextView:Landroid/widget/EditText;
     invoke-static {v1}, Lorg/telegram/ui/ChangeChatNameActivity;->access$100(Lorg/telegram/ui/ChangeChatNameActivity;)Landroid/widget/EditText;
 
     move-result-object v1
@@ -114,7 +112,6 @@
     :cond_2
     iget-object v1, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->nameTextView:Landroid/widget/EditText;
     invoke-static {v1}, Lorg/telegram/ui/ChangeChatNameActivity;->access$100(Lorg/telegram/ui/ChangeChatNameActivity;)Landroid/widget/EditText;
 
     move-result-object v1
@@ -130,13 +127,11 @@
     :cond_3
     iget-object v1, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # setter for: Lorg/telegram/ui/ChangeChatNameActivity;->donePressed:Z
     invoke-static {v1, v4}, Lorg/telegram/ui/ChangeChatNameActivity;->access$002(Lorg/telegram/ui/ChangeChatNameActivity;Z)Z
 
     .line 116
     iget-object v1, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->avatarUpdater:Lorg/telegram/ui/Components/AvatarUpdater;
     invoke-static {v1}, Lorg/telegram/ui/ChangeChatNameActivity;->access$200(Lorg/telegram/ui/ChangeChatNameActivity;)Lorg/telegram/ui/Components/AvatarUpdater;
 
     move-result-object v1
@@ -148,7 +143,6 @@
     .line 117
     iget-object v1, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # setter for: Lorg/telegram/ui/ChangeChatNameActivity;->createAfterUpload:Z
     invoke-static {v1, v4}, Lorg/telegram/ui/ChangeChatNameActivity;->access$302(Lorg/telegram/ui/ChangeChatNameActivity;Z)Z
 
     .line 118
@@ -164,13 +158,11 @@
 
     invoke-direct {v2, v3, v4}, Lorg/telegram/ui/ActionBar/AlertDialog;-><init>(Landroid/content/Context;I)V
 
-    # setter for: Lorg/telegram/ui/ChangeChatNameActivity;->progressDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v1, v2}, Lorg/telegram/ui/ChangeChatNameActivity;->access$402(Lorg/telegram/ui/ChangeChatNameActivity;Lorg/telegram/ui/ActionBar/AlertDialog;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     .line 119
     iget-object v1, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->progressDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v1}, Lorg/telegram/ui/ChangeChatNameActivity;->access$400(Lorg/telegram/ui/ChangeChatNameActivity;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     move-result-object v1
@@ -188,7 +180,6 @@
     .line 120
     iget-object v1, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->progressDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v1}, Lorg/telegram/ui/ChangeChatNameActivity;->access$400(Lorg/telegram/ui/ChangeChatNameActivity;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     move-result-object v1
@@ -198,7 +189,6 @@
     .line 121
     iget-object v1, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->progressDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v1}, Lorg/telegram/ui/ChangeChatNameActivity;->access$400(Lorg/telegram/ui/ChangeChatNameActivity;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     move-result-object v1
@@ -208,7 +198,6 @@
     .line 122
     iget-object v1, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->progressDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v1}, Lorg/telegram/ui/ChangeChatNameActivity;->access$400(Lorg/telegram/ui/ChangeChatNameActivity;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     move-result-object v1
@@ -232,7 +221,6 @@
     .line 135
     iget-object v1, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->progressDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v1}, Lorg/telegram/ui/ChangeChatNameActivity;->access$400(Lorg/telegram/ui/ChangeChatNameActivity;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     move-result-object v1
@@ -245,7 +233,6 @@
     :cond_4
     iget-object v1, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->uploadedAvatar:Lorg/telegram/tgnet/TLRPC$InputFile;
     invoke-static {v1}, Lorg/telegram/ui/ChangeChatNameActivity;->access$500(Lorg/telegram/ui/ChangeChatNameActivity;)Lorg/telegram/tgnet/TLRPC$InputFile;
 
     move-result-object v1
@@ -259,14 +246,12 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->chatId:I
     invoke-static {v2}, Lorg/telegram/ui/ChangeChatNameActivity;->access$600(Lorg/telegram/ui/ChangeChatNameActivity;)I
 
     move-result v2
 
     iget-object v3, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->uploadedAvatar:Lorg/telegram/tgnet/TLRPC$InputFile;
     invoke-static {v3}, Lorg/telegram/ui/ChangeChatNameActivity;->access$500(Lorg/telegram/ui/ChangeChatNameActivity;)Lorg/telegram/tgnet/TLRPC$InputFile;
 
     move-result-object v3
@@ -283,7 +268,6 @@
     .line 145
     iget-object v1, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->nameTextView:Landroid/widget/EditText;
     invoke-static {v1}, Lorg/telegram/ui/ChangeChatNameActivity;->access$100(Lorg/telegram/ui/ChangeChatNameActivity;)Landroid/widget/EditText;
 
     move-result-object v1
@@ -301,7 +285,6 @@
     .line 146
     iget-object v1, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # invokes: Lorg/telegram/ui/ChangeChatNameActivity;->saveName()V
     invoke-static {v1}, Lorg/telegram/ui/ChangeChatNameActivity;->access$900(Lorg/telegram/ui/ChangeChatNameActivity;)V
 
     .line 147
@@ -315,7 +298,6 @@
     :cond_6
     iget-object v1, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->avatar:Lorg/telegram/tgnet/TLRPC$FileLocation;
     invoke-static {v1}, Lorg/telegram/ui/ChangeChatNameActivity;->access$700(Lorg/telegram/ui/ChangeChatNameActivity;)Lorg/telegram/tgnet/TLRPC$FileLocation;
 
     move-result-object v1
@@ -324,7 +306,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->currentChat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v1}, Lorg/telegram/ui/ChangeChatNameActivity;->access$800(Lorg/telegram/ui/ChangeChatNameActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v1
@@ -342,7 +323,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ChangeChatNameActivity$1;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->chatId:I
     invoke-static {v2}, Lorg/telegram/ui/ChangeChatNameActivity;->access$600(Lorg/telegram/ui/ChangeChatNameActivity;)I
 
     move-result v2

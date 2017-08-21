@@ -57,7 +57,6 @@
     if-eqz v0, :cond_0
 
     .line 1028
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->loadHash:[I
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$2400()[I
 
     move-result-object v0

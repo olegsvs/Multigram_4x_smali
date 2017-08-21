@@ -52,7 +52,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditInfoActivity$15;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->loadingAdminedChannels:Z
     invoke-static {v3, v5}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2402(Lorg/telegram/ui/ChannelEditInfoActivity;Z)Z
 
     .line 821
@@ -86,7 +85,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditInfoActivity$15;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->adminedChannelCells:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2500(Lorg/telegram/ui/ChannelEditInfoActivity;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -102,7 +100,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditInfoActivity$15;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->linearLayout:Landroid/widget/LinearLayout;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2600(Lorg/telegram/ui/ChannelEditInfoActivity;)Landroid/widget/LinearLayout;
 
     move-result-object v4
@@ -111,7 +108,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditInfoActivity$15;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->adminedChannelCells:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2500(Lorg/telegram/ui/ChannelEditInfoActivity;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -135,7 +131,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditInfoActivity$15;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->adminedChannelCells:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2500(Lorg/telegram/ui/ChannelEditInfoActivity;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -207,7 +202,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditInfoActivity$15;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->adminedChannelCells:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2500(Lorg/telegram/ui/ChannelEditInfoActivity;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -219,7 +213,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditInfoActivity$15;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->adminnedChannelsLayout:Landroid/widget/LinearLayout;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2700(Lorg/telegram/ui/ChannelEditInfoActivity;)Landroid/widget/LinearLayout;
 
     move-result-object v3
@@ -252,7 +245,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditInfoActivity$15;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelEditInfoActivity;->updatePrivatePublic()V
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2100(Lorg/telegram/ui/ChannelEditInfoActivity;)V
 
     goto/16 :goto_0

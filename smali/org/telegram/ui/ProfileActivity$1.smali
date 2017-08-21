@@ -54,7 +54,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ProfileActivity$1;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->chat_id:I
     invoke-static {v2}, Lorg/telegram/ui/ProfileActivity;->access$600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v2
@@ -63,7 +62,6 @@
 
     move-result-object v1
 
-    # setter for: Lorg/telegram/ui/ProfileActivity;->currentChat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v0, v1}, Lorg/telegram/ui/ProfileActivity;->access$502(Lorg/telegram/ui/ProfileActivity;Lorg/telegram/tgnet/TLRPC$Chat;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     .line 311

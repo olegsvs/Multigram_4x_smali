@@ -69,7 +69,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ArchivedStickersActivity$4;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/ArchivedStickersActivity;->sets:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/ArchivedStickersActivity;->access$200(Lorg/telegram/ui/ArchivedStickersActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -96,7 +95,6 @@
     move v1, v2
 
     :goto_0
-    # setter for: Lorg/telegram/ui/ArchivedStickersActivity;->endReached:Z
     invoke-static {v4, v1}, Lorg/telegram/ui/ArchivedStickersActivity;->access$402(Lorg/telegram/ui/ArchivedStickersActivity;Z)Z
 
     .line 220
@@ -104,7 +102,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ArchivedStickersActivity$4;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # setter for: Lorg/telegram/ui/ArchivedStickersActivity;->loadingStickers:Z
     invoke-static {v1, v3}, Lorg/telegram/ui/ArchivedStickersActivity;->access$302(Lorg/telegram/ui/ArchivedStickersActivity;Z)Z
 
     .line 221
@@ -112,7 +109,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ArchivedStickersActivity$4;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # setter for: Lorg/telegram/ui/ArchivedStickersActivity;->firstLoaded:Z
     invoke-static {v1, v2}, Lorg/telegram/ui/ArchivedStickersActivity;->access$802(Lorg/telegram/ui/ArchivedStickersActivity;Z)Z
 
     .line 222
@@ -120,7 +116,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ArchivedStickersActivity$4;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/ArchivedStickersActivity;->emptyView:Lorg/telegram/ui/Components/EmptyTextProgressView;
     invoke-static {v1}, Lorg/telegram/ui/ArchivedStickersActivity;->access$900(Lorg/telegram/ui/ArchivedStickersActivity;)Lorg/telegram/ui/Components/EmptyTextProgressView;
 
     move-result-object v1
@@ -132,7 +127,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ArchivedStickersActivity$4;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/ArchivedStickersActivity;->emptyView:Lorg/telegram/ui/Components/EmptyTextProgressView;
     invoke-static {v1}, Lorg/telegram/ui/ArchivedStickersActivity;->access$900(Lorg/telegram/ui/ArchivedStickersActivity;)Lorg/telegram/ui/Components/EmptyTextProgressView;
 
     move-result-object v1
@@ -145,7 +139,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ArchivedStickersActivity$4;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # invokes: Lorg/telegram/ui/ArchivedStickersActivity;->updateRows()V
     invoke-static {v1}, Lorg/telegram/ui/ArchivedStickersActivity;->access$1000(Lorg/telegram/ui/ArchivedStickersActivity;)V
 
     .line 227

@@ -53,7 +53,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->this$0:Lorg/telegram/ui/Components/ThemeEditorView;
 
-    # getter for: Lorg/telegram/ui/Components/ThemeEditorView;->currentThemeDesription:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/Components/ThemeEditorView;->access$200(Lorg/telegram/ui/Components/ThemeEditorView;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -68,7 +67,6 @@
     .local v0, "description":Lorg/telegram/ui/ActionBar/ThemeDescription;
     iget-object v1, p0, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert$8;->this$1:Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->history:Lorg/telegram/ui/Components/HistorySelectorView;
     invoke-static {v1}, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->access$000(Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;)Lorg/telegram/ui/Components/HistorySelectorView;
 
     move-result-object v1
@@ -82,13 +80,11 @@
     .line 744
     iget-object v1, p0, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert$8;->this$1:Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;
 
-    # invokes: Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->setColorPickerVisible(Z)V
     invoke-static {v1, v3}, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->access$1800(Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;Z)V
 
     .line 746
     iget-object v1, p0, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert$8;->this$1:Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->history:Lorg/telegram/ui/Components/HistorySelectorView;
     invoke-static {v1}, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->access$000(Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;)Lorg/telegram/ui/Components/HistorySelectorView;
 
     move-result-object v1
@@ -98,7 +94,6 @@
     .line 747
     iget-object v1, p0, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert$8;->this$1:Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->colorPicker:Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert$ColorPicker;
     invoke-static {v1}, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->access$100(Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;)Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert$ColorPicker;
 
     move-result-object v1

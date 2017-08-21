@@ -759,7 +759,6 @@
 
     const/4 v2, 0x0
 
-    # invokes: Lorg/telegram/ui/LoginActivity;->needShowProgress(I)V
     invoke-static {v1, v2}, Lorg/telegram/ui/LoginActivity;->access$2100(Lorg/telegram/ui/LoginActivity;I)V
 
     .line 2812

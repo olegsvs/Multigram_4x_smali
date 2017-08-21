@@ -74,7 +74,6 @@
 
     iget v7, p0, Lorg/telegram/messenger/MessagesStorage$74;->val$channelId:I
 
-    # invokes: Lorg/telegram/messenger/MessagesStorage;->updateMessageStateAndIdInternal(JLjava/lang/Integer;III)[J
     invoke-static/range {v1 .. v7}, Lorg/telegram/messenger/MessagesStorage;->access$1500(Lorg/telegram/messenger/MessagesStorage;JLjava/lang/Integer;III)[J
 
     .line 5008

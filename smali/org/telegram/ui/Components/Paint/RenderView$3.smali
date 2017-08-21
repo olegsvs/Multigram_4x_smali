@@ -44,14 +44,12 @@
     .line 253
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/RenderView$3;->this$0:Lorg/telegram/ui/Components/Paint/RenderView;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/RenderView;->painting:Lorg/telegram/ui/Components/Paint/Painting;
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/RenderView;->access$200(Lorg/telegram/ui/Components/Paint/RenderView;)Lorg/telegram/ui/Components/Paint/Painting;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/Components/Paint/RenderView$3;->this$0:Lorg/telegram/ui/Components/Paint/RenderView;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/RenderView;->transformedBitmap:Z
     invoke-static {v1}, Lorg/telegram/ui/Components/Paint/RenderView;->access$1000(Lorg/telegram/ui/Components/Paint/RenderView;)Z
 
     move-result v1
@@ -61,7 +59,6 @@
     .line 254
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/RenderView$3;->this$0:Lorg/telegram/ui/Components/Paint/RenderView;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/RenderView;->internal:Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/RenderView;->access$000(Lorg/telegram/ui/Components/Paint/RenderView;)Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;
 
     move-result-object v0
@@ -73,7 +70,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/Paint/RenderView;->internal:Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/Paint/RenderView;->access$002(Lorg/telegram/ui/Components/Paint/RenderView;Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;)Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;
 
     .line 256

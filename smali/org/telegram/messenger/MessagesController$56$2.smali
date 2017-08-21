@@ -354,7 +354,6 @@
 
     iget-wide v6, v5, Lorg/telegram/messenger/MessagesController$56;->val$dialog_id:J
 
-    # invokes: Lorg/telegram/messenger/MessagesController;->reloadMessages(Ljava/util/ArrayList;J)V
     invoke-static {v3, v4, v6, v7}, Lorg/telegram/messenger/MessagesController;->access$4500(Lorg/telegram/messenger/MessagesController;Ljava/util/ArrayList;J)V
 
     .line 3072

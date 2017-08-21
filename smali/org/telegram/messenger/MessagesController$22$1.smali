@@ -54,7 +54,6 @@
 
     iget-object v2, v2, Lorg/telegram/messenger/MessagesController$22;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->currentDeletingTaskChannelId:I
     invoke-static {v2}, Lorg/telegram/messenger/MessagesController;->access$3200(Lorg/telegram/messenger/MessagesController;)I
 
     move-result v2
@@ -68,7 +67,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/messenger/MessagesController;->currentDeletingTaskTime:I
     invoke-static {v0, v1}, Lorg/telegram/messenger/MessagesController;->access$3102(Lorg/telegram/messenger/MessagesController;I)I
 
     .line 1659
@@ -78,7 +76,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/messenger/MessagesController;->currentDeletingTaskMids:Ljava/util/ArrayList;
     invoke-static {v0, v1}, Lorg/telegram/messenger/MessagesController;->access$2902(Lorg/telegram/messenger/MessagesController;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 1660

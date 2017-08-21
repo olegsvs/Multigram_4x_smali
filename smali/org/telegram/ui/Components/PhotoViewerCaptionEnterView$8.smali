@@ -45,7 +45,6 @@
     .line 274
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$8;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->delegate:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$PhotoViewerCaptionEnterViewDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$700(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;)Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$PhotoViewerCaptionEnterViewDelegate;
 
     move-result-object v0

@@ -46,7 +46,6 @@
     .line 2101
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$30;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # setter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->editingMessageReqId:I
     invoke-static {v0, v2}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$8002(Lorg/telegram/ui/Components/ChatActivityEnterView;I)I
 
     .line 2102

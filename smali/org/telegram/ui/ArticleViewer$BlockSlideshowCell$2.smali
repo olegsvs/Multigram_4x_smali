@@ -69,7 +69,6 @@
     .line 5117
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell$2;->this$1:Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->dotsContainer:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->access$11200(Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;)Landroid/view/View;
 
     move-result-object v0

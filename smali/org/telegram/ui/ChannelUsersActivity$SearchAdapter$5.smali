@@ -98,7 +98,6 @@
     const/4 v2, 0x1
 
     :goto_0
-    # invokes: Lorg/telegram/ui/ChannelUsersActivity;->createMenuForParticipant(Lorg/telegram/tgnet/TLRPC$ChannelParticipant;Z)Z
     invoke-static {v4, v1, v2}, Lorg/telegram/ui/ChannelUsersActivity;->access$1500(Lorg/telegram/ui/ChannelUsersActivity;Lorg/telegram/tgnet/TLRPC$ChannelParticipant;Z)Z
 
     move-result v3

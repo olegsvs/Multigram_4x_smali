@@ -76,7 +76,6 @@
     .line 709
     iget-object v8, p0, Lorg/telegram/messenger/voip/VoIPService$11;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # invokes: Lorg/telegram/messenger/voip/VoIPService;->callFailed()V
     invoke-static {v8}, Lorg/telegram/messenger/voip/VoIPService;->access$1100(Lorg/telegram/messenger/voip/VoIPService;)V
 
     .line 771
@@ -164,7 +163,6 @@
     :cond_2
     iget-object v8, p0, Lorg/telegram/messenger/voip/VoIPService$11;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # setter for: Lorg/telegram/messenger/voip/VoIPService;->a_or_b:[B
     invoke-static {v8, v7}, Lorg/telegram/messenger/voip/VoIPService;->access$1502(Lorg/telegram/messenger/voip/VoIPService;[B)[B
 
     .line 723
@@ -203,14 +201,12 @@
 
     iget-object v9, p0, Lorg/telegram/messenger/voip/VoIPService$11;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->call:Lorg/telegram/tgnet/TLRPC$PhoneCall;
     invoke-static {v9}, Lorg/telegram/messenger/voip/VoIPService;->access$1400(Lorg/telegram/messenger/voip/VoIPService;)Lorg/telegram/tgnet/TLRPC$PhoneCall;
 
     move-result-object v9
 
     iget-object v9, v9, Lorg/telegram/tgnet/TLRPC$PhoneCall;->g_a_hash:[B
 
-    # setter for: Lorg/telegram/messenger/voip/VoIPService;->g_a_hash:[B
     invoke-static {v8, v9}, Lorg/telegram/messenger/voip/VoIPService;->access$2402(Lorg/telegram/messenger/voip/VoIPService;[B)[B
 
     .line 728
@@ -267,7 +263,6 @@
 
     iget-object v9, p0, Lorg/telegram/messenger/voip/VoIPService$11;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->call:Lorg/telegram/tgnet/TLRPC$PhoneCall;
     invoke-static {v9}, Lorg/telegram/messenger/voip/VoIPService;->access$1400(Lorg/telegram/messenger/voip/VoIPService;)Lorg/telegram/tgnet/TLRPC$PhoneCall;
 
     move-result-object v9
@@ -281,7 +276,6 @@
 
     iget-object v9, p0, Lorg/telegram/messenger/voip/VoIPService$11;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->call:Lorg/telegram/tgnet/TLRPC$PhoneCall;
     invoke-static {v9}, Lorg/telegram/messenger/voip/VoIPService;->access$1400(Lorg/telegram/messenger/voip/VoIPService;)Lorg/telegram/tgnet/TLRPC$PhoneCall;
 
     move-result-object v9
@@ -348,7 +342,6 @@
     :cond_4
     iget-object v8, p0, Lorg/telegram/messenger/voip/VoIPService$11;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # invokes: Lorg/telegram/messenger/voip/VoIPService;->callFailed()V
     invoke-static {v8}, Lorg/telegram/messenger/voip/VoIPService;->access$1100(Lorg/telegram/messenger/voip/VoIPService;)V
 
     goto/16 :goto_0

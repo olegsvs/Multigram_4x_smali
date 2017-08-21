@@ -44,7 +44,6 @@
     .line 171
     iget-object v0, p0, Lorg/telegram/messenger/voip/VoIPService$1;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->soundPool:Landroid/media/SoundPool;
     invoke-static {v0}, Lorg/telegram/messenger/voip/VoIPService;->access$000(Lorg/telegram/messenger/voip/VoIPService;)Landroid/media/SoundPool;
 
     move-result-object v0
@@ -54,7 +53,6 @@
     .line 172
     iget-object v0, p0, Lorg/telegram/messenger/voip/VoIPService$1;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->isBtHeadsetConnected:Z
     invoke-static {v0}, Lorg/telegram/messenger/voip/VoIPService;->access$100(Lorg/telegram/messenger/voip/VoIPService;)Z
 
     move-result v0

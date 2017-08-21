@@ -2635,7 +2635,6 @@
     .line 938
     iget-object v0, p0, Lorg/telegram/ui/Components/RecyclerListView;->fastScroll:Lorg/telegram/ui/Components/RecyclerListView$FastScroll;
 
-    # invokes: Lorg/telegram/ui/Components/RecyclerListView$FastScroll;->updateColors()V
     invoke-static {v0}, Lorg/telegram/ui/Components/RecyclerListView$FastScroll;->access$3000(Lorg/telegram/ui/Components/RecyclerListView$FastScroll;)V
 
     .line 940

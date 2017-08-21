@@ -73,7 +73,6 @@
     .local p2, "hashMap":Ljava/util/HashMap;, "Ljava/util/HashMap<Ljava/lang/String;Lorg/telegram/ui/Adapters/SearchAdapterHelper$HashtagObject;>;"
     iget-object v0, p0, Lorg/telegram/ui/Adapters/MentionsAdapter$3;->this$0:Lorg/telegram/ui/Adapters/MentionsAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/MentionsAdapter;->lastText:Ljava/lang/String;
     invoke-static {v0}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$500(Lorg/telegram/ui/Adapters/MentionsAdapter;)Ljava/lang/String;
 
     move-result-object v0
@@ -85,21 +84,18 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Adapters/MentionsAdapter$3;->this$0:Lorg/telegram/ui/Adapters/MentionsAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/MentionsAdapter;->lastText:Ljava/lang/String;
     invoke-static {v1}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$500(Lorg/telegram/ui/Adapters/MentionsAdapter;)Ljava/lang/String;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/ui/Adapters/MentionsAdapter$3;->this$0:Lorg/telegram/ui/Adapters/MentionsAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/MentionsAdapter;->lastPosition:I
     invoke-static {v2}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$600(Lorg/telegram/ui/Adapters/MentionsAdapter;)I
 
     move-result v2
 
     iget-object v3, p0, Lorg/telegram/ui/Adapters/MentionsAdapter$3;->this$0:Lorg/telegram/ui/Adapters/MentionsAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/MentionsAdapter;->messages:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$700(Lorg/telegram/ui/Adapters/MentionsAdapter;)Ljava/util/ArrayList;
 
     move-result-object v3

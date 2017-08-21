@@ -595,7 +595,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->createdDialogIds:Ljava/util/ArrayList;
     invoke-static/range {v19 .. v19}, Lorg/telegram/messenger/MessagesController;->access$1000(Lorg/telegram/messenger/MessagesController;)Ljava/util/ArrayList;
 
     move-result-object v19
@@ -1258,7 +1257,6 @@
 
     move/from16 v1, v18
 
-    # invokes: Lorg/telegram/messenger/MessagesController;->processUpdatesQueue(II)V
     invoke-static {v0, v4, v1}, Lorg/telegram/messenger/MessagesController;->access$5300(Lorg/telegram/messenger/MessagesController;II)V
 
     .line 5852
@@ -1700,7 +1698,6 @@
 
     move/from16 v1, v18
 
-    # invokes: Lorg/telegram/messenger/MessagesController;->processUpdatesQueue(II)V
     invoke-static {v0, v4, v1}, Lorg/telegram/messenger/MessagesController;->access$5300(Lorg/telegram/messenger/MessagesController;II)V
 
     .line 5864

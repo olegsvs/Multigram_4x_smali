@@ -62,7 +62,6 @@
 
     iget-object v3, p0, Lorg/telegram/messenger/ImageLoader$6;->val$newLocation:Lorg/telegram/tgnet/TLRPC$FileLocation;
 
-    # invokes: Lorg/telegram/messenger/ImageLoader;->replaceImageInCacheInternal(Ljava/lang/String;Ljava/lang/String;Lorg/telegram/tgnet/TLRPC$FileLocation;)V
     invoke-static {v0, v1, v2, v3}, Lorg/telegram/messenger/ImageLoader;->access$3100(Lorg/telegram/messenger/ImageLoader;Ljava/lang/String;Ljava/lang/String;Lorg/telegram/tgnet/TLRPC$FileLocation;)V
 
     .line 1638

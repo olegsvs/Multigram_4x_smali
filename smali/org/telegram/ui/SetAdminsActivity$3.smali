@@ -52,7 +52,6 @@
     .line 167
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$200(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v6
@@ -63,7 +62,6 @@
 
     iget-object v9, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->searchAdapter:Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
     invoke-static {v9}, Lorg/telegram/ui/SetAdminsActivity;->access$500(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
 
     move-result-object v9
@@ -72,7 +70,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->usersStartRow:I
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$700(Lorg/telegram/ui/SetAdminsActivity;)I
 
     move-result v6
@@ -81,7 +78,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->usersEndRow:I
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$800(Lorg/telegram/ui/SetAdminsActivity;)I
 
     move-result v6
@@ -104,7 +100,6 @@
 
     iget-object v10, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->chat_id:I
     invoke-static {v10}, Lorg/telegram/ui/SetAdminsActivity;->access$1000(Lorg/telegram/ui/SetAdminsActivity;)I
 
     move-result v10
@@ -117,7 +112,6 @@
 
     move-result-object v9
 
-    # setter for: Lorg/telegram/ui/SetAdminsActivity;->chat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v6, v9}, Lorg/telegram/ui/SetAdminsActivity;->access$902(Lorg/telegram/ui/SetAdminsActivity;Lorg/telegram/tgnet/TLRPC$Chat;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     .line 171
@@ -127,7 +121,6 @@
     .local v1, "index":I
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$200(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v6
@@ -138,7 +131,6 @@
 
     iget-object v9, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->searchAdapter:Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
     invoke-static {v9}, Lorg/telegram/ui/SetAdminsActivity;->access$500(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
 
     move-result-object v9
@@ -148,7 +140,6 @@
     .line 173
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->searchAdapter:Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$500(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
 
     move-result-object v6
@@ -165,7 +156,6 @@
     :goto_0
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->participants:Ljava/util/ArrayList;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$1100(Lorg/telegram/ui/SetAdminsActivity;)Ljava/util/ArrayList;
 
     move-result-object v6
@@ -179,7 +169,6 @@
     .line 175
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->participants:Ljava/util/ArrayList;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$1100(Lorg/telegram/ui/SetAdminsActivity;)Ljava/util/ArrayList;
 
     move-result-object v6
@@ -242,7 +231,6 @@
     :goto_2
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->participants:Ljava/util/ArrayList;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$1100(Lorg/telegram/ui/SetAdminsActivity;)Ljava/util/ArrayList;
 
     move-result-object v6
@@ -252,7 +240,6 @@
     .line 198
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$1200(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v6
@@ -271,7 +258,6 @@
     .line 200
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$1200(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v6
@@ -286,7 +272,6 @@
     :cond_2
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$200(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v6
@@ -297,7 +282,6 @@
 
     iget-object v9, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->searchAdapter:Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
     invoke-static {v9}, Lorg/telegram/ui/SetAdminsActivity;->access$500(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
 
     move-result-object v9
@@ -307,12 +291,10 @@
     .line 203
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->searchAdapter:Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$500(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;
 
     move-result-object v6
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;->searchResult:Ljava/util/ArrayList;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;->access$1300(Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;)Ljava/util/ArrayList;
 
     move-result-object v6
@@ -330,7 +312,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->chat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$900(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v6
@@ -339,7 +320,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->chat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$900(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v6
@@ -357,7 +337,6 @@
     .line 207
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->chat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$900(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v6
@@ -366,7 +345,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->chat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$900(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v6
@@ -382,7 +360,6 @@
 
     iget-object v9, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->chat_id:I
     invoke-static {v9}, Lorg/telegram/ui/SetAdminsActivity;->access$1000(Lorg/telegram/ui/SetAdminsActivity;)I
 
     move-result v9
@@ -425,14 +402,12 @@
     :cond_7
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->participants:Ljava/util/ArrayList;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$1100(Lorg/telegram/ui/SetAdminsActivity;)Ljava/util/ArrayList;
 
     move-result-object v6
 
     iget-object v9, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->usersStartRow:I
     invoke-static {v9}, Lorg/telegram/ui/SetAdminsActivity;->access$700(Lorg/telegram/ui/SetAdminsActivity;)I
 
     move-result v9
@@ -492,7 +467,6 @@
     :cond_b
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->allAdminsRow:I
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$1400(Lorg/telegram/ui/SetAdminsActivity;)I
 
     move-result v6
@@ -508,7 +482,6 @@
 
     iget-object v10, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->chat_id:I
     invoke-static {v10}, Lorg/telegram/ui/SetAdminsActivity;->access$1000(Lorg/telegram/ui/SetAdminsActivity;)I
 
     move-result v10
@@ -521,13 +494,11 @@
 
     move-result-object v9
 
-    # setter for: Lorg/telegram/ui/SetAdminsActivity;->chat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v6, v9}, Lorg/telegram/ui/SetAdminsActivity;->access$902(Lorg/telegram/ui/SetAdminsActivity;Lorg/telegram/tgnet/TLRPC$Chat;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     .line 214
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->chat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$900(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v6
@@ -537,14 +508,12 @@
     .line 215
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->chat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$900(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v9
 
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->chat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$900(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v6
@@ -564,7 +533,6 @@
     .end local p1    # "view":Landroid/view/View;
     iget-object v6, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->chat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v6}, Lorg/telegram/ui/SetAdminsActivity;->access$900(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v6
@@ -583,14 +551,12 @@
 
     iget-object v7, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->chat_id:I
     invoke-static {v7}, Lorg/telegram/ui/SetAdminsActivity;->access$1000(Lorg/telegram/ui/SetAdminsActivity;)I
 
     move-result v7
 
     iget-object v8, p0, Lorg/telegram/ui/SetAdminsActivity$3;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # getter for: Lorg/telegram/ui/SetAdminsActivity;->chat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v8}, Lorg/telegram/ui/SetAdminsActivity;->access$900(Lorg/telegram/ui/SetAdminsActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v8

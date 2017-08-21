@@ -64,7 +64,6 @@
 
     iget-object v9, v9, Lorg/telegram/ui/ChatActivity$9;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->selectedMessagesIds:[Ljava/util/HashMap;
     invoke-static {v9}, Lorg/telegram/ui/ChatActivity;->access$1200(Lorg/telegram/ui/ChatActivity;)[Ljava/util/HashMap;
 
     move-result-object v9
@@ -105,7 +104,6 @@
 
     iget-object v9, v9, Lorg/telegram/ui/ChatActivity$9;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->selectedMessagesIds:[Ljava/util/HashMap;
     invoke-static {v9}, Lorg/telegram/ui/ChatActivity;->access$1200(Lorg/telegram/ui/ChatActivity;)[Ljava/util/HashMap;
 
     move-result-object v9
@@ -224,7 +222,6 @@
 
     iget-object v9, v9, Lorg/telegram/ui/ChatActivity$9;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->selectedMessagesIds:[Ljava/util/HashMap;
     invoke-static {v9}, Lorg/telegram/ui/ChatActivity;->access$1200(Lorg/telegram/ui/ChatActivity;)[Ljava/util/HashMap;
 
     move-result-object v9
@@ -238,7 +235,6 @@
 
     iget-object v9, v9, Lorg/telegram/ui/ChatActivity$9;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->selectedMessagesCanCopyIds:[Ljava/util/HashMap;
     invoke-static {v9}, Lorg/telegram/ui/ChatActivity;->access$1300(Lorg/telegram/ui/ChatActivity;)[Ljava/util/HashMap;
 
     move-result-object v9
@@ -332,7 +328,6 @@
 
     const/4 v10, 0x0
 
-    # setter for: Lorg/telegram/ui/ChatActivity;->cantDeleteMessagesCount:I
     invoke-static {v9, v10}, Lorg/telegram/ui/ChatActivity;->access$1402(Lorg/telegram/ui/ChatActivity;I)I
 
     .line 1194
@@ -340,7 +335,6 @@
 
     iget-object v9, v9, Lorg/telegram/ui/ChatActivity$9;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->actionBar:Lorg/telegram/ui/ActionBar/ActionBar;
     invoke-static {v9}, Lorg/telegram/ui/ChatActivity;->access$2300(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/ActionBar/ActionBar;
 
     move-result-object v9
@@ -354,7 +348,6 @@
 
     const/4 v10, 0x1
 
-    # invokes: Lorg/telegram/ui/ChatActivity;->updatePinnedMessageView(Z)V
     invoke-static {v9, v10}, Lorg/telegram/ui/ChatActivity;->access$1600(Lorg/telegram/ui/ChatActivity;Z)V
 
     .line 1196
@@ -362,7 +355,6 @@
 
     iget-object v9, v9, Lorg/telegram/ui/ChatActivity$9;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # invokes: Lorg/telegram/ui/ChatActivity;->updateVisibleRows()V
     invoke-static {v9}, Lorg/telegram/ui/ChatActivity;->access$1700(Lorg/telegram/ui/ChatActivity;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0

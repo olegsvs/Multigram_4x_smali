@@ -46,7 +46,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/Components/TabsView$5;->this$0:Lorg/telegram/ui/Components/TabsView;
 
-    # getter for: Lorg/telegram/ui/Components/TabsView;->pager:Landroid/support/v4/view/ViewPager;
     invoke-static {v0}, Lorg/telegram/ui/Components/TabsView;->access$600(Lorg/telegram/ui/Components/TabsView;)Landroid/support/v4/view/ViewPager;
 
     move-result-object v1
@@ -55,7 +54,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/Components/TabsView$5;->this$0:Lorg/telegram/ui/Components/TabsView;
 
-    # getter for: Lorg/telegram/ui/Components/TabsView;->currentPage:I
     invoke-static {v0}, Lorg/telegram/ui/Components/TabsView;->access$400(Lorg/telegram/ui/Components/TabsView;)I
 
     move-result v0
@@ -66,7 +64,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/Components/TabsView$5;->this$0:Lorg/telegram/ui/Components/TabsView;
 
-    # getter for: Lorg/telegram/ui/Components/TabsView;->pager:Landroid/support/v4/view/ViewPager;
     invoke-static {v0}, Lorg/telegram/ui/Components/TabsView;->access$600(Lorg/telegram/ui/Components/TabsView;)Landroid/support/v4/view/ViewPager;
 
     move-result-object v0

@@ -84,7 +84,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/Components/WallpaperUpdater$1;->this$0:Lorg/telegram/ui/Components/WallpaperUpdater;
 
-    # getter for: Lorg/telegram/ui/Components/WallpaperUpdater;->parentActivity:Landroid/app/Activity;
     invoke-static {v5}, Lorg/telegram/ui/Components/WallpaperUpdater;->access$000(Lorg/telegram/ui/Components/WallpaperUpdater;)Landroid/app/Activity;
 
     move-result-object v5
@@ -115,14 +114,12 @@
 
     move-result-object v5
 
-    # setter for: Lorg/telegram/ui/Components/WallpaperUpdater;->currentPicturePath:Ljava/lang/String;
     invoke-static {v4, v5}, Lorg/telegram/ui/Components/WallpaperUpdater;->access$102(Lorg/telegram/ui/Components/WallpaperUpdater;Ljava/lang/String;)Ljava/lang/String;
 
     .line 79
     :cond_0
     iget-object v4, p0, Lorg/telegram/ui/Components/WallpaperUpdater$1;->this$0:Lorg/telegram/ui/Components/WallpaperUpdater;
 
-    # getter for: Lorg/telegram/ui/Components/WallpaperUpdater;->parentActivity:Landroid/app/Activity;
     invoke-static {v4}, Lorg/telegram/ui/Components/WallpaperUpdater;->access$000(Lorg/telegram/ui/Components/WallpaperUpdater;)Landroid/app/Activity;
 
     move-result-object v4
@@ -202,7 +199,6 @@
     .line 86
     iget-object v4, p0, Lorg/telegram/ui/Components/WallpaperUpdater$1;->this$0:Lorg/telegram/ui/Components/WallpaperUpdater;
 
-    # getter for: Lorg/telegram/ui/Components/WallpaperUpdater;->parentActivity:Landroid/app/Activity;
     invoke-static {v4}, Lorg/telegram/ui/Components/WallpaperUpdater;->access$000(Lorg/telegram/ui/Components/WallpaperUpdater;)Landroid/app/Activity;
 
     move-result-object v4
@@ -226,7 +222,6 @@
     .line 89
     iget-object v4, p0, Lorg/telegram/ui/Components/WallpaperUpdater$1;->this$0:Lorg/telegram/ui/Components/WallpaperUpdater;
 
-    # getter for: Lorg/telegram/ui/Components/WallpaperUpdater;->delegate:Lorg/telegram/ui/Components/WallpaperUpdater$WallpaperUpdaterDelegate;
     invoke-static {v4}, Lorg/telegram/ui/Components/WallpaperUpdater;->access$200(Lorg/telegram/ui/Components/WallpaperUpdater;)Lorg/telegram/ui/Components/WallpaperUpdater$WallpaperUpdaterDelegate;
 
     move-result-object v4
@@ -244,7 +239,6 @@
     .line 91
     iget-object v4, p0, Lorg/telegram/ui/Components/WallpaperUpdater$1;->this$0:Lorg/telegram/ui/Components/WallpaperUpdater;
 
-    # getter for: Lorg/telegram/ui/Components/WallpaperUpdater;->delegate:Lorg/telegram/ui/Components/WallpaperUpdater$WallpaperUpdaterDelegate;
     invoke-static {v4}, Lorg/telegram/ui/Components/WallpaperUpdater;->access$200(Lorg/telegram/ui/Components/WallpaperUpdater;)Lorg/telegram/ui/Components/WallpaperUpdater$WallpaperUpdaterDelegate;
 
     move-result-object v4

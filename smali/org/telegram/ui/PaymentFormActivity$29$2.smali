@@ -60,7 +60,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PaymentFormActivity$29;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->setDonePressed(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/PaymentFormActivity;->access$500(Lorg/telegram/ui/PaymentFormActivity;Z)V
 
     .line 2368
@@ -68,7 +67,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PaymentFormActivity$29;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->showEditDoneProgress(ZZ)V
     invoke-static {v0, v2, v1}, Lorg/telegram/ui/PaymentFormActivity;->access$2400(Lorg/telegram/ui/PaymentFormActivity;ZZ)V
 
     .line 2369
@@ -239,7 +237,6 @@
 
     const/4 v1, 0x6
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->shakeField(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/PaymentFormActivity;->access$4300(Lorg/telegram/ui/PaymentFormActivity;I)V
 
     goto :goto_1
@@ -252,7 +249,6 @@
 
     const/16 v1, 0x9
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->shakeField(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/PaymentFormActivity;->access$4300(Lorg/telegram/ui/PaymentFormActivity;I)V
 
     goto :goto_1
@@ -265,7 +261,6 @@
 
     const/4 v1, 0x7
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->shakeField(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/PaymentFormActivity;->access$4300(Lorg/telegram/ui/PaymentFormActivity;I)V
 
     goto :goto_1
@@ -276,7 +271,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PaymentFormActivity$29;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->shakeField(I)V
     invoke-static {v0, v5}, Lorg/telegram/ui/PaymentFormActivity;->access$4300(Lorg/telegram/ui/PaymentFormActivity;I)V
 
     goto/16 :goto_1
@@ -287,7 +281,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PaymentFormActivity$29;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->shakeField(I)V
     invoke-static {v0, v3}, Lorg/telegram/ui/PaymentFormActivity;->access$4300(Lorg/telegram/ui/PaymentFormActivity;I)V
 
     goto/16 :goto_1
@@ -300,7 +293,6 @@
 
     const/4 v1, 0x5
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->shakeField(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/PaymentFormActivity;->access$4300(Lorg/telegram/ui/PaymentFormActivity;I)V
 
     goto/16 :goto_1
@@ -311,7 +303,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PaymentFormActivity$29;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->shakeField(I)V
     invoke-static {v0, v4}, Lorg/telegram/ui/PaymentFormActivity;->access$4300(Lorg/telegram/ui/PaymentFormActivity;I)V
 
     goto/16 :goto_1
@@ -322,7 +313,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PaymentFormActivity$29;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->shakeField(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/PaymentFormActivity;->access$4300(Lorg/telegram/ui/PaymentFormActivity;I)V
 
     goto/16 :goto_1
@@ -333,7 +323,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PaymentFormActivity$29;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->shakeField(I)V
     invoke-static {v0, v2}, Lorg/telegram/ui/PaymentFormActivity;->access$4300(Lorg/telegram/ui/PaymentFormActivity;I)V
 
     goto/16 :goto_1

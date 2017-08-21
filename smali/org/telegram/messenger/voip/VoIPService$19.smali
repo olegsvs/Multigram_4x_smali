@@ -44,7 +44,6 @@
     .line 1345
     iget-object v1, p0, Lorg/telegram/messenger/voip/VoIPService$19;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->controller:Lorg/telegram/messenger/voip/VoIPController;
     invoke-static {v1}, Lorg/telegram/messenger/voip/VoIPService;->access$2700(Lorg/telegram/messenger/voip/VoIPService;)Lorg/telegram/messenger/voip/VoIPController;
 
     move-result-object v1
@@ -63,7 +62,6 @@
     .local v0, "netType":I
     iget-object v1, p0, Lorg/telegram/messenger/voip/VoIPService$19;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->lastNetInfo:Landroid/net/NetworkInfo;
     invoke-static {v1}, Lorg/telegram/messenger/voip/VoIPService;->access$3100(Lorg/telegram/messenger/voip/VoIPService;)Landroid/net/NetworkInfo;
 
     move-result-object v1
@@ -73,7 +71,6 @@
     .line 1349
     iget-object v1, p0, Lorg/telegram/messenger/voip/VoIPService$19;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->lastNetInfo:Landroid/net/NetworkInfo;
     invoke-static {v1}, Lorg/telegram/messenger/voip/VoIPService;->access$3100(Lorg/telegram/messenger/voip/VoIPService;)Landroid/net/NetworkInfo;
 
     move-result-object v1
@@ -87,7 +84,6 @@
     .line 1350
     iget-object v1, p0, Lorg/telegram/messenger/voip/VoIPService$19;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->lastNetInfo:Landroid/net/NetworkInfo;
     invoke-static {v1}, Lorg/telegram/messenger/voip/VoIPService;->access$3100(Lorg/telegram/messenger/voip/VoIPService;)Landroid/net/NetworkInfo;
 
     move-result-object v1

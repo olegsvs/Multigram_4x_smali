@@ -122,7 +122,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelAdminLogActivity$ChatActivityAdapter;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelAdminLogActivity;->createMenu(Landroid/view/View;)V
     invoke-static {v0, p1}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$3700(Lorg/telegram/ui/ChannelAdminLogActivity;Landroid/view/View;)V
 
     .line 2235
@@ -224,7 +223,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/ChannelAdminLogActivity$ChatActivityAdapter;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelAdminLogActivity;->addCanBanUser(Landroid/os/Bundle;I)V
     invoke-static {v2, v0, p1}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$5900(Lorg/telegram/ui/ChannelAdminLogActivity;Landroid/os/Bundle;I)V
 
     .line 2249

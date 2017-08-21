@@ -48,7 +48,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ChatActivity$96;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->startVideoEdit:Ljava/lang/String;
     invoke-static {v1}, Lorg/telegram/ui/ChatActivity;->access$18100(Lorg/telegram/ui/ChatActivity;)Ljava/lang/String;
 
     move-result-object v1
@@ -60,7 +59,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/ChatActivity;->startVideoEdit:Ljava/lang/String;
     invoke-static {v0, v1}, Lorg/telegram/ui/ChatActivity;->access$18102(Lorg/telegram/ui/ChatActivity;Ljava/lang/String;)Ljava/lang/String;
 
     .line 8887

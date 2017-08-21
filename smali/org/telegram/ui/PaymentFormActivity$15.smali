@@ -359,7 +359,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/PaymentFormActivity;->ignoreOnCardChange:Z
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/PaymentFormActivity;->access$2800(Lorg/telegram/ui/PaymentFormActivity;)Z
 
     move-result v18
@@ -378,7 +377,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/PaymentFormActivity;->inputFields:[Landroid/widget/EditText;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/PaymentFormActivity;->access$1200(Lorg/telegram/ui/PaymentFormActivity;)[Landroid/widget/EditText;
 
     move-result-object v18
@@ -548,7 +546,6 @@
 
     const/16 v19, 0x1
 
-    # setter for: Lorg/telegram/ui/PaymentFormActivity;->ignoreOnCardChange:Z
     invoke-static/range {v18 .. v19}, Lorg/telegram/ui/PaymentFormActivity;->access$2802(Lorg/telegram/ui/PaymentFormActivity;Z)Z
 
     .line 1221
@@ -695,7 +692,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/PaymentFormActivity;->inputFields:[Landroid/widget/EditText;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/PaymentFormActivity;->access$1200(Lorg/telegram/ui/PaymentFormActivity;)[Landroid/widget/EditText;
 
     move-result-object v18
@@ -964,7 +960,6 @@
 
     const/16 v19, 0x0
 
-    # setter for: Lorg/telegram/ui/PaymentFormActivity;->ignoreOnCardChange:Z
     invoke-static/range {v18 .. v19}, Lorg/telegram/ui/PaymentFormActivity;->access$2802(Lorg/telegram/ui/PaymentFormActivity;Z)Z
 
     goto/16 :goto_0

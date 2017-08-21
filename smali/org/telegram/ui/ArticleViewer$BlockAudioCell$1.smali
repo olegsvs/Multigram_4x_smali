@@ -49,7 +49,6 @@
     .line 4060
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$BlockAudioCell$1;->this$1:Lorg/telegram/ui/ArticleViewer$BlockAudioCell;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockAudioCell;->currentMessageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer$BlockAudioCell;->access$9500(Lorg/telegram/ui/ArticleViewer$BlockAudioCell;)Lorg/telegram/messenger/MessageObject;
 
     move-result-object v0
@@ -64,7 +63,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$BlockAudioCell$1;->this$1:Lorg/telegram/ui/ArticleViewer$BlockAudioCell;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockAudioCell;->currentMessageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer$BlockAudioCell;->access$9500(Lorg/telegram/ui/ArticleViewer$BlockAudioCell;)Lorg/telegram/messenger/MessageObject;
 
     move-result-object v0
@@ -78,7 +76,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$BlockAudioCell$1;->this$1:Lorg/telegram/ui/ArticleViewer$BlockAudioCell;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockAudioCell;->currentMessageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer$BlockAudioCell;->access$9500(Lorg/telegram/ui/ArticleViewer$BlockAudioCell;)Lorg/telegram/messenger/MessageObject;
 
     move-result-object v1

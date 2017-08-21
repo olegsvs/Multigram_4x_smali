@@ -85,7 +85,6 @@
     .local v1, "document":Lorg/telegram/tgnet/TLRPC$Document;
     iget-object v2, p0, Lorg/telegram/ui/Components/StickerMasksView$4;->this$0:Lorg/telegram/ui/Components/StickerMasksView;
 
-    # getter for: Lorg/telegram/ui/Components/StickerMasksView;->listener:Lorg/telegram/ui/Components/StickerMasksView$Listener;
     invoke-static {v2}, Lorg/telegram/ui/Components/StickerMasksView;->access$500(Lorg/telegram/ui/Components/StickerMasksView;)Lorg/telegram/ui/Components/StickerMasksView$Listener;
 
     move-result-object v2

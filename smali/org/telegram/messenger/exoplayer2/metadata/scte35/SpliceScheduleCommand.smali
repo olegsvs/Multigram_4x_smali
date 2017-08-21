@@ -81,7 +81,6 @@
     if-ge v2, v1, :cond_0
 
     .line 186
-    # invokes: Lorg/telegram/messenger/exoplayer2/metadata/scte35/SpliceScheduleCommand$Event;->createFromParcel(Landroid/os/Parcel;)Lorg/telegram/messenger/exoplayer2/metadata/scte35/SpliceScheduleCommand$Event;
     invoke-static {p1}, Lorg/telegram/messenger/exoplayer2/metadata/scte35/SpliceScheduleCommand$Event;->access$300(Landroid/os/Parcel;)Lorg/telegram/messenger/exoplayer2/metadata/scte35/SpliceScheduleCommand$Event;
 
     move-result-object v3
@@ -170,7 +169,6 @@
     if-ge v1, v2, :cond_0
 
     .line 195
-    # invokes: Lorg/telegram/messenger/exoplayer2/metadata/scte35/SpliceScheduleCommand$Event;->parseFromSection(Lorg/telegram/messenger/exoplayer2/util/ParsableByteArray;)Lorg/telegram/messenger/exoplayer2/metadata/scte35/SpliceScheduleCommand$Event;
     invoke-static {p0}, Lorg/telegram/messenger/exoplayer2/metadata/scte35/SpliceScheduleCommand$Event;->access$400(Lorg/telegram/messenger/exoplayer2/util/ParsableByteArray;)Lorg/telegram/messenger/exoplayer2/metadata/scte35/SpliceScheduleCommand$Event;
 
     move-result-object v3
@@ -226,7 +224,6 @@
 
     check-cast v2, Lorg/telegram/messenger/exoplayer2/metadata/scte35/SpliceScheduleCommand$Event;
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/metadata/scte35/SpliceScheduleCommand$Event;->writeToParcel(Landroid/os/Parcel;)V
     invoke-static {v2, p1}, Lorg/telegram/messenger/exoplayer2/metadata/scte35/SpliceScheduleCommand$Event;->access$500(Lorg/telegram/messenger/exoplayer2/metadata/scte35/SpliceScheduleCommand$Event;Landroid/os/Parcel;)V
 
     .line 206

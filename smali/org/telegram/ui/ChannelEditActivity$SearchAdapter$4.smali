@@ -71,7 +71,6 @@
     const/4 v0, 0x1
 
     :goto_0
-    # invokes: Lorg/telegram/ui/ChannelEditActivity;->createMenuForParticipant(Lorg/telegram/tgnet/TLRPC$TL_chatChannelParticipant;Lorg/telegram/tgnet/TLRPC$ChannelParticipant;Z)Z
     invoke-static {v1, v2, v3, v0}, Lorg/telegram/ui/ChannelEditActivity;->access$1500(Lorg/telegram/ui/ChannelEditActivity;Lorg/telegram/tgnet/TLRPC$TL_chatChannelParticipant;Lorg/telegram/tgnet/TLRPC$ChannelParticipant;Z)Z
 
     move-result v0

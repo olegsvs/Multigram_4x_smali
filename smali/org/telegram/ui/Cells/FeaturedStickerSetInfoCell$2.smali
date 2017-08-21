@@ -46,7 +46,6 @@
     .line 120
     iget-object v0, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->drawProgress:Z
     invoke-static {v0}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$000(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)Z
 
     move-result v0
@@ -55,7 +54,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->drawProgress:Z
     invoke-static {v0}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$000(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)Z
 
     move-result v0
@@ -64,7 +62,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->progressAlpha:F
     invoke-static {v0}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$100(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)F
 
     move-result v0
@@ -79,7 +76,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->botProgressPaint:Landroid/graphics/Paint;
     invoke-static {v0}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$200(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)Landroid/graphics/Paint;
 
     move-result-object v0
@@ -88,7 +84,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->progressAlpha:F
     invoke-static {v2}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$100(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)F
 
     move-result v2
@@ -122,7 +117,6 @@
     .local v9, "x":I
     iget-object v0, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->rect:Landroid/graphics/RectF;
     invoke-static {v0}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$300(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)Landroid/graphics/RectF;
 
     move-result-object v0
@@ -160,14 +154,12 @@
     .line 124
     iget-object v0, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->rect:Landroid/graphics/RectF;
     invoke-static {v0}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$300(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)Landroid/graphics/RectF;
 
     move-result-object v1
 
     iget-object v0, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->angle:I
     invoke-static {v0}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$400(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)I
 
     move-result v0
@@ -180,7 +172,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->botProgressPaint:Landroid/graphics/Paint;
     invoke-static {v0}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$200(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)Landroid/graphics/Paint;
 
     move-result-object v5
@@ -192,7 +183,6 @@
     .line 125
     iget-object v0, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->rect:Landroid/graphics/RectF;
     invoke-static {v0}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$300(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)Landroid/graphics/RectF;
 
     move-result-object v0
@@ -211,7 +201,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->rect:Landroid/graphics/RectF;
     invoke-static {v1}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$300(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)Landroid/graphics/RectF;
 
     move-result-object v1
@@ -230,7 +219,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->rect:Landroid/graphics/RectF;
     invoke-static {v2}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$300(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)Landroid/graphics/RectF;
 
     move-result-object v2
@@ -249,7 +237,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->rect:Landroid/graphics/RectF;
     invoke-static {v3}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$300(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)Landroid/graphics/RectF;
 
     move-result-object v3
@@ -277,7 +264,6 @@
     .local v10, "newTime":J
     iget-object v0, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->lastUpdateTime:J
     invoke-static {v0}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$500(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)J
 
     move-result-wide v0
@@ -301,7 +287,6 @@
     .line 128
     iget-object v0, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->lastUpdateTime:J
     invoke-static {v0}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$500(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)J
 
     move-result-wide v0
@@ -326,7 +311,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->angle:I
     invoke-static {v1}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$400(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)I
 
     move-result v1
@@ -337,7 +321,6 @@
 
     float-to-int v1, v1
 
-    # setter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->angle:I
     invoke-static {v0, v1}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$402(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;I)I
 
     .line 131
@@ -345,14 +328,12 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->angle:I
     invoke-static {v1}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$400(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)I
 
     move-result v1
 
     iget-object v2, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->angle:I
     invoke-static {v2}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$400(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)I
 
     move-result v2
@@ -363,13 +344,11 @@
 
     sub-int/2addr v1, v2
 
-    # setter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->angle:I
     invoke-static {v0, v1}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$402(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;I)I
 
     .line 132
     iget-object v0, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->drawProgress:Z
     invoke-static {v0}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$000(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)Z
 
     move-result v0
@@ -379,7 +358,6 @@
     .line 133
     iget-object v0, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->progressAlpha:F
     invoke-static {v0}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$100(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)F
 
     move-result v0
@@ -395,7 +373,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->progressAlpha:F
     invoke-static {v1}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$100(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)F
 
     move-result v1
@@ -408,13 +385,11 @@
 
     add-float/2addr v1, v2
 
-    # setter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->progressAlpha:F
     invoke-static {v0, v1}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$102(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;F)F
 
     .line 135
     iget-object v0, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->progressAlpha:F
     invoke-static {v0}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$100(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)F
 
     move-result v0
@@ -430,7 +405,6 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    # setter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->progressAlpha:F
     invoke-static {v0, v1}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$102(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;F)F
 
     .line 148
@@ -440,7 +414,6 @@
     :goto_0
     iget-object v0, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # setter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->lastUpdateTime:J
     invoke-static {v0, v10, v11}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$502(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;J)J
 
     .line 149
@@ -460,7 +433,6 @@
     :cond_3
     iget-object v0, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->progressAlpha:F
     invoke-static {v0}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$100(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)F
 
     move-result v0
@@ -476,7 +448,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->progressAlpha:F
     invoke-static {v1}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$100(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)F
 
     move-result v1
@@ -489,13 +460,11 @@
 
     sub-float/2addr v1, v2
 
-    # setter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->progressAlpha:F
     invoke-static {v0, v1}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$102(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;F)F
 
     .line 142
     iget-object v0, p0, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell$2;->this$0:Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->progressAlpha:F
     invoke-static {v0}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$100(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;)F
 
     move-result v0
@@ -511,7 +480,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->progressAlpha:F
     invoke-static {v0, v1}, Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;->access$102(Lorg/telegram/ui/Cells/FeaturedStickerSetInfoCell;F)F
 
     goto :goto_0

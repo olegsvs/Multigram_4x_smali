@@ -50,7 +50,6 @@
     .line 190
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->nobodyRow:I
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$300(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v4
@@ -59,7 +58,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->everybodyRow:I
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$400(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v4
@@ -68,7 +66,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->myContactsRow:I
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$500(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v4
@@ -79,7 +76,6 @@
     :cond_0
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->currentType:I
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$000(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v3
@@ -88,7 +84,6 @@
     .local v3, "newType":I
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->nobodyRow:I
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$300(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v4
@@ -103,7 +98,6 @@
     :goto_0
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->currentType:I
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$000(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v4
@@ -121,7 +115,6 @@
     :cond_3
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->everybodyRow:I
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$400(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v4
@@ -137,7 +130,6 @@
     :cond_4
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->myContactsRow:I
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$500(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v4
@@ -153,13 +145,11 @@
     :cond_5
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # setter for: Lorg/telegram/ui/PrivacyControlActivity;->enableAnimation:Z
     invoke-static {v4, v5}, Lorg/telegram/ui/PrivacyControlActivity;->access$602(Lorg/telegram/ui/PrivacyControlActivity;Z)Z
 
     .line 203
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->doneButton:Landroid/view/View;
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$700(Lorg/telegram/ui/PrivacyControlActivity;)Landroid/view/View;
 
     move-result-object v4
@@ -171,24 +161,20 @@
 
     iget-object v5, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->currentType:I
     invoke-static {v5}, Lorg/telegram/ui/PrivacyControlActivity;->access$000(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v5
 
-    # setter for: Lorg/telegram/ui/PrivacyControlActivity;->lastCheckedType:I
     invoke-static {v4, v5}, Lorg/telegram/ui/PrivacyControlActivity;->access$802(Lorg/telegram/ui/PrivacyControlActivity;I)I
 
     .line 205
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # setter for: Lorg/telegram/ui/PrivacyControlActivity;->currentType:I
     invoke-static {v4, v3}, Lorg/telegram/ui/PrivacyControlActivity;->access$002(Lorg/telegram/ui/PrivacyControlActivity;I)I
 
     .line 206
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # invokes: Lorg/telegram/ui/PrivacyControlActivity;->updateRows()V
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$900(Lorg/telegram/ui/PrivacyControlActivity;)V
 
     goto :goto_1
@@ -198,7 +184,6 @@
     :cond_6
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->neverShareRow:I
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$1000(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v4
@@ -207,7 +192,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->alwaysShareRow:I
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$1100(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v4
@@ -218,7 +202,6 @@
     :cond_7
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->neverShareRow:I
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$1000(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v4
@@ -228,7 +211,6 @@
     .line 210
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->currentMinus:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$1200(Lorg/telegram/ui/PrivacyControlActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -251,7 +233,6 @@
     .local v0, "args":Landroid/os/Bundle;
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->neverShareRow:I
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$1000(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v4
@@ -268,7 +249,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->rulesType:I
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$100(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v4
@@ -307,7 +287,6 @@
     :cond_8
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->currentPlus:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$1300(Lorg/telegram/ui/PrivacyControlActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -335,7 +314,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->rulesType:I
     invoke-static {v4}, Lorg/telegram/ui/PrivacyControlActivity;->access$100(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v4
@@ -347,7 +325,6 @@
     :goto_5
     iget-object v7, p0, Lorg/telegram/ui/PrivacyControlActivity$2;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyControlActivity;->alwaysShareRow:I
     invoke-static {v7}, Lorg/telegram/ui/PrivacyControlActivity;->access$1100(Lorg/telegram/ui/PrivacyControlActivity;)I
 
     move-result v7

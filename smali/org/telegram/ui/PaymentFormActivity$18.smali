@@ -47,7 +47,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PaymentFormActivity$18;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # getter for: Lorg/telegram/ui/PaymentFormActivity;->saveCardInfo:Z
     invoke-static {v0}, Lorg/telegram/ui/PaymentFormActivity;->access$2600(Lorg/telegram/ui/PaymentFormActivity;)Z
 
     move-result v0
@@ -57,20 +56,17 @@
     const/4 v0, 0x1
 
     :goto_0
-    # setter for: Lorg/telegram/ui/PaymentFormActivity;->saveCardInfo:Z
     invoke-static {v1, v0}, Lorg/telegram/ui/PaymentFormActivity;->access$2602(Lorg/telegram/ui/PaymentFormActivity;Z)Z
 
     .line 1466
     iget-object v0, p0, Lorg/telegram/ui/PaymentFormActivity$18;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # getter for: Lorg/telegram/ui/PaymentFormActivity;->checkCell1:Lorg/telegram/ui/Cells/TextCheckCell;
     invoke-static {v0}, Lorg/telegram/ui/PaymentFormActivity;->access$2100(Lorg/telegram/ui/PaymentFormActivity;)Lorg/telegram/ui/Cells/TextCheckCell;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/PaymentFormActivity$18;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # getter for: Lorg/telegram/ui/PaymentFormActivity;->saveCardInfo:Z
     invoke-static {v1}, Lorg/telegram/ui/PaymentFormActivity;->access$2600(Lorg/telegram/ui/PaymentFormActivity;)Z
 
     move-result v1

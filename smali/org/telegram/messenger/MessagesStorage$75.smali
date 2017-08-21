@@ -62,7 +62,6 @@
 
     iget-boolean v3, p0, Lorg/telegram/messenger/MessagesStorage$75;->val$withTransaction:Z
 
-    # invokes: Lorg/telegram/messenger/MessagesStorage;->updateUsersInternal(Ljava/util/ArrayList;ZZ)V
     invoke-static {v0, v1, v2, v3}, Lorg/telegram/messenger/MessagesStorage;->access$1600(Lorg/telegram/messenger/MessagesStorage;Ljava/util/ArrayList;ZZ)V
 
     .line 5093

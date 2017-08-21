@@ -48,7 +48,6 @@
     .line 73
     iget-object v0, p0, Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto$1;->this$0:Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto;
 
-    # getter for: Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto;->delegate:Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto$SizeNotifierFrameLayoutPhotoDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto;->access$000(Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto;)Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto$SizeNotifierFrameLayoutPhotoDelegate;
 
     move-result-object v0
@@ -58,14 +57,12 @@
     .line 74
     iget-object v0, p0, Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto$1;->this$0:Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto;
 
-    # getter for: Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto;->delegate:Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto$SizeNotifierFrameLayoutPhotoDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto;->access$000(Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto;)Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto$SizeNotifierFrameLayoutPhotoDelegate;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto$1;->this$0:Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto;
 
-    # getter for: Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto;->keyboardHeight:I
     invoke-static {v1}, Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto;->access$100(Lorg/telegram/ui/Components/SizeNotifierFrameLayoutPhoto;)I
 
     move-result v1

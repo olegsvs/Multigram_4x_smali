@@ -47,7 +47,6 @@
     .line 495
     iget-object v1, p0, Lorg/telegram/ui/CallLogActivity$ListAdapter;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -60,7 +59,6 @@
     .local v0, "count":I
     iget-object v1, p0, Lorg/telegram/ui/CallLogActivity$ListAdapter;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -74,7 +72,6 @@
     .line 497
     iget-object v1, p0, Lorg/telegram/ui/CallLogActivity$ListAdapter;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->endReached:Z
     invoke-static {v1}, Lorg/telegram/ui/CallLogActivity;->access$600(Lorg/telegram/ui/CallLogActivity;)Z
 
     move-result v1
@@ -97,7 +94,6 @@
     .line 574
     iget-object v0, p0, Lorg/telegram/ui/CallLogActivity$ListAdapter;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -119,7 +115,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/CallLogActivity$ListAdapter;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->endReached:Z
     invoke-static {v0}, Lorg/telegram/ui/CallLogActivity;->access$600(Lorg/telegram/ui/CallLogActivity;)Z
 
     move-result v0
@@ -128,7 +123,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/CallLogActivity$ListAdapter;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -163,7 +157,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/CallLogActivity$ListAdapter;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -215,7 +208,6 @@
     .local v0, "cell":Lorg/telegram/ui/Cells/ProfileSearchCell;
     iget-object v1, p0, Lorg/telegram/ui/CallLogActivity$ListAdapter;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -316,7 +308,6 @@
     .line 567
     iget-object v1, p0, Lorg/telegram/ui/CallLogActivity$ListAdapter;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -331,7 +322,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/CallLogActivity$ListAdapter;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->endReached:Z
     invoke-static {v1}, Lorg/telegram/ui/CallLogActivity;->access$600(Lorg/telegram/ui/CallLogActivity;)Z
 
     move-result v1
@@ -435,7 +425,6 @@
     :pswitch_0
     iget-object v1, p0, Lorg/telegram/ui/CallLogActivity$ListAdapter;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->iconOut:Landroid/text/style/ImageSpan;
     invoke-static {v1}, Lorg/telegram/ui/CallLogActivity;->access$1700(Lorg/telegram/ui/CallLogActivity;)Landroid/text/style/ImageSpan;
 
     move-result-object v1
@@ -460,7 +449,6 @@
     :pswitch_1
     iget-object v1, p0, Lorg/telegram/ui/CallLogActivity$ListAdapter;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->iconIn:Landroid/text/style/ImageSpan;
     invoke-static {v1}, Lorg/telegram/ui/CallLogActivity;->access$1800(Lorg/telegram/ui/CallLogActivity;)Landroid/text/style/ImageSpan;
 
     move-result-object v1
@@ -485,7 +473,6 @@
     :pswitch_2
     iget-object v1, p0, Lorg/telegram/ui/CallLogActivity$ListAdapter;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->iconMissed:Landroid/text/style/ImageSpan;
     invoke-static {v1}, Lorg/telegram/ui/CallLogActivity;->access$1900(Lorg/telegram/ui/CallLogActivity;)Landroid/text/style/ImageSpan;
 
     move-result-object v1
@@ -658,7 +645,6 @@
     .line 522
     iget-object v0, p0, Lorg/telegram/ui/CallLogActivity$ListAdapter;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->callBtnClickListener:Landroid/view/View$OnClickListener;
     invoke-static {v0}, Lorg/telegram/ui/CallLogActivity;->access$1600(Lorg/telegram/ui/CallLogActivity;)Landroid/view/View$OnClickListener;
 
     move-result-object v0

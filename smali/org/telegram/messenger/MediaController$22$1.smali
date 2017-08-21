@@ -99,7 +99,6 @@
 
     iget-object v1, v1, Lorg/telegram/messenger/MediaController$22;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordSamples:[S
     invoke-static {v1}, Lorg/telegram/messenger/MediaController;->access$400(Lorg/telegram/messenger/MediaController;)[S
 
     move-result-object v1
@@ -108,7 +107,6 @@
 
     iget-object v3, v3, Lorg/telegram/messenger/MediaController$22;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordSamples:[S
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$400(Lorg/telegram/messenger/MediaController;)[S
 
     move-result-object v3
@@ -139,7 +137,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/MediaController$22;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordTimeCount:J
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$700(Lorg/telegram/messenger/MediaController;)J
 
     move-result-wide v12
@@ -150,7 +147,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/MediaController$22;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordTimeCount:J
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$700(Lorg/telegram/messenger/MediaController;)J
 
     move-result-wide v0
@@ -207,7 +203,6 @@
 
     iget-object v4, v4, Lorg/telegram/messenger/MediaController$22;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordDialogId:J
     invoke-static {v4}, Lorg/telegram/messenger/MediaController;->access$6600(Lorg/telegram/messenger/MediaController;)J
 
     move-result-wide v4
@@ -216,7 +211,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/MediaController$22;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordReplyingMessageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v6}, Lorg/telegram/messenger/MediaController;->access$6700(Lorg/telegram/messenger/MediaController;)Lorg/telegram/messenger/MessageObject;
 
     move-result-object v6

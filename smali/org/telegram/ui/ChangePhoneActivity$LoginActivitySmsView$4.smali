@@ -57,7 +57,6 @@
     .local v0, "req":Lorg/telegram/tgnet/TLRPC$TL_auth_cancelCode;
     iget-object v1, p0, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView$4;->this$1:Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->requestPhone:Ljava/lang/String;
     invoke-static {v1}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$2400(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Ljava/lang/String;
 
     move-result-object v1
@@ -67,7 +66,6 @@
     .line 1013
     iget-object v1, p0, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView$4;->this$1:Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->phoneHash:Ljava/lang/String;
     invoke-static {v1}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$2600(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Ljava/lang/String;
 
     move-result-object v1

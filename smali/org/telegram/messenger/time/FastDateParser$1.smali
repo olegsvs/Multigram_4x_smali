@@ -47,7 +47,6 @@
     if-ge v0, v1, :cond_0
 
     .line 743
-    # invokes: Lorg/telegram/messenger/time/FastDateParser;->adjustYear(I)I
     invoke-static {p1, v0}, Lorg/telegram/messenger/time/FastDateParser;->access$300(Lorg/telegram/messenger/time/FastDateParser;I)I
 
     move-result v0

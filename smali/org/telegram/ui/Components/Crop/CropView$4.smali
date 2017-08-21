@@ -125,7 +125,6 @@
     .line 510
     iget-object v4, p0, Lorg/telegram/ui/Components/Crop/CropView$4;->this$0:Lorg/telegram/ui/Components/Crop/CropView;
 
-    # getter for: Lorg/telegram/ui/Components/Crop/CropView;->state:Lorg/telegram/ui/Components/Crop/CropView$CropState;
     invoke-static {v4}, Lorg/telegram/ui/Components/Crop/CropView;->access$1100(Lorg/telegram/ui/Components/Crop/CropView;)Lorg/telegram/ui/Components/Crop/CropView$CropState;
 
     move-result-object v4
@@ -142,7 +141,6 @@
 
     mul-float/2addr v6, v2
 
-    # invokes: Lorg/telegram/ui/Components/Crop/CropView$CropState;->translate(FF)V
     invoke-static {v4, v5, v6}, Lorg/telegram/ui/Components/Crop/CropView$CropState;->access$1800(Lorg/telegram/ui/Components/Crop/CropView$CropState;FF)V
 
     .line 512
@@ -173,12 +171,10 @@
     .line 514
     iget-object v4, p0, Lorg/telegram/ui/Components/Crop/CropView$4;->this$0:Lorg/telegram/ui/Components/Crop/CropView;
 
-    # getter for: Lorg/telegram/ui/Components/Crop/CropView;->state:Lorg/telegram/ui/Components/Crop/CropView$CropState;
     invoke-static {v4}, Lorg/telegram/ui/Components/Crop/CropView;->access$1100(Lorg/telegram/ui/Components/Crop/CropView;)Lorg/telegram/ui/Components/Crop/CropView$CropState;
 
     move-result-object v4
 
-    # invokes: Lorg/telegram/ui/Components/Crop/CropView$CropState;->scale(FFF)V
     invoke-static {v4, v0, v8, v8}, Lorg/telegram/ui/Components/Crop/CropView$CropState;->access$1200(Lorg/telegram/ui/Components/Crop/CropView$CropState;FFF)V
 
     .line 516

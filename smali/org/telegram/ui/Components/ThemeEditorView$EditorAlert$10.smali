@@ -44,7 +44,6 @@
     .line 801
     iget-object v0, p0, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert$10;->this$1:Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->colorPicker:Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert$ColorPicker;
     invoke-static {v0}, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->access$100(Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;)Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert$ColorPicker;
 
     move-result-object v0
@@ -54,7 +53,6 @@
     .line 802
     iget-object v0, p0, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert$10;->this$1:Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->bottomLayout:Landroid/widget/FrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->access$2400(Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;)Landroid/widget/FrameLayout;
 
     move-result-object v0
@@ -66,7 +64,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->animationInProgress:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->access$2202(Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;Z)Z
 
     .line 804

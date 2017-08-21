@@ -62,7 +62,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/CallLogActivity$4$1;->val$row:Lorg/telegram/ui/CallLogActivity$CallLogRow;
 
-    # invokes: Lorg/telegram/ui/CallLogActivity;->confirmAndDelete(Lorg/telegram/ui/CallLogActivity$CallLogRow;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/CallLogActivity;->access$300(Lorg/telegram/ui/CallLogActivity;Lorg/telegram/ui/CallLogActivity$CallLogRow;)V
 
     goto :goto_0

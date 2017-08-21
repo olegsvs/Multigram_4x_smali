@@ -42,7 +42,6 @@
     .line 286
     iget-object v0, p0, Lorg/telegram/ui/Components/PipVideoView$2;->this$0:Lorg/telegram/ui/Components/PipVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipVideoView;->parentSheet:Lorg/telegram/ui/Components/EmbedBottomSheet;
     invoke-static {v0}, Lorg/telegram/ui/Components/PipVideoView;->access$600(Lorg/telegram/ui/Components/PipVideoView;)Lorg/telegram/ui/Components/EmbedBottomSheet;
 
     move-result-object v0

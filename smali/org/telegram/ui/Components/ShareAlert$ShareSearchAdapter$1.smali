@@ -82,7 +82,6 @@
 
     const/16 v31, -0x1
 
-    # setter for: Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->lastSearchId:I
     invoke-static/range {v30 .. v31}, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->access$2902(Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;I)I
 
     .line 740
@@ -102,12 +101,10 @@
 
     move-object/from16 v32, v0
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->lastSearchId:I
     invoke-static/range {v32 .. v32}, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->access$2900(Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;)I
 
     move-result v32
 
-    # invokes: Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->updateSearchResults(Ljava/util/ArrayList;I)V
     invoke-static/range {v30 .. v32}, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->access$3000(Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;Ljava/util/ArrayList;I)V
 
     .line 926
@@ -1941,7 +1938,6 @@
 
     move/from16 v2, v31
 
-    # invokes: Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->updateSearchResults(Ljava/util/ArrayList;I)V
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->access$3000(Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;Ljava/util/ArrayList;I)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0

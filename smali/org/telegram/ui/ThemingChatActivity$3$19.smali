@@ -58,7 +58,6 @@
 
     const-string/jumbo v2, "chatSelectedMsgBGColor"
 
-    # invokes: Lorg/telegram/ui/ThemingChatActivity;->commitInt(Ljava/lang/String;I)V
     invoke-static {v1, v2, p1}, Lorg/telegram/ui/ThemingChatActivity;->access$300(Lorg/telegram/ui/ThemingChatActivity;Ljava/lang/String;I)V
 
     .line 764

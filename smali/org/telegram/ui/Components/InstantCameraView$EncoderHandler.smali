@@ -108,7 +108,6 @@
     invoke-static {v7}, Lorg/telegram/messenger/FileLog;->e(Ljava/lang/String;)V
 
     .line 1256
-    # invokes: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->prepareEncoder()V
     invoke-static {v2}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$3400(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -126,7 +125,6 @@
     .line 1259
     const/4 v7, 0x0
 
-    # invokes: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->handleStopRecording(I)V
     invoke-static {v2, v7}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$3500(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;I)V
 
     .line 1260
@@ -148,7 +146,6 @@
     .line 1266
     iget v7, p1, Landroid/os/Message;->arg1:I
 
-    # invokes: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->handleStopRecording(I)V
     invoke-static {v2, v7}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$3500(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;I)V
 
     goto :goto_0
@@ -181,7 +178,6 @@
 
     .line 1272
     .local v0, "cameraId":Ljava/lang/Integer;
-    # invokes: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->handleVideoFrameAvailable(JLjava/lang/Integer;)V
     invoke-static {v2, v4, v5, v0}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$3600(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;JLjava/lang/Integer;)V
 
     goto :goto_0
@@ -194,7 +190,6 @@
 
     check-cast v7, Lorg/telegram/ui/Components/InstantCameraView$AudioBufferInfo;
 
-    # invokes: Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->handleAudioFrameAvailable(Lorg/telegram/ui/Components/InstantCameraView$AudioBufferInfo;)V
     invoke-static {v2, v7}, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->access$3700(Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;Lorg/telegram/ui/Components/InstantCameraView$AudioBufferInfo;)V
 
     goto :goto_0

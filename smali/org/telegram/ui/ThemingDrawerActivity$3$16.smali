@@ -75,7 +75,6 @@
 
     move-result v2
 
-    # invokes: Lorg/telegram/ui/ThemingDrawerActivity;->commitInt(Ljava/lang/String;I)V
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/ThemingDrawerActivity;->access$300(Lorg/telegram/ui/ThemingDrawerActivity;Ljava/lang/String;I)V
 
     .line 520

@@ -63,7 +63,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/LoginActivity;->progressDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v0, v1}, Lorg/telegram/ui/LoginActivity;->access$402(Lorg/telegram/ui/LoginActivity;Lorg/telegram/ui/ActionBar/AlertDialog;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     .line 429

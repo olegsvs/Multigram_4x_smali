@@ -47,7 +47,6 @@
     .line 320
     iget-object v0, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->rowCount:I
     invoke-static {v0}, Lorg/telegram/ui/DataSettingsActivity;->access$1200(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v0
@@ -65,7 +64,6 @@
     .line 477
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->mediaDownloadSection2Row:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$1800(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -74,7 +72,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->usageSection2Row:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$1900(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -83,7 +80,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->callsSection2Row:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$2000(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -92,7 +88,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->proxySection2Row:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$1300(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -112,7 +107,6 @@
     :cond_2
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->storageUsageRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$600(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -121,7 +115,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->useLessDataForCallsRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$700(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -130,7 +123,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->roamingUsageRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$900(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -139,7 +131,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->wifiUsageRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$1000(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -148,7 +139,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->mobileUsageRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$800(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -157,7 +147,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->proxyRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$1100(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -167,7 +156,6 @@
     .line 481
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->wifiDownloadRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$000(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -176,7 +164,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->mobileDownloadRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$100(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -185,7 +172,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->roamingDownloadRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$200(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -202,7 +188,6 @@
     :cond_4
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->mediaDownloadSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$1400(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -211,7 +196,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->callsSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$1600(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -220,7 +204,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->usageSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$1500(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -229,7 +212,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->proxySectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$1700(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -257,7 +239,6 @@
     .local v0, "position":I
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->wifiDownloadRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$000(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -266,7 +247,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->mobileDownloadRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$100(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -275,7 +255,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->roamingDownloadRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$200(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -284,7 +263,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->storageUsageRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$600(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -294,7 +272,6 @@
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
     .line 448
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->useLessDataForCallsRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$700(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -303,7 +280,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->mobileUsageRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$800(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -312,7 +288,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->roamingUsageRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$900(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -321,7 +296,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->wifiUsageRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$1000(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -330,7 +304,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->proxyRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataSettingsActivity;->access$1100(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v1
@@ -375,7 +348,6 @@
     :pswitch_0
     iget-object v6, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->proxySection2Row:I
     invoke-static {v6}, Lorg/telegram/ui/DataSettingsActivity;->access$1300(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v6
@@ -427,7 +399,6 @@
     .local v4, "textCell":Lorg/telegram/ui/Cells/TextSettingsCell;
     iget-object v6, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->storageUsageRow:I
     invoke-static {v6}, Lorg/telegram/ui/DataSettingsActivity;->access$600(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v6
@@ -451,7 +422,6 @@
     :cond_2
     iget-object v6, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->useLessDataForCallsRow:I
     invoke-static {v6}, Lorg/telegram/ui/DataSettingsActivity;->access$700(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v6
@@ -539,7 +509,6 @@
     :cond_3
     iget-object v6, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->mobileUsageRow:I
     invoke-static {v6}, Lorg/telegram/ui/DataSettingsActivity;->access$800(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v6
@@ -563,7 +532,6 @@
     :cond_4
     iget-object v6, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->roamingUsageRow:I
     invoke-static {v6}, Lorg/telegram/ui/DataSettingsActivity;->access$900(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v6
@@ -587,7 +555,6 @@
     :cond_5
     iget-object v6, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->wifiUsageRow:I
     invoke-static {v6}, Lorg/telegram/ui/DataSettingsActivity;->access$1000(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v6
@@ -611,7 +578,6 @@
     :cond_6
     iget-object v6, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->proxyRow:I
     invoke-static {v6}, Lorg/telegram/ui/DataSettingsActivity;->access$1100(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v6
@@ -642,7 +608,6 @@
     .local v0, "headerCell":Lorg/telegram/ui/Cells/HeaderCell;
     iget-object v6, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->mediaDownloadSectionRow:I
     invoke-static {v6}, Lorg/telegram/ui/DataSettingsActivity;->access$1400(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v6
@@ -666,7 +631,6 @@
     :cond_7
     iget-object v6, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->usageSectionRow:I
     invoke-static {v6}, Lorg/telegram/ui/DataSettingsActivity;->access$1500(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v6
@@ -690,7 +654,6 @@
     :cond_8
     iget-object v6, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->callsSectionRow:I
     invoke-static {v6}, Lorg/telegram/ui/DataSettingsActivity;->access$1600(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v6
@@ -714,7 +677,6 @@
     :cond_9
     iget-object v6, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->proxySectionRow:I
     invoke-static {v6}, Lorg/telegram/ui/DataSettingsActivity;->access$1700(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v6
@@ -745,7 +707,6 @@
     .local v4, "textCell":Lorg/telegram/ui/Cells/TextDetailSettingsCell;
     iget-object v6, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->mobileDownloadRow:I
     invoke-static {v6}, Lorg/telegram/ui/DataSettingsActivity;->access$100(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v6
@@ -754,7 +715,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->wifiDownloadRow:I
     invoke-static {v6}, Lorg/telegram/ui/DataSettingsActivity;->access$000(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v6
@@ -763,7 +723,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->roamingDownloadRow:I
     invoke-static {v6}, Lorg/telegram/ui/DataSettingsActivity;->access$200(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v6
@@ -784,7 +743,6 @@
     .restart local v2    # "preferences":Landroid/content/SharedPreferences;
     iget-object v6, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->mobileDownloadRow:I
     invoke-static {v6}, Lorg/telegram/ui/DataSettingsActivity;->access$100(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v6
@@ -1222,7 +1180,6 @@
     :cond_19
     iget-object v6, p0, Lorg/telegram/ui/DataSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->wifiDownloadRow:I
     invoke-static {v6}, Lorg/telegram/ui/DataSettingsActivity;->access$000(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v6

@@ -46,13 +46,11 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/PopupNotificationActivity;->animationInProgress:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/PopupNotificationActivity;->access$1002(Lorg/telegram/ui/PopupNotificationActivity;Z)Z
 
     .line 650
     iget-object v0, p0, Lorg/telegram/ui/PopupNotificationActivity$6;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # invokes: Lorg/telegram/ui/PopupNotificationActivity;->switchToNextMessage()V
     invoke-static {v0}, Lorg/telegram/ui/PopupNotificationActivity;->access$900(Lorg/telegram/ui/PopupNotificationActivity;)V
 
     .line 651

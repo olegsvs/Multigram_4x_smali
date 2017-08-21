@@ -44,7 +44,6 @@
     .line 270
     iget-object v0, p0, Lorg/telegram/messenger/Emoji$EmojiDrawable$1;->this$0:Lorg/telegram/messenger/Emoji$EmojiDrawable;
 
-    # getter for: Lorg/telegram/messenger/Emoji$EmojiDrawable;->info:Lorg/telegram/messenger/Emoji$DrawableInfo;
     invoke-static {v0}, Lorg/telegram/messenger/Emoji$EmojiDrawable;->access$500(Lorg/telegram/messenger/Emoji$EmojiDrawable;)Lorg/telegram/messenger/Emoji$DrawableInfo;
 
     move-result-object v0
@@ -53,25 +52,21 @@
 
     iget-object v1, p0, Lorg/telegram/messenger/Emoji$EmojiDrawable$1;->this$0:Lorg/telegram/messenger/Emoji$EmojiDrawable;
 
-    # getter for: Lorg/telegram/messenger/Emoji$EmojiDrawable;->info:Lorg/telegram/messenger/Emoji$DrawableInfo;
     invoke-static {v1}, Lorg/telegram/messenger/Emoji$EmojiDrawable;->access$500(Lorg/telegram/messenger/Emoji$EmojiDrawable;)Lorg/telegram/messenger/Emoji$DrawableInfo;
 
     move-result-object v1
 
     iget-byte v1, v1, Lorg/telegram/messenger/Emoji$DrawableInfo;->page2:B
 
-    # invokes: Lorg/telegram/messenger/Emoji;->loadEmoji(II)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/Emoji;->access$600(II)V
 
     .line 271
-    # getter for: Lorg/telegram/messenger/Emoji;->loadingEmoji:[[Z
     invoke-static {}, Lorg/telegram/messenger/Emoji;->access$400()[[Z
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/messenger/Emoji$EmojiDrawable$1;->this$0:Lorg/telegram/messenger/Emoji$EmojiDrawable;
 
-    # getter for: Lorg/telegram/messenger/Emoji$EmojiDrawable;->info:Lorg/telegram/messenger/Emoji$DrawableInfo;
     invoke-static {v1}, Lorg/telegram/messenger/Emoji$EmojiDrawable;->access$500(Lorg/telegram/messenger/Emoji$EmojiDrawable;)Lorg/telegram/messenger/Emoji$DrawableInfo;
 
     move-result-object v1
@@ -82,7 +77,6 @@
 
     iget-object v1, p0, Lorg/telegram/messenger/Emoji$EmojiDrawable$1;->this$0:Lorg/telegram/messenger/Emoji$EmojiDrawable;
 
-    # getter for: Lorg/telegram/messenger/Emoji$EmojiDrawable;->info:Lorg/telegram/messenger/Emoji$DrawableInfo;
     invoke-static {v1}, Lorg/telegram/messenger/Emoji$EmojiDrawable;->access$500(Lorg/telegram/messenger/Emoji$EmojiDrawable;)Lorg/telegram/messenger/Emoji$DrawableInfo;
 
     move-result-object v1

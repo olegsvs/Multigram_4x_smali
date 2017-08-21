@@ -52,7 +52,6 @@
     .line 1613
     iget-object v2, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$4;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->needUpdateBlurTexture:Z
     invoke-static {v2}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$4700(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Z
 
     move-result v2
@@ -64,7 +63,6 @@
 
     iget-boolean v3, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$4;->val$updateBlur:Z
 
-    # setter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->needUpdateBlurTexture:Z
     invoke-static {v2, v3}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$4702(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;Z)Z
 
     .line 1616
@@ -81,7 +79,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$4;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->lastRenderCallTime:J
     invoke-static {v2}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$4800(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)J
 
     move-result-wide v2
@@ -102,13 +99,11 @@
     :cond_1
     iget-object v2, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$4;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # setter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->lastRenderCallTime:J
     invoke-static {v2, v0, v1}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$4802(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;J)J
 
     .line 1619
     iget-object v2, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$4;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->drawRunnable:Ljava/lang/Runnable;
     invoke-static {v2}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$4900(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Ljava/lang/Runnable;
 
     move-result-object v2

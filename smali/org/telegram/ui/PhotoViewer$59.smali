@@ -52,7 +52,6 @@
 
     add-int/lit8 v1, v1, 0x1
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->redraw(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/PhotoViewer;->access$12100(Lorg/telegram/ui/PhotoViewer;I)V
 
     .line 5290

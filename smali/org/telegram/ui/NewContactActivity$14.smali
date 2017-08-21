@@ -45,7 +45,6 @@
     .line 746
     iget-object v0, p0, Lorg/telegram/ui/NewContactActivity$14;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->avatarImage:Lorg/telegram/ui/Components/BackupImageView;
     invoke-static {v0}, Lorg/telegram/ui/NewContactActivity;->access$800(Lorg/telegram/ui/NewContactActivity;)Lorg/telegram/ui/Components/BackupImageView;
 
     move-result-object v0
@@ -55,7 +54,6 @@
     .line 747
     iget-object v0, p0, Lorg/telegram/ui/NewContactActivity$14;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->avatarDrawable:Lorg/telegram/ui/Components/AvatarDrawable;
     invoke-static {v0}, Lorg/telegram/ui/NewContactActivity;->access$700(Lorg/telegram/ui/NewContactActivity;)Lorg/telegram/ui/Components/AvatarDrawable;
 
     move-result-object v0
@@ -64,7 +62,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/NewContactActivity$14;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->firstNameField:Landroid/widget/EditText;
     invoke-static {v2}, Lorg/telegram/ui/NewContactActivity;->access$100(Lorg/telegram/ui/NewContactActivity;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -79,7 +76,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/NewContactActivity$14;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->lastNameField:Landroid/widget/EditText;
     invoke-static {v3}, Lorg/telegram/ui/NewContactActivity;->access$500(Lorg/telegram/ui/NewContactActivity;)Landroid/widget/EditText;
 
     move-result-object v3
@@ -99,7 +95,6 @@
     .line 748
     iget-object v0, p0, Lorg/telegram/ui/NewContactActivity$14;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->avatarImage:Lorg/telegram/ui/Components/BackupImageView;
     invoke-static {v0}, Lorg/telegram/ui/NewContactActivity;->access$800(Lorg/telegram/ui/NewContactActivity;)Lorg/telegram/ui/Components/BackupImageView;
 
     move-result-object v0

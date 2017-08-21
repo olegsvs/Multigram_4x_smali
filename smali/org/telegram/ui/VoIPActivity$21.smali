@@ -42,7 +42,6 @@
     .line 1060
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$21;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->cancelBtn:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$2800(Lorg/telegram/ui/VoIPActivity;)Landroid/view/View;
 
     move-result-object v0
@@ -54,7 +53,6 @@
     .line 1061
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$21;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->endBtn:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$200(Lorg/telegram/ui/VoIPActivity;)Landroid/view/View;
 
     move-result-object v0
@@ -68,7 +66,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/VoIPActivity;->retryAnim:Landroid/animation/AnimatorSet;
     invoke-static {v0, v1}, Lorg/telegram/ui/VoIPActivity;->access$2702(Lorg/telegram/ui/VoIPActivity;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 1063

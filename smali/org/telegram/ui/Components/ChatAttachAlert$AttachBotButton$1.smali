@@ -46,7 +46,6 @@
     .line 283
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$1;->this$1:Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->currentUser:Lorg/telegram/tgnet/TLRPC$User;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->access$500(Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;)Lorg/telegram/tgnet/TLRPC$User;
 
     move-result-object v0

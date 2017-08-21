@@ -53,7 +53,6 @@
     .line 215
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/ActionBarMenuItem$2;->this$0:Lorg/telegram/ui/ActionBar/ActionBarMenuItem;
 
-    # getter for: Lorg/telegram/ui/ActionBar/ActionBarMenuItem;->popupWindow:Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
     invoke-static {v0}, Lorg/telegram/ui/ActionBar/ActionBarMenuItem;->access$000(Lorg/telegram/ui/ActionBar/ActionBarMenuItem;)Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
 
     move-result-object v0
@@ -62,7 +61,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/ActionBarMenuItem$2;->this$0:Lorg/telegram/ui/ActionBar/ActionBarMenuItem;
 
-    # getter for: Lorg/telegram/ui/ActionBar/ActionBarMenuItem;->popupWindow:Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
     invoke-static {v0}, Lorg/telegram/ui/ActionBar/ActionBarMenuItem;->access$000(Lorg/telegram/ui/ActionBar/ActionBarMenuItem;)Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
 
     move-result-object v0
@@ -76,7 +74,6 @@
     .line 216
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/ActionBarMenuItem$2;->this$0:Lorg/telegram/ui/ActionBar/ActionBarMenuItem;
 
-    # getter for: Lorg/telegram/ui/ActionBar/ActionBarMenuItem;->rect:Landroid/graphics/Rect;
     invoke-static {v0}, Lorg/telegram/ui/ActionBar/ActionBarMenuItem;->access$100(Lorg/telegram/ui/ActionBar/ActionBarMenuItem;)Landroid/graphics/Rect;
 
     move-result-object v0
@@ -86,7 +83,6 @@
     .line 217
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/ActionBarMenuItem$2;->this$0:Lorg/telegram/ui/ActionBar/ActionBarMenuItem;
 
-    # getter for: Lorg/telegram/ui/ActionBar/ActionBarMenuItem;->rect:Landroid/graphics/Rect;
     invoke-static {v0}, Lorg/telegram/ui/ActionBar/ActionBarMenuItem;->access$100(Lorg/telegram/ui/ActionBar/ActionBarMenuItem;)Landroid/graphics/Rect;
 
     move-result-object v0
@@ -112,7 +108,6 @@
     .line 218
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/ActionBarMenuItem$2;->this$0:Lorg/telegram/ui/ActionBar/ActionBarMenuItem;
 
-    # getter for: Lorg/telegram/ui/ActionBar/ActionBarMenuItem;->popupWindow:Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
     invoke-static {v0}, Lorg/telegram/ui/ActionBar/ActionBarMenuItem;->access$000(Lorg/telegram/ui/ActionBar/ActionBarMenuItem;)Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
 
     move-result-object v0

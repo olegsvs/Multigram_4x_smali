@@ -63,7 +63,6 @@
     .local v0, "next":Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
     iget-object v1, p0, Lorg/telegram/messenger/support/util/MessageThreadUtil$MessageQueue;->mRoot:Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
 
-    # getter for: Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;->next:Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
     invoke-static {v1}, Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;->access$000(Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;)Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
 
     move-result-object v1
@@ -111,7 +110,6 @@
     .local v0, "item":Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
     iget-object v3, p0, Lorg/telegram/messenger/support/util/MessageThreadUtil$MessageQueue;->mRoot:Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
 
-    # getter for: Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;->next:Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
     invoke-static {v3}, Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;->access$000(Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;)Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
 
     move-result-object v3
@@ -146,7 +144,6 @@
 
     .line 269
     .local v2, "prev":Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
-    # getter for: Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;->next:Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
     invoke-static {v2}, Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;->access$000(Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;)Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
 
     move-result-object v0
@@ -157,7 +154,6 @@
     if-eqz v0, :cond_2
 
     .line 271
-    # getter for: Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;->next:Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
     invoke-static {v0}, Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;->access$000(Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;)Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
 
     move-result-object v1
@@ -169,7 +165,6 @@
     if-ne v3, p1, :cond_1
 
     .line 273
-    # setter for: Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;->next:Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
     invoke-static {v2, v1}, Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;->access$002(Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;)Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
 
     .line 274
@@ -232,7 +227,6 @@
     .line 255
     .local v0, "last":Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
     :goto_1
-    # getter for: Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;->next:Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
     invoke-static {v0}, Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;->access$000(Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;)Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
 
     move-result-object v1
@@ -240,7 +234,6 @@
     if-eqz v1, :cond_1
 
     .line 256
-    # getter for: Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;->next:Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
     invoke-static {v0}, Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;->access$000(Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;)Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
 
     move-result-object v0
@@ -249,7 +242,6 @@
 
     .line 258
     :cond_1
-    # setter for: Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;->next:Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
     invoke-static {v0, p1}, Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;->access$002(Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;)Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -277,7 +269,6 @@
     :try_start_0
     iget-object v0, p0, Lorg/telegram/messenger/support/util/MessageThreadUtil$MessageQueue;->mRoot:Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
 
-    # setter for: Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;->next:Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
     invoke-static {p1, v0}, Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;->access$002(Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;)Lorg/telegram/messenger/support/util/MessageThreadUtil$SyncQueueItem;
 
     .line 246

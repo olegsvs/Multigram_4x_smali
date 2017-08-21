@@ -244,7 +244,6 @@
 
     .line 809
     .local v0, "id":Ljava/lang/String;
-    # invokes: Lorg/telegram/messenger/time/FastDateParser;->escapeRegex(Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
     invoke-static {v1, v0, v6}, Lorg/telegram/messenger/time/FastDateParser;->access$100(Ljava/lang/StringBuilder;Ljava/lang/String;Z)Ljava/lang/StringBuilder;
 
     move-result-object v7

@@ -49,7 +49,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$2;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v3}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$500(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v3
@@ -84,7 +83,6 @@
     .line 198
     iget-object v0, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$2;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->ignoreLayout:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$600(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Z
 
     move-result v0

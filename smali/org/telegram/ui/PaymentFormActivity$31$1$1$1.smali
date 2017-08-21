@@ -62,7 +62,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/PaymentFormActivity$31;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->showEditDoneProgress(ZZ)V
     invoke-static {v1, v5, v4}, Lorg/telegram/ui/PaymentFormActivity;->access$2400(Lorg/telegram/ui/PaymentFormActivity;ZZ)V
 
     .line 2578
@@ -74,7 +73,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/PaymentFormActivity$31;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->setDonePressed(Z)V
     invoke-static {v1, v4}, Lorg/telegram/ui/PaymentFormActivity;->access$500(Lorg/telegram/ui/PaymentFormActivity;Z)V
 
     .line 2579
@@ -91,7 +89,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/PaymentFormActivity$31;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # setter for: Lorg/telegram/ui/PaymentFormActivity;->passwordOk:Z
     invoke-static {v1, v5}, Lorg/telegram/ui/PaymentFormActivity;->access$3002(Lorg/telegram/ui/PaymentFormActivity;Z)Z
 
     .line 2581
@@ -113,7 +110,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/PaymentFormActivity$31;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->goToNextStep()V
     invoke-static {v1}, Lorg/telegram/ui/PaymentFormActivity;->access$200(Lorg/telegram/ui/PaymentFormActivity;)V
 
     .line 2596
@@ -164,7 +160,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/PaymentFormActivity$31;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # getter for: Lorg/telegram/ui/PaymentFormActivity;->inputFields:[Landroid/widget/EditText;
     invoke-static {v1}, Lorg/telegram/ui/PaymentFormActivity;->access$1200(Lorg/telegram/ui/PaymentFormActivity;)[Landroid/widget/EditText;
 
     move-result-object v1
@@ -184,7 +179,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/PaymentFormActivity$31;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # getter for: Lorg/telegram/ui/PaymentFormActivity;->inputFields:[Landroid/widget/EditText;
     invoke-static {v1}, Lorg/telegram/ui/PaymentFormActivity;->access$1200(Lorg/telegram/ui/PaymentFormActivity;)[Landroid/widget/EditText;
 
     move-result-object v1

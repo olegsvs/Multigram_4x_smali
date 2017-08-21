@@ -56,7 +56,6 @@
 
     iget v2, p0, Lorg/telegram/messenger/MessagesStorage$80;->val$channelId:I
 
-    # invokes: Lorg/telegram/messenger/MessagesStorage;->markMessagesAsDeletedInternal(Ljava/util/ArrayList;I)Ljava/util/ArrayList;
     invoke-static {v0, v1, v2}, Lorg/telegram/messenger/MessagesStorage;->access$700(Lorg/telegram/messenger/MessagesStorage;Ljava/util/ArrayList;I)Ljava/util/ArrayList;
 
     .line 5460

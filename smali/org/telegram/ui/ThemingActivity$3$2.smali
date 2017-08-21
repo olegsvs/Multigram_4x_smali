@@ -52,7 +52,6 @@
 
     const-string/jumbo v1, "dialogColor"
 
-    # invokes: Lorg/telegram/ui/ThemingActivity;->commitInt(Ljava/lang/String;I)V
     invoke-static {v0, v1, p1}, Lorg/telegram/ui/ThemingActivity;->access$500(Lorg/telegram/ui/ThemingActivity;Ljava/lang/String;I)V
 
     .line 229

@@ -69,7 +69,6 @@
 
     iget v2, v0, Lorg/telegram/tgnet/TLRPC$TL_accountDaysTTL;->days:I
 
-    # setter for: Lorg/telegram/messenger/ContactsController;->deleteAccountTTL:I
     invoke-static {v1, v2}, Lorg/telegram/messenger/ContactsController;->access$1802(Lorg/telegram/messenger/ContactsController;I)I
 
     .line 1886
@@ -79,7 +78,6 @@
 
     const/4 v2, 0x2
 
-    # setter for: Lorg/telegram/messenger/ContactsController;->loadingDeleteInfo:I
     invoke-static {v1, v2}, Lorg/telegram/messenger/ContactsController;->access$1902(Lorg/telegram/messenger/ContactsController;I)I
 
     .line 1890
@@ -104,7 +102,6 @@
 
     iget-object v1, v1, Lorg/telegram/messenger/ContactsController$20;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # setter for: Lorg/telegram/messenger/ContactsController;->loadingDeleteInfo:I
     invoke-static {v1, v3}, Lorg/telegram/messenger/ContactsController;->access$1902(Lorg/telegram/messenger/ContactsController;I)I
 
     goto :goto_0

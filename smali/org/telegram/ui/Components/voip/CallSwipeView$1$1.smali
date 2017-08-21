@@ -46,7 +46,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/Components/voip/CallSwipeView$1;->this$0:Lorg/telegram/ui/Components/voip/CallSwipeView;
 
-    # getter for: Lorg/telegram/ui/Components/voip/CallSwipeView;->arrowAnim:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/Components/voip/CallSwipeView;->access$000(Lorg/telegram/ui/Components/voip/CallSwipeView;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -58,7 +57,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/Components/voip/CallSwipeView$1;->this$0:Lorg/telegram/ui/Components/voip/CallSwipeView;
 
-    # getter for: Lorg/telegram/ui/Components/voip/CallSwipeView;->arrowAnim:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/Components/voip/CallSwipeView;->access$000(Lorg/telegram/ui/Components/voip/CallSwipeView;)Landroid/animation/AnimatorSet;
 
     move-result-object v0

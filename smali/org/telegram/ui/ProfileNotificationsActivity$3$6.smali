@@ -99,7 +99,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->dialog_id:J
     invoke-static {v5}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$200(Lorg/telegram/ui/ProfileNotificationsActivity;)J
 
     move-result-wide v6
@@ -137,7 +136,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->dialog_id:J
     invoke-static {v5}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$200(Lorg/telegram/ui/ProfileNotificationsActivity;)J
 
     move-result-wide v6
@@ -163,7 +161,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->adapter:Lorg/telegram/ui/ProfileNotificationsActivity$ListAdapter;
     invoke-static {v3}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$900(Lorg/telegram/ui/ProfileNotificationsActivity;)Lorg/telegram/ui/ProfileNotificationsActivity$ListAdapter;
 
     move-result-object v3
@@ -175,7 +172,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->adapter:Lorg/telegram/ui/ProfileNotificationsActivity$ListAdapter;
     invoke-static {v3}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$900(Lorg/telegram/ui/ProfileNotificationsActivity;)Lorg/telegram/ui/ProfileNotificationsActivity$ListAdapter;
 
     move-result-object v3
@@ -184,7 +180,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/ProfileNotificationsActivity$3;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->smartRow:I
     invoke-static {v4}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$1200(Lorg/telegram/ui/ProfileNotificationsActivity;)I
 
     move-result v4

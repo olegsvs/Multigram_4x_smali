@@ -63,7 +63,6 @@
     .line 65
     iget-object v0, p0, Lorg/telegram/ui/ChangeAboutActivity$1;->this$0:Lorg/telegram/ui/ChangeAboutActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeAboutActivity;->aboutField:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/ChangeAboutActivity;->access$000(Lorg/telegram/ui/ChangeAboutActivity;)Landroid/widget/EditText;
 
     move-result-object v0
@@ -81,7 +80,6 @@
     .line 66
     iget-object v0, p0, Lorg/telegram/ui/ChangeAboutActivity$1;->this$0:Lorg/telegram/ui/ChangeAboutActivity;
 
-    # invokes: Lorg/telegram/ui/ChangeAboutActivity;->saveAbout()V
     invoke-static {v0}, Lorg/telegram/ui/ChangeAboutActivity;->access$100(Lorg/telegram/ui/ChangeAboutActivity;)V
 
     .line 67

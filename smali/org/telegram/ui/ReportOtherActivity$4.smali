@@ -44,7 +44,6 @@
     .line 146
     iget-object v0, p0, Lorg/telegram/ui/ReportOtherActivity$4;->this$0:Lorg/telegram/ui/ReportOtherActivity;
 
-    # getter for: Lorg/telegram/ui/ReportOtherActivity;->firstNameField:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/ReportOtherActivity;->access$000(Lorg/telegram/ui/ReportOtherActivity;)Landroid/widget/EditText;
 
     move-result-object v0
@@ -54,7 +53,6 @@
     .line 147
     iget-object v0, p0, Lorg/telegram/ui/ReportOtherActivity$4;->this$0:Lorg/telegram/ui/ReportOtherActivity;
 
-    # getter for: Lorg/telegram/ui/ReportOtherActivity;->firstNameField:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/ReportOtherActivity;->access$000(Lorg/telegram/ui/ReportOtherActivity;)Landroid/widget/EditText;
 
     move-result-object v0
@@ -64,7 +62,6 @@
     .line 148
     iget-object v0, p0, Lorg/telegram/ui/ReportOtherActivity$4;->this$0:Lorg/telegram/ui/ReportOtherActivity;
 
-    # getter for: Lorg/telegram/ui/ReportOtherActivity;->firstNameField:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/ReportOtherActivity;->access$000(Lorg/telegram/ui/ReportOtherActivity;)Landroid/widget/EditText;
 
     move-result-object v0

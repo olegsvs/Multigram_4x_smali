@@ -525,7 +525,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    # setter for: Lorg/telegram/tgnet/ConnectionsManager;->currentTask:Landroid/os/AsyncTask;
     invoke-static {v0}, Lorg/telegram/tgnet/ConnectionsManager;->access$602(Landroid/os/AsyncTask;)Landroid/os/AsyncTask;
 
     .line 719

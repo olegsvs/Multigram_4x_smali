@@ -57,7 +57,6 @@
     .local v0, "builder":Lorg/telegram/ui/ActionBar/AlertDialog$Builder;
     iget-object v1, p0, Lorg/telegram/ui/ChannelEditInfoActivity$13;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->currentChat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v1}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$000(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v1

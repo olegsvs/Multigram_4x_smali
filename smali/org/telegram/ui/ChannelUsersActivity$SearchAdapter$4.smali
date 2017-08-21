@@ -54,7 +54,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter$4;->val$users:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;->searchResult:Ljava/util/ArrayList;
     invoke-static {v0, v1}, Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;->access$2802(Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 1022
@@ -62,7 +61,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter$4;->val$names:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;->searchResultNames:Ljava/util/ArrayList;
     invoke-static {v0, v1}, Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;->access$2902(Lorg/telegram/ui/ChannelUsersActivity$SearchAdapter;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 1023

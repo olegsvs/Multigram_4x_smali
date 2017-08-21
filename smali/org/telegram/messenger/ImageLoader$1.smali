@@ -46,7 +46,6 @@
     .line 1154
     iget-object v2, p0, Lorg/telegram/messenger/ImageLoader$1;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->ignoreRemoval:Ljava/lang/String;
     invoke-static {v2}, Lorg/telegram/messenger/ImageLoader;->access$2400(Lorg/telegram/messenger/ImageLoader;)Ljava/lang/String;
 
     move-result-object v2
@@ -57,7 +56,6 @@
 
     iget-object v2, p0, Lorg/telegram/messenger/ImageLoader$1;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->ignoreRemoval:Ljava/lang/String;
     invoke-static {v2}, Lorg/telegram/messenger/ImageLoader;->access$2400(Lorg/telegram/messenger/ImageLoader;)Ljava/lang/String;
 
     move-result-object v2
@@ -77,7 +75,6 @@
     :cond_1
     iget-object v2, p0, Lorg/telegram/messenger/ImageLoader$1;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->bitmapUseCounts:Ljava/util/HashMap;
     invoke-static {v2}, Lorg/telegram/messenger/ImageLoader;->access$2500(Lorg/telegram/messenger/ImageLoader;)Ljava/util/HashMap;
 
     move-result-object v2

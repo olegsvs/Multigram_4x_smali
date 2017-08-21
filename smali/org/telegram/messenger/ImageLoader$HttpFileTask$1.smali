@@ -50,14 +50,12 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/ImageLoader$HttpFileTask;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->fileProgresses:Ljava/util/concurrent/ConcurrentHashMap;
     invoke-static {v0}, Lorg/telegram/messenger/ImageLoader;->access$100(Lorg/telegram/messenger/ImageLoader;)Ljava/util/concurrent/ConcurrentHashMap;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/messenger/ImageLoader$HttpFileTask$1;->this$1:Lorg/telegram/messenger/ImageLoader$HttpFileTask;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader$HttpFileTask;->url:Ljava/lang/String;
     invoke-static {v1}, Lorg/telegram/messenger/ImageLoader$HttpFileTask;->access$000(Lorg/telegram/messenger/ImageLoader$HttpFileTask;)Ljava/lang/String;
 
     move-result-object v1

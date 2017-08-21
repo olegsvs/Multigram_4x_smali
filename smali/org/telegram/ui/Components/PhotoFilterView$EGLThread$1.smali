@@ -52,7 +52,6 @@
     .line 1451
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->initied:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$2200(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Z
 
     move-result v0
@@ -67,14 +66,12 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->eglContext:Ljavax/microedition/khronos/egl/EGLContext;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$2400(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Ljavax/microedition/khronos/egl/EGLContext;
 
     move-result-object v0
 
     iget-object v5, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->egl10:Ljavax/microedition/khronos/egl/EGL10;
     invoke-static {v5}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$2300(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Ljavax/microedition/khronos/egl/EGL10;
 
     move-result-object v5
@@ -91,14 +88,12 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->eglSurface:Ljavax/microedition/khronos/egl/EGLSurface;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$2500(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Ljavax/microedition/khronos/egl/EGLSurface;
 
     move-result-object v0
 
     iget-object v5, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->egl10:Ljavax/microedition/khronos/egl/EGL10;
     invoke-static {v5}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$2300(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Ljavax/microedition/khronos/egl/EGL10;
 
     move-result-object v5
@@ -119,35 +114,30 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->egl10:Ljavax/microedition/khronos/egl/EGL10;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$2300(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Ljavax/microedition/khronos/egl/EGL10;
 
     move-result-object v0
 
     iget-object v5, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->eglDisplay:Ljavax/microedition/khronos/egl/EGLDisplay;
     invoke-static {v5}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$2600(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Ljavax/microedition/khronos/egl/EGLDisplay;
 
     move-result-object v5
 
     iget-object v6, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->eglSurface:Ljavax/microedition/khronos/egl/EGLSurface;
     invoke-static {v6}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$2500(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Ljavax/microedition/khronos/egl/EGLSurface;
 
     move-result-object v6
 
     iget-object v7, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->eglSurface:Ljavax/microedition/khronos/egl/EGLSurface;
     invoke-static {v7}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$2500(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Ljavax/microedition/khronos/egl/EGLSurface;
 
     move-result-object v7
 
     iget-object v8, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->eglContext:Ljavax/microedition/khronos/egl/EGLContext;
     invoke-static {v8}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$2400(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Ljavax/microedition/khronos/egl/EGLContext;
 
     move-result-object v8
@@ -171,7 +161,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->egl10:Ljavax/microedition/khronos/egl/EGL10;
     invoke-static {v1}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$2300(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Ljavax/microedition/khronos/egl/EGL10;
 
     move-result-object v1
@@ -200,14 +189,12 @@
     :cond_2
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->renderBufferWidth:I
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$2700(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)I
 
     move-result v0
 
     iget-object v5, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->renderBufferHeight:I
     invoke-static {v5}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$2800(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)I
 
     move-result v5
@@ -217,19 +204,16 @@
     .line 1463
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->drawEnhancePass()V
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$2900(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)V
 
     .line 1464
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->drawSharpenPass()V
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$3000(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)V
 
     .line 1465
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->drawCustomParamsPass()V
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$3100(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)V
 
     .line 1466
@@ -237,25 +221,21 @@
 
     iget-object v5, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->drawBlurPass()Z
     invoke-static {v5}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$3300(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Z
 
     move-result v5
 
-    # setter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->blured:Z
     invoke-static {v0, v5}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$3202(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;Z)Z
 
     .line 1469
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->surfaceWidth:I
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$3400(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)I
 
     move-result v0
 
     iget-object v5, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->surfaceHeight:I
     invoke-static {v5}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$3500(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)I
 
     move-result v5
@@ -273,7 +253,6 @@
     .line 1473
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->simpleShaderProgram:I
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$3600(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)I
 
     move-result v0
@@ -290,14 +269,12 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->renderTexture:[I
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$3700(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)[I
 
     move-result-object v6
 
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->blured:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$3200(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Z
 
     move-result v0
@@ -314,7 +291,6 @@
     .line 1476
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->simpleSourceImageHandle:I
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$3800(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)I
 
     move-result v0
@@ -324,7 +300,6 @@
     .line 1477
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->simpleInputTexCoordHandle:I
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$3900(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)I
 
     move-result v0
@@ -334,14 +309,12 @@
     .line 1478
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->simpleInputTexCoordHandle:I
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$3900(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)I
 
     move-result v0
 
     iget-object v5, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->textureBuffer:Ljava/nio/FloatBuffer;
     invoke-static {v5}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$4000(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Ljava/nio/FloatBuffer;
 
     move-result-object v5
@@ -351,7 +324,6 @@
     .line 1479
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->simplePositionHandle:I
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$4100(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)I
 
     move-result v0
@@ -361,14 +333,12 @@
     .line 1480
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->simplePositionHandle:I
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$4100(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)I
 
     move-result v0
 
     iget-object v5, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->vertexBuffer:Ljava/nio/FloatBuffer;
     invoke-static {v5}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$4200(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Ljava/nio/FloatBuffer;
 
     move-result-object v5
@@ -385,21 +355,18 @@
     .line 1482
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->egl10:Ljavax/microedition/khronos/egl/EGL10;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$2300(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Ljavax/microedition/khronos/egl/EGL10;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->eglDisplay:Ljavax/microedition/khronos/egl/EGLDisplay;
     invoke-static {v1}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$2600(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Ljavax/microedition/khronos/egl/EGLDisplay;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread$1;->this$1:Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->eglSurface:Ljavax/microedition/khronos/egl/EGLSurface;
     invoke-static {v2}, Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;->access$2500(Lorg/telegram/ui/Components/PhotoFilterView$EGLThread;)Ljavax/microedition/khronos/egl/EGLSurface;
 
     move-result-object v2

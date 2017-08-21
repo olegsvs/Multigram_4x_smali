@@ -48,7 +48,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/CommonGroupsActivity$2;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # getter for: Lorg/telegram/ui/CommonGroupsActivity;->chats:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/CommonGroupsActivity;->access$000(Lorg/telegram/ui/CommonGroupsActivity;)Ljava/util/ArrayList;
 
     move-result-object v2
@@ -68,7 +67,6 @@
     :cond_1
     iget-object v2, p0, Lorg/telegram/ui/CommonGroupsActivity$2;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # getter for: Lorg/telegram/ui/CommonGroupsActivity;->chats:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/CommonGroupsActivity;->access$000(Lorg/telegram/ui/CommonGroupsActivity;)Ljava/util/ArrayList;
 
     move-result-object v2

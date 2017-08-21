@@ -50,7 +50,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/ImageLoader$ThumbGenerateTask;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->thumbGenerateTasks:Ljava/util/HashMap;
     invoke-static {v0}, Lorg/telegram/messenger/ImageLoader;->access$800(Lorg/telegram/messenger/ImageLoader;)Ljava/util/HashMap;
 
     move-result-object v0

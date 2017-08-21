@@ -51,13 +51,11 @@
 
     iget-boolean v1, p0, Lorg/telegram/ui/Components/PhotoPaintView$21;->val$stroke:Z
 
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->setStroke(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/PhotoPaintView;->access$2600(Lorg/telegram/ui/Components/PhotoPaintView;Z)V
 
     .line 1114
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$21;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->popupWindow:Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$2000(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
 
     move-result-object v0
@@ -66,7 +64,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$21;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->popupWindow:Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$2000(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
 
     move-result-object v0
@@ -80,7 +77,6 @@
     .line 1115
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$21;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->popupWindow:Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$2000(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/ActionBar/ActionBarPopupWindow;
 
     move-result-object v0

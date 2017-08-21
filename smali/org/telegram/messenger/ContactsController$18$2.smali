@@ -128,7 +128,6 @@
 
     iget-object v3, v3, Lorg/telegram/messenger/ContactsController$18;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # invokes: Lorg/telegram/messenger/ContactsController;->buildContactsSectionsArrays(Z)V
     invoke-static {v3, v7}, Lorg/telegram/messenger/ContactsController;->access$1700(Lorg/telegram/messenger/ContactsController;Z)V
 
     .line 1815

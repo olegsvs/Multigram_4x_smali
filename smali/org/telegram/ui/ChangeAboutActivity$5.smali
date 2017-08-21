@@ -44,7 +44,6 @@
     .line 198
     iget-object v0, p0, Lorg/telegram/ui/ChangeAboutActivity$5;->this$0:Lorg/telegram/ui/ChangeAboutActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeAboutActivity;->aboutField:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/ChangeAboutActivity;->access$000(Lorg/telegram/ui/ChangeAboutActivity;)Landroid/widget/EditText;
 
     move-result-object v0
@@ -54,7 +53,6 @@
     .line 199
     iget-object v0, p0, Lorg/telegram/ui/ChangeAboutActivity$5;->this$0:Lorg/telegram/ui/ChangeAboutActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeAboutActivity;->aboutField:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/ChangeAboutActivity;->access$000(Lorg/telegram/ui/ChangeAboutActivity;)Landroid/widget/EditText;
 
     move-result-object v0
@@ -64,7 +62,6 @@
     .line 200
     iget-object v0, p0, Lorg/telegram/ui/ChangeAboutActivity$5;->this$0:Lorg/telegram/ui/ChangeAboutActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeAboutActivity;->aboutField:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/ChangeAboutActivity;->access$000(Lorg/telegram/ui/ChangeAboutActivity;)Landroid/widget/EditText;
 
     move-result-object v0

@@ -163,7 +163,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Views/EntityView;->gestureDetector:Landroid/view/GestureDetector;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$1100(Lorg/telegram/ui/Components/Paint/Views/EntityView;)Landroid/view/GestureDetector;
 
     move-result-object v18
@@ -218,7 +217,6 @@
 
     move-result v19
 
-    # setter for: Lorg/telegram/ui/Components/Paint/Views/EntityView;->previousLocationX:F
     invoke-static/range {v18 .. v19}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$702(Lorg/telegram/ui/Components/Paint/Views/EntityView;F)F
 
     .line 292
@@ -232,7 +230,6 @@
 
     move-result v19
 
-    # setter for: Lorg/telegram/ui/Components/Paint/Views/EntityView;->previousLocationY:F
     invoke-static/range {v18 .. v19}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$802(Lorg/telegram/ui/Components/Paint/Views/EntityView;F)F
 
     .line 293
@@ -244,7 +241,6 @@
 
     const/16 v19, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/Paint/Views/EntityView;->hasReleased:Z
     invoke-static/range {v18 .. v19}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$202(Lorg/telegram/ui/Components/Paint/Views/EntityView;Z)Z
 
     .line 294
@@ -294,7 +290,6 @@
 
     move/from16 v2, v17
 
-    # invokes: Lorg/telegram/ui/Components/Paint/Views/EntityView;->onTouchMove(FF)Z
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$900(Lorg/telegram/ui/Components/Paint/Views/EntityView;FF)Z
 
     move-result v10
@@ -323,7 +318,6 @@
 
     const/16 v19, 0x1
 
-    # setter for: Lorg/telegram/ui/Components/Paint/Views/EntityView;->hasTransformed:Z
     invoke-static/range {v18 .. v19}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$102(Lorg/telegram/ui/Components/Paint/Views/EntityView;Z)Z
 
     .line 309
@@ -339,7 +333,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Views/EntityView;->previousLocationX:F
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$700(Lorg/telegram/ui/Components/Paint/Views/EntityView;)F
 
     move-result v19
@@ -356,7 +349,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Views/EntityView;->previousLocationY:F
     invoke-static/range {v20 .. v20}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$800(Lorg/telegram/ui/Components/Paint/Views/EntityView;)F
 
     move-result v20
@@ -666,7 +658,6 @@
 
     move-result v19
 
-    # setter for: Lorg/telegram/ui/Components/Paint/Views/EntityView;->previousLocationX:F
     invoke-static/range {v18 .. v19}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$702(Lorg/telegram/ui/Components/Paint/Views/EntityView;F)F
 
     .line 335
@@ -680,7 +671,6 @@
 
     move-result v19
 
-    # setter for: Lorg/telegram/ui/Components/Paint/Views/EntityView;->previousLocationY:F
     invoke-static/range {v18 .. v19}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$802(Lorg/telegram/ui/Components/Paint/Views/EntityView;F)F
 
     .line 337
@@ -749,7 +739,6 @@
 
     move-object/from16 v18, v0
 
-    # invokes: Lorg/telegram/ui/Components/Paint/Views/EntityView;->onTouchUp()V
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$1000(Lorg/telegram/ui/Components/Paint/Views/EntityView;)V
 
     .line 346
@@ -820,7 +809,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Components/Paint/Views/EntityView$SelectionView;->this$0:Lorg/telegram/ui/Components/Paint/Views/EntityView;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Views/EntityView;->offsetX:I
     invoke-static {v3}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$500(Lorg/telegram/ui/Components/Paint/Views/EntityView;)I
 
     move-result v3
@@ -836,7 +824,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Components/Paint/Views/EntityView$SelectionView;->this$0:Lorg/telegram/ui/Components/Paint/Views/EntityView;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Views/EntityView;->offsetY:I
     invoke-static {v3}, Lorg/telegram/ui/Components/Paint/Views/EntityView;->access$600(Lorg/telegram/ui/Components/Paint/Views/EntityView;)I
 
     move-result v3

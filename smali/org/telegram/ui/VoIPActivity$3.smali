@@ -47,7 +47,6 @@
     .line 202
     iget-object v1, p0, Lorg/telegram/ui/VoIPActivity$3;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->endBtn:Landroid/view/View;
     invoke-static {v1}, Lorg/telegram/ui/VoIPActivity;->access$200(Lorg/telegram/ui/VoIPActivity;)Landroid/view/View;
 
     move-result-object v1
@@ -57,7 +56,6 @@
     .line 203
     iget-object v1, p0, Lorg/telegram/ui/VoIPActivity$3;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->retrying:Z
     invoke-static {v1}, Lorg/telegram/ui/VoIPActivity;->access$300(Lorg/telegram/ui/VoIPActivity;)Z
 
     move-result v1
@@ -79,7 +77,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/VoIPActivity$3;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->user:Lorg/telegram/tgnet/TLRPC$User;
     invoke-static {v2}, Lorg/telegram/ui/VoIPActivity;->access$400(Lorg/telegram/ui/VoIPActivity;)Lorg/telegram/tgnet/TLRPC$User;
 
     move-result-object v2
@@ -108,13 +105,11 @@
     .line 209
     iget-object v1, p0, Lorg/telegram/ui/VoIPActivity$3;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # invokes: Lorg/telegram/ui/VoIPActivity;->hideRetry()V
     invoke-static {v1}, Lorg/telegram/ui/VoIPActivity;->access$500(Lorg/telegram/ui/VoIPActivity;)V
 
     .line 210
     iget-object v1, p0, Lorg/telegram/ui/VoIPActivity$3;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->endBtn:Landroid/view/View;
     invoke-static {v1}, Lorg/telegram/ui/VoIPActivity;->access$200(Lorg/telegram/ui/VoIPActivity;)Landroid/view/View;
 
     move-result-object v1

@@ -58,7 +58,6 @@
     .line 2589
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentAspectRatioFrameLayout:Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$5500(Lorg/telegram/messenger/MediaController;)Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
 
     move-result-object v0
@@ -67,7 +66,6 @@
 
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentAspectRatioFrameLayout:Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$5500(Lorg/telegram/messenger/MediaController;)Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
 
     move-result-object v0
@@ -81,13 +79,11 @@
     .line 2590
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # setter for: Lorg/telegram/messenger/MediaController;->isDrawingWasReady:Z
     invoke-static {v0, v1}, Lorg/telegram/messenger/MediaController;->access$5602(Lorg/telegram/messenger/MediaController;Z)Z
 
     .line 2591
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentAspectRatioFrameLayout:Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$5500(Lorg/telegram/messenger/MediaController;)Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
 
     move-result-object v0
@@ -97,7 +93,6 @@
     .line 2592
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentTextureViewContainer:Landroid/widget/FrameLayout;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$5200(Lorg/telegram/messenger/MediaController;)Landroid/widget/FrameLayout;
 
     move-result-object v0
@@ -106,7 +101,6 @@
 
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentTextureViewContainer:Landroid/widget/FrameLayout;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$5200(Lorg/telegram/messenger/MediaController;)Landroid/widget/FrameLayout;
 
     move-result-object v0
@@ -120,7 +114,6 @@
     .line 2593
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentTextureViewContainer:Landroid/widget/FrameLayout;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$5200(Lorg/telegram/messenger/MediaController;)Landroid/widget/FrameLayout;
 
     move-result-object v0
@@ -147,7 +140,6 @@
     .line 2541
     iget-object v1, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->videoPlayer:Lorg/telegram/ui/Components/VideoPlayer;
     invoke-static {v1}, Lorg/telegram/messenger/MediaController;->access$2600(Lorg/telegram/messenger/MediaController;)Lorg/telegram/ui/Components/VideoPlayer;
 
     move-result-object v1
@@ -169,7 +161,6 @@
     :try_start_0
     iget-object v1, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->baseActivity:Landroid/app/Activity;
     invoke-static {v1}, Lorg/telegram/messenger/MediaController;->access$5000(Lorg/telegram/messenger/MediaController;)Landroid/app/Activity;
 
     move-result-object v1
@@ -193,13 +184,11 @@
     .line 2558
     iget-object v1, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # setter for: Lorg/telegram/messenger/MediaController;->currentAspectRatioFrameLayoutReady:Z
     invoke-static {v1, v3}, Lorg/telegram/messenger/MediaController;->access$5102(Lorg/telegram/messenger/MediaController;Z)Z
 
     .line 2559
     iget-object v1, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentTextureViewContainer:Landroid/widget/FrameLayout;
     invoke-static {v1}, Lorg/telegram/messenger/MediaController;->access$5200(Lorg/telegram/messenger/MediaController;)Landroid/widget/FrameLayout;
 
     move-result-object v1
@@ -208,7 +197,6 @@
 
     iget-object v1, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentTextureViewContainer:Landroid/widget/FrameLayout;
     invoke-static {v1}, Lorg/telegram/messenger/MediaController;->access$5200(Lorg/telegram/messenger/MediaController;)Landroid/widget/FrameLayout;
 
     move-result-object v1
@@ -222,7 +210,6 @@
     .line 2560
     iget-object v1, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentTextureViewContainer:Landroid/widget/FrameLayout;
     invoke-static {v1}, Lorg/telegram/messenger/MediaController;->access$5200(Lorg/telegram/messenger/MediaController;)Landroid/widget/FrameLayout;
 
     move-result-object v1
@@ -249,7 +236,6 @@
     :try_start_1
     iget-object v1, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->baseActivity:Landroid/app/Activity;
     invoke-static {v1}, Lorg/telegram/messenger/MediaController;->access$5000(Lorg/telegram/messenger/MediaController;)Landroid/app/Activity;
 
     move-result-object v1
@@ -281,7 +267,6 @@
     :cond_3
     iget-object v1, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->videoPlayer:Lorg/telegram/ui/Components/VideoPlayer;
     invoke-static {v1}, Lorg/telegram/messenger/MediaController;->access$2600(Lorg/telegram/messenger/MediaController;)Lorg/telegram/ui/Components/VideoPlayer;
 
     move-result-object v1
@@ -317,7 +302,6 @@
     .line 2601
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->videoPlayer:Lorg/telegram/ui/Components/VideoPlayer;
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$2600(Lorg/telegram/messenger/MediaController;)Lorg/telegram/ui/Components/VideoPlayer;
 
     move-result-object v3
@@ -333,7 +317,6 @@
     :cond_1
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->pipSwitchingState:I
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$5700(Lorg/telegram/messenger/MediaController;)I
 
     move-result v3
@@ -345,7 +328,6 @@
     .line 2605
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentAspectRatioFrameLayout:Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$5500(Lorg/telegram/messenger/MediaController;)Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
 
     move-result-object v3
@@ -355,7 +337,6 @@
     .line 2606
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->isDrawingWasReady:Z
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$5600(Lorg/telegram/messenger/MediaController;)Z
 
     move-result v3
@@ -365,7 +346,6 @@
     .line 2607
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentAspectRatioFrameLayout:Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$5500(Lorg/telegram/messenger/MediaController;)Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
 
     move-result-object v3
@@ -376,7 +356,6 @@
     :cond_2
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentAspectRatioFrameLayout:Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$5500(Lorg/telegram/messenger/MediaController;)Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
 
     move-result-object v3
@@ -390,14 +369,12 @@
     .line 2610
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentTextureViewContainer:Landroid/widget/FrameLayout;
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$5200(Lorg/telegram/messenger/MediaController;)Landroid/widget/FrameLayout;
 
     move-result-object v3
 
     iget-object v4, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentAspectRatioFrameLayout:Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
     invoke-static {v4}, Lorg/telegram/messenger/MediaController;->access$5500(Lorg/telegram/messenger/MediaController;)Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
 
     move-result-object v4
@@ -408,7 +385,6 @@
     :cond_3
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentTextureView:Landroid/view/TextureView;
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$5800(Lorg/telegram/messenger/MediaController;)Landroid/view/TextureView;
 
     move-result-object v3
@@ -422,7 +398,6 @@
     .line 2613
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentTextureView:Landroid/view/TextureView;
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$5800(Lorg/telegram/messenger/MediaController;)Landroid/view/TextureView;
 
     move-result-object v3
@@ -433,14 +408,12 @@
     :cond_4
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->videoPlayer:Lorg/telegram/ui/Components/VideoPlayer;
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$2600(Lorg/telegram/messenger/MediaController;)Lorg/telegram/ui/Components/VideoPlayer;
 
     move-result-object v3
 
     iget-object v4, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentTextureView:Landroid/view/TextureView;
     invoke-static {v4}, Lorg/telegram/messenger/MediaController;->access$5800(Lorg/telegram/messenger/MediaController;)Landroid/view/TextureView;
 
     move-result-object v4
@@ -451,7 +424,6 @@
     :cond_5
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # setter for: Lorg/telegram/messenger/MediaController;->pipSwitchingState:I
     invoke-static {v3, v1}, Lorg/telegram/messenger/MediaController;->access$5702(Lorg/telegram/messenger/MediaController;I)I
 
     move v1, v2
@@ -463,7 +435,6 @@
     :cond_6
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->pipSwitchingState:I
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$5700(Lorg/telegram/messenger/MediaController;)I
 
     move-result v3
@@ -473,7 +444,6 @@
     .line 2620
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->baseActivity:Landroid/app/Activity;
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$5000(Lorg/telegram/messenger/MediaController;)Landroid/app/Activity;
 
     move-result-object v3
@@ -483,7 +453,6 @@
     .line 2621
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->pipRoundVideoView:Lorg/telegram/ui/Components/PipRoundVideoView;
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$5900(Lorg/telegram/messenger/MediaController;)Lorg/telegram/ui/Components/PipRoundVideoView;
 
     move-result-object v3
@@ -498,20 +467,17 @@
 
     invoke-direct {v4}, Lorg/telegram/ui/Components/PipRoundVideoView;-><init>()V
 
-    # setter for: Lorg/telegram/messenger/MediaController;->pipRoundVideoView:Lorg/telegram/ui/Components/PipRoundVideoView;
     invoke-static {v3, v4}, Lorg/telegram/messenger/MediaController;->access$5902(Lorg/telegram/messenger/MediaController;Lorg/telegram/ui/Components/PipRoundVideoView;)Lorg/telegram/ui/Components/PipRoundVideoView;
 
     .line 2624
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->pipRoundVideoView:Lorg/telegram/ui/Components/PipRoundVideoView;
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$5900(Lorg/telegram/messenger/MediaController;)Lorg/telegram/ui/Components/PipRoundVideoView;
 
     move-result-object v3
 
     iget-object v4, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->baseActivity:Landroid/app/Activity;
     invoke-static {v4}, Lorg/telegram/messenger/MediaController;->access$5000(Lorg/telegram/messenger/MediaController;)Landroid/app/Activity;
 
     move-result-object v4
@@ -529,7 +495,6 @@
     :goto_1
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->pipRoundVideoView:Lorg/telegram/ui/Components/PipRoundVideoView;
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$5900(Lorg/telegram/messenger/MediaController;)Lorg/telegram/ui/Components/PipRoundVideoView;
 
     move-result-object v3
@@ -539,7 +504,6 @@
     .line 2635
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->pipRoundVideoView:Lorg/telegram/ui/Components/PipRoundVideoView;
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$5900(Lorg/telegram/messenger/MediaController;)Lorg/telegram/ui/Components/PipRoundVideoView;
 
     move-result-object v3
@@ -557,7 +521,6 @@
     .line 2636
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->pipRoundVideoView:Lorg/telegram/ui/Components/PipRoundVideoView;
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$5900(Lorg/telegram/messenger/MediaController;)Lorg/telegram/ui/Components/PipRoundVideoView;
 
     move-result-object v3
@@ -572,14 +535,12 @@
     :cond_8
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->videoPlayer:Lorg/telegram/ui/Components/VideoPlayer;
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$2600(Lorg/telegram/messenger/MediaController;)Lorg/telegram/ui/Components/VideoPlayer;
 
     move-result-object v3
 
     iget-object v4, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->pipRoundVideoView:Lorg/telegram/ui/Components/PipRoundVideoView;
     invoke-static {v4}, Lorg/telegram/messenger/MediaController;->access$5900(Lorg/telegram/messenger/MediaController;)Lorg/telegram/ui/Components/PipRoundVideoView;
 
     move-result-object v4
@@ -594,7 +555,6 @@
     :cond_9
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # setter for: Lorg/telegram/messenger/MediaController;->pipSwitchingState:I
     invoke-static {v3, v1}, Lorg/telegram/messenger/MediaController;->access$5702(Lorg/telegram/messenger/MediaController;I)I
 
     move v1, v2
@@ -612,7 +572,6 @@
 
     const/4 v4, 0x0
 
-    # setter for: Lorg/telegram/messenger/MediaController;->pipRoundVideoView:Lorg/telegram/ui/Components/PipRoundVideoView;
     invoke-static {v3, v4}, Lorg/telegram/messenger/MediaController;->access$5902(Lorg/telegram/messenger/MediaController;Lorg/telegram/ui/Components/PipRoundVideoView;)Lorg/telegram/ui/Components/PipRoundVideoView;
 
     goto :goto_1
@@ -638,7 +597,6 @@
     .line 2574
     iget-object v1, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # setter for: Lorg/telegram/messenger/MediaController;->currentAspectRatioFrameLayoutRotation:I
     invoke-static {v1, p3}, Lorg/telegram/messenger/MediaController;->access$5302(Lorg/telegram/messenger/MediaController;I)I
 
     .line 2575
@@ -671,13 +629,11 @@
     const/high16 v1, 0x3f800000    # 1.0f
 
     :goto_0
-    # setter for: Lorg/telegram/messenger/MediaController;->currentAspectRatioFrameLayoutRatio:F
     invoke-static {v2, v1}, Lorg/telegram/messenger/MediaController;->access$5402(Lorg/telegram/messenger/MediaController;F)F
 
     .line 2582
     iget-object v1, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentAspectRatioFrameLayout:Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
     invoke-static {v1}, Lorg/telegram/messenger/MediaController;->access$5500(Lorg/telegram/messenger/MediaController;)Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
 
     move-result-object v1
@@ -687,21 +643,18 @@
     .line 2583
     iget-object v1, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentAspectRatioFrameLayout:Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
     invoke-static {v1}, Lorg/telegram/messenger/MediaController;->access$5500(Lorg/telegram/messenger/MediaController;)Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentAspectRatioFrameLayoutRatio:F
     invoke-static {v2}, Lorg/telegram/messenger/MediaController;->access$5400(Lorg/telegram/messenger/MediaController;)F
 
     move-result v2
 
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$14;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->currentAspectRatioFrameLayoutRotation:I
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$5300(Lorg/telegram/messenger/MediaController;)I
 
     move-result v3

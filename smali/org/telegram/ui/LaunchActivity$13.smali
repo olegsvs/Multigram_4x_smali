@@ -47,7 +47,6 @@
     .line 1816
     iget-object v2, p0, Lorg/telegram/ui/LaunchActivity$13;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->visibleDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v2}, Lorg/telegram/ui/LaunchActivity;->access$1700(Lorg/telegram/ui/LaunchActivity;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     move-result-object v2
@@ -56,14 +55,12 @@
 
     iget-object v2, p0, Lorg/telegram/ui/LaunchActivity$13;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->visibleDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v2}, Lorg/telegram/ui/LaunchActivity;->access$1700(Lorg/telegram/ui/LaunchActivity;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     move-result-object v2
 
     iget-object v3, p0, Lorg/telegram/ui/LaunchActivity$13;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->localeDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v3}, Lorg/telegram/ui/LaunchActivity;->access$1800(Lorg/telegram/ui/LaunchActivity;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     move-result-object v3
@@ -98,7 +95,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/LaunchActivity$13;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->englishLocaleStrings:Ljava/util/HashMap;
     invoke-static {v2}, Lorg/telegram/ui/LaunchActivity;->access$1900(Lorg/telegram/ui/LaunchActivity;)Ljava/util/HashMap;
 
     move-result-object v2
@@ -108,7 +104,6 @@
 
     const v6, 0x7f070110
 
-    # invokes: Lorg/telegram/ui/LaunchActivity;->getStringForLanguageAlert(Ljava/util/HashMap;Ljava/lang/String;I)Ljava/lang/String;
     invoke-static {v4, v2, v5, v6}, Lorg/telegram/ui/LaunchActivity;->access$2100(Lorg/telegram/ui/LaunchActivity;Ljava/util/HashMap;Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v2
@@ -128,14 +123,12 @@
     :goto_1
     iget-object v2, p0, Lorg/telegram/ui/LaunchActivity$13;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # setter for: Lorg/telegram/ui/LaunchActivity;->localeDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v2, v7}, Lorg/telegram/ui/LaunchActivity;->access$1802(Lorg/telegram/ui/LaunchActivity;Lorg/telegram/ui/ActionBar/AlertDialog;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     .line 1825
     :cond_0
     iget-object v2, p0, Lorg/telegram/ui/LaunchActivity$13;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # setter for: Lorg/telegram/ui/LaunchActivity;->visibleDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v2, v7}, Lorg/telegram/ui/LaunchActivity;->access$1702(Lorg/telegram/ui/LaunchActivity;Lorg/telegram/ui/ActionBar/AlertDialog;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     .line 1826
@@ -147,7 +140,6 @@
     :try_start_1
     iget-object v2, p0, Lorg/telegram/ui/LaunchActivity$13;->this$0:Lorg/telegram/ui/LaunchActivity;
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->systemLocaleStrings:Ljava/util/HashMap;
     invoke-static {v2}, Lorg/telegram/ui/LaunchActivity;->access$2000(Lorg/telegram/ui/LaunchActivity;)Ljava/util/HashMap;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0

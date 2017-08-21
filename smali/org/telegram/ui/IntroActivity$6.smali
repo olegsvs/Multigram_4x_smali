@@ -3,12 +3,12 @@
 .source "IntroActivity.java"
 
 # interfaces
-.implements Lorg/telegram/tgnet/RequestDelegate;
+.implements Landroid/view/View$OnClickListener;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lorg/telegram/ui/IntroActivity;->checkContinueText()V
+    value = Lorg/telegram/ui/IntroActivity;->onCreate(Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lorg/telegram/ui/IntroActivity;
 
     .prologue
-    .line 409
+    .line 341
     iput-object p1, p0, Lorg/telegram/ui/IntroActivity$6;->this$0:Lorg/telegram/ui/IntroActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -37,61 +37,78 @@
 
 
 # virtual methods
-.method public run(Lorg/telegram/tgnet/TLObject;Lorg/telegram/tgnet/TLRPC$TL_error;)V
+.method public onClick(Landroid/view/View;)V
     .locals 4
-    .param p1, "response"    # Lorg/telegram/tgnet/TLObject;
-    .param p2, "error"    # Lorg/telegram/tgnet/TLRPC$TL_error;
+    .param p1, "v"    # Landroid/view/View;
 
     .prologue
-    .line 412
-    if-eqz p1, :cond_0
+    const/4 v3, 0x1
 
-    move-object v1, p1
+    .line 344
+    iget-object v1, p0, Lorg/telegram/ui/IntroActivity$6;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    .line 413
-    check-cast v1, Lorg/telegram/tgnet/TLRPC$Vector;
+    invoke-static {v1}, Lorg/telegram/ui/IntroActivity;->access$1000(Lorg/telegram/ui/IntroActivity;)Z
 
-    .line 414
-    .local v1, "vector":Lorg/telegram/tgnet/TLRPC$Vector;
-    iget-object v2, v1, Lorg/telegram/tgnet/TLRPC$Vector;->objects:Ljava/util/ArrayList;
+    move-result v1
 
-    invoke-virtual {v2}, Ljava/util/ArrayList;->isEmpty()Z
+    if-nez v1, :cond_0
 
-    move-result v2
+    iget-object v1, p0, Lorg/telegram/ui/IntroActivity$6;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    if-eqz v2, :cond_1
+    invoke-static {v1}, Lorg/telegram/ui/IntroActivity;->access$1100(Lorg/telegram/ui/IntroActivity;)Lorg/telegram/messenger/LocaleController$LocaleInfo;
 
-    .line 427
-    .end local v1    # "vector":Lorg/telegram/tgnet/TLRPC$Vector;
+    move-result-object v1
+
+    if-nez v1, :cond_1
+
+    .line 353
     :cond_0
     :goto_0
     return-void
 
-    .line 417
-    .restart local v1    # "vector":Lorg/telegram/tgnet/TLRPC$Vector;
+    .line 347
     :cond_1
-    iget-object v2, v1, Lorg/telegram/tgnet/TLRPC$Vector;->objects:Ljava/util/ArrayList;
+    invoke-static {}, Lorg/telegram/messenger/LocaleController;->getInstance()Lorg/telegram/messenger/LocaleController;
 
-    const/4 v3, 0x0
+    move-result-object v1
 
-    invoke-virtual {v2, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    iget-object v2, p0, Lorg/telegram/ui/IntroActivity$6;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    move-result-object v0
+    invoke-static {v2}, Lorg/telegram/ui/IntroActivity;->access$1100(Lorg/telegram/ui/IntroActivity;)Lorg/telegram/messenger/LocaleController$LocaleInfo;
 
-    check-cast v0, Lorg/telegram/tgnet/TLRPC$LangPackString;
+    move-result-object v2
 
-    .line 418
-    .local v0, "string":Lorg/telegram/tgnet/TLRPC$LangPackString;
-    instance-of v2, v0, Lorg/telegram/tgnet/TLRPC$TL_langPackString;
+    invoke-virtual {v1, v2, v3}, Lorg/telegram/messenger/LocaleController;->applyLanguage(Lorg/telegram/messenger/LocaleController$LocaleInfo;Z)V
 
-    if-eqz v2, :cond_0
+    .line 348
+    iget-object v1, p0, Lorg/telegram/ui/IntroActivity$6;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    .line 419
-    new-instance v2, Lorg/telegram/ui/IntroActivity$6$1;
+    invoke-static {v1, v3}, Lorg/telegram/ui/IntroActivity;->access$1002(Lorg/telegram/ui/IntroActivity;Z)Z
 
-    invoke-direct {v2, p0, v0}, Lorg/telegram/ui/IntroActivity$6$1;-><init>(Lorg/telegram/ui/IntroActivity$6;Lorg/telegram/tgnet/TLRPC$LangPackString;)V
+    .line 349
+    new-instance v0, Landroid/content/Intent;
 
-    invoke-static {v2}, Lorg/telegram/messenger/AndroidUtilities;->runOnUIThread(Ljava/lang/Runnable;)V
+    iget-object v1, p0, Lorg/telegram/ui/IntroActivity$6;->this$0:Lorg/telegram/ui/IntroActivity;
+
+    const-class v2, Lorg/telegram/ui/LaunchActivity;
+
+    invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+    .line 350
+    .local v0, "intent2":Landroid/content/Intent;
+    const-string/jumbo v1, "fromIntro"
+
+    invoke-virtual {v0, v1, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+
+    .line 351
+    iget-object v1, p0, Lorg/telegram/ui/IntroActivity$6;->this$0:Lorg/telegram/ui/IntroActivity;
+
+    invoke-virtual {v1, v0}, Lorg/telegram/ui/IntroActivity;->startActivity(Landroid/content/Intent;)V
+
+    .line 352
+    iget-object v1, p0, Lorg/telegram/ui/IntroActivity$6;->this$0:Lorg/telegram/ui/IntroActivity;
+
+    invoke-virtual {v1}, Lorg/telegram/ui/IntroActivity;->finish()V
 
     goto :goto_0
 .end method

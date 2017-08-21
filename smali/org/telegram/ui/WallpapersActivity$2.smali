@@ -79,7 +79,6 @@
 
     move-object/from16 v17, v0
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->wallpappersByIds:Ljava/util/HashMap;
     invoke-static/range {v17 .. v17}, Lorg/telegram/ui/WallpapersActivity;->access$500(Lorg/telegram/ui/WallpapersActivity;)Ljava/util/HashMap;
 
     move-result-object v17
@@ -90,7 +89,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->selectedBackground:I
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/WallpapersActivity;->access$000(Lorg/telegram/ui/WallpapersActivity;)I
 
     move-result v18
@@ -308,7 +306,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->selectedBackground:I
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/WallpapersActivity;->access$000(Lorg/telegram/ui/WallpapersActivity;)I
 
     move-result v18
@@ -328,7 +325,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->selectedColor:I
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/WallpapersActivity;->access$200(Lorg/telegram/ui/WallpapersActivity;)I
 
     move-result v18
@@ -354,7 +350,6 @@
 
     move-object/from16 v17, v0
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->overrideThemeWallpaper:Z
     invoke-static/range {v17 .. v17}, Lorg/telegram/ui/WallpapersActivity;->access$100(Lorg/telegram/ui/WallpapersActivity;)Z
 
     move-result v17
@@ -466,7 +461,6 @@
 
     move-object/from16 v17, v0
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->selectedBackground:I
     invoke-static/range {v17 .. v17}, Lorg/telegram/ui/WallpapersActivity;->access$000(Lorg/telegram/ui/WallpapersActivity;)I
 
     move-result v17
@@ -486,7 +480,6 @@
 
     move-object/from16 v17, v0
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->updater:Lorg/telegram/ui/Components/WallpaperUpdater;
     invoke-static/range {v17 .. v17}, Lorg/telegram/ui/WallpapersActivity;->access$600(Lorg/telegram/ui/WallpapersActivity;)Lorg/telegram/ui/Components/WallpaperUpdater;
 
     move-result-object v17

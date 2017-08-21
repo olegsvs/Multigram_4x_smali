@@ -63,7 +63,6 @@
     .line 68
     iget-object v1, p0, Lorg/telegram/ui/ReportOtherActivity$1;->this$0:Lorg/telegram/ui/ReportOtherActivity;
 
-    # getter for: Lorg/telegram/ui/ReportOtherActivity;->firstNameField:Landroid/widget/EditText;
     invoke-static {v1}, Lorg/telegram/ui/ReportOtherActivity;->access$000(Lorg/telegram/ui/ReportOtherActivity;)Landroid/widget/EditText;
 
     move-result-object v1
@@ -87,7 +86,6 @@
     .local v0, "req":Lorg/telegram/tgnet/TLRPC$TL_account_reportPeer;
     iget-object v1, p0, Lorg/telegram/ui/ReportOtherActivity$1;->this$0:Lorg/telegram/ui/ReportOtherActivity;
 
-    # getter for: Lorg/telegram/ui/ReportOtherActivity;->dialog_id:J
     invoke-static {v1}, Lorg/telegram/ui/ReportOtherActivity;->access$100(Lorg/telegram/ui/ReportOtherActivity;)J
 
     move-result-wide v2
@@ -112,7 +110,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ReportOtherActivity$1;->this$0:Lorg/telegram/ui/ReportOtherActivity;
 
-    # getter for: Lorg/telegram/ui/ReportOtherActivity;->firstNameField:Landroid/widget/EditText;
     invoke-static {v2}, Lorg/telegram/ui/ReportOtherActivity;->access$000(Lorg/telegram/ui/ReportOtherActivity;)Landroid/widget/EditText;
 
     move-result-object v2

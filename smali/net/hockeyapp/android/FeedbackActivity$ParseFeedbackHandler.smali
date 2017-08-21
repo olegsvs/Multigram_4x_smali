@@ -81,7 +81,6 @@
 
     invoke-direct {v4}, Lnet/hockeyapp/android/objects/ErrorObject;-><init>()V
 
-    # setter for: Lnet/hockeyapp/android/FeedbackActivity;->mError:Lnet/hockeyapp/android/objects/ErrorObject;
     invoke-static {v1, v4}, Lnet/hockeyapp/android/FeedbackActivity;->access$002(Lnet/hockeyapp/android/FeedbackActivity;Lnet/hockeyapp/android/objects/ErrorObject;)Lnet/hockeyapp/android/objects/ErrorObject;
 
     .line 867
@@ -147,13 +146,11 @@
     invoke-virtual {v4, v1, v5}, Lnet/hockeyapp/android/utils/PrefsUtil;->saveFeedbackTokenToPrefs(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 879
-    # invokes: Lnet/hockeyapp/android/FeedbackActivity;->loadFeedbackMessages(Lnet/hockeyapp/android/objects/FeedbackResponse;)V
     invoke-static {v1, v2}, Lnet/hockeyapp/android/FeedbackActivity;->access$800(Lnet/hockeyapp/android/FeedbackActivity;Lnet/hockeyapp/android/objects/FeedbackResponse;)V
 
     .line 880
     const/4 v4, 0x0
 
-    # setter for: Lnet/hockeyapp/android/FeedbackActivity;->mInSendFeedback:Z
     invoke-static {v1, v4}, Lnet/hockeyapp/android/FeedbackActivity;->access$902(Lnet/hockeyapp/android/FeedbackActivity;Z)Z
 
     .line 889

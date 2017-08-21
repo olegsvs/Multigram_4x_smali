@@ -49,7 +49,6 @@
     invoke-direct {p0, p2}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
     .line 478
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->paint:Landroid/graphics/Paint;
     invoke-static {p1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2500(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/Paint;
 
     move-result-object v0
@@ -63,7 +62,6 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 479
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->paintRecord:Landroid/graphics/Paint;
     invoke-static {p1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2600(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/Paint;
 
     move-result-object v0
@@ -87,11 +85,9 @@
 
     move-result-object v0
 
-    # setter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {p1, v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2702(Lorg/telegram/ui/Components/ChatActivityEnterView;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     .line 482
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {p1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2700(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -121,11 +117,9 @@
 
     move-result-object v0
 
-    # setter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockTopDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {p1, v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2802(Lorg/telegram/ui/Components/ChatActivityEnterView;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     .line 484
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockTopDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {p1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2800(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -155,11 +149,9 @@
 
     move-result-object v0
 
-    # setter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockArrowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {p1, v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2902(Lorg/telegram/ui/Components/ChatActivityEnterView;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     .line 486
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockArrowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {p1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2900(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -189,11 +181,9 @@
 
     move-result-object v0
 
-    # setter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockBackgroundDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {p1, v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3002(Lorg/telegram/ui/Components/ChatActivityEnterView;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     .line 488
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockBackgroundDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {p1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3000(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -223,11 +213,9 @@
 
     move-result-object v0
 
-    # setter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockShadowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {p1, v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3102(Lorg/telegram/ui/Components/ChatActivityEnterView;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     .line 490
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockShadowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {p1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3100(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -261,11 +249,9 @@
 
     move-result-object v0
 
-    # setter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->micDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {p1, v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3202(Lorg/telegram/ui/Components/ChatActivityEnterView;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     .line 493
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->micDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {p1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3200(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -299,11 +285,9 @@
 
     move-result-object v0
 
-    # setter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->cameraDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {p1, v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3302(Lorg/telegram/ui/Components/ChatActivityEnterView;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     .line 496
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->cameraDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {p1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3300(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -337,11 +321,9 @@
 
     move-result-object v0
 
-    # setter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->sendDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {p1, v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3402(Lorg/telegram/ui/Components/ChatActivityEnterView;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     .line 499
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->sendDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {p1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3400(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -747,7 +729,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->paintRecord:Landroid/graphics/Paint;
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2600(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/Paint;
 
     move-result-object v25
@@ -804,7 +785,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->paint:Landroid/graphics/Paint;
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2500(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/Paint;
 
     move-result-object v25
@@ -835,7 +815,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->sendDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3400(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v9
@@ -1094,7 +1073,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockBackgroundDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3000(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -1110,7 +1088,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockShadowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3100(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -1126,7 +1103,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockTopDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2800(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -1142,7 +1118,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2700(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -1158,7 +1133,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockArrowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2900(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -1185,7 +1159,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockBackgroundDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3000(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -1227,7 +1200,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockBackgroundDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3000(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -1245,7 +1217,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockShadowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3100(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -1293,7 +1264,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockShadowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3100(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -1311,7 +1281,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockTopDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2800(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -1359,7 +1328,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockTopDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2800(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -1377,7 +1345,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2700(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -1423,7 +1390,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2700(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -1441,7 +1407,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockArrowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2900(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -1487,7 +1452,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockArrowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2900(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -1512,7 +1476,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->redDotPaint:Landroid/graphics/Paint;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2400(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/Paint;
 
     move-result-object v22
@@ -1528,7 +1491,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->rect:Landroid/graphics/RectF;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3500(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/RectF;
 
     move-result-object v22
@@ -1598,7 +1560,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->rect:Landroid/graphics/RectF;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3500(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/RectF;
 
     move-result-object v22
@@ -1633,7 +1594,6 @@
 
     move-object/from16 v25, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->redDotPaint:Landroid/graphics/Paint;
     invoke-static/range {v25 .. v25}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2400(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/Paint;
 
     move-result-object v25
@@ -1785,7 +1745,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->videoSendButton:Landroid/widget/ImageView;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$1700(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/widget/ImageView;
 
     move-result-object v22
@@ -1798,7 +1757,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->videoSendButton:Landroid/widget/ImageView;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$1700(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/widget/ImageView;
 
     move-result-object v22
@@ -1815,7 +1773,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->cameraDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3300(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v9
@@ -1832,7 +1789,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->micDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3200(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v9
@@ -2019,7 +1975,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockBackgroundDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3000(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -2035,7 +1990,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockShadowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3100(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -2051,7 +2005,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockTopDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2800(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -2067,7 +2020,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2700(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -2083,7 +2035,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockArrowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$2900(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v22
@@ -2145,7 +2096,6 @@
     .line 566
     iget-object v4, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$RecordCircle;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockBackgroundDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {v4}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3000(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v4
@@ -2187,7 +2137,6 @@
     .line 571
     iget-object v4, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$RecordCircle;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->lockBackgroundDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {v4}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3000(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v4
@@ -2205,7 +2154,6 @@
     .line 572
     iget-object v4, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$RecordCircle;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->videoSendButton:Landroid/widget/ImageView;
     invoke-static {v4}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$1700(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/widget/ImageView;
 
     move-result-object v4
@@ -2214,7 +2162,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$RecordCircle;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->videoSendButton:Landroid/widget/ImageView;
     invoke-static {v4}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$1700(Lorg/telegram/ui/Components/ChatActivityEnterView;)Landroid/widget/ImageView;
 
     move-result-object v4
@@ -2228,7 +2175,6 @@
     .line 573
     iget-object v3, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$RecordCircle;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->delegate:Lorg/telegram/ui/Components/ChatActivityEnterView$ChatActivityEnterViewDelegate;
     invoke-static {v3}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$1000(Lorg/telegram/ui/Components/ChatActivityEnterView;)Lorg/telegram/ui/Components/ChatActivityEnterView$ChatActivityEnterViewDelegate;
 
     move-result-object v3
@@ -2252,7 +2198,6 @@
     .line 576
     iget-object v4, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$RecordCircle;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatActivityEnterView;->delegate:Lorg/telegram/ui/Components/ChatActivityEnterView$ChatActivityEnterViewDelegate;
     invoke-static {v4}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$1000(Lorg/telegram/ui/Components/ChatActivityEnterView;)Lorg/telegram/ui/Components/ChatActivityEnterView$ChatActivityEnterViewDelegate;
 
     move-result-object v4

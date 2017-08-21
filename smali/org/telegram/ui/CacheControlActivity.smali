@@ -11,10 +11,12 @@
 .end annotation
 
 
+# static fields
+.field public static mainconfig:Ljava/lang/String;
+
+
 # instance fields
 .field private audioSize:J
-
-.field public static mainconfig:Ljava/lang/String;
 
 .field private cacheInfoRow:I
 
@@ -62,7 +64,7 @@
     .locals 4
 
     .prologue
-	new-instance v0, Ljava/lang/StringBuilder;
+    new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
@@ -85,7 +87,7 @@
     move-result-object v0
 
     sput-object v0, Lorg/telegram/ui/CacheControlActivity;->mainconfig:Ljava/lang/String;
-	
+
     const-wide/16 v2, -0x1
 
     .line 59

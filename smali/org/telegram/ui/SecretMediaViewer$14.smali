@@ -44,7 +44,6 @@
     .line 1315
     iget-object v2, p0, Lorg/telegram/ui/SecretMediaViewer$14;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->centerImage:Lorg/telegram/messenger/ImageReceiver;
     invoke-static {v2}, Lorg/telegram/ui/SecretMediaViewer;->access$3100(Lorg/telegram/ui/SecretMediaViewer;)Lorg/telegram/messenger/ImageReceiver;
 
     move-result-object v3
@@ -59,7 +58,6 @@
     :try_start_0
     iget-object v2, p0, Lorg/telegram/ui/SecretMediaViewer$14;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->windowView:Landroid/widget/FrameLayout;
     invoke-static {v2}, Lorg/telegram/ui/SecretMediaViewer;->access$2000(Lorg/telegram/ui/SecretMediaViewer;)Landroid/widget/FrameLayout;
 
     move-result-object v2
@@ -73,7 +71,6 @@
     .line 1318
     iget-object v2, p0, Lorg/telegram/ui/SecretMediaViewer$14;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->parentActivity:Landroid/app/Activity;
     invoke-static {v2}, Lorg/telegram/ui/SecretMediaViewer;->access$600(Lorg/telegram/ui/SecretMediaViewer;)Landroid/app/Activity;
 
     move-result-object v2
@@ -90,7 +87,6 @@
     .local v1, "wm":Landroid/view/WindowManager;
     iget-object v2, p0, Lorg/telegram/ui/SecretMediaViewer$14;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->windowView:Landroid/widget/FrameLayout;
     invoke-static {v2}, Lorg/telegram/ui/SecretMediaViewer;->access$2000(Lorg/telegram/ui/SecretMediaViewer;)Landroid/widget/FrameLayout;
 
     move-result-object v2
@@ -107,7 +103,6 @@
 
     const/4 v3, 0x0
 
-    # setter for: Lorg/telegram/ui/SecretMediaViewer;->isPhotoVisible:Z
     invoke-static {v2, v3}, Lorg/telegram/ui/SecretMediaViewer;->access$702(Lorg/telegram/ui/SecretMediaViewer;Z)Z
 
     .line 1325

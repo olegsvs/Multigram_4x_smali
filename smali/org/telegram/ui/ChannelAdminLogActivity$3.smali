@@ -45,13 +45,11 @@
 
     const-string/jumbo v1, ""
 
-    # setter for: Lorg/telegram/ui/ChannelAdminLogActivity;->searchQuery:Ljava/lang/String;
     invoke-static {v0, v1}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$1102(Lorg/telegram/ui/ChannelAdminLogActivity;Ljava/lang/String;)Ljava/lang/String;
 
     .line 457
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$3;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->avatarContainer:Lorg/telegram/ui/Components/ChatAvatarContainer;
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$1200(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/ui/Components/ChatAvatarContainer;
 
     move-result-object v0
@@ -61,7 +59,6 @@
     .line 458
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$3;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->searchWas:Z
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$1300(Lorg/telegram/ui/ChannelAdminLogActivity;)Z
 
     move-result v0
@@ -71,7 +68,6 @@
     .line 459
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$3;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelAdminLogActivity;->searchWas:Z
     invoke-static {v0, v2}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$1302(Lorg/telegram/ui/ChannelAdminLogActivity;Z)Z
 
     .line 460
@@ -79,14 +75,12 @@
 
     const/4 v1, 0x1
 
-    # invokes: Lorg/telegram/ui/ChannelAdminLogActivity;->loadMessages(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$1400(Lorg/telegram/ui/ChannelAdminLogActivity;Z)V
 
     .line 466
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$3;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelAdminLogActivity;->updateBottomOverlay()V
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$1500(Lorg/telegram/ui/ChannelAdminLogActivity;)V
 
     .line 467
@@ -100,7 +94,6 @@
     .line 471
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$3;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->avatarContainer:Lorg/telegram/ui/Components/ChatAvatarContainer;
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$1200(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/ui/Components/ChatAvatarContainer;
 
     move-result-object v0
@@ -112,7 +105,6 @@
     .line 472
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$3;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelAdminLogActivity;->updateBottomOverlay()V
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$1500(Lorg/telegram/ui/ChannelAdminLogActivity;)V
 
     .line 473
@@ -129,7 +121,6 @@
     .line 477
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$3;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelAdminLogActivity;->searchWas:Z
     invoke-static {v0, v2}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$1302(Lorg/telegram/ui/ChannelAdminLogActivity;Z)Z
 
     .line 478
@@ -143,13 +134,11 @@
 
     move-result-object v1
 
-    # setter for: Lorg/telegram/ui/ChannelAdminLogActivity;->searchQuery:Ljava/lang/String;
     invoke-static {v0, v1}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$1102(Lorg/telegram/ui/ChannelAdminLogActivity;Ljava/lang/String;)Ljava/lang/String;
 
     .line 479
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$3;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelAdminLogActivity;->loadMessages(Z)V
     invoke-static {v0, v2}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$1400(Lorg/telegram/ui/ChannelAdminLogActivity;Z)V
 
     .line 481

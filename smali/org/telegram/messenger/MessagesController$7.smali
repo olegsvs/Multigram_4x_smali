@@ -57,7 +57,6 @@
     .line 797
     iget-object v0, p0, Lorg/telegram/messenger/MessagesController$7;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->createdDialogIds:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/messenger/MessagesController;->access$1000(Lorg/telegram/messenger/MessagesController;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -78,7 +77,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/messenger/MessagesController$7;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->createdDialogIds:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/messenger/MessagesController;->access$1000(Lorg/telegram/messenger/MessagesController;)Ljava/util/ArrayList;
 
     move-result-object v0

@@ -145,7 +145,6 @@
     if-eq v0, v1, :cond_0
 
     .line 1149
-    # getter for: Lorg/telegram/messenger/ContactsController;->loadContactsSync:Ljava/lang/Object;
     invoke-static {}, Lorg/telegram/messenger/ContactsController;->access$300()Ljava/lang/Object;
 
     move-result-object v1
@@ -162,7 +161,6 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/messenger/ContactsController;->loadingContacts:Z
     invoke-static {v0, v2}, Lorg/telegram/messenger/ContactsController;->access$402(Lorg/telegram/messenger/ContactsController;Z)Z
 
     .line 1151
@@ -178,7 +176,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/ContactsController$8;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # invokes: Lorg/telegram/messenger/ContactsController;->performWriteContactsToPhoneBook()V
     invoke-static {v0}, Lorg/telegram/messenger/ContactsController;->access$1200(Lorg/telegram/messenger/ContactsController;)V
 
     .line 1154
@@ -194,7 +191,6 @@
 
     iget-object v1, v1, Lorg/telegram/messenger/ContactsController$8;->val$contactsArr:Ljava/util/ArrayList;
 
-    # invokes: Lorg/telegram/messenger/ContactsController;->updateUnregisteredContacts(Ljava/util/ArrayList;)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/ContactsController;->access$1000(Lorg/telegram/messenger/ContactsController;Ljava/util/ArrayList;)V
 
     .line 1156
@@ -232,7 +228,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/ContactsController$8;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # invokes: Lorg/telegram/messenger/ContactsController;->saveContactsLoadTime()V
     invoke-static {v0}, Lorg/telegram/messenger/ContactsController;->access$1300(Lorg/telegram/messenger/ContactsController;)V
 
     .line 1163
@@ -258,7 +253,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/ContactsController$8;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # invokes: Lorg/telegram/messenger/ContactsController;->reloadContactsStatusesMaybe()V
     invoke-static {v0}, Lorg/telegram/messenger/ContactsController;->access$1400(Lorg/telegram/messenger/ContactsController;)V
 
     goto :goto_0

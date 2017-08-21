@@ -98,7 +98,6 @@
 
     iget v13, v8, Lorg/telegram/tgnet/TLRPC$TL_messages_allStickers;->hash:I
 
-    # invokes: Lorg/telegram/messenger/query/StickersQuery;->processLoadedStickers(ILjava/util/ArrayList;ZII)V
     invoke-static {v2, v4, v3, v12, v13}, Lorg/telegram/messenger/query/StickersQuery;->access$2000(ILjava/util/ArrayList;ZII)V
 
     .line 928
@@ -141,7 +140,6 @@
 
     .line 880
     .local v7, "stickerSet":Lorg/telegram/tgnet/TLRPC$StickerSet;
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->stickerSetsById:Ljava/util/HashMap;
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$2100()Ljava/util/HashMap;
 
     move-result-object v2
@@ -239,7 +237,6 @@
 
     iget v13, v8, Lorg/telegram/tgnet/TLRPC$TL_messages_allStickers;->hash:I
 
-    # invokes: Lorg/telegram/messenger/query/StickersQuery;->processLoadedStickers(ILjava/util/ArrayList;ZII)V
     invoke-static {v2, v4, v3, v12, v13}, Lorg/telegram/messenger/query/StickersQuery;->access$2000(ILjava/util/ArrayList;ZII)V
 
     .line 877
@@ -337,7 +334,6 @@
 
     iget v14, v14, Lorg/telegram/messenger/query/StickersQuery$21;->val$hash:I
 
-    # invokes: Lorg/telegram/messenger/query/StickersQuery;->processLoadedStickers(ILjava/util/ArrayList;ZII)V
     invoke-static {v2, v3, v12, v13, v14}, Lorg/telegram/messenger/query/StickersQuery;->access$2000(ILjava/util/ArrayList;ZII)V
 
     goto/16 :goto_0

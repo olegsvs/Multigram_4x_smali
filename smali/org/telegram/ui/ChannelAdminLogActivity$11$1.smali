@@ -59,7 +59,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelAdminLogActivity$11;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelAdminLogActivity;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v0, p1}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4502(Lorg/telegram/ui/ChannelAdminLogActivity;Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     .line 819
@@ -67,7 +66,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelAdminLogActivity$11;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelAdminLogActivity;->selectedAdmins:Ljava/util/HashMap;
     invoke-static {v0, p2}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4602(Lorg/telegram/ui/ChannelAdminLogActivity;Ljava/util/HashMap;)Ljava/util/HashMap;
 
     .line 820
@@ -75,7 +73,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelAdminLogActivity$11;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4500(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v0
@@ -86,7 +83,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelAdminLogActivity$11;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->selectedAdmins:Ljava/util/HashMap;
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4600(Lorg/telegram/ui/ChannelAdminLogActivity;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -99,7 +95,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelAdminLogActivity$11;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->avatarContainer:Lorg/telegram/ui/Components/ChatAvatarContainer;
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$1200(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/ui/Components/ChatAvatarContainer;
 
     move-result-object v0
@@ -122,7 +117,6 @@
 
     const/4 v1, 0x1
 
-    # invokes: Lorg/telegram/ui/ChannelAdminLogActivity;->loadMessages(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$1400(Lorg/telegram/ui/ChannelAdminLogActivity;Z)V
 
     .line 826
@@ -134,7 +128,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelAdminLogActivity$11;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->avatarContainer:Lorg/telegram/ui/Components/ChatAvatarContainer;
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$1200(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/ui/Components/ChatAvatarContainer;
 
     move-result-object v0

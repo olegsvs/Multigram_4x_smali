@@ -1801,7 +1801,6 @@
     :goto_3
     iget-object v11, p0, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->this$0:Lorg/telegram/ui/ChangePhoneActivity;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity;->checkPermissions:Z
     invoke-static {v11}, Lorg/telegram/ui/ChangePhoneActivity;->access$1200(Lorg/telegram/ui/ChangePhoneActivity;)Z
 
     move-result v11
@@ -1811,7 +1810,6 @@
     .line 727
     iget-object v11, p0, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->this$0:Lorg/telegram/ui/ChangePhoneActivity;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static {v11}, Lorg/telegram/ui/ChangePhoneActivity;->access$1300(Lorg/telegram/ui/ChangePhoneActivity;)Ljava/util/ArrayList;
 
     move-result-object v11
@@ -1824,7 +1822,6 @@
     .line 729
     iget-object v11, p0, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->this$0:Lorg/telegram/ui/ChangePhoneActivity;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static {v11}, Lorg/telegram/ui/ChangePhoneActivity;->access$1300(Lorg/telegram/ui/ChangePhoneActivity;)Ljava/util/ArrayList;
 
     move-result-object v11
@@ -1840,7 +1837,6 @@
     .line 732
     iget-object v11, p0, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->this$0:Lorg/telegram/ui/ChangePhoneActivity;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static {v11}, Lorg/telegram/ui/ChangePhoneActivity;->access$1300(Lorg/telegram/ui/ChangePhoneActivity;)Ljava/util/ArrayList;
 
     move-result-object v11
@@ -1853,7 +1849,6 @@
     :cond_3
     iget-object v11, p0, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->this$0:Lorg/telegram/ui/ChangePhoneActivity;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static {v11}, Lorg/telegram/ui/ChangePhoneActivity;->access$1300(Lorg/telegram/ui/ChangePhoneActivity;)Ljava/util/ArrayList;
 
     move-result-object v11
@@ -1970,7 +1965,6 @@
     .line 741
     iget-object v11, p0, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->this$0:Lorg/telegram/ui/ChangePhoneActivity;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static {v11}, Lorg/telegram/ui/ChangePhoneActivity;->access$1300(Lorg/telegram/ui/ChangePhoneActivity;)Ljava/util/ArrayList;
 
     move-result-object v11
@@ -2008,7 +2002,6 @@
 
     move-result-object v12
 
-    # setter for: Lorg/telegram/ui/ChangePhoneActivity;->permissionsDialog:Landroid/app/Dialog;
     invoke-static {v11, v12}, Lorg/telegram/ui/ChangePhoneActivity;->access$1402(Lorg/telegram/ui/ChangePhoneActivity;Landroid/app/Dialog;)Landroid/app/Dialog;
 
     goto/16 :goto_0
@@ -2083,14 +2076,12 @@
 
     iget-object v11, p0, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->this$0:Lorg/telegram/ui/ChangePhoneActivity;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static {v11}, Lorg/telegram/ui/ChangePhoneActivity;->access$1300(Lorg/telegram/ui/ChangePhoneActivity;)Ljava/util/ArrayList;
 
     move-result-object v11
 
     iget-object v13, p0, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->this$0:Lorg/telegram/ui/ChangePhoneActivity;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static {v13}, Lorg/telegram/ui/ChangePhoneActivity;->access$1300(Lorg/telegram/ui/ChangePhoneActivity;)Ljava/util/ArrayList;
 
     move-result-object v13

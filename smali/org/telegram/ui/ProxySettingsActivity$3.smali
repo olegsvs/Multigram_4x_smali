@@ -45,7 +45,6 @@
     .line 253
     iget-object v0, p0, Lorg/telegram/ui/ProxySettingsActivity$3;->this$0:Lorg/telegram/ui/ProxySettingsActivity;
 
-    # invokes: Lorg/telegram/ui/ProxySettingsActivity;->checkShareButton()V
     invoke-static {v0}, Lorg/telegram/ui/ProxySettingsActivity;->access$400(Lorg/telegram/ui/ProxySettingsActivity;)V
 
     .line 254

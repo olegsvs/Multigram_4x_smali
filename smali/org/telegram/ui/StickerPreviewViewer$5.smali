@@ -44,7 +44,6 @@
     .line 564
     iget-object v0, p0, Lorg/telegram/ui/StickerPreviewViewer$5;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # getter for: Lorg/telegram/ui/StickerPreviewViewer;->centerImage:Lorg/telegram/messenger/ImageReceiver;
     invoke-static {v0}, Lorg/telegram/ui/StickerPreviewViewer;->access$800(Lorg/telegram/ui/StickerPreviewViewer;)Lorg/telegram/messenger/ImageReceiver;
 
     move-result-object v1

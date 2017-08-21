@@ -156,7 +156,6 @@
 
     iget-object v1, p0, Lcom/stripe/android/Stripe$1$1;->val$callback:Lcom/stripe/android/TokenCallback;
 
-    # invokes: Lcom/stripe/android/Stripe;->tokenTaskPostExecution(Lcom/stripe/android/Stripe$ResponseWrapper;Lcom/stripe/android/TokenCallback;)V
     invoke-static {v0, p1, v1}, Lcom/stripe/android/Stripe;->access$100(Lcom/stripe/android/Stripe;Lcom/stripe/android/Stripe$ResponseWrapper;Lcom/stripe/android/TokenCallback;)V
 
     .line 58

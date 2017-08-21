@@ -45,7 +45,6 @@
     .line 160
     iget-object v0, p0, Lorg/telegram/ui/ChangeBioActivity$5;->this$0:Lorg/telegram/ui/ChangeBioActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeBioActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChangeBioActivity;->access$200(Lorg/telegram/ui/ChangeBioActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -62,7 +61,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ChangeBioActivity$5;->this$0:Lorg/telegram/ui/ChangeBioActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeBioActivity;->firstNameField:Landroid/widget/EditText;
     invoke-static {v2}, Lorg/telegram/ui/ChangeBioActivity;->access$300(Lorg/telegram/ui/ChangeBioActivity;)Landroid/widget/EditText;
 
     move-result-object v2

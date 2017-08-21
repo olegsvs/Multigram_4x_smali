@@ -63,7 +63,6 @@
     .line 132
     iget-object v0, p0, Lorg/telegram/ui/PasscodeActivity$1;->this$0:Lorg/telegram/ui/PasscodeActivity;
 
-    # getter for: Lorg/telegram/ui/PasscodeActivity;->passcodeSetStep:I
     invoke-static {v0}, Lorg/telegram/ui/PasscodeActivity;->access$000(Lorg/telegram/ui/PasscodeActivity;)I
 
     move-result v0
@@ -73,7 +72,6 @@
     .line 133
     iget-object v0, p0, Lorg/telegram/ui/PasscodeActivity$1;->this$0:Lorg/telegram/ui/PasscodeActivity;
 
-    # invokes: Lorg/telegram/ui/PasscodeActivity;->processNext()V
     invoke-static {v0}, Lorg/telegram/ui/PasscodeActivity;->access$100(Lorg/telegram/ui/PasscodeActivity;)V
 
     goto :goto_0
@@ -82,7 +80,6 @@
     :cond_2
     iget-object v0, p0, Lorg/telegram/ui/PasscodeActivity$1;->this$0:Lorg/telegram/ui/PasscodeActivity;
 
-    # getter for: Lorg/telegram/ui/PasscodeActivity;->passcodeSetStep:I
     invoke-static {v0}, Lorg/telegram/ui/PasscodeActivity;->access$000(Lorg/telegram/ui/PasscodeActivity;)I
 
     move-result v0
@@ -92,7 +89,6 @@
     .line 135
     iget-object v0, p0, Lorg/telegram/ui/PasscodeActivity$1;->this$0:Lorg/telegram/ui/PasscodeActivity;
 
-    # invokes: Lorg/telegram/ui/PasscodeActivity;->processDone()V
     invoke-static {v0}, Lorg/telegram/ui/PasscodeActivity;->access$200(Lorg/telegram/ui/PasscodeActivity;)V
 
     goto :goto_0
@@ -108,13 +104,11 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/PasscodeActivity;->currentPasswordType:I
     invoke-static {v0, v1}, Lorg/telegram/ui/PasscodeActivity;->access$302(Lorg/telegram/ui/PasscodeActivity;I)I
 
     .line 139
     iget-object v0, p0, Lorg/telegram/ui/PasscodeActivity$1;->this$0:Lorg/telegram/ui/PasscodeActivity;
 
-    # invokes: Lorg/telegram/ui/PasscodeActivity;->updateDropDownTextView()V
     invoke-static {v0}, Lorg/telegram/ui/PasscodeActivity;->access$400(Lorg/telegram/ui/PasscodeActivity;)V
 
     goto :goto_0
@@ -128,13 +122,11 @@
     .line 141
     iget-object v0, p0, Lorg/telegram/ui/PasscodeActivity$1;->this$0:Lorg/telegram/ui/PasscodeActivity;
 
-    # setter for: Lorg/telegram/ui/PasscodeActivity;->currentPasswordType:I
     invoke-static {v0, v1}, Lorg/telegram/ui/PasscodeActivity;->access$302(Lorg/telegram/ui/PasscodeActivity;I)I
 
     .line 142
     iget-object v0, p0, Lorg/telegram/ui/PasscodeActivity$1;->this$0:Lorg/telegram/ui/PasscodeActivity;
 
-    # invokes: Lorg/telegram/ui/PasscodeActivity;->updateDropDownTextView()V
     invoke-static {v0}, Lorg/telegram/ui/PasscodeActivity;->access$400(Lorg/telegram/ui/PasscodeActivity;)V
 
     goto :goto_0

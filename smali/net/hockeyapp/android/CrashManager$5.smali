@@ -57,7 +57,6 @@
     .line 588
     const/4 v0, 0x0
 
-    # setter for: Lnet/hockeyapp/android/CrashManager;->submitting:Z
     invoke-static {v0}, Lnet/hockeyapp/android/CrashManager;->access$002(Z)Z
 
     .line 589

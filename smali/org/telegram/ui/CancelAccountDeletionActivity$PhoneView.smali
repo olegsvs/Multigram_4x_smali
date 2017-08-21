@@ -209,7 +209,6 @@
     .line 376
     iget-object v9, p0, Lorg/telegram/ui/CancelAccountDeletionActivity$PhoneView;->this$0:Lorg/telegram/ui/CancelAccountDeletionActivity;
 
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity;->hash:Ljava/lang/String;
     invoke-static {v9}, Lorg/telegram/ui/CancelAccountDeletionActivity;->access$200(Lorg/telegram/ui/CancelAccountDeletionActivity;)Ljava/lang/String;
 
     move-result-object v9
@@ -238,7 +237,6 @@
     .line 381
     iget-object v9, p0, Lorg/telegram/ui/CancelAccountDeletionActivity$PhoneView;->this$0:Lorg/telegram/ui/CancelAccountDeletionActivity;
 
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity;->phone:Ljava/lang/String;
     invoke-static {v9}, Lorg/telegram/ui/CancelAccountDeletionActivity;->access$300(Lorg/telegram/ui/CancelAccountDeletionActivity;)Ljava/lang/String;
 
     move-result-object v9
@@ -251,7 +249,6 @@
 
     iget-object v9, p0, Lorg/telegram/ui/CancelAccountDeletionActivity$PhoneView;->this$0:Lorg/telegram/ui/CancelAccountDeletionActivity;
 
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity;->phone:Ljava/lang/String;
     invoke-static {v9}, Lorg/telegram/ui/CancelAccountDeletionActivity;->access$300(Lorg/telegram/ui/CancelAccountDeletionActivity;)Ljava/lang/String;
 
     move-result-object v9
@@ -294,7 +291,6 @@
 
     iget-object v9, p0, Lorg/telegram/ui/CancelAccountDeletionActivity$PhoneView;->this$0:Lorg/telegram/ui/CancelAccountDeletionActivity;
 
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity;->phone:Ljava/lang/String;
     invoke-static {v9}, Lorg/telegram/ui/CancelAccountDeletionActivity;->access$300(Lorg/telegram/ui/CancelAccountDeletionActivity;)Ljava/lang/String;
 
     move-result-object v9

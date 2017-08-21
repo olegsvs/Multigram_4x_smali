@@ -45,7 +45,6 @@
     .line 604
     iget-object v3, p0, Lorg/telegram/ui/CallLogActivity$10;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v3}, Lorg/telegram/ui/CallLogActivity;->access$2000(Lorg/telegram/ui/CallLogActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v3
@@ -65,7 +64,6 @@
     .line 606
     iget-object v3, p0, Lorg/telegram/ui/CallLogActivity$10;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v3}, Lorg/telegram/ui/CallLogActivity;->access$2000(Lorg/telegram/ui/CallLogActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v3

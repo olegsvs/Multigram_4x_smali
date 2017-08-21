@@ -44,7 +44,6 @@
     const/high16 v2, 0x3f800000    # 1.0f
 
     .line 1263
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->sharedInstance:Lorg/telegram/messenger/voip/VoIPService;
     invoke-static {}, Lorg/telegram/messenger/voip/VoIPService;->access$2100()Lorg/telegram/messenger/voip/VoIPService;
 
     move-result-object v0
@@ -60,7 +59,6 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/messenger/voip/VoIPService$17;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->spPlayID:I
     invoke-static {v0}, Lorg/telegram/messenger/voip/VoIPService;->access$2900(Lorg/telegram/messenger/voip/VoIPService;)I
 
     move-result v0
@@ -72,14 +70,12 @@
 
     iget-object v0, p0, Lorg/telegram/messenger/voip/VoIPService$17;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->soundPool:Landroid/media/SoundPool;
     invoke-static {v0}, Lorg/telegram/messenger/voip/VoIPService;->access$000(Lorg/telegram/messenger/voip/VoIPService;)Landroid/media/SoundPool;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/messenger/voip/VoIPService$17;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->spConnectingId:I
     invoke-static {v1}, Lorg/telegram/messenger/voip/VoIPService;->access$3000(Lorg/telegram/messenger/voip/VoIPService;)I
 
     move-result v1
@@ -96,14 +92,12 @@
 
     move-result v0
 
-    # setter for: Lorg/telegram/messenger/voip/VoIPService;->spPlayID:I
     invoke-static {v7, v0}, Lorg/telegram/messenger/voip/VoIPService;->access$2902(Lorg/telegram/messenger/voip/VoIPService;I)I
 
     .line 1267
     :cond_2
     iget-object v0, p0, Lorg/telegram/messenger/voip/VoIPService$17;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->spPlayID:I
     invoke-static {v0}, Lorg/telegram/messenger/voip/VoIPService;->access$2900(Lorg/telegram/messenger/voip/VoIPService;)I
 
     move-result v0

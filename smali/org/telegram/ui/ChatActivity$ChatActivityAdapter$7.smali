@@ -59,7 +59,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter$7;->val$user:Lorg/telegram/tgnet/TLRPC$User;
 
-    # invokes: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->openUserProfile(Lorg/telegram/tgnet/TLRPC$User;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$21700(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;Lorg/telegram/tgnet/TLRPC$User;)V
 
     .line 11834
@@ -78,7 +77,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter$7;->val$user:Lorg/telegram/tgnet/TLRPC$User;
 
-    # invokes: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->kickUser(Lorg/telegram/tgnet/TLRPC$User;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$21400(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;Lorg/telegram/tgnet/TLRPC$User;)V
 
     goto :goto_0
@@ -94,7 +92,6 @@
 
     iget v1, p0, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter$7;->val$fromId:I
 
-    # invokes: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->showUserMsgs(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$21500(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;I)V
 
     goto :goto_0
@@ -110,7 +107,6 @@
 
     iget v1, p0, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter$7;->val$fromId:I
 
-    # invokes: Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->showUserMedia(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;->access$21600(Lorg/telegram/ui/ChatActivity$ChatActivityAdapter;I)V
 
     goto :goto_0

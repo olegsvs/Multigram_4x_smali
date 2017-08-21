@@ -45,7 +45,6 @@
     .line 1389
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$22;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # invokes: Lorg/telegram/ui/Components/ChatActivityEnterView;->sendMessage()V
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$4500(Lorg/telegram/ui/Components/ChatActivityEnterView;)V
 
     .line 1390

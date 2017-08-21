@@ -52,7 +52,6 @@
 
     iget v1, p0, Lorg/telegram/messenger/exoplayer2/source/MergingMediaSource$1;->val$sourceIndex:I
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/source/MergingMediaSource;->handleSourceInfoRefreshed(ILorg/telegram/messenger/exoplayer2/Timeline;Ljava/lang/Object;)V
     invoke-static {v0, v1, p1, p2}, Lorg/telegram/messenger/exoplayer2/source/MergingMediaSource;->access$000(Lorg/telegram/messenger/exoplayer2/source/MergingMediaSource;ILorg/telegram/messenger/exoplayer2/Timeline;Ljava/lang/Object;)V
 
     .line 103

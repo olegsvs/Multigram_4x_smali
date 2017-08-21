@@ -48,7 +48,6 @@
     .line 727
     iget-object v0, p0, Lorg/telegram/ui/DocumentSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/DocumentSelectActivity;
 
-    # getter for: Lorg/telegram/ui/DocumentSelectActivity;->items:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/DocumentSelectActivity;->access$2600(Lorg/telegram/ui/DocumentSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -62,7 +61,6 @@
     .line 728
     iget-object v0, p0, Lorg/telegram/ui/DocumentSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/DocumentSelectActivity;
 
-    # getter for: Lorg/telegram/ui/DocumentSelectActivity;->items:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/DocumentSelectActivity;->access$2600(Lorg/telegram/ui/DocumentSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -81,7 +79,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/DocumentSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/DocumentSelectActivity;
 
-    # getter for: Lorg/telegram/ui/DocumentSelectActivity;->history:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/DocumentSelectActivity;->access$1600(Lorg/telegram/ui/DocumentSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -94,7 +91,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/DocumentSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/DocumentSelectActivity;
 
-    # getter for: Lorg/telegram/ui/DocumentSelectActivity;->recentItems:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/DocumentSelectActivity;->access$2700(Lorg/telegram/ui/DocumentSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -107,7 +103,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/DocumentSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/DocumentSelectActivity;
 
-    # getter for: Lorg/telegram/ui/DocumentSelectActivity;->items:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/DocumentSelectActivity;->access$2600(Lorg/telegram/ui/DocumentSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -121,7 +116,6 @@
     .line 730
     iget-object v0, p0, Lorg/telegram/ui/DocumentSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/DocumentSelectActivity;
 
-    # getter for: Lorg/telegram/ui/DocumentSelectActivity;->items:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/DocumentSelectActivity;->access$2600(Lorg/telegram/ui/DocumentSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -137,7 +131,6 @@
     .line 731
     iget-object v0, p0, Lorg/telegram/ui/DocumentSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/DocumentSelectActivity;
 
-    # getter for: Lorg/telegram/ui/DocumentSelectActivity;->recentItems:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/DocumentSelectActivity;->access$2700(Lorg/telegram/ui/DocumentSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -151,7 +144,6 @@
     .line 732
     iget-object v0, p0, Lorg/telegram/ui/DocumentSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/DocumentSelectActivity;
 
-    # getter for: Lorg/telegram/ui/DocumentSelectActivity;->recentItems:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/DocumentSelectActivity;->access$2700(Lorg/telegram/ui/DocumentSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -178,7 +170,6 @@
     .line 719
     iget-object v1, p0, Lorg/telegram/ui/DocumentSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/DocumentSelectActivity;
 
-    # getter for: Lorg/telegram/ui/DocumentSelectActivity;->items:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/DocumentSelectActivity;->access$2600(Lorg/telegram/ui/DocumentSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -191,7 +182,6 @@
     .local v0, "count":I
     iget-object v1, p0, Lorg/telegram/ui/DocumentSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/DocumentSelectActivity;
 
-    # getter for: Lorg/telegram/ui/DocumentSelectActivity;->history:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/DocumentSelectActivity;->access$1600(Lorg/telegram/ui/DocumentSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -204,7 +194,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DocumentSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/DocumentSelectActivity;
 
-    # getter for: Lorg/telegram/ui/DocumentSelectActivity;->recentItems:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/DocumentSelectActivity;->access$2700(Lorg/telegram/ui/DocumentSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -218,7 +207,6 @@
     .line 721
     iget-object v1, p0, Lorg/telegram/ui/DocumentSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/DocumentSelectActivity;
 
-    # getter for: Lorg/telegram/ui/DocumentSelectActivity;->recentItems:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/DocumentSelectActivity;->access$2700(Lorg/telegram/ui/DocumentSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -337,7 +325,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DocumentSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/DocumentSelectActivity;
 
-    # getter for: Lorg/telegram/ui/DocumentSelectActivity;->actionBar:Lorg/telegram/ui/ActionBar/ActionBar;
     invoke-static {v1}, Lorg/telegram/ui/DocumentSelectActivity;->access$2800(Lorg/telegram/ui/DocumentSelectActivity;)Lorg/telegram/ui/ActionBar/ActionBar;
 
     move-result-object v1
@@ -351,7 +338,6 @@
     .line 775
     iget-object v1, p0, Lorg/telegram/ui/DocumentSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/DocumentSelectActivity;
 
-    # getter for: Lorg/telegram/ui/DocumentSelectActivity;->selectedFiles:Ljava/util/HashMap;
     invoke-static {v1}, Lorg/telegram/ui/DocumentSelectActivity;->access$500(Lorg/telegram/ui/DocumentSelectActivity;)Ljava/util/HashMap;
 
     move-result-object v1
@@ -368,7 +354,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/DocumentSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/DocumentSelectActivity;
 
-    # getter for: Lorg/telegram/ui/DocumentSelectActivity;->scrolling:Z
     invoke-static {v1}, Lorg/telegram/ui/DocumentSelectActivity;->access$800(Lorg/telegram/ui/DocumentSelectActivity;)Z
 
     move-result v1
@@ -438,7 +423,6 @@
     :cond_3
     iget-object v1, p0, Lorg/telegram/ui/DocumentSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/DocumentSelectActivity;
 
-    # getter for: Lorg/telegram/ui/DocumentSelectActivity;->scrolling:Z
     invoke-static {v1}, Lorg/telegram/ui/DocumentSelectActivity;->access$800(Lorg/telegram/ui/DocumentSelectActivity;)Z
 
     move-result v1

@@ -52,7 +52,6 @@
 
     iget-object v2, v2, Lorg/telegram/messenger/ContactsController$2;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # setter for: Lorg/telegram/messenger/ContactsController;->updatingInviteText:Z
     invoke-static {v2, v4}, Lorg/telegram/messenger/ContactsController;->access$102(Lorg/telegram/messenger/ContactsController;Z)Z
 
     .line 198

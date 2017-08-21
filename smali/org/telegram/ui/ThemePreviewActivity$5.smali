@@ -65,7 +65,6 @@
     .line 257
     iget-object v0, p0, Lorg/telegram/ui/ThemePreviewActivity$5;->this$0:Lorg/telegram/ui/ThemePreviewActivity;
 
-    # getter for: Lorg/telegram/ui/ThemePreviewActivity;->dotsContainer:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/ThemePreviewActivity;->access$1400(Lorg/telegram/ui/ThemePreviewActivity;)Landroid/view/View;
 
     move-result-object v0

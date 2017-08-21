@@ -189,7 +189,6 @@
 
     iget-object v6, p0, Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod$ExtractingLoadable;->this$0:Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;->customCacheKey:Ljava/lang/String;
     invoke-static {v6}, Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;->access$700(Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;)Ljava/lang/String;
 
     move-result-object v6
@@ -309,14 +308,12 @@
     .line 656
     iget-object v1, p0, Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod$ExtractingLoadable;->this$0:Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;->handler:Landroid/os/Handler;
     invoke-static {v1}, Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;->access$900(Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;)Landroid/os/Handler;
 
     move-result-object v1
 
     iget-object v4, p0, Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod$ExtractingLoadable;->this$0:Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;->onContinueLoadingRequestedRunnable:Ljava/lang/Runnable;
     invoke-static {v4}, Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;->access$800(Lorg/telegram/messenger/exoplayer2/source/ExtractorMediaPeriod;)Ljava/lang/Runnable;
 
     move-result-object v4

@@ -1380,7 +1380,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/Components/ChatAttachAlert;->sendPhotosButton:Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->imageView:Landroid/widget/ImageView;
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->access$4400(Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;)Landroid/widget/ImageView;
 
     move-result-object v2
@@ -4810,8 +4809,6 @@
     goto :goto_0
 
     .line 1584
-    nop
-
     :array_0
     .array-data 4
         0x0
@@ -5979,7 +5976,6 @@
 
     move/from16 v1, v25
 
-    # setter for: Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;->startRadius:F
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;->access$7002(Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;F)F
 
     .line 2331
@@ -6232,11 +6228,9 @@
 
     move-object/from16 v1, v25
 
-    # setter for: Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;->access$7102(Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 2351
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;->access$7100(Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;)Landroid/animation/AnimatorSet;
 
     move-result-object v25
@@ -6246,7 +6240,6 @@
     invoke-virtual {v0, v9}, Landroid/animation/AnimatorSet;->playTogether(Ljava/util/Collection;)V
 
     .line 2352
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;->access$7100(Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;)Landroid/animation/AnimatorSet;
 
     move-result-object v25
@@ -6256,7 +6249,6 @@
     invoke-virtual/range {v25 .. v27}, Landroid/animation/AnimatorSet;->setDuration(J)Landroid/animation/AnimatorSet;
 
     .line 2353
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;->access$7100(Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;)Landroid/animation/AnimatorSet;
 
     move-result-object v25
@@ -6270,7 +6262,6 @@
     invoke-virtual/range {v25 .. v26}, Landroid/animation/AnimatorSet;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
     .line 2354
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;->access$7100(Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;)Landroid/animation/AnimatorSet;
 
     move-result-object v25
@@ -9613,7 +9604,6 @@
 
     .line 2194
     .local v1, "innerAnimator":Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;->startRadius:F
     invoke-static {v1}, Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;->access$7000(Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;)F
 
     move-result v2
@@ -9630,7 +9620,6 @@
 
     .line 2197
     :cond_1
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v1}, Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;->access$7100(Lorg/telegram/ui/Components/ChatAttachAlert$InnerAnimator;)Landroid/animation/AnimatorSet;
 
     move-result-object v2
@@ -10064,7 +10053,6 @@
     .line 1663
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatAttachAlert;->sendPhotosButton:Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->imageView:Landroid/widget/ImageView;
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->access$4400(Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;)Landroid/widget/ImageView;
 
     move-result-object v2
@@ -10080,7 +10068,6 @@
     .line 1664
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatAttachAlert;->sendPhotosButton:Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->imageView:Landroid/widget/ImageView;
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->access$4400(Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;)Landroid/widget/ImageView;
 
     move-result-object v2
@@ -10092,7 +10079,6 @@
     .line 1665
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatAttachAlert;->sendPhotosButton:Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->imageView:Landroid/widget/ImageView;
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->access$4400(Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;)Landroid/widget/ImageView;
 
     move-result-object v2
@@ -10104,7 +10090,6 @@
     .line 1666
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatAttachAlert;->sendPhotosButton:Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->textView:Landroid/widget/TextView;
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->access$6500(Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -10116,7 +10101,6 @@
     .line 1667
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatAttachAlert;->sendDocumentsButton:Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->textView:Landroid/widget/TextView;
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->access$6500(Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -10179,7 +10163,6 @@
     :cond_0
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatAttachAlert;->sendPhotosButton:Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->imageView:Landroid/widget/ImageView;
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->access$4400(Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;)Landroid/widget/ImageView;
 
     move-result-object v2
@@ -10195,7 +10178,6 @@
     .line 1670
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatAttachAlert;->sendPhotosButton:Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->imageView:Landroid/widget/ImageView;
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->access$4400(Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;)Landroid/widget/ImageView;
 
     move-result-object v2
@@ -10232,7 +10214,6 @@
     .line 1674
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatAttachAlert;->sendPhotosButton:Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->imageView:Landroid/widget/ImageView;
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->access$4400(Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;)Landroid/widget/ImageView;
 
     move-result-object v2
@@ -10244,7 +10225,6 @@
     .line 1675
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatAttachAlert;->sendPhotosButton:Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->textView:Landroid/widget/TextView;
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->access$6500(Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -10280,7 +10260,6 @@
     .line 1676
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatAttachAlert;->sendDocumentsButton:Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->textView:Landroid/widget/TextView;
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;->access$6500(Lorg/telegram/ui/Components/ChatAttachAlert$AttachButton;)Landroid/widget/TextView;
 
     move-result-object v3

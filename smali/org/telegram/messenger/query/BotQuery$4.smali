@@ -45,7 +45,6 @@
 
     .prologue
     .line 170
-    # getter for: Lorg/telegram/messenger/query/BotQuery;->botKeyboards:Ljava/util/HashMap;
     invoke-static {}, Lorg/telegram/messenger/query/BotQuery;->access$100()Ljava/util/HashMap;
 
     move-result-object v1
@@ -69,7 +68,6 @@
     if-eqz v0, :cond_0
 
     .line 172
-    # getter for: Lorg/telegram/messenger/query/BotQuery;->botKeyboardsByMids:Ljava/util/HashMap;
     invoke-static {}, Lorg/telegram/messenger/query/BotQuery;->access$000()Ljava/util/HashMap;
 
     move-result-object v1
@@ -84,7 +82,6 @@
 
     .line 174
     :cond_0
-    # getter for: Lorg/telegram/messenger/query/BotQuery;->botKeyboardsByMids:Ljava/util/HashMap;
     invoke-static {}, Lorg/telegram/messenger/query/BotQuery;->access$000()Ljava/util/HashMap;
 
     move-result-object v1

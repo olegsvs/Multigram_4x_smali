@@ -60,7 +60,6 @@
     .line 192
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/video/VideoRendererEventListener$EventDispatcher$5;->this$0:Lorg/telegram/messenger/exoplayer2/video/VideoRendererEventListener$EventDispatcher;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/video/VideoRendererEventListener$EventDispatcher;->listener:Lorg/telegram/messenger/exoplayer2/video/VideoRendererEventListener;
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/video/VideoRendererEventListener$EventDispatcher;->access$000(Lorg/telegram/messenger/exoplayer2/video/VideoRendererEventListener$EventDispatcher;)Lorg/telegram/messenger/exoplayer2/video/VideoRendererEventListener;
 
     move-result-object v0

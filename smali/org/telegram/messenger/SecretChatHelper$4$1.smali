@@ -194,7 +194,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/SecretChatHelper$4;->this$0:Lorg/telegram/messenger/SecretChatHelper;
 
-    # getter for: Lorg/telegram/messenger/SecretChatHelper;->sendingNotifyLayer:Ljava/util/ArrayList;
     invoke-static {v6}, Lorg/telegram/messenger/SecretChatHelper;->access$000(Lorg/telegram/messenger/SecretChatHelper;)Ljava/util/ArrayList;
 
     move-result-object v6
@@ -304,7 +303,6 @@
 
     iget-object v10, v10, Lorg/telegram/messenger/SecretChatHelper$4;->val$originalPath:Ljava/lang/String;
 
-    # invokes: Lorg/telegram/messenger/SecretChatHelper;->updateMediaPaths(Lorg/telegram/messenger/MessageObject;Lorg/telegram/tgnet/TLRPC$EncryptedFile;Lorg/telegram/tgnet/TLRPC$DecryptedMessage;Ljava/lang/String;)V
     invoke-static {v6, v7, v8, v9, v10}, Lorg/telegram/messenger/SecretChatHelper;->access$100(Lorg/telegram/messenger/SecretChatHelper;Lorg/telegram/messenger/MessageObject;Lorg/telegram/tgnet/TLRPC$EncryptedFile;Lorg/telegram/tgnet/TLRPC$DecryptedMessage;Ljava/lang/String;)V
 
     .line 696

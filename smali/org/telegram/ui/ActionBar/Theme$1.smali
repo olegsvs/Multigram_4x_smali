@@ -40,7 +40,6 @@
     if-ge v3, v4, :cond_3
 
     .line 2075
-    # invokes: Lorg/telegram/ui/ActionBar/Theme;->getStateDrawable(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
     invoke-static {p0, p1}, Lorg/telegram/ui/ActionBar/Theme;->access$000(Landroid/graphics/drawable/Drawable;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1

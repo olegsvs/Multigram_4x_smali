@@ -345,7 +345,6 @@
     if-eqz v7, :cond_1
 
     .line 564
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->stsPattern:Ljava/util/regex/Pattern;
     invoke-static {}, Lorg/telegram/ui/Components/WebPlayerView;->access$600()Ljava/util/regex/Pattern;
 
     move-result-object v27
@@ -893,7 +892,6 @@
 
     .line 618
     .local v19, "jsUrl":Ljava/lang/String;
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->jsPattern:Ljava/util/regex/Pattern;
     invoke-static {}, Lorg/telegram/ui/Components/WebPlayerView;->access$700()Ljava/util/regex/Pattern;
 
     move-result-object v27
@@ -965,7 +963,6 @@
     if-eqz v19, :cond_13
 
     .line 632
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->playerIdPattern:Ljava/util/regex/Pattern;
     invoke-static {}, Lorg/telegram/ui/Components/WebPlayerView;->access$800()Ljava/util/regex/Pattern;
 
     move-result-object v27
@@ -1256,7 +1253,6 @@
     if-eqz v18, :cond_12
 
     .line 657
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->sigPattern:Ljava/util/regex/Pattern;
     invoke-static {}, Lorg/telegram/ui/Components/WebPlayerView;->access$900()Ljava/util/regex/Pattern;
 
     move-result-object v27
@@ -1310,7 +1306,6 @@
 
     .line 669
     .local v11, "extractor":Lorg/telegram/ui/Components/WebPlayerView$JSExtractor;
-    # invokes: Lorg/telegram/ui/Components/WebPlayerView$JSExtractor;->extractFunction(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v11, v14}, Lorg/telegram/ui/Components/WebPlayerView$JSExtractor;->access$1100(Lorg/telegram/ui/Components/WebPlayerView$JSExtractor;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v12
@@ -1509,7 +1504,6 @@
     .restart local v22    # "playerId":Ljava/lang/String;
     .restart local v23    # "preferences":Landroid/content/SharedPreferences;
     :cond_15
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->sigPattern2:Ljava/util/regex/Pattern;
     invoke-static {}, Lorg/telegram/ui/Components/WebPlayerView;->access$1000()Ljava/util/regex/Pattern;
 
     move-result-object v27
@@ -1578,7 +1572,6 @@
 
     move-object/from16 v28, v0
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->interfaceName:Ljava/lang/String;
     invoke-static/range {v28 .. v28}, Lorg/telegram/ui/Components/WebPlayerView;->access$1200(Lorg/telegram/ui/Components/WebPlayerView;)Ljava/lang/String;
 
     move-result-object v28
@@ -1694,7 +1687,6 @@
     .line 730
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # setter for: Lorg/telegram/ui/Components/WebPlayerView;->initied:Z
     invoke-static {v0, v2}, Lorg/telegram/ui/Components/WebPlayerView;->access$1702(Lorg/telegram/ui/Components/WebPlayerView;Z)Z
 
     .line 731
@@ -1702,19 +1694,16 @@
 
     const-string/jumbo v1, "dash"
 
-    # setter for: Lorg/telegram/ui/Components/WebPlayerView;->playVideoType:Ljava/lang/String;
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/WebPlayerView;->access$1802(Lorg/telegram/ui/Components/WebPlayerView;Ljava/lang/String;)Ljava/lang/String;
 
     .line 732
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # setter for: Lorg/telegram/ui/Components/WebPlayerView;->playVideoUrl:Ljava/lang/String;
     invoke-static {v0, p1}, Lorg/telegram/ui/Components/WebPlayerView;->access$1902(Lorg/telegram/ui/Components/WebPlayerView;Ljava/lang/String;)Ljava/lang/String;
 
     .line 733
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->isAutoplay:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$2000(Lorg/telegram/ui/Components/WebPlayerView;)Z
 
     move-result v0
@@ -1724,7 +1713,6 @@
     .line 734
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # invokes: Lorg/telegram/ui/Components/WebPlayerView;->preparePlayer()V
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$2100(Lorg/telegram/ui/Components/WebPlayerView;)V
 
     .line 736
@@ -1733,13 +1721,11 @@
 
     const/4 v1, 0x0
 
-    # invokes: Lorg/telegram/ui/Components/WebPlayerView;->showProgress(ZZ)V
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/Components/WebPlayerView;->access$2200(Lorg/telegram/ui/Components/WebPlayerView;ZZ)V
 
     .line 737
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->controlsView:Lorg/telegram/ui/Components/WebPlayerView$ControlsView;
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$100(Lorg/telegram/ui/Components/WebPlayerView;)Lorg/telegram/ui/Components/WebPlayerView$ControlsView;
 
     move-result-object v0
@@ -1762,7 +1748,6 @@
     .line 739
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # invokes: Lorg/telegram/ui/Components/WebPlayerView;->onInitFailed()V
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$2300(Lorg/telegram/ui/Components/WebPlayerView;)V
 
     goto :goto_0

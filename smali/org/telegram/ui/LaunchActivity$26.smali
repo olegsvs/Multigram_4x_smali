@@ -49,7 +49,6 @@
     if-eqz v0, :cond_1
 
     .line 2759
-    # getter for: Lorg/telegram/ui/LaunchActivity;->layerFragmentsStack:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/ui/LaunchActivity;->access$3100()Ljava/util/ArrayList;
 
     move-result-object v0
@@ -60,12 +59,10 @@
 
     if-nez v0, :cond_2
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->layerFragmentsStack:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/ui/LaunchActivity;->access$3100()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->layerFragmentsStack:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/ui/LaunchActivity;->access$3100()Ljava/util/ArrayList;
 
     move-result-object v1
@@ -91,7 +88,6 @@
 
     .line 2763
     :cond_1
-    # getter for: Lorg/telegram/ui/LaunchActivity;->mainFragmentsStack:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/ui/LaunchActivity;->access$1500()Ljava/util/ArrayList;
 
     move-result-object v0
@@ -102,12 +98,10 @@
 
     if-nez v0, :cond_2
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->mainFragmentsStack:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/ui/LaunchActivity;->access$1500()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    # getter for: Lorg/telegram/ui/LaunchActivity;->mainFragmentsStack:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/ui/LaunchActivity;->access$1500()Ljava/util/ArrayList;
 
     move-result-object v1

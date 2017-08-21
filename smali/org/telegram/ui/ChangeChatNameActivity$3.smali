@@ -81,7 +81,6 @@
     .local v0, "builder":Lorg/telegram/ui/ActionBar/AlertDialog$Builder;
     iget-object v2, p0, Lorg/telegram/ui/ChangeChatNameActivity$3;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->avatar:Lorg/telegram/tgnet/TLRPC$FileLocation;
     invoke-static {v2}, Lorg/telegram/ui/ChangeChatNameActivity;->access$700(Lorg/telegram/ui/ChangeChatNameActivity;)Lorg/telegram/tgnet/TLRPC$FileLocation;
 
     move-result-object v2

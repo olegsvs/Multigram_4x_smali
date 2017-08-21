@@ -46,7 +46,6 @@
 
     move-result-object v1
 
-    # getter for: Lorg/telegram/messenger/FileLog;->streamWriter:Ljava/io/OutputStreamWriter;
     invoke-static {v1}, Lorg/telegram/messenger/FileLog;->access$100(Lorg/telegram/messenger/FileLog;)Ljava/io/OutputStreamWriter;
 
     move-result-object v1
@@ -59,7 +58,6 @@
 
     move-result-object v3
 
-    # getter for: Lorg/telegram/messenger/FileLog;->dateFormat:Lorg/telegram/messenger/time/FastDateFormat;
     invoke-static {v3}, Lorg/telegram/messenger/FileLog;->access$000(Lorg/telegram/messenger/FileLog;)Lorg/telegram/messenger/time/FastDateFormat;
 
     move-result-object v3
@@ -105,7 +103,6 @@
 
     move-result-object v1
 
-    # getter for: Lorg/telegram/messenger/FileLog;->streamWriter:Ljava/io/OutputStreamWriter;
     invoke-static {v1}, Lorg/telegram/messenger/FileLog;->access$100(Lorg/telegram/messenger/FileLog;)Ljava/io/OutputStreamWriter;
 
     move-result-object v1

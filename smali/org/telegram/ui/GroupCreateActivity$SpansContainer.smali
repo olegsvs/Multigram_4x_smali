@@ -122,7 +122,6 @@
     .line 228
     iget-object v0, p0, Lorg/telegram/ui/GroupCreateActivity$SpansContainer;->this$0:Lorg/telegram/ui/GroupCreateActivity;
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->allSpans:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/GroupCreateActivity;->access$400(Lorg/telegram/ui/GroupCreateActivity;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -132,7 +131,6 @@
     .line 229
     iget-object v0, p0, Lorg/telegram/ui/GroupCreateActivity$SpansContainer;->this$0:Lorg/telegram/ui/GroupCreateActivity;
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->selectedContacts:Ljava/util/HashMap;
     invoke-static {v0}, Lorg/telegram/ui/GroupCreateActivity;->access$500(Lorg/telegram/ui/GroupCreateActivity;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -150,7 +148,6 @@
     .line 231
     iget-object v0, p0, Lorg/telegram/ui/GroupCreateActivity$SpansContainer;->this$0:Lorg/telegram/ui/GroupCreateActivity;
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->editText:Lorg/telegram/ui/Components/EditTextBoldCursor;
     invoke-static {v0}, Lorg/telegram/ui/GroupCreateActivity;->access$000(Lorg/telegram/ui/GroupCreateActivity;)Lorg/telegram/ui/Components/EditTextBoldCursor;
 
     move-result-object v0
@@ -817,7 +814,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->editText:Lorg/telegram/ui/Components/EditTextBoldCursor;
     invoke-static/range {v16 .. v16}, Lorg/telegram/ui/GroupCreateActivity;->access$000(Lorg/telegram/ui/GroupCreateActivity;)Lorg/telegram/ui/Components/EditTextBoldCursor;
 
     move-result-object v16
@@ -882,7 +878,6 @@
 
     move-object/from16 v0, v16
 
-    # setter for: Lorg/telegram/ui/GroupCreateActivity;->fieldY:I
     invoke-static {v0, v15}, Lorg/telegram/ui/GroupCreateActivity;->access$102(Lorg/telegram/ui/GroupCreateActivity;I)I
 
     .line 190
@@ -911,7 +906,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->containerHeight:I
     invoke-static/range {v16 .. v16}, Lorg/telegram/ui/GroupCreateActivity;->access$200(Lorg/telegram/ui/GroupCreateActivity;)I
 
     move-result v16
@@ -961,7 +955,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->editText:Lorg/telegram/ui/Components/EditTextBoldCursor;
     invoke-static/range {v16 .. v16}, Lorg/telegram/ui/GroupCreateActivity;->access$000(Lorg/telegram/ui/GroupCreateActivity;)Lorg/telegram/ui/Components/EditTextBoldCursor;
 
     move-result-object v16
@@ -991,7 +984,6 @@
 
     move-object/from16 v17, v0
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->editText:Lorg/telegram/ui/Components/EditTextBoldCursor;
     invoke-static/range {v17 .. v17}, Lorg/telegram/ui/GroupCreateActivity;->access$000(Lorg/telegram/ui/GroupCreateActivity;)Lorg/telegram/ui/Components/EditTextBoldCursor;
 
     move-result-object v17
@@ -1028,7 +1020,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->editText:Lorg/telegram/ui/Components/EditTextBoldCursor;
     invoke-static/range {v16 .. v16}, Lorg/telegram/ui/GroupCreateActivity;->access$000(Lorg/telegram/ui/GroupCreateActivity;)Lorg/telegram/ui/Components/EditTextBoldCursor;
 
     move-result-object v16
@@ -1043,7 +1034,6 @@
 
     move-object/from16 v17, v0
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->fieldY:I
     invoke-static/range {v17 .. v17}, Lorg/telegram/ui/GroupCreateActivity;->access$100(Lorg/telegram/ui/GroupCreateActivity;)I
 
     move-result v17
@@ -1071,7 +1061,6 @@
 
     move-object/from16 v17, v0
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->editText:Lorg/telegram/ui/Components/EditTextBoldCursor;
     invoke-static/range {v17 .. v17}, Lorg/telegram/ui/GroupCreateActivity;->access$000(Lorg/telegram/ui/GroupCreateActivity;)Lorg/telegram/ui/Components/EditTextBoldCursor;
 
     move-result-object v17
@@ -1094,7 +1083,6 @@
 
     move-object/from16 v21, v0
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->fieldY:I
     invoke-static/range {v21 .. v21}, Lorg/telegram/ui/GroupCreateActivity;->access$100(Lorg/telegram/ui/GroupCreateActivity;)I
 
     move-result v21
@@ -1121,7 +1109,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->editText:Lorg/telegram/ui/Components/EditTextBoldCursor;
     invoke-static/range {v16 .. v16}, Lorg/telegram/ui/GroupCreateActivity;->access$000(Lorg/telegram/ui/GroupCreateActivity;)Lorg/telegram/ui/Components/EditTextBoldCursor;
 
     move-result-object v16
@@ -1175,7 +1162,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->containerHeight:I
     invoke-static/range {v16 .. v16}, Lorg/telegram/ui/GroupCreateActivity;->access$200(Lorg/telegram/ui/GroupCreateActivity;)I
 
     move-result v16
@@ -1237,7 +1223,6 @@
 
     move-object/from16 v0, v16
 
-    # setter for: Lorg/telegram/ui/GroupCreateActivity;->containerHeight:I
     invoke-static {v0, v7}, Lorg/telegram/ui/GroupCreateActivity;->access$202(Lorg/telegram/ui/GroupCreateActivity;I)I
 
     .line 207
@@ -1247,7 +1232,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->editText:Lorg/telegram/ui/Components/EditTextBoldCursor;
     invoke-static/range {v16 .. v16}, Lorg/telegram/ui/GroupCreateActivity;->access$000(Lorg/telegram/ui/GroupCreateActivity;)Lorg/telegram/ui/Components/EditTextBoldCursor;
 
     move-result-object v16
@@ -1265,7 +1249,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->editText:Lorg/telegram/ui/Components/EditTextBoldCursor;
     invoke-static/range {v16 .. v16}, Lorg/telegram/ui/GroupCreateActivity;->access$000(Lorg/telegram/ui/GroupCreateActivity;)Lorg/telegram/ui/Components/EditTextBoldCursor;
 
     move-result-object v16
@@ -1276,7 +1259,6 @@
 
     move-object/from16 v17, v0
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->fieldY:I
     invoke-static/range {v17 .. v17}, Lorg/telegram/ui/GroupCreateActivity;->access$100(Lorg/telegram/ui/GroupCreateActivity;)I
 
     move-result v17
@@ -1310,7 +1292,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->ignoreScrollEvent:Z
     invoke-static/range {v16 .. v16}, Lorg/telegram/ui/GroupCreateActivity;->access$300(Lorg/telegram/ui/GroupCreateActivity;)Z
 
     move-result v16
@@ -1332,7 +1313,6 @@
 
     move-object/from16 v16, v0
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->editText:Lorg/telegram/ui/Components/EditTextBoldCursor;
     invoke-static/range {v16 .. v16}, Lorg/telegram/ui/GroupCreateActivity;->access$000(Lorg/telegram/ui/GroupCreateActivity;)Lorg/telegram/ui/Components/EditTextBoldCursor;
 
     move-result-object v16
@@ -1343,7 +1323,6 @@
 
     move-object/from16 v17, v0
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->editText:Lorg/telegram/ui/Components/EditTextBoldCursor;
     invoke-static/range {v17 .. v17}, Lorg/telegram/ui/GroupCreateActivity;->access$000(Lorg/telegram/ui/GroupCreateActivity;)Lorg/telegram/ui/Components/EditTextBoldCursor;
 
     move-result-object v17
@@ -1369,13 +1348,11 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/ui/GroupCreateActivity;->ignoreScrollEvent:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/GroupCreateActivity;->access$302(Lorg/telegram/ui/GroupCreateActivity;Z)Z
 
     .line 258
     iget-object v0, p0, Lorg/telegram/ui/GroupCreateActivity$SpansContainer;->this$0:Lorg/telegram/ui/GroupCreateActivity;
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->selectedContacts:Ljava/util/HashMap;
     invoke-static {v0}, Lorg/telegram/ui/GroupCreateActivity;->access$500(Lorg/telegram/ui/GroupCreateActivity;)Ljava/util/HashMap;
 
     move-result-object v0
@@ -1393,7 +1370,6 @@
     .line 259
     iget-object v0, p0, Lorg/telegram/ui/GroupCreateActivity$SpansContainer;->this$0:Lorg/telegram/ui/GroupCreateActivity;
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity;->allSpans:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/GroupCreateActivity;->access$400(Lorg/telegram/ui/GroupCreateActivity;)Ljava/util/ArrayList;
 
     move-result-object v0

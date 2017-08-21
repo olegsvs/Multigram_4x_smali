@@ -48,7 +48,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->audioRecorder:Landroid/media/AudioRecord;
     invoke-static/range {v19 .. v19}, Lorg/telegram/messenger/MediaController;->access$000(Lorg/telegram/messenger/MediaController;)Landroid/media/AudioRecord;
 
     move-result-object v19
@@ -62,7 +61,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordBuffers:Ljava/util/ArrayList;
     invoke-static/range {v19 .. v19}, Lorg/telegram/messenger/MediaController;->access$100(Lorg/telegram/messenger/MediaController;)Ljava/util/ArrayList;
 
     move-result-object v19
@@ -80,7 +78,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordBuffers:Ljava/util/ArrayList;
     invoke-static/range {v19 .. v19}, Lorg/telegram/messenger/MediaController;->access$100(Lorg/telegram/messenger/MediaController;)Ljava/util/ArrayList;
 
     move-result-object v19
@@ -105,7 +102,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordBuffers:Ljava/util/ArrayList;
     invoke-static/range {v19 .. v19}, Lorg/telegram/messenger/MediaController;->access$100(Lorg/telegram/messenger/MediaController;)Ljava/util/ArrayList;
 
     move-result-object v19
@@ -129,7 +125,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->audioRecorder:Landroid/media/AudioRecord;
     invoke-static/range {v19 .. v19}, Lorg/telegram/messenger/MediaController;->access$000(Lorg/telegram/messenger/MediaController;)Landroid/media/AudioRecord;
 
     move-result-object v19
@@ -165,7 +160,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->samplesCount:J
     invoke-static/range {v19 .. v19}, Lorg/telegram/messenger/MediaController;->access$300(Lorg/telegram/messenger/MediaController;)J
 
     move-result-wide v22
@@ -188,7 +182,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->samplesCount:J
     invoke-static/range {v19 .. v19}, Lorg/telegram/messenger/MediaController;->access$300(Lorg/telegram/messenger/MediaController;)J
 
     move-result-wide v22
@@ -211,7 +204,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordSamples:[S
     invoke-static/range {v19 .. v19}, Lorg/telegram/messenger/MediaController;->access$400(Lorg/telegram/messenger/MediaController;)[S
 
     move-result-object v19
@@ -242,7 +234,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordSamples:[S
     invoke-static/range {v19 .. v19}, Lorg/telegram/messenger/MediaController;->access$400(Lorg/telegram/messenger/MediaController;)[S
 
     move-result-object v19
@@ -266,7 +257,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordSamples:[S
     invoke-static/range {v19 .. v19}, Lorg/telegram/messenger/MediaController;->access$400(Lorg/telegram/messenger/MediaController;)[S
 
     move-result-object v19
@@ -308,7 +298,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordSamples:[S
     invoke-static/range {v19 .. v19}, Lorg/telegram/messenger/MediaController;->access$400(Lorg/telegram/messenger/MediaController;)[S
 
     move-result-object v19
@@ -319,7 +308,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordSamples:[S
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/MediaController;->access$400(Lorg/telegram/messenger/MediaController;)[S
 
     move-result-object v22
@@ -359,7 +347,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordBufferSize:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/messenger/MediaController;->access$200(Lorg/telegram/messenger/MediaController;)I
 
     move-result v19
@@ -466,7 +453,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordSamples:[S
     invoke-static/range {v19 .. v19}, Lorg/telegram/messenger/MediaController;->access$400(Lorg/telegram/messenger/MediaController;)[S
 
     move-result-object v19
@@ -488,7 +474,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordSamples:[S
     invoke-static/range {v19 .. v19}, Lorg/telegram/messenger/MediaController;->access$400(Lorg/telegram/messenger/MediaController;)[S
 
     move-result-object v19
@@ -518,7 +503,6 @@
 
     move-object/from16 v0, v19
 
-    # setter for: Lorg/telegram/messenger/MediaController;->samplesCount:J
     invoke-static {v0, v14, v15}, Lorg/telegram/messenger/MediaController;->access$302(Lorg/telegram/messenger/MediaController;J)J
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
@@ -581,7 +565,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->fileEncodingQueue:Lorg/telegram/messenger/DispatchQueue;
     invoke-static/range {v19 .. v19}, Lorg/telegram/messenger/MediaController;->access$900(Lorg/telegram/messenger/MediaController;)Lorg/telegram/messenger/DispatchQueue;
 
     move-result-object v19
@@ -608,7 +591,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordQueue:Lorg/telegram/messenger/DispatchQueue;
     invoke-static/range {v19 .. v19}, Lorg/telegram/messenger/MediaController;->access$800(Lorg/telegram/messenger/MediaController;)Lorg/telegram/messenger/DispatchQueue;
 
     move-result-object v19
@@ -619,7 +601,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordRunnable:Ljava/lang/Runnable;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/MediaController;->access$1000(Lorg/telegram/messenger/MediaController;)Ljava/lang/Runnable;
 
     move-result-object v22
@@ -685,7 +666,6 @@
 
     move-object/from16 v19, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordBuffers:Ljava/util/ArrayList;
     invoke-static/range {v19 .. v19}, Lorg/telegram/messenger/MediaController;->access$100(Lorg/telegram/messenger/MediaController;)Ljava/util/ArrayList;
 
     move-result-object v19
@@ -707,7 +687,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/MediaController;->sendAfterDone:I
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/MediaController;->access$1200(Lorg/telegram/messenger/MediaController;)I
 
     move-result v22
@@ -716,7 +695,6 @@
 
     move/from16 v1, v22
 
-    # invokes: Lorg/telegram/messenger/MediaController;->stopRecordingInternal(I)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/MediaController;->access$1300(Lorg/telegram/messenger/MediaController;I)V
 
     goto :goto_5

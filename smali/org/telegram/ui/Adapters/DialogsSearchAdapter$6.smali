@@ -82,7 +82,6 @@
 
     const/16 v38, -0x1
 
-    # setter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->lastSearchId:I
     invoke-static/range {v37 .. v38}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$902(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;I)I
 
     .line 496
@@ -110,12 +109,10 @@
 
     move-object/from16 v41, v0
 
-    # getter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->lastSearchId:I
     invoke-static/range {v41 .. v41}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$900(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;)I
 
     move-result v41
 
-    # invokes: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->updateSearchResults(Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/util/ArrayList;I)V
     invoke-static/range {v37 .. v41}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$1000(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/util/ArrayList;I)V
 
     .line 780
@@ -342,7 +339,6 @@
 
     move-object/from16 v37, v0
 
-    # getter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->dialogsType:I
     invoke-static/range {v37 .. v37}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$700(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;)I
 
     move-result v37
@@ -431,7 +427,6 @@
 
     move-object/from16 v37, v0
 
-    # getter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->dialogsType:I
     invoke-static/range {v37 .. v37}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$700(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;)I
 
     move-result v37
@@ -508,7 +503,6 @@
 
     move-object/from16 v37, v0
 
-    # getter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->dialogsType:I
     invoke-static/range {v37 .. v37}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$700(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;)I
 
     move-result v37
@@ -2351,7 +2345,6 @@
 
     move-object/from16 v37, v0
 
-    # getter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->dialogsType:I
     invoke-static/range {v37 .. v37}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$700(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;)I
 
     move-result v37
@@ -2857,7 +2850,6 @@
 
     move/from16 v3, v38
 
-    # invokes: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->updateSearchResults(Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/util/ArrayList;I)V
     invoke-static {v0, v1, v2, v14, v3}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$1000(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/util/ArrayList;I)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0

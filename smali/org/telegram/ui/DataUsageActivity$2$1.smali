@@ -52,7 +52,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/DataUsageActivity$2;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->currentType:I
     invoke-static {v1}, Lorg/telegram/ui/DataUsageActivity;->access$100(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v1
@@ -64,7 +63,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/DataUsageActivity$2;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->listAdapter:Lorg/telegram/ui/DataUsageActivity$ListAdapter;
     invoke-static {v0}, Lorg/telegram/ui/DataUsageActivity;->access$200(Lorg/telegram/ui/DataUsageActivity;)Lorg/telegram/ui/DataUsageActivity$ListAdapter;
 
     move-result-object v0

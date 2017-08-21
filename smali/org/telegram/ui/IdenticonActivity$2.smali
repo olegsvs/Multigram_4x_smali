@@ -50,7 +50,6 @@
     .line 121
     iget-object v2, p0, Lorg/telegram/ui/IdenticonActivity$2;->this$0:Lorg/telegram/ui/IdenticonActivity;
 
-    # getter for: Lorg/telegram/ui/IdenticonActivity;->container:Landroid/widget/FrameLayout;
     invoke-static {v2}, Lorg/telegram/ui/IdenticonActivity;->access$000(Lorg/telegram/ui/IdenticonActivity;)Landroid/widget/FrameLayout;
 
     move-result-object v2
@@ -61,7 +60,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/IdenticonActivity$2;->this$0:Lorg/telegram/ui/IdenticonActivity;
 
-    # getter for: Lorg/telegram/ui/IdenticonActivity;->codeTextView:Landroid/widget/TextView;
     invoke-static {v3}, Lorg/telegram/ui/IdenticonActivity;->access$100(Lorg/telegram/ui/IdenticonActivity;)Landroid/widget/TextView;
 
     move-result-object v3
@@ -74,7 +72,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/IdenticonActivity$2;->this$0:Lorg/telegram/ui/IdenticonActivity;
 
-    # getter for: Lorg/telegram/ui/IdenticonActivity;->codeTextView:Landroid/widget/TextView;
     invoke-static {v3}, Lorg/telegram/ui/IdenticonActivity;->access$100(Lorg/telegram/ui/IdenticonActivity;)Landroid/widget/TextView;
 
     move-result-object v3
@@ -89,7 +86,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/IdenticonActivity$2;->this$0:Lorg/telegram/ui/IdenticonActivity;
 
-    # getter for: Lorg/telegram/ui/IdenticonActivity;->hintTextView:Landroid/widget/TextView;
     invoke-static {v3}, Lorg/telegram/ui/IdenticonActivity;->access$200(Lorg/telegram/ui/IdenticonActivity;)Landroid/widget/TextView;
 
     move-result-object v3
@@ -112,7 +108,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/IdenticonActivity$2;->this$0:Lorg/telegram/ui/IdenticonActivity;
 
-    # getter for: Lorg/telegram/ui/IdenticonActivity;->container:Landroid/widget/FrameLayout;
     invoke-static {v3}, Lorg/telegram/ui/IdenticonActivity;->access$000(Lorg/telegram/ui/IdenticonActivity;)Landroid/widget/FrameLayout;
 
     move-result-object v3
@@ -123,7 +118,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/IdenticonActivity$2;->this$0:Lorg/telegram/ui/IdenticonActivity;
 
-    # getter for: Lorg/telegram/ui/IdenticonActivity;->codeTextView:Landroid/widget/TextView;
     invoke-static {v4}, Lorg/telegram/ui/IdenticonActivity;->access$100(Lorg/telegram/ui/IdenticonActivity;)Landroid/widget/TextView;
 
     move-result-object v4
@@ -150,14 +144,12 @@
     .local v1, "y":I
     iget-object v2, p0, Lorg/telegram/ui/IdenticonActivity$2;->this$0:Lorg/telegram/ui/IdenticonActivity;
 
-    # getter for: Lorg/telegram/ui/IdenticonActivity;->hintTextView:Landroid/widget/TextView;
     invoke-static {v2}, Lorg/telegram/ui/IdenticonActivity;->access$200(Lorg/telegram/ui/IdenticonActivity;)Landroid/widget/TextView;
 
     move-result-object v2
 
     iget-object v3, p0, Lorg/telegram/ui/IdenticonActivity$2;->this$0:Lorg/telegram/ui/IdenticonActivity;
 
-    # getter for: Lorg/telegram/ui/IdenticonActivity;->hintTextView:Landroid/widget/TextView;
     invoke-static {v3}, Lorg/telegram/ui/IdenticonActivity;->access$200(Lorg/telegram/ui/IdenticonActivity;)Landroid/widget/TextView;
 
     move-result-object v3
@@ -170,7 +162,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/IdenticonActivity$2;->this$0:Lorg/telegram/ui/IdenticonActivity;
 
-    # getter for: Lorg/telegram/ui/IdenticonActivity;->hintTextView:Landroid/widget/TextView;
     invoke-static {v4}, Lorg/telegram/ui/IdenticonActivity;->access$200(Lorg/telegram/ui/IdenticonActivity;)Landroid/widget/TextView;
 
     move-result-object v4

@@ -54,7 +54,6 @@
     .line 3019
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->audioRecorder:Landroid/media/AudioRecord;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$000(Lorg/telegram/messenger/MediaController;)Landroid/media/AudioRecord;
 
     move-result-object v0
@@ -80,13 +79,11 @@
 
     invoke-direct {v1}, Lorg/telegram/tgnet/TLRPC$TL_document;-><init>()V
 
-    # setter for: Lorg/telegram/messenger/MediaController;->recordingAudio:Lorg/telegram/tgnet/TLRPC$TL_document;
     invoke-static {v0, v1}, Lorg/telegram/messenger/MediaController;->access$2102(Lorg/telegram/messenger/MediaController;Lorg/telegram/tgnet/TLRPC$TL_document;)Lorg/telegram/tgnet/TLRPC$TL_document;
 
     .line 3031
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordingAudio:Lorg/telegram/tgnet/TLRPC$TL_document;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$2100(Lorg/telegram/messenger/MediaController;)Lorg/telegram/tgnet/TLRPC$TL_document;
 
     move-result-object v0
@@ -98,7 +95,6 @@
     .line 3032
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordingAudio:Lorg/telegram/tgnet/TLRPC$TL_document;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$2100(Lorg/telegram/messenger/MediaController;)Lorg/telegram/tgnet/TLRPC$TL_document;
 
     move-result-object v0
@@ -112,7 +108,6 @@
     .line 3033
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordingAudio:Lorg/telegram/tgnet/TLRPC$TL_document;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$2100(Lorg/telegram/messenger/MediaController;)Lorg/telegram/tgnet/TLRPC$TL_document;
 
     move-result-object v0
@@ -126,7 +121,6 @@
     .line 3034
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordingAudio:Lorg/telegram/tgnet/TLRPC$TL_document;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$2100(Lorg/telegram/messenger/MediaController;)Lorg/telegram/tgnet/TLRPC$TL_document;
 
     move-result-object v0
@@ -138,7 +132,6 @@
     .line 3035
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordingAudio:Lorg/telegram/tgnet/TLRPC$TL_document;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$2100(Lorg/telegram/messenger/MediaController;)Lorg/telegram/tgnet/TLRPC$TL_document;
 
     move-result-object v0
@@ -152,7 +145,6 @@
     .line 3036
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordingAudio:Lorg/telegram/tgnet/TLRPC$TL_document;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$2100(Lorg/telegram/messenger/MediaController;)Lorg/telegram/tgnet/TLRPC$TL_document;
 
     move-result-object v0
@@ -192,7 +184,6 @@
 
     iget-object v3, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordingAudio:Lorg/telegram/tgnet/TLRPC$TL_document;
     invoke-static {v3}, Lorg/telegram/messenger/MediaController;->access$2100(Lorg/telegram/messenger/MediaController;)Lorg/telegram/tgnet/TLRPC$TL_document;
 
     move-result-object v3
@@ -203,7 +194,6 @@
 
     invoke-direct {v1, v2, v3}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    # setter for: Lorg/telegram/messenger/MediaController;->recordingAudioFile:Ljava/io/File;
     invoke-static {v0, v1}, Lorg/telegram/messenger/MediaController;->access$6402(Lorg/telegram/messenger/MediaController;Ljava/io/File;)Ljava/io/File;
 
     .line 3043
@@ -212,7 +202,6 @@
 
     iget-object v1, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordingAudioFile:Ljava/io/File;
     invoke-static {v1}, Lorg/telegram/messenger/MediaController;->access$6400(Lorg/telegram/messenger/MediaController;)Ljava/io/File;
 
     move-result-object v1
@@ -221,7 +210,6 @@
 
     move-result-object v1
 
-    # invokes: Lorg/telegram/messenger/MediaController;->startRecord(Ljava/lang/String;)I
     invoke-static {v0, v1}, Lorg/telegram/messenger/MediaController;->access$6500(Lorg/telegram/messenger/MediaController;Ljava/lang/String;)I
 
     move-result v0
@@ -250,19 +238,16 @@
     .line 3065
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # setter for: Lorg/telegram/messenger/MediaController;->recordingAudio:Lorg/telegram/tgnet/TLRPC$TL_document;
     invoke-static {v0, v9}, Lorg/telegram/messenger/MediaController;->access$2102(Lorg/telegram/messenger/MediaController;Lorg/telegram/tgnet/TLRPC$TL_document;)Lorg/telegram/tgnet/TLRPC$TL_document;
 
     .line 3066
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # invokes: Lorg/telegram/messenger/MediaController;->stopRecord()V
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$6800(Lorg/telegram/messenger/MediaController;)V
 
     .line 3067
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordingAudioFile:Ljava/io/File;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$6400(Lorg/telegram/messenger/MediaController;)Ljava/io/File;
 
     move-result-object v0
@@ -272,14 +257,12 @@
     .line 3068
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # setter for: Lorg/telegram/messenger/MediaController;->recordingAudioFile:Ljava/io/File;
     invoke-static {v0, v9}, Lorg/telegram/messenger/MediaController;->access$6402(Lorg/telegram/messenger/MediaController;Ljava/io/File;)Ljava/io/File;
 
     .line 3070
     :try_start_1
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->audioRecorder:Landroid/media/AudioRecord;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$000(Lorg/telegram/messenger/MediaController;)Landroid/media/AudioRecord;
 
     move-result-object v0
@@ -291,7 +274,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/messenger/MediaController;->audioRecorder:Landroid/media/AudioRecord;
     invoke-static {v0, v1}, Lorg/telegram/messenger/MediaController;->access$002(Lorg/telegram/messenger/MediaController;Landroid/media/AudioRecord;)Landroid/media/AudioRecord;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
@@ -324,7 +306,6 @@
 
     iget-object v5, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordBufferSize:I
     invoke-static {v5}, Lorg/telegram/messenger/MediaController;->access$200(Lorg/telegram/messenger/MediaController;)I
 
     move-result v5
@@ -333,7 +314,6 @@
 
     invoke-direct/range {v0 .. v5}, Landroid/media/AudioRecord;-><init>(IIIII)V
 
-    # setter for: Lorg/telegram/messenger/MediaController;->audioRecorder:Landroid/media/AudioRecord;
     invoke-static {v8, v0}, Lorg/telegram/messenger/MediaController;->access$002(Lorg/telegram/messenger/MediaController;Landroid/media/AudioRecord;)Landroid/media/AudioRecord;
 
     .line 3055
@@ -343,7 +323,6 @@
 
     move-result-wide v2
 
-    # setter for: Lorg/telegram/messenger/MediaController;->recordStartTime:J
     invoke-static {v0, v2, v3}, Lorg/telegram/messenger/MediaController;->access$1102(Lorg/telegram/messenger/MediaController;J)J
 
     .line 3056
@@ -351,7 +330,6 @@
 
     const-wide/16 v2, 0x0
 
-    # setter for: Lorg/telegram/messenger/MediaController;->recordTimeCount:J
     invoke-static {v0, v2, v3}, Lorg/telegram/messenger/MediaController;->access$702(Lorg/telegram/messenger/MediaController;J)J
 
     .line 3057
@@ -359,7 +337,6 @@
 
     const-wide/16 v2, 0x0
 
-    # setter for: Lorg/telegram/messenger/MediaController;->samplesCount:J
     invoke-static {v0, v2, v3}, Lorg/telegram/messenger/MediaController;->access$302(Lorg/telegram/messenger/MediaController;J)J
 
     .line 3058
@@ -367,7 +344,6 @@
 
     iget-wide v2, p0, Lorg/telegram/messenger/MediaController$20;->val$dialog_id:J
 
-    # setter for: Lorg/telegram/messenger/MediaController;->recordDialogId:J
     invoke-static {v0, v2, v3}, Lorg/telegram/messenger/MediaController;->access$6602(Lorg/telegram/messenger/MediaController;J)J
 
     .line 3059
@@ -375,13 +351,11 @@
 
     iget-object v1, p0, Lorg/telegram/messenger/MediaController$20;->val$reply_to_msg:Lorg/telegram/messenger/MessageObject;
 
-    # setter for: Lorg/telegram/messenger/MediaController;->recordReplyingMessageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v0, v1}, Lorg/telegram/messenger/MediaController;->access$6702(Lorg/telegram/messenger/MediaController;Lorg/telegram/messenger/MessageObject;)Lorg/telegram/messenger/MessageObject;
 
     .line 3060
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->fileBuffer:Ljava/nio/ByteBuffer;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$500(Lorg/telegram/messenger/MediaController;)Ljava/nio/ByteBuffer;
 
     move-result-object v0
@@ -391,7 +365,6 @@
     .line 3062
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->audioRecorder:Landroid/media/AudioRecord;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$000(Lorg/telegram/messenger/MediaController;)Landroid/media/AudioRecord;
 
     move-result-object v0
@@ -403,14 +376,12 @@
     .line 3086
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordQueue:Lorg/telegram/messenger/DispatchQueue;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$800(Lorg/telegram/messenger/MediaController;)Lorg/telegram/messenger/DispatchQueue;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/messenger/MediaController$20;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordRunnable:Ljava/lang/Runnable;
     invoke-static {v1}, Lorg/telegram/messenger/MediaController;->access$1000(Lorg/telegram/messenger/MediaController;)Ljava/lang/Runnable;
 
     move-result-object v1

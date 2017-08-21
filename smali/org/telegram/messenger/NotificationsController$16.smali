@@ -49,7 +49,6 @@
 
     iget-object v2, p0, Lorg/telegram/messenger/NotificationsController$16;->this$0:Lorg/telegram/messenger/NotificationsController;
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->lastSoundOutPlay:J
     invoke-static {v2}, Lorg/telegram/messenger/NotificationsController;->access$2600(Lorg/telegram/messenger/NotificationsController;)J
 
     move-result-wide v2
@@ -79,13 +78,11 @@
 
     move-result-wide v2
 
-    # setter for: Lorg/telegram/messenger/NotificationsController;->lastSoundOutPlay:J
     invoke-static {v0, v2, v3}, Lorg/telegram/messenger/NotificationsController;->access$2602(Lorg/telegram/messenger/NotificationsController;J)J
 
     .line 2148
     iget-object v0, p0, Lorg/telegram/messenger/NotificationsController$16;->this$0:Lorg/telegram/messenger/NotificationsController;
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->soundPool:Landroid/media/SoundPool;
     invoke-static {v0}, Lorg/telegram/messenger/NotificationsController;->access$2200(Lorg/telegram/messenger/NotificationsController;)Landroid/media/SoundPool;
 
     move-result-object v0
@@ -105,13 +102,11 @@
 
     invoke-direct {v1, v2, v3, v4}, Landroid/media/SoundPool;-><init>(III)V
 
-    # setter for: Lorg/telegram/messenger/NotificationsController;->soundPool:Landroid/media/SoundPool;
     invoke-static {v0, v1}, Lorg/telegram/messenger/NotificationsController;->access$2202(Lorg/telegram/messenger/NotificationsController;Landroid/media/SoundPool;)Landroid/media/SoundPool;
 
     .line 2150
     iget-object v0, p0, Lorg/telegram/messenger/NotificationsController$16;->this$0:Lorg/telegram/messenger/NotificationsController;
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->soundPool:Landroid/media/SoundPool;
     invoke-static {v0}, Lorg/telegram/messenger/NotificationsController;->access$2200(Lorg/telegram/messenger/NotificationsController;)Landroid/media/SoundPool;
 
     move-result-object v0
@@ -126,7 +121,6 @@
     :cond_2
     iget-object v0, p0, Lorg/telegram/messenger/NotificationsController$16;->this$0:Lorg/telegram/messenger/NotificationsController;
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->soundOut:I
     invoke-static {v0}, Lorg/telegram/messenger/NotificationsController;->access$2700(Lorg/telegram/messenger/NotificationsController;)I
 
     move-result v0
@@ -135,7 +129,6 @@
 
     iget-object v0, p0, Lorg/telegram/messenger/NotificationsController$16;->this$0:Lorg/telegram/messenger/NotificationsController;
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->soundOutLoaded:Z
     invoke-static {v0}, Lorg/telegram/messenger/NotificationsController;->access$2800(Lorg/telegram/messenger/NotificationsController;)Z
 
     move-result v0
@@ -147,7 +140,6 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/messenger/NotificationsController;->soundOutLoaded:Z
     invoke-static {v0, v1}, Lorg/telegram/messenger/NotificationsController;->access$2802(Lorg/telegram/messenger/NotificationsController;Z)Z
 
     .line 2165
@@ -155,7 +147,6 @@
 
     iget-object v1, p0, Lorg/telegram/messenger/NotificationsController$16;->this$0:Lorg/telegram/messenger/NotificationsController;
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->soundPool:Landroid/media/SoundPool;
     invoke-static {v1}, Lorg/telegram/messenger/NotificationsController;->access$2200(Lorg/telegram/messenger/NotificationsController;)Landroid/media/SoundPool;
 
     move-result-object v1
@@ -170,14 +161,12 @@
 
     move-result v1
 
-    # setter for: Lorg/telegram/messenger/NotificationsController;->soundOut:I
     invoke-static {v0, v1}, Lorg/telegram/messenger/NotificationsController;->access$2702(Lorg/telegram/messenger/NotificationsController;I)I
 
     .line 2167
     :cond_3
     iget-object v0, p0, Lorg/telegram/messenger/NotificationsController$16;->this$0:Lorg/telegram/messenger/NotificationsController;
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->soundOut:I
     invoke-static {v0}, Lorg/telegram/messenger/NotificationsController;->access$2700(Lorg/telegram/messenger/NotificationsController;)I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
@@ -190,14 +179,12 @@
     :try_start_1
     iget-object v0, p0, Lorg/telegram/messenger/NotificationsController$16;->this$0:Lorg/telegram/messenger/NotificationsController;
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->soundPool:Landroid/media/SoundPool;
     invoke-static {v0}, Lorg/telegram/messenger/NotificationsController;->access$2200(Lorg/telegram/messenger/NotificationsController;)Landroid/media/SoundPool;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/messenger/NotificationsController$16;->this$0:Lorg/telegram/messenger/NotificationsController;
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->soundOut:I
     invoke-static {v1}, Lorg/telegram/messenger/NotificationsController;->access$2700(Lorg/telegram/messenger/NotificationsController;)I
 
     move-result v1

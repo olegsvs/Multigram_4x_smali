@@ -42,7 +42,6 @@
     .line 4206
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$67;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->voiceHintAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$15400(Lorg/telegram/ui/ChatActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -58,7 +57,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/ChatActivity;->voiceHintAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0, v1}, Lorg/telegram/ui/ChatActivity;->access$15402(Lorg/telegram/ui/ChatActivity;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 4209
@@ -74,7 +72,6 @@
     .line 4193
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$67;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->voiceHintAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$15400(Lorg/telegram/ui/ChatActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -90,7 +87,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/ChatActivity;->voiceHintAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0, v1}, Lorg/telegram/ui/ChatActivity;->access$15402(Lorg/telegram/ui/ChatActivity;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 4195
@@ -100,7 +96,6 @@
 
     invoke-direct {v1, p0}, Lorg/telegram/ui/ChatActivity$67$1;-><init>(Lorg/telegram/ui/ChatActivity$67;)V
 
-    # setter for: Lorg/telegram/ui/ChatActivity;->voiceHintHideRunnable:Ljava/lang/Runnable;
     invoke-static {v0, v1}, Lorg/telegram/ui/ChatActivity;->access$15502(Lorg/telegram/ui/ChatActivity;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     move-result-object v0

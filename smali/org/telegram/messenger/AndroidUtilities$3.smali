@@ -43,7 +43,6 @@
     .line 782
     const/4 v0, 0x0
 
-    # setter for: Lorg/telegram/messenger/AndroidUtilities;->unregisterRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/messenger/AndroidUtilities;->access$102(Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 783
@@ -51,7 +50,6 @@
 
     iget-object v1, p0, Lorg/telegram/messenger/AndroidUtilities$3;->val$number:Ljava/lang/String;
 
-    # invokes: Lorg/telegram/messenger/AndroidUtilities;->registerLoginContentObserver(ZLjava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/AndroidUtilities;->access$000(ZLjava/lang/String;)V
 
     .line 784

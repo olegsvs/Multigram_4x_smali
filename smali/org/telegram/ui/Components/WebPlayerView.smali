@@ -2086,7 +2086,6 @@
     :cond_3
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView;->controlsView:Lorg/telegram/ui/Components/WebPlayerView$ControlsView;
 
-    # invokes: Lorg/telegram/ui/Components/WebPlayerView$ControlsView;->checkNeedHide()V
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView$ControlsView;->access$5500(Lorg/telegram/ui/Components/WebPlayerView$ControlsView;)V
 
     goto :goto_0
@@ -2330,7 +2329,6 @@
     .line 1650
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView;->controlsView:Lorg/telegram/ui/Components/WebPlayerView$ControlsView;
 
-    # invokes: Lorg/telegram/ui/Components/WebPlayerView$ControlsView;->checkNeedHide()V
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView$ControlsView;->access$5500(Lorg/telegram/ui/Components/WebPlayerView$ControlsView;)V
 
     .line 1651
@@ -3477,7 +3475,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/Components/WebPlayerView;->controlsView:Lorg/telegram/ui/Components/WebPlayerView$ControlsView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView$ControlsView;->imageReceiver:Lorg/telegram/messenger/ImageReceiver;
     invoke-static {v3}, Lorg/telegram/ui/Components/WebPlayerView$ControlsView;->access$5400(Lorg/telegram/ui/Components/WebPlayerView$ControlsView;)Lorg/telegram/messenger/ImageReceiver;
 
     move-result-object v3
@@ -4508,7 +4505,6 @@
     .line 1634
     iget-object v2, p0, Lorg/telegram/ui/Components/WebPlayerView;->controlsView:Lorg/telegram/ui/Components/WebPlayerView$ControlsView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView$ControlsView;->imageReceiver:Lorg/telegram/messenger/ImageReceiver;
     invoke-static {v2}, Lorg/telegram/ui/Components/WebPlayerView$ControlsView;->access$5400(Lorg/telegram/ui/Components/WebPlayerView$ControlsView;)Lorg/telegram/messenger/ImageReceiver;
 
     move-result-object v2

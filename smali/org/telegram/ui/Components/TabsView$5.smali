@@ -84,7 +84,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Components/TabsView$5;->this$0:Lorg/telegram/ui/Components/TabsView;
 
-    # getter for: Lorg/telegram/ui/Components/TabsView;->currentPage:I
     invoke-static {v2}, Lorg/telegram/ui/Components/TabsView;->access$400(Lorg/telegram/ui/Components/TabsView;)I
 
     move-result v2
@@ -93,14 +92,12 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Components/TabsView$5;->this$0:Lorg/telegram/ui/Components/TabsView;
 
-    # getter for: Lorg/telegram/ui/Components/TabsView;->currentPage:I
     invoke-static {v2}, Lorg/telegram/ui/Components/TabsView;->access$400(Lorg/telegram/ui/Components/TabsView;)I
 
     move-result v2
 
     iget-object v3, p0, Lorg/telegram/ui/Components/TabsView$5;->this$0:Lorg/telegram/ui/Components/TabsView;
 
-    # getter for: Lorg/telegram/ui/Components/TabsView;->pager:Landroid/support/v4/view/ViewPager;
     invoke-static {v3}, Lorg/telegram/ui/Components/TabsView;->access$600(Lorg/telegram/ui/Components/TabsView;)Landroid/support/v4/view/ViewPager;
 
     move-result-object v3
@@ -159,7 +156,6 @@
     .line 323
     iget-object v0, p0, Lorg/telegram/ui/Components/TabsView$5;->this$0:Lorg/telegram/ui/Components/TabsView;
 
-    # getter for: Lorg/telegram/ui/Components/TabsView;->listener:Lorg/telegram/ui/Components/TabsView$Listener;
     invoke-static {v0}, Lorg/telegram/ui/Components/TabsView;->access$100(Lorg/telegram/ui/Components/TabsView;)Lorg/telegram/ui/Components/TabsView$Listener;
 
     move-result-object v0
@@ -169,14 +165,12 @@
     .line 324
     iget-object v0, p0, Lorg/telegram/ui/Components/TabsView$5;->this$0:Lorg/telegram/ui/Components/TabsView;
 
-    # getter for: Lorg/telegram/ui/Components/TabsView;->listener:Lorg/telegram/ui/Components/TabsView$Listener;
     invoke-static {v0}, Lorg/telegram/ui/Components/TabsView;->access$100(Lorg/telegram/ui/Components/TabsView;)Lorg/telegram/ui/Components/TabsView$Listener;
 
     move-result-object v1
 
     iget-object v0, p0, Lorg/telegram/ui/Components/TabsView$5;->this$0:Lorg/telegram/ui/Components/TabsView;
 
-    # getter for: Lorg/telegram/ui/Components/TabsView;->tabsArray:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/Components/TabsView;->access$200(Lorg/telegram/ui/Components/TabsView;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -197,13 +191,11 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/Components/TabsView$5;->this$0:Lorg/telegram/ui/Components/TabsView;
 
-    # setter for: Lorg/telegram/ui/Components/TabsView;->currentPage:I
     invoke-static {v0, p1}, Lorg/telegram/ui/Components/TabsView;->access$402(Lorg/telegram/ui/Components/TabsView;I)I
 
     .line 327
     iget-object v0, p0, Lorg/telegram/ui/Components/TabsView$5;->this$0:Lorg/telegram/ui/Components/TabsView;
 
-    # invokes: Lorg/telegram/ui/Components/TabsView;->saveNewPage()V
     invoke-static {v0}, Lorg/telegram/ui/Components/TabsView;->access$500(Lorg/telegram/ui/Components/TabsView;)V
 
     .line 328

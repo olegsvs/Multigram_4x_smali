@@ -45,7 +45,6 @@
     .line 260
     iget-object v3, p0, Lorg/telegram/ui/CommonGroupsActivity$5;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # getter for: Lorg/telegram/ui/CommonGroupsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v3}, Lorg/telegram/ui/CommonGroupsActivity;->access$800(Lorg/telegram/ui/CommonGroupsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v3
@@ -65,7 +64,6 @@
     .line 262
     iget-object v3, p0, Lorg/telegram/ui/CommonGroupsActivity$5;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # getter for: Lorg/telegram/ui/CommonGroupsActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v3}, Lorg/telegram/ui/CommonGroupsActivity;->access$800(Lorg/telegram/ui/CommonGroupsActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v3

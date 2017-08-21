@@ -58,7 +58,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ArticleViewer$36;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->loadingChannel:Z
     invoke-static {v1, v5}, Lorg/telegram/ui/ArticleViewer;->access$8302(Lorg/telegram/ui/ArticleViewer;Z)Z
 
     .line 3240
@@ -66,7 +65,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ArticleViewer$36;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->parentFragment:Lorg/telegram/ui/ActionBar/BaseFragment;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$4900(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/ActionBar/BaseFragment;
 
     move-result-object v1
@@ -163,7 +161,6 @@
 
     check-cast v1, Lorg/telegram/tgnet/TLRPC$Chat;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->loadedChannel:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v2, v1}, Lorg/telegram/ui/ArticleViewer;->access$8402(Lorg/telegram/ui/ArticleViewer;Lorg/telegram/tgnet/TLRPC$Chat;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     .line 3250
@@ -171,7 +168,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ArticleViewer$36;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->loadedChannel:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$8400(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v1
@@ -184,7 +180,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ArticleViewer$36;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->loadedChannel:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$8400(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v1

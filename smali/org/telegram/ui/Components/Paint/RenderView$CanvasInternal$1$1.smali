@@ -48,7 +48,6 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;->ready:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;->access$702(Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;Z)Z
 
     .line 438

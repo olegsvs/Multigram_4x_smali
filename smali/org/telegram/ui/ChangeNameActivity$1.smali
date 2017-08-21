@@ -63,7 +63,6 @@
     .line 67
     iget-object v0, p0, Lorg/telegram/ui/ChangeNameActivity$1;->this$0:Lorg/telegram/ui/ChangeNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeNameActivity;->firstNameField:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/ChangeNameActivity;->access$000(Lorg/telegram/ui/ChangeNameActivity;)Landroid/widget/EditText;
 
     move-result-object v0
@@ -81,7 +80,6 @@
     .line 68
     iget-object v0, p0, Lorg/telegram/ui/ChangeNameActivity$1;->this$0:Lorg/telegram/ui/ChangeNameActivity;
 
-    # invokes: Lorg/telegram/ui/ChangeNameActivity;->saveName()V
     invoke-static {v0}, Lorg/telegram/ui/ChangeNameActivity;->access$100(Lorg/telegram/ui/ChangeNameActivity;)V
 
     .line 69

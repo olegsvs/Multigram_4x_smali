@@ -54,7 +54,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/PlusSettingsActivity$3;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->saving:Z
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$7000(Lorg/telegram/ui/PlusSettingsActivity;)Z
 
     move-result v1
@@ -118,7 +117,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/PlusSettingsActivity$3;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # setter for: Lorg/telegram/ui/PlusSettingsActivity;->saving:Z
     invoke-static {v1, v2}, Lorg/telegram/ui/PlusSettingsActivity;->access$7002(Lorg/telegram/ui/PlusSettingsActivity;Z)Z
 
     .line 1211

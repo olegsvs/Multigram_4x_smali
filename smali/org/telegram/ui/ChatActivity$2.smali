@@ -73,7 +73,6 @@
 
     iget-object v9, p0, Lorg/telegram/ui/ChatActivity$2;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->botContextResults:Ljava/util/ArrayList;
     invoke-static {v9}, Lorg/telegram/ui/ChatActivity;->access$400(Lorg/telegram/ui/ChatActivity;)Ljava/util/ArrayList;
 
     move-result-object v9
@@ -93,7 +92,6 @@
     :cond_1
     iget-object v9, p0, Lorg/telegram/ui/ChatActivity$2;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionListView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v9}, Lorg/telegram/ui/ChatActivity;->access$500(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v9
@@ -106,7 +104,6 @@
     .local v3, "count":I
     iget-object v9, p0, Lorg/telegram/ui/ChatActivity$2;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->botContextResults:Ljava/util/ArrayList;
     invoke-static {v9}, Lorg/telegram/ui/ChatActivity;->access$400(Lorg/telegram/ui/ChatActivity;)Ljava/util/ArrayList;
 
     move-result-object v9
@@ -130,7 +127,6 @@
     .local v4, "imageReceiver":Lorg/telegram/messenger/ImageReceiver;
     iget-object v9, p0, Lorg/telegram/ui/ChatActivity$2;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionListView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v9}, Lorg/telegram/ui/ChatActivity;->access$500(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v9
@@ -207,7 +203,6 @@
     .line 453
     iget-object v8, p0, Lorg/telegram/ui/ChatActivity$2;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mentionListView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v8}, Lorg/telegram/ui/ChatActivity;->access$500(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v8
@@ -303,7 +298,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$2;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->botContextResults:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$400(Lorg/telegram/ui/ChatActivity;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -325,7 +319,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$2;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->botContextResults:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$400(Lorg/telegram/ui/ChatActivity;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -336,7 +329,6 @@
 
     check-cast v0, Lorg/telegram/tgnet/TLRPC$BotInlineResult;
 
-    # invokes: Lorg/telegram/ui/ChatActivity;->sendBotInlineResult(Lorg/telegram/tgnet/TLRPC$BotInlineResult;)V
     invoke-static {v1, v0}, Lorg/telegram/ui/ChatActivity;->access$600(Lorg/telegram/ui/ChatActivity;Lorg/telegram/tgnet/TLRPC$BotInlineResult;)V
 
     goto :goto_0

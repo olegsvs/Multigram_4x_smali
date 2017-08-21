@@ -46,7 +46,6 @@
     .line 338
     iget-object v1, p0, Lorg/telegram/ui/Components/ChatDialogsView$5;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->delegate:Lorg/telegram/ui/Components/ChatDialogsView$ChatDialogsViewDelegate;
     invoke-static {v1}, Lorg/telegram/ui/Components/ChatDialogsView;->access$900(Lorg/telegram/ui/Components/ChatDialogsView;)Lorg/telegram/ui/Components/ChatDialogsView$ChatDialogsViewDelegate;
 
     move-result-object v1
@@ -57,7 +56,6 @@
     :try_start_0
     iget-object v1, p0, Lorg/telegram/ui/Components/ChatDialogsView$5;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->delegate:Lorg/telegram/ui/Components/ChatDialogsView$ChatDialogsViewDelegate;
     invoke-static {v1}, Lorg/telegram/ui/Components/ChatDialogsView;->access$900(Lorg/telegram/ui/Components/ChatDialogsView;)Lorg/telegram/ui/Components/ChatDialogsView$ChatDialogsViewDelegate;
 
     move-result-object v2

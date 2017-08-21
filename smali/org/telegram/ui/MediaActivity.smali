@@ -1928,7 +1928,6 @@
 
     aget-object v2, v2, v3
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->messages:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$3000(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Ljava/util/ArrayList;
 
     move-result-object v10
@@ -2010,7 +2009,6 @@
 
     aget-object v3, v3, v9
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->messages:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$3000(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -3091,7 +3089,6 @@
 
     aget-object v4, v4, v5
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->messages:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$3000(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -3178,7 +3175,6 @@
 
     aget-object v4, v4, v5
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->messages:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$3000(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -4019,7 +4015,6 @@
 
     aget-object v0, v0, v1
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->loading:Z
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$400(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Z
 
     move-result v0
@@ -4032,7 +4027,6 @@
 
     aget-object v0, v0, v1
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->messages:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$3000(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -4184,7 +4178,6 @@
 
     aget-object v0, v0, v3
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->messages:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$3000(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -4207,7 +4200,6 @@
 
     aget-object v0, v0, v1
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->loading:Z
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$400(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Z
 
     move-result v0
@@ -4220,7 +4212,6 @@
 
     aget-object v0, v0, v1
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->endReached:[Z
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$300(Lorg/telegram/ui/MediaActivity$SharedMediaData;)[Z
 
     move-result-object v0
@@ -4235,7 +4226,6 @@
 
     aget-object v0, v0, v1
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->messages:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$3000(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -4253,7 +4243,6 @@
 
     aget-object v0, v0, v1
 
-    # setter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->loading:Z
     invoke-static {v0, v6}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$402(Lorg/telegram/ui/MediaActivity$SharedMediaData;Z)Z
 
     .line 1084
@@ -4287,7 +4276,6 @@
 
     aget-object v0, v0, v1
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->loading:Z
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$400(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Z
 
     move-result v0
@@ -4300,7 +4288,6 @@
 
     aget-object v0, v0, v1
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->messages:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$3000(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -4517,7 +4504,6 @@
 
     aget-object v0, v0, v5
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->messages:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$3000(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -4540,7 +4526,6 @@
 
     aget-object v0, v0, v1
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->loading:Z
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$400(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Z
 
     move-result v0
@@ -4553,7 +4538,6 @@
 
     aget-object v0, v0, v1
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->endReached:[Z
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$300(Lorg/telegram/ui/MediaActivity$SharedMediaData;)[Z
 
     move-result-object v0
@@ -4568,7 +4552,6 @@
 
     aget-object v0, v0, v1
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->messages:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$3000(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -4586,7 +4569,6 @@
 
     aget-object v0, v0, v1
 
-    # setter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->loading:Z
     invoke-static {v0, v6}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$402(Lorg/telegram/ui/MediaActivity$SharedMediaData;Z)Z
 
     .line 1108
@@ -4613,7 +4595,6 @@
 
     aget-object v0, v0, v1
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->loading:Z
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$400(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Z
 
     move-result v0
@@ -4626,7 +4607,6 @@
 
     aget-object v0, v0, v1
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->messages:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$3000(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -6386,7 +6366,6 @@
 
     const/4 v3, 0x0
 
-    # setter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->loading:Z
     invoke-static {v2, v3}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$402(Lorg/telegram/ui/MediaActivity$SharedMediaData;Z)Z
 
     .line 754
@@ -6406,7 +6385,6 @@
 
     move-result v2
 
-    # setter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->totalCount:I
     invoke-static {v3, v2}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$2902(Lorg/telegram/ui/MediaActivity$SharedMediaData;I)I
 
     .line 755
@@ -6507,7 +6485,6 @@
 
     aget-object v2, v2, v7
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->endReached:[Z
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$300(Lorg/telegram/ui/MediaActivity$SharedMediaData;)[Z
 
     move-result-object v3
@@ -6533,7 +6510,6 @@
 
     aget-object v2, v2, v7
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->endReached:[Z
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$300(Lorg/telegram/ui/MediaActivity$SharedMediaData;)[Z
 
     move-result-object v2
@@ -6561,7 +6537,6 @@
 
     const/4 v3, 0x1
 
-    # setter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->loading:Z
     invoke-static {v2, v3}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$402(Lorg/telegram/ui/MediaActivity$SharedMediaData;Z)Z
 
     .line 765
@@ -6579,7 +6554,6 @@
 
     aget-object v6, v6, v7
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->max_id:[I
     invoke-static {v6}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$200(Lorg/telegram/ui/MediaActivity$SharedMediaData;)[I
 
     move-result-object v6
@@ -6604,7 +6578,6 @@
 
     aget-object v2, v2, v7
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->loading:Z
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$400(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Z
 
     move-result v2
@@ -6733,7 +6706,6 @@
 
     aget-object v2, v2, v7
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->messages:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$3000(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Ljava/util/ArrayList;
 
     move-result-object v2
@@ -7164,7 +7136,6 @@
 
     aget-object v2, v2, v4
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->messages:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$3000(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Ljava/util/ArrayList;
 
     move-result-object v2
@@ -7459,7 +7430,6 @@
 
     aget-object v2, v2, v4
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->messages:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$3000(Lorg/telegram/ui/MediaActivity$SharedMediaData;)Ljava/util/ArrayList;
 
     move-result-object v2
@@ -9593,7 +9563,6 @@
 
     aget-object v0, v0, v8
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->max_id:[I
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$200(Lorg/telegram/ui/MediaActivity$SharedMediaData;)[I
 
     move-result-object v1
@@ -9625,7 +9594,6 @@
 
     aget-object v0, v0, v8
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->max_id:[I
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$200(Lorg/telegram/ui/MediaActivity$SharedMediaData;)[I
 
     move-result-object v0
@@ -9641,7 +9609,6 @@
 
     aget-object v0, v0, v8
 
-    # getter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->endReached:[Z
     invoke-static {v0}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$300(Lorg/telegram/ui/MediaActivity$SharedMediaData;)[Z
 
     move-result-object v0
@@ -9666,7 +9633,6 @@
 
     aget-object v0, v0, v2
 
-    # setter for: Lorg/telegram/ui/MediaActivity$SharedMediaData;->loading:Z
     invoke-static {v0, v6}, Lorg/telegram/ui/MediaActivity$SharedMediaData;->access$402(Lorg/telegram/ui/MediaActivity$SharedMediaData;Z)Z
 
     .line 246

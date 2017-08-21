@@ -63,7 +63,6 @@
     .line 76
     iget-object v0, p0, Lorg/telegram/ui/ChangeBioActivity$1;->this$0:Lorg/telegram/ui/ChangeBioActivity;
 
-    # invokes: Lorg/telegram/ui/ChangeBioActivity;->saveName()V
     invoke-static {v0}, Lorg/telegram/ui/ChangeBioActivity;->access$000(Lorg/telegram/ui/ChangeBioActivity;)V
 
     goto :goto_0

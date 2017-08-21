@@ -56,7 +56,6 @@
 
     iget-object v3, v3, Lorg/telegram/messenger/SecretChatHelper$14;->this$0:Lorg/telegram/messenger/SecretChatHelper;
 
-    # setter for: Lorg/telegram/messenger/SecretChatHelper;->startingSecretChat:Z
     invoke-static {v3, v6}, Lorg/telegram/messenger/SecretChatHelper;->access$402(Lorg/telegram/messenger/SecretChatHelper;Z)Z
 
     .line 1804

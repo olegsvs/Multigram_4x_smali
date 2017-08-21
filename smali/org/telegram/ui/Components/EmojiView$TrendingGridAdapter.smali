@@ -299,7 +299,6 @@
     .line 2187
     iget-object v11, p0, Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->trendingLayoutManager:Lorg/telegram/messenger/support/widget/GridLayoutManager;
     invoke-static {v11}, Lorg/telegram/ui/Components/EmojiView;->access$6500(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/messenger/support/widget/GridLayoutManager;
 
     move-result-object v11
@@ -311,7 +310,6 @@
     .line 2188
     iget-object v11, p0, Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->trendingLoaded:Z
     invoke-static {v11}, Lorg/telegram/ui/Components/EmojiView;->access$6600(Lorg/telegram/ui/Components/EmojiView;)Z
 
     move-result v11
@@ -611,7 +609,6 @@
 
     const/4 v12, 0x1
 
-    # setter for: Lorg/telegram/ui/Components/EmojiView;->trendingLoaded:Z
     invoke-static {v11, v12}, Lorg/telegram/ui/Components/EmojiView;->access$6602(Lorg/telegram/ui/Components/EmojiView;Z)Z
 
     .line 2225
@@ -621,7 +618,6 @@
 
     move-result v12
 
-    # setter for: Lorg/telegram/ui/Components/EmojiView;->featuredStickersHash:I
     invoke-static {v11, v12}, Lorg/telegram/ui/Components/EmojiView;->access$6702(Lorg/telegram/ui/Components/EmojiView;I)I
 
     .line 2227
@@ -770,7 +766,6 @@
     :cond_0
     iget-object v7, p0, Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->installingStickerSets:Ljava/util/HashMap;
     invoke-static {v7}, Lorg/telegram/ui/Components/EmojiView;->access$6300(Lorg/telegram/ui/Components/EmojiView;)Ljava/util/HashMap;
 
     move-result-object v7
@@ -791,7 +786,6 @@
     .local v1, "installing":Z
     iget-object v7, p0, Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->removingStickerSets:Ljava/util/HashMap;
     invoke-static {v7}, Lorg/telegram/ui/Components/EmojiView;->access$6400(Lorg/telegram/ui/Components/EmojiView;)Ljava/util/HashMap;
 
     move-result-object v7
@@ -827,7 +821,6 @@
     .line 2159
     iget-object v7, p0, Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->installingStickerSets:Ljava/util/HashMap;
     invoke-static {v7}, Lorg/telegram/ui/Components/EmojiView;->access$6300(Lorg/telegram/ui/Components/EmojiView;)Ljava/util/HashMap;
 
     move-result-object v7
@@ -887,7 +880,6 @@
     .line 2162
     iget-object v7, p0, Lorg/telegram/ui/Components/EmojiView$TrendingGridAdapter;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->removingStickerSets:Ljava/util/HashMap;
     invoke-static {v7}, Lorg/telegram/ui/Components/EmojiView;->access$6400(Lorg/telegram/ui/Components/EmojiView;)Ljava/util/HashMap;
 
     move-result-object v7

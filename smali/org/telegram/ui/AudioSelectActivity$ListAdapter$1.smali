@@ -47,7 +47,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/AudioSelectActivity$ListAdapter;->this$0:Lorg/telegram/ui/AudioSelectActivity;
 
-    # setter for: Lorg/telegram/ui/AudioSelectActivity;->playingAudio:Lorg/telegram/messenger/MessageObject;
     invoke-static {v0, p1}, Lorg/telegram/ui/AudioSelectActivity;->access$602(Lorg/telegram/ui/AudioSelectActivity;Lorg/telegram/messenger/MessageObject;)Lorg/telegram/messenger/MessageObject;
 
     .line 312

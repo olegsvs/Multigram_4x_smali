@@ -50,7 +50,6 @@
     .local v2, "localeInfo":Lorg/telegram/messenger/LocaleController$LocaleInfo;
     iget-object v3, p0, Lorg/telegram/ui/LanguageSelectActivity$4;->this$0:Lorg/telegram/ui/LanguageSelectActivity;
 
-    # getter for: Lorg/telegram/ui/LanguageSelectActivity;->searching:Z
     invoke-static {v3}, Lorg/telegram/ui/LanguageSelectActivity;->access$000(Lorg/telegram/ui/LanguageSelectActivity;)Z
 
     move-result v3
@@ -59,7 +58,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/LanguageSelectActivity$4;->this$0:Lorg/telegram/ui/LanguageSelectActivity;
 
-    # getter for: Lorg/telegram/ui/LanguageSelectActivity;->searchWas:Z
     invoke-static {v3}, Lorg/telegram/ui/LanguageSelectActivity;->access$100(Lorg/telegram/ui/LanguageSelectActivity;)Z
 
     move-result v3
@@ -71,7 +69,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/LanguageSelectActivity$4;->this$0:Lorg/telegram/ui/LanguageSelectActivity;
 
-    # getter for: Lorg/telegram/ui/LanguageSelectActivity;->searchResult:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/LanguageSelectActivity;->access$600(Lorg/telegram/ui/LanguageSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -85,7 +82,6 @@
     .line 165
     iget-object v3, p0, Lorg/telegram/ui/LanguageSelectActivity$4;->this$0:Lorg/telegram/ui/LanguageSelectActivity;
 
-    # getter for: Lorg/telegram/ui/LanguageSelectActivity;->searchResult:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/LanguageSelectActivity;->access$600(Lorg/telegram/ui/LanguageSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -135,7 +131,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/LanguageSelectActivity$4;->this$0:Lorg/telegram/ui/LanguageSelectActivity;
 
-    # getter for: Lorg/telegram/ui/LanguageSelectActivity;->sortedLanguages:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/LanguageSelectActivity;->access$700(Lorg/telegram/ui/LanguageSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -149,7 +144,6 @@
     .line 169
     iget-object v3, p0, Lorg/telegram/ui/LanguageSelectActivity$4;->this$0:Lorg/telegram/ui/LanguageSelectActivity;
 
-    # getter for: Lorg/telegram/ui/LanguageSelectActivity;->sortedLanguages:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/LanguageSelectActivity;->access$700(Lorg/telegram/ui/LanguageSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v3

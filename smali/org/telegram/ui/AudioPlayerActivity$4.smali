@@ -52,7 +52,6 @@
     .line 273
     iget-object v0, p0, Lorg/telegram/ui/AudioPlayerActivity$4;->this$0:Lorg/telegram/ui/AudioPlayerActivity;
 
-    # invokes: Lorg/telegram/ui/AudioPlayerActivity;->updateRepeatButton()V
     invoke-static {v0}, Lorg/telegram/ui/AudioPlayerActivity;->access$200(Lorg/telegram/ui/AudioPlayerActivity;)V
 
     .line 274

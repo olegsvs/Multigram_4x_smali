@@ -46,13 +46,11 @@
     .line 660
     iget-object v0, p0, Lorg/telegram/ui/PopupNotificationActivity$7;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # setter for: Lorg/telegram/ui/PopupNotificationActivity;->animationInProgress:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/PopupNotificationActivity;->access$1002(Lorg/telegram/ui/PopupNotificationActivity;Z)Z
 
     .line 661
     iget-object v0, p0, Lorg/telegram/ui/PopupNotificationActivity$7;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # invokes: Lorg/telegram/ui/PopupNotificationActivity;->applyViewsLayoutParams(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/PopupNotificationActivity;->access$1200(Lorg/telegram/ui/PopupNotificationActivity;I)V
 
     .line 662

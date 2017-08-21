@@ -48,7 +48,6 @@
     const/4 v0, 0x1
 
     :goto_0
-    # setter for: Lorg/telegram/ui/DocumentSelectActivity;->scrolling:Z
     invoke-static {v1, v0}, Lorg/telegram/ui/DocumentSelectActivity;->access$802(Lorg/telegram/ui/DocumentSelectActivity;Z)Z
 
     .line 238

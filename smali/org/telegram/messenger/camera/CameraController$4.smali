@@ -224,7 +224,6 @@
 
     .line 364
     .local v5, "matrix":Landroid/graphics/Matrix;
-    # invokes: Lorg/telegram/messenger/camera/CameraController;->getOrientation([B)I
     invoke-static {p1}, Lorg/telegram/messenger/camera/CameraController;->access$200([B)I
 
     move-result v1

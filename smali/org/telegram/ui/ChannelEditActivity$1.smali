@@ -54,7 +54,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ChannelEditActivity$1;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->chat_id:I
     invoke-static {v2}, Lorg/telegram/ui/ChannelEditActivity;->access$100(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v2
@@ -63,7 +62,6 @@
 
     move-result-object v1
 
-    # setter for: Lorg/telegram/ui/ChannelEditActivity;->currentChat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v0, v1}, Lorg/telegram/ui/ChannelEditActivity;->access$002(Lorg/telegram/ui/ChannelEditActivity;Lorg/telegram/tgnet/TLRPC$Chat;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     .line 112

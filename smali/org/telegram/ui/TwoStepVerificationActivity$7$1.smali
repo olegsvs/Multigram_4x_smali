@@ -58,7 +58,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/TwoStepVerificationActivity$7;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # setter for: Lorg/telegram/ui/TwoStepVerificationActivity;->loading:Z
     invoke-static {v1, v2}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$1802(Lorg/telegram/ui/TwoStepVerificationActivity;Z)Z
 
     .line 415
@@ -82,7 +81,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/TwoStepVerificationActivity$7;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->currentPassword:Lorg/telegram/tgnet/TLRPC$account_Password;
     invoke-static {v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$200(Lorg/telegram/ui/TwoStepVerificationActivity;)Lorg/telegram/tgnet/TLRPC$account_Password;
 
     move-result-object v1
@@ -99,7 +97,6 @@
     move v1, v3
 
     :goto_0
-    # setter for: Lorg/telegram/ui/TwoStepVerificationActivity;->passwordEntered:Z
     invoke-static {v4, v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$1902(Lorg/telegram/ui/TwoStepVerificationActivity;Z)Z
 
     .line 419
@@ -112,7 +109,6 @@
 
     check-cast v1, Lorg/telegram/tgnet/TLRPC$account_Password;
 
-    # setter for: Lorg/telegram/ui/TwoStepVerificationActivity;->currentPassword:Lorg/telegram/tgnet/TLRPC$account_Password;
     invoke-static {v4, v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$202(Lorg/telegram/ui/TwoStepVerificationActivity;Lorg/telegram/tgnet/TLRPC$account_Password;)Lorg/telegram/tgnet/TLRPC$account_Password;
 
     .line 420
@@ -124,7 +120,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/TwoStepVerificationActivity$7;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->currentPassword:Lorg/telegram/tgnet/TLRPC$account_Password;
     invoke-static {v4}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$200(Lorg/telegram/ui/TwoStepVerificationActivity;)Lorg/telegram/tgnet/TLRPC$account_Password;
 
     move-result-object v4
@@ -138,7 +133,6 @@
     if-lez v4, :cond_5
 
     :goto_1
-    # setter for: Lorg/telegram/ui/TwoStepVerificationActivity;->waitingForEmail:Z
     invoke-static {v1, v3}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2002(Lorg/telegram/ui/TwoStepVerificationActivity;Z)Z
 
     .line 421
@@ -146,7 +140,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/TwoStepVerificationActivity$7;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->currentPassword:Lorg/telegram/tgnet/TLRPC$account_Password;
     invoke-static {v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$200(Lorg/telegram/ui/TwoStepVerificationActivity;)Lorg/telegram/tgnet/TLRPC$account_Password;
 
     move-result-object v1
@@ -170,7 +163,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/TwoStepVerificationActivity$7;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->currentPassword:Lorg/telegram/tgnet/TLRPC$account_Password;
     invoke-static {v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$200(Lorg/telegram/ui/TwoStepVerificationActivity;)Lorg/telegram/tgnet/TLRPC$account_Password;
 
     move-result-object v1
@@ -181,7 +173,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/TwoStepVerificationActivity$7;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->currentPassword:Lorg/telegram/tgnet/TLRPC$account_Password;
     invoke-static {v3}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$200(Lorg/telegram/ui/TwoStepVerificationActivity;)Lorg/telegram/tgnet/TLRPC$account_Password;
 
     move-result-object v3
@@ -197,7 +188,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/TwoStepVerificationActivity$7;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->currentPassword:Lorg/telegram/tgnet/TLRPC$account_Password;
     invoke-static {v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$200(Lorg/telegram/ui/TwoStepVerificationActivity;)Lorg/telegram/tgnet/TLRPC$account_Password;
 
     move-result-object v1
@@ -211,7 +201,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/TwoStepVerificationActivity$7;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->type:I
     invoke-static {v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$100(Lorg/telegram/ui/TwoStepVerificationActivity;)I
 
     move-result v1
@@ -222,7 +211,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/TwoStepVerificationActivity$7;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->destroyed:Z
     invoke-static {v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2100(Lorg/telegram/ui/TwoStepVerificationActivity;)Z
 
     move-result v1
@@ -233,7 +221,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/TwoStepVerificationActivity$7;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->shortPollRunnable:Ljava/lang/Runnable;
     invoke-static {v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2200(Lorg/telegram/ui/TwoStepVerificationActivity;)Ljava/lang/Runnable;
 
     move-result-object v1
@@ -249,7 +236,6 @@
 
     invoke-direct {v2, p0}, Lorg/telegram/ui/TwoStepVerificationActivity$7$1$1;-><init>(Lorg/telegram/ui/TwoStepVerificationActivity$7$1;)V
 
-    # setter for: Lorg/telegram/ui/TwoStepVerificationActivity;->shortPollRunnable:Ljava/lang/Runnable;
     invoke-static {v1, v2}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2202(Lorg/telegram/ui/TwoStepVerificationActivity;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 437
@@ -257,7 +243,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/TwoStepVerificationActivity$7;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # getter for: Lorg/telegram/ui/TwoStepVerificationActivity;->shortPollRunnable:Ljava/lang/Runnable;
     invoke-static {v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2200(Lorg/telegram/ui/TwoStepVerificationActivity;)Ljava/lang/Runnable;
 
     move-result-object v1
@@ -272,7 +257,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/TwoStepVerificationActivity$7;->this$0:Lorg/telegram/ui/TwoStepVerificationActivity;
 
-    # invokes: Lorg/telegram/ui/TwoStepVerificationActivity;->updateRows()V
     invoke-static {v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$2400(Lorg/telegram/ui/TwoStepVerificationActivity;)V
 
     .line 440

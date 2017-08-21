@@ -44,7 +44,6 @@
     :try_start_0
     iget-object v1, p0, Lorg/telegram/messenger/support/customtabs/CustomTabsSessionToken$1;->this$0:Lorg/telegram/messenger/support/customtabs/CustomTabsSessionToken;
 
-    # getter for: Lorg/telegram/messenger/support/customtabs/CustomTabsSessionToken;->mCallbackBinder:Lorg/telegram/messenger/support/customtabs/ICustomTabsCallback;
     invoke-static {v1}, Lorg/telegram/messenger/support/customtabs/CustomTabsSessionToken;->access$000(Lorg/telegram/messenger/support/customtabs/CustomTabsSessionToken;)Lorg/telegram/messenger/support/customtabs/ICustomTabsCallback;
 
     move-result-object v1

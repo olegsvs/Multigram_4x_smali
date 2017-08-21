@@ -71,7 +71,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask$1;->this$1:Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;->result:[Ljava/lang/String;
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;->access$1300(Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;)[Ljava/lang/String;
 
     move-result-object v0
@@ -80,7 +79,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask$1;->this$1:Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;->result:[Ljava/lang/String;
     invoke-static {v1}, Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;->access$1300(Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;)[Ljava/lang/String;
 
     move-result-object v1
@@ -91,7 +89,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask$1;->this$1:Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;->sig:Ljava/lang/String;
     invoke-static {v2}, Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;->access$1400(Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;)Ljava/lang/String;
 
     move-result-object v2
@@ -137,7 +134,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask$1;->this$1:Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;->semaphore:Ljava/util/concurrent/Semaphore;
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;->access$1500(Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;)Ljava/util/concurrent/Semaphore;
 
     move-result-object v0

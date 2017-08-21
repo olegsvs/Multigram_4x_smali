@@ -71,7 +71,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/MediaActivity$10;->val$msg:Lorg/telegram/messenger/MessageObject;
 
-    # invokes: Lorg/telegram/ui/MediaActivity;->processClick(ILandroid/view/View;Lorg/telegram/messenger/MessageObject;)V
     invoke-static {v0, v1, v2, v3}, Lorg/telegram/ui/MediaActivity;->access$3200(Lorg/telegram/ui/MediaActivity;ILandroid/view/View;Lorg/telegram/messenger/MessageObject;)V
 
     .line 1227
@@ -90,7 +89,6 @@
 
     iget v1, p0, Lorg/telegram/ui/MediaActivity$10;->val$id:I
 
-    # invokes: Lorg/telegram/ui/MediaActivity;->goToMessage(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/MediaActivity;->access$3300(Lorg/telegram/ui/MediaActivity;I)V
 
     goto :goto_0

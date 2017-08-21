@@ -46,7 +46,6 @@
     .line 2934
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$28;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->progressViewAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$7900(Lorg/telegram/ui/ArticleViewer;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -55,7 +54,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$28;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->progressViewAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$7900(Lorg/telegram/ui/ArticleViewer;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -71,7 +69,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->progressViewAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0, v1}, Lorg/telegram/ui/ArticleViewer;->access$7902(Lorg/telegram/ui/ArticleViewer;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 2937
@@ -89,7 +86,6 @@
     .line 2923
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$28;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->progressViewAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$7900(Lorg/telegram/ui/ArticleViewer;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -98,7 +94,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$28;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->progressViewAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$7900(Lorg/telegram/ui/ArticleViewer;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -117,7 +112,6 @@
     .line 2925
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$28;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->progressView:Lorg/telegram/ui/Components/ContextProgressView;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$8000(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/Components/ContextProgressView;
 
     move-result-object v0
@@ -133,7 +127,6 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$28;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->shareButton:Landroid/widget/ImageView;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$8100(Lorg/telegram/ui/ArticleViewer;)Landroid/widget/ImageView;
 
     move-result-object v0

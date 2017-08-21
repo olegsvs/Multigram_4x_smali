@@ -45,7 +45,6 @@
     .line 1336
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$5;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->currentTask:Landroid/os/AsyncTask;
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$4900(Lorg/telegram/ui/Components/WebPlayerView;)Landroid/os/AsyncTask;
 
     move-result-object v0
@@ -54,7 +53,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$5;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->currentTask:Landroid/os/AsyncTask;
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$4900(Lorg/telegram/ui/Components/WebPlayerView;)Landroid/os/AsyncTask;
 
     move-result-object v0
@@ -68,7 +66,6 @@
     .line 1337
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$5;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->currentTask:Landroid/os/AsyncTask;
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$4900(Lorg/telegram/ui/Components/WebPlayerView;)Landroid/os/AsyncTask;
 
     move-result-object v0
@@ -80,14 +77,12 @@
     .line 1338
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$5;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->currentTask:Landroid/os/AsyncTask;
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$4900(Lorg/telegram/ui/Components/WebPlayerView;)Landroid/os/AsyncTask;
 
     move-result-object v0
 
     check-cast v0, Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;
 
-    # invokes: Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;->onInterfaceResult(Ljava/lang/String;)V
     invoke-static {v0, p1}, Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;->access$5000(Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;Ljava/lang/String;)V
 
     .line 1341

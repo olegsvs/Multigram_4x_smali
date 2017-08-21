@@ -63,7 +63,6 @@
 
     iget-object v12, v0, Lorg/telegram/messenger/MessagesStorage$27;->this$0:Lorg/telegram/messenger/MessagesStorage;
 
-    # getter for: Lorg/telegram/messenger/MessagesStorage;->database:Lorg/telegram/SQLite/SQLiteDatabase;
     invoke-static {v12}, Lorg/telegram/messenger/MessagesStorage;->access$000(Lorg/telegram/messenger/MessagesStorage;)Lorg/telegram/SQLite/SQLiteDatabase;
 
     move-result-object v12
@@ -385,7 +384,6 @@
 
     iget-object v12, v0, Lorg/telegram/messenger/MessagesStorage$27;->this$0:Lorg/telegram/messenger/MessagesStorage;
 
-    # getter for: Lorg/telegram/messenger/MessagesStorage;->database:Lorg/telegram/SQLite/SQLiteDatabase;
     invoke-static {v12}, Lorg/telegram/messenger/MessagesStorage;->access$000(Lorg/telegram/messenger/MessagesStorage;)Lorg/telegram/SQLite/SQLiteDatabase;
 
     move-result-object v12
@@ -544,7 +542,6 @@
 
     iget-object v13, v0, Lorg/telegram/messenger/MessagesStorage$27;->this$0:Lorg/telegram/messenger/MessagesStorage;
 
-    # invokes: Lorg/telegram/messenger/MessagesStorage;->getMessageMediaType(Lorg/telegram/tgnet/TLRPC$Message;)I
     invoke-static {v13, v8}, Lorg/telegram/messenger/MessagesStorage;->access$900(Lorg/telegram/messenger/MessagesStorage;Lorg/telegram/tgnet/TLRPC$Message;)I
 
     move-result v13

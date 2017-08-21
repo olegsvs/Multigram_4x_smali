@@ -82,7 +82,6 @@
 
     iget v6, p0, Lorg/telegram/messenger/MessagesController$41;->val$max_id_delete_final:I
 
-    # invokes: Lorg/telegram/messenger/MessagesController;->deleteDialog(JZII)V
     invoke-static/range {v1 .. v6}, Lorg/telegram/messenger/MessagesController;->access$3500(Lorg/telegram/messenger/MessagesController;JZII)V
 
     .line 2289

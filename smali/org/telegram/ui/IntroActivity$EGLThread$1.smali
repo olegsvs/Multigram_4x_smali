@@ -27,7 +27,7 @@
     .param p1, "this$1"    # Lorg/telegram/ui/IntroActivity$EGLThread;
 
     .prologue
-    .line 649
+    .line 687
     iput-object p1, p0, Lorg/telegram/ui/IntroActivity$EGLThread$1;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,32 +41,29 @@
     .locals 6
 
     .prologue
-    .line 652
+    .line 690
     iget-object v1, p0, Lorg/telegram/ui/IntroActivity$EGLThread$1;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
-    # getter for: Lorg/telegram/ui/IntroActivity$EGLThread;->initied:Z
     invoke-static {v1}, Lorg/telegram/ui/IntroActivity$EGLThread;->access$1600(Lorg/telegram/ui/IntroActivity$EGLThread;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 674
+    .line 712
     :goto_0
     return-void
 
-    .line 656
+    .line 694
     :cond_0
     iget-object v1, p0, Lorg/telegram/ui/IntroActivity$EGLThread$1;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
-    # getter for: Lorg/telegram/ui/IntroActivity$EGLThread;->eglContext:Ljavax/microedition/khronos/egl/EGLContext;
     invoke-static {v1}, Lorg/telegram/ui/IntroActivity$EGLThread;->access$1800(Lorg/telegram/ui/IntroActivity$EGLThread;)Ljavax/microedition/khronos/egl/EGLContext;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/ui/IntroActivity$EGLThread$1;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
-    # getter for: Lorg/telegram/ui/IntroActivity$EGLThread;->egl10:Ljavax/microedition/khronos/egl/EGL10;
     invoke-static {v2}, Lorg/telegram/ui/IntroActivity$EGLThread;->access$1700(Lorg/telegram/ui/IntroActivity$EGLThread;)Ljavax/microedition/khronos/egl/EGL10;
 
     move-result-object v2
@@ -83,14 +80,12 @@
 
     iget-object v1, p0, Lorg/telegram/ui/IntroActivity$EGLThread$1;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
-    # getter for: Lorg/telegram/ui/IntroActivity$EGLThread;->eglSurface:Ljavax/microedition/khronos/egl/EGLSurface;
     invoke-static {v1}, Lorg/telegram/ui/IntroActivity$EGLThread;->access$1900(Lorg/telegram/ui/IntroActivity$EGLThread;)Ljavax/microedition/khronos/egl/EGLSurface;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/ui/IntroActivity$EGLThread$1;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
-    # getter for: Lorg/telegram/ui/IntroActivity$EGLThread;->egl10:Ljavax/microedition/khronos/egl/EGL10;
     invoke-static {v2}, Lorg/telegram/ui/IntroActivity$EGLThread;->access$1700(Lorg/telegram/ui/IntroActivity$EGLThread;)Ljavax/microedition/khronos/egl/EGL10;
 
     move-result-object v2
@@ -107,39 +102,34 @@
 
     if-nez v1, :cond_2
 
-    .line 657
+    .line 695
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/IntroActivity$EGLThread$1;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
-    # getter for: Lorg/telegram/ui/IntroActivity$EGLThread;->egl10:Ljavax/microedition/khronos/egl/EGL10;
     invoke-static {v1}, Lorg/telegram/ui/IntroActivity$EGLThread;->access$1700(Lorg/telegram/ui/IntroActivity$EGLThread;)Ljavax/microedition/khronos/egl/EGL10;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/ui/IntroActivity$EGLThread$1;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
-    # getter for: Lorg/telegram/ui/IntroActivity$EGLThread;->eglDisplay:Ljavax/microedition/khronos/egl/EGLDisplay;
     invoke-static {v2}, Lorg/telegram/ui/IntroActivity$EGLThread;->access$2000(Lorg/telegram/ui/IntroActivity$EGLThread;)Ljavax/microedition/khronos/egl/EGLDisplay;
 
     move-result-object v2
 
     iget-object v3, p0, Lorg/telegram/ui/IntroActivity$EGLThread$1;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
-    # getter for: Lorg/telegram/ui/IntroActivity$EGLThread;->eglSurface:Ljavax/microedition/khronos/egl/EGLSurface;
     invoke-static {v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->access$1900(Lorg/telegram/ui/IntroActivity$EGLThread;)Ljavax/microedition/khronos/egl/EGLSurface;
 
     move-result-object v3
 
     iget-object v4, p0, Lorg/telegram/ui/IntroActivity$EGLThread$1;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
-    # getter for: Lorg/telegram/ui/IntroActivity$EGLThread;->eglSurface:Ljavax/microedition/khronos/egl/EGLSurface;
     invoke-static {v4}, Lorg/telegram/ui/IntroActivity$EGLThread;->access$1900(Lorg/telegram/ui/IntroActivity$EGLThread;)Ljavax/microedition/khronos/egl/EGLSurface;
 
     move-result-object v4
 
     iget-object v5, p0, Lorg/telegram/ui/IntroActivity$EGLThread$1;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
-    # getter for: Lorg/telegram/ui/IntroActivity$EGLThread;->eglContext:Ljavax/microedition/khronos/egl/EGLContext;
     invoke-static {v5}, Lorg/telegram/ui/IntroActivity$EGLThread;->access$1800(Lorg/telegram/ui/IntroActivity$EGLThread;)Ljavax/microedition/khronos/egl/EGLContext;
 
     move-result-object v5
@@ -150,7 +140,7 @@
 
     if-nez v1, :cond_2
 
-    .line 658
+    .line 696
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -163,7 +153,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/IntroActivity$EGLThread$1;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
-    # getter for: Lorg/telegram/ui/IntroActivity$EGLThread;->egl10:Ljavax/microedition/khronos/egl/EGL10;
     invoke-static {v2}, Lorg/telegram/ui/IntroActivity$EGLThread;->access$1700(Lorg/telegram/ui/IntroActivity$EGLThread;)Ljavax/microedition/khronos/egl/EGL10;
 
     move-result-object v2
@@ -188,7 +177,7 @@
 
     goto :goto_0
 
-    .line 662
+    .line 700
     :cond_2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -198,7 +187,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/IntroActivity$EGLThread;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # getter for: Lorg/telegram/ui/IntroActivity;->currentDate:J
     invoke-static {v1}, Lorg/telegram/ui/IntroActivity;->access$1500(Lorg/telegram/ui/IntroActivity;)J
 
     move-result-wide v4
@@ -211,50 +199,46 @@
 
     div-float v0, v1, v2
 
-    .line 663
+    .line 701
     .local v0, "time":F
     iget-object v1, p0, Lorg/telegram/ui/IntroActivity$EGLThread$1;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
     iget-object v1, v1, Lorg/telegram/ui/IntroActivity$EGLThread;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # getter for: Lorg/telegram/ui/IntroActivity;->currentViewPagerPage:I
     invoke-static {v1}, Lorg/telegram/ui/IntroActivity;->access$500(Lorg/telegram/ui/IntroActivity;)I
 
     move-result v1
 
     invoke-static {v1}, Lorg/telegram/messenger/Intro;->setPage(I)V
 
-    .line 664
+    .line 702
     invoke-static {v0}, Lorg/telegram/messenger/Intro;->setDate(F)V
 
-    .line 665
+    .line 703
     invoke-static {}, Lorg/telegram/messenger/Intro;->onDrawFrame()V
 
-    .line 666
+    .line 704
     iget-object v1, p0, Lorg/telegram/ui/IntroActivity$EGLThread$1;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
-    # getter for: Lorg/telegram/ui/IntroActivity$EGLThread;->egl10:Ljavax/microedition/khronos/egl/EGL10;
     invoke-static {v1}, Lorg/telegram/ui/IntroActivity$EGLThread;->access$1700(Lorg/telegram/ui/IntroActivity$EGLThread;)Ljavax/microedition/khronos/egl/EGL10;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/ui/IntroActivity$EGLThread$1;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
-    # getter for: Lorg/telegram/ui/IntroActivity$EGLThread;->eglDisplay:Ljavax/microedition/khronos/egl/EGLDisplay;
     invoke-static {v2}, Lorg/telegram/ui/IntroActivity$EGLThread;->access$2000(Lorg/telegram/ui/IntroActivity$EGLThread;)Ljavax/microedition/khronos/egl/EGLDisplay;
 
     move-result-object v2
 
     iget-object v3, p0, Lorg/telegram/ui/IntroActivity$EGLThread$1;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
-    # getter for: Lorg/telegram/ui/IntroActivity$EGLThread;->eglSurface:Ljavax/microedition/khronos/egl/EGLSurface;
     invoke-static {v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->access$1900(Lorg/telegram/ui/IntroActivity$EGLThread;)Ljavax/microedition/khronos/egl/EGLSurface;
 
     move-result-object v3
 
     invoke-interface {v1, v2, v3}, Ljavax/microedition/khronos/egl/EGL10;->eglSwapBuffers(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLSurface;)Z
 
-    .line 668
+    .line 706
     iget-object v1, p0, Lorg/telegram/ui/IntroActivity$EGLThread$1;->this$1:Lorg/telegram/ui/IntroActivity$EGLThread;
 
     new-instance v2, Lorg/telegram/ui/IntroActivity$EGLThread$1$1;

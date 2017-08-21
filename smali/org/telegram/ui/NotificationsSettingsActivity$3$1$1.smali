@@ -59,7 +59,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/NotificationsSettingsActivity$3;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # setter for: Lorg/telegram/ui/NotificationsSettingsActivity;->reseting:Z
     invoke-static {v3, v6}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$802(Lorg/telegram/ui/NotificationsSettingsActivity;Z)Z
 
     .line 300
@@ -91,7 +90,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/NotificationsSettingsActivity$3;->this$0:Lorg/telegram/ui/NotificationsSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/NotificationsSettingsActivity;->adapter:Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;
     invoke-static {v3}, Lorg/telegram/ui/NotificationsSettingsActivity;->access$900(Lorg/telegram/ui/NotificationsSettingsActivity;)Lorg/telegram/ui/NotificationsSettingsActivity$ListAdapter;
 
     move-result-object v3

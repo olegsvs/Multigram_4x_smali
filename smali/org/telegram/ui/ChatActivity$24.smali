@@ -188,7 +188,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/ChatActivity$24;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->dialog_id:J
     invoke-static {v4}, Lorg/telegram/ui/ChatActivity;->access$100(Lorg/telegram/ui/ChatActivity;)J
 
     move-result-wide v4
@@ -218,7 +217,6 @@
 
     const/4 v3, 0x1
 
-    # invokes: Lorg/telegram/ui/ChatActivity;->updatePinnedMessageView(Z)V
     invoke-static {v2, v3}, Lorg/telegram/ui/ChatActivity;->access$1600(Lorg/telegram/ui/ChatActivity;Z)V
 
     goto/16 :goto_0

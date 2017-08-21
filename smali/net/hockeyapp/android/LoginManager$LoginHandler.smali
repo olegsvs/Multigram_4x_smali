@@ -90,7 +90,6 @@
     if-nez v2, :cond_1
 
     .line 284
-    # invokes: Lnet/hockeyapp/android/LoginManager;->startLoginActivity(Landroid/content/Context;)V
     invoke-static {v1}, Lnet/hockeyapp/android/LoginManager;->access$000(Landroid/content/Context;)V
 
     goto :goto_0

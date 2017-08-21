@@ -50,7 +50,6 @@
 
     const/4 v1, 0x1
 
-    # invokes: Lorg/telegram/ui/TwoStepVerificationActivity;->setNewPassword(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$800(Lorg/telegram/ui/TwoStepVerificationActivity;Z)V
 
     .line 346

@@ -45,7 +45,6 @@
     .line 287
     iget-object v3, p0, Lorg/telegram/ui/PrivacyUsersActivity$4;->this$0:Lorg/telegram/ui/PrivacyUsersActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyUsersActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v3}, Lorg/telegram/ui/PrivacyUsersActivity;->access$600(Lorg/telegram/ui/PrivacyUsersActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v3
@@ -65,7 +64,6 @@
     .line 289
     iget-object v3, p0, Lorg/telegram/ui/PrivacyUsersActivity$4;->this$0:Lorg/telegram/ui/PrivacyUsersActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacyUsersActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v3}, Lorg/telegram/ui/PrivacyUsersActivity;->access$600(Lorg/telegram/ui/PrivacyUsersActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v3

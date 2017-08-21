@@ -47,7 +47,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Components/StickerMasksView$1;->this$0:Lorg/telegram/ui/Components/StickerMasksView;
 
-    # getter for: Lorg/telegram/ui/Components/StickerMasksView;->stickersGridView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v2}, Lorg/telegram/ui/Components/StickerMasksView;->access$000(Lorg/telegram/ui/Components/StickerMasksView;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v2

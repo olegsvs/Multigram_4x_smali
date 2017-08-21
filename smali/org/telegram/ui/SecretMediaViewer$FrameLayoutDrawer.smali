@@ -51,7 +51,6 @@
     .line 86
     iget-object v0, p0, Lorg/telegram/ui/SecretMediaViewer$FrameLayoutDrawer;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->aspectRatioFrameLayout:Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/SecretMediaViewer;->access$200(Lorg/telegram/ui/SecretMediaViewer;)Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
 
     move-result-object v0
@@ -83,7 +82,6 @@
     .line 81
     iget-object v0, p0, Lorg/telegram/ui/SecretMediaViewer$FrameLayoutDrawer;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # invokes: Lorg/telegram/ui/SecretMediaViewer;->onDraw(Landroid/graphics/Canvas;)V
     invoke-static {v0, p1}, Lorg/telegram/ui/SecretMediaViewer;->access$100(Lorg/telegram/ui/SecretMediaViewer;Landroid/graphics/Canvas;)V
 
     .line 82
@@ -98,7 +96,6 @@
     .line 75
     iget-object v0, p0, Lorg/telegram/ui/SecretMediaViewer$FrameLayoutDrawer;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # invokes: Lorg/telegram/ui/SecretMediaViewer;->processTouchEvent(Landroid/view/MotionEvent;)Z
     invoke-static {v0, p1}, Lorg/telegram/ui/SecretMediaViewer;->access$000(Lorg/telegram/ui/SecretMediaViewer;Landroid/view/MotionEvent;)Z
 
     .line 76

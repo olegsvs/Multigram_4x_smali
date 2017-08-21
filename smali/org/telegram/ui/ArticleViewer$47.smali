@@ -59,7 +59,6 @@
     .line 7709
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$47;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->photoContainerView:Lorg/telegram/ui/ArticleViewer$FrameLayoutDrawer;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$1300(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/ArticleViewer$FrameLayoutDrawer;
 
     move-result-object v0
@@ -72,7 +71,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$47;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->photoContainerView:Lorg/telegram/ui/ArticleViewer$FrameLayoutDrawer;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$1300(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/ArticleViewer$FrameLayoutDrawer;
 
     move-result-object v0
@@ -82,7 +80,6 @@
     .line 7712
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$47;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->photoContainerBackground:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$1400(Lorg/telegram/ui/ArticleViewer;)Landroid/view/View;
 
     move-result-object v0
@@ -92,7 +89,6 @@
     .line 7713
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$47;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->photoAnimationInProgress:I
     invoke-static {v0, v2}, Lorg/telegram/ui/ArticleViewer;->access$14102(Lorg/telegram/ui/ArticleViewer;I)I
 
     .line 7714
@@ -100,7 +96,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$47;->val$object:Lorg/telegram/ui/ArticleViewer$PlaceProviderObject;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->onPhotoClosed(Lorg/telegram/ui/ArticleViewer$PlaceProviderObject;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ArticleViewer;->access$14900(Lorg/telegram/ui/ArticleViewer;Lorg/telegram/ui/ArticleViewer$PlaceProviderObject;)V
 
     .line 7715

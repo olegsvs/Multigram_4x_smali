@@ -2095,13 +2095,11 @@
     .local v0, "holder":Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;->mScrapContainer:Lorg/telegram/messenger/support/widget/RecyclerView$Recycler;
     invoke-static {v0, v1}, Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;->access$802(Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;Lorg/telegram/messenger/support/widget/RecyclerView$Recycler;)Lorg/telegram/messenger/support/widget/RecyclerView$Recycler;
 
     .line 5858
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;->mInChangeScrap:Z
     invoke-static {v0, v1}, Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;->access$902(Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;Z)Z
 
     .line 5859
@@ -2148,7 +2146,6 @@
     invoke-virtual {v2}, Ljava/util/ArrayList;->clear()V
 
     .line 5715
-    # getter for: Lorg/telegram/messenger/support/widget/RecyclerView;->ALLOW_THREAD_GAP_WORK:Z
     invoke-static {}, Lorg/telegram/messenger/support/widget/RecyclerView;->access$600()Z
 
     move-result v2
@@ -2383,7 +2380,6 @@
 
     .line 5767
     :cond_4
-    # invokes: Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;->doesTransientStatePreventRecycling()Z
     invoke-static {p1}, Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;->access$700(Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;)Z
 
     move-result v7
@@ -2472,7 +2468,6 @@
 
     .line 5791
     .local v6, "targetCacheIndex":I
-    # getter for: Lorg/telegram/messenger/support/widget/RecyclerView;->ALLOW_THREAD_GAP_WORK:Z
     invoke-static {}, Lorg/telegram/messenger/support/widget/RecyclerView;->access$600()Z
 
     move-result v8
@@ -3377,7 +3372,6 @@
     .line 5573
     .end local v17    # "holder":Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;
     .restart local v7    # "holder":Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;
-    # getter for: Lorg/telegram/messenger/support/widget/RecyclerView;->ALLOW_THREAD_GAP_WORK:Z
     invoke-static {}, Lorg/telegram/messenger/support/widget/RecyclerView;->access$600()Z
 
     move-result v2
@@ -3727,7 +3721,6 @@
 
     .prologue
     .line 5899
-    # getter for: Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;->mInChangeScrap:Z
     invoke-static {p1}, Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;->access$900(Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;)Z
 
     move-result v0
@@ -3743,13 +3736,11 @@
     :goto_0
     const/4 v0, 0x0
 
-    # setter for: Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;->mScrapContainer:Lorg/telegram/messenger/support/widget/RecyclerView$Recycler;
     invoke-static {p1, v0}, Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;->access$802(Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;Lorg/telegram/messenger/support/widget/RecyclerView$Recycler;)Lorg/telegram/messenger/support/widget/RecyclerView$Recycler;
 
     .line 5905
     const/4 v0, 0x0
 
-    # setter for: Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;->mInChangeScrap:Z
     invoke-static {p1, v0}, Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;->access$902(Lorg/telegram/messenger/support/widget/RecyclerView$ViewHolder;Z)Z
 
     .line 5906

@@ -63,7 +63,6 @@
     .line 133
     iget-object v0, p0, Lorg/telegram/ui/ChangeUsernameActivity$1;->this$0:Lorg/telegram/ui/ChangeUsernameActivity;
 
-    # invokes: Lorg/telegram/ui/ChangeUsernameActivity;->saveName()V
     invoke-static {v0}, Lorg/telegram/ui/ChangeUsernameActivity;->access$000(Lorg/telegram/ui/ChangeUsernameActivity;)V
 
     goto :goto_0

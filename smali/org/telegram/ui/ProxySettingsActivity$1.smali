@@ -80,7 +80,6 @@
     .local v3, "params":Ljava/lang/StringBuilder;
     iget-object v8, p0, Lorg/telegram/ui/ProxySettingsActivity$1;->this$0:Lorg/telegram/ui/ProxySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ProxySettingsActivity;->inputFields:[Landroid/widget/EditText;
     invoke-static {v8}, Lorg/telegram/ui/ProxySettingsActivity;->access$000(Lorg/telegram/ui/ProxySettingsActivity;)[Landroid/widget/EditText;
 
     move-result-object v8
@@ -101,7 +100,6 @@
     .local v0, "address":Ljava/lang/String;
     iget-object v8, p0, Lorg/telegram/ui/ProxySettingsActivity$1;->this$0:Lorg/telegram/ui/ProxySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ProxySettingsActivity;->inputFields:[Landroid/widget/EditText;
     invoke-static {v8}, Lorg/telegram/ui/ProxySettingsActivity;->access$000(Lorg/telegram/ui/ProxySettingsActivity;)[Landroid/widget/EditText;
 
     move-result-object v8
@@ -122,7 +120,6 @@
     .local v4, "password":Ljava/lang/String;
     iget-object v8, p0, Lorg/telegram/ui/ProxySettingsActivity$1;->this$0:Lorg/telegram/ui/ProxySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ProxySettingsActivity;->inputFields:[Landroid/widget/EditText;
     invoke-static {v8}, Lorg/telegram/ui/ProxySettingsActivity;->access$000(Lorg/telegram/ui/ProxySettingsActivity;)[Landroid/widget/EditText;
 
     move-result-object v8
@@ -143,7 +140,6 @@
     .local v7, "user":Ljava/lang/String;
     iget-object v8, p0, Lorg/telegram/ui/ProxySettingsActivity$1;->this$0:Lorg/telegram/ui/ProxySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ProxySettingsActivity;->inputFields:[Landroid/widget/EditText;
     invoke-static {v8}, Lorg/telegram/ui/ProxySettingsActivity;->access$000(Lorg/telegram/ui/ProxySettingsActivity;)[Landroid/widget/EditText;
 
     move-result-object v8

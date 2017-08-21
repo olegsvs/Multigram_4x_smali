@@ -58,7 +58,6 @@
     .local v8, "buffer":Ljava/nio/ByteBuffer;
     iget-object v1, p0, Lorg/telegram/ui/Components/Paint/Painting$4;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # invokes: Lorg/telegram/ui/Components/Paint/Painting;->getTexture()I
     invoke-static {v1}, Lorg/telegram/ui/Components/Paint/Painting;->access$1800(Lorg/telegram/ui/Components/Paint/Painting;)I
 
     move-result v1
@@ -101,7 +100,6 @@
     .line 292
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/Painting$4;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # invokes: Lorg/telegram/ui/Components/Paint/Painting;->isSuppressingChanges()Z
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/Painting;->access$1900(Lorg/telegram/ui/Components/Paint/Painting;)Z
 
     move-result v0
@@ -110,7 +108,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/Painting$4;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->delegate:Lorg/telegram/ui/Components/Paint/Painting$PaintingDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/Painting;->access$900(Lorg/telegram/ui/Components/Paint/Painting;)Lorg/telegram/ui/Components/Paint/Painting$PaintingDelegate;
 
     move-result-object v0
@@ -120,7 +117,6 @@
     .line 293
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/Painting$4;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->delegate:Lorg/telegram/ui/Components/Paint/Painting$PaintingDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/Painting;->access$900(Lorg/telegram/ui/Components/Paint/Painting;)Lorg/telegram/ui/Components/Paint/Painting$PaintingDelegate;
 
     move-result-object v0

@@ -125,14 +125,12 @@
     .line 372
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/upstream/Loader$LoadTask;->this$0:Lorg/telegram/messenger/exoplayer2/upstream/Loader;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/upstream/Loader;->downloadExecutorService:Ljava/util/concurrent/ExecutorService;
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/upstream/Loader;->access$200(Lorg/telegram/messenger/exoplayer2/upstream/Loader;)Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/messenger/exoplayer2/upstream/Loader$LoadTask;->this$0:Lorg/telegram/messenger/exoplayer2/upstream/Loader;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/upstream/Loader;->currentTask:Lorg/telegram/messenger/exoplayer2/upstream/Loader$LoadTask;
     invoke-static {v1}, Lorg/telegram/messenger/exoplayer2/upstream/Loader;->access$000(Lorg/telegram/messenger/exoplayer2/upstream/Loader;)Lorg/telegram/messenger/exoplayer2/upstream/Loader$LoadTask;
 
     move-result-object v1
@@ -153,7 +151,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/messenger/exoplayer2/upstream/Loader;->currentTask:Lorg/telegram/messenger/exoplayer2/upstream/Loader$LoadTask;
     invoke-static {v0, v1}, Lorg/telegram/messenger/exoplayer2/upstream/Loader;->access$002(Lorg/telegram/messenger/exoplayer2/upstream/Loader;Lorg/telegram/messenger/exoplayer2/upstream/Loader$LoadTask;)Lorg/telegram/messenger/exoplayer2/upstream/Loader$LoadTask;
 
     .line 377
@@ -406,7 +403,6 @@
 
     iget-object v1, p0, Lorg/telegram/messenger/exoplayer2/upstream/Loader$LoadTask;->currentError:Ljava/io/IOException;
 
-    # setter for: Lorg/telegram/messenger/exoplayer2/upstream/Loader;->fatalError:Ljava/io/IOException;
     invoke-static {v0, v1}, Lorg/telegram/messenger/exoplayer2/upstream/Loader;->access$102(Lorg/telegram/messenger/exoplayer2/upstream/Loader;Ljava/io/IOException;)Ljava/io/IOException;
 
     goto :goto_0
@@ -702,7 +698,6 @@
     .line 258
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/upstream/Loader$LoadTask;->this$0:Lorg/telegram/messenger/exoplayer2/upstream/Loader;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/upstream/Loader;->currentTask:Lorg/telegram/messenger/exoplayer2/upstream/Loader$LoadTask;
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/upstream/Loader;->access$000(Lorg/telegram/messenger/exoplayer2/upstream/Loader;)Lorg/telegram/messenger/exoplayer2/upstream/Loader$LoadTask;
 
     move-result-object v0
@@ -717,7 +712,6 @@
     .line 259
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/upstream/Loader$LoadTask;->this$0:Lorg/telegram/messenger/exoplayer2/upstream/Loader;
 
-    # setter for: Lorg/telegram/messenger/exoplayer2/upstream/Loader;->currentTask:Lorg/telegram/messenger/exoplayer2/upstream/Loader$LoadTask;
     invoke-static {v0, p0}, Lorg/telegram/messenger/exoplayer2/upstream/Loader;->access$002(Lorg/telegram/messenger/exoplayer2/upstream/Loader;Lorg/telegram/messenger/exoplayer2/upstream/Loader$LoadTask;)Lorg/telegram/messenger/exoplayer2/upstream/Loader$LoadTask;
 
     .line 260

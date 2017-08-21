@@ -46,7 +46,6 @@
     :try_start_0
     iget-object v1, p0, Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter$2;->this$1:Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;
 
-    # getter for: Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;->searchTimer:Ljava/util/Timer;
     invoke-static {v1}, Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;->access$2600(Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;)Ljava/util/Timer;
 
     move-result-object v1
@@ -58,7 +57,6 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;->searchTimer:Ljava/util/Timer;
     invoke-static {v1, v2}, Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;->access$2602(Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;Ljava/util/Timer;)Ljava/util/Timer;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0

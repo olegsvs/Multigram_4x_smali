@@ -52,7 +52,6 @@
 
     const-string/jumbo v1, "prefHeaderIconsColor"
 
-    # invokes: Lorg/telegram/ui/ThemingSettingsActivity;->commitInt(Ljava/lang/String;I)V
     invoke-static {v0, v1, p1}, Lorg/telegram/ui/ThemingSettingsActivity;->access$300(Lorg/telegram/ui/ThemingSettingsActivity;Ljava/lang/String;I)V
 
     .line 228

@@ -78,7 +78,6 @@
     .line 295
     iget-object v9, p0, Lorg/telegram/ui/SetAdminsActivity$4;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # invokes: Lorg/telegram/ui/SetAdminsActivity;->getChatAdminParticipantType(Lorg/telegram/tgnet/TLRPC$ChatParticipant;)I
     invoke-static {v9, p1}, Lorg/telegram/ui/SetAdminsActivity;->access$1500(Lorg/telegram/ui/SetAdminsActivity;Lorg/telegram/tgnet/TLRPC$ChatParticipant;)I
 
     move-result v2
@@ -87,7 +86,6 @@
     .local v2, "type1":I
     iget-object v9, p0, Lorg/telegram/ui/SetAdminsActivity$4;->this$0:Lorg/telegram/ui/SetAdminsActivity;
 
-    # invokes: Lorg/telegram/ui/SetAdminsActivity;->getChatAdminParticipantType(Lorg/telegram/tgnet/TLRPC$ChatParticipant;)I
     invoke-static {v9, p2}, Lorg/telegram/ui/SetAdminsActivity;->access$1500(Lorg/telegram/ui/SetAdminsActivity;Lorg/telegram/tgnet/TLRPC$ChatParticipant;)I
 
     move-result v3

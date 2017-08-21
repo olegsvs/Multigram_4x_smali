@@ -73,7 +73,6 @@
 
     const/4 v4, 0x0
 
-    # invokes: Lorg/telegram/messenger/query/StickersQuery;->processLoadedRecentDocuments(ILjava/util/ArrayList;ZI)V
     invoke-static {v2, v0, v3, v4}, Lorg/telegram/messenger/query/StickersQuery;->access$600(ILjava/util/ArrayList;ZI)V
 
     .line 375

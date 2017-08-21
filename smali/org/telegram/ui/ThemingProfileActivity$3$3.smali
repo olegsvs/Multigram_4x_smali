@@ -50,7 +50,6 @@
 
     const-string/jumbo v1, "profileRowGradient"
 
-    # invokes: Lorg/telegram/ui/ThemingProfileActivity;->commitInt(Ljava/lang/String;I)V
     invoke-static {v0, v1, p2}, Lorg/telegram/ui/ThemingProfileActivity;->access$300(Lorg/telegram/ui/ThemingProfileActivity;Ljava/lang/String;I)V
 
     .line 249
@@ -61,7 +60,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ThemingProfileActivity$3;->this$0:Lorg/telegram/ui/ThemingProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingProfileActivity;->listView:Landroid/widget/ListView;
     invoke-static {v0}, Lorg/telegram/ui/ThemingProfileActivity;->access$500(Lorg/telegram/ui/ThemingProfileActivity;)Landroid/widget/ListView;
 
     move-result-object v0
@@ -73,7 +71,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ThemingProfileActivity$3;->this$0:Lorg/telegram/ui/ThemingProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingProfileActivity;->listView:Landroid/widget/ListView;
     invoke-static {v0}, Lorg/telegram/ui/ThemingProfileActivity;->access$500(Lorg/telegram/ui/ThemingProfileActivity;)Landroid/widget/ListView;
 
     move-result-object v0

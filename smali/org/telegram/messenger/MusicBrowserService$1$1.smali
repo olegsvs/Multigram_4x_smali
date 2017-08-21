@@ -50,7 +50,6 @@
 
     const/4 v7, 0x1
 
-    # setter for: Lorg/telegram/messenger/MusicBrowserService;->chatsLoaded:Z
     invoke-static {v6, v7}, Lorg/telegram/messenger/MusicBrowserService;->access$702(Lorg/telegram/messenger/MusicBrowserService;Z)Z
 
     .line 229
@@ -58,7 +57,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # setter for: Lorg/telegram/messenger/MusicBrowserService;->loadingChats:Z
     invoke-static {v6, v9}, Lorg/telegram/messenger/MusicBrowserService;->access$802(Lorg/telegram/messenger/MusicBrowserService;Z)Z
 
     .line 230
@@ -74,7 +72,6 @@
 
     iget-object v8, v8, Lorg/telegram/messenger/MusicBrowserService$1;->val$result:Landroid/service/media/MediaBrowserService$Result;
 
-    # invokes: Lorg/telegram/messenger/MusicBrowserService;->loadChildrenImpl(Ljava/lang/String;Landroid/service/media/MediaBrowserService$Result;)V
     invoke-static {v6, v7, v8}, Lorg/telegram/messenger/MusicBrowserService;->access$900(Lorg/telegram/messenger/MusicBrowserService;Ljava/lang/String;Landroid/service/media/MediaBrowserService$Result;)V
 
     .line 231
@@ -82,7 +79,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->lastSelectedDialog:I
     invoke-static {v6}, Lorg/telegram/messenger/MusicBrowserService;->access$1000(Lorg/telegram/messenger/MusicBrowserService;)I
 
     move-result v6
@@ -93,7 +89,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->dialogs:Ljava/util/ArrayList;
     invoke-static {v6}, Lorg/telegram/messenger/MusicBrowserService;->access$200(Lorg/telegram/messenger/MusicBrowserService;)Ljava/util/ArrayList;
 
     move-result-object v6
@@ -113,7 +108,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->dialogs:Ljava/util/ArrayList;
     invoke-static {v6}, Lorg/telegram/messenger/MusicBrowserService;->access$200(Lorg/telegram/messenger/MusicBrowserService;)Ljava/util/ArrayList;
 
     move-result-object v6
@@ -128,7 +122,6 @@
 
     move-result v6
 
-    # setter for: Lorg/telegram/messenger/MusicBrowserService;->lastSelectedDialog:I
     invoke-static {v7, v6}, Lorg/telegram/messenger/MusicBrowserService;->access$1002(Lorg/telegram/messenger/MusicBrowserService;I)I
 
     .line 234
@@ -137,7 +130,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->lastSelectedDialog:I
     invoke-static {v6}, Lorg/telegram/messenger/MusicBrowserService;->access$1000(Lorg/telegram/messenger/MusicBrowserService;)I
 
     move-result v6
@@ -149,7 +141,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->musicObjects:Ljava/util/HashMap;
     invoke-static {v6}, Lorg/telegram/messenger/MusicBrowserService;->access$300(Lorg/telegram/messenger/MusicBrowserService;)Ljava/util/HashMap;
 
     move-result-object v6
@@ -158,7 +149,6 @@
 
     iget-object v7, v7, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->lastSelectedDialog:I
     invoke-static {v7}, Lorg/telegram/messenger/MusicBrowserService;->access$1000(Lorg/telegram/messenger/MusicBrowserService;)I
 
     move-result v7
@@ -179,7 +169,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->musicQueues:Ljava/util/HashMap;
     invoke-static {v6}, Lorg/telegram/messenger/MusicBrowserService;->access$400(Lorg/telegram/messenger/MusicBrowserService;)Ljava/util/HashMap;
 
     move-result-object v6
@@ -188,7 +177,6 @@
 
     iget-object v7, v7, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->lastSelectedDialog:I
     invoke-static {v7}, Lorg/telegram/messenger/MusicBrowserService;->access$1000(Lorg/telegram/messenger/MusicBrowserService;)I
 
     move-result v7
@@ -218,7 +206,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->mediaSession:Landroid/media/session/MediaSession;
     invoke-static {v6}, Lorg/telegram/messenger/MusicBrowserService;->access$1100(Lorg/telegram/messenger/MusicBrowserService;)Landroid/media/session/MediaSession;
 
     move-result-object v6
@@ -230,7 +217,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->lastSelectedDialog:I
     invoke-static {v6}, Lorg/telegram/messenger/MusicBrowserService;->access$1000(Lorg/telegram/messenger/MusicBrowserService;)I
 
     move-result v6
@@ -242,7 +228,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->users:Ljava/util/HashMap;
     invoke-static {v6}, Lorg/telegram/messenger/MusicBrowserService;->access$500(Lorg/telegram/messenger/MusicBrowserService;)Ljava/util/HashMap;
 
     move-result-object v6
@@ -251,7 +236,6 @@
 
     iget-object v7, v7, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->lastSelectedDialog:I
     invoke-static {v7}, Lorg/telegram/messenger/MusicBrowserService;->access$1000(Lorg/telegram/messenger/MusicBrowserService;)I
 
     move-result v7
@@ -275,7 +259,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->mediaSession:Landroid/media/session/MediaSession;
     invoke-static {v6}, Lorg/telegram/messenger/MusicBrowserService;->access$1100(Lorg/telegram/messenger/MusicBrowserService;)Landroid/media/session/MediaSession;
 
     move-result-object v6
@@ -342,7 +325,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->mediaSession:Landroid/media/session/MediaSession;
     invoke-static {v6}, Lorg/telegram/messenger/MusicBrowserService;->access$1100(Lorg/telegram/messenger/MusicBrowserService;)Landroid/media/session/MediaSession;
 
     move-result-object v6
@@ -365,7 +347,6 @@
 
     const/4 v7, 0x0
 
-    # invokes: Lorg/telegram/messenger/MusicBrowserService;->updatePlaybackState(Ljava/lang/String;)V
     invoke-static {v6, v7}, Lorg/telegram/messenger/MusicBrowserService;->access$1200(Lorg/telegram/messenger/MusicBrowserService;Ljava/lang/String;)V
 
     .line 263
@@ -380,7 +361,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->mediaSession:Landroid/media/session/MediaSession;
     invoke-static {v6}, Lorg/telegram/messenger/MusicBrowserService;->access$1100(Lorg/telegram/messenger/MusicBrowserService;)Landroid/media/session/MediaSession;
 
     move-result-object v6
@@ -398,7 +378,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->chats:Ljava/util/HashMap;
     invoke-static {v6}, Lorg/telegram/messenger/MusicBrowserService;->access$600(Lorg/telegram/messenger/MusicBrowserService;)Ljava/util/HashMap;
 
     move-result-object v6
@@ -407,7 +386,6 @@
 
     iget-object v7, v7, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->lastSelectedDialog:I
     invoke-static {v7}, Lorg/telegram/messenger/MusicBrowserService;->access$1000(Lorg/telegram/messenger/MusicBrowserService;)I
 
     move-result v7
@@ -433,7 +411,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->mediaSession:Landroid/media/session/MediaSession;
     invoke-static {v6}, Lorg/telegram/messenger/MusicBrowserService;->access$1100(Lorg/telegram/messenger/MusicBrowserService;)Landroid/media/session/MediaSession;
 
     move-result-object v6
@@ -450,7 +427,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/MusicBrowserService$1;->this$0:Lorg/telegram/messenger/MusicBrowserService;
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->mediaSession:Landroid/media/session/MediaSession;
     invoke-static {v6}, Lorg/telegram/messenger/MusicBrowserService;->access$1100(Lorg/telegram/messenger/MusicBrowserService;)Landroid/media/session/MediaSession;
 
     move-result-object v6

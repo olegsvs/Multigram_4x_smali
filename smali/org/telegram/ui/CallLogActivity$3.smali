@@ -50,7 +50,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/CallLogActivity$3;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v2
@@ -70,7 +69,6 @@
     :cond_1
     iget-object v2, p0, Lorg/telegram/ui/CallLogActivity$3;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v2

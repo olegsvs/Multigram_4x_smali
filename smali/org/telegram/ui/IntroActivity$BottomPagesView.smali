@@ -104,7 +104,6 @@
     .line 102
     iget-object v3, p0, Lorg/telegram/ui/IntroActivity$BottomPagesView;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # getter for: Lorg/telegram/ui/IntroActivity;->viewPager:Landroid/support/v4/view/ViewPager;
     invoke-static {v3}, Lorg/telegram/ui/IntroActivity;->access$000(Lorg/telegram/ui/IntroActivity;)Landroid/support/v4/view/ViewPager;
 
     move-result-object v3

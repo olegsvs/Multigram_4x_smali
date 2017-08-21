@@ -46,7 +46,6 @@
     .local p0, "this":Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper$1;, "Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper.1;"
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper$1;->this$0:Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper;->conditionVariable:Landroid/os/ConditionVariable;
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper;->access$000(Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper;)Landroid/os/ConditionVariable;
 
     move-result-object v0
@@ -65,7 +64,6 @@
     .local p0, "this":Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper$1;, "Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper.1;"
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper$1;->this$0:Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper;->conditionVariable:Landroid/os/ConditionVariable;
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper;->access$000(Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper;)Landroid/os/ConditionVariable;
 
     move-result-object v0
@@ -84,7 +82,6 @@
     .local p0, "this":Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper$1;, "Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper.1;"
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper$1;->this$0:Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper;->conditionVariable:Landroid/os/ConditionVariable;
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper;->access$000(Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper;)Landroid/os/ConditionVariable;
 
     move-result-object v0
@@ -104,7 +101,6 @@
     .local p0, "this":Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper$1;, "Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper.1;"
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper$1;->this$0:Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper;->conditionVariable:Landroid/os/ConditionVariable;
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper;->access$000(Lorg/telegram/messenger/exoplayer2/drm/OfflineLicenseHelper;)Landroid/os/ConditionVariable;
 
     move-result-object v0

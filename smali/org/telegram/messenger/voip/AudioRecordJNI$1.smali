@@ -49,7 +49,6 @@
     :goto_0
     iget-object v1, p0, Lorg/telegram/messenger/voip/AudioRecordJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioRecordJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioRecordJNI;->running:Z
     invoke-static {v1}, Lorg/telegram/messenger/voip/AudioRecordJNI;->access$000(Lorg/telegram/messenger/voip/AudioRecordJNI;)Z
 
     move-result v1
@@ -60,7 +59,6 @@
     :try_start_0
     iget-object v1, p0, Lorg/telegram/messenger/voip/AudioRecordJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioRecordJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioRecordJNI;->needResampling:Z
     invoke-static {v1}, Lorg/telegram/messenger/voip/AudioRecordJNI;->access$100(Lorg/telegram/messenger/voip/AudioRecordJNI;)Z
 
     move-result v1
@@ -70,14 +68,12 @@
     .line 174
     iget-object v1, p0, Lorg/telegram/messenger/voip/AudioRecordJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioRecordJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioRecordJNI;->audioRecord:Landroid/media/AudioRecord;
     invoke-static {v1}, Lorg/telegram/messenger/voip/AudioRecordJNI;->access$300(Lorg/telegram/messenger/voip/AudioRecordJNI;)Landroid/media/AudioRecord;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/messenger/voip/AudioRecordJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioRecordJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioRecordJNI;->buffer:Ljava/nio/ByteBuffer;
     invoke-static {v2}, Lorg/telegram/messenger/voip/AudioRecordJNI;->access$200(Lorg/telegram/messenger/voip/AudioRecordJNI;)Ljava/nio/ByteBuffer;
 
     move-result-object v2
@@ -90,7 +86,6 @@
     :goto_1
     iget-object v1, p0, Lorg/telegram/messenger/voip/AudioRecordJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioRecordJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioRecordJNI;->running:Z
     invoke-static {v1}, Lorg/telegram/messenger/voip/AudioRecordJNI;->access$000(Lorg/telegram/messenger/voip/AudioRecordJNI;)Z
 
     move-result v1
@@ -100,7 +95,6 @@
     .line 180
     iget-object v1, p0, Lorg/telegram/messenger/voip/AudioRecordJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioRecordJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioRecordJNI;->audioRecord:Landroid/media/AudioRecord;
     invoke-static {v1}, Lorg/telegram/messenger/voip/AudioRecordJNI;->access$300(Lorg/telegram/messenger/voip/AudioRecordJNI;)Landroid/media/AudioRecord;
 
     move-result-object v1
@@ -125,7 +119,6 @@
     :try_start_1
     iget-object v1, p0, Lorg/telegram/messenger/voip/AudioRecordJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioRecordJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioRecordJNI;->audioRecord:Landroid/media/AudioRecord;
     invoke-static {v1}, Lorg/telegram/messenger/voip/AudioRecordJNI;->access$300(Lorg/telegram/messenger/voip/AudioRecordJNI;)Landroid/media/AudioRecord;
 
     move-result-object v1
@@ -141,7 +134,6 @@
 
     iget-object v2, p0, Lorg/telegram/messenger/voip/AudioRecordJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioRecordJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioRecordJNI;->buffer:Ljava/nio/ByteBuffer;
     invoke-static {v2}, Lorg/telegram/messenger/voip/AudioRecordJNI;->access$200(Lorg/telegram/messenger/voip/AudioRecordJNI;)Ljava/nio/ByteBuffer;
 
     move-result-object v2
@@ -170,12 +162,10 @@
 
     iget-object v2, p0, Lorg/telegram/messenger/voip/AudioRecordJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioRecordJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioRecordJNI;->buffer:Ljava/nio/ByteBuffer;
     invoke-static {v2}, Lorg/telegram/messenger/voip/AudioRecordJNI;->access$200(Lorg/telegram/messenger/voip/AudioRecordJNI;)Ljava/nio/ByteBuffer;
 
     move-result-object v2
 
-    # invokes: Lorg/telegram/messenger/voip/AudioRecordJNI;->nativeCallback(Ljava/nio/ByteBuffer;)V
     invoke-static {v1, v2}, Lorg/telegram/messenger/voip/AudioRecordJNI;->access$400(Lorg/telegram/messenger/voip/AudioRecordJNI;Ljava/nio/ByteBuffer;)V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0

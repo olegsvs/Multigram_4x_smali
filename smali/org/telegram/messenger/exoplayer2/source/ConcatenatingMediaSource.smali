@@ -291,7 +291,6 @@
     .line 84
     iget-object v3, p0, Lorg/telegram/messenger/exoplayer2/source/ConcatenatingMediaSource;->timeline:Lorg/telegram/messenger/exoplayer2/source/ConcatenatingMediaSource$ConcatenatedTimeline;
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/source/ConcatenatingMediaSource$ConcatenatedTimeline;->getSourceIndexForPeriod(I)I
     invoke-static {v3, p1}, Lorg/telegram/messenger/exoplayer2/source/ConcatenatingMediaSource$ConcatenatedTimeline;->access$100(Lorg/telegram/messenger/exoplayer2/source/ConcatenatingMediaSource$ConcatenatedTimeline;I)I
 
     move-result v2
@@ -300,7 +299,6 @@
     .local v2, "sourceIndex":I
     iget-object v3, p0, Lorg/telegram/messenger/exoplayer2/source/ConcatenatingMediaSource;->timeline:Lorg/telegram/messenger/exoplayer2/source/ConcatenatingMediaSource$ConcatenatedTimeline;
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/source/ConcatenatingMediaSource$ConcatenatedTimeline;->getFirstPeriodIndexInSource(I)I
     invoke-static {v3, v2}, Lorg/telegram/messenger/exoplayer2/source/ConcatenatingMediaSource$ConcatenatedTimeline;->access$200(Lorg/telegram/messenger/exoplayer2/source/ConcatenatingMediaSource$ConcatenatedTimeline;I)I
 
     move-result v3

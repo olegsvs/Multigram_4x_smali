@@ -61,7 +61,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/ContactsController$8;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # getter for: Lorg/telegram/messenger/ContactsController;->contactsSyncInProgress:Z
     invoke-static {v0}, Lorg/telegram/messenger/ContactsController;->access$600(Lorg/telegram/messenger/ContactsController;)Z
 
     move-result v0
@@ -82,7 +81,6 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/messenger/ContactsController;->contactsSyncInProgress:Z
     invoke-static {v0, v1}, Lorg/telegram/messenger/ContactsController;->access$602(Lorg/telegram/messenger/ContactsController;Z)Z
 
     .line 1185

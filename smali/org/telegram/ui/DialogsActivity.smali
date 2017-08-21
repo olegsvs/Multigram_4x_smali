@@ -10438,6 +10438,98 @@
     return-object v0
 .end method
 
+.method public getUsersEnabled()Ljava/util/List;
+    .locals 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List",
+            "<",
+            "Ljava/lang/Integer;",
+            ">;"
+        }
+    .end annotation
+
+    .prologue
+    .line 194
+    new-instance v2, Ljava/util/ArrayList;
+
+    invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
+
+    .line 195
+    .local v2, "users":Ljava/util/List;, "Ljava/util/List<Ljava/lang/Integer;>;"
+    const-string v3, "TGM"
+
+    const-string v4, "getUsersEnabled: called"
+
+    invoke-static {v3, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 196
+    sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
+
+    const-string/jumbo v4, "userID"
+
+    const/4 v5, 0x0
+
+    invoke-virtual {v3, v4, v5}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+
+    move-result-object v1
+
+    .line 197
+    .local v1, "userDisabled":Landroid/content/SharedPreferences;
+    const/4 v0, 0x0
+
+    .local v0, "i":I
+    :goto_0
+    const/16 v3, 0x63
+
+    if-ge v0, v3, :cond_1
+
+    .line 198
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v4, "state_user_"
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    const/4 v4, 0x1
+
+    invoke-interface {v1, v3, v4}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
+
+    move-result v3
+
+    if-nez v3, :cond_0
+
+    .line 199
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v3
+
+    invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 197
+    :cond_0
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_0
+
+    .line 202
+    :cond_1
+    return-object v2
+.end method
+
 .method public isMainDialogList()Z
     .locals 1
 
@@ -10473,72 +10565,6 @@
     return v0
 .end method
 
-.method public onConfigurationChanged(Landroid/content/res/Configuration;)V
-    .locals 2
-    .param p1, "newConfig"    # Landroid/content/res/Configuration;
-
-    .prologue
-    .line 1689
-    invoke-super {p0, p1}, Lorg/telegram/ui/ActionBar/BaseFragment;->onConfigurationChanged(Landroid/content/res/Configuration;)V
-
-    .line 1690
-    iget-boolean v0, p0, Lorg/telegram/ui/DialogsActivity;->onlySelect:Z
-
-    if-nez v0, :cond_0
-
-    iget-object v0, p0, Lorg/telegram/ui/DialogsActivity;->floatingButton:Landroid/widget/ImageView;
-
-    if-eqz v0, :cond_0
-
-    .line 1691
-    iget-object v0, p0, Lorg/telegram/ui/DialogsActivity;->floatingButton:Landroid/widget/ImageView;
-
-    invoke-virtual {v0}, Landroid/widget/ImageView;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
-
-    move-result-object v0
-
-    new-instance v1, Lorg/telegram/ui/DialogsActivity$16;
-
-    invoke-direct {v1, p0}, Lorg/telegram/ui/DialogsActivity$16;-><init>(Lorg/telegram/ui/DialogsActivity;)V
-
-    invoke-virtual {v0, v1}, Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
-
-    .line 1702
-    :cond_0
-    return-void
-.end method
-
-.method protected onDialogDismiss(Landroid/app/Dialog;)V
-    .locals 1
-    .param p1, "dialog"    # Landroid/app/Dialog;
-
-    .prologue
-    .line 1681
-    invoke-super {p0, p1}, Lorg/telegram/ui/ActionBar/BaseFragment;->onDialogDismiss(Landroid/app/Dialog;)V
-
-    .line 1682
-    iget-object v0, p0, Lorg/telegram/ui/DialogsActivity;->permissionDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lorg/telegram/ui/DialogsActivity;->permissionDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
-
-    if-ne p1, v0, :cond_0
-
-    invoke-virtual {p0}, Lorg/telegram/ui/DialogsActivity;->getParentActivity()Landroid/app/Activity;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    .line 1683
-    invoke-direct {p0}, Lorg/telegram/ui/DialogsActivity;->askForPermissons()V
-
-    .line 1685
-    :cond_0
-    return-void
-.end method
-
 .method public multiFirstLaaunch()V
     .locals 7
 
@@ -10550,7 +10576,7 @@
     .line 206
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    const-string v3, "userID"
+    const-string/jumbo v3, "userID"
 
     invoke-virtual {v2, v3, v5}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
@@ -10640,7 +10666,7 @@
 
     if-nez v2, :cond_0
 
-    const-string v2, "uk"
+    const-string/jumbo v2, "uk"
 
     invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -10753,6 +10779,72 @@
     return-void
 .end method
 
+.method public onConfigurationChanged(Landroid/content/res/Configuration;)V
+    .locals 2
+    .param p1, "newConfig"    # Landroid/content/res/Configuration;
+
+    .prologue
+    .line 1689
+    invoke-super {p0, p1}, Lorg/telegram/ui/ActionBar/BaseFragment;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+
+    .line 1690
+    iget-boolean v0, p0, Lorg/telegram/ui/DialogsActivity;->onlySelect:Z
+
+    if-nez v0, :cond_0
+
+    iget-object v0, p0, Lorg/telegram/ui/DialogsActivity;->floatingButton:Landroid/widget/ImageView;
+
+    if-eqz v0, :cond_0
+
+    .line 1691
+    iget-object v0, p0, Lorg/telegram/ui/DialogsActivity;->floatingButton:Landroid/widget/ImageView;
+
+    invoke-virtual {v0}, Landroid/widget/ImageView;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
+
+    move-result-object v0
+
+    new-instance v1, Lorg/telegram/ui/DialogsActivity$16;
+
+    invoke-direct {v1, p0}, Lorg/telegram/ui/DialogsActivity$16;-><init>(Lorg/telegram/ui/DialogsActivity;)V
+
+    invoke-virtual {v0, v1}, Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
+
+    .line 1702
+    :cond_0
+    return-void
+.end method
+
+.method protected onDialogDismiss(Landroid/app/Dialog;)V
+    .locals 1
+    .param p1, "dialog"    # Landroid/app/Dialog;
+
+    .prologue
+    .line 1681
+    invoke-super {p0, p1}, Lorg/telegram/ui/ActionBar/BaseFragment;->onDialogDismiss(Landroid/app/Dialog;)V
+
+    .line 1682
+    iget-object v0, p0, Lorg/telegram/ui/DialogsActivity;->permissionDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Lorg/telegram/ui/DialogsActivity;->permissionDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
+
+    if-ne p1, v0, :cond_0
+
+    invoke-virtual {p0}, Lorg/telegram/ui/DialogsActivity;->getParentActivity()Landroid/app/Activity;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 1683
+    invoke-direct {p0}, Lorg/telegram/ui/DialogsActivity;->askForPermissons()V
+
+    .line 1685
+    :cond_0
+    return-void
+.end method
+
 .method public onFragmentCreate()Z
     .locals 5
 
@@ -10764,7 +10856,8 @@
     .line 176
     invoke-super {p0}, Lorg/telegram/ui/ActionBar/BaseFragment;->onFragmentCreate()Z
 
-	invoke-virtual {p0}, Lorg/telegram/ui/DialogsActivity;->multiFirstLaaunch()V
+    invoke-virtual {p0}, Lorg/telegram/ui/DialogsActivity;->multiFirstLaaunch()V
+
     .line 178
     invoke-virtual {p0}, Lorg/telegram/ui/DialogsActivity;->getArguments()Landroid/os/Bundle;
 
@@ -11039,98 +11132,6 @@
     .line 216
     :cond_2
     return v4
-.end method
-
-.method public getUsersEnabled()Ljava/util/List;
-    .locals 6
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List",
-            "<",
-            "Ljava/lang/Integer;",
-            ">;"
-        }
-    .end annotation
-
-    .prologue
-    .line 194
-    new-instance v2, Ljava/util/ArrayList;
-
-    invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
-
-    .line 195
-    .local v2, "users":Ljava/util/List;, "Ljava/util/List<Ljava/lang/Integer;>;"
-    const-string v3, "TGM"
-
-    const-string v4, "getUsersEnabled: called"
-
-    invoke-static {v3, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 196
-    sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
-
-    const-string v4, "userID"
-
-    const/4 v5, 0x0
-
-    invoke-virtual {v3, v4, v5}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
-
-    move-result-object v1
-
-    .line 197
-    .local v1, "userDisabled":Landroid/content/SharedPreferences;
-    const/4 v0, 0x0
-
-    .local v0, "i":I
-    :goto_0
-    const/16 v3, 0x63
-
-    if-ge v0, v3, :cond_1
-
-    .line 198
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v4, "state_user_"
-
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v3
-
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v3
-
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v3
-
-    const/4 v4, 0x1
-
-    invoke-interface {v1, v3, v4}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
-
-    move-result v3
-
-    if-nez v3, :cond_0
-
-    .line 199
-    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v3
-
-    invoke-interface {v2, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    .line 197
-    :cond_0
-    add-int/lit8 v0, v0, 0x1
-
-    goto :goto_0
-
-    .line 202
-    :cond_1
-    return-object v2
 .end method
 
 .method public onFragmentDestroy()V

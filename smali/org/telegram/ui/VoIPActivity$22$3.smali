@@ -48,7 +48,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/VoIPActivity;->tooltipHider:Ljava/lang/Runnable;
     invoke-static {v0, v1}, Lorg/telegram/ui/VoIPActivity;->access$1702(Lorg/telegram/ui/VoIPActivity;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 1153
@@ -58,7 +57,6 @@
 
     const/4 v1, 0x0
 
-    # invokes: Lorg/telegram/ui/VoIPActivity;->setEmojiTooltipVisible(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/VoIPActivity;->access$1600(Lorg/telegram/ui/VoIPActivity;Z)V
 
     .line 1154

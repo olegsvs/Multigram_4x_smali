@@ -80,7 +80,6 @@
 
     const/4 v3, 0x1
 
-    # invokes: Lorg/telegram/ui/ChannelAdminLogActivity;->loadMessages(Z)V
     invoke-static {v2, v3}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$1400(Lorg/telegram/ui/ChannelAdminLogActivity;Z)V
 
     .line 925

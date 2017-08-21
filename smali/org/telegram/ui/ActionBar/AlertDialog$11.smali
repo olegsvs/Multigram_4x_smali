@@ -46,7 +46,6 @@
     .line 607
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/AlertDialog$11;->this$0:Lorg/telegram/ui/ActionBar/AlertDialog;
 
-    # getter for: Lorg/telegram/ui/ActionBar/AlertDialog;->shadowAnimation:[Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/ActionBar/AlertDialog;->access$2200(Lorg/telegram/ui/ActionBar/AlertDialog;)[Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -59,7 +58,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/AlertDialog$11;->this$0:Lorg/telegram/ui/ActionBar/AlertDialog;
 
-    # getter for: Lorg/telegram/ui/ActionBar/AlertDialog;->shadowAnimation:[Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/ActionBar/AlertDialog;->access$2200(Lorg/telegram/ui/ActionBar/AlertDialog;)[Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -77,7 +75,6 @@
     .line 608
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/AlertDialog$11;->this$0:Lorg/telegram/ui/ActionBar/AlertDialog;
 
-    # getter for: Lorg/telegram/ui/ActionBar/AlertDialog;->shadowAnimation:[Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/ActionBar/AlertDialog;->access$2200(Lorg/telegram/ui/ActionBar/AlertDialog;)[Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -101,7 +98,6 @@
     .line 600
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/AlertDialog$11;->this$0:Lorg/telegram/ui/ActionBar/AlertDialog;
 
-    # getter for: Lorg/telegram/ui/ActionBar/AlertDialog;->shadowAnimation:[Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/ActionBar/AlertDialog;->access$2200(Lorg/telegram/ui/ActionBar/AlertDialog;)[Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -114,7 +110,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/AlertDialog$11;->this$0:Lorg/telegram/ui/ActionBar/AlertDialog;
 
-    # getter for: Lorg/telegram/ui/ActionBar/AlertDialog;->shadowAnimation:[Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/ActionBar/AlertDialog;->access$2200(Lorg/telegram/ui/ActionBar/AlertDialog;)[Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -132,7 +127,6 @@
     .line 601
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/AlertDialog$11;->this$0:Lorg/telegram/ui/ActionBar/AlertDialog;
 
-    # getter for: Lorg/telegram/ui/ActionBar/AlertDialog;->shadowAnimation:[Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/ActionBar/AlertDialog;->access$2200(Lorg/telegram/ui/ActionBar/AlertDialog;)[Landroid/animation/AnimatorSet;
 
     move-result-object v0

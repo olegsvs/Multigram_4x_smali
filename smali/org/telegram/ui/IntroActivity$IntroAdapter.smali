@@ -23,7 +23,7 @@
     .locals 0
 
     .prologue
-    .line 438
+    .line 476
     iput-object p1, p0, Lorg/telegram/ui/IntroActivity$IntroAdapter;->this$0:Lorg/telegram/ui/IntroActivity;
 
     invoke-direct {p0}, Landroid/support/v4/view/PagerAdapter;-><init>()V
@@ -37,7 +37,7 @@
     .param p2, "x1"    # Lorg/telegram/ui/IntroActivity$1;
 
     .prologue
-    .line 438
+    .line 476
     invoke-direct {p0, p1}, Lorg/telegram/ui/IntroActivity$IntroAdapter;-><init>(Lorg/telegram/ui/IntroActivity;)V
 
     return-void
@@ -52,13 +52,13 @@
     .param p3, "object"    # Ljava/lang/Object;
 
     .prologue
-    .line 470
+    .line 508
     check-cast p3, Landroid/view/View;
 
     .end local p3    # "object":Ljava/lang/Object;
     invoke-virtual {p1, p3}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
-    .line 471
+    .line 509
     return-void
 .end method
 
@@ -66,10 +66,9 @@
     .locals 1
 
     .prologue
-    .line 441
+    .line 479
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$IntroAdapter;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # getter for: Lorg/telegram/ui/IntroActivity;->titles:[Ljava/lang/String;
     invoke-static {v0}, Lorg/telegram/ui/IntroActivity;->access$1300(Lorg/telegram/ui/IntroActivity;)[Ljava/lang/String;
 
     move-result-object v0
@@ -95,7 +94,7 @@
 
     const/high16 v1, -0x40000000    # -2.0f
 
-    .line 446
+    .line 484
     new-instance v7, Landroid/widget/FrameLayout;
 
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
@@ -104,7 +103,7 @@
 
     invoke-direct {v7, v2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
-    .line 448
+    .line 486
     .local v7, "frameLayout":Landroid/widget/FrameLayout;
     new-instance v8, Landroid/widget/TextView;
 
@@ -114,25 +113,25 @@
 
     invoke-direct {v8, v2}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
 
-    .line 449
+    .line 487
     .local v8, "headerTextView":Landroid/widget/TextView;
     const v2, -0xdededf
 
     invoke-virtual {v8, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 450
+    .line 488
     const/4 v2, 0x1
 
     const/high16 v4, 0x41d00000    # 26.0f
 
     invoke-virtual {v8, v2, v4}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    .line 451
+    .line 489
     const/16 v2, 0x11
 
     invoke-virtual {v8, v2}, Landroid/widget/TextView;->setGravity(I)V
 
-    .line 452
+    .line 490
     const/16 v2, 0x33
 
     const/high16 v4, 0x43740000    # 244.0f
@@ -145,7 +144,7 @@
 
     invoke-virtual {v7, v8, v2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 454
+    .line 492
     new-instance v9, Landroid/widget/TextView;
 
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
@@ -154,25 +153,25 @@
 
     invoke-direct {v9, v2}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
 
-    .line 455
+    .line 493
     .local v9, "messageTextView":Landroid/widget/TextView;
     const v2, -0x7f7f80
 
     invoke-virtual {v9, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 456
+    .line 494
     const/4 v2, 0x1
 
     const/high16 v3, 0x41700000    # 15.0f
 
     invoke-virtual {v9, v2, v3}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    .line 457
+    .line 495
     const/16 v2, 0x11
 
     invoke-virtual {v9, v2}, Landroid/widget/TextView;->setGravity(I)V
 
-    .line 458
+    .line 496
     const/16 v2, 0x33
 
     const/high16 v4, 0x438f0000    # 286.0f
@@ -187,15 +186,14 @@
 
     invoke-virtual {v7, v9, v0}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 460
+    .line 498
     const/4 v0, 0x0
 
     invoke-virtual {p1, v7, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;I)V
 
-    .line 462
+    .line 500
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$IntroAdapter;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # getter for: Lorg/telegram/ui/IntroActivity;->titles:[Ljava/lang/String;
     invoke-static {v0}, Lorg/telegram/ui/IntroActivity;->access$1300(Lorg/telegram/ui/IntroActivity;)[Ljava/lang/String;
 
     move-result-object v0
@@ -204,10 +202,9 @@
 
     invoke-virtual {v8, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 463
+    .line 501
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$IntroAdapter;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # getter for: Lorg/telegram/ui/IntroActivity;->messages:[Ljava/lang/String;
     invoke-static {v0}, Lorg/telegram/ui/IntroActivity;->access$1400(Lorg/telegram/ui/IntroActivity;)[Ljava/lang/String;
 
     move-result-object v0
@@ -220,7 +217,7 @@
 
     invoke-virtual {v9, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 465
+    .line 503
     return-object v7
 .end method
 
@@ -230,7 +227,7 @@
     .param p2, "object"    # Ljava/lang/Object;
 
     .prologue
-    .line 482
+    .line 520
     invoke-virtual {p1, p2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -244,7 +241,7 @@
     .param p2, "arg1"    # Ljava/lang/ClassLoader;
 
     .prologue
-    .line 487
+    .line 525
     return-void
 .end method
 
@@ -252,7 +249,7 @@
     .locals 1
 
     .prologue
-    .line 491
+    .line 529
     const/4 v0, 0x0
 
     return-object v0
@@ -265,26 +262,24 @@
     .param p3, "object"    # Ljava/lang/Object;
 
     .prologue
-    .line 475
+    .line 513
     invoke-super {p0, p1, p2, p3}, Landroid/support/v4/view/PagerAdapter;->setPrimaryItem(Landroid/view/ViewGroup;ILjava/lang/Object;)V
 
-    .line 476
+    .line 514
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$IntroAdapter;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # getter for: Lorg/telegram/ui/IntroActivity;->bottomPages:Lorg/telegram/ui/IntroActivity$BottomPagesView;
     invoke-static {v0}, Lorg/telegram/ui/IntroActivity;->access$400(Lorg/telegram/ui/IntroActivity;)Lorg/telegram/ui/IntroActivity$BottomPagesView;
 
     move-result-object v0
 
     invoke-virtual {v0, p2}, Lorg/telegram/ui/IntroActivity$BottomPagesView;->setCurrentPage(I)V
 
-    .line 477
+    .line 515
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$IntroAdapter;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # setter for: Lorg/telegram/ui/IntroActivity;->currentViewPagerPage:I
     invoke-static {v0, p2}, Lorg/telegram/ui/IntroActivity;->access$502(Lorg/telegram/ui/IntroActivity;I)I
 
-    .line 478
+    .line 516
     return-void
 .end method
 
@@ -293,13 +288,13 @@
     .param p1, "observer"    # Landroid/database/DataSetObserver;
 
     .prologue
-    .line 496
+    .line 534
     if-eqz p1, :cond_0
 
-    .line 497
+    .line 535
     invoke-super {p0, p1}, Landroid/support/v4/view/PagerAdapter;->unregisterDataSetObserver(Landroid/database/DataSetObserver;)V
 
-    .line 499
+    .line 537
     :cond_0
     return-void
 .end method

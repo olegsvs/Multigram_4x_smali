@@ -52,7 +52,6 @@
     .line 354
     iget-object v2, p0, Lorg/telegram/ui/Adapters/MentionsAdapter$7;->this$0:Lorg/telegram/ui/Adapters/MentionsAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/MentionsAdapter;->contextQueryRunnable:Ljava/lang/Runnable;
     invoke-static {v2}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$900(Lorg/telegram/ui/Adapters/MentionsAdapter;)Ljava/lang/Runnable;
 
     move-result-object v2
@@ -70,13 +69,11 @@
 
     const/4 v3, 0x0
 
-    # setter for: Lorg/telegram/ui/Adapters/MentionsAdapter;->contextQueryRunnable:Ljava/lang/Runnable;
     invoke-static {v2, v3}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$902(Lorg/telegram/ui/Adapters/MentionsAdapter;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 358
     iget-object v2, p0, Lorg/telegram/ui/Adapters/MentionsAdapter$7;->this$0:Lorg/telegram/ui/Adapters/MentionsAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/MentionsAdapter;->foundContextBot:Lorg/telegram/tgnet/TLRPC$User;
     invoke-static {v2}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$000(Lorg/telegram/ui/Adapters/MentionsAdapter;)Lorg/telegram/tgnet/TLRPC$User;
 
     move-result-object v2
@@ -85,7 +82,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Adapters/MentionsAdapter$7;->this$0:Lorg/telegram/ui/Adapters/MentionsAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/MentionsAdapter;->noUserName:Z
     invoke-static {v2}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$1000(Lorg/telegram/ui/Adapters/MentionsAdapter;)Z
 
     move-result v2
@@ -96,7 +92,6 @@
     :cond_2
     iget-object v2, p0, Lorg/telegram/ui/Adapters/MentionsAdapter$7;->this$0:Lorg/telegram/ui/Adapters/MentionsAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/MentionsAdapter;->noUserName:Z
     invoke-static {v2}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$1000(Lorg/telegram/ui/Adapters/MentionsAdapter;)Z
 
     move-result v2
@@ -110,7 +105,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Adapters/MentionsAdapter$7;->this$0:Lorg/telegram/ui/Adapters/MentionsAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/MentionsAdapter;->foundContextBot:Lorg/telegram/tgnet/TLRPC$User;
     invoke-static {v4}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$000(Lorg/telegram/ui/Adapters/MentionsAdapter;)Lorg/telegram/tgnet/TLRPC$User;
 
     move-result-object v4
@@ -119,7 +113,6 @@
 
     const-string/jumbo v6, ""
 
-    # invokes: Lorg/telegram/ui/Adapters/MentionsAdapter;->searchForContextBotResults(ZLorg/telegram/tgnet/TLRPC$User;Ljava/lang/String;Ljava/lang/String;)V
     invoke-static {v2, v3, v4, v5, v6}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$300(Lorg/telegram/ui/Adapters/MentionsAdapter;ZLorg/telegram/tgnet/TLRPC$User;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
@@ -130,7 +123,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Adapters/MentionsAdapter$7;->val$username:Ljava/lang/String;
 
-    # setter for: Lorg/telegram/ui/Adapters/MentionsAdapter;->searchingContextUsername:Ljava/lang/String;
     invoke-static {v2, v3}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$1102(Lorg/telegram/ui/Adapters/MentionsAdapter;Ljava/lang/String;)Ljava/lang/String;
 
     .line 365
@@ -140,7 +132,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Adapters/MentionsAdapter$7;->this$0:Lorg/telegram/ui/Adapters/MentionsAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/MentionsAdapter;->searchingContextUsername:Ljava/lang/String;
     invoke-static {v3}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$1100(Lorg/telegram/ui/Adapters/MentionsAdapter;)Ljava/lang/String;
 
     move-result-object v3
@@ -161,7 +152,6 @@
     check-cast v0, Lorg/telegram/tgnet/TLRPC$User;
 
     .end local v0    # "object":Lorg/telegram/tgnet/TLObject;
-    # invokes: Lorg/telegram/ui/Adapters/MentionsAdapter;->processFoundUser(Lorg/telegram/tgnet/TLRPC$User;)V
     invoke-static {v2, v0}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$1200(Lorg/telegram/ui/Adapters/MentionsAdapter;Lorg/telegram/tgnet/TLRPC$User;)V
 
     goto :goto_0
@@ -177,7 +167,6 @@
     .local v1, "req":Lorg/telegram/tgnet/TLRPC$TL_contacts_resolveUsername;
     iget-object v2, p0, Lorg/telegram/ui/Adapters/MentionsAdapter$7;->this$0:Lorg/telegram/ui/Adapters/MentionsAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/MentionsAdapter;->searchingContextUsername:Ljava/lang/String;
     invoke-static {v2}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$1100(Lorg/telegram/ui/Adapters/MentionsAdapter;)Ljava/lang/String;
 
     move-result-object v2
@@ -199,7 +188,6 @@
 
     move-result v3
 
-    # setter for: Lorg/telegram/ui/Adapters/MentionsAdapter;->contextUsernameReqid:I
     invoke-static {v2, v3}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$1302(Lorg/telegram/ui/Adapters/MentionsAdapter;I)I
 
     goto :goto_0

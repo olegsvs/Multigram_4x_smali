@@ -58,7 +58,6 @@
 
     iget-object v4, v4, Lorg/telegram/messenger/ImageLoader$HttpFileTask$1;->this$1:Lorg/telegram/messenger/ImageLoader$HttpFileTask;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader$HttpFileTask;->url:Ljava/lang/String;
     invoke-static {v4}, Lorg/telegram/messenger/ImageLoader$HttpFileTask;->access$000(Lorg/telegram/messenger/ImageLoader$HttpFileTask;)Ljava/lang/String;
 
     move-result-object v4

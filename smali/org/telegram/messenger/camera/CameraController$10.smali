@@ -67,7 +67,6 @@
 
     iget-object v6, p0, Lorg/telegram/messenger/camera/CameraController$10;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v6}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v6
@@ -77,7 +76,6 @@
     .line 618
     iget-object v6, p0, Lorg/telegram/messenger/camera/CameraController$10;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v6}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v5
@@ -88,7 +86,6 @@
 
     const/4 v7, 0x0
 
-    # setter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v6, v7}, Lorg/telegram/messenger/camera/CameraController;->access$402(Lorg/telegram/messenger/camera/CameraController;Landroid/media/MediaRecorder;)Landroid/media/MediaRecorder;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
@@ -151,7 +148,6 @@
     :try_start_6
     iget-object v6, p0, Lorg/telegram/messenger/camera/CameraController$10;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->threadPool:Ljava/util/concurrent/ThreadPoolExecutor;
     invoke-static {v6}, Lorg/telegram/messenger/camera/CameraController;->access$700(Lorg/telegram/messenger/camera/CameraController;)Ljava/util/concurrent/ThreadPoolExecutor;
 
     move-result-object v6
@@ -169,7 +165,6 @@
 
     iget-object v6, p0, Lorg/telegram/messenger/camera/CameraController$10;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->onVideoTakeCallback:Lorg/telegram/messenger/camera/CameraController$VideoTakeCallback;
     invoke-static {v6}, Lorg/telegram/messenger/camera/CameraController;->access$500(Lorg/telegram/messenger/camera/CameraController;)Lorg/telegram/messenger/camera/CameraController$VideoTakeCallback;
 
     move-result-object v6
@@ -179,7 +174,6 @@
     .line 662
     iget-object v6, p0, Lorg/telegram/messenger/camera/CameraController$10;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recordingSmallVideo:Z
     invoke-static {v6}, Lorg/telegram/messenger/camera/CameraController;->access$300(Lorg/telegram/messenger/camera/CameraController;)Z
 
     move-result v6
@@ -188,7 +182,6 @@
 
     iget-object v6, p0, Lorg/telegram/messenger/camera/CameraController$10;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recordedFile:Ljava/lang/String;
     invoke-static {v6}, Lorg/telegram/messenger/camera/CameraController;->access$600(Lorg/telegram/messenger/camera/CameraController;)Ljava/lang/String;
 
     move-result-object v6
@@ -292,7 +285,6 @@
 
     const/4 v7, 0x0
 
-    # setter for: Lorg/telegram/messenger/camera/CameraController;->onVideoTakeCallback:Lorg/telegram/messenger/camera/CameraController$VideoTakeCallback;
     invoke-static {v6, v7}, Lorg/telegram/messenger/camera/CameraController;->access$502(Lorg/telegram/messenger/camera/CameraController;Lorg/telegram/messenger/camera/CameraController$VideoTakeCallback;)Lorg/telegram/messenger/camera/CameraController$VideoTakeCallback;
     :try_end_6
     .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_1

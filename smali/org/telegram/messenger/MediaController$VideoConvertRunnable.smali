@@ -83,7 +83,6 @@
 
     iget-object v1, p0, Lorg/telegram/messenger/MediaController$VideoConvertRunnable;->messageObject:Lorg/telegram/messenger/MessageObject;
 
-    # invokes: Lorg/telegram/messenger/MediaController;->convertVideo(Lorg/telegram/messenger/MessageObject;)Z
     invoke-static {v0, v1}, Lorg/telegram/messenger/MediaController;->access$7800(Lorg/telegram/messenger/MediaController;Lorg/telegram/messenger/MessageObject;)Z
 
     .line 4051

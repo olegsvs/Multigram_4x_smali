@@ -56,7 +56,6 @@
     .line 167
     iget-object v1, p0, Lorg/telegram/ui/VoIPActivity$1;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # invokes: Lorg/telegram/ui/VoIPActivity;->updateBlurredPhotos(Landroid/graphics/Bitmap;)V
     invoke-static {v1, v0}, Lorg/telegram/ui/VoIPActivity;->access$000(Lorg/telegram/ui/VoIPActivity;Landroid/graphics/Bitmap;)V
 
     .line 169

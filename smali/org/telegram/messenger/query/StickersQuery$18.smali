@@ -41,7 +41,6 @@
 
     .prologue
     .line 767
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->unreadStickerSets:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$1300()Ljava/util/ArrayList;
 
     move-result-object v0
@@ -55,7 +54,6 @@
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
     .line 768
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->readingStickerSets:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$1700()Ljava/util/ArrayList;
 
     move-result-object v0
@@ -69,17 +67,14 @@
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
     .line 769
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->featuredStickerSets:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$1500()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    # invokes: Lorg/telegram/messenger/query/StickersQuery;->calcFeaturedStickersHash(Ljava/util/ArrayList;)I
     invoke-static {v0}, Lorg/telegram/messenger/query/StickersQuery;->access$700(Ljava/util/ArrayList;)I
 
     move-result v0
 
-    # setter for: Lorg/telegram/messenger/query/StickersQuery;->loadFeaturedHash:I
     invoke-static {v0}, Lorg/telegram/messenger/query/StickersQuery;->access$1102(I)I
 
     .line 770
@@ -96,27 +91,22 @@
     invoke-virtual {v0, v1, v2}, Lorg/telegram/messenger/NotificationCenter;->postNotificationName(I[Ljava/lang/Object;)V
 
     .line 771
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->featuredStickerSets:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$1500()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->unreadStickerSets:Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$1300()Ljava/util/ArrayList;
 
     move-result-object v1
 
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->loadFeaturedDate:I
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$1600()I
 
     move-result v2
 
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->loadFeaturedHash:I
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$1100()I
 
     move-result v3
 
-    # invokes: Lorg/telegram/messenger/query/StickersQuery;->putFeaturedStickersToCache(Ljava/util/ArrayList;Ljava/util/ArrayList;II)V
     invoke-static {v0, v1, v2, v3}, Lorg/telegram/messenger/query/StickersQuery;->access$1200(Ljava/util/ArrayList;Ljava/util/ArrayList;II)V
 
     .line 772

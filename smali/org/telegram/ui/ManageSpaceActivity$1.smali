@@ -50,7 +50,6 @@
     .line 96
     iget-object v6, p0, Lorg/telegram/ui/ManageSpaceActivity$1;->this$0:Lorg/telegram/ui/ManageSpaceActivity;
 
-    # getter for: Lorg/telegram/ui/ManageSpaceActivity;->actionBarLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v6}, Lorg/telegram/ui/ManageSpaceActivity;->access$000(Lorg/telegram/ui/ManageSpaceActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v6
@@ -90,7 +89,6 @@
     .local v1, "location":[I
     iget-object v6, p0, Lorg/telegram/ui/ManageSpaceActivity$1;->this$0:Lorg/telegram/ui/ManageSpaceActivity;
 
-    # getter for: Lorg/telegram/ui/ManageSpaceActivity;->layersActionBarLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v6}, Lorg/telegram/ui/ManageSpaceActivity;->access$100(Lorg/telegram/ui/ManageSpaceActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v6
@@ -108,7 +106,6 @@
     .local v3, "viewY":I
     iget-object v6, p0, Lorg/telegram/ui/ManageSpaceActivity$1;->this$0:Lorg/telegram/ui/ManageSpaceActivity;
 
-    # getter for: Lorg/telegram/ui/ManageSpaceActivity;->layersActionBarLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v6}, Lorg/telegram/ui/ManageSpaceActivity;->access$100(Lorg/telegram/ui/ManageSpaceActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v6
@@ -127,7 +124,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/ManageSpaceActivity$1;->this$0:Lorg/telegram/ui/ManageSpaceActivity;
 
-    # getter for: Lorg/telegram/ui/ManageSpaceActivity;->layersActionBarLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v6}, Lorg/telegram/ui/ManageSpaceActivity;->access$100(Lorg/telegram/ui/ManageSpaceActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v6
@@ -152,7 +148,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/ManageSpaceActivity$1;->this$0:Lorg/telegram/ui/ManageSpaceActivity;
 
-    # getter for: Lorg/telegram/ui/ManageSpaceActivity;->layersActionBarLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v6}, Lorg/telegram/ui/ManageSpaceActivity;->access$100(Lorg/telegram/ui/ManageSpaceActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v6
@@ -190,7 +185,6 @@
     :cond_1
     iget-object v6, p0, Lorg/telegram/ui/ManageSpaceActivity$1;->this$0:Lorg/telegram/ui/ManageSpaceActivity;
 
-    # getter for: Lorg/telegram/ui/ManageSpaceActivity;->layersActionBarLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v6}, Lorg/telegram/ui/ManageSpaceActivity;->access$100(Lorg/telegram/ui/ManageSpaceActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v6
@@ -210,7 +204,6 @@
     :goto_1
     iget-object v6, p0, Lorg/telegram/ui/ManageSpaceActivity$1;->this$0:Lorg/telegram/ui/ManageSpaceActivity;
 
-    # getter for: Lorg/telegram/ui/ManageSpaceActivity;->layersActionBarLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v6}, Lorg/telegram/ui/ManageSpaceActivity;->access$100(Lorg/telegram/ui/ManageSpaceActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v6
@@ -228,14 +221,12 @@
     .line 109
     iget-object v6, p0, Lorg/telegram/ui/ManageSpaceActivity$1;->this$0:Lorg/telegram/ui/ManageSpaceActivity;
 
-    # getter for: Lorg/telegram/ui/ManageSpaceActivity;->layersActionBarLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v6}, Lorg/telegram/ui/ManageSpaceActivity;->access$100(Lorg/telegram/ui/ManageSpaceActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v9
 
     iget-object v6, p0, Lorg/telegram/ui/ManageSpaceActivity$1;->this$0:Lorg/telegram/ui/ManageSpaceActivity;
 
-    # getter for: Lorg/telegram/ui/ManageSpaceActivity;->layersActionBarLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v6}, Lorg/telegram/ui/ManageSpaceActivity;->access$100(Lorg/telegram/ui/ManageSpaceActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v6
@@ -262,7 +253,6 @@
     :cond_2
     iget-object v6, p0, Lorg/telegram/ui/ManageSpaceActivity$1;->this$0:Lorg/telegram/ui/ManageSpaceActivity;
 
-    # getter for: Lorg/telegram/ui/ManageSpaceActivity;->layersActionBarLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v6}, Lorg/telegram/ui/ManageSpaceActivity;->access$100(Lorg/telegram/ui/ManageSpaceActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v6

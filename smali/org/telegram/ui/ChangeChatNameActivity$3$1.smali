@@ -53,7 +53,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChangeChatNameActivity$3;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->avatarUpdater:Lorg/telegram/ui/Components/AvatarUpdater;
     invoke-static {v0}, Lorg/telegram/ui/ChangeChatNameActivity;->access$200(Lorg/telegram/ui/ChangeChatNameActivity;)Lorg/telegram/ui/Components/AvatarUpdater;
 
     move-result-object v0
@@ -76,7 +75,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChangeChatNameActivity$3;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->avatarUpdater:Lorg/telegram/ui/Components/AvatarUpdater;
     invoke-static {v0}, Lorg/telegram/ui/ChangeChatNameActivity;->access$200(Lorg/telegram/ui/ChangeChatNameActivity;)Lorg/telegram/ui/Components/AvatarUpdater;
 
     move-result-object v0
@@ -96,7 +94,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChangeChatNameActivity$3;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # setter for: Lorg/telegram/ui/ChangeChatNameActivity;->avatar:Lorg/telegram/tgnet/TLRPC$FileLocation;
     invoke-static {v0, v1}, Lorg/telegram/ui/ChangeChatNameActivity;->access$702(Lorg/telegram/ui/ChangeChatNameActivity;Lorg/telegram/tgnet/TLRPC$FileLocation;)Lorg/telegram/tgnet/TLRPC$FileLocation;
 
     .line 212
@@ -104,7 +101,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChangeChatNameActivity$3;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # setter for: Lorg/telegram/ui/ChangeChatNameActivity;->uploadedAvatar:Lorg/telegram/tgnet/TLRPC$InputFile;
     invoke-static {v0, v1}, Lorg/telegram/ui/ChangeChatNameActivity;->access$502(Lorg/telegram/ui/ChangeChatNameActivity;Lorg/telegram/tgnet/TLRPC$InputFile;)Lorg/telegram/tgnet/TLRPC$InputFile;
 
     .line 213
@@ -112,7 +108,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChangeChatNameActivity$3;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->avatarImage:Lorg/telegram/ui/Components/BackupImageView;
     invoke-static {v0}, Lorg/telegram/ui/ChangeChatNameActivity;->access$1100(Lorg/telegram/ui/ChangeChatNameActivity;)Lorg/telegram/ui/Components/BackupImageView;
 
     move-result-object v0
@@ -121,7 +116,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ChangeChatNameActivity$3;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->avatar:Lorg/telegram/tgnet/TLRPC$FileLocation;
     invoke-static {v1}, Lorg/telegram/ui/ChangeChatNameActivity;->access$700(Lorg/telegram/ui/ChangeChatNameActivity;)Lorg/telegram/tgnet/TLRPC$FileLocation;
 
     move-result-object v1
@@ -132,7 +126,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChangeChatNameActivity$3;->this$0:Lorg/telegram/ui/ChangeChatNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeChatNameActivity;->avatarDrawable:Lorg/telegram/ui/Components/AvatarDrawable;
     invoke-static {v3}, Lorg/telegram/ui/ChangeChatNameActivity;->access$1000(Lorg/telegram/ui/ChangeChatNameActivity;)Lorg/telegram/ui/Components/AvatarDrawable;
 
     move-result-object v3

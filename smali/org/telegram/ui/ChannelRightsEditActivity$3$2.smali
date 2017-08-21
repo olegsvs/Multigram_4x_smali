@@ -48,7 +48,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelRightsEditActivity$3;->this$0:Lorg/telegram/ui/ChannelRightsEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelRightsEditActivity;->bannedRights:Lorg/telegram/tgnet/TLRPC$TL_channelBannedRights;
     invoke-static {v0}, Lorg/telegram/ui/ChannelRightsEditActivity;->access$600(Lorg/telegram/ui/ChannelRightsEditActivity;)Lorg/telegram/tgnet/TLRPC$TL_channelBannedRights;
 
     move-result-object v0
@@ -62,7 +61,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelRightsEditActivity$3;->this$0:Lorg/telegram/ui/ChannelRightsEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelRightsEditActivity;->listViewAdapter:Lorg/telegram/ui/ChannelRightsEditActivity$ListAdapter;
     invoke-static {v0}, Lorg/telegram/ui/ChannelRightsEditActivity;->access$1000(Lorg/telegram/ui/ChannelRightsEditActivity;)Lorg/telegram/ui/ChannelRightsEditActivity$ListAdapter;
 
     move-result-object v0
@@ -71,7 +69,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ChannelRightsEditActivity$3;->this$0:Lorg/telegram/ui/ChannelRightsEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelRightsEditActivity;->untilDateRow:I
     invoke-static {v1}, Lorg/telegram/ui/ChannelRightsEditActivity;->access$900(Lorg/telegram/ui/ChannelRightsEditActivity;)I
 
     move-result v1

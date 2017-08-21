@@ -402,7 +402,6 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 708
-    # getter for: Lcom/stripe/android/model/Card$Builder;->number:Ljava/lang/String;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$100(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/String;
 
     move-result-object v0
@@ -418,7 +417,6 @@
     iput-object v0, p0, Lcom/stripe/android/model/Card;->number:Ljava/lang/String;
 
     .line 709
-    # getter for: Lcom/stripe/android/model/Card$Builder;->expMonth:Ljava/lang/Integer;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$200(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/Integer;
 
     move-result-object v0
@@ -426,7 +424,6 @@
     iput-object v0, p0, Lcom/stripe/android/model/Card;->expMonth:Ljava/lang/Integer;
 
     .line 710
-    # getter for: Lcom/stripe/android/model/Card$Builder;->expYear:Ljava/lang/Integer;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$300(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/Integer;
 
     move-result-object v0
@@ -434,7 +431,6 @@
     iput-object v0, p0, Lcom/stripe/android/model/Card;->expYear:Ljava/lang/Integer;
 
     .line 711
-    # getter for: Lcom/stripe/android/model/Card$Builder;->cvc:Ljava/lang/String;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$400(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/String;
 
     move-result-object v0
@@ -446,7 +442,6 @@
     iput-object v0, p0, Lcom/stripe/android/model/Card;->cvc:Ljava/lang/String;
 
     .line 712
-    # getter for: Lcom/stripe/android/model/Card$Builder;->name:Ljava/lang/String;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$500(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/String;
 
     move-result-object v0
@@ -458,7 +453,6 @@
     iput-object v0, p0, Lcom/stripe/android/model/Card;->name:Ljava/lang/String;
 
     .line 713
-    # getter for: Lcom/stripe/android/model/Card$Builder;->addressLine1:Ljava/lang/String;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$600(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/String;
 
     move-result-object v0
@@ -470,7 +464,6 @@
     iput-object v0, p0, Lcom/stripe/android/model/Card;->addressLine1:Ljava/lang/String;
 
     .line 714
-    # getter for: Lcom/stripe/android/model/Card$Builder;->addressLine2:Ljava/lang/String;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$700(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/String;
 
     move-result-object v0
@@ -482,7 +475,6 @@
     iput-object v0, p0, Lcom/stripe/android/model/Card;->addressLine2:Ljava/lang/String;
 
     .line 715
-    # getter for: Lcom/stripe/android/model/Card$Builder;->addressCity:Ljava/lang/String;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$800(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/String;
 
     move-result-object v0
@@ -494,7 +486,6 @@
     iput-object v0, p0, Lcom/stripe/android/model/Card;->addressCity:Ljava/lang/String;
 
     .line 716
-    # getter for: Lcom/stripe/android/model/Card$Builder;->addressState:Ljava/lang/String;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$900(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/String;
 
     move-result-object v0
@@ -506,7 +497,6 @@
     iput-object v0, p0, Lcom/stripe/android/model/Card;->addressState:Ljava/lang/String;
 
     .line 717
-    # getter for: Lcom/stripe/android/model/Card$Builder;->addressZip:Ljava/lang/String;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$1000(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/String;
 
     move-result-object v0
@@ -518,7 +508,6 @@
     iput-object v0, p0, Lcom/stripe/android/model/Card;->addressZip:Ljava/lang/String;
 
     .line 718
-    # getter for: Lcom/stripe/android/model/Card$Builder;->addressCountry:Ljava/lang/String;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$1100(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/String;
 
     move-result-object v0
@@ -530,7 +519,6 @@
     iput-object v0, p0, Lcom/stripe/android/model/Card;->addressCountry:Ljava/lang/String;
 
     .line 719
-    # getter for: Lcom/stripe/android/model/Card$Builder;->last4:Ljava/lang/String;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$1200(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/String;
 
     move-result-object v0
@@ -551,7 +539,6 @@
     iput-object v0, p0, Lcom/stripe/android/model/Card;->last4:Ljava/lang/String;
 
     .line 722
-    # getter for: Lcom/stripe/android/model/Card$Builder;->brand:Ljava/lang/String;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$1300(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/String;
 
     move-result-object v0
@@ -572,7 +559,6 @@
     iput-object v0, p0, Lcom/stripe/android/model/Card;->brand:Ljava/lang/String;
 
     .line 725
-    # getter for: Lcom/stripe/android/model/Card$Builder;->fingerprint:Ljava/lang/String;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$1400(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/String;
 
     move-result-object v0
@@ -584,7 +570,6 @@
     iput-object v0, p0, Lcom/stripe/android/model/Card;->fingerprint:Ljava/lang/String;
 
     .line 726
-    # getter for: Lcom/stripe/android/model/Card$Builder;->funding:Ljava/lang/String;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$1500(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/String;
 
     move-result-object v0
@@ -596,7 +581,6 @@
     iput-object v0, p0, Lcom/stripe/android/model/Card;->funding:Ljava/lang/String;
 
     .line 727
-    # getter for: Lcom/stripe/android/model/Card$Builder;->country:Ljava/lang/String;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$1600(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/String;
 
     move-result-object v0
@@ -608,7 +592,6 @@
     iput-object v0, p0, Lcom/stripe/android/model/Card;->country:Ljava/lang/String;
 
     .line 728
-    # getter for: Lcom/stripe/android/model/Card$Builder;->currency:Ljava/lang/String;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$1700(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/String;
 
     move-result-object v0
@@ -624,7 +607,6 @@
 
     .line 721
     :cond_0
-    # getter for: Lcom/stripe/android/model/Card$Builder;->last4:Ljava/lang/String;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$1200(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/String;
 
     move-result-object v0
@@ -633,7 +615,6 @@
 
     .line 724
     :cond_1
-    # getter for: Lcom/stripe/android/model/Card$Builder;->brand:Ljava/lang/String;
     invoke-static {p1}, Lcom/stripe/android/model/Card$Builder;->access$1300(Lcom/stripe/android/model/Card$Builder;)Ljava/lang/String;
 
     move-result-object v0

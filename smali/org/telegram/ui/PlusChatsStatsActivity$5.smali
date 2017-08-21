@@ -46,7 +46,6 @@
     .line 512
     iget-object v0, p0, Lorg/telegram/ui/PlusChatsStatsActivity$5;->this$0:Lorg/telegram/ui/PlusChatsStatsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusChatsStatsActivity;->pDialog:Landroid/app/ProgressDialog;
     invoke-static {v0}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$2600(Lorg/telegram/ui/PlusChatsStatsActivity;)Landroid/app/ProgressDialog;
 
     move-result-object v0
@@ -64,7 +63,6 @@
     .line 513
     iget-object v0, p0, Lorg/telegram/ui/PlusChatsStatsActivity$5;->this$0:Lorg/telegram/ui/PlusChatsStatsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusChatsStatsActivity;->pDialog:Landroid/app/ProgressDialog;
     invoke-static {v0}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$2600(Lorg/telegram/ui/PlusChatsStatsActivity;)Landroid/app/ProgressDialog;
 
     move-result-object v0
@@ -80,7 +78,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/PlusChatsStatsActivity$5;->this$0:Lorg/telegram/ui/PlusChatsStatsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusChatsStatsActivity;->loadChatQ:I
     invoke-static {v2}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$2700(Lorg/telegram/ui/PlusChatsStatsActivity;)I
 
     move-result v2
@@ -88,7 +85,6 @@
     invoke-virtual {v0, v1, v2, v3}, Lorg/telegram/messenger/MessagesController;->loadDialogs(IIZ)V
 
     .line 515
-    # setter for: Lorg/telegram/ui/PlusChatsStatsActivity;->dialogsDidLoad:Z
     invoke-static {v3}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$2802(Z)Z
 
     .line 517

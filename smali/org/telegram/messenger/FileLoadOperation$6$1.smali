@@ -50,7 +50,6 @@
 
     iget-object v3, v3, Lorg/telegram/messenger/FileLoadOperation$6;->this$0:Lorg/telegram/messenger/FileLoadOperation;
 
-    # setter for: Lorg/telegram/messenger/FileLoadOperation;->reuploadingCdn:Z
     invoke-static {v3, v5}, Lorg/telegram/messenger/FileLoadOperation;->access$2402(Lorg/telegram/messenger/FileLoadOperation;Z)Z
 
     .line 946
@@ -76,7 +75,6 @@
 
     iget-object v3, v3, Lorg/telegram/messenger/FileLoadOperation$6;->this$0:Lorg/telegram/messenger/FileLoadOperation;
 
-    # getter for: Lorg/telegram/messenger/FileLoadOperation;->cdnHashes:Ljava/util/HashMap;
     invoke-static {v3}, Lorg/telegram/messenger/FileLoadOperation;->access$1200(Lorg/telegram/messenger/FileLoadOperation;)Ljava/util/HashMap;
 
     move-result-object v3
@@ -92,7 +90,6 @@
 
     invoke-direct {v4}, Ljava/util/HashMap;-><init>()V
 
-    # setter for: Lorg/telegram/messenger/FileLoadOperation;->cdnHashes:Ljava/util/HashMap;
     invoke-static {v3, v4}, Lorg/telegram/messenger/FileLoadOperation;->access$1202(Lorg/telegram/messenger/FileLoadOperation;Ljava/util/HashMap;)Ljava/util/HashMap;
 
     .line 952
@@ -124,7 +121,6 @@
 
     iget-object v3, v3, Lorg/telegram/messenger/FileLoadOperation$6;->this$0:Lorg/telegram/messenger/FileLoadOperation;
 
-    # getter for: Lorg/telegram/messenger/FileLoadOperation;->cdnHashes:Ljava/util/HashMap;
     invoke-static {v3}, Lorg/telegram/messenger/FileLoadOperation;->access$1200(Lorg/telegram/messenger/FileLoadOperation;)Ljava/util/HashMap;
 
     move-result-object v3
@@ -150,7 +146,6 @@
 
     iget-object v3, v3, Lorg/telegram/messenger/FileLoadOperation$6;->this$0:Lorg/telegram/messenger/FileLoadOperation;
 
-    # invokes: Lorg/telegram/messenger/FileLoadOperation;->startDownloadRequest()V
     invoke-static {v3}, Lorg/telegram/messenger/FileLoadOperation;->access$400(Lorg/telegram/messenger/FileLoadOperation;)V
 
     .line 967
@@ -186,7 +181,6 @@
 
     iget-object v3, v3, Lorg/telegram/messenger/FileLoadOperation$6;->this$0:Lorg/telegram/messenger/FileLoadOperation;
 
-    # setter for: Lorg/telegram/messenger/FileLoadOperation;->isCdn:Z
     invoke-static {v3, v5}, Lorg/telegram/messenger/FileLoadOperation;->access$1802(Lorg/telegram/messenger/FileLoadOperation;Z)Z
 
     .line 961
@@ -198,7 +192,6 @@
 
     iget-object v4, v4, Lorg/telegram/messenger/FileLoadOperation$6;->val$requestInfo:Lorg/telegram/messenger/FileLoadOperation$RequestInfo;
 
-    # invokes: Lorg/telegram/messenger/FileLoadOperation;->clearOperaion(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)V
     invoke-static {v3, v4}, Lorg/telegram/messenger/FileLoadOperation;->access$1900(Lorg/telegram/messenger/FileLoadOperation;Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)V
 
     .line 962
@@ -206,7 +199,6 @@
 
     iget-object v3, v3, Lorg/telegram/messenger/FileLoadOperation$6;->this$0:Lorg/telegram/messenger/FileLoadOperation;
 
-    # invokes: Lorg/telegram/messenger/FileLoadOperation;->startDownloadRequest()V
     invoke-static {v3}, Lorg/telegram/messenger/FileLoadOperation;->access$400(Lorg/telegram/messenger/FileLoadOperation;)V
 
     goto :goto_1
@@ -217,7 +209,6 @@
 
     iget-object v3, v3, Lorg/telegram/messenger/FileLoadOperation$6;->this$0:Lorg/telegram/messenger/FileLoadOperation;
 
-    # invokes: Lorg/telegram/messenger/FileLoadOperation;->onFail(ZI)V
     invoke-static {v3, v5, v5}, Lorg/telegram/messenger/FileLoadOperation;->access$300(Lorg/telegram/messenger/FileLoadOperation;ZI)V
 
     goto :goto_1

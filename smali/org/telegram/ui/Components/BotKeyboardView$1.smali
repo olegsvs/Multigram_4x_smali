@@ -45,7 +45,6 @@
     .line 126
     iget-object v0, p0, Lorg/telegram/ui/Components/BotKeyboardView$1;->this$0:Lorg/telegram/ui/Components/BotKeyboardView;
 
-    # getter for: Lorg/telegram/ui/Components/BotKeyboardView;->delegate:Lorg/telegram/ui/Components/BotKeyboardView$BotKeyboardViewDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/BotKeyboardView;->access$000(Lorg/telegram/ui/Components/BotKeyboardView;)Lorg/telegram/ui/Components/BotKeyboardView$BotKeyboardViewDelegate;
 
     move-result-object v1

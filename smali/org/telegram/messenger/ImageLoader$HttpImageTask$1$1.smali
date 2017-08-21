@@ -58,7 +58,6 @@
 
     iget-object v4, v4, Lorg/telegram/messenger/ImageLoader$HttpImageTask$1;->this$1:Lorg/telegram/messenger/ImageLoader$HttpImageTask;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader$HttpImageTask;->cacheImage:Lorg/telegram/messenger/ImageLoader$CacheImage;
     invoke-static {v4}, Lorg/telegram/messenger/ImageLoader$HttpImageTask;->access$300(Lorg/telegram/messenger/ImageLoader$HttpImageTask;)Lorg/telegram/messenger/ImageLoader$CacheImage;
 
     move-result-object v4

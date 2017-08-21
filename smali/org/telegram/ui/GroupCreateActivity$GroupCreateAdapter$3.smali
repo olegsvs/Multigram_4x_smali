@@ -54,7 +54,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter$3;->val$users:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;->searchResult:Ljava/util/ArrayList;
     invoke-static {v0, v1}, Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;->access$3002(Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 1068
@@ -62,7 +61,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter$3;->val$names:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;->searchResultNames:Ljava/util/ArrayList;
     invoke-static {v0, v1}, Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;->access$3102(Lorg/telegram/ui/GroupCreateActivity$GroupCreateAdapter;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 1069

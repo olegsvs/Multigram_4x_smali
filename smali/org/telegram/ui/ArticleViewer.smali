@@ -4430,7 +4430,6 @@
 
     aget-object v6, v6, v5
 
-    # getter for: Lorg/telegram/ui/ArticleViewer$RadialProgressView;->backgroundState:I
     invoke-static {v6}, Lorg/telegram/ui/ArticleViewer$RadialProgressView;->access$13800(Lorg/telegram/ui/ArticleViewer$RadialProgressView;)I
 
     move-result v6
@@ -8335,7 +8334,6 @@
 
     .line 8447
     .local v1, "cell":Lorg/telegram/ui/ArticleViewer$BlockPhotoCell;
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockPhotoCell;->currentBlock:Lorg/telegram/tgnet/TLRPC$TL_pageBlockPhoto;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer$BlockPhotoCell;->access$15100(Lorg/telegram/ui/ArticleViewer$BlockPhotoCell;)Lorg/telegram/tgnet/TLRPC$TL_pageBlockPhoto;
 
     move-result-object v5
@@ -8346,7 +8344,6 @@
     invoke-virtual {v4, p3}, Landroid/view/View;->getLocationInWindow([I)V
 
     .line 8449
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockPhotoCell;->imageView:Lorg/telegram/messenger/ImageReceiver;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer$BlockPhotoCell;->access$15200(Lorg/telegram/ui/ArticleViewer$BlockPhotoCell;)Lorg/telegram/messenger/ImageReceiver;
 
     move-result-object v3
@@ -8372,7 +8369,6 @@
 
     .line 8453
     .local v1, "cell":Lorg/telegram/ui/ArticleViewer$BlockVideoCell;
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockVideoCell;->currentBlock:Lorg/telegram/tgnet/TLRPC$TL_pageBlockVideo;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer$BlockVideoCell;->access$15300(Lorg/telegram/ui/ArticleViewer$BlockVideoCell;)Lorg/telegram/tgnet/TLRPC$TL_pageBlockVideo;
 
     move-result-object v5
@@ -8383,7 +8379,6 @@
     invoke-virtual {v4, p3}, Landroid/view/View;->getLocationInWindow([I)V
 
     .line 8455
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockVideoCell;->imageView:Lorg/telegram/messenger/ImageReceiver;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer$BlockVideoCell;->access$15400(Lorg/telegram/ui/ArticleViewer$BlockVideoCell;)Lorg/telegram/messenger/ImageReceiver;
 
     move-result-object v3
@@ -8401,7 +8396,6 @@
     check-cast v4, Lorg/telegram/ui/ArticleViewer$BlockCollageCell;
 
     .end local v4    # "view":Landroid/view/View;
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockCollageCell;->innerListView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v4}, Lorg/telegram/ui/ArticleViewer$BlockCollageCell;->access$15500(Lorg/telegram/ui/ArticleViewer$BlockCollageCell;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v5
@@ -8432,7 +8426,6 @@
     check-cast v4, Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;
 
     .end local v4    # "view":Landroid/view/View;
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->innerListView:Landroid/support/v4/view/ViewPager;
     invoke-static {v4}, Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->access$11600(Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;)Landroid/support/v4/view/ViewPager;
 
     move-result-object v5
@@ -15147,7 +15140,6 @@
 
     .line 7174
     .local v3, "cell":Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->currentBlock:Lorg/telegram/tgnet/TLRPC$TL_pageBlockSlideshow;
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->access$11300(Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;)Lorg/telegram/tgnet/TLRPC$TL_pageBlockSlideshow;
 
     move-result-object v13
@@ -15169,7 +15161,6 @@
     if-eq v6, v13, :cond_10
 
     .line 7176
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->innerListView:Landroid/support/v4/view/ViewPager;
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->access$11600(Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;)Landroid/support/v4/view/ViewPager;
 
     move-result-object v13
@@ -15467,7 +15458,6 @@
 
     aget-object v13, v13, v14
 
-    # getter for: Lorg/telegram/ui/ArticleViewer$RadialProgressView;->backgroundState:I
     invoke-static {v13}, Lorg/telegram/ui/ArticleViewer$RadialProgressView;->access$13800(Lorg/telegram/ui/ArticleViewer$RadialProgressView;)I
 
     move-result v13
@@ -24928,7 +24918,6 @@
 
     aget-object v6, v6, v5
 
-    # getter for: Lorg/telegram/ui/ArticleViewer$RadialProgressView;->backgroundState:I
     invoke-static {v6}, Lorg/telegram/ui/ArticleViewer$RadialProgressView;->access$13800(Lorg/telegram/ui/ArticleViewer$RadialProgressView;)I
 
     move-result v1
@@ -26631,7 +26620,6 @@
 
     invoke-direct {v0, v1, v15}, Lorg/telegram/ui/ArticleViewer$46;-><init>(Lorg/telegram/ui/ArticleViewer;Lorg/telegram/ui/ArticleViewer$PlaceProviderObject;)V
 
-    # setter for: Lorg/telegram/ui/ArticleViewer$PhotoBackgroundDrawable;->drawRunnable:Ljava/lang/Runnable;
     invoke-static/range {v23 .. v24}, Lorg/telegram/ui/ArticleViewer$PhotoBackgroundDrawable;->access$14702(Lorg/telegram/ui/ArticleViewer$PhotoBackgroundDrawable;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 7579

@@ -54,7 +54,6 @@
     .line 782
     iget-object v8, p0, Lorg/telegram/ui/PaymentFormActivity$5;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # getter for: Lorg/telegram/ui/PaymentFormActivity;->ignoreOnPhoneChange:Z
     invoke-static {v8}, Lorg/telegram/ui/PaymentFormActivity;->access$1800(Lorg/telegram/ui/PaymentFormActivity;)Z
 
     move-result v8
@@ -69,7 +68,6 @@
     :cond_0
     iget-object v8, p0, Lorg/telegram/ui/PaymentFormActivity$5;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # getter for: Lorg/telegram/ui/PaymentFormActivity;->inputFields:[Landroid/widget/EditText;
     invoke-static {v8}, Lorg/telegram/ui/PaymentFormActivity;->access$1200(Lorg/telegram/ui/PaymentFormActivity;)[Landroid/widget/EditText;
 
     move-result-object v8
@@ -201,7 +199,6 @@
 
     const/4 v9, 0x1
 
-    # setter for: Lorg/telegram/ui/PaymentFormActivity;->ignoreOnPhoneChange:Z
     invoke-static {v8, v9}, Lorg/telegram/ui/PaymentFormActivity;->access$1802(Lorg/telegram/ui/PaymentFormActivity;Z)Z
 
     .line 801
@@ -324,7 +321,6 @@
 
     const/4 v9, 0x0
 
-    # setter for: Lorg/telegram/ui/PaymentFormActivity;->ignoreOnPhoneChange:Z
     invoke-static {v8, v9}, Lorg/telegram/ui/PaymentFormActivity;->access$1802(Lorg/telegram/ui/PaymentFormActivity;Z)Z
 
     goto/16 :goto_0

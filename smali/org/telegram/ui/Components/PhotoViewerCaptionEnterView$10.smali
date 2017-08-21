@@ -46,7 +46,6 @@
     .line 436
     iget-object v1, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$10;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->messageEditText:Landroid/widget/EditText;
     invoke-static {v1}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$800(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;)Landroid/widget/EditText;
 
     move-result-object v1
@@ -65,7 +64,6 @@
     :cond_0
     iget-object v1, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$10;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->messageEditText:Landroid/widget/EditText;
     invoke-static {v1}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$800(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;)Landroid/widget/EditText;
 
     move-result-object v1
@@ -102,7 +100,6 @@
     .line 444
     iget-object v4, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$10;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->messageEditText:Landroid/widget/EditText;
     invoke-static {v4}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$800(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;)Landroid/widget/EditText;
 
     move-result-object v4
@@ -129,7 +126,6 @@
     :cond_0
     iget-object v4, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$10;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->messageEditText:Landroid/widget/EditText;
     invoke-static {v4}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$800(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;)Landroid/widget/EditText;
 
     move-result-object v4
@@ -152,13 +148,11 @@
 
     const/4 v5, 0x1
 
-    # setter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->innerTextChange:Z
     invoke-static {v4, v5}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$602(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;Z)Z
 
     .line 453
     iget-object v4, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$10;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->messageEditText:Landroid/widget/EditText;
     invoke-static {v4}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$800(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;)Landroid/widget/EditText;
 
     move-result-object v4
@@ -187,14 +181,12 @@
     .local v3, "localCharSequence":Ljava/lang/CharSequence;
     iget-object v4, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$10;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->messageEditText:Landroid/widget/EditText;
     invoke-static {v4}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$800(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;)Landroid/widget/EditText;
 
     move-result-object v4
 
     iget-object v5, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$10;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->messageEditText:Landroid/widget/EditText;
     invoke-static {v5}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$800(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;)Landroid/widget/EditText;
 
     move-result-object v5
@@ -220,7 +212,6 @@
     .local v2, "j":I
     iget-object v4, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$10;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->messageEditText:Landroid/widget/EditText;
     invoke-static {v4}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$800(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;)Landroid/widget/EditText;
 
     move-result-object v4
@@ -233,7 +224,6 @@
     .line 460
     iget-object v4, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$10;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # setter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->innerTextChange:Z
     invoke-static {v4, v7}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$602(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;Z)Z
 
     goto :goto_0
@@ -254,7 +244,6 @@
     .line 460
     iget-object v4, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$10;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # setter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->innerTextChange:Z
     invoke-static {v4, v7}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$602(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;Z)Z
 
     goto :goto_0
@@ -265,7 +254,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$10;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # setter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->innerTextChange:Z
     invoke-static {v5, v7}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$602(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;Z)Z
 
     throw v4

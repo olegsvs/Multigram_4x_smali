@@ -47,7 +47,6 @@
     .line 2524
     iget-object v0, p0, Lorg/telegram/ui/Components/EmojiView$GifsAdapter;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->recentGifs:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/Components/EmojiView;->access$3900(Lorg/telegram/ui/Components/EmojiView;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -90,7 +89,6 @@
     .line 2540
     iget-object v1, p0, Lorg/telegram/ui/Components/EmojiView$GifsAdapter;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->recentGifs:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/Components/EmojiView;->access$3900(Lorg/telegram/ui/Components/EmojiView;)Ljava/util/ArrayList;
 
     move-result-object v1

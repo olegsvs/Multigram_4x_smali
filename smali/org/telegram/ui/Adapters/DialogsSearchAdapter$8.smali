@@ -53,7 +53,6 @@
     .line 875
     iget-object v1, p0, Lorg/telegram/ui/Adapters/DialogsSearchAdapter$8;->this$0:Lorg/telegram/ui/Adapters/DialogsSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->searchTimer:Ljava/util/Timer;
     invoke-static {v1}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$1400(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;)Ljava/util/Timer;
 
     move-result-object v1
@@ -65,7 +64,6 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->searchTimer:Ljava/util/Timer;
     invoke-static {v1, v2}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$1402(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;Ljava/util/Timer;)Ljava/util/Timer;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -78,7 +76,6 @@
 
     iget v3, p0, Lorg/telegram/ui/Adapters/DialogsSearchAdapter$8;->val$searchId:I
 
-    # invokes: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->searchDialogsInternal(Ljava/lang/String;I)V
     invoke-static {v1, v2, v3}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$1500(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;Ljava/lang/String;I)V
 
     .line 881

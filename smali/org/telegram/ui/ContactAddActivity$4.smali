@@ -52,7 +52,6 @@
     .line 201
     iget-object v0, p0, Lorg/telegram/ui/ContactAddActivity$4;->this$0:Lorg/telegram/ui/ContactAddActivity;
 
-    # getter for: Lorg/telegram/ui/ContactAddActivity;->doneButton:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/ContactAddActivity;->access$300(Lorg/telegram/ui/ContactAddActivity;)Landroid/view/View;
 
     move-result-object v0

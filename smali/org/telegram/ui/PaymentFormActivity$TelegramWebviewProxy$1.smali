@@ -103,7 +103,6 @@
 
     move-result-object v4
 
-    # setter for: Lorg/telegram/ui/PaymentFormActivity;->paymentJson:Ljava/lang/String;
     invoke-static {v3, v4}, Lorg/telegram/ui/PaymentFormActivity;->access$002(Lorg/telegram/ui/PaymentFormActivity;Ljava/lang/String;)Ljava/lang/String;
 
     .line 258
@@ -117,7 +116,6 @@
 
     move-result-object v4
 
-    # setter for: Lorg/telegram/ui/PaymentFormActivity;->cardName:Ljava/lang/String;
     invoke-static {v3, v4}, Lorg/telegram/ui/PaymentFormActivity;->access$102(Lorg/telegram/ui/PaymentFormActivity;Ljava/lang/String;)Ljava/lang/String;
     :try_end_0
     .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
@@ -130,7 +128,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/PaymentFormActivity$TelegramWebviewProxy;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->goToNextStep()V
     invoke-static {v3}, Lorg/telegram/ui/PaymentFormActivity;->access$200(Lorg/telegram/ui/PaymentFormActivity;)V
 
     goto :goto_0
@@ -147,7 +144,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/PaymentFormActivity$TelegramWebviewProxy$1;->val$eventData:Ljava/lang/String;
 
-    # setter for: Lorg/telegram/ui/PaymentFormActivity;->paymentJson:Ljava/lang/String;
     invoke-static {v3, v4}, Lorg/telegram/ui/PaymentFormActivity;->access$002(Lorg/telegram/ui/PaymentFormActivity;Ljava/lang/String;)Ljava/lang/String;
 
     .line 261

@@ -80,7 +80,6 @@
     .line 1008
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/BottomSheet$Builder;->bottomSheet:Lorg/telegram/ui/ActionBar/BottomSheet;
 
-    # setter for: Lorg/telegram/ui/ActionBar/BottomSheet;->applyBottomPadding:Z
     invoke-static {v0, p1}, Lorg/telegram/ui/ActionBar/BottomSheet;->access$2102(Lorg/telegram/ui/ActionBar/BottomSheet;Z)Z
 
     .line 1009
@@ -95,7 +94,6 @@
     .line 1003
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/BottomSheet$Builder;->bottomSheet:Lorg/telegram/ui/ActionBar/BottomSheet;
 
-    # setter for: Lorg/telegram/ui/ActionBar/BottomSheet;->applyTopPadding:Z
     invoke-static {v0, p1}, Lorg/telegram/ui/ActionBar/BottomSheet;->access$2002(Lorg/telegram/ui/ActionBar/BottomSheet;Z)Z
 
     .line 1004
@@ -110,7 +108,6 @@
     .line 969
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/BottomSheet$Builder;->bottomSheet:Lorg/telegram/ui/ActionBar/BottomSheet;
 
-    # setter for: Lorg/telegram/ui/ActionBar/BottomSheet;->customView:Landroid/view/View;
     invoke-static {v0, p1}, Lorg/telegram/ui/ActionBar/BottomSheet;->access$1702(Lorg/telegram/ui/ActionBar/BottomSheet;Landroid/view/View;)Landroid/view/View;
 
     .line 970
@@ -140,13 +137,11 @@
     .line 956
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/BottomSheet$Builder;->bottomSheet:Lorg/telegram/ui/ActionBar/BottomSheet;
 
-    # setter for: Lorg/telegram/ui/ActionBar/BottomSheet;->items:[Ljava/lang/CharSequence;
     invoke-static {v0, p1}, Lorg/telegram/ui/ActionBar/BottomSheet;->access$1502(Lorg/telegram/ui/ActionBar/BottomSheet;[Ljava/lang/CharSequence;)[Ljava/lang/CharSequence;
 
     .line 957
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/BottomSheet$Builder;->bottomSheet:Lorg/telegram/ui/ActionBar/BottomSheet;
 
-    # setter for: Lorg/telegram/ui/ActionBar/BottomSheet;->onClickListener:Landroid/content/DialogInterface$OnClickListener;
     invoke-static {v0, p2}, Lorg/telegram/ui/ActionBar/BottomSheet;->access$1302(Lorg/telegram/ui/ActionBar/BottomSheet;Landroid/content/DialogInterface$OnClickListener;)Landroid/content/DialogInterface$OnClickListener;
 
     .line 958
@@ -163,19 +158,16 @@
     .line 962
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/BottomSheet$Builder;->bottomSheet:Lorg/telegram/ui/ActionBar/BottomSheet;
 
-    # setter for: Lorg/telegram/ui/ActionBar/BottomSheet;->items:[Ljava/lang/CharSequence;
     invoke-static {v0, p1}, Lorg/telegram/ui/ActionBar/BottomSheet;->access$1502(Lorg/telegram/ui/ActionBar/BottomSheet;[Ljava/lang/CharSequence;)[Ljava/lang/CharSequence;
 
     .line 963
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/BottomSheet$Builder;->bottomSheet:Lorg/telegram/ui/ActionBar/BottomSheet;
 
-    # setter for: Lorg/telegram/ui/ActionBar/BottomSheet;->itemIcons:[I
     invoke-static {v0, p2}, Lorg/telegram/ui/ActionBar/BottomSheet;->access$1602(Lorg/telegram/ui/ActionBar/BottomSheet;[I)[I
 
     .line 964
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/BottomSheet$Builder;->bottomSheet:Lorg/telegram/ui/ActionBar/BottomSheet;
 
-    # setter for: Lorg/telegram/ui/ActionBar/BottomSheet;->onClickListener:Landroid/content/DialogInterface$OnClickListener;
     invoke-static {v0, p3}, Lorg/telegram/ui/ActionBar/BottomSheet;->access$1302(Lorg/telegram/ui/ActionBar/BottomSheet;Landroid/content/DialogInterface$OnClickListener;)Landroid/content/DialogInterface$OnClickListener;
 
     .line 965
@@ -190,7 +182,6 @@
     .line 988
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/BottomSheet$Builder;->bottomSheet:Lorg/telegram/ui/ActionBar/BottomSheet;
 
-    # setter for: Lorg/telegram/ui/ActionBar/BottomSheet;->tag:I
     invoke-static {v0, p1}, Lorg/telegram/ui/ActionBar/BottomSheet;->access$1902(Lorg/telegram/ui/ActionBar/BottomSheet;I)I
 
     .line 989
@@ -205,7 +196,6 @@
     .line 974
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/BottomSheet$Builder;->bottomSheet:Lorg/telegram/ui/ActionBar/BottomSheet;
 
-    # setter for: Lorg/telegram/ui/ActionBar/BottomSheet;->title:Ljava/lang/CharSequence;
     invoke-static {v0, p1}, Lorg/telegram/ui/ActionBar/BottomSheet;->access$1802(Lorg/telegram/ui/ActionBar/BottomSheet;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     .line 975
@@ -236,7 +226,6 @@
     .line 993
     iget-object v0, p0, Lorg/telegram/ui/ActionBar/BottomSheet$Builder;->bottomSheet:Lorg/telegram/ui/ActionBar/BottomSheet;
 
-    # setter for: Lorg/telegram/ui/ActionBar/BottomSheet;->useHardwareLayer:Z
     invoke-static {v0, p1}, Lorg/telegram/ui/ActionBar/BottomSheet;->access$1102(Lorg/telegram/ui/ActionBar/BottomSheet;Z)Z
 
     .line 994

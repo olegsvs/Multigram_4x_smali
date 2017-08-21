@@ -238,7 +238,6 @@
 
     .line 98
     .local v0, "entry":Lcom/coremedia/iso/boxes/dece/TrickPlayBox$Entry;
-    # getter for: Lcom/coremedia/iso/boxes/dece/TrickPlayBox$Entry;->value:I
     invoke-static {v0}, Lcom/coremedia/iso/boxes/dece/TrickPlayBox$Entry;->access$0(Lcom/coremedia/iso/boxes/dece/TrickPlayBox$Entry;)I
 
     move-result v2

@@ -86,7 +86,6 @@
 
     iget-object v4, v0, Lorg/telegram/tgnet/TLRPC$messages_Messages;->chats:Ljava/util/ArrayList;
 
-    # invokes: Lorg/telegram/messenger/query/MessagesQuery;->broadcastPinnedMessage(Lorg/telegram/tgnet/TLRPC$Message;Ljava/util/ArrayList;Ljava/util/ArrayList;ZZ)Lorg/telegram/messenger/MessageObject;
     invoke-static {v2, v3, v4, v5, v5}, Lorg/telegram/messenger/query/MessagesQuery;->access$100(Lorg/telegram/tgnet/TLRPC$Message;Ljava/util/ArrayList;Ljava/util/ArrayList;ZZ)Lorg/telegram/messenger/MessageObject;
 
     .line 121
@@ -109,7 +108,6 @@
 
     check-cast v2, Lorg/telegram/tgnet/TLRPC$Message;
 
-    # invokes: Lorg/telegram/messenger/query/MessagesQuery;->savePinnedMessage(Lorg/telegram/tgnet/TLRPC$Message;)V
     invoke-static {v2}, Lorg/telegram/messenger/query/MessagesQuery;->access$200(Lorg/telegram/tgnet/TLRPC$Message;)V
 
     .line 123

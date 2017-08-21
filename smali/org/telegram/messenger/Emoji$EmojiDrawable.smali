@@ -112,7 +112,6 @@
 
     .prologue
     .line 262
-    # getter for: Lorg/telegram/messenger/Emoji;->emojiBmp:[[Landroid/graphics/Bitmap;
     invoke-static {}, Lorg/telegram/messenger/Emoji;->access$000()[[Landroid/graphics/Bitmap;
 
     move-result-object v1
@@ -132,7 +131,6 @@
     if-nez v1, :cond_1
 
     .line 263
-    # getter for: Lorg/telegram/messenger/Emoji;->loadingEmoji:[[Z
     invoke-static {}, Lorg/telegram/messenger/Emoji;->access$400()[[Z
 
     move-result-object v1
@@ -157,7 +155,6 @@
 
     .line 266
     :cond_0
-    # getter for: Lorg/telegram/messenger/Emoji;->loadingEmoji:[[Z
     invoke-static {}, Lorg/telegram/messenger/Emoji;->access$400()[[Z
 
     move-result-object v1
@@ -190,7 +187,6 @@
 
     move-result-object v1
 
-    # getter for: Lorg/telegram/messenger/Emoji;->placeholderPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/messenger/Emoji;->access$700()Landroid/graphics/Paint;
 
     move-result-object v2
@@ -213,7 +209,6 @@
     .line 286
     .local v0, "b":Landroid/graphics/Rect;
     :goto_1
-    # getter for: Lorg/telegram/messenger/Emoji;->emojiBmp:[[Landroid/graphics/Bitmap;
     invoke-static {}, Lorg/telegram/messenger/Emoji;->access$000()[[Landroid/graphics/Bitmap;
 
     move-result-object v1
@@ -279,7 +274,6 @@
 
     if-eqz v3, :cond_0
 
-    # getter for: Lorg/telegram/messenger/Emoji;->bigImgSize:I
     invoke-static {}, Lorg/telegram/messenger/Emoji;->access$200()I
 
     move-result v3
@@ -298,7 +292,6 @@
 
     if-eqz v3, :cond_1
 
-    # getter for: Lorg/telegram/messenger/Emoji;->bigImgSize:I
     invoke-static {}, Lorg/telegram/messenger/Emoji;->access$200()I
 
     move-result v3
@@ -317,7 +310,6 @@
 
     if-eqz v3, :cond_2
 
-    # getter for: Lorg/telegram/messenger/Emoji;->bigImgSize:I
     invoke-static {}, Lorg/telegram/messenger/Emoji;->access$200()I
 
     move-result v3
@@ -336,7 +328,6 @@
 
     if-eqz v3, :cond_3
 
-    # getter for: Lorg/telegram/messenger/Emoji;->bigImgSize:I
     invoke-static {}, Lorg/telegram/messenger/Emoji;->access$200()I
 
     move-result v3
@@ -355,7 +346,6 @@
 
     .line 248
     :cond_0
-    # getter for: Lorg/telegram/messenger/Emoji;->drawImgSize:I
     invoke-static {}, Lorg/telegram/messenger/Emoji;->access$300()I
 
     move-result v3
@@ -364,7 +354,6 @@
 
     .line 249
     :cond_1
-    # getter for: Lorg/telegram/messenger/Emoji;->drawImgSize:I
     invoke-static {}, Lorg/telegram/messenger/Emoji;->access$300()I
 
     move-result v3
@@ -373,7 +362,6 @@
 
     .line 250
     :cond_2
-    # getter for: Lorg/telegram/messenger/Emoji;->drawImgSize:I
     invoke-static {}, Lorg/telegram/messenger/Emoji;->access$300()I
 
     move-result v3
@@ -382,7 +370,6 @@
 
     .line 251
     :cond_3
-    # getter for: Lorg/telegram/messenger/Emoji;->drawImgSize:I
     invoke-static {}, Lorg/telegram/messenger/Emoji;->access$300()I
 
     move-result v3

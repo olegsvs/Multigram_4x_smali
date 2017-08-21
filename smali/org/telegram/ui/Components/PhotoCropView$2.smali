@@ -44,7 +44,6 @@
     .line 112
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoCropView$2;->this$0:Lorg/telegram/ui/Components/PhotoCropView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoCropView;->cropView:Lorg/telegram/ui/Components/Crop/CropView;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoCropView;->access$200(Lorg/telegram/ui/Components/PhotoCropView;)Lorg/telegram/ui/Components/Crop/CropView;
 
     move-result-object v0
@@ -63,7 +62,6 @@
     .line 99
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoCropView$2;->this$0:Lorg/telegram/ui/Components/PhotoCropView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoCropView;->cropView:Lorg/telegram/ui/Components/Crop/CropView;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoCropView;->access$200(Lorg/telegram/ui/Components/PhotoCropView;)Lorg/telegram/ui/Components/Crop/CropView;
 
     move-result-object v0
@@ -73,7 +71,6 @@
     .line 100
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoCropView$2;->this$0:Lorg/telegram/ui/Components/PhotoCropView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoCropView;->delegate:Lorg/telegram/ui/Components/PhotoCropView$PhotoCropViewDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoCropView;->access$000(Lorg/telegram/ui/Components/PhotoCropView;)Lorg/telegram/ui/Components/PhotoCropView$PhotoCropViewDelegate;
 
     move-result-object v0
@@ -83,7 +80,6 @@
     .line 101
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoCropView$2;->this$0:Lorg/telegram/ui/Components/PhotoCropView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoCropView;->delegate:Lorg/telegram/ui/Components/PhotoCropView$PhotoCropViewDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoCropView;->access$000(Lorg/telegram/ui/Components/PhotoCropView;)Lorg/telegram/ui/Components/PhotoCropView$PhotoCropViewDelegate;
 
     move-result-object v0
@@ -105,7 +101,6 @@
     .line 107
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoCropView$2;->this$0:Lorg/telegram/ui/Components/PhotoCropView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoCropView;->cropView:Lorg/telegram/ui/Components/Crop/CropView;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoCropView;->access$200(Lorg/telegram/ui/Components/PhotoCropView;)Lorg/telegram/ui/Components/Crop/CropView;
 
     move-result-object v0
@@ -123,7 +118,6 @@
     .line 94
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoCropView$2;->this$0:Lorg/telegram/ui/Components/PhotoCropView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoCropView;->cropView:Lorg/telegram/ui/Components/Crop/CropView;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoCropView;->access$200(Lorg/telegram/ui/Components/PhotoCropView;)Lorg/telegram/ui/Components/Crop/CropView;
 
     move-result-object v0
@@ -141,7 +135,6 @@
     .line 117
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoCropView$2;->this$0:Lorg/telegram/ui/Components/PhotoCropView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoCropView;->wheelView:Lorg/telegram/ui/Components/Crop/CropRotationWheel;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoCropView;->access$100(Lorg/telegram/ui/Components/PhotoCropView;)Lorg/telegram/ui/Components/Crop/CropRotationWheel;
 
     move-result-object v0
@@ -151,7 +144,6 @@
     .line 118
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoCropView$2;->this$0:Lorg/telegram/ui/Components/PhotoCropView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoCropView;->cropView:Lorg/telegram/ui/Components/Crop/CropView;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoCropView;->access$200(Lorg/telegram/ui/Components/PhotoCropView;)Lorg/telegram/ui/Components/Crop/CropView;
 
     move-result-object v0

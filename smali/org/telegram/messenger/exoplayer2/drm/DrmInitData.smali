@@ -166,14 +166,12 @@
 
     aget-object v1, p2, v1
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;->uuid:Ljava/util/UUID;
     invoke-static {v1}, Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;->access$000(Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;)Ljava/util/UUID;
 
     move-result-object v1
 
     aget-object v2, p2, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;->uuid:Ljava/util/UUID;
     invoke-static {v2}, Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;->access$000(Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;)Ljava/util/UUID;
 
     move-result-object v2
@@ -199,7 +197,6 @@
 
     aget-object v3, p2, v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;->uuid:Ljava/util/UUID;
     invoke-static {v3}, Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;->access$000(Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;)Ljava/util/UUID;
 
     move-result-object v3
@@ -276,7 +273,6 @@
     .line 126
     sget-object v0, Lorg/telegram/messenger/exoplayer2/C;->UUID_NIL:Ljava/util/UUID;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;->uuid:Ljava/util/UUID;
     invoke-static {p1}, Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;->access$000(Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;)Ljava/util/UUID;
 
     move-result-object v1
@@ -289,7 +285,6 @@
 
     sget-object v0, Lorg/telegram/messenger/exoplayer2/C;->UUID_NIL:Ljava/util/UUID;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;->uuid:Ljava/util/UUID;
     invoke-static {p2}, Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;->access$000(Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;)Ljava/util/UUID;
 
     move-result-object v1
@@ -314,12 +309,10 @@
 
     .line 127
     :cond_1
-    # getter for: Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;->uuid:Ljava/util/UUID;
     invoke-static {p1}, Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;->access$000(Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;)Ljava/util/UUID;
 
     move-result-object v0
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;->uuid:Ljava/util/UUID;
     invoke-static {p2}, Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;->access$000(Lorg/telegram/messenger/exoplayer2/drm/DrmInitData$SchemeData;)Ljava/util/UUID;
 
     move-result-object v1

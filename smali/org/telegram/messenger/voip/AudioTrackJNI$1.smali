@@ -51,7 +51,6 @@
     :try_start_0
     iget-object v5, p0, Lorg/telegram/messenger/voip/AudioTrackJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioTrackJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioTrackJNI;->audioTrack:Landroid/media/AudioTrack;
     invoke-static {v5}, Lorg/telegram/messenger/voip/AudioTrackJNI;->access$000(Lorg/telegram/messenger/voip/AudioTrackJNI;)Landroid/media/AudioTrack;
 
     move-result-object v5
@@ -63,7 +62,6 @@
     .line 99
     iget-object v5, p0, Lorg/telegram/messenger/voip/AudioTrackJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioTrackJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioTrackJNI;->needResampling:Z
     invoke-static {v5}, Lorg/telegram/messenger/voip/AudioTrackJNI;->access$100(Lorg/telegram/messenger/voip/AudioTrackJNI;)Z
 
     move-result v5
@@ -79,7 +77,6 @@
     :goto_0
     iget-object v5, p0, Lorg/telegram/messenger/voip/AudioTrackJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioTrackJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioTrackJNI;->needResampling:Z
     invoke-static {v5}, Lorg/telegram/messenger/voip/AudioTrackJNI;->access$100(Lorg/telegram/messenger/voip/AudioTrackJNI;)Z
 
     move-result v5
@@ -96,7 +93,6 @@
     :goto_1
     iget-object v4, p0, Lorg/telegram/messenger/voip/AudioTrackJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioTrackJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioTrackJNI;->running:Z
     invoke-static {v4}, Lorg/telegram/messenger/voip/AudioTrackJNI;->access$200(Lorg/telegram/messenger/voip/AudioTrackJNI;)Z
 
     move-result v4
@@ -107,7 +103,6 @@
     :try_start_1
     iget-object v4, p0, Lorg/telegram/messenger/voip/AudioTrackJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioTrackJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioTrackJNI;->needResampling:Z
     invoke-static {v4}, Lorg/telegram/messenger/voip/AudioTrackJNI;->access$100(Lorg/telegram/messenger/voip/AudioTrackJNI;)Z
 
     move-result v4
@@ -119,12 +114,10 @@
 
     iget-object v5, p0, Lorg/telegram/messenger/voip/AudioTrackJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioTrackJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioTrackJNI;->buffer:[B
     invoke-static {v5}, Lorg/telegram/messenger/voip/AudioTrackJNI;->access$300(Lorg/telegram/messenger/voip/AudioTrackJNI;)[B
 
     move-result-object v5
 
-    # invokes: Lorg/telegram/messenger/voip/AudioTrackJNI;->nativeCallback([B)V
     invoke-static {v4, v5}, Lorg/telegram/messenger/voip/AudioTrackJNI;->access$400(Lorg/telegram/messenger/voip/AudioTrackJNI;[B)V
 
     .line 105
@@ -133,7 +126,6 @@
     .line 106
     iget-object v4, p0, Lorg/telegram/messenger/voip/AudioTrackJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioTrackJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioTrackJNI;->buffer:[B
     invoke-static {v4}, Lorg/telegram/messenger/voip/AudioTrackJNI;->access$300(Lorg/telegram/messenger/voip/AudioTrackJNI;)[B
 
     move-result-object v4
@@ -149,7 +141,6 @@
     .line 109
     iget-object v4, p0, Lorg/telegram/messenger/voip/AudioTrackJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioTrackJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioTrackJNI;->buffer:[B
     invoke-static {v4}, Lorg/telegram/messenger/voip/AudioTrackJNI;->access$300(Lorg/telegram/messenger/voip/AudioTrackJNI;)[B
 
     move-result-object v4
@@ -163,14 +154,12 @@
     .line 110
     iget-object v4, p0, Lorg/telegram/messenger/voip/AudioTrackJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioTrackJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioTrackJNI;->audioTrack:Landroid/media/AudioTrack;
     invoke-static {v4}, Lorg/telegram/messenger/voip/AudioTrackJNI;->access$000(Lorg/telegram/messenger/voip/AudioTrackJNI;)Landroid/media/AudioTrack;
 
     move-result-object v4
 
     iget-object v5, p0, Lorg/telegram/messenger/voip/AudioTrackJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioTrackJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioTrackJNI;->buffer:[B
     invoke-static {v5}, Lorg/telegram/messenger/voip/AudioTrackJNI;->access$300(Lorg/telegram/messenger/voip/AudioTrackJNI;)[B
 
     move-result-object v5
@@ -185,7 +174,6 @@
     :goto_2
     iget-object v4, p0, Lorg/telegram/messenger/voip/AudioTrackJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioTrackJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioTrackJNI;->running:Z
     invoke-static {v4}, Lorg/telegram/messenger/voip/AudioTrackJNI;->access$200(Lorg/telegram/messenger/voip/AudioTrackJNI;)Z
 
     move-result v4
@@ -195,7 +183,6 @@
     .line 116
     iget-object v4, p0, Lorg/telegram/messenger/voip/AudioTrackJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioTrackJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioTrackJNI;->audioTrack:Landroid/media/AudioTrack;
     invoke-static {v4}, Lorg/telegram/messenger/voip/AudioTrackJNI;->access$000(Lorg/telegram/messenger/voip/AudioTrackJNI;)Landroid/media/AudioTrack;
 
     move-result-object v4
@@ -252,25 +239,21 @@
 
     iget-object v5, p0, Lorg/telegram/messenger/voip/AudioTrackJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioTrackJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioTrackJNI;->buffer:[B
     invoke-static {v5}, Lorg/telegram/messenger/voip/AudioTrackJNI;->access$300(Lorg/telegram/messenger/voip/AudioTrackJNI;)[B
 
     move-result-object v5
 
-    # invokes: Lorg/telegram/messenger/voip/AudioTrackJNI;->nativeCallback([B)V
     invoke-static {v4, v5}, Lorg/telegram/messenger/voip/AudioTrackJNI;->access$400(Lorg/telegram/messenger/voip/AudioTrackJNI;[B)V
 
     .line 113
     iget-object v4, p0, Lorg/telegram/messenger/voip/AudioTrackJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioTrackJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioTrackJNI;->audioTrack:Landroid/media/AudioTrack;
     invoke-static {v4}, Lorg/telegram/messenger/voip/AudioTrackJNI;->access$000(Lorg/telegram/messenger/voip/AudioTrackJNI;)Landroid/media/AudioTrack;
 
     move-result-object v4
 
     iget-object v5, p0, Lorg/telegram/messenger/voip/AudioTrackJNI$1;->this$0:Lorg/telegram/messenger/voip/AudioTrackJNI;
 
-    # getter for: Lorg/telegram/messenger/voip/AudioTrackJNI;->buffer:[B
     invoke-static {v5}, Lorg/telegram/messenger/voip/AudioTrackJNI;->access$300(Lorg/telegram/messenger/voip/AudioTrackJNI;)[B
 
     move-result-object v5

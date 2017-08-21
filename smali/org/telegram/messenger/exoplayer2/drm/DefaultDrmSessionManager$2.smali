@@ -46,7 +46,6 @@
     .local p0, "this":Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager$2;, "Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager.2;"
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager$2;->this$0:Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->eventListener:Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager$EventListener;
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->access$100(Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;)Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager$EventListener;
 
     move-result-object v0

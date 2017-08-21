@@ -50,7 +50,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/SendMessagesHelper$6;->this$0:Lorg/telegram/messenger/SendMessagesHelper;
 
-    # getter for: Lorg/telegram/messenger/SendMessagesHelper;->waitingForCallback:Ljava/util/HashMap;
     invoke-static {v0}, Lorg/telegram/messenger/SendMessagesHelper;->access$900(Lorg/telegram/messenger/SendMessagesHelper;)Ljava/util/HashMap;
 
     move-result-object v0

@@ -60,7 +60,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/ConvertGroupActivity$2;->this$0:Lorg/telegram/ui/ConvertGroupActivity;
 
-    # getter for: Lorg/telegram/ui/ConvertGroupActivity;->chat_id:I
     invoke-static {v2}, Lorg/telegram/ui/ConvertGroupActivity;->access$100(Lorg/telegram/ui/ConvertGroupActivity;)I
 
     move-result v2

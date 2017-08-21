@@ -57,7 +57,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView$1;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;->startTime:I
     invoke-static {v2}, Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;->access$6000(Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;)I
 
     move-result v2
@@ -70,7 +69,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView$1;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;->waitTime:I
     invoke-static {v2}, Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;->access$6100(Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;)I
 
     move-result v2

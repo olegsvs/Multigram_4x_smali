@@ -53,7 +53,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$4;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->avatarUpdater:Lorg/telegram/ui/Components/AvatarUpdater;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1000(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/ui/Components/AvatarUpdater;
 
     move-result-object v0
@@ -76,7 +75,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$4;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->avatarUpdater:Lorg/telegram/ui/Components/AvatarUpdater;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1000(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/ui/Components/AvatarUpdater;
 
     move-result-object v0
@@ -96,7 +94,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$4;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->avatar:Lorg/telegram/tgnet/TLRPC$FileLocation;
     invoke-static {v0, v1}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1702(Lorg/telegram/ui/ChannelEditInfoActivity;Lorg/telegram/tgnet/TLRPC$FileLocation;)Lorg/telegram/tgnet/TLRPC$FileLocation;
 
     .line 358
@@ -104,7 +101,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$4;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->uploadedAvatar:Lorg/telegram/tgnet/TLRPC$InputFile;
     invoke-static {v0, v1}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1602(Lorg/telegram/ui/ChannelEditInfoActivity;Lorg/telegram/tgnet/TLRPC$InputFile;)Lorg/telegram/tgnet/TLRPC$InputFile;
 
     .line 359
@@ -112,7 +108,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$4;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->avatarImage:Lorg/telegram/ui/Components/BackupImageView;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1900(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/ui/Components/BackupImageView;
 
     move-result-object v0
@@ -121,7 +116,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/ChannelEditInfoActivity$4;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->avatar:Lorg/telegram/tgnet/TLRPC$FileLocation;
     invoke-static {v1}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1700(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/tgnet/TLRPC$FileLocation;
 
     move-result-object v1
@@ -132,7 +126,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditInfoActivity$4;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->avatarDrawable:Lorg/telegram/ui/Components/AvatarDrawable;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1800(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/ui/Components/AvatarDrawable;
 
     move-result-object v3

@@ -47,7 +47,6 @@
     .line 357
     iget-object v0, p0, Lorg/telegram/ui/ThemePreviewActivity$9;->this$0:Lorg/telegram/ui/ThemePreviewActivity;
 
-    # setter for: Lorg/telegram/ui/ThemePreviewActivity;->previousPlusValue:Z
     invoke-static {v0, v2}, Lorg/telegram/ui/ThemePreviewActivity;->access$1802(Lorg/telegram/ui/ThemePreviewActivity;Z)Z
 
     .line 358
@@ -58,13 +57,11 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/ui/ThemePreviewActivity;->applied:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/ThemePreviewActivity;->access$1902(Lorg/telegram/ui/ThemePreviewActivity;Z)Z
 
     .line 360
     iget-object v0, p0, Lorg/telegram/ui/ThemePreviewActivity$9;->this$0:Lorg/telegram/ui/ThemePreviewActivity;
 
-    # getter for: Lorg/telegram/ui/ThemePreviewActivity;->parentLayout:Lorg/telegram/ui/ActionBar/ActionBarLayout;
     invoke-static {v0}, Lorg/telegram/ui/ThemePreviewActivity;->access$2000(Lorg/telegram/ui/ThemePreviewActivity;)Lorg/telegram/ui/ActionBar/ActionBarLayout;
 
     move-result-object v0
@@ -74,14 +71,12 @@
     .line 361
     iget-object v0, p0, Lorg/telegram/ui/ThemePreviewActivity$9;->this$0:Lorg/telegram/ui/ThemePreviewActivity;
 
-    # getter for: Lorg/telegram/ui/ThemePreviewActivity;->themeFile:Ljava/io/File;
     invoke-static {v0}, Lorg/telegram/ui/ThemePreviewActivity;->access$2100(Lorg/telegram/ui/ThemePreviewActivity;)Ljava/io/File;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/ThemePreviewActivity$9;->this$0:Lorg/telegram/ui/ThemePreviewActivity;
 
-    # getter for: Lorg/telegram/ui/ThemePreviewActivity;->applyingTheme:Lorg/telegram/ui/ActionBar/Theme$ThemeInfo;
     invoke-static {v1}, Lorg/telegram/ui/ThemePreviewActivity;->access$2200(Lorg/telegram/ui/ThemePreviewActivity;)Lorg/telegram/ui/ActionBar/Theme$ThemeInfo;
 
     move-result-object v1

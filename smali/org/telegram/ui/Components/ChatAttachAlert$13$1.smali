@@ -50,7 +50,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/ChatAttachAlert;->flashAnimationInProgress:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/ChatAttachAlert;->access$5902(Lorg/telegram/ui/Components/ChatAttachAlert;Z)Z
 
     .line 1023

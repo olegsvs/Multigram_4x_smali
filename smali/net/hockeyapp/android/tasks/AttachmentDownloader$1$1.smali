@@ -50,7 +50,6 @@
 
     iget-object v0, v0, Lnet/hockeyapp/android/tasks/AttachmentDownloader$1;->this$0:Lnet/hockeyapp/android/tasks/AttachmentDownloader;
 
-    # getter for: Lnet/hockeyapp/android/tasks/AttachmentDownloader;->queue:Ljava/util/Queue;
     invoke-static {v0}, Lnet/hockeyapp/android/tasks/AttachmentDownloader;->access$200(Lnet/hockeyapp/android/tasks/AttachmentDownloader;)Ljava/util/Queue;
 
     move-result-object v0
@@ -64,7 +63,6 @@
 
     iget-object v0, v0, Lnet/hockeyapp/android/tasks/AttachmentDownloader$1;->this$0:Lnet/hockeyapp/android/tasks/AttachmentDownloader;
 
-    # invokes: Lnet/hockeyapp/android/tasks/AttachmentDownloader;->downloadNext()V
     invoke-static {v0}, Lnet/hockeyapp/android/tasks/AttachmentDownloader;->access$300(Lnet/hockeyapp/android/tasks/AttachmentDownloader;)V
 
     .line 79

@@ -7873,7 +7873,6 @@
 
     const/4 v8, 0x1
 
-    # invokes: Lorg/telegram/ui/SecretMediaViewer$SecretDeleteTimer;->setDestroyTime(JJZ)V
     invoke-static/range {v3 .. v8}, Lorg/telegram/ui/SecretMediaViewer$SecretDeleteTimer;->access$2100(Lorg/telegram/ui/SecretMediaViewer$SecretDeleteTimer;JJZ)V
 
     .line 830
@@ -8173,7 +8172,6 @@
 
     const/4 v3, 0x0
 
-    # setter for: Lorg/telegram/ui/SecretMediaViewer$PhotoBackgroundDrawable;->frame:I
     invoke-static {v2, v3}, Lorg/telegram/ui/SecretMediaViewer$PhotoBackgroundDrawable;->access$2402(Lorg/telegram/ui/SecretMediaViewer$PhotoBackgroundDrawable;I)I
 
     .line 882
@@ -8189,7 +8187,6 @@
 
     invoke-direct {v3, v0, v1}, Lorg/telegram/ui/SecretMediaViewer$8;-><init>(Lorg/telegram/ui/SecretMediaViewer;Lorg/telegram/ui/PhotoViewer$PlaceProviderObject;)V
 
-    # setter for: Lorg/telegram/ui/SecretMediaViewer$PhotoBackgroundDrawable;->drawRunnable:Ljava/lang/Runnable;
     invoke-static {v2, v3}, Lorg/telegram/ui/SecretMediaViewer$PhotoBackgroundDrawable;->access$2502(Lorg/telegram/ui/SecretMediaViewer$PhotoBackgroundDrawable;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 889
@@ -8338,7 +8335,6 @@
 
     const/4 v8, 0x0
 
-    # invokes: Lorg/telegram/ui/SecretMediaViewer$SecretDeleteTimer;->setDestroyTime(JJZ)V
     invoke-static/range {v3 .. v8}, Lorg/telegram/ui/SecretMediaViewer$SecretDeleteTimer;->access$2100(Lorg/telegram/ui/SecretMediaViewer$SecretDeleteTimer;JJZ)V
 
     goto/16 :goto_7
@@ -8433,7 +8429,6 @@
 
     const/4 v8, 0x0
 
-    # invokes: Lorg/telegram/ui/SecretMediaViewer$SecretDeleteTimer;->setDestroyTime(JJZ)V
     invoke-static/range {v3 .. v8}, Lorg/telegram/ui/SecretMediaViewer$SecretDeleteTimer;->access$2100(Lorg/telegram/ui/SecretMediaViewer$SecretDeleteTimer;JJZ)V
 
     goto/16 :goto_7

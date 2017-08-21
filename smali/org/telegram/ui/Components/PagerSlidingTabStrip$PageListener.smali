@@ -61,7 +61,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/PagerSlidingTabStrip$PageListener;->this$0:Lorg/telegram/ui/Components/PagerSlidingTabStrip;
 
-    # getter for: Lorg/telegram/ui/Components/PagerSlidingTabStrip;->pager:Landroid/support/v4/view/ViewPager;
     invoke-static {v1}, Lorg/telegram/ui/Components/PagerSlidingTabStrip;->access$200(Lorg/telegram/ui/Components/PagerSlidingTabStrip;)Landroid/support/v4/view/ViewPager;
 
     move-result-object v1
@@ -72,7 +71,6 @@
 
     const/4 v2, 0x0
 
-    # invokes: Lorg/telegram/ui/Components/PagerSlidingTabStrip;->scrollToChild(II)V
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/Components/PagerSlidingTabStrip;->access$300(Lorg/telegram/ui/Components/PagerSlidingTabStrip;II)V
 
     .line 245
@@ -105,13 +103,11 @@
     .line 231
     iget-object v0, p0, Lorg/telegram/ui/Components/PagerSlidingTabStrip$PageListener;->this$0:Lorg/telegram/ui/Components/PagerSlidingTabStrip;
 
-    # setter for: Lorg/telegram/ui/Components/PagerSlidingTabStrip;->currentPosition:I
     invoke-static {v0, p1}, Lorg/telegram/ui/Components/PagerSlidingTabStrip;->access$102(Lorg/telegram/ui/Components/PagerSlidingTabStrip;I)I
 
     .line 232
     iget-object v0, p0, Lorg/telegram/ui/Components/PagerSlidingTabStrip$PageListener;->this$0:Lorg/telegram/ui/Components/PagerSlidingTabStrip;
 
-    # setter for: Lorg/telegram/ui/Components/PagerSlidingTabStrip;->currentPositionOffset:F
     invoke-static {v0, p2}, Lorg/telegram/ui/Components/PagerSlidingTabStrip;->access$402(Lorg/telegram/ui/Components/PagerSlidingTabStrip;F)F
 
     .line 233
@@ -119,7 +115,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/PagerSlidingTabStrip$PageListener;->this$0:Lorg/telegram/ui/Components/PagerSlidingTabStrip;
 
-    # getter for: Lorg/telegram/ui/Components/PagerSlidingTabStrip;->tabsContainer:Landroid/widget/LinearLayout;
     invoke-static {v1}, Lorg/telegram/ui/Components/PagerSlidingTabStrip;->access$500(Lorg/telegram/ui/Components/PagerSlidingTabStrip;)Landroid/widget/LinearLayout;
 
     move-result-object v1
@@ -138,7 +133,6 @@
 
     float-to-int v1, v1
 
-    # invokes: Lorg/telegram/ui/Components/PagerSlidingTabStrip;->scrollToChild(II)V
     invoke-static {v0, p1, v1}, Lorg/telegram/ui/Components/PagerSlidingTabStrip;->access$300(Lorg/telegram/ui/Components/PagerSlidingTabStrip;II)V
 
     .line 234
@@ -192,7 +186,6 @@
     :goto_0
     iget-object v1, p0, Lorg/telegram/ui/Components/PagerSlidingTabStrip$PageListener;->this$0:Lorg/telegram/ui/Components/PagerSlidingTabStrip;
 
-    # getter for: Lorg/telegram/ui/Components/PagerSlidingTabStrip;->tabsContainer:Landroid/widget/LinearLayout;
     invoke-static {v1}, Lorg/telegram/ui/Components/PagerSlidingTabStrip;->access$500(Lorg/telegram/ui/Components/PagerSlidingTabStrip;)Landroid/widget/LinearLayout;
 
     move-result-object v1
@@ -206,7 +199,6 @@
     .line 256
     iget-object v1, p0, Lorg/telegram/ui/Components/PagerSlidingTabStrip$PageListener;->this$0:Lorg/telegram/ui/Components/PagerSlidingTabStrip;
 
-    # getter for: Lorg/telegram/ui/Components/PagerSlidingTabStrip;->tabsContainer:Landroid/widget/LinearLayout;
     invoke-static {v1}, Lorg/telegram/ui/Components/PagerSlidingTabStrip;->access$500(Lorg/telegram/ui/Components/PagerSlidingTabStrip;)Landroid/widget/LinearLayout;
 
     move-result-object v1

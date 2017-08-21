@@ -131,7 +131,6 @@
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
 
-    # getter for: Lorg/telegram/messenger/NotificationBadge;->componentName:Landroid/content/ComponentName;
     invoke-static {}, Lorg/telegram/messenger/NotificationBadge;->access$000()Landroid/content/ComponentName;
 
     move-result-object v7
@@ -150,7 +149,6 @@
 
     move-result-object v6
 
-    # getter for: Lorg/telegram/messenger/NotificationBadge;->componentName:Landroid/content/ComponentName;
     invoke-static {}, Lorg/telegram/messenger/NotificationBadge;->access$000()Landroid/content/ComponentName;
 
     move-result-object v7
@@ -184,7 +182,6 @@
     invoke-virtual {v2, v6, v5}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 575
-    # invokes: Lorg/telegram/messenger/NotificationBadge;->canResolveBroadcast(Landroid/content/Intent;)Z
     invoke-static {v2}, Lorg/telegram/messenger/NotificationBadge;->access$100(Landroid/content/Intent;)Z
 
     move-result v5

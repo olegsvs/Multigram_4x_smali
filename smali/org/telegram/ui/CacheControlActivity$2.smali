@@ -63,7 +63,6 @@
 
     iget-object v12, v0, Lorg/telegram/ui/CacheControlActivity$2;->this$0:Lorg/telegram/ui/CacheControlActivity;
 
-    # getter for: Lorg/telegram/ui/CacheControlActivity;->clear:[Z
     invoke-static {v12}, Lorg/telegram/ui/CacheControlActivity;->access$1200(Lorg/telegram/ui/CacheControlActivity;)[Z
 
     move-result-object v12
@@ -336,12 +335,10 @@
 
     move-result-object v14
 
-    # invokes: Lorg/telegram/ui/CacheControlActivity;->getDirectorySize(Ljava/io/File;I)J
     invoke-static {v13, v14, v5}, Lorg/telegram/ui/CacheControlActivity;->access$100(Lorg/telegram/ui/CacheControlActivity;Ljava/io/File;I)J
 
     move-result-wide v14
 
-    # setter for: Lorg/telegram/ui/CacheControlActivity;->cacheSize:J
     invoke-static {v12, v14, v15}, Lorg/telegram/ui/CacheControlActivity;->access$002(Lorg/telegram/ui/CacheControlActivity;J)J
 
     .line 266
@@ -374,12 +371,10 @@
 
     move-result-object v14
 
-    # invokes: Lorg/telegram/ui/CacheControlActivity;->getDirectorySize(Ljava/io/File;I)J
     invoke-static {v13, v14, v5}, Lorg/telegram/ui/CacheControlActivity;->access$100(Lorg/telegram/ui/CacheControlActivity;Ljava/io/File;I)J
 
     move-result-wide v14
 
-    # setter for: Lorg/telegram/ui/CacheControlActivity;->audioSize:J
     invoke-static {v12, v14, v15}, Lorg/telegram/ui/CacheControlActivity;->access$802(Lorg/telegram/ui/CacheControlActivity;J)J
 
     goto/16 :goto_1
@@ -414,12 +409,10 @@
 
     move-result-object v14
 
-    # invokes: Lorg/telegram/ui/CacheControlActivity;->getDirectorySize(Ljava/io/File;I)J
     invoke-static {v13, v14, v5}, Lorg/telegram/ui/CacheControlActivity;->access$100(Lorg/telegram/ui/CacheControlActivity;Ljava/io/File;I)J
 
     move-result-wide v14
 
-    # setter for: Lorg/telegram/ui/CacheControlActivity;->documentsSize:J
     invoke-static {v12, v14, v15}, Lorg/telegram/ui/CacheControlActivity;->access$502(Lorg/telegram/ui/CacheControlActivity;J)J
 
     goto/16 :goto_1
@@ -444,12 +437,10 @@
 
     move-result-object v14
 
-    # invokes: Lorg/telegram/ui/CacheControlActivity;->getDirectorySize(Ljava/io/File;I)J
     invoke-static {v13, v14, v5}, Lorg/telegram/ui/CacheControlActivity;->access$100(Lorg/telegram/ui/CacheControlActivity;Ljava/io/File;I)J
 
     move-result-wide v14
 
-    # setter for: Lorg/telegram/ui/CacheControlActivity;->musicSize:J
     invoke-static {v12, v14, v15}, Lorg/telegram/ui/CacheControlActivity;->access$602(Lorg/telegram/ui/CacheControlActivity;J)J
 
     goto/16 :goto_1
@@ -480,12 +471,10 @@
 
     move-result-object v14
 
-    # invokes: Lorg/telegram/ui/CacheControlActivity;->getDirectorySize(Ljava/io/File;I)J
     invoke-static {v13, v14, v5}, Lorg/telegram/ui/CacheControlActivity;->access$100(Lorg/telegram/ui/CacheControlActivity;Ljava/io/File;I)J
 
     move-result-wide v14
 
-    # setter for: Lorg/telegram/ui/CacheControlActivity;->photoSize:J
     invoke-static {v12, v14, v15}, Lorg/telegram/ui/CacheControlActivity;->access$302(Lorg/telegram/ui/CacheControlActivity;J)J
 
     goto/16 :goto_1
@@ -515,12 +504,10 @@
 
     move-result-object v14
 
-    # invokes: Lorg/telegram/ui/CacheControlActivity;->getDirectorySize(Ljava/io/File;I)J
     invoke-static {v13, v14, v5}, Lorg/telegram/ui/CacheControlActivity;->access$100(Lorg/telegram/ui/CacheControlActivity;Ljava/io/File;I)J
 
     move-result-wide v14
 
-    # setter for: Lorg/telegram/ui/CacheControlActivity;->videoSize:J
     invoke-static {v12, v14, v15}, Lorg/telegram/ui/CacheControlActivity;->access$402(Lorg/telegram/ui/CacheControlActivity;J)J
 
     goto/16 :goto_1
@@ -550,12 +537,10 @@
 
     move-result-object v14
 
-    # invokes: Lorg/telegram/ui/CacheControlActivity;->getDirectorySize(Ljava/io/File;I)J
     invoke-static {v13, v14, v5}, Lorg/telegram/ui/CacheControlActivity;->access$100(Lorg/telegram/ui/CacheControlActivity;Ljava/io/File;I)J
 
     move-result-wide v14
 
-    # setter for: Lorg/telegram/ui/CacheControlActivity;->themesSize:J
     invoke-static {v12, v14, v15}, Lorg/telegram/ui/CacheControlActivity;->access$702(Lorg/telegram/ui/CacheControlActivity;J)J
 
     goto/16 :goto_1
@@ -577,7 +562,6 @@
 
     iget-object v13, v0, Lorg/telegram/ui/CacheControlActivity$2;->this$0:Lorg/telegram/ui/CacheControlActivity;
 
-    # getter for: Lorg/telegram/ui/CacheControlActivity;->cacheSize:J
     invoke-static {v13}, Lorg/telegram/ui/CacheControlActivity;->access$000(Lorg/telegram/ui/CacheControlActivity;)J
 
     move-result-wide v14
@@ -586,7 +570,6 @@
 
     iget-object v13, v0, Lorg/telegram/ui/CacheControlActivity$2;->this$0:Lorg/telegram/ui/CacheControlActivity;
 
-    # getter for: Lorg/telegram/ui/CacheControlActivity;->videoSize:J
     invoke-static {v13}, Lorg/telegram/ui/CacheControlActivity;->access$400(Lorg/telegram/ui/CacheControlActivity;)J
 
     move-result-wide v16
@@ -597,7 +580,6 @@
 
     iget-object v13, v0, Lorg/telegram/ui/CacheControlActivity$2;->this$0:Lorg/telegram/ui/CacheControlActivity;
 
-    # getter for: Lorg/telegram/ui/CacheControlActivity;->audioSize:J
     invoke-static {v13}, Lorg/telegram/ui/CacheControlActivity;->access$800(Lorg/telegram/ui/CacheControlActivity;)J
 
     move-result-wide v16
@@ -608,7 +590,6 @@
 
     iget-object v13, v0, Lorg/telegram/ui/CacheControlActivity$2;->this$0:Lorg/telegram/ui/CacheControlActivity;
 
-    # getter for: Lorg/telegram/ui/CacheControlActivity;->photoSize:J
     invoke-static {v13}, Lorg/telegram/ui/CacheControlActivity;->access$300(Lorg/telegram/ui/CacheControlActivity;)J
 
     move-result-wide v16
@@ -619,7 +600,6 @@
 
     iget-object v13, v0, Lorg/telegram/ui/CacheControlActivity$2;->this$0:Lorg/telegram/ui/CacheControlActivity;
 
-    # getter for: Lorg/telegram/ui/CacheControlActivity;->documentsSize:J
     invoke-static {v13}, Lorg/telegram/ui/CacheControlActivity;->access$500(Lorg/telegram/ui/CacheControlActivity;)J
 
     move-result-wide v16
@@ -630,7 +610,6 @@
 
     iget-object v13, v0, Lorg/telegram/ui/CacheControlActivity$2;->this$0:Lorg/telegram/ui/CacheControlActivity;
 
-    # getter for: Lorg/telegram/ui/CacheControlActivity;->musicSize:J
     invoke-static {v13}, Lorg/telegram/ui/CacheControlActivity;->access$600(Lorg/telegram/ui/CacheControlActivity;)J
 
     move-result-wide v16
@@ -641,14 +620,12 @@
 
     iget-object v13, v0, Lorg/telegram/ui/CacheControlActivity$2;->this$0:Lorg/telegram/ui/CacheControlActivity;
 
-    # getter for: Lorg/telegram/ui/CacheControlActivity;->themesSize:J
     invoke-static {v13}, Lorg/telegram/ui/CacheControlActivity;->access$700(Lorg/telegram/ui/CacheControlActivity;)J
 
     move-result-wide v16
 
     add-long v14, v14, v16
 
-    # setter for: Lorg/telegram/ui/CacheControlActivity;->totalSize:J
     invoke-static {v12, v14, v15}, Lorg/telegram/ui/CacheControlActivity;->access$902(Lorg/telegram/ui/CacheControlActivity;J)J
 
     .line 289

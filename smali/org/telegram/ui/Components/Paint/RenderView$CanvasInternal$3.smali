@@ -46,13 +46,11 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;->scheduledRunnable:Ljava/lang/Runnable;
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;->access$1802(Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 468
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal$3;->this$1:Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;->drawRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;->access$1700(Lorg/telegram/ui/Components/Paint/RenderView$CanvasInternal;)Ljava/lang/Runnable;
 
     move-result-object v0

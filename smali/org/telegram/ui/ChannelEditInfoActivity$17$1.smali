@@ -65,7 +65,6 @@
 
     check-cast v0, Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
 
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->invite:Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
     invoke-static {v1, v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2302(Lorg/telegram/ui/ChannelEditInfoActivity;Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;)Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
 
     .line 1059
@@ -74,7 +73,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$17;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->loadingInvite:Z
     invoke-static {v0, v3}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$3002(Lorg/telegram/ui/ChannelEditInfoActivity;Z)Z
 
     .line 1060
@@ -82,7 +80,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$17;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->privateContainer:Lorg/telegram/ui/Cells/TextBlockCell;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$3100(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/ui/Cells/TextBlockCell;
 
     move-result-object v0
@@ -94,7 +91,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$17;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->privateContainer:Lorg/telegram/ui/Cells/TextBlockCell;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$3100(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/ui/Cells/TextBlockCell;
 
     move-result-object v1
@@ -103,7 +99,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$17;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->invite:Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2300(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
 
     move-result-object v0
@@ -114,7 +109,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$17;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->invite:Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2300(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
 
     move-result-object v0

@@ -44,7 +44,6 @@
     .line 110
     iget-object v0, p0, Lorg/telegram/ui/Components/TypingDotsDrawable$1;->this$0:Lorg/telegram/ui/Components/TypingDotsDrawable;
 
-    # invokes: Lorg/telegram/ui/Components/TypingDotsDrawable;->checkUpdate()V
     invoke-static {v0}, Lorg/telegram/ui/Components/TypingDotsDrawable;->access$000(Lorg/telegram/ui/Components/TypingDotsDrawable;)V
 
     .line 111

@@ -45,7 +45,6 @@
     .line 97
     iget-object v0, p0, Lorg/telegram/ui/Cells/ManageChatUserCell$1;->this$0:Lorg/telegram/ui/Cells/ManageChatUserCell;
 
-    # getter for: Lorg/telegram/ui/Cells/ManageChatUserCell;->delegate:Lorg/telegram/ui/Cells/ManageChatUserCell$ManageChatUserCellDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Cells/ManageChatUserCell;->access$000(Lorg/telegram/ui/Cells/ManageChatUserCell;)Lorg/telegram/ui/Cells/ManageChatUserCell$ManageChatUserCellDelegate;
 
     move-result-object v0

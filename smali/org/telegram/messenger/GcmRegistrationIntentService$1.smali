@@ -53,7 +53,6 @@
 
     iget-object v1, p0, Lorg/telegram/messenger/GcmRegistrationIntentService$1;->val$token:Ljava/lang/String;
 
-    # invokes: Lorg/telegram/messenger/GcmRegistrationIntentService;->sendRegistrationToServer(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/GcmRegistrationIntentService;->access$000(Lorg/telegram/messenger/GcmRegistrationIntentService;Ljava/lang/String;)V
 
     .line 35

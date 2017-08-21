@@ -75,7 +75,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/VoIPActivity$16;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # invokes: Lorg/telegram/ui/VoIPActivity;->getFormattedDebugString()Ljava/lang/CharSequence;
     invoke-static {v1}, Lorg/telegram/ui/VoIPActivity;->access$2200(Lorg/telegram/ui/VoIPActivity;)Ljava/lang/CharSequence;
 
     move-result-object v1

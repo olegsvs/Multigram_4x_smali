@@ -392,7 +392,7 @@
     .locals 7
 
     .prologue
-	new-instance v4, Ljava/io/File;
+    new-instance v4, Ljava/io/File;
 
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -427,6 +427,7 @@
     invoke-direct {v4, v5}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
     invoke-virtual {v4}, Ljava/io/File;->mkdir()Z
+
     .line 114
     const/4 v0, 0x0
 
@@ -504,7 +505,7 @@
     .line 125
     .end local v2    # "info":Landroid/content/pm/ApplicationInfo;
     .end local v3    # "path":Ljava/io/File;
-	:goto_1
+    :goto_1
     return-object v3
 
     .line 208
@@ -609,7 +610,7 @@
     .local v14, "enablePushConnection":Z
     .local v15, "app":Lorg/telegram/messenger/ApplicationLoader;
     .local v16, "e":Ljava/lang/Exception;
-	.local v20, "userID":Landroid/content/SharedPreferences;
+    .local v20, "userID":Landroid/content/SharedPreferences;
     .local v21, "preferences":Landroid/content/SharedPreferences;
     :goto_0
     return-void
@@ -624,13 +625,13 @@
     .end local v14    # "enablePushConnection":Z
     .end local v15    # "app":Lorg/telegram/messenger/ApplicationLoader;
     .end local v16    # "e":Ljava/lang/Exception;
-	.end local v20    # "userID":Landroid/content/SharedPreferences;
+    .end local v20    # "userID":Landroid/content/SharedPreferences;
     .end local v21    # "preferences":Landroid/content/SharedPreferences;
     :cond_0
     const/4 v2, 0x1
 
     sput-boolean v2, Lorg/telegram/messenger/ApplicationLoader;->applicationInited:Z
-	
+
     sget-object v1, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
     const-string/jumbo v2, "userID"
@@ -681,6 +682,7 @@
     move-result-object v2
 
     invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     .line 138
     invoke-static {}, Lorg/telegram/messenger/ApplicationLoader;->convertConfig()V
 

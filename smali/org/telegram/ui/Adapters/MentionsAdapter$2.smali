@@ -47,7 +47,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Adapters/MentionsAdapter;->lastKnownLocation:Landroid/location/Location;
     invoke-static {v0, v1}, Lorg/telegram/ui/Adapters/MentionsAdapter;->access$102(Lorg/telegram/ui/Adapters/MentionsAdapter;Landroid/location/Location;)Landroid/location/Location;
 
     .line 119

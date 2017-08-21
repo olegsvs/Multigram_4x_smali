@@ -66,7 +66,6 @@
 
     move-result-object v3
 
-    # invokes: Lorg/telegram/messenger/MediaController;->openOpusFile(Ljava/lang/String;)I
     invoke-static {v0, v3}, Lorg/telegram/messenger/MediaController;->access$6000(Lorg/telegram/messenger/MediaController;Ljava/lang/String;)I
 
     move-result v0

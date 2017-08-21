@@ -755,7 +755,6 @@
     .line 226
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/messenger/Emoji$EmojiDrawable;->fullSize:Z
     invoke-static {v0, v1}, Lorg/telegram/messenger/Emoji$EmojiDrawable;->access$102(Lorg/telegram/messenger/Emoji$EmojiDrawable;Z)Z
 
     goto :goto_0

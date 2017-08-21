@@ -42,7 +42,6 @@
     .line 819
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$15;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->stickersView:Lorg/telegram/ui/Components/StickerMasksView;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$1500(Lorg/telegram/ui/Components/PhotoPaintView;)Lorg/telegram/ui/Components/StickerMasksView;
 
     move-result-object v0

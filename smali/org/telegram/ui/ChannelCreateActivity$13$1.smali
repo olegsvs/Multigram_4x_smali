@@ -52,7 +52,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelCreateActivity$13;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelCreateActivity;->loadingAdminedChannels:Z
     invoke-static {v3, v5}, Lorg/telegram/ui/ChannelCreateActivity;->access$2302(Lorg/telegram/ui/ChannelCreateActivity;Z)Z
 
     .line 769
@@ -86,7 +85,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelCreateActivity$13;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->adminedChannelCells:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/ChannelCreateActivity;->access$2400(Lorg/telegram/ui/ChannelCreateActivity;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -102,7 +100,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelCreateActivity$13;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->linearLayout:Landroid/widget/LinearLayout;
     invoke-static {v3}, Lorg/telegram/ui/ChannelCreateActivity;->access$2500(Lorg/telegram/ui/ChannelCreateActivity;)Landroid/widget/LinearLayout;
 
     move-result-object v4
@@ -111,7 +108,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelCreateActivity$13;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->adminedChannelCells:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/ChannelCreateActivity;->access$2400(Lorg/telegram/ui/ChannelCreateActivity;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -135,7 +131,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelCreateActivity$13;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->adminedChannelCells:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/ChannelCreateActivity;->access$2400(Lorg/telegram/ui/ChannelCreateActivity;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -207,7 +202,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelCreateActivity$13;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->adminedChannelCells:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/ChannelCreateActivity;->access$2400(Lorg/telegram/ui/ChannelCreateActivity;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -219,7 +213,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelCreateActivity$13;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->adminnedChannelsLayout:Landroid/widget/LinearLayout;
     invoke-static {v3}, Lorg/telegram/ui/ChannelCreateActivity;->access$2600(Lorg/telegram/ui/ChannelCreateActivity;)Landroid/widget/LinearLayout;
 
     move-result-object v3
@@ -252,7 +245,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelCreateActivity$13;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelCreateActivity;->updatePrivatePublic()V
     invoke-static {v3}, Lorg/telegram/ui/ChannelCreateActivity;->access$1800(Lorg/telegram/ui/ChannelCreateActivity;)V
 
     goto/16 :goto_0

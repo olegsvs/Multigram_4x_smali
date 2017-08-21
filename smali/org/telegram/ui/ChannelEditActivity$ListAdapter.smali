@@ -47,7 +47,6 @@
     .line 799
     iget-object v0, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->rowCount:I
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditActivity;->access$2300(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v0
@@ -65,7 +64,6 @@
     .line 804
     iget-object v1, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->managementRow:I
     invoke-static {v1}, Lorg/telegram/ui/ChannelEditActivity;->access$1200(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v1
@@ -74,7 +72,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->blockedUsersRow:I
     invoke-static {v1}, Lorg/telegram/ui/ChannelEditActivity;->access$1100(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v1
@@ -83,7 +80,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->infoRow:I
     invoke-static {v1}, Lorg/telegram/ui/ChannelEditActivity;->access$1400(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v1
@@ -92,7 +88,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->eventLogRow:I
     invoke-static {v1}, Lorg/telegram/ui/ChannelEditActivity;->access$1300(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v1
@@ -108,7 +103,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->membersStartRow:I
     invoke-static {v1}, Lorg/telegram/ui/ChannelEditActivity;->access$700(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v1
@@ -117,7 +111,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->membersEndRow:I
     invoke-static {v1}, Lorg/telegram/ui/ChannelEditActivity;->access$800(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v1
@@ -133,7 +126,6 @@
     :cond_2
     iget-object v1, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->membersSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/ChannelEditActivity;->access$2200(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v1
@@ -142,7 +134,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->membersSection2Row:I
     invoke-static {v1}, Lorg/telegram/ui/ChannelEditActivity;->access$2400(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v1
@@ -159,7 +150,6 @@
     :cond_4
     iget-object v1, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->loadMoreMembersRow:I
     invoke-static {v1}, Lorg/telegram/ui/ChannelEditActivity;->access$2500(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v1
@@ -255,7 +245,6 @@
     .line 758
     iget-object v4, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->managementRow:I
     invoke-static {v4}, Lorg/telegram/ui/ChannelEditActivity;->access$1200(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v4
@@ -273,7 +262,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v4}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v4
@@ -286,7 +274,6 @@
 
     iget-object v9, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v9}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v9
@@ -308,7 +295,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->blockedUsersRow:I
     invoke-static {v5}, Lorg/telegram/ui/ChannelEditActivity;->access$1100(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v5
@@ -347,7 +333,6 @@
     :cond_4
     iget-object v4, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->blockedUsersRow:I
     invoke-static {v4}, Lorg/telegram/ui/ChannelEditActivity;->access$1100(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v4
@@ -365,7 +350,6 @@
 
     iget-object v8, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v8}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v8
@@ -378,7 +362,6 @@
 
     iget-object v8, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v8}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v8
@@ -387,7 +370,6 @@
 
     iget-object v9, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v9}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v9
@@ -417,7 +399,6 @@
     :cond_6
     iget-object v4, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->eventLogRow:I
     invoke-static {v4}, Lorg/telegram/ui/ChannelEditActivity;->access$1300(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v4
@@ -443,7 +424,6 @@
     :cond_7
     iget-object v4, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->infoRow:I
     invoke-static {v4}, Lorg/telegram/ui/ChannelEditActivity;->access$1400(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v4
@@ -453,7 +433,6 @@
     .line 765
     iget-object v4, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->currentChat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v4}, Lorg/telegram/ui/ChannelEditActivity;->access$000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v4
@@ -506,7 +485,6 @@
     .line 772
     iget-object v4, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->sortedUsers:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/ui/ChannelEditActivity;->access$900(Lorg/telegram/ui/ChannelEditActivity;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -520,7 +498,6 @@
     .line 773
     iget-object v4, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v4}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v4
@@ -531,14 +508,12 @@
 
     iget-object v4, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->sortedUsers:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/ui/ChannelEditActivity;->access$900(Lorg/telegram/ui/ChannelEditActivity;)Ljava/util/ArrayList;
 
     move-result-object v4
 
     iget-object v7, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->membersStartRow:I
     invoke-static {v7}, Lorg/telegram/ui/ChannelEditActivity;->access$700(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v7
@@ -590,7 +565,6 @@
     :cond_9
     iget-object v4, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v4}, Lorg/telegram/ui/ChannelEditActivity;->access$1000(Lorg/telegram/ui/ChannelEditActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v4
@@ -601,7 +575,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->membersStartRow:I
     invoke-static {v6}, Lorg/telegram/ui/ChannelEditActivity;->access$700(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v6
@@ -623,7 +596,6 @@
     :pswitch_2
     iget-object v4, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->membersSectionRow:I
     invoke-static {v4}, Lorg/telegram/ui/ChannelEditActivity;->access$2200(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v4
@@ -632,7 +604,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/ChannelEditActivity$ListAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->membersStartRow:I
     invoke-static {v4}, Lorg/telegram/ui/ChannelEditActivity;->access$700(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v4

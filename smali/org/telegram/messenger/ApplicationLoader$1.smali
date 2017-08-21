@@ -44,7 +44,6 @@
     .line 295
     iget-object v1, p0, Lorg/telegram/messenger/ApplicationLoader$1;->this$0:Lorg/telegram/messenger/ApplicationLoader;
 
-    # invokes: Lorg/telegram/messenger/ApplicationLoader;->checkPlayServices()Z
     invoke-static {v1}, Lorg/telegram/messenger/ApplicationLoader;->access$000(Lorg/telegram/messenger/ApplicationLoader;)Z
 
     move-result v1

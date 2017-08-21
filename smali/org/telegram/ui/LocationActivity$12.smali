@@ -54,7 +54,6 @@
     .local p1, "places":Ljava/util/ArrayList;, "Ljava/util/ArrayList<Lorg/telegram/tgnet/TLRPC$TL_messageMediaVenue;>;"
     iget-object v0, p0, Lorg/telegram/ui/LocationActivity$12;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->wasResults:Z
     invoke-static {v0}, Lorg/telegram/ui/LocationActivity;->access$2100(Lorg/telegram/ui/LocationActivity;)Z
 
     move-result v0
@@ -72,7 +71,6 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/ui/LocationActivity;->wasResults:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/LocationActivity;->access$2102(Lorg/telegram/ui/LocationActivity;Z)Z
 
     .line 525

@@ -3402,7 +3402,6 @@
 
     .line 117
     .local v6, "startPosition":I
-    # getter for: Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;->majorVersion:I
     invoke-static {v5}, Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;->access$000(Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;)I
 
     move-result v9
@@ -3416,14 +3415,12 @@
     .line 118
     .local v1, "frameHeaderSize":I
     :goto_1
-    # getter for: Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;->framesSize:I
     invoke-static {v5}, Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;->access$100(Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;)I
 
     move-result v2
 
     .line 119
     .local v2, "framesSize":I
-    # getter for: Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;->isUnsynchronized:Z
     invoke-static {v5}, Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;->access$200(Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;)Z
 
     move-result v9
@@ -3431,7 +3428,6 @@
     if-eqz v9, :cond_1
 
     .line 120
-    # getter for: Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;->framesSize:I
     invoke-static {v5}, Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;->access$100(Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;)I
 
     move-result v9
@@ -3451,7 +3447,6 @@
 
     .line 125
     .local v7, "unsignedIntFrameSizeHack":Z
-    # getter for: Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;->majorVersion:I
     invoke-static {v5}, Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;->access$000(Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;)I
 
     move-result v9
@@ -3465,7 +3460,6 @@
     if-nez v9, :cond_2
 
     .line 126
-    # getter for: Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;->majorVersion:I
     invoke-static {v5}, Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;->access$000(Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;)I
 
     move-result v9
@@ -3493,7 +3487,6 @@
     if-lt v8, v1, :cond_5
 
     .line 135
-    # getter for: Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;->majorVersion:I
     invoke-static {v5}, Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;->access$000(Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;)I
 
     move-result v8
@@ -3540,7 +3533,6 @@
 
     move-result-object v10
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;->majorVersion:I
     invoke-static {v5}, Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;->access$000(Lorg/telegram/messenger/exoplayer2/metadata/id3/Id3Decoder$Id3Header;)I
 
     move-result v11

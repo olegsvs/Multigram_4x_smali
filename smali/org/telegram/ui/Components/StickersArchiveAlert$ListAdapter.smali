@@ -47,7 +47,6 @@
     .line 108
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersArchiveAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/StickersArchiveAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersArchiveAlert;->stickerSets:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersArchiveAlert;->access$200(Lorg/telegram/ui/Components/StickersArchiveAlert;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -83,7 +82,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/StickersArchiveAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/StickersArchiveAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersArchiveAlert;->stickerSets:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/Components/StickersArchiveAlert;->access$200(Lorg/telegram/ui/Components/StickersArchiveAlert;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -96,7 +94,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Components/StickersArchiveAlert$ListAdapter;->this$0:Lorg/telegram/ui/Components/StickersArchiveAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersArchiveAlert;->stickerSets:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/Components/StickersArchiveAlert;->access$200(Lorg/telegram/ui/Components/StickersArchiveAlert;)Ljava/util/ArrayList;
 
     move-result-object v2

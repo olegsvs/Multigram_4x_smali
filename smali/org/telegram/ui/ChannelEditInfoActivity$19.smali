@@ -45,7 +45,6 @@
     .line 1083
     iget-object v3, p0, Lorg/telegram/ui/ChannelEditInfoActivity$19;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->adminnedChannelsLayout:Landroid/widget/LinearLayout;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2700(Lorg/telegram/ui/ChannelEditInfoActivity;)Landroid/widget/LinearLayout;
 
     move-result-object v3
@@ -55,7 +54,6 @@
     .line 1084
     iget-object v3, p0, Lorg/telegram/ui/ChannelEditInfoActivity$19;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->adminnedChannelsLayout:Landroid/widget/LinearLayout;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2700(Lorg/telegram/ui/ChannelEditInfoActivity;)Landroid/widget/LinearLayout;
 
     move-result-object v3
@@ -75,7 +73,6 @@
     .line 1086
     iget-object v3, p0, Lorg/telegram/ui/ChannelEditInfoActivity$19;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->adminnedChannelsLayout:Landroid/widget/LinearLayout;
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2700(Lorg/telegram/ui/ChannelEditInfoActivity;)Landroid/widget/LinearLayout;
 
     move-result-object v3

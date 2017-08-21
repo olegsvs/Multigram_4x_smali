@@ -50,7 +50,6 @@
 
     const/4 v1, 0x0
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->switchToEditMode(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/PhotoViewer;->access$7400(Lorg/telegram/ui/PhotoViewer;I)V
 
     .line 3388

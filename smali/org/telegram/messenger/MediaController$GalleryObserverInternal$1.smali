@@ -55,7 +55,6 @@
     .line 532
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$GalleryObserverInternal$1;->this$1:Lorg/telegram/messenger/MediaController$GalleryObserverInternal;
 
-    # invokes: Lorg/telegram/messenger/MediaController$GalleryObserverInternal;->scheduleReloadRunnable()V
     invoke-static {v0}, Lorg/telegram/messenger/MediaController$GalleryObserverInternal;->access$1600(Lorg/telegram/messenger/MediaController$GalleryObserverInternal;)V
 
     .line 537
@@ -70,7 +69,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/messenger/MediaController;->refreshGalleryRunnable:Ljava/lang/Runnable;
     invoke-static {v0, v1}, Lorg/telegram/messenger/MediaController;->access$1502(Lorg/telegram/messenger/MediaController;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 536

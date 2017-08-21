@@ -50,7 +50,6 @@
     .line 244
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$2;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # setter for: Lorg/telegram/ui/IntroActivity;->dragging:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/IntroActivity;->access$602(Lorg/telegram/ui/IntroActivity;Z)Z
 
     .line 245
@@ -58,7 +57,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/IntroActivity$2;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # getter for: Lorg/telegram/ui/IntroActivity;->viewPager:Landroid/support/v4/view/ViewPager;
     invoke-static {v1}, Lorg/telegram/ui/IntroActivity;->access$000(Lorg/telegram/ui/IntroActivity;)Landroid/support/v4/view/ViewPager;
 
     move-result-object v1
@@ -69,7 +67,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/IntroActivity$2;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # getter for: Lorg/telegram/ui/IntroActivity;->viewPager:Landroid/support/v4/view/ViewPager;
     invoke-static {v2}, Lorg/telegram/ui/IntroActivity;->access$000(Lorg/telegram/ui/IntroActivity;)Landroid/support/v4/view/ViewPager;
 
     move-result-object v2
@@ -80,7 +77,6 @@
 
     mul-int/2addr v1, v2
 
-    # setter for: Lorg/telegram/ui/IntroActivity;->startDragX:I
     invoke-static {v0, v1}, Lorg/telegram/ui/IntroActivity;->access$702(Lorg/telegram/ui/IntroActivity;I)I
 
     .line 255
@@ -100,7 +96,6 @@
     :cond_2
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$2;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # getter for: Lorg/telegram/ui/IntroActivity;->dragging:Z
     invoke-static {v0}, Lorg/telegram/ui/IntroActivity;->access$600(Lorg/telegram/ui/IntroActivity;)Z
 
     move-result v0
@@ -110,7 +105,6 @@
     .line 248
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$2;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # setter for: Lorg/telegram/ui/IntroActivity;->justEndDragging:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/IntroActivity;->access$802(Lorg/telegram/ui/IntroActivity;Z)Z
 
     .line 249
@@ -118,21 +112,18 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/IntroActivity;->dragging:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/IntroActivity;->access$602(Lorg/telegram/ui/IntroActivity;Z)Z
 
     .line 251
     :cond_3
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$2;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # getter for: Lorg/telegram/ui/IntroActivity;->lastPage:I
     invoke-static {v0}, Lorg/telegram/ui/IntroActivity;->access$900(Lorg/telegram/ui/IntroActivity;)I
 
     move-result v0
 
     iget-object v1, p0, Lorg/telegram/ui/IntroActivity$2;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # getter for: Lorg/telegram/ui/IntroActivity;->viewPager:Landroid/support/v4/view/ViewPager;
     invoke-static {v1}, Lorg/telegram/ui/IntroActivity;->access$000(Lorg/telegram/ui/IntroActivity;)Landroid/support/v4/view/ViewPager;
 
     move-result-object v1
@@ -148,7 +139,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/IntroActivity$2;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # getter for: Lorg/telegram/ui/IntroActivity;->viewPager:Landroid/support/v4/view/ViewPager;
     invoke-static {v1}, Lorg/telegram/ui/IntroActivity;->access$000(Lorg/telegram/ui/IntroActivity;)Landroid/support/v4/view/ViewPager;
 
     move-result-object v1
@@ -157,7 +147,6 @@
 
     move-result v1
 
-    # setter for: Lorg/telegram/ui/IntroActivity;->lastPage:I
     invoke-static {v0, v1}, Lorg/telegram/ui/IntroActivity;->access$902(Lorg/telegram/ui/IntroActivity;I)I
 
     goto :goto_0
@@ -173,7 +162,6 @@
     .line 226
     iget-object v2, p0, Lorg/telegram/ui/IntroActivity$2;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # getter for: Lorg/telegram/ui/IntroActivity;->bottomPages:Lorg/telegram/ui/IntroActivity$BottomPagesView;
     invoke-static {v2}, Lorg/telegram/ui/IntroActivity;->access$400(Lorg/telegram/ui/IntroActivity;)Lorg/telegram/ui/IntroActivity$BottomPagesView;
 
     move-result-object v2
@@ -183,7 +171,6 @@
     .line 228
     iget-object v2, p0, Lorg/telegram/ui/IntroActivity$2;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # getter for: Lorg/telegram/ui/IntroActivity;->viewPager:Landroid/support/v4/view/ViewPager;
     invoke-static {v2}, Lorg/telegram/ui/IntroActivity;->access$000(Lorg/telegram/ui/IntroActivity;)Landroid/support/v4/view/ViewPager;
 
     move-result-object v2
@@ -218,7 +205,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/IntroActivity$2;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # getter for: Lorg/telegram/ui/IntroActivity;->currentViewPagerPage:I
     invoke-static {v3}, Lorg/telegram/ui/IntroActivity;->access$500(Lorg/telegram/ui/IntroActivity;)I
 
     move-result v3
@@ -246,7 +232,6 @@
     .line 238
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$2;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    # setter for: Lorg/telegram/ui/IntroActivity;->currentViewPagerPage:I
     invoke-static {v0, p1}, Lorg/telegram/ui/IntroActivity;->access$502(Lorg/telegram/ui/IntroActivity;I)I
 
     .line 239

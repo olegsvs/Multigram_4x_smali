@@ -54,7 +54,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/SetAdminsActivity$SearchAdapter$3;->val$users:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;->searchResult:Ljava/util/ArrayList;
     invoke-static {v0, v1}, Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;->access$1302(Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 575
@@ -62,7 +61,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/SetAdminsActivity$SearchAdapter$3;->val$names:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;->searchResultNames:Ljava/util/ArrayList;
     invoke-static {v0, v1}, Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;->access$2102(Lorg/telegram/ui/SetAdminsActivity$SearchAdapter;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 576

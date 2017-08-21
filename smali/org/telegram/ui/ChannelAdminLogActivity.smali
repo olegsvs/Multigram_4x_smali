@@ -4931,7 +4931,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ChannelAdminLogActivity;->chatAdapter:Lorg/telegram/ui/ChannelAdminLogActivity$ChatActivityAdapter;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity$ChatActivityAdapter;->messagesStartRow:I
     invoke-static {v2}, Lorg/telegram/ui/ChannelAdminLogActivity$ChatActivityAdapter;->access$5600(Lorg/telegram/ui/ChannelAdminLogActivity$ChatActivityAdapter;)I
 
     move-result v2

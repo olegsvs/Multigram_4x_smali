@@ -57,7 +57,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/VoIPActivity$13;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->ellAnimator:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$2000(Lorg/telegram/ui/VoIPActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v0

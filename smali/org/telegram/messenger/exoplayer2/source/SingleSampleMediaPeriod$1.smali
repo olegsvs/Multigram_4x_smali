@@ -48,14 +48,12 @@
     .line 182
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/source/SingleSampleMediaPeriod$1;->this$0:Lorg/telegram/messenger/exoplayer2/source/SingleSampleMediaPeriod;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/SingleSampleMediaPeriod;->eventListener:Lorg/telegram/messenger/exoplayer2/source/SingleSampleMediaSource$EventListener;
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/source/SingleSampleMediaPeriod;->access$400(Lorg/telegram/messenger/exoplayer2/source/SingleSampleMediaPeriod;)Lorg/telegram/messenger/exoplayer2/source/SingleSampleMediaSource$EventListener;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/messenger/exoplayer2/source/SingleSampleMediaPeriod$1;->this$0:Lorg/telegram/messenger/exoplayer2/source/SingleSampleMediaPeriod;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/SingleSampleMediaPeriod;->eventSourceId:I
     invoke-static {v1}, Lorg/telegram/messenger/exoplayer2/source/SingleSampleMediaPeriod;->access$300(Lorg/telegram/messenger/exoplayer2/source/SingleSampleMediaPeriod;)I
 
     move-result v1

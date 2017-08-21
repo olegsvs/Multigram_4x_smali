@@ -45,7 +45,6 @@
     .line 129
     iget-object v0, p0, Lorg/telegram/ui/Components/ColorSelectorDialog$3;->this$0:Lorg/telegram/ui/Components/ColorSelectorDialog;
 
-    # invokes: Lorg/telegram/ui/Components/ColorSelectorDialog;->colorChangedInternal(I)V
     invoke-static {v0, p1}, Lorg/telegram/ui/Components/ColorSelectorDialog;->access$300(Lorg/telegram/ui/Components/ColorSelectorDialog;I)V
 
     .line 130

@@ -51,7 +51,6 @@
     .line 535
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$13;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->textDimView:Landroid/widget/FrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$400(Lorg/telegram/ui/Components/PhotoPaintView;)Landroid/widget/FrameLayout;
 
     move-result-object v0
@@ -63,7 +62,6 @@
     .line 536
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$13;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->textDimView:Landroid/widget/FrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$400(Lorg/telegram/ui/Components/PhotoPaintView;)Landroid/widget/FrameLayout;
 
     move-result-object v0
@@ -77,7 +75,6 @@
     .line 537
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$13;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->textDimView:Landroid/widget/FrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$400(Lorg/telegram/ui/Components/PhotoPaintView;)Landroid/widget/FrameLayout;
 
     move-result-object v0
@@ -90,7 +87,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/PhotoPaintView$13;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView;->textDimView:Landroid/widget/FrameLayout;
     invoke-static {v1}, Lorg/telegram/ui/Components/PhotoPaintView;->access$400(Lorg/telegram/ui/Components/PhotoPaintView;)Landroid/widget/FrameLayout;
 
     move-result-object v1

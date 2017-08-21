@@ -78,7 +78,6 @@
 
     iget-object v2, v0, Lorg/telegram/tgnet/TLRPC$TL_account_privacyRules;->rules:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/messenger/ContactsController;->callPrivacyRules:Ljava/util/ArrayList;
     invoke-static {v1, v2}, Lorg/telegram/messenger/ContactsController;->access$2202(Lorg/telegram/messenger/ContactsController;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 1934
@@ -88,7 +87,6 @@
 
     const/4 v2, 0x2
 
-    # setter for: Lorg/telegram/messenger/ContactsController;->loadingCallsInfo:I
     invoke-static {v1, v2}, Lorg/telegram/messenger/ContactsController;->access$2302(Lorg/telegram/messenger/ContactsController;I)I
 
     .line 1938
@@ -113,7 +111,6 @@
 
     iget-object v1, v1, Lorg/telegram/messenger/ContactsController$22;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # setter for: Lorg/telegram/messenger/ContactsController;->loadingCallsInfo:I
     invoke-static {v1, v3}, Lorg/telegram/messenger/ContactsController;->access$2302(Lorg/telegram/messenger/ContactsController;I)I
 
     goto :goto_0

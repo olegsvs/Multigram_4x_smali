@@ -47,7 +47,6 @@
     .line 266
     iget-object v0, p0, Lorg/telegram/ui/ArchivedStickersActivity$ListAdapter;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/ArchivedStickersActivity;->rowCount:I
     invoke-static {v0}, Lorg/telegram/ui/ArchivedStickersActivity;->access$1100(Lorg/telegram/ui/ArchivedStickersActivity;)I
 
     move-result v0
@@ -65,7 +64,6 @@
     .line 320
     iget-object v1, p0, Lorg/telegram/ui/ArchivedStickersActivity$ListAdapter;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/ArchivedStickersActivity;->stickersStartRow:I
     invoke-static {v1}, Lorg/telegram/ui/ArchivedStickersActivity;->access$000(Lorg/telegram/ui/ArchivedStickersActivity;)I
 
     move-result v1
@@ -74,7 +72,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ArchivedStickersActivity$ListAdapter;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/ArchivedStickersActivity;->stickersEndRow:I
     invoke-static {v1}, Lorg/telegram/ui/ArchivedStickersActivity;->access$100(Lorg/telegram/ui/ArchivedStickersActivity;)I
 
     move-result v1
@@ -90,7 +87,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/ArchivedStickersActivity$ListAdapter;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/ArchivedStickersActivity;->stickersLoadingRow:I
     invoke-static {v1}, Lorg/telegram/ui/ArchivedStickersActivity;->access$600(Lorg/telegram/ui/ArchivedStickersActivity;)I
 
     move-result v1
@@ -106,7 +102,6 @@
     :cond_2
     iget-object v1, p0, Lorg/telegram/ui/ArchivedStickersActivity$ListAdapter;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/ArchivedStickersActivity;->stickersShadowRow:I
     invoke-static {v1}, Lorg/telegram/ui/ArchivedStickersActivity;->access$1200(Lorg/telegram/ui/ArchivedStickersActivity;)I
 
     move-result v1
@@ -171,7 +166,6 @@
     .line 274
     iget-object v2, p0, Lorg/telegram/ui/ArchivedStickersActivity$ListAdapter;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/ArchivedStickersActivity;->sets:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/ArchivedStickersActivity;->access$200(Lorg/telegram/ui/ArchivedStickersActivity;)Ljava/util/ArrayList;
 
     move-result-object v2
@@ -186,7 +180,6 @@
     .local v1, "stickerSet":Lorg/telegram/tgnet/TLRPC$StickerSetCovered;
     iget-object v2, p0, Lorg/telegram/ui/ArchivedStickersActivity$ListAdapter;->this$0:Lorg/telegram/ui/ArchivedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/ArchivedStickersActivity;->sets:Ljava/util/ArrayList;
     invoke-static {v2}, Lorg/telegram/ui/ArchivedStickersActivity;->access$200(Lorg/telegram/ui/ArchivedStickersActivity;)Ljava/util/ArrayList;
 
     move-result-object v2

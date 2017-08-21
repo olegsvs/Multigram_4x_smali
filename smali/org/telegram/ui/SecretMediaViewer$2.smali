@@ -59,7 +59,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/SecretMediaViewer$2;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->lastInsets:Ljava/lang/Object;
     invoke-static {v1}, Lorg/telegram/ui/SecretMediaViewer;->access$1300(Lorg/telegram/ui/SecretMediaViewer;)Ljava/lang/Object;
 
     move-result-object v1
@@ -69,7 +68,6 @@
     .line 616
     iget-object v1, p0, Lorg/telegram/ui/SecretMediaViewer$2;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->lastInsets:Ljava/lang/Object;
     invoke-static {v1}, Lorg/telegram/ui/SecretMediaViewer;->access$1300(Lorg/telegram/ui/SecretMediaViewer;)Ljava/lang/Object;
 
     move-result-object v1
@@ -86,7 +84,6 @@
     :cond_0
     iget-object v1, p0, Lorg/telegram/ui/SecretMediaViewer$2;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->containerView:Lorg/telegram/ui/SecretMediaViewer$FrameLayoutDrawer;
     invoke-static {v1}, Lorg/telegram/ui/SecretMediaViewer;->access$1200(Lorg/telegram/ui/SecretMediaViewer;)Lorg/telegram/ui/SecretMediaViewer$FrameLayoutDrawer;
 
     move-result-object v1
@@ -95,7 +92,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/SecretMediaViewer$2;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->containerView:Lorg/telegram/ui/SecretMediaViewer$FrameLayoutDrawer;
     invoke-static {v3}, Lorg/telegram/ui/SecretMediaViewer;->access$1200(Lorg/telegram/ui/SecretMediaViewer;)Lorg/telegram/ui/SecretMediaViewer$FrameLayoutDrawer;
 
     move-result-object v3
@@ -108,7 +104,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/SecretMediaViewer$2;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->containerView:Lorg/telegram/ui/SecretMediaViewer$FrameLayoutDrawer;
     invoke-static {v4}, Lorg/telegram/ui/SecretMediaViewer;->access$1200(Lorg/telegram/ui/SecretMediaViewer;)Lorg/telegram/ui/SecretMediaViewer$FrameLayoutDrawer;
 
     move-result-object v4
@@ -125,7 +120,6 @@
     .line 620
     iget-object v1, p0, Lorg/telegram/ui/SecretMediaViewer$2;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->imageMoveAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v1}, Lorg/telegram/ui/SecretMediaViewer;->access$1400(Lorg/telegram/ui/SecretMediaViewer;)Landroid/animation/AnimatorSet;
 
     move-result-object v1
@@ -137,19 +131,16 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    # setter for: Lorg/telegram/ui/SecretMediaViewer;->scale:F
     invoke-static {v1, v2}, Lorg/telegram/ui/SecretMediaViewer;->access$1502(Lorg/telegram/ui/SecretMediaViewer;F)F
 
     .line 622
     iget-object v1, p0, Lorg/telegram/ui/SecretMediaViewer$2;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # setter for: Lorg/telegram/ui/SecretMediaViewer;->translationX:F
     invoke-static {v1, v5}, Lorg/telegram/ui/SecretMediaViewer;->access$1602(Lorg/telegram/ui/SecretMediaViewer;F)F
 
     .line 623
     iget-object v1, p0, Lorg/telegram/ui/SecretMediaViewer$2;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # setter for: Lorg/telegram/ui/SecretMediaViewer;->translationY:F
     invoke-static {v1, v5}, Lorg/telegram/ui/SecretMediaViewer;->access$1702(Lorg/telegram/ui/SecretMediaViewer;F)F
 
     .line 625
@@ -158,12 +149,10 @@
 
     iget-object v2, p0, Lorg/telegram/ui/SecretMediaViewer$2;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->scale:F
     invoke-static {v2}, Lorg/telegram/ui/SecretMediaViewer;->access$1500(Lorg/telegram/ui/SecretMediaViewer;)F
 
     move-result v2
 
-    # invokes: Lorg/telegram/ui/SecretMediaViewer;->updateMinMax(F)V
     invoke-static {v1, v2}, Lorg/telegram/ui/SecretMediaViewer;->access$1800(Lorg/telegram/ui/SecretMediaViewer;F)V
 
     .line 627
@@ -200,7 +189,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/SecretMediaViewer$2;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->lastInsets:Ljava/lang/Object;
     invoke-static {v3}, Lorg/telegram/ui/SecretMediaViewer;->access$1300(Lorg/telegram/ui/SecretMediaViewer;)Ljava/lang/Object;
 
     move-result-object v3
@@ -210,7 +198,6 @@
     .line 590
     iget-object v3, p0, Lorg/telegram/ui/SecretMediaViewer$2;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->lastInsets:Ljava/lang/Object;
     invoke-static {v3}, Lorg/telegram/ui/SecretMediaViewer;->access$1300(Lorg/telegram/ui/SecretMediaViewer;)Ljava/lang/Object;
 
     move-result-object v1
@@ -269,7 +256,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/SecretMediaViewer$2;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->lastInsets:Ljava/lang/Object;
     invoke-static {v3}, Lorg/telegram/ui/SecretMediaViewer;->access$1300(Lorg/telegram/ui/SecretMediaViewer;)Ljava/lang/Object;
 
     move-result-object v3
@@ -279,7 +265,6 @@
     .line 606
     iget-object v3, p0, Lorg/telegram/ui/SecretMediaViewer$2;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->lastInsets:Ljava/lang/Object;
     invoke-static {v3}, Lorg/telegram/ui/SecretMediaViewer;->access$1300(Lorg/telegram/ui/SecretMediaViewer;)Ljava/lang/Object;
 
     move-result-object v3
@@ -296,7 +281,6 @@
     :cond_3
     iget-object v3, p0, Lorg/telegram/ui/SecretMediaViewer$2;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->containerView:Lorg/telegram/ui/SecretMediaViewer$FrameLayoutDrawer;
     invoke-static {v3}, Lorg/telegram/ui/SecretMediaViewer;->access$1200(Lorg/telegram/ui/SecretMediaViewer;)Lorg/telegram/ui/SecretMediaViewer$FrameLayoutDrawer;
 
     move-result-object v3

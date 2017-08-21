@@ -71,7 +71,6 @@
 
     invoke-direct {v7}, Ljava/util/ArrayList;-><init>()V
 
-    # invokes: Lorg/telegram/ui/LanguageSelectActivity;->updateSearchResults(Ljava/util/ArrayList;)V
     invoke-static {v6, v7}, Lorg/telegram/ui/LanguageSelectActivity;->access$1200(Lorg/telegram/ui/LanguageSelectActivity;Ljava/util/ArrayList;)V
 
     .line 299
@@ -98,7 +97,6 @@
     :goto_1
     iget-object v6, p0, Lorg/telegram/ui/LanguageSelectActivity$8;->this$0:Lorg/telegram/ui/LanguageSelectActivity;
 
-    # getter for: Lorg/telegram/ui/LanguageSelectActivity;->sortedLanguages:Ljava/util/ArrayList;
     invoke-static {v6}, Lorg/telegram/ui/LanguageSelectActivity;->access$700(Lorg/telegram/ui/LanguageSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v6
@@ -112,7 +110,6 @@
     .line 292
     iget-object v6, p0, Lorg/telegram/ui/LanguageSelectActivity$8;->this$0:Lorg/telegram/ui/LanguageSelectActivity;
 
-    # getter for: Lorg/telegram/ui/LanguageSelectActivity;->sortedLanguages:Ljava/util/ArrayList;
     invoke-static {v6}, Lorg/telegram/ui/LanguageSelectActivity;->access$700(Lorg/telegram/ui/LanguageSelectActivity;)Ljava/util/ArrayList;
 
     move-result-object v6
@@ -168,7 +165,6 @@
     :cond_3
     iget-object v6, p0, Lorg/telegram/ui/LanguageSelectActivity$8;->this$0:Lorg/telegram/ui/LanguageSelectActivity;
 
-    # invokes: Lorg/telegram/ui/LanguageSelectActivity;->updateSearchResults(Ljava/util/ArrayList;)V
     invoke-static {v6, v3}, Lorg/telegram/ui/LanguageSelectActivity;->access$1200(Lorg/telegram/ui/LanguageSelectActivity;Ljava/util/ArrayList;)V
 
     goto :goto_0

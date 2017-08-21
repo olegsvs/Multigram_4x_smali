@@ -51,7 +51,6 @@
 
     iget v1, p0, Lorg/telegram/ui/Components/SlidingTabView$1;->val$position:I
 
-    # invokes: Lorg/telegram/ui/Components/SlidingTabView;->didSelectTab(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/SlidingTabView;->access$000(Lorg/telegram/ui/Components/SlidingTabView;I)V
 
     .line 67

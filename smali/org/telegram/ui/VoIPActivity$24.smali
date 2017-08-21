@@ -46,13 +46,11 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/VoIPActivity;->textChangingAnim:Landroid/animation/Animator;
     invoke-static {v0, v1}, Lorg/telegram/ui/VoIPActivity;->access$3902(Lorg/telegram/ui/VoIPActivity;Landroid/animation/Animator;)Landroid/animation/Animator;
 
     .line 1290
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$24;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->stateText2:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$4000(Lorg/telegram/ui/VoIPActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -66,18 +64,15 @@
 
     iget-object v1, p0, Lorg/telegram/ui/VoIPActivity$24;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->stateText:Landroid/widget/TextView;
     invoke-static {v1}, Lorg/telegram/ui/VoIPActivity;->access$3400(Lorg/telegram/ui/VoIPActivity;)Landroid/widget/TextView;
 
     move-result-object v1
 
-    # setter for: Lorg/telegram/ui/VoIPActivity;->durationText:Landroid/widget/TextView;
     invoke-static {v0, v1}, Lorg/telegram/ui/VoIPActivity;->access$2402(Lorg/telegram/ui/VoIPActivity;Landroid/widget/TextView;)Landroid/widget/TextView;
 
     .line 1292
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$24;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->stateText:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$3400(Lorg/telegram/ui/VoIPActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -89,7 +84,6 @@
     .line 1293
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$24;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->stateText:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$3400(Lorg/telegram/ui/VoIPActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -99,7 +93,6 @@
     .line 1294
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$24;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->stateText:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$3400(Lorg/telegram/ui/VoIPActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -109,7 +102,6 @@
     .line 1295
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$24;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->stateText:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$3400(Lorg/telegram/ui/VoIPActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -119,14 +111,12 @@
     .line 1296
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$24;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->stateText:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$3400(Lorg/telegram/ui/VoIPActivity;)Landroid/widget/TextView;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/VoIPActivity$24;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->stateText2:Landroid/widget/TextView;
     invoke-static {v1}, Lorg/telegram/ui/VoIPActivity;->access$4000(Lorg/telegram/ui/VoIPActivity;)Landroid/widget/TextView;
 
     move-result-object v1

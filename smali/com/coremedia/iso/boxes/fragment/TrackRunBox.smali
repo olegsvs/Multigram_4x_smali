@@ -945,7 +945,6 @@
     if-ne v3, v4, :cond_4
 
     .line 187
-    # getter for: Lcom/coremedia/iso/boxes/fragment/TrackRunBox$Entry;->sampleDuration:J
     invoke-static {v0}, Lcom/coremedia/iso/boxes/fragment/TrackRunBox$Entry;->access$0(Lcom/coremedia/iso/boxes/fragment/TrackRunBox$Entry;)J
 
     move-result-wide v4
@@ -961,7 +960,6 @@
     if-ne v3, v4, :cond_5
 
     .line 190
-    # getter for: Lcom/coremedia/iso/boxes/fragment/TrackRunBox$Entry;->sampleSize:J
     invoke-static {v0}, Lcom/coremedia/iso/boxes/fragment/TrackRunBox$Entry;->access$1(Lcom/coremedia/iso/boxes/fragment/TrackRunBox$Entry;)J
 
     move-result-wide v4
@@ -977,7 +975,6 @@
     if-ne v3, v4, :cond_6
 
     .line 193
-    # getter for: Lcom/coremedia/iso/boxes/fragment/TrackRunBox$Entry;->sampleFlags:Lcom/coremedia/iso/boxes/fragment/SampleFlags;
     invoke-static {v0}, Lcom/coremedia/iso/boxes/fragment/TrackRunBox$Entry;->access$2(Lcom/coremedia/iso/boxes/fragment/TrackRunBox$Entry;)Lcom/coremedia/iso/boxes/fragment/SampleFlags;
 
     move-result-object v3
@@ -1000,7 +997,6 @@
     if-nez v3, :cond_7
 
     .line 197
-    # getter for: Lcom/coremedia/iso/boxes/fragment/TrackRunBox$Entry;->sampleCompositionTimeOffset:J
     invoke-static {v0}, Lcom/coremedia/iso/boxes/fragment/TrackRunBox$Entry;->access$3(Lcom/coremedia/iso/boxes/fragment/TrackRunBox$Entry;)J
 
     move-result-wide v4
@@ -1011,7 +1007,6 @@
 
     .line 199
     :cond_7
-    # getter for: Lcom/coremedia/iso/boxes/fragment/TrackRunBox$Entry;->sampleCompositionTimeOffset:J
     invoke-static {v0}, Lcom/coremedia/iso/boxes/fragment/TrackRunBox$Entry;->access$3(Lcom/coremedia/iso/boxes/fragment/TrackRunBox$Entry;)J
 
     move-result-wide v4

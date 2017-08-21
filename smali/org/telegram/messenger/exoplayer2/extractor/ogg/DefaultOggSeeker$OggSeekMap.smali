@@ -55,14 +55,12 @@
     .line 232
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker$OggSeekMap;->this$0:Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;->streamReader:Lorg/telegram/messenger/exoplayer2/extractor/ogg/StreamReader;
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;->access$200(Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;)Lorg/telegram/messenger/exoplayer2/extractor/ogg/StreamReader;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker$OggSeekMap;->this$0:Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;->totalGranules:J
     invoke-static {v1}, Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;->access$400(Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;)J
 
     move-result-wide v2
@@ -89,7 +87,6 @@
     .line 224
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker$OggSeekMap;->this$0:Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;->startPosition:J
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;->access$100(Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;)J
 
     move-result-wide v0
@@ -102,7 +99,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker$OggSeekMap;->this$0:Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;->streamReader:Lorg/telegram/messenger/exoplayer2/extractor/ogg/StreamReader;
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;->access$200(Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;)Lorg/telegram/messenger/exoplayer2/extractor/ogg/StreamReader;
 
     move-result-object v0
@@ -117,14 +113,12 @@
 
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker$OggSeekMap;->this$0:Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;->startPosition:J
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;->access$100(Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;)J
 
     move-result-wide v2
 
     const-wide/16 v6, 0x7530
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;->getEstimatedPosition(JJJ)J
     invoke-static/range {v1 .. v7}, Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;->access$300(Lorg/telegram/messenger/exoplayer2/extractor/ogg/DefaultOggSeeker;JJJ)J
 
     move-result-wide v0

@@ -49,7 +49,6 @@
     sput-boolean v0, Lorg/telegram/messenger/UserConfig;->draftsLoaded:Z
 
     .line 88
-    # setter for: Lorg/telegram/messenger/query/DraftQuery;->loadingDrafts:Z
     invoke-static {v1}, Lorg/telegram/messenger/query/DraftQuery;->access$002(Z)Z
 
     .line 89

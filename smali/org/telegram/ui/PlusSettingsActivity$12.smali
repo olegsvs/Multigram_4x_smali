@@ -44,7 +44,6 @@
     .line 1903
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$12;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->fragmentView:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$9000(Lorg/telegram/ui/PlusSettingsActivity;)Landroid/view/View;
 
     move-result-object v0
@@ -54,7 +53,6 @@
     .line 1904
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$12;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->fragmentView:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$9100(Lorg/telegram/ui/PlusSettingsActivity;)Landroid/view/View;
 
     move-result-object v0

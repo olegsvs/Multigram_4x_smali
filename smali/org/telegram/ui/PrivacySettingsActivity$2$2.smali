@@ -67,7 +67,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->clear:[Z
     invoke-static {v2}, Lorg/telegram/ui/PrivacySettingsActivity;->access$1200(Lorg/telegram/ui/PrivacySettingsActivity;)[Z
 
     move-result-object v4
@@ -76,7 +75,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->clear:[Z
     invoke-static {v2}, Lorg/telegram/ui/PrivacySettingsActivity;->access$1200(Lorg/telegram/ui/PrivacySettingsActivity;)[Z
 
     move-result-object v2
@@ -95,7 +93,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->clear:[Z
     invoke-static {v2}, Lorg/telegram/ui/PrivacySettingsActivity;->access$1200(Lorg/telegram/ui/PrivacySettingsActivity;)[Z
 
     move-result-object v2

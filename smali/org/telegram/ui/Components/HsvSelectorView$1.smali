@@ -50,12 +50,10 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/HsvSelectorView$1;->this$0:Lorg/telegram/ui/Components/HsvSelectorView;
 
-    # invokes: Lorg/telegram/ui/Components/HsvSelectorView;->getCurrentColor(Z)I
     invoke-static {v1, v2}, Lorg/telegram/ui/Components/HsvSelectorView;->access$000(Lorg/telegram/ui/Components/HsvSelectorView;Z)I
 
     move-result v1
 
-    # invokes: Lorg/telegram/ui/Components/HsvSelectorView;->internalSetColor(IZ)V
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/Components/HsvSelectorView;->access$100(Lorg/telegram/ui/Components/HsvSelectorView;IZ)V
 
     .line 70

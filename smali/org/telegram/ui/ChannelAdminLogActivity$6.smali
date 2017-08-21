@@ -86,7 +86,6 @@
     .line 655
     iget-object v7, p0, Lorg/telegram/ui/ChannelAdminLogActivity$6;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->chatListView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v7}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$800(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v7
@@ -102,7 +101,6 @@
     .line 657
     iget-object v7, p0, Lorg/telegram/ui/ChannelAdminLogActivity$6;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->chatListView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v7}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$800(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v7
@@ -157,7 +155,6 @@
     .line 666
     iget-object v7, p0, Lorg/telegram/ui/ChannelAdminLogActivity$6;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->chatListView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v7}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$800(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v7
@@ -174,7 +171,6 @@
     :cond_2
     iget-object v7, p0, Lorg/telegram/ui/ChannelAdminLogActivity$6;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->chatListView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v7}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$800(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v7
@@ -233,7 +229,6 @@
     .local v6, "y":I
     iget-object v7, p0, Lorg/telegram/ui/ChannelAdminLogActivity$6;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->chatListView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v7}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$800(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v7
@@ -244,7 +239,6 @@
 
     iget-object v8, p0, Lorg/telegram/ui/ChannelAdminLogActivity$6;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->chatListView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v8}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$800(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v8

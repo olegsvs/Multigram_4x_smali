@@ -46,7 +46,6 @@
 
     const/4 v1, 0x0
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/source/dash/DashMediaSource;->processManifest(Z)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/exoplayer2/source/dash/DashMediaSource;->access$200(Lorg/telegram/messenger/exoplayer2/source/dash/DashMediaSource;Z)V
 
     .line 245

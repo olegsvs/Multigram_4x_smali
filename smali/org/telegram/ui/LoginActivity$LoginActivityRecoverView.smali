@@ -691,7 +691,6 @@
     :cond_2
     iget-object v3, p0, Lorg/telegram/ui/LoginActivity$LoginActivityRecoverView;->this$0:Lorg/telegram/ui/LoginActivity;
 
-    # invokes: Lorg/telegram/ui/LoginActivity;->needShowProgress(I)V
     invoke-static {v3, v4}, Lorg/telegram/ui/LoginActivity;->access$2100(Lorg/telegram/ui/LoginActivity;I)V
 
     .line 2590

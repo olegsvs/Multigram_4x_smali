@@ -50,7 +50,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter$4;->val$documents:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->searchResult:Ljava/util/ArrayList;
     invoke-static {v0, v1}, Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;->access$5002(Lorg/telegram/ui/MediaActivity$MediaSearchAdapter;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 2108

@@ -50,7 +50,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/StickerMasksView$3;->this$0:Lorg/telegram/ui/Components/StickerMasksView;
 
-    # getter for: Lorg/telegram/ui/Components/StickerMasksView;->stickersGridView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v1}, Lorg/telegram/ui/Components/StickerMasksView;->access$000(Lorg/telegram/ui/Components/StickerMasksView;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v2
@@ -63,7 +62,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/StickerMasksView$3;->this$0:Lorg/telegram/ui/Components/StickerMasksView;
 
-    # getter for: Lorg/telegram/ui/Components/StickerMasksView;->stickersOnItemClickListener:Lorg/telegram/ui/Components/RecyclerListView$OnItemClickListener;
     invoke-static {v1}, Lorg/telegram/ui/Components/StickerMasksView;->access$400(Lorg/telegram/ui/Components/StickerMasksView;)Lorg/telegram/ui/Components/RecyclerListView$OnItemClickListener;
 
     move-result-object v4

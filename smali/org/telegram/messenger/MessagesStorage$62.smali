@@ -97,7 +97,6 @@
     :cond_1
     iget-object v8, p0, Lorg/telegram/messenger/MessagesStorage$62;->this$0:Lorg/telegram/messenger/MessagesStorage;
 
-    # getter for: Lorg/telegram/messenger/MessagesStorage;->database:Lorg/telegram/SQLite/SQLiteDatabase;
     invoke-static {v8}, Lorg/telegram/messenger/MessagesStorage;->access$000(Lorg/telegram/messenger/MessagesStorage;)Lorg/telegram/SQLite/SQLiteDatabase;
 
     move-result-object v8
@@ -227,7 +226,6 @@
 
     iget-object v9, p0, Lorg/telegram/messenger/MessagesStorage$62;->val$user:Lorg/telegram/tgnet/TLRPC$User;
 
-    # invokes: Lorg/telegram/messenger/MessagesStorage;->formatUserSearchName(Lorg/telegram/tgnet/TLRPC$User;)Ljava/lang/String;
     invoke-static {v8, v9}, Lorg/telegram/messenger/MessagesStorage;->access$1100(Lorg/telegram/messenger/MessagesStorage;Lorg/telegram/tgnet/TLRPC$User;)Ljava/lang/String;
 
     move-result-object v8
@@ -446,7 +444,6 @@
     .line 3789
     iget-object v7, p0, Lorg/telegram/messenger/MessagesStorage$62;->this$0:Lorg/telegram/messenger/MessagesStorage;
 
-    # getter for: Lorg/telegram/messenger/MessagesStorage;->database:Lorg/telegram/SQLite/SQLiteDatabase;
     invoke-static {v7}, Lorg/telegram/messenger/MessagesStorage;->access$000(Lorg/telegram/messenger/MessagesStorage;)Lorg/telegram/SQLite/SQLiteDatabase;
 
     move-result-object v7

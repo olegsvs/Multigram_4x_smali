@@ -60,7 +60,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$14;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelCreateActivity;->checkReqId:I
     invoke-static {v0, v5}, Lorg/telegram/ui/ChannelCreateActivity;->access$2702(Lorg/telegram/ui/ChannelCreateActivity;I)I
 
     .line 901
@@ -70,7 +69,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$14;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->lastCheckName:Ljava/lang/String;
     invoke-static {v0}, Lorg/telegram/ui/ChannelCreateActivity;->access$1200(Lorg/telegram/ui/ChannelCreateActivity;)Ljava/lang/String;
 
     move-result-object v0
@@ -83,7 +81,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$14;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->lastCheckName:Ljava/lang/String;
     invoke-static {v0}, Lorg/telegram/ui/ChannelCreateActivity;->access$1200(Lorg/telegram/ui/ChannelCreateActivity;)Ljava/lang/String;
 
     move-result-object v0
@@ -118,7 +115,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$14;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChannelCreateActivity;->access$1000(Lorg/telegram/ui/ChannelCreateActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -150,7 +146,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$14;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChannelCreateActivity;->access$1000(Lorg/telegram/ui/ChannelCreateActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -166,7 +161,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$14;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChannelCreateActivity;->access$1000(Lorg/telegram/ui/ChannelCreateActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -186,7 +180,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$14;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelCreateActivity;->lastNameAvailable:Z
     invoke-static {v0, v6}, Lorg/telegram/ui/ChannelCreateActivity;->access$902(Lorg/telegram/ui/ChannelCreateActivity;Z)Z
 
     .line 919
@@ -219,7 +212,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$14;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelCreateActivity;->canCreatePublic:Z
     invoke-static {v0, v5}, Lorg/telegram/ui/ChannelCreateActivity;->access$002(Lorg/telegram/ui/ChannelCreateActivity;Z)Z
 
     .line 910
@@ -229,7 +221,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$14;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelCreateActivity;->loadAdminedChannels()V
     invoke-static {v0}, Lorg/telegram/ui/ChannelCreateActivity;->access$2800(Lorg/telegram/ui/ChannelCreateActivity;)V
 
     .line 914
@@ -240,7 +231,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$14;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChannelCreateActivity;->access$1000(Lorg/telegram/ui/ChannelCreateActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -256,7 +246,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$14;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChannelCreateActivity;->access$1000(Lorg/telegram/ui/ChannelCreateActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -276,7 +265,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$14;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelCreateActivity;->lastNameAvailable:Z
     invoke-static {v0, v5}, Lorg/telegram/ui/ChannelCreateActivity;->access$902(Lorg/telegram/ui/ChannelCreateActivity;Z)Z
 
     goto :goto_0
@@ -289,7 +277,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelCreateActivity$14;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChannelCreateActivity;->access$1000(Lorg/telegram/ui/ChannelCreateActivity;)Landroid/widget/TextView;
 
     move-result-object v0

@@ -52,7 +52,6 @@
 
     move-object/from16 v26, v0
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->currentLoadingVideoRunnable:Ljava/lang/Runnable;
     invoke-static/range {v26 .. v26}, Lorg/telegram/ui/PhotoViewer;->access$12700(Lorg/telegram/ui/PhotoViewer;)Ljava/lang/Runnable;
 
     move-result-object v26
@@ -162,7 +161,6 @@
 
     move-object/from16 v26, v0
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->currentLoadingVideoRunnable:Ljava/lang/Runnable;
     invoke-static/range {v26 .. v26}, Lorg/telegram/ui/PhotoViewer;->access$12700(Lorg/telegram/ui/PhotoViewer;)Ljava/lang/Runnable;
 
     move-result-object v26
@@ -254,7 +252,6 @@
 
     move-object/from16 v26, v0
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->currentLoadingVideoRunnable:Ljava/lang/Runnable;
     invoke-static/range {v26 .. v26}, Lorg/telegram/ui/PhotoViewer;->access$12700(Lorg/telegram/ui/PhotoViewer;)Ljava/lang/Runnable;
 
     move-result-object v26
@@ -305,7 +302,6 @@
 
     div-float v27, v27, v28
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->videoDuration:F
     invoke-static/range {v26 .. v27}, Lorg/telegram/ui/PhotoViewer;->access$6802(Lorg/telegram/ui/PhotoViewer;F)F
 
     .line 6594
@@ -325,7 +321,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->videoDuration:F
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PhotoViewer;->access$6800(Lorg/telegram/ui/PhotoViewer;)F
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
@@ -360,7 +355,6 @@
 
     move-object/from16 v26, v0
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->currentLoadingVideoRunnable:Ljava/lang/Runnable;
     invoke-static/range {v26 .. v26}, Lorg/telegram/ui/PhotoViewer;->access$12700(Lorg/telegram/ui/PhotoViewer;)Ljava/lang/Runnable;
 
     move-result-object v26
@@ -428,12 +422,10 @@
 
     move/from16 v28, v0
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->bitrate:I
     invoke-static/range {v27 .. v28}, Lorg/telegram/ui/PhotoViewer;->access$12902(Lorg/telegram/ui/PhotoViewer;I)I
 
     move-result v27
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->originalBitrate:I
     invoke-static/range {v26 .. v27}, Lorg/telegram/ui/PhotoViewer;->access$12802(Lorg/telegram/ui/PhotoViewer;I)I
 
     .line 6605
@@ -443,7 +435,6 @@
 
     move-object/from16 v26, v0
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->bitrate:I
     invoke-static/range {v26 .. v26}, Lorg/telegram/ui/PhotoViewer;->access$12900(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v26
@@ -465,7 +456,6 @@
 
     const v27, 0xdbba0
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->bitrate:I
     invoke-static/range {v26 .. v27}, Lorg/telegram/ui/PhotoViewer;->access$12902(Lorg/telegram/ui/PhotoViewer;I)I
 
     .line 6608
@@ -482,7 +472,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->videoFramesSize:J
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PhotoViewer;->access$13000(Lorg/telegram/ui/PhotoViewer;)J
 
     move-result-wide v28
@@ -493,7 +482,6 @@
 
     move-wide/from16 v1, v28
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->videoFramesSize:J
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/PhotoViewer;->access$13002(Lorg/telegram/ui/PhotoViewer;J)J
 
     .line 6574
@@ -561,7 +549,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->audioFramesSize:J
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PhotoViewer;->access$13100(Lorg/telegram/ui/PhotoViewer;)J
 
     move-result-wide v28
@@ -572,7 +559,6 @@
 
     move-wide/from16 v1, v28
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->audioFramesSize:J
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/PhotoViewer;->access$13102(Lorg/telegram/ui/PhotoViewer;J)J
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_1
@@ -603,7 +589,6 @@
 
     move-object/from16 v26, v0
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->currentLoadingVideoRunnable:Ljava/lang/Runnable;
     invoke-static/range {v26 .. v26}, Lorg/telegram/ui/PhotoViewer;->access$12700(Lorg/telegram/ui/PhotoViewer;)Ljava/lang/Runnable;
 
     move-result-object v26
@@ -623,7 +608,6 @@
 
     const/16 v27, 0x0
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->currentLoadingVideoRunnable:Ljava/lang/Runnable;
     invoke-static/range {v26 .. v27}, Lorg/telegram/ui/PhotoViewer;->access$12702(Lorg/telegram/ui/PhotoViewer;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 6626

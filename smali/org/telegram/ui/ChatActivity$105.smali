@@ -50,7 +50,6 @@
     .line 9811
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$105;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->selectedObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$18500(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/messenger/MessageObject;
 
     move-result-object v0
@@ -88,7 +87,6 @@
 
     move-result v0
 
-    # invokes: Lorg/telegram/ui/ChatActivity;->processSelectedOption(I)V
     invoke-static {v1, v0}, Lorg/telegram/ui/ChatActivity;->access$18600(Lorg/telegram/ui/ChatActivity;I)V
 
     goto :goto_0

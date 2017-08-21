@@ -61,7 +61,6 @@
     :cond_1
     iget-object v8, p0, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->blockedRow:I
     invoke-static {v8}, Lorg/telegram/ui/PrivacySettingsActivity;->access$000(Lorg/telegram/ui/PrivacySettingsActivity;)I
 
     move-result v8
@@ -83,7 +82,6 @@
     :cond_2
     iget-object v8, p0, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->sessionsRow:I
     invoke-static {v8}, Lorg/telegram/ui/PrivacySettingsActivity;->access$100(Lorg/telegram/ui/PrivacySettingsActivity;)I
 
     move-result v8
@@ -105,7 +103,6 @@
     :cond_3
     iget-object v8, p0, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->deleteAccountRow:I
     invoke-static {v8}, Lorg/telegram/ui/PrivacySettingsActivity;->access$200(Lorg/telegram/ui/PrivacySettingsActivity;)I
 
     move-result v8
@@ -237,7 +234,6 @@
     :cond_4
     iget-object v8, p0, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->lastSeenRow:I
     invoke-static {v8}, Lorg/telegram/ui/PrivacySettingsActivity;->access$400(Lorg/telegram/ui/PrivacySettingsActivity;)I
 
     move-result v8
@@ -261,7 +257,6 @@
     :cond_5
     iget-object v8, p0, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->callsRow:I
     invoke-static {v8}, Lorg/telegram/ui/PrivacySettingsActivity;->access$500(Lorg/telegram/ui/PrivacySettingsActivity;)I
 
     move-result v8
@@ -285,7 +280,6 @@
     :cond_6
     iget-object v8, p0, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->groupsRow:I
     invoke-static {v8}, Lorg/telegram/ui/PrivacySettingsActivity;->access$600(Lorg/telegram/ui/PrivacySettingsActivity;)I
 
     move-result v8
@@ -309,7 +303,6 @@
     :cond_7
     iget-object v8, p0, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->passwordRow:I
     invoke-static {v8}, Lorg/telegram/ui/PrivacySettingsActivity;->access$700(Lorg/telegram/ui/PrivacySettingsActivity;)I
 
     move-result v8
@@ -333,7 +326,6 @@
     :cond_8
     iget-object v8, p0, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->passcodeRow:I
     invoke-static {v8}, Lorg/telegram/ui/PrivacySettingsActivity;->access$800(Lorg/telegram/ui/PrivacySettingsActivity;)I
 
     move-result v8
@@ -380,7 +372,6 @@
     :cond_a
     iget-object v8, p0, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->secretWebpageRow:I
     invoke-static {v8}, Lorg/telegram/ui/PrivacySettingsActivity;->access$900(Lorg/telegram/ui/PrivacySettingsActivity;)I
 
     move-result v8
@@ -488,7 +479,6 @@
     :cond_d
     iget-object v8, p0, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->callsP2PRow:I
     invoke-static {v8}, Lorg/telegram/ui/PrivacySettingsActivity;->access$1000(Lorg/telegram/ui/PrivacySettingsActivity;)I
 
     move-result v8
@@ -565,7 +555,6 @@
     :cond_f
     iget-object v8, p0, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->paymentsClearRow:I
     invoke-static {v8}, Lorg/telegram/ui/PrivacySettingsActivity;->access$1100(Lorg/telegram/ui/PrivacySettingsActivity;)I
 
     move-result v8
@@ -641,7 +630,6 @@
     :goto_5
     iget-object v8, p0, Lorg/telegram/ui/PrivacySettingsActivity$2;->this$0:Lorg/telegram/ui/PrivacySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PrivacySettingsActivity;->clear:[Z
     invoke-static {v8}, Lorg/telegram/ui/PrivacySettingsActivity;->access$1200(Lorg/telegram/ui/PrivacySettingsActivity;)[Z
 
     move-result-object v8

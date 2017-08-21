@@ -64,7 +64,6 @@
     .line 85
     iget-object v1, p0, Lorg/telegram/ui/ActionBar/DrawerLayoutContainer$1;->this$0:Lorg/telegram/ui/ActionBar/DrawerLayoutContainer;
 
-    # setter for: Lorg/telegram/ui/ActionBar/DrawerLayoutContainer;->lastInsets:Ljava/lang/Object;
     invoke-static {v1, p2}, Lorg/telegram/ui/ActionBar/DrawerLayoutContainer;->access$002(Lorg/telegram/ui/ActionBar/DrawerLayoutContainer;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 86

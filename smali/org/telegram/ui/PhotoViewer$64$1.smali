@@ -64,7 +64,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->parentActivity:Landroid/app/Activity;
     invoke-static {v5}, Lorg/telegram/ui/PhotoViewer;->access$1000(Lorg/telegram/ui/PhotoViewer;)Landroid/app/Activity;
 
     move-result-object v5
@@ -101,7 +100,6 @@
 
     const/16 v8, 0x5a
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->rotationValue:I
     invoke-static {v5, v8}, Lorg/telegram/ui/PhotoViewer;->access$13202(Lorg/telegram/ui/PhotoViewer;I)I
 
     .line 6642
@@ -122,12 +120,10 @@
 
     double-to-int v9, v10
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->originalWidth:I
     invoke-static {v8, v9}, Lorg/telegram/ui/PhotoViewer;->access$13402(Lorg/telegram/ui/PhotoViewer;I)I
 
     move-result v8
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->resultWidth:I
     invoke-static {v5, v8}, Lorg/telegram/ui/PhotoViewer;->access$13302(Lorg/telegram/ui/PhotoViewer;I)I
 
     .line 6643
@@ -147,12 +143,10 @@
 
     double-to-int v9, v10
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->originalHeight:I
     invoke-static {v8, v9}, Lorg/telegram/ui/PhotoViewer;->access$12302(Lorg/telegram/ui/PhotoViewer;I)I
 
     move-result v8
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->resultHeight:I
     invoke-static {v5, v8}, Lorg/telegram/ui/PhotoViewer;->access$13502(Lorg/telegram/ui/PhotoViewer;I)I
 
     .line 6645
@@ -164,7 +158,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->resultWidth:I
     invoke-static {v5}, Lorg/telegram/ui/PhotoViewer;->access$13300(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v5
@@ -173,7 +166,6 @@
 
     iget-object v8, v8, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->originalWidth:I
     invoke-static {v8}, Lorg/telegram/ui/PhotoViewer;->access$13400(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v8
@@ -184,7 +176,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->resultHeight:I
     invoke-static {v5}, Lorg/telegram/ui/PhotoViewer;->access$13500(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v5
@@ -193,7 +184,6 @@
 
     iget-object v8, v8, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->originalHeight:I
     invoke-static {v8}, Lorg/telegram/ui/PhotoViewer;->access$12300(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v8
@@ -210,7 +200,6 @@
 
     iget-object v8, v8, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->videoDuration:F
     invoke-static {v8}, Lorg/telegram/ui/PhotoViewer;->access$6800(Lorg/telegram/ui/PhotoViewer;)F
 
     move-result v8
@@ -219,7 +208,6 @@
 
     mul-float/2addr v8, v9
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->videoDuration:F
     invoke-static {v5, v8}, Lorg/telegram/ui/PhotoViewer;->access$6802(Lorg/telegram/ui/PhotoViewer;F)F
 
     .line 6651
@@ -243,7 +231,6 @@
 
     move-result v8
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->selectedCompression:I
     invoke-static {v5, v8}, Lorg/telegram/ui/PhotoViewer;->access$6302(Lorg/telegram/ui/PhotoViewer;I)I
 
     .line 6653
@@ -251,7 +238,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->originalWidth:I
     invoke-static {v5}, Lorg/telegram/ui/PhotoViewer;->access$13400(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v5
@@ -264,7 +250,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->originalHeight:I
     invoke-static {v5}, Lorg/telegram/ui/PhotoViewer;->access$12300(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v5
@@ -281,7 +266,6 @@
 
     const/4 v8, 0x5
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->compressionsCount:I
     invoke-static {v5, v8}, Lorg/telegram/ui/PhotoViewer;->access$12202(Lorg/telegram/ui/PhotoViewer;I)I
 
     .line 6664
@@ -290,7 +274,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->updateWidthHeightBitrateForCompression()V
     invoke-static {v5}, Lorg/telegram/ui/PhotoViewer;->access$13600(Lorg/telegram/ui/PhotoViewer;)V
 
     .line 6666
@@ -302,7 +285,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->compressionsCount:I
     invoke-static {v5}, Lorg/telegram/ui/PhotoViewer;->access$12200(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v5
@@ -312,7 +294,6 @@
     move v5, v6
 
     :goto_3
-    # invokes: Lorg/telegram/ui/PhotoViewer;->setCompressItemEnabled(ZZ)V
     invoke-static {v8, v5, v6}, Lorg/telegram/ui/PhotoViewer;->access$13700(Lorg/telegram/ui/PhotoViewer;ZZ)V
 
     .line 6667
@@ -326,7 +307,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->compressItem:Landroid/widget/ImageView;
     invoke-static {v5}, Lorg/telegram/ui/PhotoViewer;->access$13800(Lorg/telegram/ui/PhotoViewer;)Landroid/widget/ImageView;
 
     move-result-object v5
@@ -358,7 +338,6 @@
 
     const/4 v9, 0x1
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->setCompressItemEnabled(ZZ)V
     invoke-static {v5, v8, v9}, Lorg/telegram/ui/PhotoViewer;->access$13700(Lorg/telegram/ui/PhotoViewer;ZZ)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -371,7 +350,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->qualityChooseView:Lorg/telegram/ui/PhotoViewer$QualityChooseView;
     invoke-static {v5}, Lorg/telegram/ui/PhotoViewer;->access$12500(Lorg/telegram/ui/PhotoViewer;)Lorg/telegram/ui/PhotoViewer$QualityChooseView;
 
     move-result-object v5
@@ -383,7 +361,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->updateVideoInfo()V
     invoke-static {v5}, Lorg/telegram/ui/PhotoViewer;->access$6900(Lorg/telegram/ui/PhotoViewer;)V
 
     .line 6696
@@ -413,7 +390,6 @@
 
     const/16 v8, 0xb4
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->rotationValue:I
     invoke-static {v5, v8}, Lorg/telegram/ui/PhotoViewer;->access$13202(Lorg/telegram/ui/PhotoViewer;I)I
 
     goto/16 :goto_1
@@ -435,7 +411,6 @@
 
     const/16 v8, 0x10e
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->rotationValue:I
     invoke-static {v5, v8}, Lorg/telegram/ui/PhotoViewer;->access$13202(Lorg/telegram/ui/PhotoViewer;I)I
 
     goto/16 :goto_1
@@ -446,7 +421,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->rotationValue:I
     invoke-static {v5, v7}, Lorg/telegram/ui/PhotoViewer;->access$13202(Lorg/telegram/ui/PhotoViewer;I)I
 
     goto/16 :goto_1
@@ -458,7 +432,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->originalWidth:I
     invoke-static {v5}, Lorg/telegram/ui/PhotoViewer;->access$13400(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v5
@@ -469,7 +442,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->originalHeight:I
     invoke-static {v5}, Lorg/telegram/ui/PhotoViewer;->access$12300(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v5
@@ -484,7 +456,6 @@
 
     const/4 v8, 0x4
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->compressionsCount:I
     invoke-static {v5, v8}, Lorg/telegram/ui/PhotoViewer;->access$12202(Lorg/telegram/ui/PhotoViewer;I)I
 
     goto/16 :goto_2
@@ -495,7 +466,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->originalWidth:I
     invoke-static {v5}, Lorg/telegram/ui/PhotoViewer;->access$13400(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v5
@@ -506,7 +476,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->originalHeight:I
     invoke-static {v5}, Lorg/telegram/ui/PhotoViewer;->access$12300(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v5
@@ -521,7 +490,6 @@
 
     const/4 v8, 0x3
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->compressionsCount:I
     invoke-static {v5, v8}, Lorg/telegram/ui/PhotoViewer;->access$12202(Lorg/telegram/ui/PhotoViewer;I)I
 
     goto/16 :goto_2
@@ -532,7 +500,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->originalWidth:I
     invoke-static {v5}, Lorg/telegram/ui/PhotoViewer;->access$13400(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v5
@@ -543,7 +510,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # getter for: Lorg/telegram/ui/PhotoViewer;->originalHeight:I
     invoke-static {v5}, Lorg/telegram/ui/PhotoViewer;->access$12300(Lorg/telegram/ui/PhotoViewer;)I
 
     move-result v5
@@ -558,7 +524,6 @@
 
     const/4 v8, 0x2
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->compressionsCount:I
     invoke-static {v5, v8}, Lorg/telegram/ui/PhotoViewer;->access$12202(Lorg/telegram/ui/PhotoViewer;I)I
 
     goto/16 :goto_2
@@ -569,7 +534,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # setter for: Lorg/telegram/ui/PhotoViewer;->compressionsCount:I
     invoke-static {v5, v6}, Lorg/telegram/ui/PhotoViewer;->access$12202(Lorg/telegram/ui/PhotoViewer;I)I
 
     goto/16 :goto_2
@@ -662,7 +626,6 @@
 
     const/4 v9, 0x1
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->setCompressItemEnabled(ZZ)V
     invoke-static {v5, v8, v9}, Lorg/telegram/ui/PhotoViewer;->access$13700(Lorg/telegram/ui/PhotoViewer;ZZ)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
@@ -681,7 +644,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/PhotoViewer$64;->this$0:Lorg/telegram/ui/PhotoViewer;
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->setCompressItemEnabled(ZZ)V
     invoke-static {v5, v7, v6}, Lorg/telegram/ui/PhotoViewer;->access$13700(Lorg/telegram/ui/PhotoViewer;ZZ)V
 
     .line 6690
@@ -712,7 +674,6 @@
 
     const/4 v9, 0x1
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->setCompressItemEnabled(ZZ)V
     invoke-static {v5, v8, v9}, Lorg/telegram/ui/PhotoViewer;->access$13700(Lorg/telegram/ui/PhotoViewer;ZZ)V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0

@@ -49,7 +49,6 @@
     .line 271
     iget-object v8, p0, Lorg/telegram/ui/ProxySettingsActivity$4;->this$0:Lorg/telegram/ui/ProxySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ProxySettingsActivity;->ignoreOnTextChange:Z
     invoke-static {v8}, Lorg/telegram/ui/ProxySettingsActivity;->access$500(Lorg/telegram/ui/ProxySettingsActivity;)Z
 
     move-result v8
@@ -64,7 +63,6 @@
     :cond_0
     iget-object v8, p0, Lorg/telegram/ui/ProxySettingsActivity$4;->this$0:Lorg/telegram/ui/ProxySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ProxySettingsActivity;->inputFields:[Landroid/widget/EditText;
     invoke-static {v8}, Lorg/telegram/ui/ProxySettingsActivity;->access$000(Lorg/telegram/ui/ProxySettingsActivity;)[Landroid/widget/EditText;
 
     move-result-object v8
@@ -142,7 +140,6 @@
     :cond_2
     iget-object v8, p0, Lorg/telegram/ui/ProxySettingsActivity$4;->this$0:Lorg/telegram/ui/ProxySettingsActivity;
 
-    # setter for: Lorg/telegram/ui/ProxySettingsActivity;->ignoreOnTextChange:Z
     invoke-static {v8, v9}, Lorg/telegram/ui/ProxySettingsActivity;->access$502(Lorg/telegram/ui/ProxySettingsActivity;Z)Z
 
     .line 287
@@ -191,13 +188,11 @@
 
     const/4 v9, 0x0
 
-    # setter for: Lorg/telegram/ui/ProxySettingsActivity;->ignoreOnTextChange:Z
     invoke-static {v8, v9}, Lorg/telegram/ui/ProxySettingsActivity;->access$502(Lorg/telegram/ui/ProxySettingsActivity;Z)Z
 
     .line 302
     iget-object v8, p0, Lorg/telegram/ui/ProxySettingsActivity$4;->this$0:Lorg/telegram/ui/ProxySettingsActivity;
 
-    # invokes: Lorg/telegram/ui/ProxySettingsActivity;->checkShareButton()V
     invoke-static {v8}, Lorg/telegram/ui/ProxySettingsActivity;->access$400(Lorg/telegram/ui/ProxySettingsActivity;)V
 
     goto :goto_0

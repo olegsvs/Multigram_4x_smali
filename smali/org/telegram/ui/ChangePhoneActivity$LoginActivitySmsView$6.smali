@@ -49,7 +49,6 @@
     .local v0, "currentTime":D
     iget-object v4, p0, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView$6;->this$1:Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->lastCodeTime:D
     invoke-static {v4}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$2700(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)D
 
     move-result-wide v4
@@ -62,7 +61,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView$6;->this$1:Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;
 
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeTime:I
     invoke-static {v5}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$2800(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)I
 
     move-result v5
@@ -73,13 +71,11 @@
 
     double-to-int v5, v6
 
-    # setter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeTime:I
     invoke-static {v4, v5}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$2802(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;I)I
 
     .line 1168
     iget-object v4, p0, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView$6;->this$1:Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;
 
-    # setter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->lastCodeTime:D
     invoke-static {v4, v0, v1}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$2702(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;D)D
 
     .line 1169

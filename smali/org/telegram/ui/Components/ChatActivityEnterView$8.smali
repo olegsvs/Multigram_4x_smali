@@ -123,13 +123,11 @@
     move v1, v2
 
     :goto_0
-    # invokes: Lorg/telegram/ui/Components/ChatActivityEnterView;->showPopup(II)V
     invoke-static {v3, v1, v2}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$3900(Lorg/telegram/ui/Components/ChatActivityEnterView;II)V
 
     .line 812
     iget-object v1, p0, Lorg/telegram/ui/Components/ChatActivityEnterView$8;->this$0:Lorg/telegram/ui/Components/ChatActivityEnterView;
 
-    # invokes: Lorg/telegram/ui/Components/ChatActivityEnterView;->openKeyboardInternal()V
     invoke-static {v1}, Lorg/telegram/ui/Components/ChatActivityEnterView;->access$4000(Lorg/telegram/ui/Components/ChatActivityEnterView;)V
 
     .line 815

@@ -50,7 +50,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/ThemingActivity$3;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # setter for: Lorg/telegram/ui/ThemingActivity;->reseting:Z
     invoke-static {v5, v8}, Lorg/telegram/ui/ThemingActivity;->access$1002(Lorg/telegram/ui/ThemingActivity;Z)Z
 
     .line 358
@@ -182,7 +181,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/ThemingActivity$3;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->listAdapter:Lorg/telegram/ui/ThemingActivity$ListAdapter;
     invoke-static {v5}, Lorg/telegram/ui/ThemingActivity;->access$100(Lorg/telegram/ui/ThemingActivity;)Lorg/telegram/ui/ThemingActivity$ListAdapter;
 
     move-result-object v5
@@ -196,7 +194,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/ThemingActivity$3;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->listAdapter:Lorg/telegram/ui/ThemingActivity$ListAdapter;
     invoke-static {v5}, Lorg/telegram/ui/ThemingActivity;->access$100(Lorg/telegram/ui/ThemingActivity;)Lorg/telegram/ui/ThemingActivity$ListAdapter;
 
     move-result-object v5
@@ -215,7 +212,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/ThemingActivity$3;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # invokes: Lorg/telegram/ui/ThemingActivity;->updateTheme()V
     invoke-static {v5}, Lorg/telegram/ui/ThemingActivity;->access$1100(Lorg/telegram/ui/ThemingActivity;)V
 
     .line 381
@@ -226,7 +222,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/ThemingActivity$3;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # invokes: Lorg/telegram/ui/ThemingActivity;->fixLayout()V
     invoke-static {v5}, Lorg/telegram/ui/ThemingActivity;->access$1200(Lorg/telegram/ui/ThemingActivity;)V
 
     .line 382

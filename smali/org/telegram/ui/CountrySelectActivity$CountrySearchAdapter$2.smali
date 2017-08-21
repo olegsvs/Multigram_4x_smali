@@ -71,7 +71,6 @@
 
     invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
 
-    # invokes: Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;->updateSearchResults(Ljava/util/ArrayList;)V
     invoke-static {v5, v6}, Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;->access$1000(Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;Ljava/util/ArrayList;)V
 
     .line 415
@@ -100,7 +99,6 @@
     .local v2, "n":Ljava/lang/String;
     iget-object v5, p0, Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter$2;->this$1:Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;
 
-    # getter for: Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;->countries:Ljava/util/HashMap;
     invoke-static {v5}, Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;->access$1100(Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;)Ljava/util/HashMap;
 
     move-result-object v5
@@ -164,7 +162,6 @@
     :cond_2
     iget-object v5, p0, Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter$2;->this$1:Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;
 
-    # invokes: Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;->updateSearchResults(Ljava/util/ArrayList;)V
     invoke-static {v5, v4}, Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;->access$1000(Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;Ljava/util/ArrayList;)V
 
     goto :goto_0

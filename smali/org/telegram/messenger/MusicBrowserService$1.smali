@@ -145,7 +145,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->dialogs:Ljava/util/ArrayList;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/MusicBrowserService;->access$200(Lorg/telegram/messenger/MusicBrowserService;)Ljava/util/ArrayList;
 
     move-result-object v22
@@ -233,7 +232,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->dialogs:Ljava/util/ArrayList;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/MusicBrowserService;->access$200(Lorg/telegram/messenger/MusicBrowserService;)Ljava/util/ArrayList;
 
     move-result-object v22
@@ -253,7 +251,6 @@
 
     move-object/from16 v23, v0
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->dialogs:Ljava/util/ArrayList;
     invoke-static/range {v23 .. v23}, Lorg/telegram/messenger/MusicBrowserService;->access$200(Lorg/telegram/messenger/MusicBrowserService;)Ljava/util/ArrayList;
 
     move-result-object v23
@@ -409,7 +406,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->musicObjects:Ljava/util/HashMap;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/MusicBrowserService;->access$300(Lorg/telegram/messenger/MusicBrowserService;)Ljava/util/HashMap;
 
     move-result-object v22
@@ -432,7 +428,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->musicQueues:Ljava/util/HashMap;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/MusicBrowserService;->access$400(Lorg/telegram/messenger/MusicBrowserService;)Ljava/util/HashMap;
 
     move-result-object v22
@@ -465,7 +460,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->musicObjects:Ljava/util/HashMap;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/MusicBrowserService;->access$300(Lorg/telegram/messenger/MusicBrowserService;)Ljava/util/HashMap;
 
     move-result-object v22
@@ -494,7 +488,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->musicQueues:Ljava/util/HashMap;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/MusicBrowserService;->access$400(Lorg/telegram/messenger/MusicBrowserService;)Ljava/util/HashMap;
 
     move-result-object v22
@@ -705,7 +698,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->users:Ljava/util/HashMap;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/MusicBrowserService;->access$500(Lorg/telegram/messenger/MusicBrowserService;)Ljava/util/HashMap;
 
     move-result-object v22
@@ -797,7 +789,6 @@
 
     move-object/from16 v22, v0
 
-    # getter for: Lorg/telegram/messenger/MusicBrowserService;->chats:Ljava/util/HashMap;
     invoke-static/range {v22 .. v22}, Lorg/telegram/messenger/MusicBrowserService;->access$600(Lorg/telegram/messenger/MusicBrowserService;)Ljava/util/HashMap;
 
     move-result-object v22

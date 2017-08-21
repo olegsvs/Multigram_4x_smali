@@ -40,7 +40,6 @@
     iput-object v1, p0, Lorg/telegram/ui/ArticleViewer$BlockDividerCell;->rect:Landroid/graphics/RectF;
 
     .line 5481
-    # getter for: Lorg/telegram/ui/ArticleViewer;->dividerPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$12000()Landroid/graphics/Paint;
 
     move-result-object v1
@@ -52,11 +51,9 @@
 
     invoke-direct {v1}, Landroid/graphics/Paint;-><init>()V
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->dividerPaint:Landroid/graphics/Paint;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$12002(Landroid/graphics/Paint;)Landroid/graphics/Paint;
 
     .line 5483
-    # invokes: Lorg/telegram/ui/ArticleViewer;->getSelectedColor()I
     invoke-static {p1}, Lorg/telegram/ui/ArticleViewer;->access$8700(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v0
@@ -66,7 +63,6 @@
     if-nez v0, :cond_1
 
     .line 5485
-    # getter for: Lorg/telegram/ui/ArticleViewer;->dividerPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$12000()Landroid/graphics/Paint;
 
     move-result-object v1
@@ -89,7 +85,6 @@
     if-ne v0, v1, :cond_2
 
     .line 5487
-    # getter for: Lorg/telegram/ui/ArticleViewer;->dividerPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$12000()Landroid/graphics/Paint;
 
     move-result-object v1
@@ -107,7 +102,6 @@
     if-ne v0, v1, :cond_0
 
     .line 5489
-    # getter for: Lorg/telegram/ui/ArticleViewer;->dividerPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$12000()Landroid/graphics/Paint;
 
     move-result-object v1
@@ -178,7 +172,6 @@
 
     int-to-float v3, v3
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->dividerPaint:Landroid/graphics/Paint;
     invoke-static {}, Lorg/telegram/ui/ArticleViewer;->access$12000()Landroid/graphics/Paint;
 
     move-result-object v4

@@ -72,7 +72,6 @@
     .line 515
     iget-object v0, p0, Lorg/telegram/ui/Components/TabsView$TabsAdapter;->this$0:Lorg/telegram/ui/Components/TabsView;
 
-    # getter for: Lorg/telegram/ui/Components/TabsView;->tabsArray:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/Components/TabsView;->access$200(Lorg/telegram/ui/Components/TabsView;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -92,7 +91,6 @@
     .line 552
     iget-object v0, p0, Lorg/telegram/ui/Components/TabsView$TabsAdapter;->this$0:Lorg/telegram/ui/Components/TabsView;
 
-    # getter for: Lorg/telegram/ui/Components/TabsView;->tabsArray:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/Components/TabsView;->access$200(Lorg/telegram/ui/Components/TabsView;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -130,7 +128,6 @@
     .line 557
     iget-object v0, p0, Lorg/telegram/ui/Components/TabsView$TabsAdapter;->this$0:Lorg/telegram/ui/Components/TabsView;
 
-    # getter for: Lorg/telegram/ui/Components/TabsView;->tabsArray:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/Components/TabsView;->access$200(Lorg/telegram/ui/Components/TabsView;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -201,7 +198,6 @@
     .line 521
     iget-object v0, p0, Lorg/telegram/ui/Components/TabsView$TabsAdapter;->this$0:Lorg/telegram/ui/Components/TabsView;
 
-    # getter for: Lorg/telegram/ui/Components/TabsView;->pagerSlidingTabStrip:Lorg/telegram/ui/Components/PlusPagerSlidingTabStrip;
     invoke-static {v0}, Lorg/telegram/ui/Components/TabsView;->access$700(Lorg/telegram/ui/Components/TabsView;)Lorg/telegram/ui/Components/PlusPagerSlidingTabStrip;
 
     move-result-object v0
@@ -211,7 +207,6 @@
     .line 522
     iget-object v0, p0, Lorg/telegram/ui/Components/TabsView$TabsAdapter;->this$0:Lorg/telegram/ui/Components/TabsView;
 
-    # getter for: Lorg/telegram/ui/Components/TabsView;->pagerSlidingTabStrip:Lorg/telegram/ui/Components/PlusPagerSlidingTabStrip;
     invoke-static {v0}, Lorg/telegram/ui/Components/TabsView;->access$700(Lorg/telegram/ui/Components/TabsView;)Lorg/telegram/ui/Components/PlusPagerSlidingTabStrip;
 
     move-result-object v0

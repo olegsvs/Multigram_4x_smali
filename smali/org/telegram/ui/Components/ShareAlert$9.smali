@@ -44,7 +44,6 @@
     .line 423
     iget-object v0, p0, Lorg/telegram/ui/Components/ShareAlert$9;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # invokes: Lorg/telegram/ui/Components/ShareAlert;->updateLayout()V
     invoke-static {v0}, Lorg/telegram/ui/Components/ShareAlert;->access$1000(Lorg/telegram/ui/Components/ShareAlert;)V
 
     .line 424

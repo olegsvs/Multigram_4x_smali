@@ -47,7 +47,6 @@
 
     iget v1, p0, Lorg/telegram/tgnet/ConnectionsManager$7;->val$state:I
 
-    # setter for: Lorg/telegram/tgnet/ConnectionsManager;->connectionState:I
     invoke-static {v0, v1}, Lorg/telegram/tgnet/ConnectionsManager;->access$202(Lorg/telegram/tgnet/ConnectionsManager;I)I
 
     .line 366

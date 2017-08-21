@@ -58,7 +58,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/Adapters/SearchAdapterHelper$3;->this$0:Lorg/telegram/ui/Adapters/SearchAdapterHelper;
 
-    # getter for: Lorg/telegram/ui/Adapters/SearchAdapterHelper;->lastReqId:I
     invoke-static {v4}, Lorg/telegram/ui/Adapters/SearchAdapterHelper;->access$900(Lorg/telegram/ui/Adapters/SearchAdapterHelper;)I
 
     move-result v4
@@ -81,7 +80,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/Adapters/SearchAdapterHelper$3;->this$0:Lorg/telegram/ui/Adapters/SearchAdapterHelper;
 
-    # getter for: Lorg/telegram/ui/Adapters/SearchAdapterHelper;->globalSearch:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/Adapters/SearchAdapterHelper;->access$1000(Lorg/telegram/ui/Adapters/SearchAdapterHelper;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -113,7 +111,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/Adapters/SearchAdapterHelper$3;->this$0:Lorg/telegram/ui/Adapters/SearchAdapterHelper;
 
-    # getter for: Lorg/telegram/ui/Adapters/SearchAdapterHelper;->globalSearch:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/Adapters/SearchAdapterHelper;->access$1000(Lorg/telegram/ui/Adapters/SearchAdapterHelper;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -191,7 +188,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/Adapters/SearchAdapterHelper$3;->this$0:Lorg/telegram/ui/Adapters/SearchAdapterHelper;
 
-    # getter for: Lorg/telegram/ui/Adapters/SearchAdapterHelper;->globalSearch:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/Adapters/SearchAdapterHelper;->access$1000(Lorg/telegram/ui/Adapters/SearchAdapterHelper;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -221,7 +217,6 @@
 
     move-result-object v4
 
-    # setter for: Lorg/telegram/ui/Adapters/SearchAdapterHelper;->lastFoundUsername:Ljava/lang/String;
     invoke-static {v3, v4}, Lorg/telegram/ui/Adapters/SearchAdapterHelper;->access$1102(Lorg/telegram/ui/Adapters/SearchAdapterHelper;Ljava/lang/String;)Ljava/lang/String;
 
     .line 181
@@ -229,7 +224,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/Adapters/SearchAdapterHelper$3;->this$0:Lorg/telegram/ui/Adapters/SearchAdapterHelper;
 
-    # getter for: Lorg/telegram/ui/Adapters/SearchAdapterHelper;->delegate:Lorg/telegram/ui/Adapters/SearchAdapterHelper$SearchAdapterHelperDelegate;
     invoke-static {v3}, Lorg/telegram/ui/Adapters/SearchAdapterHelper;->access$300(Lorg/telegram/ui/Adapters/SearchAdapterHelper;)Lorg/telegram/ui/Adapters/SearchAdapterHelper$SearchAdapterHelperDelegate;
 
     move-result-object v3
@@ -246,7 +240,6 @@
 
     const/4 v4, 0x0
 
-    # setter for: Lorg/telegram/ui/Adapters/SearchAdapterHelper;->reqId:I
     invoke-static {v3, v4}, Lorg/telegram/ui/Adapters/SearchAdapterHelper;->access$1202(Lorg/telegram/ui/Adapters/SearchAdapterHelper;I)I
 
     .line 185

@@ -59,7 +59,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/voip/VoIPService$15;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # invokes: Lorg/telegram/messenger/voip/VoIPService;->callFailed()V
     invoke-static {v0}, Lorg/telegram/messenger/voip/VoIPService;->access$1100(Lorg/telegram/messenger/voip/VoIPService;)V
 
     .line 1068
@@ -78,7 +77,6 @@
 
     iget-object v0, v0, Lorg/telegram/tgnet/TLRPC$TL_phone_phoneCall;->phone_call:Lorg/telegram/tgnet/TLRPC$PhoneCall;
 
-    # setter for: Lorg/telegram/messenger/voip/VoIPService;->call:Lorg/telegram/tgnet/TLRPC$PhoneCall;
     invoke-static {v1, v0}, Lorg/telegram/messenger/voip/VoIPService;->access$1402(Lorg/telegram/messenger/voip/VoIPService;Lorg/telegram/tgnet/TLRPC$PhoneCall;)Lorg/telegram/tgnet/TLRPC$PhoneCall;
 
     .line 1066
@@ -86,7 +84,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/voip/VoIPService$15;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # invokes: Lorg/telegram/messenger/voip/VoIPService;->initiateActualEncryptedCall()V
     invoke-static {v0}, Lorg/telegram/messenger/voip/VoIPService;->access$2600(Lorg/telegram/messenger/voip/VoIPService;)V
 
     goto :goto_0

@@ -56,7 +56,6 @@
     .line 3145
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$22;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # invokes: Lorg/telegram/messenger/MediaController;->stopRecord()V
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$6800(Lorg/telegram/messenger/MediaController;)V
 
     .line 3146

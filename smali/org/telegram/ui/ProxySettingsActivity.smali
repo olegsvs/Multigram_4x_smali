@@ -1276,6 +1276,8 @@
 
     return-object v0
 
+    nop
+
     .line 313
     :pswitch_data_0
     .packed-switch 0x0
@@ -1458,8 +1460,6 @@
     goto :goto_2
 
     .line 420
-    nop
-
     :pswitch_data_0
     .packed-switch 0x0
         :pswitch_0

@@ -50,7 +50,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter$3;->val$arrCounties:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;->searchResult:Ljava/util/ArrayList;
     invoke-static {v0, v1}, Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;->access$1202(Lorg/telegram/ui/CountrySelectActivity$CountrySearchAdapter;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 424

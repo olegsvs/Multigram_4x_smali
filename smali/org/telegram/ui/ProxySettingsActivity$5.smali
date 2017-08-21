@@ -68,7 +68,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProxySettingsActivity$5;->this$0:Lorg/telegram/ui/ProxySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ProxySettingsActivity;->inputFields:[Landroid/widget/EditText;
     invoke-static {v3}, Lorg/telegram/ui/ProxySettingsActivity;->access$000(Lorg/telegram/ui/ProxySettingsActivity;)[Landroid/widget/EditText;
 
     move-result-object v3
@@ -83,7 +82,6 @@
     .line 346
     iget-object v1, p0, Lorg/telegram/ui/ProxySettingsActivity$5;->this$0:Lorg/telegram/ui/ProxySettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ProxySettingsActivity;->inputFields:[Landroid/widget/EditText;
     invoke-static {v1}, Lorg/telegram/ui/ProxySettingsActivity;->access$000(Lorg/telegram/ui/ProxySettingsActivity;)[Landroid/widget/EditText;
 
     move-result-object v1

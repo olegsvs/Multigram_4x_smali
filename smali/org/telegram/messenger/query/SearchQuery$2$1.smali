@@ -84,11 +84,9 @@
     invoke-virtual {v0, v1, v2}, Lorg/telegram/messenger/MessagesController;->putChats(Ljava/util/ArrayList;Z)V
 
     .line 299
-    # setter for: Lorg/telegram/messenger/query/SearchQuery;->loading:Z
     invoke-static {v6}, Lorg/telegram/messenger/query/SearchQuery;->access$202(Z)Z
 
     .line 300
-    # setter for: Lorg/telegram/messenger/query/SearchQuery;->loaded:Z
     invoke-static {v2}, Lorg/telegram/messenger/query/SearchQuery;->access$302(Z)Z
 
     .line 301
@@ -104,7 +102,6 @@
     .line 303
     iget-object v0, p0, Lorg/telegram/messenger/query/SearchQuery$2$1;->val$inlineDatesNew:Ljava/util/HashMap;
 
-    # setter for: Lorg/telegram/messenger/query/SearchQuery;->inlineDates:Ljava/util/HashMap;
     invoke-static {v0}, Lorg/telegram/messenger/query/SearchQuery;->access$402(Ljava/util/HashMap;)Ljava/util/HashMap;
 
     .line 304

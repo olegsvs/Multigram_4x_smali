@@ -54,7 +54,6 @@
     :pswitch_0
     iget-object v0, p0, Lnet/hockeyapp/android/PaintActivity$1;->this$0:Lnet/hockeyapp/android/PaintActivity;
 
-    # invokes: Lnet/hockeyapp/android/PaintActivity;->makeResult()V
     invoke-static {v0}, Lnet/hockeyapp/android/PaintActivity;->access$000(Lnet/hockeyapp/android/PaintActivity;)V
 
     goto :goto_0

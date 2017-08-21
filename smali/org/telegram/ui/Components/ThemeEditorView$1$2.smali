@@ -49,7 +49,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/ThemeEditorView;->editorAlert:Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/ThemeEditorView;->access$2502(Lorg/telegram/ui/Components/ThemeEditorView;Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;)Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;
 
     .line 973
@@ -57,7 +56,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/Components/ThemeEditorView$1;->this$0:Lorg/telegram/ui/Components/ThemeEditorView;
 
-    # invokes: Lorg/telegram/ui/Components/ThemeEditorView;->show()V
     invoke-static {v0}, Lorg/telegram/ui/Components/ThemeEditorView;->access$2600(Lorg/telegram/ui/Components/ThemeEditorView;)V
 
     .line 974

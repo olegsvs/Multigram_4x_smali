@@ -57,7 +57,6 @@
     .local v1, "num":I
     iget-object v2, p0, Lorg/telegram/ui/ArticleViewer$17;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->selectedFont:I
     invoke-static {v2, v1}, Lorg/telegram/ui/ArticleViewer;->access$6202(Lorg/telegram/ui/ArticleViewer;I)I
 
     .line 2282
@@ -72,7 +71,6 @@
     .line 2283
     iget-object v2, p0, Lorg/telegram/ui/ArticleViewer$17;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->fontCells:[Lorg/telegram/ui/ArticleViewer$FontCell;
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$6300(Lorg/telegram/ui/ArticleViewer;)[Lorg/telegram/ui/ArticleViewer$FontCell;
 
     move-result-object v2
@@ -101,13 +99,11 @@
     :cond_1
     iget-object v2, p0, Lorg/telegram/ui/ArticleViewer$17;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->updatePaintFonts()V
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$6400(Lorg/telegram/ui/ArticleViewer;)V
 
     .line 2286
     iget-object v2, p0, Lorg/telegram/ui/ArticleViewer$17;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->adapter:Lorg/telegram/ui/ArticleViewer$WebpageAdapter;
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$5800(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/ArticleViewer$WebpageAdapter;
 
     move-result-object v2

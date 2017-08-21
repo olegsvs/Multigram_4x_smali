@@ -46,7 +46,6 @@
     .line 706
     iget-object v0, p0, Lorg/telegram/ui/ChannelUsersActivity$8;->this$0:Lorg/telegram/ui/ChannelUsersActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelUsersActivity;->firstEndReached:Z
     invoke-static {v0, v2}, Lorg/telegram/ui/ChannelUsersActivity;->access$1802(Lorg/telegram/ui/ChannelUsersActivity;Z)Z
 
     .line 707
@@ -54,7 +53,6 @@
 
     const/16 v1, 0xc8
 
-    # invokes: Lorg/telegram/ui/ChannelUsersActivity;->getChannelParticipants(II)V
     invoke-static {v0, v2, v1}, Lorg/telegram/ui/ChannelUsersActivity;->access$1900(Lorg/telegram/ui/ChannelUsersActivity;II)V
 
     .line 708

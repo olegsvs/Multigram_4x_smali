@@ -265,7 +265,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Adapters/DialogsSearchAdapter$CategoryAdapterRecycler;->this$0:Lorg/telegram/ui/Adapters/DialogsSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->mContext:Landroid/content/Context;
     invoke-static {v1}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$000(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;)Landroid/content/Context;
 
     move-result-object v1

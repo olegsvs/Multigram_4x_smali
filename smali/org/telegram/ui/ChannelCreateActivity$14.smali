@@ -59,7 +59,6 @@
     .line 893
     iget-object v1, p0, Lorg/telegram/ui/ChannelCreateActivity$14;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->chatId:I
     invoke-static {v1}, Lorg/telegram/ui/ChannelCreateActivity;->access$1100(Lorg/telegram/ui/ChannelCreateActivity;)I
 
     move-result v1
@@ -87,7 +86,6 @@
 
     move-result v2
 
-    # setter for: Lorg/telegram/ui/ChannelCreateActivity;->checkReqId:I
     invoke-static {v1, v2}, Lorg/telegram/ui/ChannelCreateActivity;->access$2702(Lorg/telegram/ui/ChannelCreateActivity;I)I
 
     .line 923

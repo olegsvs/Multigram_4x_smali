@@ -50,7 +50,6 @@
 
     .prologue
     .line 608
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->sharedInstance:Lorg/telegram/messenger/voip/VoIPService;
     invoke-static {}, Lorg/telegram/messenger/voip/VoIPService;->access$2100()Lorg/telegram/messenger/voip/VoIPService;
 
     move-result-object v0
@@ -128,7 +127,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/voip/VoIPService$8;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # invokes: Lorg/telegram/messenger/voip/VoIPService;->startRinging()V
     invoke-static {v0}, Lorg/telegram/messenger/voip/VoIPService;->access$2200(Lorg/telegram/messenger/voip/VoIPService;)V
 
     goto :goto_0

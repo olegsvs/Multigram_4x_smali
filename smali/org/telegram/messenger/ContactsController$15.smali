@@ -195,13 +195,11 @@
 
     iget-object v1, v1, Lorg/telegram/messenger/ContactsController;->contacts:Ljava/util/ArrayList;
 
-    # invokes: Lorg/telegram/messenger/ContactsController;->updateUnregisteredContacts(Ljava/util/ArrayList;)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/ContactsController;->access$1000(Lorg/telegram/messenger/ContactsController;Ljava/util/ArrayList;)V
 
     .line 1522
     iget-object v0, p0, Lorg/telegram/messenger/ContactsController$15;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # invokes: Lorg/telegram/messenger/ContactsController;->performWriteContactsToPhoneBook()V
     invoke-static {v0}, Lorg/telegram/messenger/ContactsController;->access$1200(Lorg/telegram/messenger/ContactsController;)V
 
     .line 1524
@@ -240,7 +238,6 @@
     const/4 v0, 0x1
 
     :goto_2
-    # invokes: Lorg/telegram/messenger/ContactsController;->buildContactsSectionsArrays(Z)V
     invoke-static {v1, v0}, Lorg/telegram/messenger/ContactsController;->access$1700(Lorg/telegram/messenger/ContactsController;Z)V
 
     .line 1526

@@ -57,7 +57,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->webView:Landroid/webkit/WebView;
     invoke-static {v4}, Lorg/telegram/ui/Components/WebPlayerView;->access$1600(Lorg/telegram/ui/Components/WebPlayerView;)Landroid/webkit/WebView;
 
     move-result-object v4
@@ -125,7 +124,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/Components/WebPlayerView$YoutubeVideoTask;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->webView:Landroid/webkit/WebView;
     invoke-static {v4}, Lorg/telegram/ui/Components/WebPlayerView;->access$1600(Lorg/telegram/ui/Components/WebPlayerView;)Landroid/webkit/WebView;
 
     move-result-object v4

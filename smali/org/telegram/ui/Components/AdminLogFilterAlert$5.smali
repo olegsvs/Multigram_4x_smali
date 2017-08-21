@@ -45,21 +45,18 @@
     .line 337
     iget-object v0, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$5;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->delegate:Lorg/telegram/ui/Components/AdminLogFilterAlert$AdminLogFilterAlertDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$2200(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/ui/Components/AdminLogFilterAlert$AdminLogFilterAlertDelegate;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$5;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentFilter:Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
     invoke-static {v1}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/tgnet/TLRPC$TL_channelAdminLogEventsFilter;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$5;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->selectedAdmins:Ljava/util/HashMap;
     invoke-static {v2}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$1200(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Ljava/util/HashMap;
 
     move-result-object v2

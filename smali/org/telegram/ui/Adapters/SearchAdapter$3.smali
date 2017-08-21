@@ -50,7 +50,6 @@
     .line 122
     iget-object v0, p0, Lorg/telegram/ui/Adapters/SearchAdapter$3;->this$0:Lorg/telegram/ui/Adapters/SearchAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/SearchAdapter;->allowUsernameSearch:Z
     invoke-static {v0}, Lorg/telegram/ui/Adapters/SearchAdapter;->access$200(Lorg/telegram/ui/Adapters/SearchAdapter;)Z
 
     move-result v0
@@ -60,7 +59,6 @@
     .line 123
     iget-object v0, p0, Lorg/telegram/ui/Adapters/SearchAdapter$3;->this$0:Lorg/telegram/ui/Adapters/SearchAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/SearchAdapter;->searchAdapterHelper:Lorg/telegram/ui/Adapters/SearchAdapterHelper;
     invoke-static {v0}, Lorg/telegram/ui/Adapters/SearchAdapter;->access$600(Lorg/telegram/ui/Adapters/SearchAdapter;)Lorg/telegram/ui/Adapters/SearchAdapterHelper;
 
     move-result-object v0
@@ -69,21 +67,18 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Adapters/SearchAdapter$3;->this$0:Lorg/telegram/ui/Adapters/SearchAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/SearchAdapter;->allowChats:Z
     invoke-static {v3}, Lorg/telegram/ui/Adapters/SearchAdapter;->access$300(Lorg/telegram/ui/Adapters/SearchAdapter;)Z
 
     move-result v3
 
     iget-object v4, p0, Lorg/telegram/ui/Adapters/SearchAdapter$3;->this$0:Lorg/telegram/ui/Adapters/SearchAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/SearchAdapter;->allowBots:Z
     invoke-static {v4}, Lorg/telegram/ui/Adapters/SearchAdapter;->access$400(Lorg/telegram/ui/Adapters/SearchAdapter;)Z
 
     move-result v4
 
     iget-object v5, p0, Lorg/telegram/ui/Adapters/SearchAdapter$3;->this$0:Lorg/telegram/ui/Adapters/SearchAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/SearchAdapter;->channelId:I
     invoke-static {v5}, Lorg/telegram/ui/Adapters/SearchAdapter;->access$500(Lorg/telegram/ui/Adapters/SearchAdapter;)I
 
     move-result v6

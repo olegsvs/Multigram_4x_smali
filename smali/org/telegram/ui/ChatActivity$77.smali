@@ -52,7 +52,6 @@
     .line 4735
     iget-object v9, p0, Lorg/telegram/ui/ChatActivity$77;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->linkSearchRequestId:I
     invoke-static {v9}, Lorg/telegram/ui/ChatActivity;->access$15900(Lorg/telegram/ui/ChatActivity;)I
 
     move-result v9
@@ -66,7 +65,6 @@
 
     iget-object v10, p0, Lorg/telegram/ui/ChatActivity$77;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->linkSearchRequestId:I
     invoke-static {v10}, Lorg/telegram/ui/ChatActivity;->access$15900(Lorg/telegram/ui/ChatActivity;)I
 
     move-result v10
@@ -80,7 +78,6 @@
 
     const/4 v10, 0x0
 
-    # setter for: Lorg/telegram/ui/ChatActivity;->linkSearchRequestId:I
     invoke-static {v9, v10}, Lorg/telegram/ui/ChatActivity;->access$15902(Lorg/telegram/ui/ChatActivity;I)I
 
     .line 4739
@@ -186,7 +183,6 @@
     :try_start_3
     iget-object v9, p0, Lorg/telegram/ui/ChatActivity$77;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->foundUrls:Ljava/util/ArrayList;
     invoke-static {v9}, Lorg/telegram/ui/ChatActivity;->access$16000(Lorg/telegram/ui/ChatActivity;)Ljava/util/ArrayList;
 
     move-result-object v9
@@ -199,7 +195,6 @@
 
     iget-object v10, p0, Lorg/telegram/ui/ChatActivity$77;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->foundUrls:Ljava/util/ArrayList;
     invoke-static {v10}, Lorg/telegram/ui/ChatActivity;->access$16000(Lorg/telegram/ui/ChatActivity;)Ljava/util/ArrayList;
 
     move-result-object v10
@@ -234,7 +229,6 @@
 
     iget-object v10, p0, Lorg/telegram/ui/ChatActivity$77;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->foundUrls:Ljava/util/ArrayList;
     invoke-static {v10}, Lorg/telegram/ui/ChatActivity;->access$16000(Lorg/telegram/ui/ChatActivity;)Ljava/util/ArrayList;
 
     move-result-object v10
@@ -282,7 +276,6 @@
     :cond_6
     iget-object v9, p0, Lorg/telegram/ui/ChatActivity$77;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # setter for: Lorg/telegram/ui/ChatActivity;->foundUrls:Ljava/util/ArrayList;
     invoke-static {v9, v8}, Lorg/telegram/ui/ChatActivity;->access$16002(Lorg/telegram/ui/ChatActivity;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 4766
@@ -449,7 +442,6 @@
 
     move-result v10
 
-    # setter for: Lorg/telegram/ui/ChatActivity;->linkSearchRequestId:I
     invoke-static {v9, v10}, Lorg/telegram/ui/ChatActivity;->access$15902(Lorg/telegram/ui/ChatActivity;I)I
 
     .line 4864
@@ -459,14 +451,12 @@
 
     iget-object v10, p0, Lorg/telegram/ui/ChatActivity$77;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->linkSearchRequestId:I
     invoke-static {v10}, Lorg/telegram/ui/ChatActivity;->access$15900(Lorg/telegram/ui/ChatActivity;)I
 
     move-result v10
 
     iget-object v11, p0, Lorg/telegram/ui/ChatActivity$77;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->classGuid:I
     invoke-static {v11}, Lorg/telegram/ui/ChatActivity;->access$16200(Lorg/telegram/ui/ChatActivity;)I
 
     move-result v11

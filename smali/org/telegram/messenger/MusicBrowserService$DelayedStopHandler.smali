@@ -116,7 +116,6 @@
     .line 588
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/messenger/MusicBrowserService;->serviceStarted:Z
     invoke-static {v1, v2}, Lorg/telegram/messenger/MusicBrowserService;->access$1602(Lorg/telegram/messenger/MusicBrowserService;Z)Z
 
     goto :goto_0

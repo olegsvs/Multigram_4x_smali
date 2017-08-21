@@ -61,7 +61,6 @@
 
     iget v0, v0, Lorg/telegram/messenger/query/StickersQuery$14;->val$hash:I
 
-    # setter for: Lorg/telegram/messenger/query/StickersQuery;->loadFeaturedHash:I
     invoke-static {v0}, Lorg/telegram/messenger/query/StickersQuery;->access$1102(I)I
 
     .line 605

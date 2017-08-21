@@ -2913,11 +2913,9 @@
     if-eqz v0, :cond_0
 
     .line 1544
-    # operator-- for: Lorg/telegram/messenger/ImageLoader$ThumbGenerateInfo;->count:I
     invoke-static {v0}, Lorg/telegram/messenger/ImageLoader$ThumbGenerateInfo;->access$2910(Lorg/telegram/messenger/ImageLoader$ThumbGenerateInfo;)I
 
     .line 1545
-    # getter for: Lorg/telegram/messenger/ImageLoader$ThumbGenerateInfo;->count:I
     invoke-static {v0}, Lorg/telegram/messenger/ImageLoader$ThumbGenerateInfo;->access$2900(Lorg/telegram/messenger/ImageLoader$ThumbGenerateInfo;)I
 
     move-result v2

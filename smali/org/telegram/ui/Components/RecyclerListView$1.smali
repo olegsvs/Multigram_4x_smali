@@ -41,13 +41,11 @@
     .line 660
     iget-object v0, p0, Lorg/telegram/ui/Components/RecyclerListView$1;->this$0:Lorg/telegram/ui/Components/RecyclerListView;
 
-    # invokes: Lorg/telegram/ui/Components/RecyclerListView;->checkIfEmpty()V
     invoke-static {v0}, Lorg/telegram/ui/Components/RecyclerListView;->access$1500(Lorg/telegram/ui/Components/RecyclerListView;)V
 
     .line 661
     iget-object v0, p0, Lorg/telegram/ui/Components/RecyclerListView$1;->this$0:Lorg/telegram/ui/Components/RecyclerListView;
 
-    # getter for: Lorg/telegram/ui/Components/RecyclerListView;->selectorRect:Landroid/graphics/Rect;
     invoke-static {v0}, Lorg/telegram/ui/Components/RecyclerListView;->access$1400(Lorg/telegram/ui/Components/RecyclerListView;)Landroid/graphics/Rect;
 
     move-result-object v0
@@ -72,7 +70,6 @@
     .line 667
     iget-object v0, p0, Lorg/telegram/ui/Components/RecyclerListView$1;->this$0:Lorg/telegram/ui/Components/RecyclerListView;
 
-    # invokes: Lorg/telegram/ui/Components/RecyclerListView;->checkIfEmpty()V
     invoke-static {v0}, Lorg/telegram/ui/Components/RecyclerListView;->access$1500(Lorg/telegram/ui/Components/RecyclerListView;)V
 
     .line 668
@@ -88,7 +85,6 @@
     .line 672
     iget-object v0, p0, Lorg/telegram/ui/Components/RecyclerListView$1;->this$0:Lorg/telegram/ui/Components/RecyclerListView;
 
-    # invokes: Lorg/telegram/ui/Components/RecyclerListView;->checkIfEmpty()V
     invoke-static {v0}, Lorg/telegram/ui/Components/RecyclerListView;->access$1500(Lorg/telegram/ui/Components/RecyclerListView;)V
 
     .line 673

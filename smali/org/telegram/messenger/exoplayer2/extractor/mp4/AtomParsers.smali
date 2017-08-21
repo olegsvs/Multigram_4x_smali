@@ -4938,7 +4938,6 @@
     if-nez v2, :cond_1
 
     .line 76
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/mp4/AtomParsers$TkhdData;->duration:J
     invoke-static/range {v29 .. v29}, Lorg/telegram/messenger/exoplayer2/extractor/mp4/AtomParsers$TkhdData;->access$000(Lorg/telegram/messenger/exoplayer2/extractor/mp4/AtomParsers$TkhdData;)J
 
     move-result-wide p2
@@ -5010,13 +5009,11 @@
 
     iget-object v8, v2, Lorg/telegram/messenger/exoplayer2/extractor/mp4/Atom$LeafAtom;->data:Lorg/telegram/messenger/exoplayer2/util/ParsableByteArray;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/mp4/AtomParsers$TkhdData;->id:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/messenger/exoplayer2/extractor/mp4/AtomParsers$TkhdData;->access$100(Lorg/telegram/messenger/exoplayer2/extractor/mp4/AtomParsers$TkhdData;)I
 
     move-result v9
 
     .line 90
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/mp4/AtomParsers$TkhdData;->rotationDegrees:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/messenger/exoplayer2/extractor/mp4/AtomParsers$TkhdData;->access$200(Lorg/telegram/messenger/exoplayer2/extractor/mp4/AtomParsers$TkhdData;)I
 
     move-result v10
@@ -5089,7 +5086,6 @@
     new-instance v9, Lorg/telegram/messenger/exoplayer2/extractor/mp4/Track;
 
     .line 93
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/mp4/AtomParsers$TkhdData;->id:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/messenger/exoplayer2/extractor/mp4/AtomParsers$TkhdData;->access$100(Lorg/telegram/messenger/exoplayer2/extractor/mp4/AtomParsers$TkhdData;)I
 
     move-result v10

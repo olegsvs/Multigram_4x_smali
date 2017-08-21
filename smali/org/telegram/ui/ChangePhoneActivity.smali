@@ -930,7 +930,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1425
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->countryButton:Landroid/widget/TextView;
     invoke-static {v10}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$500(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -956,7 +955,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1426
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->view:Landroid/view/View;
     invoke-static {v10}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$4200(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Landroid/view/View;
 
     move-result-object v2
@@ -982,7 +980,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1427
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->textView:Landroid/widget/TextView;
     invoke-static {v10}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$4300(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1008,7 +1005,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1428
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->codeField:Landroid/widget/EditText;
     invoke-static {v10}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$400(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1034,7 +1030,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1429
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->codeField:Landroid/widget/EditText;
     invoke-static {v10}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$400(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1060,7 +1055,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1430
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->codeField:Landroid/widget/EditText;
     invoke-static {v10}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$400(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1090,7 +1084,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1431
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v10}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$200(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v2
@@ -1116,7 +1109,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1432
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v10}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$200(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v2
@@ -1142,7 +1134,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1433
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v10}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$200(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v2
@@ -1168,7 +1159,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1434
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->phoneField:Lorg/telegram/ui/Components/HintEditText;
     invoke-static {v10}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$200(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Lorg/telegram/ui/Components/HintEditText;
 
     move-result-object v2
@@ -1198,7 +1188,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1435
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->textView2:Landroid/widget/TextView;
     invoke-static {v10}, Lorg/telegram/ui/ChangePhoneActivity$PhoneView;->access$4400(Lorg/telegram/ui/ChangePhoneActivity$PhoneView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1224,7 +1213,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1437
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->confirmTextView:Landroid/widget/TextView;
     invoke-static {v11}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$4500(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1250,7 +1238,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1438
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v11}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1276,7 +1263,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1439
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v11}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1302,7 +1288,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1440
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v11}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1328,7 +1313,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1441
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v11}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1358,7 +1342,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1442
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->timeText:Landroid/widget/TextView;
     invoke-static {v11}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$3400(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1384,7 +1367,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1443
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->problemText:Landroid/widget/TextView;
     invoke-static {v11}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$2900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1410,7 +1392,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1444
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->wrongNumber:Landroid/widget/TextView;
     invoke-static {v11}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$4600(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1436,7 +1417,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1445
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->progressView:Lorg/telegram/ui/ChangePhoneActivity$ProgressView;
     invoke-static {v11}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$3500(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Lorg/telegram/ui/ChangePhoneActivity$ProgressView;
 
     move-result-object v2
@@ -1480,7 +1460,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1446
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->progressView:Lorg/telegram/ui/ChangePhoneActivity$ProgressView;
     invoke-static {v11}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$3500(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Lorg/telegram/ui/ChangePhoneActivity$ProgressView;
 
     move-result-object v2
@@ -1524,7 +1503,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1448
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->confirmTextView:Landroid/widget/TextView;
     invoke-static {v12}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$4500(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1550,7 +1528,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1449
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v12}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1576,7 +1553,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1450
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v12}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1602,7 +1578,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1451
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v12}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1628,7 +1603,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1452
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v12}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1658,7 +1632,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1453
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->timeText:Landroid/widget/TextView;
     invoke-static {v12}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$3400(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1684,7 +1657,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1454
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->problemText:Landroid/widget/TextView;
     invoke-static {v12}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$2900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1710,7 +1682,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1455
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->wrongNumber:Landroid/widget/TextView;
     invoke-static {v12}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$4600(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1736,7 +1707,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1456
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->progressView:Lorg/telegram/ui/ChangePhoneActivity$ProgressView;
     invoke-static {v12}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$3500(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Lorg/telegram/ui/ChangePhoneActivity$ProgressView;
 
     move-result-object v2
@@ -1780,7 +1750,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1457
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->progressView:Lorg/telegram/ui/ChangePhoneActivity$ProgressView;
     invoke-static {v12}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$3500(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Lorg/telegram/ui/ChangePhoneActivity$ProgressView;
 
     move-result-object v2
@@ -1824,7 +1793,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1459
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->confirmTextView:Landroid/widget/TextView;
     invoke-static {v13}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$4500(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1850,7 +1818,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1460
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v13}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1876,7 +1843,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1461
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v13}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1902,7 +1868,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1462
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v13}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1928,7 +1893,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1463
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v13}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -1958,7 +1922,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1464
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->timeText:Landroid/widget/TextView;
     invoke-static {v13}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$3400(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -1984,7 +1947,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1465
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->problemText:Landroid/widget/TextView;
     invoke-static {v13}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$2900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -2010,7 +1972,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1466
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->wrongNumber:Landroid/widget/TextView;
     invoke-static {v13}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$4600(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -2036,7 +1997,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1467
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->progressView:Lorg/telegram/ui/ChangePhoneActivity$ProgressView;
     invoke-static {v13}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$3500(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Lorg/telegram/ui/ChangePhoneActivity$ProgressView;
 
     move-result-object v2
@@ -2080,7 +2040,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1468
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->progressView:Lorg/telegram/ui/ChangePhoneActivity$ProgressView;
     invoke-static {v13}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$3500(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Lorg/telegram/ui/ChangePhoneActivity$ProgressView;
 
     move-result-object v2
@@ -2124,7 +2083,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1470
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->confirmTextView:Landroid/widget/TextView;
     invoke-static {v14}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$4500(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -2150,7 +2108,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1471
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v14}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -2176,7 +2133,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1472
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v14}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -2202,7 +2158,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1473
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v11}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -2228,7 +2183,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1474
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->codeField:Landroid/widget/EditText;
     invoke-static {v14}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$1900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -2258,7 +2212,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1475
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->timeText:Landroid/widget/TextView;
     invoke-static {v14}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$3400(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -2284,7 +2237,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1476
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->problemText:Landroid/widget/TextView;
     invoke-static {v14}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$2900(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -2310,7 +2262,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1477
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->wrongNumber:Landroid/widget/TextView;
     invoke-static {v14}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$4600(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Landroid/widget/TextView;
 
     move-result-object v2
@@ -2336,7 +2287,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1478
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->progressView:Lorg/telegram/ui/ChangePhoneActivity$ProgressView;
     invoke-static {v14}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$3500(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Lorg/telegram/ui/ChangePhoneActivity$ProgressView;
 
     move-result-object v2
@@ -2380,7 +2330,6 @@
     new-instance v1, Lorg/telegram/ui/ActionBar/ThemeDescription;
 
     .line 1479
-    # getter for: Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->progressView:Lorg/telegram/ui/ChangePhoneActivity$ProgressView;
     invoke-static {v14}, Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;->access$3500(Lorg/telegram/ui/ChangePhoneActivity$LoginActivitySmsView;)Lorg/telegram/ui/ChangePhoneActivity$ProgressView;
 
     move-result-object v2

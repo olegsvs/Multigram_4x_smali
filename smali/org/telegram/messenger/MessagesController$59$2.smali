@@ -83,7 +83,6 @@
 
     iget-object v3, v3, Lorg/telegram/tgnet/TLRPC$messages_Dialogs;->dialogs:Ljava/util/ArrayList;
 
-    # invokes: Lorg/telegram/messenger/MessagesController;->applyDialogsNotificationsSettings(Ljava/util/ArrayList;)V
     invoke-static {v2, v3}, Lorg/telegram/messenger/MessagesController;->access$4700(Lorg/telegram/messenger/MessagesController;Ljava/util/ArrayList;)V
 
     .line 3580
@@ -1337,7 +1336,6 @@
 
     const/4 v3, 0x0
 
-    # setter for: Lorg/telegram/messenger/MessagesController;->migratingDialogs:Z
     invoke-static {v2, v3}, Lorg/telegram/messenger/MessagesController;->access$4602(Lorg/telegram/messenger/MessagesController;Z)Z
 
     .line 3688
@@ -1374,7 +1372,6 @@
 
     sget-wide v8, Lorg/telegram/messenger/UserConfig;->migrateOffsetAccess:J
 
-    # invokes: Lorg/telegram/messenger/MessagesController;->migrateDialogs(IIIIIJ)V
     invoke-static/range {v2 .. v9}, Lorg/telegram/messenger/MessagesController;->access$4800(Lorg/telegram/messenger/MessagesController;IIIIIJ)V
 
     .line 3696
@@ -1401,7 +1398,6 @@
 
     const-wide/16 v4, 0x0
 
-    # invokes: Lorg/telegram/messenger/MessagesController;->reloadDialogsReadValue(Ljava/util/ArrayList;J)V
     invoke-static {v2, v3, v4, v5}, Lorg/telegram/messenger/MessagesController;->access$4900(Lorg/telegram/messenger/MessagesController;Ljava/util/ArrayList;J)V
 
     .line 3699

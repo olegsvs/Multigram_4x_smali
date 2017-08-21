@@ -55,7 +55,6 @@
     .line 228
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$CheckForTap;->this$1:Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->pendingCheckForLongPress:Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$CheckForLongPress;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->access$000(Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;)Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$CheckForLongPress;
 
     move-result-object v0
@@ -71,21 +70,18 @@
 
     invoke-direct {v1, v2}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$CheckForLongPress;-><init>(Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;)V
 
-    # setter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->pendingCheckForLongPress:Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$CheckForLongPress;
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->access$002(Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$CheckForLongPress;)Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$CheckForLongPress;
 
     .line 231
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$CheckForTap;->this$1:Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->pendingCheckForLongPress:Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$CheckForLongPress;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->access$000(Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;)Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$CheckForLongPress;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$CheckForTap;->this$1:Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;
 
-    # ++operator for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->pressCount:I
     invoke-static {v1}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->access$104(Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;)I
 
     move-result v1
@@ -97,7 +93,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$CheckForTap;->this$1:Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;
 
-    # getter for: Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->pendingCheckForLongPress:Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$CheckForLongPress;
     invoke-static {v1}, Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;->access$000(Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton;)Lorg/telegram/ui/Components/ChatAttachAlert$AttachBotButton$CheckForLongPress;
 
     move-result-object v1

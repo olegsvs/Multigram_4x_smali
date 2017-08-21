@@ -44,7 +44,6 @@
     .line 121
     iget-object v1, p0, Lorg/telegram/messenger/FileUploadOperation$2;->this$0:Lorg/telegram/messenger/FileUploadOperation;
 
-    # getter for: Lorg/telegram/messenger/FileUploadOperation;->requestTokens:Ljava/util/HashMap;
     invoke-static {v1}, Lorg/telegram/messenger/FileUploadOperation;->access$200(Lorg/telegram/messenger/FileUploadOperation;)Ljava/util/HashMap;
 
     move-result-object v1

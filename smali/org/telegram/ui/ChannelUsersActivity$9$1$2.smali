@@ -76,7 +76,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/ChannelUsersActivity$9;->this$0:Lorg/telegram/ui/ChannelUsersActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelUsersActivity;->getChannelAdminParticipantType(Lorg/telegram/tgnet/TLRPC$ChannelParticipant;)I
     invoke-static {v2, p1}, Lorg/telegram/ui/ChannelUsersActivity;->access$2300(Lorg/telegram/ui/ChannelUsersActivity;Lorg/telegram/tgnet/TLRPC$ChannelParticipant;)I
 
     move-result v0
@@ -89,7 +88,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/ChannelUsersActivity$9;->this$0:Lorg/telegram/ui/ChannelUsersActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelUsersActivity;->getChannelAdminParticipantType(Lorg/telegram/tgnet/TLRPC$ChannelParticipant;)I
     invoke-static {v2, p2}, Lorg/telegram/ui/ChannelUsersActivity;->access$2300(Lorg/telegram/ui/ChannelUsersActivity;Lorg/telegram/tgnet/TLRPC$ChannelParticipant;)I
 
     move-result v1

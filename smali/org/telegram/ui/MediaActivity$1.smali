@@ -51,7 +51,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/MediaActivity$1;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->actionBar:Lorg/telegram/ui/ActionBar/ActionBar;
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity;->access$500(Lorg/telegram/ui/MediaActivity;)Lorg/telegram/ui/ActionBar/ActionBar;
 
     move-result-object v2
@@ -74,7 +73,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/MediaActivity$1;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->selectedFiles:[Ljava/util/HashMap;
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity;->access$600(Lorg/telegram/ui/MediaActivity;)[Ljava/util/HashMap;
 
     move-result-object v2
@@ -96,7 +94,6 @@
 
     const/4 v3, 0x0
 
-    # setter for: Lorg/telegram/ui/MediaActivity;->cantDeleteMessagesCount:I
     invoke-static {v2, v3}, Lorg/telegram/ui/MediaActivity;->access$702(Lorg/telegram/ui/MediaActivity;I)I
 
     .line 273
@@ -104,7 +101,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/MediaActivity$1;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->actionBar:Lorg/telegram/ui/ActionBar/ActionBar;
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity;->access$800(Lorg/telegram/ui/MediaActivity;)Lorg/telegram/ui/ActionBar/ActionBar;
 
     move-result-object v2
@@ -116,7 +112,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/MediaActivity$1;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity;->access$900(Lorg/telegram/ui/MediaActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v2
@@ -139,7 +134,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/MediaActivity$1;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity;->access$900(Lorg/telegram/ui/MediaActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v2
@@ -250,7 +244,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/MediaActivity$1;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->selectedMode:I
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity;->access$1000(Lorg/telegram/ui/MediaActivity;)I
 
     move-result v2
@@ -264,7 +257,6 @@
 
     const/4 v3, 0x0
 
-    # setter for: Lorg/telegram/ui/MediaActivity;->selectedMode:I
     invoke-static {v2, v3}, Lorg/telegram/ui/MediaActivity;->access$1002(Lorg/telegram/ui/MediaActivity;I)I
 
     .line 295
@@ -272,7 +264,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/MediaActivity$1;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # invokes: Lorg/telegram/ui/MediaActivity;->switchToCurrentSelectedMode()V
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity;->access$1100(Lorg/telegram/ui/MediaActivity;)V
 
     goto :goto_4
@@ -290,7 +281,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/MediaActivity$1;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->selectedMode:I
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity;->access$1000(Lorg/telegram/ui/MediaActivity;)I
 
     move-result v2
@@ -306,7 +296,6 @@
 
     const/4 v3, 0x1
 
-    # setter for: Lorg/telegram/ui/MediaActivity;->selectedMode:I
     invoke-static {v2, v3}, Lorg/telegram/ui/MediaActivity;->access$1002(Lorg/telegram/ui/MediaActivity;I)I
 
     .line 301
@@ -314,7 +303,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/MediaActivity$1;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # invokes: Lorg/telegram/ui/MediaActivity;->switchToCurrentSelectedMode()V
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity;->access$1100(Lorg/telegram/ui/MediaActivity;)V
 
     goto :goto_4
@@ -332,7 +320,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/MediaActivity$1;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->selectedMode:I
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity;->access$1000(Lorg/telegram/ui/MediaActivity;)I
 
     move-result v2
@@ -348,7 +335,6 @@
 
     const/4 v3, 0x3
 
-    # setter for: Lorg/telegram/ui/MediaActivity;->selectedMode:I
     invoke-static {v2, v3}, Lorg/telegram/ui/MediaActivity;->access$1002(Lorg/telegram/ui/MediaActivity;I)I
 
     .line 307
@@ -356,7 +342,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/MediaActivity$1;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # invokes: Lorg/telegram/ui/MediaActivity;->switchToCurrentSelectedMode()V
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity;->access$1100(Lorg/telegram/ui/MediaActivity;)V
 
     goto :goto_4
@@ -374,7 +359,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/MediaActivity$1;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->selectedMode:I
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity;->access$1000(Lorg/telegram/ui/MediaActivity;)I
 
     move-result v2
@@ -390,7 +374,6 @@
 
     const/4 v3, 0x4
 
-    # setter for: Lorg/telegram/ui/MediaActivity;->selectedMode:I
     invoke-static {v2, v3}, Lorg/telegram/ui/MediaActivity;->access$1002(Lorg/telegram/ui/MediaActivity;I)I
 
     .line 313
@@ -398,7 +381,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/MediaActivity$1;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # invokes: Lorg/telegram/ui/MediaActivity;->switchToCurrentSelectedMode()V
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity;->access$1100(Lorg/telegram/ui/MediaActivity;)V
 
     goto :goto_4
@@ -453,7 +435,6 @@
 
     iget-object v7, v0, Lorg/telegram/ui/MediaActivity$1;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->selectedFiles:[Ljava/util/HashMap;
     invoke-static {v7}, Lorg/telegram/ui/MediaActivity;->access$600(Lorg/telegram/ui/MediaActivity;)[Ljava/util/HashMap;
 
     move-result-object v7
@@ -470,7 +451,6 @@
 
     iget-object v8, v0, Lorg/telegram/ui/MediaActivity$1;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->selectedFiles:[Ljava/util/HashMap;
     invoke-static {v8}, Lorg/telegram/ui/MediaActivity;->access$600(Lorg/telegram/ui/MediaActivity;)[Ljava/util/HashMap;
 
     move-result-object v8
@@ -521,7 +501,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/MediaActivity$1;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->dialog_id:J
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity;->access$000(Lorg/telegram/ui/MediaActivity;)J
 
     move-result-wide v2
@@ -613,7 +592,6 @@
 
     iget-object v2, v0, Lorg/telegram/ui/MediaActivity$1;->this$0:Lorg/telegram/ui/MediaActivity;
 
-    # getter for: Lorg/telegram/ui/MediaActivity;->selectedFiles:[Ljava/util/HashMap;
     invoke-static {v2}, Lorg/telegram/ui/MediaActivity;->access$600(Lorg/telegram/ui/MediaActivity;)[Ljava/util/HashMap;
 
     move-result-object v2

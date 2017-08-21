@@ -102,7 +102,6 @@
     move v1, v3
 
     :goto_0
-    # setter for: Lorg/telegram/ui/CommonGroupsActivity;->endReached:Z
     invoke-static {v4, v1}, Lorg/telegram/ui/CommonGroupsActivity;->access$302(Lorg/telegram/ui/CommonGroupsActivity;Z)Z
 
     .line 162
@@ -110,7 +109,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/CommonGroupsActivity$4;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # getter for: Lorg/telegram/ui/CommonGroupsActivity;->chats:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/CommonGroupsActivity;->access$000(Lorg/telegram/ui/CommonGroupsActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -126,7 +124,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/CommonGroupsActivity$4;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # setter for: Lorg/telegram/ui/CommonGroupsActivity;->loading:Z
     invoke-static {v1, v2}, Lorg/telegram/ui/CommonGroupsActivity;->access$402(Lorg/telegram/ui/CommonGroupsActivity;Z)Z
 
     .line 167
@@ -134,7 +131,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/CommonGroupsActivity$4;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # setter for: Lorg/telegram/ui/CommonGroupsActivity;->firstLoaded:Z
     invoke-static {v1, v3}, Lorg/telegram/ui/CommonGroupsActivity;->access$602(Lorg/telegram/ui/CommonGroupsActivity;Z)Z
 
     .line 168
@@ -142,7 +138,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/CommonGroupsActivity$4;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # getter for: Lorg/telegram/ui/CommonGroupsActivity;->emptyView:Lorg/telegram/ui/Components/EmptyTextProgressView;
     invoke-static {v1}, Lorg/telegram/ui/CommonGroupsActivity;->access$700(Lorg/telegram/ui/CommonGroupsActivity;)Lorg/telegram/ui/Components/EmptyTextProgressView;
 
     move-result-object v1
@@ -154,7 +149,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/CommonGroupsActivity$4;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # getter for: Lorg/telegram/ui/CommonGroupsActivity;->emptyView:Lorg/telegram/ui/Components/EmptyTextProgressView;
     invoke-static {v1}, Lorg/telegram/ui/CommonGroupsActivity;->access$700(Lorg/telegram/ui/CommonGroupsActivity;)Lorg/telegram/ui/Components/EmptyTextProgressView;
 
     move-result-object v1
@@ -167,7 +161,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/CommonGroupsActivity$4;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # getter for: Lorg/telegram/ui/CommonGroupsActivity;->listViewAdapter:Lorg/telegram/ui/CommonGroupsActivity$ListAdapter;
     invoke-static {v1}, Lorg/telegram/ui/CommonGroupsActivity;->access$200(Lorg/telegram/ui/CommonGroupsActivity;)Lorg/telegram/ui/CommonGroupsActivity$ListAdapter;
 
     move-result-object v1
@@ -179,7 +172,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/CommonGroupsActivity$4;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # getter for: Lorg/telegram/ui/CommonGroupsActivity;->listViewAdapter:Lorg/telegram/ui/CommonGroupsActivity$ListAdapter;
     invoke-static {v1}, Lorg/telegram/ui/CommonGroupsActivity;->access$200(Lorg/telegram/ui/CommonGroupsActivity;)Lorg/telegram/ui/CommonGroupsActivity$ListAdapter;
 
     move-result-object v1
@@ -204,7 +196,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/CommonGroupsActivity$4;->this$0:Lorg/telegram/ui/CommonGroupsActivity;
 
-    # setter for: Lorg/telegram/ui/CommonGroupsActivity;->endReached:Z
     invoke-static {v1, v3}, Lorg/telegram/ui/CommonGroupsActivity;->access$302(Lorg/telegram/ui/CommonGroupsActivity;Z)Z
 
     goto :goto_1

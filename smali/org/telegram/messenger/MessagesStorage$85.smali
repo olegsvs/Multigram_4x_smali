@@ -56,7 +56,6 @@
 
     iget-boolean v2, p0, Lorg/telegram/messenger/MessagesStorage$85;->val$check:Z
 
-    # invokes: Lorg/telegram/messenger/MessagesStorage;->putDialogsInternal(Lorg/telegram/tgnet/TLRPC$messages_Dialogs;Z)V
     invoke-static {v0, v1, v2}, Lorg/telegram/messenger/MessagesStorage;->access$1300(Lorg/telegram/messenger/MessagesStorage;Lorg/telegram/tgnet/TLRPC$messages_Dialogs;Z)V
 
     .line 6275

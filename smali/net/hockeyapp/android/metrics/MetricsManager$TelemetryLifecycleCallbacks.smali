@@ -79,7 +79,6 @@
     .line 527
     sget-object v0, Lnet/hockeyapp/android/metrics/MetricsManager;->LAST_BACKGROUND:Ljava/util/concurrent/atomic/AtomicLong;
 
-    # invokes: Lnet/hockeyapp/android/metrics/MetricsManager;->getTime()J
     invoke-static {}, Lnet/hockeyapp/android/metrics/MetricsManager;->access$300()J
 
     move-result-wide v2
@@ -98,7 +97,6 @@
     .line 520
     iget-object v0, p0, Lnet/hockeyapp/android/metrics/MetricsManager$TelemetryLifecycleCallbacks;->this$0:Lnet/hockeyapp/android/metrics/MetricsManager;
 
-    # invokes: Lnet/hockeyapp/android/metrics/MetricsManager;->updateSession()V
     invoke-static {v0}, Lnet/hockeyapp/android/metrics/MetricsManager;->access$200(Lnet/hockeyapp/android/metrics/MetricsManager;)V
 
     .line 521

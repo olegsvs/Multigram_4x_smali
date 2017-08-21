@@ -48,7 +48,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/camera/CameraController$1;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # setter for: Lorg/telegram/messenger/camera/CameraController;->loadingCameras:Z
     invoke-static {v0, v1}, Lorg/telegram/messenger/camera/CameraController;->access$002(Lorg/telegram/messenger/camera/CameraController;Z)Z
 
     .line 163
@@ -56,7 +55,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/camera/CameraController$1;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # setter for: Lorg/telegram/messenger/camera/CameraController;->cameraInitied:Z
     invoke-static {v0, v1}, Lorg/telegram/messenger/camera/CameraController;->access$102(Lorg/telegram/messenger/camera/CameraController;Z)Z
 
     .line 164

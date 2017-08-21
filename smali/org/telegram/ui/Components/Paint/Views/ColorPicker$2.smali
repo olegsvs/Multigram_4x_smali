@@ -45,7 +45,6 @@
     .line 109
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/Views/ColorPicker$2;->this$0:Lorg/telegram/ui/Components/Paint/Views/ColorPicker;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Views/ColorPicker;->delegate:Lorg/telegram/ui/Components/Paint/Views/ColorPicker$ColorPickerDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/Views/ColorPicker;->access$000(Lorg/telegram/ui/Components/Paint/Views/ColorPicker;)Lorg/telegram/ui/Components/Paint/Views/ColorPicker$ColorPickerDelegate;
 
     move-result-object v0
@@ -55,7 +54,6 @@
     .line 110
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/Views/ColorPicker$2;->this$0:Lorg/telegram/ui/Components/Paint/Views/ColorPicker;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Views/ColorPicker;->delegate:Lorg/telegram/ui/Components/Paint/Views/ColorPicker$ColorPickerDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/Views/ColorPicker;->access$000(Lorg/telegram/ui/Components/Paint/Views/ColorPicker;)Lorg/telegram/ui/Components/Paint/Views/ColorPicker$ColorPickerDelegate;
 
     move-result-object v0

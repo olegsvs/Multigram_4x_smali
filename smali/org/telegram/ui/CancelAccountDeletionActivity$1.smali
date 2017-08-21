@@ -47,14 +47,12 @@
     .line 142
     iget-object v0, p0, Lorg/telegram/ui/CancelAccountDeletionActivity$1;->this$0:Lorg/telegram/ui/CancelAccountDeletionActivity;
 
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity;->views:[Lorg/telegram/ui/Components/SlideView;
     invoke-static {v0}, Lorg/telegram/ui/CancelAccountDeletionActivity;->access$000(Lorg/telegram/ui/CancelAccountDeletionActivity;)[Lorg/telegram/ui/Components/SlideView;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/CancelAccountDeletionActivity$1;->this$0:Lorg/telegram/ui/CancelAccountDeletionActivity;
 
-    # getter for: Lorg/telegram/ui/CancelAccountDeletionActivity;->currentViewNum:I
     invoke-static {v1}, Lorg/telegram/ui/CancelAccountDeletionActivity;->access$100(Lorg/telegram/ui/CancelAccountDeletionActivity;)I
 
     move-result v1

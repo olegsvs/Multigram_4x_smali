@@ -56,7 +56,6 @@
 
     const/4 v1, 0x1
 
-    # invokes: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->showPopup(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$000(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;I)V
 
     .line 114
@@ -67,7 +66,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$1;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->openKeyboardInternal()V
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$100(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;)V
 
     goto :goto_0

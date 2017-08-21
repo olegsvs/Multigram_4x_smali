@@ -67,7 +67,6 @@
 
     iget v3, p0, Lorg/telegram/ui/DialogsActivity$14;->val$type:I
 
-    # invokes: Lorg/telegram/ui/DialogsActivity;->updateSortValue(I)V
     invoke-static {v2, v3}, Lorg/telegram/ui/DialogsActivity;->access$4700(Lorg/telegram/ui/DialogsActivity;I)V
 
     .line 1404
@@ -86,7 +85,6 @@
 
     iget v3, p0, Lorg/telegram/ui/DialogsActivity$14;->val$position:I
 
-    # invokes: Lorg/telegram/ui/DialogsActivity;->updateDefault(I)V
     invoke-static {v2, v3}, Lorg/telegram/ui/DialogsActivity;->access$4800(Lorg/telegram/ui/DialogsActivity;I)V
 
     goto :goto_0
@@ -100,7 +98,6 @@
     .line 1386
     iget-object v3, p0, Lorg/telegram/ui/DialogsActivity$14;->this$0:Lorg/telegram/ui/DialogsActivity;
 
-    # invokes: Lorg/telegram/ui/DialogsActivity;->markAsReadDialog(Z)V
     invoke-static {v3, v2}, Lorg/telegram/ui/DialogsActivity;->access$3400(Lorg/telegram/ui/DialogsActivity;Z)V
 
     goto :goto_0

@@ -161,7 +161,6 @@
     .line 339
     iget-object v1, p0, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->tagName:Ljava/lang/String;
 
-    # invokes: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox;->writeAsciiString(Ljava/nio/ByteBuffer;Ljava/lang/String;)V
     invoke-static {p1, v1}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox;->access$1(Ljava/nio/ByteBuffer;Ljava/lang/String;)V
 
     .line 340
@@ -199,7 +198,6 @@
 
     check-cast v1, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraValue;
 
-    # invokes: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraValue;->getContent(Ljava/nio/ByteBuffer;)V
     invoke-static {v1, p1}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraValue;->access$2(Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraValue;Ljava/nio/ByteBuffer;)V
 
     .line 341
@@ -248,7 +246,6 @@
 
     check-cast v2, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraValue;
 
-    # invokes: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraValue;->getContentSize()I
     invoke-static {v2}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraValue;->access$3(Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraValue;)I
 
     move-result v2
@@ -280,7 +277,6 @@
 
     .line 323
     .local v2, "tagLength":I
-    # invokes: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox;->readAsciiString(Ljava/nio/ByteBuffer;I)Ljava/lang/String;
     invoke-static {p1, v2}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox;->access$0(Ljava/nio/ByteBuffer;I)Ljava/lang/String;
 
     move-result-object v4
@@ -368,7 +364,6 @@
 
     .line 328
     .local v3, "val":Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraValue;
-    # invokes: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraValue;->parse(Ljava/nio/ByteBuffer;)V
     invoke-static {v3, p1}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraValue;->access$1(Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraValue;Ljava/nio/ByteBuffer;)V
 
     .line 329

@@ -212,7 +212,6 @@
 
     iget v7, p0, Lorg/telegram/messenger/query/StickersQuery$14;->val$hash:I
 
-    # invokes: Lorg/telegram/messenger/query/StickersQuery;->putFeaturedStickersToCache(Ljava/util/ArrayList;Ljava/util/ArrayList;II)V
     invoke-static {v4, v5, v6, v7}, Lorg/telegram/messenger/query/StickersQuery;->access$1200(Ljava/util/ArrayList;Ljava/util/ArrayList;II)V
 
     .line 626
@@ -259,7 +258,6 @@
 
     const/4 v6, 0x0
 
-    # invokes: Lorg/telegram/messenger/query/StickersQuery;->putFeaturedStickersToCache(Ljava/util/ArrayList;Ljava/util/ArrayList;II)V
     invoke-static {v12, v12, v5, v6}, Lorg/telegram/messenger/query/StickersQuery;->access$1200(Ljava/util/ArrayList;Ljava/util/ArrayList;II)V
 
     goto :goto_1

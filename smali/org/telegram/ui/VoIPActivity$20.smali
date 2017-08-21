@@ -44,7 +44,6 @@
     .line 1019
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$20;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->spkToggle:Lorg/telegram/ui/Components/voip/CheckableImageView;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$600(Lorg/telegram/ui/VoIPActivity;)Lorg/telegram/ui/Components/voip/CheckableImageView;
 
     move-result-object v0
@@ -54,7 +53,6 @@
     .line 1020
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$20;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->micToggle:Lorg/telegram/ui/Components/voip/CheckableImageView;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$700(Lorg/telegram/ui/VoIPActivity;)Lorg/telegram/ui/Components/voip/CheckableImageView;
 
     move-result-object v0
@@ -64,7 +62,6 @@
     .line 1021
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$20;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->chatBtn:Landroid/widget/ImageView;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$2600(Lorg/telegram/ui/VoIPActivity;)Landroid/widget/ImageView;
 
     move-result-object v0
@@ -76,13 +73,11 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/VoIPActivity;->retryAnim:Landroid/animation/AnimatorSet;
     invoke-static {v0, v1}, Lorg/telegram/ui/VoIPActivity;->access$2702(Lorg/telegram/ui/VoIPActivity;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 1023
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$20;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->endBtn:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$200(Lorg/telegram/ui/VoIPActivity;)Landroid/view/View;
 
     move-result-object v0

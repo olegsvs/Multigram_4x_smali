@@ -505,7 +505,6 @@
 
     div-float/2addr v4, v5
 
-    # invokes: Lorg/telegram/ui/AudioPlayerActivity;->onSeekBarDrag(F)V
     invoke-static {v3, v4}, Lorg/telegram/ui/AudioPlayerActivity;->access$000(Lorg/telegram/ui/AudioPlayerActivity;F)V
 
     .line 117

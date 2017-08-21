@@ -58,7 +58,6 @@
     .line 1176
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$1;->this$0:Lorg/telegram/messenger/exoplayer2/audio/AudioTrack;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/audio/AudioTrack;->releasingConditionVariable:Landroid/os/ConditionVariable;
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/audio/AudioTrack;->access$300(Lorg/telegram/messenger/exoplayer2/audio/AudioTrack;)Landroid/os/ConditionVariable;
 
     move-result-object v0
@@ -74,7 +73,6 @@
 
     iget-object v1, p0, Lorg/telegram/messenger/exoplayer2/audio/AudioTrack$1;->this$0:Lorg/telegram/messenger/exoplayer2/audio/AudioTrack;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/audio/AudioTrack;->releasingConditionVariable:Landroid/os/ConditionVariable;
     invoke-static {v1}, Lorg/telegram/messenger/exoplayer2/audio/AudioTrack;->access$300(Lorg/telegram/messenger/exoplayer2/audio/AudioTrack;)Landroid/os/ConditionVariable;
 
     move-result-object v1

@@ -58,7 +58,6 @@
 
     iget-object v9, p0, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter$2;->this$1:Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->lastSearchId:I
     invoke-static {v9}, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->access$2900(Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;)I
 
     move-result v9
@@ -151,7 +150,6 @@
     :cond_4
     iget-object v8, p0, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter$2;->this$1:Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->searchResult:Ljava/util/ArrayList;
     invoke-static {v8}, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->access$3200(Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;)Ljava/util/ArrayList;
 
     move-result-object v8
@@ -177,7 +175,6 @@
     :goto_3
     iget-object v8, p0, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter$2;->this$1:Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->searchResult:Ljava/util/ArrayList;
     invoke-static {v8}, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->access$3200(Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;)Ljava/util/ArrayList;
 
     move-result-object v8
@@ -212,12 +209,10 @@
 
     iget-object v8, v8, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # invokes: Lorg/telegram/ui/Components/ShareAlert;->getCurrentTop()I
     invoke-static {v8}, Lorg/telegram/ui/Components/ShareAlert;->access$2300(Lorg/telegram/ui/Components/ShareAlert;)I
 
     move-result v8
 
-    # setter for: Lorg/telegram/ui/Components/ShareAlert;->topBeforeSwitch:I
     invoke-static {v6, v8}, Lorg/telegram/ui/Components/ShareAlert;->access$2202(Lorg/telegram/ui/Components/ShareAlert;I)I
 
     .line 952
@@ -226,7 +221,6 @@
 
     iget-object v8, p0, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter$2;->val$result:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->searchResult:Ljava/util/ArrayList;
     invoke-static {v6, v8}, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->access$3202(Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 953
@@ -243,7 +237,6 @@
 
     iget-object v6, v6, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert;->topBeforeSwitch:I
     invoke-static {v6}, Lorg/telegram/ui/Components/ShareAlert;->access$2200(Lorg/telegram/ui/Components/ShareAlert;)I
 
     move-result v6
@@ -255,7 +248,6 @@
 
     iget-object v6, v6, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert;->layoutManager:Lorg/telegram/messenger/support/widget/GridLayoutManager;
     invoke-static {v6}, Lorg/telegram/ui/Components/ShareAlert;->access$2500(Lorg/telegram/ui/Components/ShareAlert;)Lorg/telegram/messenger/support/widget/GridLayoutManager;
 
     move-result-object v6
@@ -264,7 +256,6 @@
 
     iget-object v8, v8, Lorg/telegram/ui/Components/ShareAlert$ShareSearchAdapter;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert;->topBeforeSwitch:I
     invoke-static {v8}, Lorg/telegram/ui/Components/ShareAlert;->access$2200(Lorg/telegram/ui/Components/ShareAlert;)I
 
     move-result v8
@@ -280,7 +271,6 @@
 
     const/16 v7, -0x3e8
 
-    # setter for: Lorg/telegram/ui/Components/ShareAlert;->topBeforeSwitch:I
     invoke-static {v6, v7}, Lorg/telegram/ui/Components/ShareAlert;->access$2202(Lorg/telegram/ui/Components/ShareAlert;I)I
 
     goto/16 :goto_0

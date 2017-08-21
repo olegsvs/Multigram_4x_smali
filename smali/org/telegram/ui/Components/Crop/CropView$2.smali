@@ -102,7 +102,6 @@
     .line 323
     iget-object v2, p0, Lorg/telegram/ui/Components/Crop/CropView$2;->this$0:Lorg/telegram/ui/Components/Crop/CropView;
 
-    # getter for: Lorg/telegram/ui/Components/Crop/CropView;->state:Lorg/telegram/ui/Components/Crop/CropView$CropState;
     invoke-static {v2}, Lorg/telegram/ui/Components/Crop/CropView;->access$1100(Lorg/telegram/ui/Components/Crop/CropView;)Lorg/telegram/ui/Components/Crop/CropView$CropState;
 
     move-result-object v2
@@ -111,7 +110,6 @@
 
     iget v4, p0, Lorg/telegram/ui/Components/Crop/CropView$2;->val$y:F
 
-    # invokes: Lorg/telegram/ui/Components/Crop/CropView$CropState;->scale(FFF)V
     invoke-static {v2, v0, v3, v4}, Lorg/telegram/ui/Components/Crop/CropView$CropState;->access$1200(Lorg/telegram/ui/Components/Crop/CropView$CropState;FFF)V
 
     .line 324

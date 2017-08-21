@@ -45,7 +45,6 @@
     .line 761
     iget-object v0, p0, Lorg/telegram/ui/PopupNotificationActivity$8;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # invokes: Lorg/telegram/ui/PopupNotificationActivity;->openCurrentMessage()V
     invoke-static {v0}, Lorg/telegram/ui/PopupNotificationActivity;->access$800(Lorg/telegram/ui/PopupNotificationActivity;)V
 
     .line 762

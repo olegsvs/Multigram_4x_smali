@@ -45,7 +45,6 @@
     .line 836
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$5;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->sync:Ljava/lang/Object;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$2300(Lorg/telegram/messenger/MediaController;)Ljava/lang/Object;
 
     move-result-object v1

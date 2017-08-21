@@ -50,7 +50,6 @@
     .line 410
     iget-object v1, p0, Lorg/telegram/ui/VoIPActivity$8;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->currentAcceptAnim:Landroid/animation/Animator;
     invoke-static {v1}, Lorg/telegram/ui/VoIPActivity;->access$1400(Lorg/telegram/ui/VoIPActivity;)Landroid/animation/Animator;
 
     move-result-object v1
@@ -60,7 +59,6 @@
     .line 411
     iget-object v1, p0, Lorg/telegram/ui/VoIPActivity$8;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->currentAcceptAnim:Landroid/animation/Animator;
     invoke-static {v1}, Lorg/telegram/ui/VoIPActivity;->access$1400(Lorg/telegram/ui/VoIPActivity;)Landroid/animation/Animator;
 
     move-result-object v1
@@ -82,7 +80,6 @@
     iget-object v2, p0, Lorg/telegram/ui/VoIPActivity$8;->this$0:Lorg/telegram/ui/VoIPActivity;
 
     .line 415
-    # getter for: Lorg/telegram/ui/VoIPActivity;->acceptSwipe:Lorg/telegram/ui/Components/voip/CallSwipeView;
     invoke-static {v2}, Lorg/telegram/ui/VoIPActivity;->access$800(Lorg/telegram/ui/VoIPActivity;)Lorg/telegram/ui/Components/voip/CallSwipeView;
 
     move-result-object v2
@@ -102,7 +99,6 @@
     iget-object v2, p0, Lorg/telegram/ui/VoIPActivity$8;->this$0:Lorg/telegram/ui/VoIPActivity;
 
     .line 416
-    # getter for: Lorg/telegram/ui/VoIPActivity;->acceptBtn:Landroid/view/View;
     invoke-static {v2}, Lorg/telegram/ui/VoIPActivity;->access$1500(Lorg/telegram/ui/VoIPActivity;)Landroid/view/View;
 
     move-result-object v2
@@ -142,7 +138,6 @@
     .line 426
     iget-object v1, p0, Lorg/telegram/ui/VoIPActivity$8;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # setter for: Lorg/telegram/ui/VoIPActivity;->currentAcceptAnim:Landroid/animation/Animator;
     invoke-static {v1, v0}, Lorg/telegram/ui/VoIPActivity;->access$1402(Lorg/telegram/ui/VoIPActivity;Landroid/animation/Animator;)Landroid/animation/Animator;
 
     .line 427
@@ -151,7 +146,6 @@
     .line 428
     iget-object v1, p0, Lorg/telegram/ui/VoIPActivity$8;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->acceptSwipe:Lorg/telegram/ui/Components/voip/CallSwipeView;
     invoke-static {v1}, Lorg/telegram/ui/VoIPActivity;->access$800(Lorg/telegram/ui/VoIPActivity;)Lorg/telegram/ui/Components/voip/CallSwipeView;
 
     move-result-object v1
@@ -171,7 +165,6 @@
     .line 377
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$8;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->acceptSwipe:Lorg/telegram/ui/Components/voip/CallSwipeView;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$800(Lorg/telegram/ui/VoIPActivity;)Lorg/telegram/ui/Components/voip/CallSwipeView;
 
     move-result-object v0
@@ -181,7 +174,6 @@
     .line 378
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$8;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->declineSwipe:Lorg/telegram/ui/Components/voip/CallSwipeView;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$900(Lorg/telegram/ui/VoIPActivity;)Lorg/telegram/ui/Components/voip/CallSwipeView;
 
     move-result-object v0
@@ -232,7 +224,6 @@
     .line 387
     iget-object v1, p0, Lorg/telegram/ui/VoIPActivity$8;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->currentAcceptAnim:Landroid/animation/Animator;
     invoke-static {v1}, Lorg/telegram/ui/VoIPActivity;->access$1400(Lorg/telegram/ui/VoIPActivity;)Landroid/animation/Animator;
 
     move-result-object v1
@@ -242,7 +233,6 @@
     .line 388
     iget-object v1, p0, Lorg/telegram/ui/VoIPActivity$8;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->currentAcceptAnim:Landroid/animation/Animator;
     invoke-static {v1}, Lorg/telegram/ui/VoIPActivity;->access$1400(Lorg/telegram/ui/VoIPActivity;)Landroid/animation/Animator;
 
     move-result-object v1
@@ -264,7 +254,6 @@
     iget-object v2, p0, Lorg/telegram/ui/VoIPActivity$8;->this$0:Lorg/telegram/ui/VoIPActivity;
 
     .line 392
-    # getter for: Lorg/telegram/ui/VoIPActivity;->acceptSwipe:Lorg/telegram/ui/Components/voip/CallSwipeView;
     invoke-static {v2}, Lorg/telegram/ui/VoIPActivity;->access$800(Lorg/telegram/ui/VoIPActivity;)Lorg/telegram/ui/Components/voip/CallSwipeView;
 
     move-result-object v2
@@ -284,7 +273,6 @@
     iget-object v2, p0, Lorg/telegram/ui/VoIPActivity$8;->this$0:Lorg/telegram/ui/VoIPActivity;
 
     .line 393
-    # getter for: Lorg/telegram/ui/VoIPActivity;->acceptBtn:Landroid/view/View;
     invoke-static {v2}, Lorg/telegram/ui/VoIPActivity;->access$1500(Lorg/telegram/ui/VoIPActivity;)Landroid/view/View;
 
     move-result-object v2
@@ -326,7 +314,6 @@
     .line 403
     iget-object v1, p0, Lorg/telegram/ui/VoIPActivity$8;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # setter for: Lorg/telegram/ui/VoIPActivity;->currentAcceptAnim:Landroid/animation/Animator;
     invoke-static {v1, v0}, Lorg/telegram/ui/VoIPActivity;->access$1402(Lorg/telegram/ui/VoIPActivity;Landroid/animation/Animator;)Landroid/animation/Animator;
 
     .line 404
@@ -335,7 +322,6 @@
     .line 405
     iget-object v1, p0, Lorg/telegram/ui/VoIPActivity$8;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->acceptSwipe:Lorg/telegram/ui/Components/voip/CallSwipeView;
     invoke-static {v1}, Lorg/telegram/ui/VoIPActivity;->access$800(Lorg/telegram/ui/VoIPActivity;)Lorg/telegram/ui/Components/voip/CallSwipeView;
 
     move-result-object v1

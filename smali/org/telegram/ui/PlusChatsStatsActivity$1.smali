@@ -44,7 +44,6 @@
     .line 149
     iget-object v0, p0, Lorg/telegram/ui/PlusChatsStatsActivity$1;->this$0:Lorg/telegram/ui/PlusChatsStatsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusChatsStatsActivity;->dismissProgressRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$000(Lorg/telegram/ui/PlusChatsStatsActivity;)Ljava/lang/Runnable;
 
     move-result-object v0
@@ -59,7 +58,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/PlusChatsStatsActivity$1;->this$0:Lorg/telegram/ui/PlusChatsStatsActivity;
 
-    # invokes: Lorg/telegram/ui/PlusChatsStatsActivity;->completeTask()V
     invoke-static {v0}, Lorg/telegram/ui/PlusChatsStatsActivity;->access$100(Lorg/telegram/ui/PlusChatsStatsActivity;)V
 
     goto :goto_0

@@ -1996,7 +1996,6 @@
 
     .line 821
     .local v0, "cell":Lorg/telegram/ui/ActionBar/BottomSheet$BottomSheetCell;
-    # getter for: Lorg/telegram/ui/ActionBar/BottomSheet$BottomSheetCell;->textView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ActionBar/BottomSheet$BottomSheetCell;->access$1200(Lorg/telegram/ui/ActionBar/BottomSheet$BottomSheetCell;)Landroid/widget/TextView;
 
     move-result-object v1

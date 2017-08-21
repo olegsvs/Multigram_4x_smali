@@ -45,7 +45,6 @@
     .line 384
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatDialogsView$8;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->visible:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatDialogsView;->access$1100(Lorg/telegram/ui/Components/ChatDialogsView;)Z
 
     move-result v0
@@ -54,7 +53,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatDialogsView$8;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->disableLongCick:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatDialogsView;->access$1200(Lorg/telegram/ui/Components/ChatDialogsView;)Z
 
     move-result v0

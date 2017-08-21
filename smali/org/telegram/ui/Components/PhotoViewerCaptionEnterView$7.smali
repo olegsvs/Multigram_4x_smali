@@ -54,7 +54,6 @@
     .line 250
     iget-object v2, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$7;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->innerTextChange:Z
     invoke-static {v2}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$600(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;)Z
 
     move-result v2
@@ -109,7 +108,6 @@
     :cond_2
     iget-object v2, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$7;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->messageEditText:Landroid/widget/EditText;
     invoke-static {v2}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$800(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;)Landroid/widget/EditText;
 
     move-result-object v2
@@ -161,7 +159,6 @@
     .line 235
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$7;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->innerTextChange:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$600(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;)Z
 
     move-result v0
@@ -177,7 +174,6 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$7;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->delegate:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$PhotoViewerCaptionEnterViewDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$700(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;)Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$PhotoViewerCaptionEnterViewDelegate;
 
     move-result-object v0
@@ -187,7 +183,6 @@
     .line 240
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$7;->this$0:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->delegate:Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$PhotoViewerCaptionEnterViewDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;->access$700(Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView;)Lorg/telegram/ui/Components/PhotoViewerCaptionEnterView$PhotoViewerCaptionEnterViewDelegate;
 
     move-result-object v0

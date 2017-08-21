@@ -49,7 +49,6 @@
     .line 195
     iget-object v1, p0, Lorg/telegram/ui/ProfileNotificationsActivity$1;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->notificationsEnabled:Z
     invoke-static {v1}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$000(Lorg/telegram/ui/ProfileNotificationsActivity;)Z
 
     move-result v1
@@ -58,7 +57,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileNotificationsActivity$1;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->customEnabled:Z
     invoke-static {v1}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$100(Lorg/telegram/ui/ProfileNotificationsActivity;)Z
 
     move-result v1
@@ -92,7 +90,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileNotificationsActivity$1;->this$0:Lorg/telegram/ui/ProfileNotificationsActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileNotificationsActivity;->dialog_id:J
     invoke-static {v3}, Lorg/telegram/ui/ProfileNotificationsActivity;->access$200(Lorg/telegram/ui/ProfileNotificationsActivity;)J
 
     move-result-wide v4

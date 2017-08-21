@@ -49,7 +49,6 @@
     .line 502
     iget-object v0, p0, Lorg/telegram/ui/Components/PipRoundVideoView$7;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->onCloseRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$800(Lorg/telegram/ui/Components/PipRoundVideoView;)Ljava/lang/Runnable;
 
     move-result-object v0
@@ -59,7 +58,6 @@
     .line 503
     iget-object v0, p0, Lorg/telegram/ui/Components/PipRoundVideoView$7;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->onCloseRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$800(Lorg/telegram/ui/Components/PipRoundVideoView;)Ljava/lang/Runnable;
 
     move-result-object v0

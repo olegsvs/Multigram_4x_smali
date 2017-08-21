@@ -52,7 +52,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PrivacyControlActivity$1;->this$0:Lorg/telegram/ui/PrivacyControlActivity;
 
-    # invokes: Lorg/telegram/ui/PrivacyControlActivity;->applyCurrentPrivacySettings()V
     invoke-static {v0}, Lorg/telegram/ui/PrivacyControlActivity;->access$200(Lorg/telegram/ui/PrivacyControlActivity;)V
 
     .line 157

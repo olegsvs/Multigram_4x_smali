@@ -65,7 +65,6 @@
     .line 147
     iget-object v0, p0, Lorg/telegram/ui/WebviewActivity$2;->this$0:Lorg/telegram/ui/WebviewActivity;
 
-    # getter for: Lorg/telegram/ui/WebviewActivity;->currentMessageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v0}, Lorg/telegram/ui/WebviewActivity;->access$000(Lorg/telegram/ui/WebviewActivity;)Lorg/telegram/messenger/MessageObject;
 
     move-result-object v0
@@ -87,7 +86,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/WebviewActivity$2;->this$0:Lorg/telegram/ui/WebviewActivity;
 
-    # getter for: Lorg/telegram/ui/WebviewActivity;->currentMessageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v2}, Lorg/telegram/ui/WebviewActivity;->access$000(Lorg/telegram/ui/WebviewActivity;)Lorg/telegram/messenger/MessageObject;
 
     move-result-object v2
@@ -96,7 +94,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/WebviewActivity$2;->this$0:Lorg/telegram/ui/WebviewActivity;
 
-    # getter for: Lorg/telegram/ui/WebviewActivity;->linkToCopy:Ljava/lang/String;
     invoke-static {v5}, Lorg/telegram/ui/WebviewActivity;->access$100(Lorg/telegram/ui/WebviewActivity;)Ljava/lang/String;
 
     move-result-object v5
@@ -118,14 +115,12 @@
     .line 150
     iget-object v0, p0, Lorg/telegram/ui/WebviewActivity$2;->this$0:Lorg/telegram/ui/WebviewActivity;
 
-    # getter for: Lorg/telegram/ui/WebviewActivity;->currentUrl:Ljava/lang/String;
     invoke-static {v0}, Lorg/telegram/ui/WebviewActivity;->access$200(Lorg/telegram/ui/WebviewActivity;)Ljava/lang/String;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/WebviewActivity$2;->this$0:Lorg/telegram/ui/WebviewActivity;
 
-    # getter for: Lorg/telegram/ui/WebviewActivity;->currentMessageObject:Lorg/telegram/messenger/MessageObject;
     invoke-static {v1}, Lorg/telegram/ui/WebviewActivity;->access$000(Lorg/telegram/ui/WebviewActivity;)Lorg/telegram/messenger/MessageObject;
 
     move-result-object v1
@@ -138,14 +133,12 @@
 
     iget-object v3, p0, Lorg/telegram/ui/WebviewActivity$2;->this$0:Lorg/telegram/ui/WebviewActivity;
 
-    # getter for: Lorg/telegram/ui/WebviewActivity;->short_param:Ljava/lang/String;
     invoke-static {v3}, Lorg/telegram/ui/WebviewActivity;->access$300(Lorg/telegram/ui/WebviewActivity;)Ljava/lang/String;
 
     move-result-object v3
 
     iget-object v4, p0, Lorg/telegram/ui/WebviewActivity$2;->this$0:Lorg/telegram/ui/WebviewActivity;
 
-    # getter for: Lorg/telegram/ui/WebviewActivity;->currentBot:Ljava/lang/String;
     invoke-static {v4}, Lorg/telegram/ui/WebviewActivity;->access$400(Lorg/telegram/ui/WebviewActivity;)Ljava/lang/String;
 
     move-result-object v4

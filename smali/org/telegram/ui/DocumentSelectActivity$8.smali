@@ -44,7 +44,6 @@
     .line 429
     iget-object v0, p0, Lorg/telegram/ui/DocumentSelectActivity$8;->this$0:Lorg/telegram/ui/DocumentSelectActivity;
 
-    # getter for: Lorg/telegram/ui/DocumentSelectActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v0}, Lorg/telegram/ui/DocumentSelectActivity;->access$300(Lorg/telegram/ui/DocumentSelectActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v0
@@ -58,7 +57,6 @@
     .line 430
     iget-object v0, p0, Lorg/telegram/ui/DocumentSelectActivity$8;->this$0:Lorg/telegram/ui/DocumentSelectActivity;
 
-    # invokes: Lorg/telegram/ui/DocumentSelectActivity;->fixLayoutInternal()V
     invoke-static {v0}, Lorg/telegram/ui/DocumentSelectActivity;->access$2500(Lorg/telegram/ui/DocumentSelectActivity;)V
 
     .line 431

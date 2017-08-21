@@ -44,13 +44,11 @@
     .line 294
     iget-object v0, p0, Lorg/telegram/ui/Components/StickerMasksView$7;->this$0:Lorg/telegram/ui/Components/StickerMasksView;
 
-    # invokes: Lorg/telegram/ui/Components/StickerMasksView;->updateStickerTabs()V
     invoke-static {v0}, Lorg/telegram/ui/Components/StickerMasksView;->access$900(Lorg/telegram/ui/Components/StickerMasksView;)V
 
     .line 295
     iget-object v0, p0, Lorg/telegram/ui/Components/StickerMasksView$7;->this$0:Lorg/telegram/ui/Components/StickerMasksView;
 
-    # invokes: Lorg/telegram/ui/Components/StickerMasksView;->reloadStickersAdapter()V
     invoke-static {v0}, Lorg/telegram/ui/Components/StickerMasksView;->access$1000(Lorg/telegram/ui/Components/StickerMasksView;)V
 
     .line 296

@@ -44,7 +44,6 @@
     .line 852
     iget-object v0, p0, Lorg/telegram/ui/LocationActivity$20;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v0}, Lorg/telegram/ui/LocationActivity;->access$1800(Lorg/telegram/ui/LocationActivity;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v0
@@ -84,7 +83,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/LocationActivity$20;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$1800(Lorg/telegram/ui/LocationActivity;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v1
@@ -93,7 +91,6 @@
 
     move-result v1
 
-    # invokes: Lorg/telegram/ui/LocationActivity;->updateClipView(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/LocationActivity;->access$1900(Lorg/telegram/ui/LocationActivity;I)V
 
     .line 854

@@ -54,7 +54,6 @@
     .local v0, "task":Landroid/os/AsyncTask;, "Landroid/os/AsyncTask<Ljava/lang/Void;Ljava/lang/Void;Lcom/stripe/android/Stripe$ResponseWrapper;>;"
     iget-object v1, p0, Lcom/stripe/android/Stripe$1;->this$0:Lcom/stripe/android/Stripe;
 
-    # invokes: Lcom/stripe/android/Stripe;->executeTokenTask(Ljava/util/concurrent/Executor;Landroid/os/AsyncTask;)V
     invoke-static {v1, p3, v0}, Lcom/stripe/android/Stripe;->access$200(Lcom/stripe/android/Stripe;Ljava/util/concurrent/Executor;Landroid/os/AsyncTask;)V
 
     .line 62

@@ -73,7 +73,6 @@
     .line 530
     iget-object v0, p0, Lorg/telegram/ui/PlusManageTabsActivity$TabCheckCell;->dRight:Landroid/graphics/drawable/Drawable;
 
-    # getter for: Lorg/telegram/ui/PlusManageTabsActivity;->color:I
     invoke-static {p1}, Lorg/telegram/ui/PlusManageTabsActivity;->access$300(Lorg/telegram/ui/PlusManageTabsActivity;)I
 
     move-result v1
@@ -125,7 +124,6 @@
     .line 538
     iget-object v0, p0, Lorg/telegram/ui/PlusManageTabsActivity$TabCheckCell;->textView:Landroid/widget/TextView;
 
-    # getter for: Lorg/telegram/ui/PlusManageTabsActivity;->color:I
     invoke-static {p1}, Lorg/telegram/ui/PlusManageTabsActivity;->access$300(Lorg/telegram/ui/PlusManageTabsActivity;)I
 
     move-result v1

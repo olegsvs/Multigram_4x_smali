@@ -67,7 +67,6 @@
     .line 75
     iget-object v0, p0, Lorg/telegram/ui/Components/RgbSelectorView$1;->this$0:Lorg/telegram/ui/Components/RgbSelectorView;
 
-    # getter for: Lorg/telegram/ui/Components/RgbSelectorView;->seekRedValue:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/Components/RgbSelectorView;->access$000(Lorg/telegram/ui/Components/RgbSelectorView;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -95,7 +94,6 @@
     .line 78
     iget-object v0, p0, Lorg/telegram/ui/Components/RgbSelectorView$1;->this$0:Lorg/telegram/ui/Components/RgbSelectorView;
 
-    # getter for: Lorg/telegram/ui/Components/RgbSelectorView;->seekGreenValue:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/Components/RgbSelectorView;->access$100(Lorg/telegram/ui/Components/RgbSelectorView;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -123,7 +121,6 @@
     .line 81
     iget-object v0, p0, Lorg/telegram/ui/Components/RgbSelectorView$1;->this$0:Lorg/telegram/ui/Components/RgbSelectorView;
 
-    # getter for: Lorg/telegram/ui/Components/RgbSelectorView;->seekBlueValue:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/Components/RgbSelectorView;->access$200(Lorg/telegram/ui/Components/RgbSelectorView;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -151,7 +148,6 @@
     .line 84
     iget-object v0, p0, Lorg/telegram/ui/Components/RgbSelectorView$1;->this$0:Lorg/telegram/ui/Components/RgbSelectorView;
 
-    # getter for: Lorg/telegram/ui/Components/RgbSelectorView;->seekAlphaValue:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/Components/RgbSelectorView;->access$300(Lorg/telegram/ui/Components/RgbSelectorView;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -166,13 +162,11 @@
     :cond_3
     iget-object v0, p0, Lorg/telegram/ui/Components/RgbSelectorView$1;->this$0:Lorg/telegram/ui/Components/RgbSelectorView;
 
-    # invokes: Lorg/telegram/ui/Components/RgbSelectorView;->setPreviewImage()V
     invoke-static {v0}, Lorg/telegram/ui/Components/RgbSelectorView;->access$400(Lorg/telegram/ui/Components/RgbSelectorView;)V
 
     .line 88
     iget-object v0, p0, Lorg/telegram/ui/Components/RgbSelectorView$1;->this$0:Lorg/telegram/ui/Components/RgbSelectorView;
 
-    # invokes: Lorg/telegram/ui/Components/RgbSelectorView;->onColorChanged()V
     invoke-static {v0}, Lorg/telegram/ui/Components/RgbSelectorView;->access$500(Lorg/telegram/ui/Components/RgbSelectorView;)V
 
     .line 89

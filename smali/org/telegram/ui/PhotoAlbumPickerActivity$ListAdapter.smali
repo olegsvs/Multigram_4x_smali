@@ -49,7 +49,6 @@
     .line 430
     iget-object v1, p0, Lorg/telegram/ui/PhotoAlbumPickerActivity$ListAdapter;->this$0:Lorg/telegram/ui/PhotoAlbumPickerActivity;
 
-    # getter for: Lorg/telegram/ui/PhotoAlbumPickerActivity;->singlePhoto:Z
     invoke-static {v1}, Lorg/telegram/ui/PhotoAlbumPickerActivity;->access$700(Lorg/telegram/ui/PhotoAlbumPickerActivity;)Z
 
     move-result v1
@@ -59,7 +58,6 @@
     .line 431
     iget-object v1, p0, Lorg/telegram/ui/PhotoAlbumPickerActivity$ListAdapter;->this$0:Lorg/telegram/ui/PhotoAlbumPickerActivity;
 
-    # getter for: Lorg/telegram/ui/PhotoAlbumPickerActivity;->albumsSorted:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/PhotoAlbumPickerActivity;->access$800(Lorg/telegram/ui/PhotoAlbumPickerActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -68,7 +66,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PhotoAlbumPickerActivity$ListAdapter;->this$0:Lorg/telegram/ui/PhotoAlbumPickerActivity;
 
-    # getter for: Lorg/telegram/ui/PhotoAlbumPickerActivity;->albumsSorted:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/PhotoAlbumPickerActivity;->access$800(Lorg/telegram/ui/PhotoAlbumPickerActivity;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -81,7 +78,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PhotoAlbumPickerActivity$ListAdapter;->this$0:Lorg/telegram/ui/PhotoAlbumPickerActivity;
 
-    # getter for: Lorg/telegram/ui/PhotoAlbumPickerActivity;->columnsCount:I
     invoke-static {v1}, Lorg/telegram/ui/PhotoAlbumPickerActivity;->access$900(Lorg/telegram/ui/PhotoAlbumPickerActivity;)I
 
     move-result v1
@@ -106,7 +102,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/PhotoAlbumPickerActivity$ListAdapter;->this$0:Lorg/telegram/ui/PhotoAlbumPickerActivity;
 
-    # getter for: Lorg/telegram/ui/PhotoAlbumPickerActivity;->albumsSorted:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/PhotoAlbumPickerActivity;->access$800(Lorg/telegram/ui/PhotoAlbumPickerActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -115,7 +110,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PhotoAlbumPickerActivity$ListAdapter;->this$0:Lorg/telegram/ui/PhotoAlbumPickerActivity;
 
-    # getter for: Lorg/telegram/ui/PhotoAlbumPickerActivity;->albumsSorted:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/PhotoAlbumPickerActivity;->access$800(Lorg/telegram/ui/PhotoAlbumPickerActivity;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -128,7 +122,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PhotoAlbumPickerActivity$ListAdapter;->this$0:Lorg/telegram/ui/PhotoAlbumPickerActivity;
 
-    # getter for: Lorg/telegram/ui/PhotoAlbumPickerActivity;->columnsCount:I
     invoke-static {v1}, Lorg/telegram/ui/PhotoAlbumPickerActivity;->access$900(Lorg/telegram/ui/PhotoAlbumPickerActivity;)I
 
     move-result v1
@@ -161,7 +154,6 @@
     .line 492
     iget-object v1, p0, Lorg/telegram/ui/PhotoAlbumPickerActivity$ListAdapter;->this$0:Lorg/telegram/ui/PhotoAlbumPickerActivity;
 
-    # getter for: Lorg/telegram/ui/PhotoAlbumPickerActivity;->singlePhoto:Z
     invoke-static {v1}, Lorg/telegram/ui/PhotoAlbumPickerActivity;->access$700(Lorg/telegram/ui/PhotoAlbumPickerActivity;)Z
 
     move-result v1
@@ -216,7 +208,6 @@
     .local v3, "photoPickerAlbumsCell":Lorg/telegram/ui/Cells/PhotoPickerAlbumsCell;
     iget-object v4, p0, Lorg/telegram/ui/PhotoAlbumPickerActivity$ListAdapter;->this$0:Lorg/telegram/ui/PhotoAlbumPickerActivity;
 
-    # getter for: Lorg/telegram/ui/PhotoAlbumPickerActivity;->columnsCount:I
     invoke-static {v4}, Lorg/telegram/ui/PhotoAlbumPickerActivity;->access$900(Lorg/telegram/ui/PhotoAlbumPickerActivity;)I
 
     move-result v4
@@ -230,7 +221,6 @@
     :goto_0
     iget-object v4, p0, Lorg/telegram/ui/PhotoAlbumPickerActivity$ListAdapter;->this$0:Lorg/telegram/ui/PhotoAlbumPickerActivity;
 
-    # getter for: Lorg/telegram/ui/PhotoAlbumPickerActivity;->columnsCount:I
     invoke-static {v4}, Lorg/telegram/ui/PhotoAlbumPickerActivity;->access$900(Lorg/telegram/ui/PhotoAlbumPickerActivity;)I
 
     move-result v4
@@ -240,7 +230,6 @@
     .line 474
     iget-object v4, p0, Lorg/telegram/ui/PhotoAlbumPickerActivity$ListAdapter;->this$0:Lorg/telegram/ui/PhotoAlbumPickerActivity;
 
-    # getter for: Lorg/telegram/ui/PhotoAlbumPickerActivity;->singlePhoto:Z
     invoke-static {v4}, Lorg/telegram/ui/PhotoAlbumPickerActivity;->access$700(Lorg/telegram/ui/PhotoAlbumPickerActivity;)Z
 
     move-result v4
@@ -250,7 +239,6 @@
     .line 475
     iget-object v4, p0, Lorg/telegram/ui/PhotoAlbumPickerActivity$ListAdapter;->this$0:Lorg/telegram/ui/PhotoAlbumPickerActivity;
 
-    # getter for: Lorg/telegram/ui/PhotoAlbumPickerActivity;->columnsCount:I
     invoke-static {v4}, Lorg/telegram/ui/PhotoAlbumPickerActivity;->access$900(Lorg/telegram/ui/PhotoAlbumPickerActivity;)I
 
     move-result v4
@@ -264,7 +252,6 @@
     :goto_1
     iget-object v4, p0, Lorg/telegram/ui/PhotoAlbumPickerActivity$ListAdapter;->this$0:Lorg/telegram/ui/PhotoAlbumPickerActivity;
 
-    # getter for: Lorg/telegram/ui/PhotoAlbumPickerActivity;->albumsSorted:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/ui/PhotoAlbumPickerActivity;->access$800(Lorg/telegram/ui/PhotoAlbumPickerActivity;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -278,7 +265,6 @@
     .line 480
     iget-object v4, p0, Lorg/telegram/ui/PhotoAlbumPickerActivity$ListAdapter;->this$0:Lorg/telegram/ui/PhotoAlbumPickerActivity;
 
-    # getter for: Lorg/telegram/ui/PhotoAlbumPickerActivity;->albumsSorted:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/ui/PhotoAlbumPickerActivity;->access$800(Lorg/telegram/ui/PhotoAlbumPickerActivity;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -307,7 +293,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/PhotoAlbumPickerActivity$ListAdapter;->this$0:Lorg/telegram/ui/PhotoAlbumPickerActivity;
 
-    # getter for: Lorg/telegram/ui/PhotoAlbumPickerActivity;->columnsCount:I
     invoke-static {v5}, Lorg/telegram/ui/PhotoAlbumPickerActivity;->access$900(Lorg/telegram/ui/PhotoAlbumPickerActivity;)I
 
     move-result v5
@@ -355,7 +340,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/PhotoAlbumPickerActivity$ListAdapter;->this$0:Lorg/telegram/ui/PhotoAlbumPickerActivity;
 
-    # getter for: Lorg/telegram/ui/PhotoAlbumPickerActivity;->allowGifs:Z
     invoke-static {v3}, Lorg/telegram/ui/PhotoAlbumPickerActivity;->access$1100(Lorg/telegram/ui/PhotoAlbumPickerActivity;)Z
 
     move-result v3

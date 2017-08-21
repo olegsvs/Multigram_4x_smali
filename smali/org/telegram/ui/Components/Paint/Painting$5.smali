@@ -50,7 +50,6 @@
     .line 478
     iget-object v1, p0, Lorg/telegram/ui/Components/Paint/Painting$5;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # setter for: Lorg/telegram/ui/Components/Paint/Painting;->paused:Z
     invoke-static {v1, v3}, Lorg/telegram/ui/Components/Paint/Painting;->access$2002(Lorg/telegram/ui/Components/Paint/Painting;Z)Z
 
     .line 479
@@ -82,7 +81,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/Components/Paint/Painting$5;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->delegate:Lorg/telegram/ui/Components/Paint/Painting$PaintingDelegate;
     invoke-static {v5}, Lorg/telegram/ui/Components/Paint/Painting;->access$900(Lorg/telegram/ui/Components/Paint/Painting;)Lorg/telegram/ui/Components/Paint/Painting$PaintingDelegate;
 
     move-result-object v5
@@ -93,7 +91,6 @@
 
     invoke-direct {v2, v3, v4, v5}, Lorg/telegram/ui/Components/Paint/Slice;-><init>(Ljava/nio/ByteBuffer;Landroid/graphics/RectF;Lorg/telegram/messenger/DispatchQueue;)V
 
-    # setter for: Lorg/telegram/ui/Components/Paint/Painting;->backupSlice:Lorg/telegram/ui/Components/Paint/Slice;
     invoke-static {v1, v2}, Lorg/telegram/ui/Components/Paint/Painting;->access$2102(Lorg/telegram/ui/Components/Paint/Painting;Lorg/telegram/ui/Components/Paint/Slice;)Lorg/telegram/ui/Components/Paint/Slice;
 
     .line 482

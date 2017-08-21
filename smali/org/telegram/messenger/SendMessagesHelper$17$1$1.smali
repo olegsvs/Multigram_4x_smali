@@ -50,7 +50,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/SendMessagesHelper$17;->val$text:Ljava/lang/String;
 
-    # invokes: Lorg/telegram/messenger/SendMessagesHelper;->getTrimmedString(Ljava/lang/String;)Ljava/lang/String;
     invoke-static {v0}, Lorg/telegram/messenger/SendMessagesHelper;->access$1100(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v12

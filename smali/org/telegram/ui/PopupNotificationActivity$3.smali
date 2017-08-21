@@ -68,7 +68,6 @@
     .line 490
     iget-object v0, p0, Lorg/telegram/ui/PopupNotificationActivity$3;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # invokes: Lorg/telegram/ui/PopupNotificationActivity;->openCurrentMessage()V
     invoke-static {v0}, Lorg/telegram/ui/PopupNotificationActivity;->access$800(Lorg/telegram/ui/PopupNotificationActivity;)V
 
     goto :goto_0
@@ -82,7 +81,6 @@
     .line 492
     iget-object v0, p0, Lorg/telegram/ui/PopupNotificationActivity$3;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # invokes: Lorg/telegram/ui/PopupNotificationActivity;->switchToNextMessage()V
     invoke-static {v0}, Lorg/telegram/ui/PopupNotificationActivity;->access$900(Lorg/telegram/ui/PopupNotificationActivity;)V
 
     goto :goto_0

@@ -6692,7 +6692,6 @@
     :sswitch_2
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/extractor/mkv/MatroskaExtractor;->currentTrack:Lorg/telegram/messenger/exoplayer2/extractor/mkv/MatroskaExtractor$Track;
 
-    # setter for: Lorg/telegram/messenger/exoplayer2/extractor/mkv/MatroskaExtractor$Track;->language:Ljava/lang/String;
     invoke-static {v0, p2}, Lorg/telegram/messenger/exoplayer2/extractor/mkv/MatroskaExtractor$Track;->access$202(Lorg/telegram/messenger/exoplayer2/extractor/mkv/MatroskaExtractor$Track;Ljava/lang/String;)Ljava/lang/String;
 
     goto :goto_0

@@ -71,7 +71,6 @@
 
     iget v3, v0, Lorg/telegram/tgnet/TLRPC$User;->id:I
 
-    # invokes: Lorg/telegram/messenger/ContactsController;->deleteContactFromPhoneBook(I)V
     invoke-static {v2, v3}, Lorg/telegram/messenger/ContactsController;->access$1600(Lorg/telegram/messenger/ContactsController;I)V
 
     goto :goto_0

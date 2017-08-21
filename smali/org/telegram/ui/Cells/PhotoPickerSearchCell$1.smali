@@ -45,7 +45,6 @@
     .line 103
     iget-object v0, p0, Lorg/telegram/ui/Cells/PhotoPickerSearchCell$1;->this$0:Lorg/telegram/ui/Cells/PhotoPickerSearchCell;
 
-    # getter for: Lorg/telegram/ui/Cells/PhotoPickerSearchCell;->delegate:Lorg/telegram/ui/Cells/PhotoPickerSearchCell$PhotoPickerSearchCellDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Cells/PhotoPickerSearchCell;->access$300(Lorg/telegram/ui/Cells/PhotoPickerSearchCell;)Lorg/telegram/ui/Cells/PhotoPickerSearchCell$PhotoPickerSearchCellDelegate;
 
     move-result-object v0
@@ -55,7 +54,6 @@
     .line 104
     iget-object v0, p0, Lorg/telegram/ui/Cells/PhotoPickerSearchCell$1;->this$0:Lorg/telegram/ui/Cells/PhotoPickerSearchCell;
 
-    # getter for: Lorg/telegram/ui/Cells/PhotoPickerSearchCell;->delegate:Lorg/telegram/ui/Cells/PhotoPickerSearchCell$PhotoPickerSearchCellDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Cells/PhotoPickerSearchCell;->access$300(Lorg/telegram/ui/Cells/PhotoPickerSearchCell;)Lorg/telegram/ui/Cells/PhotoPickerSearchCell$PhotoPickerSearchCellDelegate;
 
     move-result-object v0

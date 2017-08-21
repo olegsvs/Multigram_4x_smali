@@ -127,14 +127,12 @@
     .line 75
     iget-object v1, p0, Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource;->clippingTimeline:Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;->startUs:J
     invoke-static {v1}, Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;->access$000(Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;)J
 
     move-result-wide v2
 
     iget-object v1, p0, Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource;->clippingTimeline:Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;->endUs:J
     invoke-static {v1}, Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;->access$100(Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;)J
 
     move-result-wide v4
@@ -192,7 +190,6 @@
     .line 96
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource;->clippingTimeline:Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;->startUs:J
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;->access$000(Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;)J
 
     move-result-wide v10
@@ -201,7 +198,6 @@
     .local v10, "startUs":J
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource;->clippingTimeline:Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;->endUs:J
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;->access$100(Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;)J
 
     move-result-wide v0
@@ -255,7 +251,6 @@
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource;->clippingTimeline:Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;
 
     .line 98
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;->endUs:J
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;->access$100(Lorg/telegram/messenger/exoplayer2/source/ClippingMediaSource$ClippingTimeline;)J
 
     move-result-wide v8

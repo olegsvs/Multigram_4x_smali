@@ -54,7 +54,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ChannelEditInfoActivity$14;->val$file:Lorg/telegram/tgnet/TLRPC$InputFile;
 
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->uploadedAvatar:Lorg/telegram/tgnet/TLRPC$InputFile;
     invoke-static {v1, v2}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1602(Lorg/telegram/ui/ChannelEditInfoActivity;Lorg/telegram/tgnet/TLRPC$InputFile;)Lorg/telegram/tgnet/TLRPC$InputFile;
 
     .line 753
@@ -64,20 +63,17 @@
 
     iget-object v2, v2, Lorg/telegram/tgnet/TLRPC$PhotoSize;->location:Lorg/telegram/tgnet/TLRPC$FileLocation;
 
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->avatar:Lorg/telegram/tgnet/TLRPC$FileLocation;
     invoke-static {v1, v2}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1702(Lorg/telegram/ui/ChannelEditInfoActivity;Lorg/telegram/tgnet/TLRPC$FileLocation;)Lorg/telegram/tgnet/TLRPC$FileLocation;
 
     .line 754
     iget-object v1, p0, Lorg/telegram/ui/ChannelEditInfoActivity$14;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->avatarImage:Lorg/telegram/ui/Components/BackupImageView;
     invoke-static {v1}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1900(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/ui/Components/BackupImageView;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/ui/ChannelEditInfoActivity$14;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->avatar:Lorg/telegram/tgnet/TLRPC$FileLocation;
     invoke-static {v2}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1700(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/tgnet/TLRPC$FileLocation;
 
     move-result-object v2
@@ -86,7 +82,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/ChannelEditInfoActivity$14;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->avatarDrawable:Lorg/telegram/ui/Components/AvatarDrawable;
     invoke-static {v4}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1800(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/ui/Components/AvatarDrawable;
 
     move-result-object v4
@@ -96,7 +91,6 @@
     .line 755
     iget-object v1, p0, Lorg/telegram/ui/ChannelEditInfoActivity$14;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->createAfterUpload:Z
     invoke-static {v1}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1100(Lorg/telegram/ui/ChannelEditInfoActivity;)Z
 
     move-result v1
@@ -107,7 +101,6 @@
     :try_start_0
     iget-object v1, p0, Lorg/telegram/ui/ChannelEditInfoActivity$14;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->progressDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v1}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1200(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     move-result-object v1
@@ -116,7 +109,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ChannelEditInfoActivity$14;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->progressDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v1}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1200(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     move-result-object v1
@@ -130,7 +122,6 @@
     .line 758
     iget-object v1, p0, Lorg/telegram/ui/ChannelEditInfoActivity$14;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->progressDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v1}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1200(Lorg/telegram/ui/ChannelEditInfoActivity;)Lorg/telegram/ui/ActionBar/AlertDialog;
 
     move-result-object v1
@@ -142,7 +133,6 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->progressDialog:Lorg/telegram/ui/ActionBar/AlertDialog;
     invoke-static {v1, v2}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$1202(Lorg/telegram/ui/ChannelEditInfoActivity;Lorg/telegram/ui/ActionBar/AlertDialog;)Lorg/telegram/ui/ActionBar/AlertDialog;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -154,13 +144,11 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->donePressed:Z
     invoke-static {v1, v2}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$402(Lorg/telegram/ui/ChannelEditInfoActivity;Z)Z
 
     .line 765
     iget-object v1, p0, Lorg/telegram/ui/ChannelEditInfoActivity$14;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->doneButton:Landroid/view/View;
     invoke-static {v1}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2000(Lorg/telegram/ui/ChannelEditInfoActivity;)Landroid/view/View;
 
     move-result-object v1

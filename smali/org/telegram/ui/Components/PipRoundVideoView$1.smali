@@ -260,7 +260,6 @@
     .line 120
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v7
@@ -278,7 +277,6 @@
     .line 121
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v7
@@ -296,7 +294,6 @@
     .line 122
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->videoWidth:I
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$100(Lorg/telegram/ui/Components/PipRoundVideoView;)I
 
     move-result v7
@@ -307,7 +304,6 @@
     .local v3, "maxDiff":I
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v7
@@ -321,7 +317,6 @@
     .line 124
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v7
@@ -339,7 +334,6 @@
     .local v0, "alpha":F
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v7
@@ -351,7 +345,6 @@
     .line 130
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v7
@@ -373,7 +366,6 @@
     :goto_3
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowView:Landroid/widget/FrameLayout;
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$200(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/widget/FrameLayout;
 
     move-result-object v7
@@ -389,7 +381,6 @@
     .line 135
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowView:Landroid/widget/FrameLayout;
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$200(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/widget/FrameLayout;
 
     move-result-object v7
@@ -403,7 +394,6 @@
     .line 138
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v7
@@ -417,7 +407,6 @@
     .line 139
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v7
@@ -431,21 +420,18 @@
     :goto_4
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowManager:Landroid/view/WindowManager;
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$300(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager;
 
     move-result-object v7
 
     iget-object v9, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowView:Landroid/widget/FrameLayout;
     invoke-static {v9}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$200(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/widget/FrameLayout;
 
     move-result-object v9
 
     iget-object v10, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v10}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v10
@@ -465,7 +451,6 @@
     :cond_8
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v7
@@ -478,7 +463,6 @@
 
     iget-object v10, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v10}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v10
@@ -494,7 +478,6 @@
     .line 126
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v7
@@ -505,7 +488,6 @@
 
     iget-object v10, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v10}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v10
@@ -525,7 +507,6 @@
     :cond_9
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v7
@@ -538,7 +519,6 @@
 
     iget-object v10, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v10}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v10
@@ -552,7 +532,6 @@
     .line 132
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v7
@@ -567,7 +546,6 @@
 
     iget-object v9, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v9}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v9
@@ -592,7 +570,6 @@
     :cond_a
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v7
@@ -605,7 +582,6 @@
 
     iget-object v10, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v10}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v10
@@ -621,7 +597,6 @@
     .line 141
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v7
@@ -632,7 +607,6 @@
 
     iget-object v10, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->windowLayoutParams:Landroid/view/WindowManager$LayoutParams;
     invoke-static {v10}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$000(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/WindowManager$LayoutParams;
 
     move-result-object v10
@@ -711,7 +685,6 @@
     .line 160
     iget-object v7, p0, Lorg/telegram/ui/Components/PipRoundVideoView$1;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # invokes: Lorg/telegram/ui/Components/PipRoundVideoView;->animateToBoundsMaybe()V
     invoke-static {v7}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$400(Lorg/telegram/ui/Components/PipRoundVideoView;)V
 
     goto/16 :goto_1

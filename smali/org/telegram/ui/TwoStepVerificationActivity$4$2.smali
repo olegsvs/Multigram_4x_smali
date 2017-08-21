@@ -50,7 +50,6 @@
 
     const-string/jumbo v1, ""
 
-    # setter for: Lorg/telegram/ui/TwoStepVerificationActivity;->email:Ljava/lang/String;
     invoke-static {v0, v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$702(Lorg/telegram/ui/TwoStepVerificationActivity;Ljava/lang/String;)Ljava/lang/String;
 
     .line 302
@@ -60,7 +59,6 @@
 
     const/4 v1, 0x0
 
-    # invokes: Lorg/telegram/ui/TwoStepVerificationActivity;->setNewPassword(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/TwoStepVerificationActivity;->access$800(Lorg/telegram/ui/TwoStepVerificationActivity;Z)V
 
     .line 303

@@ -57,7 +57,6 @@
     .line 1957
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->rowCount:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$9200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -97,7 +96,6 @@
     .line 2597
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->messagesSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$10600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -106,7 +104,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->profileSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$10700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -115,7 +112,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->drawerSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$10800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -124,7 +120,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->privacySectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$10900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -134,7 +129,6 @@
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 2598
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->mediaDownloadSection:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$11000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -143,7 +137,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$11100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -152,7 +145,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->notificationSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$11200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -161,7 +153,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$11300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -170,7 +161,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->plusSettingsSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$11400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -190,7 +180,6 @@
     :cond_2
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->settingsSectionRow2:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$9300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -199,7 +188,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->messagesSectionRow2:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$9500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -208,7 +196,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->profileSectionRow2:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$9700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -217,7 +204,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->drawerSectionRow2:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$9600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -227,7 +213,6 @@
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 2601
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->privacySectionRow2:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$10000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -236,7 +221,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->mediaDownloadSection2:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$10200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -245,7 +229,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsSectionRow2:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$9400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -254,7 +237,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->notificationSection2Row:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$9800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -263,7 +245,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationSection2Row:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$9900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -273,7 +254,6 @@
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 2602
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->plusSettingsSectionRow2:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$10300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -290,7 +270,6 @@
     :cond_4
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->disableAudioStopRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -299,7 +278,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->disableMessageClickRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -308,7 +286,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsHideTabsCheckRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$1700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -317,7 +294,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsDisableTabsAnimationCheckRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$2400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -326,7 +302,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsInfiniteTabsSwipe:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$2500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -336,7 +311,6 @@
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 2605
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsHideTabsCounters:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$2600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -345,7 +319,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsCountersCountChats:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$2900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -354,7 +327,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsCountersCountNotMuted:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$3000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -363,7 +335,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showAndroidEmojiRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -372,7 +343,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->useDeviceFontRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -382,7 +352,6 @@
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 2606
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->keepOriginalFilenameRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$3500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -391,7 +360,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->hideMobileNumberRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$3400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -400,7 +368,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showUsernameRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$3100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -409,7 +376,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatDirectShareToMenu:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$1000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -418,7 +384,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatDirectShareReplies:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -427,7 +392,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatDirectShareFavsFirst:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$1100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -437,7 +401,6 @@
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 2607
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowEditedMarkRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$1200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -446,7 +409,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowDateToastRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$1300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -455,7 +417,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatHideLeftGroupRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$1400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -464,7 +425,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatHideJoinedGroupRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$1500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -473,7 +433,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatHideBotKeyboardRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$1600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -482,7 +441,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->notificationInvertMessagesOrderRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$4900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -492,7 +450,6 @@
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 2608
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatSearchUserOnTwitterRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$6600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -501,7 +458,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowPhotoQualityBarRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$6700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -510,7 +466,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsTextModeRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$1800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -519,7 +474,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsExpandTabsRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$1900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -528,7 +482,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsDisableTabsScrollingRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$2100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -537,7 +490,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsToBottomRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$2200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -546,7 +498,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsHideSelectedTabIndicator:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$2300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -556,7 +507,6 @@
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 2609
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showTypingToastNotificationRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$7600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -565,7 +515,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationToBottomRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$8200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -574,7 +523,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showOnlineToastNotificationRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$7700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -583,7 +531,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showOfflineToastNotificationRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$7900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -593,7 +540,6 @@
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 2610
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showToastOnlyIfContactFavRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$7800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -602,7 +548,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->enableDirectReplyRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$5100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -611,7 +556,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowQuickBarRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$5200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -620,7 +564,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatVerticalQuickBarRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$6000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -629,7 +572,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatAlwaysBackToMainRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$6100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -638,7 +580,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatDoNotCloseQuickBarRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$6200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -648,7 +589,6 @@
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 2611
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatHideQuickBarOnScrollRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$6300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -657,7 +597,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatCenterQuickBarBtnRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$6400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -666,7 +605,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowMembersQuickBarRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$6500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -675,7 +613,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatSaveToCloudQuoteRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$6800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -684,7 +621,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatSwipeToReplyRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$5900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -694,7 +630,6 @@
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 2612
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->hideNotificationsIfPlayingRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$5000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -703,7 +638,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatHideInstantCameraRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$5800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -712,7 +646,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatDoNotHideStickersTabRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$5700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -721,7 +654,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatPhotoViewerHideStatusBarRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$5300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -731,7 +663,6 @@
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 2613
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->profileEnableGoToMsgRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$3300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -740,7 +671,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsDoNotChangeHeaderTitleRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$2000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -749,7 +679,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatDrawSingleBigEmojiRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$5400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -758,7 +687,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsLimitTabsCountersRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$2700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -767,7 +695,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatMarkdownRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$5500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -777,7 +704,6 @@
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 2614
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->moveVersionToSettingsRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$3200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -786,7 +712,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsShowAllInAdminTabRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$2800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -795,7 +720,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowUserBioRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$5600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -812,7 +736,6 @@
     :cond_6
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->emojiPopupSize:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -821,7 +744,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsTextSizeRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$3800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -830,7 +752,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsHeightRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$3900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -839,7 +760,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsPicClickRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$3600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -848,7 +768,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsGroupPicClickRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$3700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -857,7 +776,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatPhotoQualityRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -867,7 +785,6 @@
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 2617
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationSizeRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$8000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -876,7 +793,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationPaddingRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$8100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -885,7 +801,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationPositionRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$8300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -894,7 +809,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatsToLoadRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$8400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -903,7 +817,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsManageTabsRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$4000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -913,7 +826,6 @@
     .line 2619
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$4100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -922,7 +834,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowDirectShareBtn:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$4700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -931,7 +842,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->profileSharedOptionsRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$4300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -940,7 +850,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->savePlusSettingsRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$6900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -950,7 +859,6 @@
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 2620
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->restorePlusSettingsRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$7100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -959,7 +867,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->resetPlusSettingsRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$7300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -968,7 +875,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showMySettingsRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$4500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -985,7 +891,6 @@
     :cond_8
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->keepOriginalFilenameDetailRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$10400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -994,7 +899,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showOnlineToastNotificationDetailRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$10100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -1003,7 +907,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsShowAllInAdminTabDetailRow:I
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$10500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v1
@@ -1041,7 +944,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showPrefix:Z
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$000(Lorg/telegram/ui/PlusSettingsActivity;)Z
 
     move-result v27
@@ -1058,7 +960,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->settingsSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1154,7 +1055,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1210,7 +1110,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1252,7 +1151,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1269,7 +1167,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->messagesSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1303,7 +1200,6 @@
 
     move-object/from16 v28, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsSectionRow2:I
     invoke-static/range {v28 .. v28}, Lorg/telegram/ui/PlusSettingsActivity;->access$9400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v28
@@ -1334,7 +1230,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->messagesSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1376,7 +1271,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->messagesSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1393,7 +1287,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->drawerSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1427,7 +1320,6 @@
 
     move-object/from16 v28, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->messagesSectionRow2:I
     invoke-static/range {v28 .. v28}, Lorg/telegram/ui/PlusSettingsActivity;->access$9500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v28
@@ -1458,7 +1350,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->drawerSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1500,7 +1391,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->drawerSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1517,7 +1407,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->profileSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1551,7 +1440,6 @@
 
     move-object/from16 v28, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->drawerSectionRow2:I
     invoke-static/range {v28 .. v28}, Lorg/telegram/ui/PlusSettingsActivity;->access$9600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v28
@@ -1582,7 +1470,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->profileSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1624,7 +1511,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->profileSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1641,7 +1527,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->notificationSection2Row:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1675,7 +1560,6 @@
 
     move-object/from16 v28, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->profileSectionRow2:I
     invoke-static/range {v28 .. v28}, Lorg/telegram/ui/PlusSettingsActivity;->access$9700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v28
@@ -1706,7 +1590,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->notificationSection2Row:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1748,7 +1631,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->notificationSection2Row:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1765,7 +1647,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationSection2Row:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1799,7 +1680,6 @@
 
     move-object/from16 v28, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->notificationSection2Row:I
     invoke-static/range {v28 .. v28}, Lorg/telegram/ui/PlusSettingsActivity;->access$9800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v28
@@ -1830,7 +1710,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationSection2Row:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1872,7 +1751,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationSection2Row:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1889,7 +1767,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->privacySectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$10000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1923,7 +1800,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationSection2Row:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1936,7 +1812,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showOnlineToastNotificationDetailRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$10100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -1985,7 +1860,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->privacySectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$10000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -2027,7 +1901,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->privacySectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$10000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -2044,7 +1917,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->mediaDownloadSection2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$10200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -2078,7 +1950,6 @@
 
     move-object/from16 v28, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->privacySectionRow2:I
     invoke-static/range {v28 .. v28}, Lorg/telegram/ui/PlusSettingsActivity;->access$10000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v28
@@ -2109,7 +1980,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->mediaDownloadSection2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$10200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -2151,7 +2021,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->mediaDownloadSection2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$10200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -2168,7 +2037,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->plusSettingsSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$10300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -2202,7 +2070,6 @@
 
     move-object/from16 v28, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->mediaDownloadSection2:I
     invoke-static/range {v28 .. v28}, Lorg/telegram/ui/PlusSettingsActivity;->access$10200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v28
@@ -2263,7 +2130,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->settingsSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -2317,7 +2183,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->messagesSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -2371,7 +2236,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->profileSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -2425,7 +2289,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->drawerSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -2479,7 +2342,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->privacySectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$10000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -2533,7 +2395,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->mediaDownloadSection2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$10200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -2587,7 +2448,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -2641,7 +2501,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->notificationSection2Row:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -2695,7 +2554,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationSection2Row:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$9900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -2749,7 +2607,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->plusSettingsSectionRow2:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$10300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -2833,7 +2690,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->emojiPopupSize:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -2945,7 +2801,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsManageTabsRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$4000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -3009,7 +2864,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatPhotoQualityRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -3102,7 +2956,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsTextSizeRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$3800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -3195,7 +3048,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsHeightRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$3900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -3288,7 +3140,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsPicClickRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$3600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -3424,7 +3275,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsGroupPicClickRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$3700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -3560,7 +3410,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationSizeRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$8000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -3653,7 +3502,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationPaddingRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$8100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -3746,7 +3594,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationPositionRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$8300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -3872,7 +3719,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatsToLoadRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$8400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -4266,7 +4112,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->disableAudioStopRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -4347,7 +4192,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->disableMessageClickRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -4428,7 +4272,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatDirectShareReplies:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -4509,7 +4352,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatDirectShareToMenu:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$1000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -4590,7 +4432,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatDirectShareFavsFirst:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$1100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -4671,7 +4512,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowEditedMarkRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$1200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -4752,7 +4592,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowDateToastRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$1300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -4833,7 +4672,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatHideLeftGroupRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$1400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -4914,7 +4752,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatHideJoinedGroupRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$1500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -4995,7 +4832,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatHideBotKeyboardRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$1600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -5076,7 +4912,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->keepOriginalFilenameRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$3500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -5157,7 +4992,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showAndroidEmojiRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -5238,7 +5072,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->useDeviceFontRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -5319,7 +5152,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsHideTabsCheckRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$1700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -5390,7 +5222,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsDisableTabsAnimationCheckRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$2400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -5461,7 +5292,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsTextModeRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$1800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -5532,7 +5362,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsExpandTabsRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$1900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -5603,7 +5432,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsToBottomRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$2200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -5684,7 +5512,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsDisableTabsScrollingRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$2100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -5755,7 +5582,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsHideSelectedTabIndicator:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$2300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -5836,7 +5662,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsInfiniteTabsSwipe:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$2500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -5907,7 +5732,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsHideTabsCounters:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$2600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -5978,7 +5802,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsCountersCountChats:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$2900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -6049,7 +5872,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsCountersCountNotMuted:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$3000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -6120,7 +5942,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->hideMobileNumberRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$3400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -6191,7 +6012,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showUsernameRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$3100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -6262,7 +6082,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->notificationInvertMessagesOrderRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$4900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -6343,7 +6162,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatSearchUserOnTwitterRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$6600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -6424,7 +6242,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowPhotoQualityBarRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$6700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -6495,7 +6312,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showTypingToastNotificationRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$7600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -6566,7 +6382,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationToBottomRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$8200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -6637,7 +6452,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showOnlineToastNotificationRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$7700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -6708,7 +6522,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showToastOnlyIfContactFavRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$7800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -6779,7 +6592,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showOfflineToastNotificationRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$7900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -6850,7 +6662,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->hideNotificationsIfPlayingRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$5000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -6921,7 +6732,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->enableDirectReplyRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$5100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -6992,7 +6802,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowQuickBarRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$5200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -7063,7 +6872,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatVerticalQuickBarRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$6000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -7134,7 +6942,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatAlwaysBackToMainRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$6100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -7205,7 +7012,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatDoNotCloseQuickBarRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$6200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -7276,7 +7082,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatHideQuickBarOnScrollRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$6300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -7347,7 +7152,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatCenterQuickBarBtnRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$6400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -7418,7 +7222,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowMembersQuickBarRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$6500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -7489,7 +7292,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatSaveToCloudQuoteRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$6800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -7560,7 +7362,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatSwipeToReplyRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$5900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -7631,7 +7432,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatHideInstantCameraRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$5800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -7702,7 +7502,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatDoNotHideStickersTabRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$5700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -7773,7 +7572,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatPhotoViewerHideStatusBarRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$5300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -7844,7 +7642,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->profileEnableGoToMsgRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$3300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -7915,7 +7712,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsDoNotChangeHeaderTitleRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$2000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -7986,7 +7782,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatDrawSingleBigEmojiRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$5400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -8057,7 +7852,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsLimitTabsCountersRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$2700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -8128,7 +7922,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatMarkdownRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$5500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -8199,7 +7992,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->moveVersionToSettingsRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$3200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -8270,7 +8062,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsShowAllInAdminTabRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$2800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -8341,7 +8132,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowUserBioRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$5600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -8450,7 +8240,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$4100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -8960,7 +8749,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowDirectShareBtn:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$4700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -9422,7 +9210,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->profileSharedOptionsRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$4300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -9799,7 +9586,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showMySettingsRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$4500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -10059,7 +9845,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->savePlusSettingsRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$6900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -10156,7 +9941,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->restorePlusSettingsRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$7100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -10215,7 +9999,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->resetPlusSettingsRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$7300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -10305,7 +10088,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->keepOriginalFilenameDetailRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$10400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -10379,7 +10161,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showOnlineToastNotificationDetailRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$10100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -10415,7 +10196,6 @@
 
     move-object/from16 v27, v0
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsShowAllInAdminTabDetailRow:I
     invoke-static/range {v27 .. v27}, Lorg/telegram/ui/PlusSettingsActivity;->access$10500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v27
@@ -10492,7 +10272,6 @@
     .line 1939
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showAndroidEmojiRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10501,7 +10280,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->useDeviceFontRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10510,7 +10288,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->emojiPopupSize:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10519,7 +10296,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsTextSizeRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$3800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10528,7 +10304,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsHeightRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$3900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10537,7 +10312,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$4100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10546,7 +10320,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsManageTabsRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$4000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10555,7 +10328,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowDirectShareBtn:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$4700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10564,7 +10336,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->profileSharedOptionsRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$4300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10574,7 +10345,6 @@
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 1940
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->disableAudioStopRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10583,7 +10353,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->disableMessageClickRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10592,7 +10361,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatDirectShareToMenu:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$1000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10601,7 +10369,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatDirectShareReplies:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10610,7 +10377,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatDirectShareFavsFirst:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$1100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10619,7 +10385,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowEditedMarkRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$1200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10629,7 +10394,6 @@
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 1941
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowDateToastRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$1300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10638,7 +10402,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatHideLeftGroupRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$1400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10647,7 +10410,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatHideJoinedGroupRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$1500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10656,7 +10418,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatHideBotKeyboardRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$1600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10665,7 +10426,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsHideTabsCheckRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$1700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10674,7 +10434,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsDisableTabsAnimationCheckRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$2400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10684,7 +10443,6 @@
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 1942
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsInfiniteTabsSwipe:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$2500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10693,7 +10451,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsHideTabsCounters:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$2600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10702,7 +10459,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsCountersCountChats:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$2900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10711,7 +10467,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsCountersCountNotMuted:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$3000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10720,7 +10475,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatSearchUserOnTwitterRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$6600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10730,7 +10484,6 @@
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 1943
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->keepOriginalFilenameRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$3500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10739,7 +10492,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsPicClickRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$3600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10748,7 +10500,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsGroupPicClickRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$3700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10757,7 +10508,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->hideMobileNumberRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$3400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10766,7 +10516,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showUsernameRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$3100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10776,7 +10525,6 @@
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 1944
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->notificationInvertMessagesOrderRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$4900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10785,7 +10533,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->savePlusSettingsRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$6900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10794,7 +10541,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->restorePlusSettingsRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$7100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10803,7 +10549,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->resetPlusSettingsRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$7300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10812,7 +10557,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatPhotoQualityRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10822,7 +10566,6 @@
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 1945
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowPhotoQualityBarRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$6700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10831,7 +10574,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsTextModeRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$1800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10840,7 +10582,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsExpandTabsRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$1900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10849,7 +10590,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsDisableTabsScrollingRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$2100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10858,7 +10598,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsDoNotChangeHeaderTitleRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$2000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10867,7 +10606,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsTabsToBottomRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$2200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10876,7 +10614,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsHideSelectedTabIndicator:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$2300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10885,7 +10622,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showMySettingsRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$4500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10894,7 +10630,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showTypingToastNotificationRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$7600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10904,7 +10639,6 @@
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 1946
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationSizeRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$8000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10913,7 +10647,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationPaddingRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$8100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10922,7 +10655,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationToBottomRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$8200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10931,7 +10663,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->toastNotificationPositionRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$8300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10940,7 +10671,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showOnlineToastNotificationRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$7700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10950,7 +10680,6 @@
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 1947
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showOfflineToastNotificationRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$7900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10959,7 +10688,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->showToastOnlyIfContactFavRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$7800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10968,7 +10696,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->enableDirectReplyRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$5100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10977,7 +10704,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowQuickBarRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$5200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10986,7 +10712,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatVerticalQuickBarRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$6000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -10996,7 +10721,6 @@
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 1948
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatAlwaysBackToMainRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$6100(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -11005,7 +10729,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatDoNotCloseQuickBarRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$6200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -11014,7 +10737,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatHideQuickBarOnScrollRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$6300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -11024,7 +10746,6 @@
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 1949
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatCenterQuickBarBtnRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$6400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -11033,7 +10754,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowMembersQuickBarRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$6500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -11042,7 +10762,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatSaveToCloudQuoteRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$6800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -11051,7 +10770,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatSwipeToReplyRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$5900(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -11061,7 +10779,6 @@
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 1950
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->hideNotificationsIfPlayingRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$5000(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -11070,7 +10787,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatHideInstantCameraRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$5800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -11079,7 +10795,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatDoNotHideStickersTabRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$5700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -11088,7 +10803,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatPhotoViewerHideStatusBarRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$5300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -11097,7 +10811,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatsToLoadRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$8400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -11107,7 +10820,6 @@
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 1951
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->profileEnableGoToMsgRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$3300(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -11116,7 +10828,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatDrawSingleBigEmojiRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$5400(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -11125,7 +10836,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsLimitTabsCountersRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$2700(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -11134,7 +10844,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatMarkdownRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$5500(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -11143,7 +10852,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->moveVersionToSettingsRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$3200(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -11153,7 +10861,6 @@
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
     .line 1952
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->dialogsShowAllInAdminTabRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$2800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -11162,7 +10869,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/PlusSettingsActivity$ListAdapter;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->chatShowUserBioRow:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$5600(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0

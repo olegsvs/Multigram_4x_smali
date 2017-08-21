@@ -47,7 +47,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/Crop/CropView;->hasAspectRatioDialog:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/Crop/CropView;->access$2302(Lorg/telegram/ui/Components/Crop/CropView;Z)Z
 
     .line 809

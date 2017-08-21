@@ -44,7 +44,6 @@
     .line 1133
     iget-object v0, p0, Lorg/telegram/messenger/voip/VoIPService$16;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # getter for: Lorg/telegram/messenger/voip/VoIPService;->controller:Lorg/telegram/messenger/voip/VoIPController;
     invoke-static {v0}, Lorg/telegram/messenger/voip/VoIPService;->access$2700(Lorg/telegram/messenger/voip/VoIPService;)Lorg/telegram/messenger/voip/VoIPController;
 
     move-result-object v0
@@ -59,7 +58,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/messenger/voip/VoIPService$16;->this$0:Lorg/telegram/messenger/voip/VoIPService;
 
-    # invokes: Lorg/telegram/messenger/voip/VoIPService;->updateStats()V
     invoke-static {v0}, Lorg/telegram/messenger/voip/VoIPService;->access$2800(Lorg/telegram/messenger/voip/VoIPService;)V
 
     .line 1136

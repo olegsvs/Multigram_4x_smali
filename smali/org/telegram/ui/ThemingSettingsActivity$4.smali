@@ -74,7 +74,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/ThemingSettingsActivity$4;->this$0:Lorg/telegram/ui/ThemingSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingSettingsActivity;->headerColorRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingSettingsActivity;->access$200(Lorg/telegram/ui/ThemingSettingsActivity;)I
 
     move-result v0
@@ -86,7 +85,6 @@
 
     const-string/jumbo v1, "prefHeaderColor"
 
-    # invokes: Lorg/telegram/ui/ThemingSettingsActivity;->resetInt(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1600(Lorg/telegram/ui/ThemingSettingsActivity;Ljava/lang/String;)V
 
     .line 423
@@ -100,7 +98,6 @@
     :cond_2
     iget-object v0, p0, Lorg/telegram/ui/ThemingSettingsActivity$4;->this$0:Lorg/telegram/ui/ThemingSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingSettingsActivity;->headerTitleColorRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingSettingsActivity;->access$400(Lorg/telegram/ui/ThemingSettingsActivity;)I
 
     move-result v0
@@ -112,7 +109,6 @@
 
     const-string/jumbo v1, "prefHeaderTitleColor"
 
-    # invokes: Lorg/telegram/ui/ThemingSettingsActivity;->resetInt(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1600(Lorg/telegram/ui/ThemingSettingsActivity;Ljava/lang/String;)V
 
     goto :goto_1
@@ -121,7 +117,6 @@
     :cond_3
     iget-object v0, p0, Lorg/telegram/ui/ThemingSettingsActivity$4;->this$0:Lorg/telegram/ui/ThemingSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingSettingsActivity;->headerStatusColorRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingSettingsActivity;->access$500(Lorg/telegram/ui/ThemingSettingsActivity;)I
 
     move-result v0
@@ -133,7 +128,6 @@
 
     const-string/jumbo v1, "prefHeaderStatusColor"
 
-    # invokes: Lorg/telegram/ui/ThemingSettingsActivity;->resetInt(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1600(Lorg/telegram/ui/ThemingSettingsActivity;Ljava/lang/String;)V
 
     goto :goto_1
@@ -142,7 +136,6 @@
     :cond_4
     iget-object v0, p0, Lorg/telegram/ui/ThemingSettingsActivity$4;->this$0:Lorg/telegram/ui/ThemingSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingSettingsActivity;->headerIconsColorRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingSettingsActivity;->access$600(Lorg/telegram/ui/ThemingSettingsActivity;)I
 
     move-result v0
@@ -154,7 +147,6 @@
 
     const-string/jumbo v1, "prefHeaderIconsColor"
 
-    # invokes: Lorg/telegram/ui/ThemingSettingsActivity;->resetInt(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1600(Lorg/telegram/ui/ThemingSettingsActivity;Ljava/lang/String;)V
 
     goto :goto_1
@@ -163,7 +155,6 @@
     :cond_5
     iget-object v0, p0, Lorg/telegram/ui/ThemingSettingsActivity$4;->this$0:Lorg/telegram/ui/ThemingSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingSettingsActivity;->avatarColorRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingSettingsActivity;->access$700(Lorg/telegram/ui/ThemingSettingsActivity;)I
 
     move-result v0
@@ -175,7 +166,6 @@
 
     const-string/jumbo v1, "prefAvatarColor"
 
-    # invokes: Lorg/telegram/ui/ThemingSettingsActivity;->resetInt(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1600(Lorg/telegram/ui/ThemingSettingsActivity;Ljava/lang/String;)V
 
     goto :goto_1
@@ -184,7 +174,6 @@
     :cond_6
     iget-object v0, p0, Lorg/telegram/ui/ThemingSettingsActivity$4;->this$0:Lorg/telegram/ui/ThemingSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingSettingsActivity;->avatarRadiusRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingSettingsActivity;->access$800(Lorg/telegram/ui/ThemingSettingsActivity;)I
 
     move-result v0
@@ -196,7 +185,6 @@
 
     const-string/jumbo v1, "prefAvatarRadius"
 
-    # invokes: Lorg/telegram/ui/ThemingSettingsActivity;->resetInt(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1600(Lorg/telegram/ui/ThemingSettingsActivity;Ljava/lang/String;)V
 
     goto :goto_1
@@ -205,7 +193,6 @@
     :cond_7
     iget-object v0, p0, Lorg/telegram/ui/ThemingSettingsActivity$4;->this$0:Lorg/telegram/ui/ThemingSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingSettingsActivity;->avatarSizeRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingSettingsActivity;->access$900(Lorg/telegram/ui/ThemingSettingsActivity;)I
 
     move-result v0
@@ -217,7 +204,6 @@
 
     const-string/jumbo v1, "prefAvatarSize"
 
-    # invokes: Lorg/telegram/ui/ThemingSettingsActivity;->resetInt(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1600(Lorg/telegram/ui/ThemingSettingsActivity;Ljava/lang/String;)V
 
     goto :goto_1
@@ -226,7 +212,6 @@
     :cond_8
     iget-object v0, p0, Lorg/telegram/ui/ThemingSettingsActivity$4;->this$0:Lorg/telegram/ui/ThemingSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingSettingsActivity;->backgroundColorRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1000(Lorg/telegram/ui/ThemingSettingsActivity;)I
 
     move-result v0
@@ -238,7 +223,6 @@
 
     const-string/jumbo v1, "prefBGColor"
 
-    # invokes: Lorg/telegram/ui/ThemingSettingsActivity;->resetInt(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1600(Lorg/telegram/ui/ThemingSettingsActivity;Ljava/lang/String;)V
 
     goto :goto_1
@@ -247,7 +231,6 @@
     :cond_9
     iget-object v0, p0, Lorg/telegram/ui/ThemingSettingsActivity$4;->this$0:Lorg/telegram/ui/ThemingSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingSettingsActivity;->shadowColorRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1100(Lorg/telegram/ui/ThemingSettingsActivity;)I
 
     move-result v0
@@ -259,7 +242,6 @@
 
     const-string/jumbo v1, "prefShadowColor"
 
-    # invokes: Lorg/telegram/ui/ThemingSettingsActivity;->resetInt(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1600(Lorg/telegram/ui/ThemingSettingsActivity;Ljava/lang/String;)V
 
     goto/16 :goto_1
@@ -268,7 +250,6 @@
     :cond_a
     iget-object v0, p0, Lorg/telegram/ui/ThemingSettingsActivity$4;->this$0:Lorg/telegram/ui/ThemingSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingSettingsActivity;->sectionColorRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1200(Lorg/telegram/ui/ThemingSettingsActivity;)I
 
     move-result v0
@@ -280,7 +261,6 @@
 
     const-string/jumbo v1, "prefSectionColor"
 
-    # invokes: Lorg/telegram/ui/ThemingSettingsActivity;->resetInt(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1600(Lorg/telegram/ui/ThemingSettingsActivity;Ljava/lang/String;)V
 
     goto/16 :goto_1
@@ -289,7 +269,6 @@
     :cond_b
     iget-object v0, p0, Lorg/telegram/ui/ThemingSettingsActivity$4;->this$0:Lorg/telegram/ui/ThemingSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingSettingsActivity;->titleColorRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1300(Lorg/telegram/ui/ThemingSettingsActivity;)I
 
     move-result v0
@@ -301,7 +280,6 @@
 
     const-string/jumbo v1, "prefTitleColor"
 
-    # invokes: Lorg/telegram/ui/ThemingSettingsActivity;->resetInt(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1600(Lorg/telegram/ui/ThemingSettingsActivity;Ljava/lang/String;)V
 
     goto/16 :goto_1
@@ -310,7 +288,6 @@
     :cond_c
     iget-object v0, p0, Lorg/telegram/ui/ThemingSettingsActivity$4;->this$0:Lorg/telegram/ui/ThemingSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingSettingsActivity;->summaryColorRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1400(Lorg/telegram/ui/ThemingSettingsActivity;)I
 
     move-result v0
@@ -322,7 +299,6 @@
 
     const-string/jumbo v1, "prefSummaryColor"
 
-    # invokes: Lorg/telegram/ui/ThemingSettingsActivity;->resetInt(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1600(Lorg/telegram/ui/ThemingSettingsActivity;Ljava/lang/String;)V
 
     goto/16 :goto_1
@@ -331,7 +307,6 @@
     :cond_d
     iget-object v0, p0, Lorg/telegram/ui/ThemingSettingsActivity$4;->this$0:Lorg/telegram/ui/ThemingSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingSettingsActivity;->dividerColorRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1500(Lorg/telegram/ui/ThemingSettingsActivity;)I
 
     move-result v0
@@ -343,7 +318,6 @@
 
     const-string/jumbo v1, "prefDividerColor"
 
-    # invokes: Lorg/telegram/ui/ThemingSettingsActivity;->resetInt(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ThemingSettingsActivity;->access$1600(Lorg/telegram/ui/ThemingSettingsActivity;Ljava/lang/String;)V
 
     goto/16 :goto_1

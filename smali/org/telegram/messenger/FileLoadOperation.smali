@@ -1285,7 +1285,6 @@
 
     .line 497
     .local v2, "requestInfo":Lorg/telegram/messenger/FileLoadOperation$RequestInfo;
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->response:Lorg/telegram/tgnet/TLRPC$TL_upload_file;
     invoke-static {v2}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$800(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_file;
 
     move-result-object v3
@@ -1293,7 +1292,6 @@
     if-eqz v3, :cond_4
 
     .line 498
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->response:Lorg/telegram/tgnet/TLRPC$TL_upload_file;
     invoke-static {v2}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$800(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_file;
 
     move-result-object v3
@@ -1301,7 +1299,6 @@
     iput-boolean v4, v3, Lorg/telegram/tgnet/TLRPC$TL_upload_file;->disableFree:Z
 
     .line 499
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->response:Lorg/telegram/tgnet/TLRPC$TL_upload_file;
     invoke-static {v2}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$800(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_file;
 
     move-result-object v3
@@ -1382,7 +1379,6 @@
     .restart local v0    # "a":I
     .restart local v2    # "requestInfo":Lorg/telegram/messenger/FileLoadOperation$RequestInfo;
     :cond_4
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseWeb:Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
     invoke-static {v2}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$900(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
 
     move-result-object v3
@@ -1390,7 +1386,6 @@
     if-eqz v3, :cond_5
 
     .line 501
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseWeb:Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
     invoke-static {v2}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$900(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
 
     move-result-object v3
@@ -1398,7 +1393,6 @@
     iput-boolean v4, v3, Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;->disableFree:Z
 
     .line 502
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseWeb:Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
     invoke-static {v2}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$900(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
 
     move-result-object v3
@@ -1409,7 +1403,6 @@
 
     .line 503
     :cond_5
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseCdn:Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
     invoke-static {v2}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1000(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
 
     move-result-object v3
@@ -1417,7 +1410,6 @@
     if-eqz v3, :cond_3
 
     .line 504
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseCdn:Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
     invoke-static {v2}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1000(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
 
     move-result-object v3
@@ -1425,7 +1417,6 @@
     iput-boolean v4, v3, Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;->disableFree:Z
 
     .line 505
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseCdn:Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
     invoke-static {v2}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1000(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
 
     move-result-object v3
@@ -1482,7 +1473,6 @@
 
     .line 821
     .local v1, "info":Lorg/telegram/messenger/FileLoadOperation$RequestInfo;
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->offset:I
     invoke-static {v1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1400(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)I
 
     move-result v3
@@ -1503,7 +1493,6 @@
 
     .line 825
     :cond_1
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->requestToken:I
     invoke-static {v1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$700(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)I
 
     move-result v3
@@ -1515,7 +1504,6 @@
 
     move-result-object v3
 
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->requestToken:I
     invoke-static {v1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$700(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)I
 
     move-result v4
@@ -1556,7 +1544,6 @@
 
     .line 832
     .restart local v1    # "info":Lorg/telegram/messenger/FileLoadOperation$RequestInfo;
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->response:Lorg/telegram/tgnet/TLRPC$TL_upload_file;
     invoke-static {v1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$800(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_file;
 
     move-result-object v3
@@ -1564,7 +1551,6 @@
     if-eqz v3, :cond_4
 
     .line 833
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->response:Lorg/telegram/tgnet/TLRPC$TL_upload_file;
     invoke-static {v1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$800(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_file;
 
     move-result-object v3
@@ -1572,7 +1558,6 @@
     iput-boolean v6, v3, Lorg/telegram/tgnet/TLRPC$TL_upload_file;->disableFree:Z
 
     .line 834
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->response:Lorg/telegram/tgnet/TLRPC$TL_upload_file;
     invoke-static {v1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$800(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_file;
 
     move-result-object v3
@@ -1582,7 +1567,6 @@
     .line 842
     :cond_3
     :goto_3
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->offset:I
     invoke-static {v1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1400(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)I
 
     move-result v3
@@ -1598,7 +1582,6 @@
 
     .line 835
     :cond_4
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseWeb:Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
     invoke-static {v1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$900(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
 
     move-result-object v3
@@ -1606,7 +1589,6 @@
     if-eqz v3, :cond_5
 
     .line 836
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseWeb:Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
     invoke-static {v1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$900(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
 
     move-result-object v3
@@ -1614,7 +1596,6 @@
     iput-boolean v6, v3, Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;->disableFree:Z
 
     .line 837
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseWeb:Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
     invoke-static {v1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$900(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
 
     move-result-object v3
@@ -1625,7 +1606,6 @@
 
     .line 838
     :cond_5
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseCdn:Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
     invoke-static {v1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1000(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
 
     move-result-object v3
@@ -1633,7 +1613,6 @@
     if-eqz v3, :cond_3
 
     .line 839
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseCdn:Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
     invoke-static {v1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1000(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
 
     move-result-object v3
@@ -1641,7 +1620,6 @@
     iput-boolean v6, v3, Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;->disableFree:Z
 
     .line 840
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseCdn:Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
     invoke-static {v1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1000(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
 
     move-result-object v3
@@ -1680,7 +1658,6 @@
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 565
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->response:Lorg/telegram/tgnet/TLRPC$TL_upload_file;
     invoke-static {p1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$800(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_file;
 
     move-result-object v0
@@ -1688,7 +1665,6 @@
     if-eqz v0, :cond_1
 
     .line 566
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->response:Lorg/telegram/tgnet/TLRPC$TL_upload_file;
     invoke-static {p1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$800(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_file;
 
     move-result-object v0
@@ -1702,7 +1678,6 @@
 
     .line 567
     :cond_1
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseWeb:Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
     invoke-static {p1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$900(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
 
     move-result-object v0
@@ -1710,7 +1685,6 @@
     if-eqz v0, :cond_2
 
     .line 568
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseWeb:Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
     invoke-static {p1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$900(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
 
     move-result-object v0
@@ -1721,7 +1695,6 @@
 
     .line 569
     :cond_2
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseCdn:Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
     invoke-static {p1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1000(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
 
     move-result-object v0
@@ -1729,7 +1702,6 @@
     if-eqz v0, :cond_0
 
     .line 570
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseCdn:Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
     invoke-static {p1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1000(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
 
     move-result-object v0
@@ -2102,7 +2074,6 @@
 
     iget v2, v0, Lorg/telegram/messenger/FileLoadOperation;->downloadedBytes:I
 
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->offset:I
     invoke-static/range {p1 .. p1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1400(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)I
 
     move-result v3
@@ -2119,7 +2090,6 @@
 
     .line 635
     :cond_1
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->response:Lorg/telegram/tgnet/TLRPC$TL_upload_file;
     invoke-static/range {p1 .. p1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$800(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_file;
 
     move-result-object v2
@@ -2127,7 +2097,6 @@
     if-eqz v2, :cond_3
 
     .line 636
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->response:Lorg/telegram/tgnet/TLRPC$TL_upload_file;
     invoke-static/range {p1 .. p1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$800(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_file;
 
     move-result-object v2
@@ -2161,7 +2130,6 @@
     .line 637
     .end local v10    # "bytes":Lorg/telegram/tgnet/NativeByteBuffer;
     :cond_3
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseWeb:Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
     invoke-static/range {p1 .. p1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$900(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
 
     move-result-object v2
@@ -2169,7 +2137,6 @@
     if-eqz v2, :cond_4
 
     .line 638
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseWeb:Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
     invoke-static/range {p1 .. p1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$900(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
 
     move-result-object v2
@@ -2182,7 +2149,6 @@
     .line 639
     .end local v10    # "bytes":Lorg/telegram/tgnet/NativeByteBuffer;
     :cond_4
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseCdn:Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
     invoke-static/range {p1 .. p1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1000(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
 
     move-result-object v2
@@ -2190,7 +2156,6 @@
     if-eqz v2, :cond_5
 
     .line 640
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseCdn:Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
     invoke-static/range {p1 .. p1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1000(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
 
     move-result-object v2
@@ -2313,7 +2278,6 @@
     .end local v11    # "cdnCheckPart":I
     .end local v18    # "fileOffset":I
     :cond_9
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseCdn:Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
     invoke-static/range {p1 .. p1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1000(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
 
     move-result-object v2
@@ -2321,7 +2285,6 @@
     if-eqz v2, :cond_a
 
     .line 661
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->offset:I
     invoke-static/range {p1 .. p1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1400(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)I
 
     move-result v2
@@ -2533,7 +2496,6 @@
     if-eqz v2, :cond_e
 
     .line 679
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->offset:I
     invoke-static/range {p1 .. p1}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1400(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)I
 
     move-result v2
@@ -3208,7 +3170,6 @@
 
     iget v2, v0, Lorg/telegram/messenger/FileLoadOperation;->downloadedBytes:I
 
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->offset:I
     invoke-static {v15}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1400(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)I
 
     move-result v3
@@ -3234,7 +3195,6 @@
     if-nez v2, :cond_1a
 
     .line 735
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->response:Lorg/telegram/tgnet/TLRPC$TL_upload_file;
     invoke-static {v15}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$800(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_file;
 
     move-result-object v2
@@ -3242,7 +3202,6 @@
     if-eqz v2, :cond_1b
 
     .line 736
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->response:Lorg/telegram/tgnet/TLRPC$TL_upload_file;
     invoke-static {v15}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$800(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_file;
 
     move-result-object v2
@@ -3252,7 +3211,6 @@
     iput-boolean v3, v2, Lorg/telegram/tgnet/TLRPC$TL_upload_file;->disableFree:Z
 
     .line 737
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->response:Lorg/telegram/tgnet/TLRPC$TL_upload_file;
     invoke-static {v15}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$800(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_file;
 
     move-result-object v2
@@ -3277,7 +3235,6 @@
     .line 738
     .restart local v15    # "delayedRequestInfo":Lorg/telegram/messenger/FileLoadOperation$RequestInfo;
     :cond_1b
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseWeb:Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
     invoke-static {v15}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$900(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
 
     move-result-object v2
@@ -3285,7 +3242,6 @@
     if-eqz v2, :cond_1c
 
     .line 739
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseWeb:Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
     invoke-static {v15}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$900(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
 
     move-result-object v2
@@ -3295,7 +3251,6 @@
     iput-boolean v3, v2, Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;->disableFree:Z
 
     .line 740
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseWeb:Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
     invoke-static {v15}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$900(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_webFile;
 
     move-result-object v2
@@ -3306,7 +3261,6 @@
 
     .line 741
     :cond_1c
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseCdn:Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
     invoke-static {v15}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1000(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
 
     move-result-object v2
@@ -3314,7 +3268,6 @@
     if-eqz v2, :cond_1a
 
     .line 742
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseCdn:Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
     invoke-static {v15}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1000(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
 
     move-result-object v2
@@ -3324,7 +3277,6 @@
     iput-boolean v3, v2, Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;->disableFree:Z
 
     .line 743
-    # getter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->responseCdn:Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
     invoke-static {v15}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1000(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;)Lorg/telegram/tgnet/TLRPC$TL_upload_cdnFile;
 
     move-result-object v2
@@ -4012,7 +3964,6 @@
     invoke-virtual {v0, v13}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 892
-    # setter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->offset:I
     invoke-static {v13, v11}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$1402(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;I)I
 
     .line 893
@@ -4039,7 +3990,6 @@
 
     move-result v0
 
-    # setter for: Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->requestToken:I
     invoke-static {v13, v0}, Lorg/telegram/messenger/FileLoadOperation$RequestInfo;->access$702(Lorg/telegram/messenger/FileLoadOperation$RequestInfo;I)I
 
     .line 993

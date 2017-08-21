@@ -52,7 +52,6 @@
     .line 554
     iget-object v0, p0, Lorg/telegram/ui/NewContactActivity$11;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->editDoneItem:Lorg/telegram/ui/ActionBar/ActionBarMenuItem;
     invoke-static {v0}, Lorg/telegram/ui/NewContactActivity;->access$1700(Lorg/telegram/ui/NewContactActivity;)Lorg/telegram/ui/ActionBar/ActionBarMenuItem;
 
     move-result-object v0

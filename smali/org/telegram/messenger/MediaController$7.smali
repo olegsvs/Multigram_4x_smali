@@ -48,7 +48,6 @@
     .line 1547
     iget-object v4, p0, Lorg/telegram/messenger/MediaController$7;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->decodingFinished:Z
     invoke-static {v4}, Lorg/telegram/messenger/MediaController;->access$3400(Lorg/telegram/messenger/MediaController;)Z
 
     move-result v4
@@ -58,7 +57,6 @@
     .line 1548
     iget-object v4, p0, Lorg/telegram/messenger/MediaController$7;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # invokes: Lorg/telegram/messenger/MediaController;->checkPlayerQueue()V
     invoke-static {v4}, Lorg/telegram/messenger/MediaController;->access$3500(Lorg/telegram/messenger/MediaController;)V
 
     .line 1591
@@ -79,7 +77,6 @@
     .local v2, "buffer":Lorg/telegram/messenger/MediaController$AudioBuffer;
     iget-object v4, p0, Lorg/telegram/messenger/MediaController$7;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->playerSync:Ljava/lang/Object;
     invoke-static {v4}, Lorg/telegram/messenger/MediaController;->access$3600(Lorg/telegram/messenger/MediaController;)Ljava/lang/Object;
 
     move-result-object v5
@@ -90,7 +87,6 @@
     :try_start_0
     iget-object v4, p0, Lorg/telegram/messenger/MediaController$7;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->freePlayerBuffers:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/messenger/MediaController;->access$3700(Lorg/telegram/messenger/MediaController;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -104,7 +100,6 @@
     .line 1556
     iget-object v4, p0, Lorg/telegram/messenger/MediaController$7;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->freePlayerBuffers:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/messenger/MediaController;->access$3700(Lorg/telegram/messenger/MediaController;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -124,7 +119,6 @@
     .line 1557
     iget-object v4, p0, Lorg/telegram/messenger/MediaController$7;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->freePlayerBuffers:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/messenger/MediaController;->access$3700(Lorg/telegram/messenger/MediaController;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -137,7 +131,6 @@
     :cond_2
     iget-object v4, p0, Lorg/telegram/messenger/MediaController$7;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->usedPlayerBuffers:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/messenger/MediaController;->access$3800(Lorg/telegram/messenger/MediaController;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -167,14 +160,12 @@
 
     iget-object v6, p0, Lorg/telegram/messenger/MediaController$7;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->playerBufferSize:I
     invoke-static {v6}, Lorg/telegram/messenger/MediaController;->access$3900(Lorg/telegram/messenger/MediaController;)I
 
     move-result v6
 
     sget-object v7, Lorg/telegram/messenger/MediaController;->readArgs:[I
 
-    # invokes: Lorg/telegram/messenger/MediaController;->readOpusFile(Ljava/nio/ByteBuffer;I[I)V
     invoke-static {v4, v5, v6, v7}, Lorg/telegram/messenger/MediaController;->access$4000(Lorg/telegram/messenger/MediaController;Ljava/nio/ByteBuffer;I[I)V
 
     .line 1565
@@ -210,7 +201,6 @@
     .line 1569
     iget-object v4, p0, Lorg/telegram/messenger/MediaController$7;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # setter for: Lorg/telegram/messenger/MediaController;->decodingFinished:Z
     invoke-static {v4, v9}, Lorg/telegram/messenger/MediaController;->access$3402(Lorg/telegram/messenger/MediaController;Z)Z
 
     .line 1571
@@ -234,7 +224,6 @@
     .line 1574
     iget-object v4, p0, Lorg/telegram/messenger/MediaController$7;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->playerSync:Ljava/lang/Object;
     invoke-static {v4}, Lorg/telegram/messenger/MediaController;->access$3600(Lorg/telegram/messenger/MediaController;)Ljava/lang/Object;
 
     move-result-object v5
@@ -245,7 +234,6 @@
     :try_start_1
     iget-object v4, p0, Lorg/telegram/messenger/MediaController$7;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->usedPlayerBuffers:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/messenger/MediaController;->access$3800(Lorg/telegram/messenger/MediaController;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -289,7 +277,6 @@
     :cond_5
     iget-object v4, p0, Lorg/telegram/messenger/MediaController$7;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->playerSync:Ljava/lang/Object;
     invoke-static {v4}, Lorg/telegram/messenger/MediaController;->access$3600(Lorg/telegram/messenger/MediaController;)Ljava/lang/Object;
 
     move-result-object v5
@@ -300,7 +287,6 @@
     :try_start_4
     iget-object v4, p0, Lorg/telegram/messenger/MediaController$7;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->freePlayerBuffers:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/messenger/MediaController;->access$3700(Lorg/telegram/messenger/MediaController;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -319,7 +305,6 @@
     .line 1589
     iget-object v4, p0, Lorg/telegram/messenger/MediaController$7;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # invokes: Lorg/telegram/messenger/MediaController;->checkPlayerQueue()V
     invoke-static {v4}, Lorg/telegram/messenger/MediaController;->access$3500(Lorg/telegram/messenger/MediaController;)V
 
     goto/16 :goto_0

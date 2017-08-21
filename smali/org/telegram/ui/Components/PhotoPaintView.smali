@@ -2059,17 +2059,14 @@
 
     move-result-object v1
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView$StickerPosition;->position:Lorg/telegram/ui/Components/Point;
     invoke-static {v7}, Lorg/telegram/ui/Components/PhotoPaintView$StickerPosition;->access$1700(Lorg/telegram/ui/Components/PhotoPaintView$StickerPosition;)Lorg/telegram/ui/Components/Point;
 
     move-result-object v2
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView$StickerPosition;->angle:F
     invoke-static {v7}, Lorg/telegram/ui/Components/PhotoPaintView$StickerPosition;->access$1800(Lorg/telegram/ui/Components/PhotoPaintView$StickerPosition;)F
 
     move-result v3
 
-    # getter for: Lorg/telegram/ui/Components/PhotoPaintView$StickerPosition;->scale:F
     invoke-static {v7}, Lorg/telegram/ui/Components/PhotoPaintView$StickerPosition;->access$1900(Lorg/telegram/ui/Components/PhotoPaintView$StickerPosition;)F
 
     move-result v4

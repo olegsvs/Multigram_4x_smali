@@ -45,7 +45,6 @@
     .line 700
     iget-object v3, p0, Lorg/telegram/ui/ChannelRightsEditActivity$4;->this$0:Lorg/telegram/ui/ChannelRightsEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelRightsEditActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v3}, Lorg/telegram/ui/ChannelRightsEditActivity;->access$2400(Lorg/telegram/ui/ChannelRightsEditActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v3
@@ -65,7 +64,6 @@
     .line 702
     iget-object v3, p0, Lorg/telegram/ui/ChannelRightsEditActivity$4;->this$0:Lorg/telegram/ui/ChannelRightsEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelRightsEditActivity;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v3}, Lorg/telegram/ui/ChannelRightsEditActivity;->access$2400(Lorg/telegram/ui/ChannelRightsEditActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v3

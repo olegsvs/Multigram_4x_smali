@@ -183,7 +183,6 @@
     .local p0, "this":Lorg/telegram/messenger/exoplayer2/source/chunk/ChunkSampleStream$EmbeddedSampleStream;, "Lorg/telegram/messenger/exoplayer2/source/chunk/ChunkSampleStream<TT;>.EmbeddedSampleStream;"
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/source/chunk/ChunkSampleStream$EmbeddedSampleStream;->this$0:Lorg/telegram/messenger/exoplayer2/source/chunk/ChunkSampleStream;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/chunk/ChunkSampleStream;->embeddedTracksSelected:[Z
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/source/chunk/ChunkSampleStream;->access$000(Lorg/telegram/messenger/exoplayer2/source/chunk/ChunkSampleStream;)[Z
 
     move-result-object v0
@@ -197,7 +196,6 @@
     .line 480
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/source/chunk/ChunkSampleStream$EmbeddedSampleStream;->this$0:Lorg/telegram/messenger/exoplayer2/source/chunk/ChunkSampleStream;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/source/chunk/ChunkSampleStream;->embeddedTracksSelected:[Z
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/source/chunk/ChunkSampleStream;->access$000(Lorg/telegram/messenger/exoplayer2/source/chunk/ChunkSampleStream;)[Z
 
     move-result-object v0

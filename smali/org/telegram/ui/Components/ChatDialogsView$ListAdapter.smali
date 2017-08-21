@@ -76,7 +76,6 @@
     .line 1029
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatDialogsView$ListAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->currentChat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatDialogsView;->access$2600(Lorg/telegram/ui/Components/ChatDialogsView;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v0
@@ -88,7 +87,6 @@
     .line 1030
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatDialogsView$ListAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatDialogsView;->access$100(Lorg/telegram/ui/Components/ChatDialogsView;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v0
@@ -97,7 +95,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatDialogsView$ListAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatDialogsView;->access$100(Lorg/telegram/ui/Components/ChatDialogsView;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v0
@@ -108,7 +105,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatDialogsView$ListAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatDialogsView;->access$100(Lorg/telegram/ui/Components/ChatDialogsView;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v0
@@ -125,7 +121,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatDialogsView$ListAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatDialogsView;->access$100(Lorg/telegram/ui/Components/ChatDialogsView;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v0
@@ -152,7 +147,6 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatDialogsView$ListAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->sortedUsers:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatDialogsView;->access$2500(Lorg/telegram/ui/Components/ChatDialogsView;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -190,7 +184,6 @@
     .line 994
     iget-object v5, p0, Lorg/telegram/ui/Components/ChatDialogsView$ListAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->sortedUsers:Ljava/util/ArrayList;
     invoke-static {v5}, Lorg/telegram/ui/Components/ChatDialogsView;->access$2500(Lorg/telegram/ui/Components/ChatDialogsView;)Ljava/util/ArrayList;
 
     move-result-object v5
@@ -204,7 +197,6 @@
     .line 995
     iget-object v5, p0, Lorg/telegram/ui/Components/ChatDialogsView$ListAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v5}, Lorg/telegram/ui/Components/ChatDialogsView;->access$100(Lorg/telegram/ui/Components/ChatDialogsView;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v5
@@ -215,7 +207,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/Components/ChatDialogsView$ListAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->sortedUsers:Ljava/util/ArrayList;
     invoke-static {v5}, Lorg/telegram/ui/Components/ChatDialogsView;->access$2500(Lorg/telegram/ui/Components/ChatDialogsView;)Ljava/util/ArrayList;
 
     move-result-object v5
@@ -300,7 +291,6 @@
     :cond_1
     iget-object v5, p0, Lorg/telegram/ui/Components/ChatDialogsView$ListAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static {v5}, Lorg/telegram/ui/Components/ChatDialogsView;->access$100(Lorg/telegram/ui/Components/ChatDialogsView;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v5
@@ -353,7 +343,6 @@
     :cond_5
     iget-object v5, p0, Lorg/telegram/ui/Components/ChatDialogsView$ListAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->currentChat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static {v5}, Lorg/telegram/ui/Components/ChatDialogsView;->access$2600(Lorg/telegram/ui/Components/ChatDialogsView;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v5
@@ -399,7 +388,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatDialogsView$ListAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->listWidth:I
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatDialogsView;->access$2000(Lorg/telegram/ui/Components/ChatDialogsView;)I
 
     move-result v2
@@ -412,7 +400,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Components/ChatDialogsView$ListAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->listHeight:I
     invoke-static {v3}, Lorg/telegram/ui/Components/ChatDialogsView;->access$2100(Lorg/telegram/ui/Components/ChatDialogsView;)I
 
     move-result v3

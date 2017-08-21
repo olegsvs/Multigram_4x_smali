@@ -52,7 +52,6 @@
     .line 145
     iget-object v0, p0, Lorg/telegram/ui/ChangeNameActivity$4;->this$0:Lorg/telegram/ui/ChangeNameActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeNameActivity;->doneButton:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/ChangeNameActivity;->access$300(Lorg/telegram/ui/ChangeNameActivity;)Landroid/view/View;
 
     move-result-object v0

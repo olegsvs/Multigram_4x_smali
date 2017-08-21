@@ -52,7 +52,6 @@
     .line 247
     iget-object v0, p0, Lorg/telegram/ui/NewContactActivity$3;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->lastNameField:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/NewContactActivity;->access$500(Lorg/telegram/ui/NewContactActivity;)Landroid/widget/EditText;
 
     move-result-object v0
@@ -62,14 +61,12 @@
     .line 248
     iget-object v0, p0, Lorg/telegram/ui/NewContactActivity$3;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->lastNameField:Landroid/widget/EditText;
     invoke-static {v0}, Lorg/telegram/ui/NewContactActivity;->access$500(Lorg/telegram/ui/NewContactActivity;)Landroid/widget/EditText;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/NewContactActivity$3;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # getter for: Lorg/telegram/ui/NewContactActivity;->lastNameField:Landroid/widget/EditText;
     invoke-static {v1}, Lorg/telegram/ui/NewContactActivity;->access$500(Lorg/telegram/ui/NewContactActivity;)Landroid/widget/EditText;
 
     move-result-object v1

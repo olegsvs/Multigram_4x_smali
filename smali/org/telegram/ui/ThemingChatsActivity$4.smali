@@ -82,7 +82,6 @@
 
     move-result-object v1
 
-    # invokes: Lorg/telegram/ui/ThemingChatsActivity;->resetPref(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ThemingChatsActivity;->access$5400(Lorg/telegram/ui/ThemingChatsActivity;Ljava/lang/String;)V
 
     .line 1151

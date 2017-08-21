@@ -93,7 +93,6 @@
     iget-object v2, p0, Lorg/telegram/ui/ChatActivity$55;->this$0:Lorg/telegram/ui/ChatActivity;
 
     .line 3566
-    # getter for: Lorg/telegram/ui/ChatActivity;->isBroadcast:Z
     invoke-static {v2}, Lorg/telegram/ui/ChatActivity;->access$14500(Lorg/telegram/ui/ChatActivity;)Z
 
     move-result v2
@@ -167,7 +166,6 @@
     .line 3574
     iget-object v2, p0, Lorg/telegram/ui/ChatActivity$55;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->chatListView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v2}, Lorg/telegram/ui/ChatActivity;->access$4900(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v2
@@ -221,7 +219,6 @@
     .line 3589
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$55;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->itemTouchHelper:Lorg/telegram/messenger/support/widget/helper/ItemTouchHelper;
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$14600(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/messenger/support/widget/helper/ItemTouchHelper;
 
     move-result-object v0
@@ -231,14 +228,12 @@
     .line 3590
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$55;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->itemTouchHelper:Lorg/telegram/messenger/support/widget/helper/ItemTouchHelper;
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$14600(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/messenger/support/widget/helper/ItemTouchHelper;
 
     move-result-object v0
 
     iget-object v4, p0, Lorg/telegram/ui/ChatActivity$55;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->chatListView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v4}, Lorg/telegram/ui/ChatActivity;->access$4900(Lorg/telegram/ui/ChatActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v4
@@ -260,7 +255,6 @@
     .local v2, "message":Lorg/telegram/messenger/MessageObject;
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$55;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # invokes: Lorg/telegram/ui/ChatActivity;->getMessageType(Lorg/telegram/messenger/MessageObject;)I
     invoke-static {v0, v2}, Lorg/telegram/ui/ChatActivity;->access$14700(Lorg/telegram/ui/ChatActivity;Lorg/telegram/messenger/MessageObject;)I
 
     move-result v7
@@ -278,7 +272,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ChatActivity$55;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->isBroadcast:Z
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$14500(Lorg/telegram/ui/ChatActivity;)Z
 
     move-result v0

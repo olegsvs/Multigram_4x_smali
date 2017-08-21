@@ -55,7 +55,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/BlockedUsersActivity$3;->this$0:Lorg/telegram/ui/BlockedUsersActivity;
 
-    # getter for: Lorg/telegram/ui/BlockedUsersActivity;->selectedUserId:I
     invoke-static {v1}, Lorg/telegram/ui/BlockedUsersActivity;->access$000(Lorg/telegram/ui/BlockedUsersActivity;)I
 
     move-result v1

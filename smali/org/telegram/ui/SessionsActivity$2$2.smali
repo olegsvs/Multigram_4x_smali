@@ -106,7 +106,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/SessionsActivity$2;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->sessions:Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/SessionsActivity;->access$300(Lorg/telegram/ui/SessionsActivity;)Ljava/util/ArrayList;
 
     move-result-object v3
@@ -117,7 +116,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/SessionsActivity$2;->this$0:Lorg/telegram/ui/SessionsActivity;
 
-    # getter for: Lorg/telegram/ui/SessionsActivity;->otherSessionsStartRow:I
     invoke-static {v5}, Lorg/telegram/ui/SessionsActivity;->access$100(Lorg/telegram/ui/SessionsActivity;)I
 
     move-result v5

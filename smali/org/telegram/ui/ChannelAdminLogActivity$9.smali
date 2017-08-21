@@ -68,13 +68,11 @@
     .line 734
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelAdminLogActivity;->scrollingFloatingDate:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$3802(Lorg/telegram/ui/ChannelAdminLogActivity;Z)Z
 
     .line 735
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelAdminLogActivity;->checkTextureViewPosition:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$3902(Lorg/telegram/ui/ChannelAdminLogActivity;Z)Z
 
     .line 741
@@ -89,19 +87,16 @@
     .line 737
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelAdminLogActivity;->scrollingFloatingDate:Z
     invoke-static {v0, v2}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$3802(Lorg/telegram/ui/ChannelAdminLogActivity;Z)Z
 
     .line 738
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelAdminLogActivity;->checkTextureViewPosition:Z
     invoke-static {v0, v2}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$3902(Lorg/telegram/ui/ChannelAdminLogActivity;Z)Z
 
     .line 739
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelAdminLogActivity;->hideFloatingDateView(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4000(Lorg/telegram/ui/ChannelAdminLogActivity;Z)V
 
     goto :goto_0
@@ -121,7 +116,6 @@
     .line 745
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->chatListView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$800(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v0
@@ -133,7 +127,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->scrollingFloatingDate:Z
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$3800(Lorg/telegram/ui/ChannelAdminLogActivity;)Z
 
     move-result v0
@@ -142,7 +135,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->currentFloatingTopIsNotMessage:Z
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4100(Lorg/telegram/ui/ChannelAdminLogActivity;)Z
 
     move-result v0
@@ -152,7 +144,6 @@
     .line 747
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->floatingDateView:Lorg/telegram/ui/Cells/ChatActionCell;
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4200(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/ui/Cells/ChatActionCell;
 
     move-result-object v0
@@ -166,7 +157,6 @@
     .line 748
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->floatingDateAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4300(Lorg/telegram/ui/ChannelAdminLogActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -176,7 +166,6 @@
     .line 749
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->floatingDateAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4300(Lorg/telegram/ui/ChannelAdminLogActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -187,7 +176,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->floatingDateView:Lorg/telegram/ui/Cells/ChatActionCell;
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4200(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/ui/Cells/ChatActionCell;
 
     move-result-object v0
@@ -205,13 +193,11 @@
 
     invoke-direct {v1}, Landroid/animation/AnimatorSet;-><init>()V
 
-    # setter for: Lorg/telegram/ui/ChannelAdminLogActivity;->floatingDateAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0, v1}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4302(Lorg/telegram/ui/ChannelAdminLogActivity;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 753
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->floatingDateAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4300(Lorg/telegram/ui/ChannelAdminLogActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -223,7 +209,6 @@
     .line 754
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->floatingDateAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4300(Lorg/telegram/ui/ChannelAdminLogActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -232,7 +217,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->floatingDateView:Lorg/telegram/ui/Cells/ChatActionCell;
     invoke-static {v2}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4200(Lorg/telegram/ui/ChannelAdminLogActivity;)Lorg/telegram/ui/Cells/ChatActionCell;
 
     move-result-object v2
@@ -256,7 +240,6 @@
     .line 755
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->floatingDateAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4300(Lorg/telegram/ui/ChannelAdminLogActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -270,7 +253,6 @@
     .line 763
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelAdminLogActivity;->floatingDateAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4300(Lorg/telegram/ui/ChannelAdminLogActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -281,13 +263,11 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelAdminLogActivity;->checkScrollForLoad(Z)V
     invoke-static {v0, v6}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$4400(Lorg/telegram/ui/ChannelAdminLogActivity;Z)V
 
     .line 767
     iget-object v0, p0, Lorg/telegram/ui/ChannelAdminLogActivity$9;->this$0:Lorg/telegram/ui/ChannelAdminLogActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelAdminLogActivity;->updateMessagesVisisblePart()V
     invoke-static {v0}, Lorg/telegram/ui/ChannelAdminLogActivity;->access$3600(Lorg/telegram/ui/ChannelAdminLogActivity;)V
 
     .line 768

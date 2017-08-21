@@ -57,7 +57,6 @@
 
     invoke-direct {v1, p0}, Lorg/telegram/messenger/MediaController$GalleryObserverInternal$1;-><init>(Lorg/telegram/messenger/MediaController$GalleryObserverInternal;)V
 
-    # setter for: Lorg/telegram/messenger/MediaController;->refreshGalleryRunnable:Ljava/lang/Runnable;
     invoke-static {v0, v1}, Lorg/telegram/messenger/MediaController;->access$1502(Lorg/telegram/messenger/MediaController;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     move-result-object v0
@@ -83,7 +82,6 @@
     .line 544
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$GalleryObserverInternal;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->refreshGalleryRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$1500(Lorg/telegram/messenger/MediaController;)Ljava/lang/Runnable;
 
     move-result-object v0
@@ -93,7 +91,6 @@
     .line 545
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$GalleryObserverInternal;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->refreshGalleryRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$1500(Lorg/telegram/messenger/MediaController;)Ljava/lang/Runnable;
 
     move-result-object v0

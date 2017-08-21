@@ -46,7 +46,6 @@
     .line 1154
     iget-object v0, p0, Lorg/telegram/ui/SettingsActivity$12;->this$0:Lorg/telegram/ui/SettingsActivity;
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->writeButtonAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/SettingsActivity;->access$4200(Lorg/telegram/ui/SettingsActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -55,7 +54,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/SettingsActivity$12;->this$0:Lorg/telegram/ui/SettingsActivity;
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->writeButtonAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/SettingsActivity;->access$4200(Lorg/telegram/ui/SettingsActivity;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -69,7 +67,6 @@
     .line 1155
     iget-object v0, p0, Lorg/telegram/ui/SettingsActivity$12;->this$0:Lorg/telegram/ui/SettingsActivity;
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->writeButton:Landroid/widget/ImageView;
     invoke-static {v0}, Lorg/telegram/ui/SettingsActivity;->access$4300(Lorg/telegram/ui/SettingsActivity;)Landroid/widget/ImageView;
 
     move-result-object v1
@@ -88,7 +85,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/SettingsActivity;->writeButtonAnimation:Landroid/animation/AnimatorSet;
     invoke-static {v0, v1}, Lorg/telegram/ui/SettingsActivity;->access$4202(Lorg/telegram/ui/SettingsActivity;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 1158

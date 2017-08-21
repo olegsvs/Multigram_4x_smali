@@ -49,7 +49,6 @@
     .line 58
     iget-object v0, p0, Lorg/telegram/ui/StickerPreviewViewer$FrameLayoutDrawer;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # invokes: Lorg/telegram/ui/StickerPreviewViewer;->onDraw(Landroid/graphics/Canvas;)V
     invoke-static {v0, p1}, Lorg/telegram/ui/StickerPreviewViewer;->access$000(Lorg/telegram/ui/StickerPreviewViewer;Landroid/graphics/Canvas;)V
 
     .line 59

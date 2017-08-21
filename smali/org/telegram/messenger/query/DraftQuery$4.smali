@@ -45,7 +45,6 @@
 
     .prologue
     .line 278
-    # getter for: Lorg/telegram/messenger/query/DraftQuery;->drafts:Ljava/util/HashMap;
     invoke-static {}, Lorg/telegram/messenger/query/DraftQuery;->access$200()Ljava/util/HashMap;
 
     move-result-object v2
@@ -75,7 +74,6 @@
     if-ne v2, v3, :cond_0
 
     .line 280
-    # getter for: Lorg/telegram/messenger/query/DraftQuery;->draftMessages:Ljava/util/HashMap;
     invoke-static {}, Lorg/telegram/messenger/query/DraftQuery;->access$300()Ljava/util/HashMap;
 
     move-result-object v2
@@ -108,7 +106,6 @@
     invoke-virtual {v2, v1}, Lorg/telegram/tgnet/TLRPC$Message;->serializeToStream(Lorg/telegram/tgnet/AbstractSerializedData;)V
 
     .line 283
-    # getter for: Lorg/telegram/messenger/query/DraftQuery;->preferences:Landroid/content/SharedPreferences;
     invoke-static {}, Lorg/telegram/messenger/query/DraftQuery;->access$400()Landroid/content/SharedPreferences;
 
     move-result-object v2

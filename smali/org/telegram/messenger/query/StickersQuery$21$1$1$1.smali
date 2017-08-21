@@ -171,7 +171,6 @@
 
     iget v6, v6, Lorg/telegram/tgnet/TLRPC$TL_messages_allStickers;->hash:I
 
-    # invokes: Lorg/telegram/messenger/query/StickersQuery;->processLoadedStickers(ILjava/util/ArrayList;ZII)V
     invoke-static {v2, v3, v4, v5, v6}, Lorg/telegram/messenger/query/StickersQuery;->access$2000(ILjava/util/ArrayList;ZII)V
 
     .line 919

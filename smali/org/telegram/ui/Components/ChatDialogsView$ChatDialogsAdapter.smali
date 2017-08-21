@@ -115,7 +115,6 @@
     .line 627
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatDialogsView$ChatDialogsAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->dialogsType:I
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatDialogsView;->access$1000(Lorg/telegram/ui/Components/ChatDialogsView;)I
 
     move-result v0
@@ -229,7 +228,6 @@
     .line 703
     iget-object v1, p0, Lorg/telegram/ui/Components/ChatDialogsView$ChatDialogsAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->dialogsType:I
     invoke-static {v1}, Lorg/telegram/ui/Components/ChatDialogsView;->access$1000(Lorg/telegram/ui/Components/ChatDialogsView;)I
 
     move-result v1
@@ -371,7 +369,6 @@
     .line 659
     iget-object v0, p0, Lorg/telegram/ui/Components/ChatDialogsView$ChatDialogsAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->dialogsType:I
     invoke-static {v0}, Lorg/telegram/ui/Components/ChatDialogsView;->access$1000(Lorg/telegram/ui/Components/ChatDialogsView;)I
 
     move-result v0
@@ -538,7 +535,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatDialogsView$ChatDialogsAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->listWidth:I
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatDialogsView;->access$2000(Lorg/telegram/ui/Components/ChatDialogsView;)I
 
     move-result v2
@@ -551,7 +547,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Components/ChatDialogsView$ChatDialogsAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->listHeight:I
     invoke-static {v3}, Lorg/telegram/ui/Components/ChatDialogsView;->access$2100(Lorg/telegram/ui/Components/ChatDialogsView;)I
 
     move-result v3
@@ -599,7 +594,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/ChatDialogsView$ChatDialogsAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->listWidth:I
     invoke-static {v1}, Lorg/telegram/ui/Components/ChatDialogsView;->access$2000(Lorg/telegram/ui/Components/ChatDialogsView;)I
 
     move-result v1
@@ -630,7 +624,6 @@
     :cond_3
     iget-object v2, p0, Lorg/telegram/ui/Components/ChatDialogsView$ChatDialogsAdapter;->this$0:Lorg/telegram/ui/Components/ChatDialogsView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->listHeight:I
     invoke-static {v2}, Lorg/telegram/ui/Components/ChatDialogsView;->access$2100(Lorg/telegram/ui/Components/ChatDialogsView;)I
 
     move-result v2

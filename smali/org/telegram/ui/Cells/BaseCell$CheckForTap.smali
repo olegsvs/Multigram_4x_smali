@@ -55,7 +55,6 @@
     .line 22
     iget-object v0, p0, Lorg/telegram/ui/Cells/BaseCell$CheckForTap;->this$0:Lorg/telegram/ui/Cells/BaseCell;
 
-    # getter for: Lorg/telegram/ui/Cells/BaseCell;->pendingCheckForLongPress:Lorg/telegram/ui/Cells/BaseCell$CheckForLongPress;
     invoke-static {v0}, Lorg/telegram/ui/Cells/BaseCell;->access$000(Lorg/telegram/ui/Cells/BaseCell;)Lorg/telegram/ui/Cells/BaseCell$CheckForLongPress;
 
     move-result-object v0
@@ -71,21 +70,18 @@
 
     invoke-direct {v1, v2}, Lorg/telegram/ui/Cells/BaseCell$CheckForLongPress;-><init>(Lorg/telegram/ui/Cells/BaseCell;)V
 
-    # setter for: Lorg/telegram/ui/Cells/BaseCell;->pendingCheckForLongPress:Lorg/telegram/ui/Cells/BaseCell$CheckForLongPress;
     invoke-static {v0, v1}, Lorg/telegram/ui/Cells/BaseCell;->access$002(Lorg/telegram/ui/Cells/BaseCell;Lorg/telegram/ui/Cells/BaseCell$CheckForLongPress;)Lorg/telegram/ui/Cells/BaseCell$CheckForLongPress;
 
     .line 25
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/Cells/BaseCell$CheckForTap;->this$0:Lorg/telegram/ui/Cells/BaseCell;
 
-    # getter for: Lorg/telegram/ui/Cells/BaseCell;->pendingCheckForLongPress:Lorg/telegram/ui/Cells/BaseCell$CheckForLongPress;
     invoke-static {v0}, Lorg/telegram/ui/Cells/BaseCell;->access$000(Lorg/telegram/ui/Cells/BaseCell;)Lorg/telegram/ui/Cells/BaseCell$CheckForLongPress;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/Cells/BaseCell$CheckForTap;->this$0:Lorg/telegram/ui/Cells/BaseCell;
 
-    # ++operator for: Lorg/telegram/ui/Cells/BaseCell;->pressCount:I
     invoke-static {v1}, Lorg/telegram/ui/Cells/BaseCell;->access$104(Lorg/telegram/ui/Cells/BaseCell;)I
 
     move-result v1
@@ -97,7 +93,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Cells/BaseCell$CheckForTap;->this$0:Lorg/telegram/ui/Cells/BaseCell;
 
-    # getter for: Lorg/telegram/ui/Cells/BaseCell;->pendingCheckForLongPress:Lorg/telegram/ui/Cells/BaseCell$CheckForLongPress;
     invoke-static {v1}, Lorg/telegram/ui/Cells/BaseCell;->access$000(Lorg/telegram/ui/Cells/BaseCell;)Lorg/telegram/ui/Cells/BaseCell$CheckForLongPress;
 
     move-result-object v1

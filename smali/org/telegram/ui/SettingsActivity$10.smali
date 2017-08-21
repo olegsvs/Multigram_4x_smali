@@ -46,7 +46,6 @@
     .line 847
     iget-object v3, p0, Lorg/telegram/ui/SettingsActivity$10;->this$0:Lorg/telegram/ui/SettingsActivity;
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v3}, Lorg/telegram/ui/SettingsActivity;->access$3900(Lorg/telegram/ui/SettingsActivity;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v3
@@ -79,7 +78,6 @@
     .line 853
     iget-object v3, p0, Lorg/telegram/ui/SettingsActivity$10;->this$0:Lorg/telegram/ui/SettingsActivity;
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v3}, Lorg/telegram/ui/SettingsActivity;->access$3900(Lorg/telegram/ui/SettingsActivity;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v3
@@ -114,7 +112,6 @@
     :cond_3
     iget-object v2, p0, Lorg/telegram/ui/SettingsActivity$10;->this$0:Lorg/telegram/ui/SettingsActivity;
 
-    # getter for: Lorg/telegram/ui/SettingsActivity;->extraHeight:I
     invoke-static {v2}, Lorg/telegram/ui/SettingsActivity;->access$4000(Lorg/telegram/ui/SettingsActivity;)I
 
     move-result v2
@@ -124,13 +121,11 @@
     .line 857
     iget-object v2, p0, Lorg/telegram/ui/SettingsActivity$10;->this$0:Lorg/telegram/ui/SettingsActivity;
 
-    # setter for: Lorg/telegram/ui/SettingsActivity;->extraHeight:I
     invoke-static {v2, v1}, Lorg/telegram/ui/SettingsActivity;->access$4002(Lorg/telegram/ui/SettingsActivity;I)I
 
     .line 858
     iget-object v2, p0, Lorg/telegram/ui/SettingsActivity$10;->this$0:Lorg/telegram/ui/SettingsActivity;
 
-    # invokes: Lorg/telegram/ui/SettingsActivity;->needLayout()V
     invoke-static {v2}, Lorg/telegram/ui/SettingsActivity;->access$4100(Lorg/telegram/ui/SettingsActivity;)V
 
     goto :goto_0

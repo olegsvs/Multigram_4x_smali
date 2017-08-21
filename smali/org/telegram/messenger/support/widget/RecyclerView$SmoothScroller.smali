@@ -463,7 +463,6 @@
 
     iget v1, p0, Lorg/telegram/messenger/support/widget/RecyclerView$SmoothScroller;->mTargetPosition:I
 
-    # setter for: Lorg/telegram/messenger/support/widget/RecyclerView$State;->mTargetPosition:I
     invoke-static {v0, v1}, Lorg/telegram/messenger/support/widget/RecyclerView$State;->access$1102(Lorg/telegram/messenger/support/widget/RecyclerView$State;I)I
 
     .line 10949
@@ -525,7 +524,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/support/widget/RecyclerView;->mState:Lorg/telegram/messenger/support/widget/RecyclerView$State;
 
-    # setter for: Lorg/telegram/messenger/support/widget/RecyclerView$State;->mTargetPosition:I
     invoke-static {v0, v2}, Lorg/telegram/messenger/support/widget/RecyclerView$State;->access$1102(Lorg/telegram/messenger/support/widget/RecyclerView$State;I)I
 
     .line 10981
@@ -543,7 +541,6 @@
     .line 10986
     iget-object v0, p0, Lorg/telegram/messenger/support/widget/RecyclerView$SmoothScroller;->mLayoutManager:Lorg/telegram/messenger/support/widget/RecyclerView$LayoutManager;
 
-    # invokes: Lorg/telegram/messenger/support/widget/RecyclerView$LayoutManager;->onSmoothScrollerStopped(Lorg/telegram/messenger/support/widget/RecyclerView$SmoothScroller;)V
     invoke-static {v0, p0}, Lorg/telegram/messenger/support/widget/RecyclerView$LayoutManager;->access$1200(Lorg/telegram/messenger/support/widget/RecyclerView$LayoutManager;Lorg/telegram/messenger/support/widget/RecyclerView$SmoothScroller;)V
 
     .line 10988

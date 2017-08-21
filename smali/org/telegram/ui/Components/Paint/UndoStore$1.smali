@@ -44,7 +44,6 @@
     .line 69
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/UndoStore$1;->this$0:Lorg/telegram/ui/Components/Paint/UndoStore;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/UndoStore;->delegate:Lorg/telegram/ui/Components/Paint/UndoStore$UndoStoreDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/UndoStore;->access$000(Lorg/telegram/ui/Components/Paint/UndoStore;)Lorg/telegram/ui/Components/Paint/UndoStore$UndoStoreDelegate;
 
     move-result-object v0
@@ -54,7 +53,6 @@
     .line 70
     iget-object v0, p0, Lorg/telegram/ui/Components/Paint/UndoStore$1;->this$0:Lorg/telegram/ui/Components/Paint/UndoStore;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/UndoStore;->delegate:Lorg/telegram/ui/Components/Paint/UndoStore$UndoStoreDelegate;
     invoke-static {v0}, Lorg/telegram/ui/Components/Paint/UndoStore;->access$000(Lorg/telegram/ui/Components/Paint/UndoStore;)Lorg/telegram/ui/Components/Paint/UndoStore$UndoStoreDelegate;
 
     move-result-object v0

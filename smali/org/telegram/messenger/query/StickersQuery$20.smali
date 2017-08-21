@@ -188,7 +188,6 @@
     move-result v4
 
     .line 842
-    # invokes: Lorg/telegram/messenger/query/StickersQuery;->calcStickersHash(Ljava/util/ArrayList;)I
     invoke-static {v7}, Lorg/telegram/messenger/query/StickersQuery;->access$1900(Ljava/util/ArrayList;)I
     :try_end_2
     .catch Ljava/lang/Throwable; {:try_start_2 .. :try_end_2} :catch_0
@@ -209,7 +208,6 @@
     :goto_1
     iget v10, p0, Lorg/telegram/messenger/query/StickersQuery$20;->val$type:I
 
-    # invokes: Lorg/telegram/messenger/query/StickersQuery;->processLoadedStickers(ILjava/util/ArrayList;ZII)V
     invoke-static {v10, v7, v13, v4, v6}, Lorg/telegram/messenger/query/StickersQuery;->access$2000(ILjava/util/ArrayList;ZII)V
 
     .line 852

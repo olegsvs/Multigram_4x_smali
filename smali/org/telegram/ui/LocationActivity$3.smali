@@ -62,7 +62,6 @@
 
     iget-boolean v1, p0, Lorg/telegram/ui/LocationActivity$3;->first:Z
 
-    # invokes: Lorg/telegram/ui/LocationActivity;->fixLayoutInternal(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/LocationActivity;->access$1000(Lorg/telegram/ui/LocationActivity;Z)V
 
     .line 281

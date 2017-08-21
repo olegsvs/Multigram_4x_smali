@@ -1547,7 +1547,6 @@
 
     .line 1059
     .local v2, "button":Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->y:I
     invoke-static {v2}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$100(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v7
@@ -1566,7 +1565,6 @@
 
     .line 1060
     .local v6, "y2":I
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->x:I
     invoke-static {v2}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$200(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v7
@@ -1575,14 +1573,12 @@
 
     if-lt v4, v7, :cond_5
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->x:I
     invoke-static {v2}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$200(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v7
 
     add-int/2addr v7, v1
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->width:I
     invoke-static {v2}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$300(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v8
@@ -1593,7 +1589,6 @@
 
     if-lt v5, v6, :cond_5
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->height:I
     invoke-static {v2}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$400(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v7
@@ -1689,7 +1684,6 @@
 
     check-cast v7, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static {v7}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$000(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     move-result-object v7
@@ -2543,7 +2537,6 @@
 
     .line 694
     .local v3, "button":Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static {v3}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$000(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     move-result-object v14
@@ -2564,7 +2557,6 @@
 
     iget-object v14, v0, Lorg/telegram/ui/Cells/ChatMessageCell;->delegate:Lorg/telegram/ui/Cells/ChatMessageCell$ChatMessageCellDelegate;
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static {v3}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$000(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     move-result-object v15
@@ -17985,7 +17977,6 @@
 
     .line 4576
     .local v19, "button":Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->y:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$100(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v4
@@ -18022,28 +18013,24 @@
     .line 4578
     sget-object v4, Lorg/telegram/ui/ActionBar/Theme;->chat_systemDrawable:Landroid/graphics/drawable/Drawable;
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->x:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$200(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v6
 
     add-int/2addr v6, v15
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->x:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$200(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v8
 
     add-int/2addr v8, v15
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->width:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$300(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v9
 
     add-int/2addr v8, v9
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->height:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$400(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v9
@@ -18065,7 +18052,6 @@
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Canvas;->save()I
 
     .line 4581
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->x:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$200(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v4
@@ -18088,12 +18074,10 @@
 
     move-result v6
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->title:Landroid/text/StaticLayout;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$900(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Landroid/text/StaticLayout;
 
     move-result-object v8
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->title:Landroid/text/StaticLayout;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$900(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Landroid/text/StaticLayout;
 
     move-result-object v9
@@ -18121,7 +18105,6 @@
     invoke-virtual {v0, v4, v6}, Landroid/graphics/Canvas;->translate(FF)V
 
     .line 4582
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->title:Landroid/text/StaticLayout;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$900(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Landroid/text/StaticLayout;
 
     move-result-object v4
@@ -18134,7 +18117,6 @@
     invoke-virtual/range {p1 .. p1}, Landroid/graphics/Canvas;->restore()V
 
     .line 4584
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$000(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     move-result-object v4
@@ -18144,12 +18126,10 @@
     if-eqz v4, :cond_d9
 
     .line 4585
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->x:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$200(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v4
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->width:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$300(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v6
@@ -18898,7 +18878,6 @@
 
     .line 4588
     :cond_d9
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$000(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     move-result-object v4
@@ -18908,12 +18887,10 @@
     if-eqz v4, :cond_da
 
     .line 4589
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->x:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$200(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v4
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->width:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$300(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v6
@@ -18968,7 +18945,6 @@
     .line 4592
     .end local v53    # "x":I
     :cond_da
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$000(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     move-result-object v4
@@ -18977,7 +18953,6 @@
 
     if-nez v4, :cond_db
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$000(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     move-result-object v4
@@ -18986,7 +18961,6 @@
 
     if-nez v4, :cond_db
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$000(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     move-result-object v4
@@ -18995,7 +18969,6 @@
 
     if-nez v4, :cond_db
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$000(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     move-result-object v4
@@ -19006,7 +18979,6 @@
 
     .line 4593
     :cond_db
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$000(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     move-result-object v4
@@ -19015,7 +18987,6 @@
 
     if-nez v4, :cond_dc
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$000(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     move-result-object v4
@@ -19024,7 +18995,6 @@
 
     if-nez v4, :cond_dc
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$000(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     move-result-object v4
@@ -19042,7 +19012,6 @@
 
     iget-object v6, v0, Lorg/telegram/ui/Cells/ChatMessageCell;->currentMessageObject:Lorg/telegram/messenger/MessageObject;
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$000(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     move-result-object v8
@@ -19055,7 +19024,6 @@
 
     .line 4594
     :cond_dd
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$000(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     move-result-object v4
@@ -19072,7 +19040,6 @@
 
     iget-object v6, v0, Lorg/telegram/ui/Cells/ChatMessageCell;->currentMessageObject:Lorg/telegram/messenger/MessageObject;
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$000(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     move-result-object v8
@@ -19093,7 +19060,6 @@
 
     if-nez v21, :cond_b5
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->progressAlpha:F
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$600(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)F
 
     move-result v4
@@ -19110,7 +19076,6 @@
 
     const/16 v6, 0xff
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->progressAlpha:F
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$600(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)F
 
     move-result v8
@@ -19128,12 +19093,10 @@
     invoke-virtual {v4, v6}, Landroid/graphics/Paint;->setAlpha(I)V
 
     .line 4597
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->x:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$200(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v4
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->width:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$300(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v6
@@ -19197,7 +19160,6 @@
 
     iget-object v9, v0, Lorg/telegram/ui/Cells/ChatMessageCell;->rect:Landroid/graphics/RectF;
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->angle:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$700(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v4
@@ -19290,7 +19252,6 @@
 
     .line 4602
     .local v38, "newTime":J
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->lastUpdateTime:J
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$800(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)J
 
     move-result-wide v8
@@ -19312,7 +19273,6 @@
     if-gez v4, :cond_e0
 
     .line 4603
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->lastUpdateTime:J
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$800(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)J
 
     move-result-wide v8
@@ -19333,7 +19293,6 @@
 
     .line 4605
     .local v25, "dt":F
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->angle:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$700(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v4
@@ -19346,16 +19305,13 @@
 
     move-object/from16 v0, v19
 
-    # setter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->angle:I
     invoke-static {v0, v4}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$702(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;I)I
 
     .line 4606
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->angle:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$700(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v4
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->angle:I
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$700(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v6
@@ -19368,14 +19324,12 @@
 
     move-object/from16 v0, v19
 
-    # setter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->angle:I
     invoke-static {v0, v4}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$702(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;I)I
 
     .line 4607
     if-eqz v21, :cond_e2
 
     .line 4608
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->progressAlpha:F
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$600(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)F
 
     move-result v4
@@ -19387,7 +19341,6 @@
     if-gez v4, :cond_e0
 
     .line 4609
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->progressAlpha:F
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$600(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)F
 
     move-result v4
@@ -19404,11 +19357,9 @@
 
     move-object/from16 v0, v19
 
-    # setter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->progressAlpha:F
     invoke-static {v0, v4}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$602(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;F)F
 
     .line 4610
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->progressAlpha:F
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$600(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)F
 
     move-result v4
@@ -19424,7 +19375,6 @@
 
     move-object/from16 v0, v19
 
-    # setter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->progressAlpha:F
     invoke-static {v0, v4}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$602(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;F)F
 
     .line 4623
@@ -19436,7 +19386,6 @@
 
     move-wide/from16 v1, v38
 
-    # setter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->lastUpdateTime:J
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$802(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;J)J
 
     goto/16 :goto_6a
@@ -19457,7 +19406,6 @@
     .restart local v38    # "newTime":J
     .restart local v53    # "x":I
     :cond_e2
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->progressAlpha:F
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$600(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)F
 
     move-result v4
@@ -19469,7 +19417,6 @@
     if-lez v4, :cond_e0
 
     .line 4616
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->progressAlpha:F
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$600(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)F
 
     move-result v4
@@ -19486,11 +19433,9 @@
 
     move-object/from16 v0, v19
 
-    # setter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->progressAlpha:F
     invoke-static {v0, v4}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$602(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;F)F
 
     .line 4617
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->progressAlpha:F
     invoke-static/range {v19 .. v19}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$600(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)F
 
     move-result v4
@@ -19506,7 +19451,6 @@
 
     move-object/from16 v0, v19
 
-    # setter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->progressAlpha:F
     invoke-static {v0, v4}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$602(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;F)F
 
     goto :goto_76
@@ -53163,11 +53107,9 @@
 
     move-object/from16 v0, v45
 
-    # setter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static {v0, v4}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$002(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;Lorg/telegram/tgnet/TLRPC$KeyboardButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     .line 3471
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static/range {v45 .. v45}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$000(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     move-result-object v4
@@ -53227,36 +53169,30 @@
     if-eqz v91, :cond_14f
 
     .line 3480
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->progressAlpha:F
     invoke-static/range {v91 .. v91}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$600(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)F
 
     move-result v4
 
     move-object/from16 v0, v45
 
-    # setter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->progressAlpha:F
     invoke-static {v0, v4}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$602(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;F)F
 
     .line 3481
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->angle:I
     invoke-static/range {v91 .. v91}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$700(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v4
 
     move-object/from16 v0, v45
 
-    # setter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->angle:I
     invoke-static {v0, v4}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$702(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;I)I
 
     .line 3482
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->lastUpdateTime:J
     invoke-static/range {v91 .. v91}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$800(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)J
 
     move-result-wide v6
 
     move-object/from16 v0, v45
 
-    # setter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->lastUpdateTime:J
     invoke-static {v0, v6, v7}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$802(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;J)J
 
     .line 3486
@@ -53295,7 +53231,6 @@
 
     move-object/from16 v0, v45
 
-    # setter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->x:I
     invoke-static {v0, v4}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$202(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;I)I
 
     .line 3489
@@ -53317,11 +53252,9 @@
 
     move-object/from16 v0, v45
 
-    # setter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->y:I
     invoke-static {v0, v4}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$102(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;I)I
 
     .line 3490
-    # setter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->width:I
     invoke-static/range {v45 .. v46}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$302(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;I)I
 
     .line 3491
@@ -53333,11 +53266,9 @@
 
     move-object/from16 v0, v45
 
-    # setter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->height:I
     invoke-static {v0, v4}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$402(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;I)I
 
     .line 3493
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static/range {v45 .. v45}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$000(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     move-result-object v4
@@ -53396,7 +53327,6 @@
 
     move-object/from16 v1, v26
 
-    # setter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->title:Landroid/text/StaticLayout;
     invoke-static {v0, v1}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$902(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;Landroid/text/StaticLayout;)Landroid/text/StaticLayout;
 
     .line 3500
@@ -53424,12 +53354,10 @@
     if-ne v0, v4, :cond_14c
 
     .line 3502
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->x:I
     invoke-static/range {v45 .. v45}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$200(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v4
 
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->width:I
     invoke-static/range {v45 .. v45}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$300(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)I
 
     move-result v6
@@ -53489,14 +53417,12 @@
 
     move-object/from16 v0, v45
 
-    # setter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->lastUpdateTime:J
     invoke-static {v0, v6, v7}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$802(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;J)J
 
     goto/16 :goto_8f
 
     .line 3496
     :cond_150
-    # getter for: Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->button:Lorg/telegram/tgnet/TLRPC$KeyboardButton;
     invoke-static/range {v45 .. v45}, Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;->access$000(Lorg/telegram/ui/Cells/ChatMessageCell$BotButton;)Lorg/telegram/tgnet/TLRPC$KeyboardButton;
 
     move-result-object v4

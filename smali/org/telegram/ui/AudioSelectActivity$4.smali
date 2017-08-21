@@ -45,7 +45,6 @@
     .line 143
     iget-object v2, p0, Lorg/telegram/ui/AudioSelectActivity$4;->this$0:Lorg/telegram/ui/AudioSelectActivity;
 
-    # getter for: Lorg/telegram/ui/AudioSelectActivity;->delegate:Lorg/telegram/ui/AudioSelectActivity$AudioSelectActivityDelegate;
     invoke-static {v2}, Lorg/telegram/ui/AudioSelectActivity;->access$200(Lorg/telegram/ui/AudioSelectActivity;)Lorg/telegram/ui/AudioSelectActivity$AudioSelectActivityDelegate;
 
     move-result-object v2
@@ -61,7 +60,6 @@
     .local v0, "audios":Ljava/util/ArrayList;, "Ljava/util/ArrayList<Lorg/telegram/messenger/MessageObject;>;"
     iget-object v2, p0, Lorg/telegram/ui/AudioSelectActivity$4;->this$0:Lorg/telegram/ui/AudioSelectActivity;
 
-    # getter for: Lorg/telegram/ui/AudioSelectActivity;->selectedAudios:Ljava/util/HashMap;
     invoke-static {v2}, Lorg/telegram/ui/AudioSelectActivity;->access$000(Lorg/telegram/ui/AudioSelectActivity;)Ljava/util/HashMap;
 
     move-result-object v2
@@ -106,7 +104,6 @@
     :cond_0
     iget-object v2, p0, Lorg/telegram/ui/AudioSelectActivity$4;->this$0:Lorg/telegram/ui/AudioSelectActivity;
 
-    # getter for: Lorg/telegram/ui/AudioSelectActivity;->delegate:Lorg/telegram/ui/AudioSelectActivity$AudioSelectActivityDelegate;
     invoke-static {v2}, Lorg/telegram/ui/AudioSelectActivity;->access$200(Lorg/telegram/ui/AudioSelectActivity;)Lorg/telegram/ui/AudioSelectActivity$AudioSelectActivityDelegate;
 
     move-result-object v2

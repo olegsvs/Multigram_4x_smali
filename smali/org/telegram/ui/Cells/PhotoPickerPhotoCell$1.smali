@@ -42,7 +42,6 @@
     .line 91
     iget-object v0, p0, Lorg/telegram/ui/Cells/PhotoPickerPhotoCell$1;->this$0:Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;
 
-    # getter for: Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v0}, Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;->access$000(Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;)Landroid/animation/AnimatorSet;
 
     move-result-object v0
@@ -58,7 +57,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;->animatorSet:Landroid/animation/AnimatorSet;
     invoke-static {v0, v1}, Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;->access$002(Lorg/telegram/ui/Cells/PhotoPickerPhotoCell;Landroid/animation/AnimatorSet;)Landroid/animation/AnimatorSet;
 
     .line 94

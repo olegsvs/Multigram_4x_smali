@@ -62,7 +62,6 @@
     .line 159
     iget-object v3, p0, Lorg/telegram/messenger/StatsController$2;->this$0:Lorg/telegram/messenger/StatsController;
 
-    # getter for: Lorg/telegram/messenger/StatsController;->editor:Landroid/content/SharedPreferences$Editor;
     invoke-static {v3}, Lorg/telegram/messenger/StatsController;->access$100(Lorg/telegram/messenger/StatsController;)Landroid/content/SharedPreferences$Editor;
 
     move-result-object v3
@@ -97,7 +96,6 @@
 
     iget-object v5, p0, Lorg/telegram/messenger/StatsController$2;->this$0:Lorg/telegram/messenger/StatsController;
 
-    # getter for: Lorg/telegram/messenger/StatsController;->receivedItems:[[I
     invoke-static {v5}, Lorg/telegram/messenger/StatsController;->access$000(Lorg/telegram/messenger/StatsController;)[[I
 
     move-result-object v5
@@ -111,7 +109,6 @@
     .line 160
     iget-object v3, p0, Lorg/telegram/messenger/StatsController$2;->this$0:Lorg/telegram/messenger/StatsController;
 
-    # getter for: Lorg/telegram/messenger/StatsController;->editor:Landroid/content/SharedPreferences$Editor;
     invoke-static {v3}, Lorg/telegram/messenger/StatsController;->access$100(Lorg/telegram/messenger/StatsController;)Landroid/content/SharedPreferences$Editor;
 
     move-result-object v3
@@ -146,7 +143,6 @@
 
     iget-object v5, p0, Lorg/telegram/messenger/StatsController$2;->this$0:Lorg/telegram/messenger/StatsController;
 
-    # getter for: Lorg/telegram/messenger/StatsController;->sentItems:[[I
     invoke-static {v5}, Lorg/telegram/messenger/StatsController;->access$200(Lorg/telegram/messenger/StatsController;)[[I
 
     move-result-object v5
@@ -160,7 +156,6 @@
     .line 161
     iget-object v3, p0, Lorg/telegram/messenger/StatsController$2;->this$0:Lorg/telegram/messenger/StatsController;
 
-    # getter for: Lorg/telegram/messenger/StatsController;->editor:Landroid/content/SharedPreferences$Editor;
     invoke-static {v3}, Lorg/telegram/messenger/StatsController;->access$100(Lorg/telegram/messenger/StatsController;)Landroid/content/SharedPreferences$Editor;
 
     move-result-object v3
@@ -195,7 +190,6 @@
 
     iget-object v5, p0, Lorg/telegram/messenger/StatsController$2;->this$0:Lorg/telegram/messenger/StatsController;
 
-    # getter for: Lorg/telegram/messenger/StatsController;->receivedBytes:[[J
     invoke-static {v5}, Lorg/telegram/messenger/StatsController;->access$300(Lorg/telegram/messenger/StatsController;)[[J
 
     move-result-object v5
@@ -209,7 +203,6 @@
     .line 162
     iget-object v3, p0, Lorg/telegram/messenger/StatsController$2;->this$0:Lorg/telegram/messenger/StatsController;
 
-    # getter for: Lorg/telegram/messenger/StatsController;->editor:Landroid/content/SharedPreferences$Editor;
     invoke-static {v3}, Lorg/telegram/messenger/StatsController;->access$100(Lorg/telegram/messenger/StatsController;)Landroid/content/SharedPreferences$Editor;
 
     move-result-object v3
@@ -244,7 +237,6 @@
 
     iget-object v5, p0, Lorg/telegram/messenger/StatsController$2;->this$0:Lorg/telegram/messenger/StatsController;
 
-    # getter for: Lorg/telegram/messenger/StatsController;->sentBytes:[[J
     invoke-static {v5}, Lorg/telegram/messenger/StatsController;->access$400(Lorg/telegram/messenger/StatsController;)[[J
 
     move-result-object v5
@@ -264,7 +256,6 @@
     :cond_0
     iget-object v3, p0, Lorg/telegram/messenger/StatsController$2;->this$0:Lorg/telegram/messenger/StatsController;
 
-    # getter for: Lorg/telegram/messenger/StatsController;->editor:Landroid/content/SharedPreferences$Editor;
     invoke-static {v3}, Lorg/telegram/messenger/StatsController;->access$100(Lorg/telegram/messenger/StatsController;)Landroid/content/SharedPreferences$Editor;
 
     move-result-object v3
@@ -289,7 +280,6 @@
 
     iget-object v5, p0, Lorg/telegram/messenger/StatsController$2;->this$0:Lorg/telegram/messenger/StatsController;
 
-    # getter for: Lorg/telegram/messenger/StatsController;->callsTotalTime:[I
     invoke-static {v5}, Lorg/telegram/messenger/StatsController;->access$500(Lorg/telegram/messenger/StatsController;)[I
 
     move-result-object v5
@@ -301,7 +291,6 @@
     .line 165
     iget-object v3, p0, Lorg/telegram/messenger/StatsController$2;->this$0:Lorg/telegram/messenger/StatsController;
 
-    # getter for: Lorg/telegram/messenger/StatsController;->editor:Landroid/content/SharedPreferences$Editor;
     invoke-static {v3}, Lorg/telegram/messenger/StatsController;->access$100(Lorg/telegram/messenger/StatsController;)Landroid/content/SharedPreferences$Editor;
 
     move-result-object v3
@@ -326,7 +315,6 @@
 
     iget-object v5, p0, Lorg/telegram/messenger/StatsController$2;->this$0:Lorg/telegram/messenger/StatsController;
 
-    # getter for: Lorg/telegram/messenger/StatsController;->resetStatsDate:[J
     invoke-static {v5}, Lorg/telegram/messenger/StatsController;->access$600(Lorg/telegram/messenger/StatsController;)[J
 
     move-result-object v5
@@ -346,7 +334,6 @@
     :try_start_0
     iget-object v3, p0, Lorg/telegram/messenger/StatsController$2;->this$0:Lorg/telegram/messenger/StatsController;
 
-    # getter for: Lorg/telegram/messenger/StatsController;->editor:Landroid/content/SharedPreferences$Editor;
     invoke-static {v3}, Lorg/telegram/messenger/StatsController;->access$100(Lorg/telegram/messenger/StatsController;)Landroid/content/SharedPreferences$Editor;
 
     move-result-object v3

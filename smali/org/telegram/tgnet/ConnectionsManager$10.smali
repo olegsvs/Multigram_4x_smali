@@ -40,7 +40,6 @@
 
     move-result-object v1
 
-    # getter for: Lorg/telegram/tgnet/ConnectionsManager;->wakeLock:Landroid/os/PowerManager$WakeLock;
     invoke-static {v1}, Lorg/telegram/tgnet/ConnectionsManager;->access$100(Lorg/telegram/tgnet/ConnectionsManager;)Landroid/os/PowerManager$WakeLock;
 
     move-result-object v1
@@ -56,7 +55,6 @@
 
     move-result-object v1
 
-    # getter for: Lorg/telegram/tgnet/ConnectionsManager;->wakeLock:Landroid/os/PowerManager$WakeLock;
     invoke-static {v1}, Lorg/telegram/tgnet/ConnectionsManager;->access$100(Lorg/telegram/tgnet/ConnectionsManager;)Landroid/os/PowerManager$WakeLock;
 
     move-result-object v1

@@ -52,7 +52,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ArticleViewer$24;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->pagesStack:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$7500(Lorg/telegram/ui/ArticleViewer;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -67,7 +66,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ArticleViewer$24;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->pagesStack:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$7500(Lorg/telegram/ui/ArticleViewer;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -112,7 +110,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ArticleViewer$24;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->pagesStack:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$7500(Lorg/telegram/ui/ArticleViewer;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -126,7 +123,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ArticleViewer$24;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->pagesStack:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$7500(Lorg/telegram/ui/ArticleViewer;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -146,7 +142,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$24$1;->val$webPage:Lorg/telegram/tgnet/TLRPC$TL_webPage;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->currentPage:Lorg/telegram/tgnet/TLRPC$WebPage;
     invoke-static {v0, v1}, Lorg/telegram/ui/ArticleViewer;->access$4602(Lorg/telegram/ui/ArticleViewer;Lorg/telegram/tgnet/TLRPC$WebPage;)Lorg/telegram/tgnet/TLRPC$WebPage;
 
     .line 2729
@@ -176,7 +171,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/ArticleViewer$24;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->currentPage:Lorg/telegram/tgnet/TLRPC$WebPage;
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$4600(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/tgnet/TLRPC$WebPage;
 
     move-result-object v2
@@ -202,7 +196,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ArticleViewer$24;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->updateInterfaceForCurrentPage(Z)V
     invoke-static {v0, v4}, Lorg/telegram/ui/ArticleViewer;->access$7600(Lorg/telegram/ui/ArticleViewer;Z)V
 
     .line 2733

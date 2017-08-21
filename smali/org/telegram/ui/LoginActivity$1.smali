@@ -47,14 +47,12 @@
     .line 156
     iget-object v0, p0, Lorg/telegram/ui/LoginActivity$1;->this$0:Lorg/telegram/ui/LoginActivity;
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->views:[Lorg/telegram/ui/Components/SlideView;
     invoke-static {v0}, Lorg/telegram/ui/LoginActivity;->access$000(Lorg/telegram/ui/LoginActivity;)[Lorg/telegram/ui/Components/SlideView;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/LoginActivity$1;->this$0:Lorg/telegram/ui/LoginActivity;
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->currentViewNum:I
     invoke-static {v1}, Lorg/telegram/ui/LoginActivity;->access$100(Lorg/telegram/ui/LoginActivity;)I
 
     move-result v1

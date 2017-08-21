@@ -57,7 +57,6 @@
     .line 1742
     iget-object v3, p0, Lorg/telegram/ui/PaymentFormActivity$24;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # getter for: Lorg/telegram/ui/PaymentFormActivity;->botUser:Lorg/telegram/tgnet/TLRPC$User;
     invoke-static {v3}, Lorg/telegram/ui/PaymentFormActivity;->access$3700(Lorg/telegram/ui/PaymentFormActivity;)Lorg/telegram/tgnet/TLRPC$User;
 
     move-result-object v3
@@ -66,7 +65,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/PaymentFormActivity$24;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # getter for: Lorg/telegram/ui/PaymentFormActivity;->botUser:Lorg/telegram/tgnet/TLRPC$User;
     invoke-static {v3}, Lorg/telegram/ui/PaymentFormActivity;->access$3700(Lorg/telegram/ui/PaymentFormActivity;)Lorg/telegram/tgnet/TLRPC$User;
 
     move-result-object v3
@@ -88,7 +86,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/PaymentFormActivity$24;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # getter for: Lorg/telegram/ui/PaymentFormActivity;->botUser:Lorg/telegram/tgnet/TLRPC$User;
     invoke-static {v4}, Lorg/telegram/ui/PaymentFormActivity;->access$3700(Lorg/telegram/ui/PaymentFormActivity;)Lorg/telegram/tgnet/TLRPC$User;
 
     move-result-object v4
@@ -166,7 +163,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/PaymentFormActivity$24;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # getter for: Lorg/telegram/ui/PaymentFormActivity;->currentBotName:Ljava/lang/String;
     invoke-static {v6}, Lorg/telegram/ui/PaymentFormActivity;->access$3800(Lorg/telegram/ui/PaymentFormActivity;)Ljava/lang/String;
 
     move-result-object v6
@@ -222,7 +218,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/PaymentFormActivity$24;->val$totalPrice:Ljava/lang/String;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->showPayAlert(Ljava/lang/String;)V
     invoke-static {v3, v4}, Lorg/telegram/ui/PaymentFormActivity;->access$3900(Lorg/telegram/ui/PaymentFormActivity;Ljava/lang/String;)V
 
     goto :goto_0
@@ -235,7 +230,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/PaymentFormActivity$24;->val$totalPrice:Ljava/lang/String;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->showPayAlert(Ljava/lang/String;)V
     invoke-static {v3, v4}, Lorg/telegram/ui/PaymentFormActivity;->access$3900(Lorg/telegram/ui/PaymentFormActivity;Ljava/lang/String;)V
 
     goto :goto_0

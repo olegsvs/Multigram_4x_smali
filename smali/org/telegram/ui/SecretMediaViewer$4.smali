@@ -51,7 +51,6 @@
     .line 656
     iget-object v1, p0, Lorg/telegram/ui/SecretMediaViewer$4;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->lastInsets:Ljava/lang/Object;
     invoke-static {v1}, Lorg/telegram/ui/SecretMediaViewer;->access$1300(Lorg/telegram/ui/SecretMediaViewer;)Ljava/lang/Object;
 
     move-result-object v0
@@ -62,7 +61,6 @@
     .local v0, "oldInsets":Landroid/view/WindowInsets;
     iget-object v1, p0, Lorg/telegram/ui/SecretMediaViewer$4;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # setter for: Lorg/telegram/ui/SecretMediaViewer;->lastInsets:Ljava/lang/Object;
     invoke-static {v1, p2}, Lorg/telegram/ui/SecretMediaViewer;->access$1302(Lorg/telegram/ui/SecretMediaViewer;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 658
@@ -86,7 +84,6 @@
     :cond_0
     iget-object v1, p0, Lorg/telegram/ui/SecretMediaViewer$4;->this$0:Lorg/telegram/ui/SecretMediaViewer;
 
-    # getter for: Lorg/telegram/ui/SecretMediaViewer;->windowView:Landroid/widget/FrameLayout;
     invoke-static {v1}, Lorg/telegram/ui/SecretMediaViewer;->access$2000(Lorg/telegram/ui/SecretMediaViewer;)Landroid/widget/FrameLayout;
 
     move-result-object v1

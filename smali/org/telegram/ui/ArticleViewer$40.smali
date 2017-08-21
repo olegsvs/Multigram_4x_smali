@@ -56,7 +56,6 @@
     .line 6882
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->textureUploaded:Z
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$13500(Lorg/telegram/ui/ArticleViewer;)Z
 
     move-result v0
@@ -68,13 +67,11 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->textureUploaded:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/ArticleViewer;->access$13502(Lorg/telegram/ui/ArticleViewer;Z)Z
 
     .line 6884
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->containerView:Landroid/widget/FrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$1200(Lorg/telegram/ui/ArticleViewer;)Landroid/widget/FrameLayout;
 
     move-result-object v0
@@ -101,7 +98,6 @@
     .line 6822
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->videoPlayer:Lorg/telegram/ui/Components/VideoPlayer;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$7000(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/Components/VideoPlayer;
 
     move-result-object v1
@@ -122,7 +118,6 @@
     :try_start_0
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->parentActivity:Landroid/app/Activity;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$1900(Lorg/telegram/ui/ArticleViewer;)Landroid/app/Activity;
 
     move-result-object v1
@@ -145,7 +140,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->aspectRatioFrameLayout:Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$600(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
 
     move-result-object v1
@@ -159,7 +153,6 @@
     .line 6839
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->aspectRatioFrameLayout:Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$600(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
 
     move-result-object v1
@@ -170,7 +163,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->videoPlayer:Lorg/telegram/ui/Components/VideoPlayer;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$7000(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/Components/VideoPlayer;
 
     move-result-object v1
@@ -186,7 +178,6 @@
     .line 6842
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->isPlaying:Z
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$7300(Lorg/telegram/ui/ArticleViewer;)Z
 
     move-result v1
@@ -196,13 +187,11 @@
     .line 6843
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->isPlaying:Z
     invoke-static {v1, v5}, Lorg/telegram/ui/ArticleViewer;->access$7302(Lorg/telegram/ui/ArticleViewer;Z)Z
 
     .line 6844
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->videoPlayButton:Landroid/widget/ImageView;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$13400(Lorg/telegram/ui/ArticleViewer;)Landroid/widget/ImageView;
 
     move-result-object v1
@@ -214,7 +203,6 @@
     .line 6845
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->updateProgressRunnable:Ljava/lang/Runnable;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$12800(Lorg/telegram/ui/ArticleViewer;)Ljava/lang/Runnable;
 
     move-result-object v1
@@ -226,7 +214,6 @@
     :goto_2
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->updateVideoPlayerTime()V
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$12700(Lorg/telegram/ui/ArticleViewer;)V
 
     goto :goto_0
@@ -247,7 +234,6 @@
     :try_start_1
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->parentActivity:Landroid/app/Activity;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$1900(Lorg/telegram/ui/ArticleViewer;)Landroid/app/Activity;
 
     move-result-object v1
@@ -279,7 +265,6 @@
     :cond_4
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->isPlaying:Z
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$7300(Lorg/telegram/ui/ArticleViewer;)Z
 
     move-result v1
@@ -289,13 +274,11 @@
     .line 6848
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->isPlaying:Z
     invoke-static {v1, v4}, Lorg/telegram/ui/ArticleViewer;->access$7302(Lorg/telegram/ui/ArticleViewer;Z)Z
 
     .line 6849
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->videoPlayButton:Landroid/widget/ImageView;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$13400(Lorg/telegram/ui/ArticleViewer;)Landroid/widget/ImageView;
 
     move-result-object v1
@@ -307,7 +290,6 @@
     .line 6850
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->updateProgressRunnable:Ljava/lang/Runnable;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$12800(Lorg/telegram/ui/ArticleViewer;)Ljava/lang/Runnable;
 
     move-result-object v1
@@ -320,7 +302,6 @@
     .line 6852
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->videoPlayerSeekbar:Lorg/telegram/ui/Components/SeekBar;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$7100(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/Components/SeekBar;
 
     move-result-object v1
@@ -334,7 +315,6 @@
     .line 6853
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->videoPlayerSeekbar:Lorg/telegram/ui/Components/SeekBar;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$7100(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/Components/SeekBar;
 
     move-result-object v1
@@ -346,7 +326,6 @@
     .line 6854
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->videoPlayerControlFrameLayout:Landroid/widget/FrameLayout;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$12600(Lorg/telegram/ui/ArticleViewer;)Landroid/widget/FrameLayout;
 
     move-result-object v1
@@ -356,7 +335,6 @@
     .line 6855
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->videoPlayer:Lorg/telegram/ui/Components/VideoPlayer;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$7000(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/Components/VideoPlayer;
 
     move-result-object v1
@@ -368,7 +346,6 @@
     .line 6856
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->videoPlayer:Lorg/telegram/ui/Components/VideoPlayer;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$7000(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/Components/VideoPlayer;
 
     move-result-object v1
@@ -409,7 +386,6 @@
     .line 6870
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->aspectRatioFrameLayout:Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$600(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
 
     move-result-object v1
@@ -441,7 +417,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$40;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->aspectRatioFrameLayout:Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$600(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/messenger/exoplayer2/ui/AspectRatioFrameLayout;
 
     move-result-object v2

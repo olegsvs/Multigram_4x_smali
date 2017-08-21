@@ -45,7 +45,6 @@
     .line 1042
     iget-object v0, p0, Lorg/telegram/ui/LocationActivity$21;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # invokes: Lorg/telegram/ui/LocationActivity;->updateUserData()V
     invoke-static {v0}, Lorg/telegram/ui/LocationActivity;->access$2900(Lorg/telegram/ui/LocationActivity;)V
 
     .line 1043

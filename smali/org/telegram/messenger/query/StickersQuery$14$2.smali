@@ -54,19 +54,16 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/query/StickersQuery$14;->val$unreadStickers:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/messenger/query/StickersQuery;->unreadStickerSets:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/messenger/query/StickersQuery;->access$1302(Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 630
     iget-object v0, p0, Lorg/telegram/messenger/query/StickersQuery$14$2;->val$stickerSetsByIdNew:Ljava/util/HashMap;
 
-    # setter for: Lorg/telegram/messenger/query/StickersQuery;->featuredStickerSetsById:Ljava/util/HashMap;
     invoke-static {v0}, Lorg/telegram/messenger/query/StickersQuery;->access$1402(Ljava/util/HashMap;)Ljava/util/HashMap;
 
     .line 631
     iget-object v0, p0, Lorg/telegram/messenger/query/StickersQuery$14$2;->val$stickerSetsNew:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/messenger/query/StickersQuery;->featuredStickerSets:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/messenger/query/StickersQuery;->access$1502(Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 632
@@ -74,7 +71,6 @@
 
     iget v0, v0, Lorg/telegram/messenger/query/StickersQuery$14;->val$hash:I
 
-    # setter for: Lorg/telegram/messenger/query/StickersQuery;->loadFeaturedHash:I
     invoke-static {v0}, Lorg/telegram/messenger/query/StickersQuery;->access$1102(I)I
 
     .line 633
@@ -82,7 +78,6 @@
 
     iget v0, v0, Lorg/telegram/messenger/query/StickersQuery$14;->val$date:I
 
-    # setter for: Lorg/telegram/messenger/query/StickersQuery;->loadFeaturedDate:I
     invoke-static {v0}, Lorg/telegram/messenger/query/StickersQuery;->access$1602(I)I
 
     .line 634

@@ -49,7 +49,6 @@
     .line 5197
     iget-object v4, p0, Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell$4;->this$1:Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->currentBlock:Lorg/telegram/tgnet/TLRPC$TL_pageBlockSlideshow;
     invoke-static {v4}, Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->access$11300(Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;)Lorg/telegram/tgnet/TLRPC$TL_pageBlockSlideshow;
 
     move-result-object v4
@@ -64,7 +63,6 @@
     :cond_1
     iget-object v4, p0, Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell$4;->this$1:Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->innerListView:Landroid/support/v4/view/ViewPager;
     invoke-static {v4}, Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->access$11600(Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;)Landroid/support/v4/view/ViewPager;
 
     move-result-object v4
@@ -81,7 +79,6 @@
     :goto_0
     iget-object v4, p0, Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell$4;->this$1:Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->currentBlock:Lorg/telegram/tgnet/TLRPC$TL_pageBlockSlideshow;
     invoke-static {v4}, Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->access$11300(Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;)Lorg/telegram/tgnet/TLRPC$TL_pageBlockSlideshow;
 
     move-result-object v4
@@ -119,7 +116,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->slideDotBigDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {v4}, Lorg/telegram/ui/ArticleViewer;->access$11700(Lorg/telegram/ui/ArticleViewer;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v2
@@ -164,7 +160,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/ArticleViewer$BlockSlideshowCell;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->slideDotDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {v4}, Lorg/telegram/ui/ArticleViewer;->access$11800(Lorg/telegram/ui/ArticleViewer;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v2

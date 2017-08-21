@@ -42,7 +42,6 @@
     .line 1114
     iget-object v0, p0, Lorg/telegram/ui/Components/ThemeEditorView$3;->this$0:Lorg/telegram/ui/Components/ThemeEditorView;
 
-    # getter for: Lorg/telegram/ui/Components/ThemeEditorView;->windowView:Landroid/widget/FrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/Components/ThemeEditorView;->access$3000(Lorg/telegram/ui/Components/ThemeEditorView;)Landroid/widget/FrameLayout;
 
     move-result-object v0
@@ -52,14 +51,12 @@
     .line 1115
     iget-object v0, p0, Lorg/telegram/ui/Components/ThemeEditorView$3;->this$0:Lorg/telegram/ui/Components/ThemeEditorView;
 
-    # getter for: Lorg/telegram/ui/Components/ThemeEditorView;->windowManager:Landroid/view/WindowManager;
     invoke-static {v0}, Lorg/telegram/ui/Components/ThemeEditorView;->access$3100(Lorg/telegram/ui/Components/ThemeEditorView;)Landroid/view/WindowManager;
 
     move-result-object v0
 
     iget-object v1, p0, Lorg/telegram/ui/Components/ThemeEditorView$3;->this$0:Lorg/telegram/ui/Components/ThemeEditorView;
 
-    # getter for: Lorg/telegram/ui/Components/ThemeEditorView;->windowView:Landroid/widget/FrameLayout;
     invoke-static {v1}, Lorg/telegram/ui/Components/ThemeEditorView;->access$3000(Lorg/telegram/ui/Components/ThemeEditorView;)Landroid/widget/FrameLayout;
 
     move-result-object v1

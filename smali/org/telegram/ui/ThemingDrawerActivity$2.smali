@@ -49,7 +49,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ThemingDrawerActivity$2;->this$0:Lorg/telegram/ui/ThemingDrawerActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingDrawerActivity;->showPrefix:Z
     invoke-static {v2}, Lorg/telegram/ui/ThemingDrawerActivity;->access$000(Lorg/telegram/ui/ThemingDrawerActivity;)Z
 
     move-result v2
@@ -59,7 +58,6 @@
     const/4 v2, 0x1
 
     :goto_0
-    # setter for: Lorg/telegram/ui/ThemingDrawerActivity;->showPrefix:Z
     invoke-static {v4, v2}, Lorg/telegram/ui/ThemingDrawerActivity;->access$002(Lorg/telegram/ui/ThemingDrawerActivity;Z)Z
 
     .line 175
@@ -83,7 +81,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ThemingDrawerActivity$2;->this$0:Lorg/telegram/ui/ThemingDrawerActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingDrawerActivity;->showPrefix:Z
     invoke-static {v3}, Lorg/telegram/ui/ThemingDrawerActivity;->access$000(Lorg/telegram/ui/ThemingDrawerActivity;)Z
 
     move-result v3
@@ -97,7 +94,6 @@
     .line 178
     iget-object v2, p0, Lorg/telegram/ui/ThemingDrawerActivity$2;->this$0:Lorg/telegram/ui/ThemingDrawerActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingDrawerActivity;->listAdapter:Lorg/telegram/ui/ThemingDrawerActivity$ListAdapter;
     invoke-static {v2}, Lorg/telegram/ui/ThemingDrawerActivity;->access$100(Lorg/telegram/ui/ThemingDrawerActivity;)Lorg/telegram/ui/ThemingDrawerActivity$ListAdapter;
 
     move-result-object v2
@@ -107,7 +103,6 @@
     .line 179
     iget-object v2, p0, Lorg/telegram/ui/ThemingDrawerActivity$2;->this$0:Lorg/telegram/ui/ThemingDrawerActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingDrawerActivity;->listAdapter:Lorg/telegram/ui/ThemingDrawerActivity$ListAdapter;
     invoke-static {v2}, Lorg/telegram/ui/ThemingDrawerActivity;->access$100(Lorg/telegram/ui/ThemingDrawerActivity;)Lorg/telegram/ui/ThemingDrawerActivity$ListAdapter;
 
     move-result-object v2

@@ -47,13 +47,11 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/PaymentFormActivity;->passwordOk:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/PaymentFormActivity;->access$3002(Lorg/telegram/ui/PaymentFormActivity;Z)Z
 
     .line 1613
     iget-object v0, p0, Lorg/telegram/ui/PaymentFormActivity$22;->this$0:Lorg/telegram/ui/PaymentFormActivity;
 
-    # invokes: Lorg/telegram/ui/PaymentFormActivity;->goToNextStep()V
     invoke-static {v0}, Lorg/telegram/ui/PaymentFormActivity;->access$200(Lorg/telegram/ui/PaymentFormActivity;)V
 
     .line 1614

@@ -61,7 +61,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ChangeAboutActivity$4;->this$0:Lorg/telegram/ui/ChangeAboutActivity;
 
-    # getter for: Lorg/telegram/ui/ChangeAboutActivity;->classGuid:I
     invoke-static {v2}, Lorg/telegram/ui/ChangeAboutActivity;->access$300(Lorg/telegram/ui/ChangeAboutActivity;)I
 
     move-result v2

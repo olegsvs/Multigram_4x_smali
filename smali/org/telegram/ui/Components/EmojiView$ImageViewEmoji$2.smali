@@ -76,7 +76,6 @@
     .line 194
     iget-object v5, p0, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji$2;->this$1:Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;
 
-    # setter for: Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->touched:Z
     invoke-static {v5, v6}, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->access$402(Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;Z)Z
 
     .line 195
@@ -84,12 +83,10 @@
 
     iget-object v9, p0, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji$2;->this$1:Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->lastX:F
     invoke-static {v9}, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->access$600(Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;)F
 
     move-result v9
 
-    # setter for: Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->touchedX:F
     invoke-static {v5, v9}, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->access$502(Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;F)F
 
     .line 196
@@ -97,16 +94,13 @@
 
     iget-object v9, p0, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji$2;->this$1:Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->lastY:F
     invoke-static {v9}, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->access$800(Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;)F
 
     move-result v9
 
-    # setter for: Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->touchedY:F
     invoke-static {v5, v9}, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->access$702(Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;F)F
 
     .line 198
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->emojiColor:Ljava/util/HashMap;
     invoke-static {}, Lorg/telegram/ui/Components/EmojiView;->access$900()Ljava/util/HashMap;
 
     move-result-object v5
@@ -140,7 +134,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->location:[I
     invoke-static {v5}, Lorg/telegram/ui/Components/EmojiView;->access$1100(Lorg/telegram/ui/Components/EmojiView;)[I
 
     move-result-object v5
@@ -152,7 +145,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->emojiSize:I
     invoke-static {v5}, Lorg/telegram/ui/Components/EmojiView;->access$1200(Lorg/telegram/ui/Components/EmojiView;)I
 
     move-result v5
@@ -161,7 +153,6 @@
 
     iget-object v7, v7, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->pickerView:Lorg/telegram/ui/Components/EmojiView$EmojiColorPickerView;
     invoke-static {v7}, Lorg/telegram/ui/Components/EmojiView;->access$1000(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$EmojiColorPickerView;
 
     move-result-object v7
@@ -176,7 +167,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->pickerView:Lorg/telegram/ui/Components/EmojiView$EmojiColorPickerView;
     invoke-static {v5}, Lorg/telegram/ui/Components/EmojiView;->access$1000(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$EmojiColorPickerView;
 
     move-result-object v5
@@ -212,7 +202,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->location:[I
     invoke-static {v5}, Lorg/telegram/ui/Components/EmojiView;->access$1100(Lorg/telegram/ui/Components/EmojiView;)[I
 
     move-result-object v5
@@ -232,7 +221,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->location:[I
     invoke-static {v5}, Lorg/telegram/ui/Components/EmojiView;->access$1100(Lorg/telegram/ui/Components/EmojiView;)[I
 
     move-result-object v5
@@ -273,7 +261,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->pickerView:Lorg/telegram/ui/Components/EmojiView$EmojiColorPickerView;
     invoke-static {v5}, Lorg/telegram/ui/Components/EmojiView;->access$1000(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$EmojiColorPickerView;
 
     move-result-object v7
@@ -310,7 +297,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->pickerViewPopup:Lorg/telegram/ui/Components/EmojiView$EmojiPopupWindow;
     invoke-static {v5}, Lorg/telegram/ui/Components/EmojiView;->access$1400(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$EmojiPopupWindow;
 
     move-result-object v5
@@ -322,7 +308,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->pickerViewPopup:Lorg/telegram/ui/Components/EmojiView$EmojiPopupWindow;
     invoke-static {v5}, Lorg/telegram/ui/Components/EmojiView;->access$1400(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$EmojiPopupWindow;
 
     move-result-object v5
@@ -337,7 +322,6 @@
 
     iget-object v8, v8, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->popupHeight:I
     invoke-static {v8}, Lorg/telegram/ui/Components/EmojiView;->access$1500(Lorg/telegram/ui/Components/EmojiView;)I
 
     move-result v8
@@ -352,7 +336,6 @@
 
     iget-object v9, v9, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->emojiSize:I
     invoke-static {v9}, Lorg/telegram/ui/Components/EmojiView;->access$1200(Lorg/telegram/ui/Components/EmojiView;)I
 
     move-result v9
@@ -455,7 +438,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->pickerView:Lorg/telegram/ui/Components/EmojiView$EmojiColorPickerView;
     invoke-static {v5}, Lorg/telegram/ui/Components/EmojiView;->access$1000(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$EmojiColorPickerView;
 
     move-result-object v5
@@ -470,7 +452,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->pickerView:Lorg/telegram/ui/Components/EmojiView$EmojiColorPickerView;
     invoke-static {v5}, Lorg/telegram/ui/Components/EmojiView;->access$1000(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$EmojiColorPickerView;
 
     move-result-object v5
@@ -485,7 +466,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->pickerView:Lorg/telegram/ui/Components/EmojiView$EmojiColorPickerView;
     invoke-static {v5}, Lorg/telegram/ui/Components/EmojiView;->access$1000(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$EmojiColorPickerView;
 
     move-result-object v5
@@ -500,7 +480,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->pickerView:Lorg/telegram/ui/Components/EmojiView$EmojiColorPickerView;
     invoke-static {v5}, Lorg/telegram/ui/Components/EmojiView;->access$1000(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$EmojiColorPickerView;
 
     move-result-object v5
@@ -517,7 +496,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->pickerView:Lorg/telegram/ui/Components/EmojiView$EmojiColorPickerView;
     invoke-static {v5}, Lorg/telegram/ui/Components/EmojiView;->access$1000(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$EmojiColorPickerView;
 
     move-result-object v5
@@ -534,7 +512,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->pickerView:Lorg/telegram/ui/Components/EmojiView$EmojiColorPickerView;
     invoke-static {v5}, Lorg/telegram/ui/Components/EmojiView;->access$1000(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$EmojiColorPickerView;
 
     move-result-object v5
@@ -556,7 +533,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->location:[I
     invoke-static {v5}, Lorg/telegram/ui/Components/EmojiView;->access$1100(Lorg/telegram/ui/Components/EmojiView;)[I
 
     move-result-object v5
@@ -569,7 +545,6 @@
 
     iget-object v7, v7, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->popupWidth:I
     invoke-static {v7}, Lorg/telegram/ui/Components/EmojiView;->access$1300(Lorg/telegram/ui/Components/EmojiView;)I
 
     move-result v7
@@ -593,7 +568,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->location:[I
     invoke-static {v5}, Lorg/telegram/ui/Components/EmojiView;->access$1100(Lorg/telegram/ui/Components/EmojiView;)[I
 
     move-result-object v5
@@ -606,7 +580,6 @@
 
     iget-object v7, v7, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->popupWidth:I
     invoke-static {v7}, Lorg/telegram/ui/Components/EmojiView;->access$1300(Lorg/telegram/ui/Components/EmojiView;)I
 
     move-result v7
@@ -647,7 +620,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->pager:Landroid/support/v4/view/ViewPager;
     invoke-static {v5}, Lorg/telegram/ui/Components/EmojiView;->access$1600(Lorg/telegram/ui/Components/EmojiView;)Landroid/support/v4/view/ViewPager;
 
     move-result-object v5
@@ -663,7 +635,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/EmojiView$ImageViewEmoji;->this$0:Lorg/telegram/ui/Components/EmojiView;
 
-    # getter for: Lorg/telegram/ui/Components/EmojiView;->listener:Lorg/telegram/ui/Components/EmojiView$Listener;
     invoke-static {v5}, Lorg/telegram/ui/Components/EmojiView;->access$000(Lorg/telegram/ui/Components/EmojiView;)Lorg/telegram/ui/Components/EmojiView$Listener;
 
     move-result-object v5

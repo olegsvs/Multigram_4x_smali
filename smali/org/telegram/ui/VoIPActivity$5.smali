@@ -62,7 +62,6 @@
     :cond_0
     iget-object v1, p0, Lorg/telegram/ui/VoIPActivity$5;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->micToggle:Lorg/telegram/ui/Components/voip/CheckableImageView;
     invoke-static {v1}, Lorg/telegram/ui/VoIPActivity;->access$700(Lorg/telegram/ui/VoIPActivity;)Lorg/telegram/ui/Components/voip/CheckableImageView;
 
     move-result-object v1
@@ -80,7 +79,6 @@
     :goto_1
     iget-object v1, p0, Lorg/telegram/ui/VoIPActivity$5;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->micToggle:Lorg/telegram/ui/Components/voip/CheckableImageView;
     invoke-static {v1}, Lorg/telegram/ui/VoIPActivity;->access$700(Lorg/telegram/ui/VoIPActivity;)Lorg/telegram/ui/Components/voip/CheckableImageView;
 
     move-result-object v1

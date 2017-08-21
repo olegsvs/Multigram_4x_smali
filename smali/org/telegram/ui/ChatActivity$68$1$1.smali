@@ -46,7 +46,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChatActivity$68;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mediaBanTooltip:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$7600(Lorg/telegram/ui/ChatActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -60,7 +59,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChatActivity$68;->this$0:Lorg/telegram/ui/ChatActivity;
 
-    # getter for: Lorg/telegram/ui/ChatActivity;->mediaBanTooltip:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChatActivity;->access$7600(Lorg/telegram/ui/ChatActivity;)Landroid/widget/TextView;
 
     move-result-object v0

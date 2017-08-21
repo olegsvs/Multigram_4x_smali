@@ -1708,7 +1708,6 @@
 
     const/4 v4, 0x0
 
-    # invokes: Lorg/telegram/ui/LoginActivity;->needShowProgress(I)V
     invoke-static {v3, v4}, Lorg/telegram/ui/LoginActivity;->access$2100(Lorg/telegram/ui/LoginActivity;I)V
 
     .line 1435
@@ -2104,7 +2103,6 @@
     .local v2, "reqId":I
     iget-object v3, p0, Lorg/telegram/ui/LoginActivity$LoginActivitySmsView;->this$0:Lorg/telegram/ui/LoginActivity;
 
-    # invokes: Lorg/telegram/ui/LoginActivity;->needShowProgress(I)V
     invoke-static {v3, v6}, Lorg/telegram/ui/LoginActivity;->access$2100(Lorg/telegram/ui/LoginActivity;I)V
 
     goto :goto_0

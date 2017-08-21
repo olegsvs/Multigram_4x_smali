@@ -129,7 +129,6 @@
 
     iget-boolean v4, p0, Lorg/telegram/messenger/camera/CameraController$8;->val$smallVideo:Z
 
-    # setter for: Lorg/telegram/messenger/camera/CameraController;->recordingSmallVideo:Z
     invoke-static {v3, v4}, Lorg/telegram/messenger/camera/CameraController;->access$302(Lorg/telegram/messenger/camera/CameraController;Z)Z
 
     .line 542
@@ -139,13 +138,11 @@
 
     invoke-direct {v4}, Landroid/media/MediaRecorder;-><init>()V
 
-    # setter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v3, v4}, Lorg/telegram/messenger/camera/CameraController;->access$402(Lorg/telegram/messenger/camera/CameraController;Landroid/media/MediaRecorder;)Landroid/media/MediaRecorder;
 
     .line 543
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraController$8;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v3
@@ -157,7 +154,6 @@
     .line 544
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraController$8;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v3
@@ -169,7 +165,6 @@
     .line 545
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraController$8;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v3
@@ -185,7 +180,6 @@
 
     iget-object v5, p0, Lorg/telegram/messenger/camera/CameraController$8;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v5}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v5
@@ -195,7 +189,6 @@
     .line 547
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraController$8;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v3
@@ -211,7 +204,6 @@
     .line 548
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraController$8;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v3
@@ -223,7 +215,6 @@
     .line 549
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraController$8;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v3
@@ -235,7 +226,6 @@
     .line 550
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraController$8;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v3
@@ -247,7 +237,6 @@
     .line 552
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraController$8;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recordingSmallVideo:Z
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraController;->access$300(Lorg/telegram/messenger/camera/CameraController;)Z
 
     move-result v3
@@ -282,7 +271,6 @@
     .line 555
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraController$8;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v3
@@ -294,7 +282,6 @@
     .line 556
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraController$8;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v3
@@ -306,7 +293,6 @@
     .line 557
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraController$8;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v3
@@ -319,7 +305,6 @@
     :goto_2
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraController$8;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v3
@@ -337,7 +322,6 @@
     .line 564
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraController$8;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v3
@@ -349,7 +333,6 @@
     .line 565
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraController$8;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v3
@@ -359,7 +342,6 @@
     .line 566
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraController$8;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v3
@@ -371,7 +353,6 @@
 
     iget-object v4, p0, Lorg/telegram/messenger/camera/CameraController$8;->val$callback:Lorg/telegram/messenger/camera/CameraController$VideoTakeCallback;
 
-    # setter for: Lorg/telegram/messenger/camera/CameraController;->onVideoTakeCallback:Lorg/telegram/messenger/camera/CameraController$VideoTakeCallback;
     invoke-static {v3, v4}, Lorg/telegram/messenger/camera/CameraController;->access$502(Lorg/telegram/messenger/camera/CameraController;Lorg/telegram/messenger/camera/CameraController$VideoTakeCallback;)Lorg/telegram/messenger/camera/CameraController$VideoTakeCallback;
 
     .line 569
@@ -383,7 +364,6 @@
 
     move-result-object v4
 
-    # setter for: Lorg/telegram/messenger/camera/CameraController;->recordedFile:Ljava/lang/String;
     invoke-static {v3, v4}, Lorg/telegram/messenger/camera/CameraController;->access$602(Lorg/telegram/messenger/camera/CameraController;Ljava/lang/String;)Ljava/lang/String;
 
     .line 570
@@ -470,7 +450,6 @@
     .line 561
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraController$8;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v3
@@ -493,7 +472,6 @@
     :try_start_7
     iget-object v3, p0, Lorg/telegram/messenger/camera/CameraController$8;->this$0:Lorg/telegram/messenger/camera/CameraController;
 
-    # getter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v3}, Lorg/telegram/messenger/camera/CameraController;->access$400(Lorg/telegram/messenger/camera/CameraController;)Landroid/media/MediaRecorder;
 
     move-result-object v3
@@ -505,7 +483,6 @@
 
     const/4 v4, 0x0
 
-    # setter for: Lorg/telegram/messenger/camera/CameraController;->recorder:Landroid/media/MediaRecorder;
     invoke-static {v3, v4}, Lorg/telegram/messenger/camera/CameraController;->access$402(Lorg/telegram/messenger/camera/CameraController;Landroid/media/MediaRecorder;)Landroid/media/MediaRecorder;
 
     .line 576

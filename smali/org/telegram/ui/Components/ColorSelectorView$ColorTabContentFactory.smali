@@ -54,7 +54,6 @@
     .line 162
     iget-object v0, p0, Lorg/telegram/ui/Components/ColorSelectorView$ColorTabContentFactory;->this$0:Lorg/telegram/ui/Components/ColorSelectorView;
 
-    # getter for: Lorg/telegram/ui/Components/ColorSelectorView;->hsvSelector:Lorg/telegram/ui/Components/HsvSelectorView;
     invoke-static {v0}, Lorg/telegram/ui/Components/ColorSelectorView;->access$000(Lorg/telegram/ui/Components/ColorSelectorView;)Lorg/telegram/ui/Components/HsvSelectorView;
 
     move-result-object v0
@@ -76,7 +75,6 @@
     .line 165
     iget-object v0, p0, Lorg/telegram/ui/Components/ColorSelectorView$ColorTabContentFactory;->this$0:Lorg/telegram/ui/Components/ColorSelectorView;
 
-    # getter for: Lorg/telegram/ui/Components/ColorSelectorView;->rgbSelector:Lorg/telegram/ui/Components/RgbSelectorView;
     invoke-static {v0}, Lorg/telegram/ui/Components/ColorSelectorView;->access$100(Lorg/telegram/ui/Components/ColorSelectorView;)Lorg/telegram/ui/Components/RgbSelectorView;
 
     move-result-object v0
@@ -96,7 +94,6 @@
     .line 168
     iget-object v0, p0, Lorg/telegram/ui/Components/ColorSelectorView$ColorTabContentFactory;->this$0:Lorg/telegram/ui/Components/ColorSelectorView;
 
-    # getter for: Lorg/telegram/ui/Components/ColorSelectorView;->hexSelector:Lorg/telegram/ui/Components/HexSelectorView;
     invoke-static {v0}, Lorg/telegram/ui/Components/ColorSelectorView;->access$200(Lorg/telegram/ui/Components/ColorSelectorView;)Lorg/telegram/ui/Components/HexSelectorView;
 
     move-result-object v0

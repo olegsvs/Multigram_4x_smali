@@ -46,7 +46,6 @@
 
     iget-object v0, v0, Landroid/support/v4/print/PrintHelperKitkat$3$1;->this$1:Landroid/support/v4/print/PrintHelperKitkat$3;
 
-    # invokes: Landroid/support/v4/print/PrintHelperKitkat$3;->cancelLoad()V
     invoke-static {v0}, Landroid/support/v4/print/PrintHelperKitkat$3;->access$300(Landroid/support/v4/print/PrintHelperKitkat$3;)V
 
     .line 494

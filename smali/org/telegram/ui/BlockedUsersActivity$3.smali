@@ -91,7 +91,6 @@
 
     move-result v2
 
-    # setter for: Lorg/telegram/ui/BlockedUsersActivity;->selectedUserId:I
     invoke-static {v3, v2}, Lorg/telegram/ui/BlockedUsersActivity;->access$002(Lorg/telegram/ui/BlockedUsersActivity;I)I
 
     .line 133

@@ -48,7 +48,6 @@
 
     const/4 v1, 0x0
 
-    # invokes: Lorg/telegram/ui/ProfileActivity;->kickUser(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ProfileActivity;->access$4400(Lorg/telegram/ui/ProfileActivity;I)V
 
     .line 1660

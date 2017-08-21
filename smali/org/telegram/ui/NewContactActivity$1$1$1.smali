@@ -62,7 +62,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/NewContactActivity$1;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # setter for: Lorg/telegram/ui/NewContactActivity;->donePressed:Z
     invoke-static {v1, v6}, Lorg/telegram/ui/NewContactActivity;->access$002(Lorg/telegram/ui/NewContactActivity;Z)Z
 
     .line 159
@@ -137,7 +136,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/NewContactActivity$1;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # invokes: Lorg/telegram/ui/NewContactActivity;->showEditDoneProgress(ZZ)V
     invoke-static {v1, v6, v3}, Lorg/telegram/ui/NewContactActivity;->access$400(Lorg/telegram/ui/NewContactActivity;ZZ)V
 
     .line 168
@@ -248,7 +246,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/NewContactActivity$1;->this$0:Lorg/telegram/ui/NewContactActivity;
 
-    # invokes: Lorg/telegram/ui/NewContactActivity;->showEditDoneProgress(ZZ)V
     invoke-static {v1, v6, v3}, Lorg/telegram/ui/NewContactActivity;->access$400(Lorg/telegram/ui/NewContactActivity;ZZ)V
 
     .line 188

@@ -64,7 +64,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$2;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # invokes: Lorg/telegram/ui/VoIPActivity;->showDebugAlert()V
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$100(Lorg/telegram/ui/VoIPActivity;)V
 
     .line 185

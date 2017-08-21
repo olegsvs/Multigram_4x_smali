@@ -52,7 +52,6 @@
     .line 621
     iget-object v0, p0, Lorg/telegram/ui/ChannelEditActivity$SearchAdapter$3;->this$1:Lorg/telegram/ui/ChannelEditActivity$SearchAdapter;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity$SearchAdapter;->searchAdapterHelper:Lorg/telegram/ui/Adapters/SearchAdapterHelper;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditActivity$SearchAdapter;->access$2100(Lorg/telegram/ui/ChannelEditActivity$SearchAdapter;)Lorg/telegram/ui/Adapters/SearchAdapterHelper;
 
     move-result-object v0
@@ -63,7 +62,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ChannelEditActivity$SearchAdapter;->this$0:Lorg/telegram/ui/ChannelEditActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditActivity;->chat_id:I
     invoke-static {v3}, Lorg/telegram/ui/ChannelEditActivity;->access$100(Lorg/telegram/ui/ChannelEditActivity;)I
 
     move-result v6

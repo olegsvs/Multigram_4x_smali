@@ -53,7 +53,6 @@
 
     iget-boolean v2, p0, Lorg/telegram/messenger/FileLoadOperation$3;->val$increment:Z
 
-    # invokes: Lorg/telegram/messenger/FileLoadOperation;->onFinishLoadingFile(Z)V
     invoke-static {v1, v2}, Lorg/telegram/messenger/FileLoadOperation;->access$200(Lorg/telegram/messenger/FileLoadOperation;Z)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -70,7 +69,6 @@
     .local v0, "e":Ljava/lang/Exception;
     iget-object v1, p0, Lorg/telegram/messenger/FileLoadOperation$3;->this$0:Lorg/telegram/messenger/FileLoadOperation;
 
-    # invokes: Lorg/telegram/messenger/FileLoadOperation;->onFail(ZI)V
     invoke-static {v1, v3, v3}, Lorg/telegram/messenger/FileLoadOperation;->access$300(Lorg/telegram/messenger/FileLoadOperation;ZI)V
 
     goto :goto_0

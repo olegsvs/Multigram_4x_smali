@@ -78,7 +78,6 @@
 
     move-object/from16 v21, v0
 
-    # invokes: Lorg/telegram/messenger/MessagesController;->applyDialogsNotificationsSettings(Ljava/util/ArrayList;)V
     invoke-static/range {v20 .. v21}, Lorg/telegram/messenger/MessagesController;->access$4700(Lorg/telegram/messenger/MessagesController;Ljava/util/ArrayList;)V
 
     .line 6061

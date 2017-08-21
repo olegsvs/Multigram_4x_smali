@@ -47,7 +47,6 @@
     .line 3620
     iget-object v0, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->rowCount:I
     invoke-static {v0}, Lorg/telegram/ui/ProfileActivity;->access$8700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v0
@@ -65,7 +64,6 @@
     .line 3625
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->emptyRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$8800(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -74,7 +72,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->emptyRowChat:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$7600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -83,7 +80,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->emptyRowChat2:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$2800(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -99,7 +95,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$8900(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -108,7 +103,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->userSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$9000(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -125,7 +119,6 @@
     :cond_3
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->phoneRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$2700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -134,7 +127,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->usernameRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$2600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -143,7 +135,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->channelNameRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$3300(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -152,7 +143,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->userInfoDetailedRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$7800(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -169,7 +159,6 @@
     :cond_5
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->leaveChannelRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$3400(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -178,7 +167,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sharedMediaRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$1400(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -187,7 +175,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->settingsTimerRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$2100(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -196,7 +183,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->settingsNotificationsRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$2200(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -205,7 +191,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->startSecretChatRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$2400(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -214,7 +199,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->settingsKeyRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$2000(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -223,7 +207,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->convertRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$3700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -232,7 +215,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->addMemberRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$3100(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -241,7 +223,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->groupsInCommonRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$1900(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -250,7 +231,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->membersRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$3500(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -259,7 +239,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sharedFilesRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$1800(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -268,7 +247,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sharedMusicRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$1600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -277,7 +255,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sharedLinksRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$1700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -294,7 +271,6 @@
     :cond_7
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->emptyRowChat2:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$2800(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -303,7 +279,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->membersEndRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$2900(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -319,7 +294,6 @@
     :cond_8
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->membersSectionRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$9100(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -335,7 +309,6 @@
     :cond_9
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->convertHelpRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$9200(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -351,7 +324,6 @@
     :cond_a
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->loadMoreMembersRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$5600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -367,7 +339,6 @@
     :cond_b
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->userInfoRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$7700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -376,7 +347,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->channelInfoRow:I
     invoke-static {v1}, Lorg/telegram/ui/ProfileActivity;->access$3600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v1
@@ -408,7 +378,6 @@
     .local v0, "i":I
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->user_id:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -418,7 +387,6 @@
     .line 3607
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->phoneRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$2700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -427,7 +395,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->settingsTimerRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$2100(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -436,7 +403,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->settingsKeyRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$2000(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -445,7 +411,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->settingsNotificationsRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$2200(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -455,7 +420,6 @@
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
     .line 3608
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sharedMediaRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$1400(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -464,7 +428,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->startSecretChatRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$2400(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -473,7 +436,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->usernameRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$2600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -482,7 +444,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->userInfoRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$7700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -491,7 +452,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->groupsInCommonRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$1900(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -500,7 +460,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->userInfoDetailedRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$7800(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -510,7 +469,6 @@
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
     .line 3609
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sharedFilesRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$1800(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -519,7 +477,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sharedMusicRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$1600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -528,7 +485,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sharedLinksRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$1700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -547,7 +503,6 @@
     :cond_2
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->chat_id:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -557,7 +512,6 @@
     .line 3611
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->convertRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$3700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -566,7 +520,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->settingsNotificationsRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$2200(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -575,7 +528,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sharedMediaRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$1400(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -584,7 +536,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->emptyRowChat2:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$2800(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -593,7 +544,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->membersEndRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$2900(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -604,7 +554,6 @@
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
     .line 3612
-    # getter for: Lorg/telegram/ui/ProfileActivity;->addMemberRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$3100(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -613,7 +562,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->channelNameRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$3300(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -622,7 +570,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->leaveChannelRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$3400(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -631,7 +578,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->channelInfoRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$3600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -640,7 +586,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->membersRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$3500(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -650,7 +595,6 @@
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
     .line 3613
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sharedFilesRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$1800(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -659,7 +603,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sharedMusicRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$1600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -668,7 +611,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ProfileActivity$ListAdapter;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sharedLinksRow:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$1700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3
@@ -724,7 +666,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->emptyRowChat:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$7600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -741,7 +682,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->emptyRowChat2:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$2800(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -852,7 +792,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->phoneRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$2700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -874,7 +813,6 @@
 
     move-object/from16 v30, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->user_id:I
     invoke-static/range {v30 .. v30}, Lorg/telegram/ui/ProfileActivity;->access$700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v30
@@ -995,7 +933,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->usernameRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$2600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -1017,7 +954,6 @@
 
     move-object/from16 v30, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->user_id:I
     invoke-static/range {v30 .. v30}, Lorg/telegram/ui/ProfileActivity;->access$700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v30
@@ -1080,7 +1016,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->phoneRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$2700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -1099,7 +1034,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->userInfoRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$7700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -1118,7 +1052,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->userInfoDetailedRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$7800(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -1196,7 +1129,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->channelNameRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$3300(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -1214,7 +1146,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->currentChat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$500(Lorg/telegram/ui/ProfileActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v29
@@ -1227,7 +1158,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->currentChat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$500(Lorg/telegram/ui/ProfileActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v29
@@ -1261,7 +1191,6 @@
 
     move-object/from16 v30, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->currentChat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static/range {v30 .. v30}, Lorg/telegram/ui/ProfileActivity;->access$500(Lorg/telegram/ui/ProfileActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v30
@@ -1313,7 +1242,6 @@
 
     move-object/from16 v30, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->currentChat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static/range {v30 .. v30}, Lorg/telegram/ui/ProfileActivity;->access$500(Lorg/telegram/ui/ProfileActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v30
@@ -1359,7 +1287,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->userInfoDetailedRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$7800(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -1381,7 +1308,6 @@
 
     move-object/from16 v30, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->user_id:I
     invoke-static/range {v30 .. v30}, Lorg/telegram/ui/ProfileActivity;->access$700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v30
@@ -1513,7 +1439,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sharedMediaRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$1400(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -1531,7 +1456,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->totalMediaCount:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$7900(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -1562,7 +1486,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->user_id:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -1579,7 +1502,6 @@
 
     move-object/from16 v30, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->user_id:I
     invoke-static/range {v30 .. v30}, Lorg/telegram/ui/ProfileActivity;->access$700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v30
@@ -1656,7 +1578,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->totalMediaCount:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$7900(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v33
@@ -1667,7 +1588,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->totalMediaCountMerge:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$8000(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -1686,7 +1606,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->totalMediaCountMerge:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$8000(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -1743,7 +1662,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sharedFilesRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$1800(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -1761,7 +1679,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->totalFilesCount:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$8100(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -1836,7 +1753,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->totalFilesCount:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$8100(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v33
@@ -1847,7 +1763,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->totalFilesCountMerge:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$8200(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -1866,7 +1781,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->totalFilesCountMerge:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$8200(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -1901,7 +1815,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sharedMusicRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$1600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -1919,7 +1832,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->totalMusicCount:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$8300(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -1994,7 +1906,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->totalMusicCount:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$8300(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v33
@@ -2005,7 +1916,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->totalMusicCountMerge:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$8400(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -2024,7 +1934,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->totalMusicCountMerge:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$8400(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -2059,7 +1968,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sharedLinksRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$1700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -2077,7 +1985,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->totalLinksCount:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$8500(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -2152,7 +2059,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->totalLinksCount:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$8500(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v33
@@ -2163,7 +2069,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->totalLinksCountMerge:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$8600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -2182,7 +2087,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->totalLinksCountMerge:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$8600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -2217,7 +2121,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->groupsInCommonRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$1900(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -2239,7 +2142,6 @@
 
     move-object/from16 v30, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->user_id:I
     invoke-static/range {v30 .. v30}, Lorg/telegram/ui/ProfileActivity;->access$700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v30
@@ -2325,7 +2227,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->settingsTimerRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$2100(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -2347,7 +2248,6 @@
 
     move-object/from16 v30, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->dialog_id:J
     invoke-static/range {v30 .. v30}, Lorg/telegram/ui/ProfileActivity;->access$1500(Lorg/telegram/ui/ProfileActivity;)J
 
     move-result-wide v30
@@ -2443,7 +2343,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->settingsNotificationsRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$2200(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -2473,7 +2372,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->dialog_id:J
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$1500(Lorg/telegram/ui/ProfileActivity;)J
 
     move-result-wide v30
@@ -2491,7 +2389,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->dialog_id:J
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$1500(Lorg/telegram/ui/ProfileActivity;)J
 
     move-result-wide v12
@@ -2735,7 +2632,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->user_id:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -2749,7 +2645,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->user_id:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -2770,7 +2665,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->chat_id:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -3189,7 +3083,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->startSecretChatRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$2400(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -3272,7 +3165,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->settingsKeyRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$2000(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -3300,7 +3192,6 @@
 
     move-object/from16 v30, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->dialog_id:J
     invoke-static/range {v30 .. v30}, Lorg/telegram/ui/ProfileActivity;->access$1500(Lorg/telegram/ui/ProfileActivity;)J
 
     move-result-wide v30
@@ -3358,7 +3249,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->leaveChannelRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$3400(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -3441,7 +3331,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->convertRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$3700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -3499,7 +3388,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->addMemberRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$3100(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -3517,7 +3405,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->chat_id:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -3567,7 +3454,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->membersRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$3500(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -3585,7 +3471,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$1000(Lorg/telegram/ui/ProfileActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v29
@@ -3619,7 +3504,6 @@
 
     move-object/from16 v33, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static/range {v33 .. v33}, Lorg/telegram/ui/ProfileActivity;->access$1000(Lorg/telegram/ui/ProfileActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v33
@@ -3687,7 +3571,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->addMemberRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$3100(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -3705,7 +3588,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->chat_id:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -3767,7 +3649,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sortedUsers:Ljava/util/ArrayList;
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$3000(Lorg/telegram/ui/ProfileActivity;)Ljava/util/ArrayList;
 
     move-result-object v29
@@ -3785,7 +3666,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$1000(Lorg/telegram/ui/ProfileActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v29
@@ -3808,7 +3688,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->sortedUsers:Ljava/util/ArrayList;
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$3000(Lorg/telegram/ui/ProfileActivity;)Ljava/util/ArrayList;
 
     move-result-object v29
@@ -3819,7 +3698,6 @@
 
     move-object/from16 v31, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->emptyRowChat2:I
     invoke-static/range {v31 .. v31}, Lorg/telegram/ui/ProfileActivity;->access$2800(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v31
@@ -3923,7 +3801,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->emptyRowChat2:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$2800(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -3962,7 +3839,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$1000(Lorg/telegram/ui/ProfileActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v29
@@ -3985,7 +3861,6 @@
 
     move-object/from16 v30, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->emptyRowChat2:I
     invoke-static/range {v30 .. v30}, Lorg/telegram/ui/ProfileActivity;->access$2800(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v30
@@ -4065,7 +3940,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->currentChat:Lorg/telegram/tgnet/TLRPC$Chat;
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$500(Lorg/telegram/ui/ProfileActivity;)Lorg/telegram/tgnet/TLRPC$Chat;
 
     move-result-object v29
@@ -4146,7 +4020,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->userInfoRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$7700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -4168,7 +4041,6 @@
 
     move-object/from16 v30, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->user_id:I
     invoke-static/range {v30 .. v30}, Lorg/telegram/ui/ProfileActivity;->access$700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v30
@@ -4216,7 +4088,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->channelInfoRow:I
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$3600(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v29
@@ -4234,7 +4105,6 @@
 
     move-object/from16 v29, v0
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->info:Lorg/telegram/tgnet/TLRPC$ChatFull;
     invoke-static/range {v29 .. v29}, Lorg/telegram/ui/ProfileActivity;->access$1000(Lorg/telegram/ui/ProfileActivity;)Lorg/telegram/tgnet/TLRPC$ChatFull;
 
     move-result-object v29
@@ -4305,8 +4175,6 @@
     goto/16 :goto_0
 
     .line 3329
-    nop
-
     :pswitch_data_0
     .packed-switch 0x0
         :pswitch_1

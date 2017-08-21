@@ -80,7 +80,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$28;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->videoConvertSync:Ljava/lang/Object;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$7400(Lorg/telegram/messenger/MediaController;)Ljava/lang/Object;
 
     move-result-object v1
@@ -93,7 +92,6 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/messenger/MediaController;->cancelCurrentVideoConversion:Z
     invoke-static {v0, v2}, Lorg/telegram/messenger/MediaController;->access$7502(Lorg/telegram/messenger/MediaController;Z)Z
 
     .line 3932
@@ -104,7 +102,6 @@
     .line 3933
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$28;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->videoConvertQueue:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$7600(Lorg/telegram/messenger/MediaController;)Ljava/util/ArrayList;
 
     move-result-object v0
@@ -116,7 +113,6 @@
     .line 3934
     iget-object v0, p0, Lorg/telegram/messenger/MediaController$28;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # invokes: Lorg/telegram/messenger/MediaController;->startVideoConvertFromQueue()Z
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$7700(Lorg/telegram/messenger/MediaController;)Z
 
     .line 3936

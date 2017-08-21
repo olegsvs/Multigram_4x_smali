@@ -42,7 +42,6 @@
     .line 1242
     iget-object v0, p0, Lorg/telegram/ui/Components/ThemeEditorView$4;->this$0:Lorg/telegram/ui/Components/ThemeEditorView;
 
-    # getter for: Lorg/telegram/ui/Components/ThemeEditorView;->currentThemeName:Ljava/lang/String;
     invoke-static {v0}, Lorg/telegram/ui/Components/ThemeEditorView;->access$1900(Lorg/telegram/ui/Components/ThemeEditorView;)Ljava/lang/String;
 
     move-result-object v0

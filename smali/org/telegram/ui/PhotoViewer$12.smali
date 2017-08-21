@@ -47,7 +47,6 @@
 
     const/4 v1, 0x0
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->showQualityView(Z)V
     invoke-static {v0, v1}, Lorg/telegram/ui/PhotoViewer;->access$6600(Lorg/telegram/ui/PhotoViewer;Z)V
 
     .line 1972
@@ -55,7 +54,6 @@
 
     const/4 v1, 0x2
 
-    # invokes: Lorg/telegram/ui/PhotoViewer;->requestVideoPreview(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/PhotoViewer;->access$6700(Lorg/telegram/ui/PhotoViewer;I)V
 
     .line 1973

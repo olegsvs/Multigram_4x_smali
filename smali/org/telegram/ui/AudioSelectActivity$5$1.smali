@@ -52,7 +52,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/AudioSelectActivity$5$1;->val$newAudioEntries:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/ui/AudioSelectActivity;->audioEntries:Ljava/util/ArrayList;
     invoke-static {v0, v1}, Lorg/telegram/ui/AudioSelectActivity;->access$302(Lorg/telegram/ui/AudioSelectActivity;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 270
@@ -60,7 +59,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/AudioSelectActivity$5;->this$0:Lorg/telegram/ui/AudioSelectActivity;
 
-    # getter for: Lorg/telegram/ui/AudioSelectActivity;->progressView:Lorg/telegram/ui/Components/EmptyTextProgressView;
     invoke-static {v0}, Lorg/telegram/ui/AudioSelectActivity;->access$400(Lorg/telegram/ui/AudioSelectActivity;)Lorg/telegram/ui/Components/EmptyTextProgressView;
 
     move-result-object v0
@@ -72,7 +70,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/AudioSelectActivity$5;->this$0:Lorg/telegram/ui/AudioSelectActivity;
 
-    # getter for: Lorg/telegram/ui/AudioSelectActivity;->listViewAdapter:Lorg/telegram/ui/AudioSelectActivity$ListAdapter;
     invoke-static {v0}, Lorg/telegram/ui/AudioSelectActivity;->access$500(Lorg/telegram/ui/AudioSelectActivity;)Lorg/telegram/ui/AudioSelectActivity$ListAdapter;
 
     move-result-object v0

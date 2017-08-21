@@ -46,7 +46,6 @@
     .line 906
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$4;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->pressedLinkOwnerView:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$3300(Lorg/telegram/ui/ArticleViewer;)Landroid/view/View;
 
     move-result-object v0
@@ -56,13 +55,11 @@
     .line 907
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$4;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->pressedLinkOwnerLayout:Landroid/text/StaticLayout;
     invoke-static {v0, v1}, Lorg/telegram/ui/ArticleViewer;->access$3202(Lorg/telegram/ui/ArticleViewer;Landroid/text/StaticLayout;)Landroid/text/StaticLayout;
 
     .line 908
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$4;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->pressedLinkOwnerView:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/ArticleViewer;->access$3300(Lorg/telegram/ui/ArticleViewer;)Landroid/view/View;
 
     move-result-object v0
@@ -72,7 +69,6 @@
     .line 909
     iget-object v0, p0, Lorg/telegram/ui/ArticleViewer$4;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->pressedLinkOwnerView:Landroid/view/View;
     invoke-static {v0, v1}, Lorg/telegram/ui/ArticleViewer;->access$3302(Lorg/telegram/ui/ArticleViewer;Landroid/view/View;)Landroid/view/View;
 
     .line 911

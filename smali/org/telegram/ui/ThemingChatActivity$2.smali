@@ -49,7 +49,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ThemingChatActivity$2;->this$0:Lorg/telegram/ui/ThemingChatActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatActivity;->showPrefix:Z
     invoke-static {v2}, Lorg/telegram/ui/ThemingChatActivity;->access$000(Lorg/telegram/ui/ThemingChatActivity;)Z
 
     move-result v2
@@ -59,7 +58,6 @@
     const/4 v2, 0x1
 
     :goto_0
-    # setter for: Lorg/telegram/ui/ThemingChatActivity;->showPrefix:Z
     invoke-static {v4, v2}, Lorg/telegram/ui/ThemingChatActivity;->access$002(Lorg/telegram/ui/ThemingChatActivity;Z)Z
 
     .line 280
@@ -83,7 +81,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ThemingChatActivity$2;->this$0:Lorg/telegram/ui/ThemingChatActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatActivity;->showPrefix:Z
     invoke-static {v3}, Lorg/telegram/ui/ThemingChatActivity;->access$000(Lorg/telegram/ui/ThemingChatActivity;)Z
 
     move-result v3
@@ -97,7 +94,6 @@
     .line 283
     iget-object v2, p0, Lorg/telegram/ui/ThemingChatActivity$2;->this$0:Lorg/telegram/ui/ThemingChatActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatActivity;->listAdapter:Lorg/telegram/ui/ThemingChatActivity$ListAdapter;
     invoke-static {v2}, Lorg/telegram/ui/ThemingChatActivity;->access$100(Lorg/telegram/ui/ThemingChatActivity;)Lorg/telegram/ui/ThemingChatActivity$ListAdapter;
 
     move-result-object v2
@@ -107,7 +103,6 @@
     .line 284
     iget-object v2, p0, Lorg/telegram/ui/ThemingChatActivity$2;->this$0:Lorg/telegram/ui/ThemingChatActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingChatActivity;->listAdapter:Lorg/telegram/ui/ThemingChatActivity$ListAdapter;
     invoke-static {v2}, Lorg/telegram/ui/ThemingChatActivity;->access$100(Lorg/telegram/ui/ThemingChatActivity;)Lorg/telegram/ui/ThemingChatActivity$ListAdapter;
 
     move-result-object v2

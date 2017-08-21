@@ -47,7 +47,6 @@
     .line 148
     iget-object v0, p0, Lorg/telegram/ui/ConvertGroupActivity$ListAdapter;->this$0:Lorg/telegram/ui/ConvertGroupActivity;
 
-    # getter for: Lorg/telegram/ui/ConvertGroupActivity;->rowCount:I
     invoke-static {v0}, Lorg/telegram/ui/ConvertGroupActivity;->access$200(Lorg/telegram/ui/ConvertGroupActivity;)I
 
     move-result v0
@@ -65,7 +64,6 @@
     .line 191
     iget-object v1, p0, Lorg/telegram/ui/ConvertGroupActivity$ListAdapter;->this$0:Lorg/telegram/ui/ConvertGroupActivity;
 
-    # getter for: Lorg/telegram/ui/ConvertGroupActivity;->convertRow:I
     invoke-static {v1}, Lorg/telegram/ui/ConvertGroupActivity;->access$000(Lorg/telegram/ui/ConvertGroupActivity;)I
 
     move-result v1
@@ -81,7 +79,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/ConvertGroupActivity$ListAdapter;->this$0:Lorg/telegram/ui/ConvertGroupActivity;
 
-    # getter for: Lorg/telegram/ui/ConvertGroupActivity;->convertInfoRow:I
     invoke-static {v1}, Lorg/telegram/ui/ConvertGroupActivity;->access$300(Lorg/telegram/ui/ConvertGroupActivity;)I
 
     move-result v1
@@ -90,7 +87,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ConvertGroupActivity$ListAdapter;->this$0:Lorg/telegram/ui/ConvertGroupActivity;
 
-    # getter for: Lorg/telegram/ui/ConvertGroupActivity;->convertDetailRow:I
     invoke-static {v1}, Lorg/telegram/ui/ConvertGroupActivity;->access$400(Lorg/telegram/ui/ConvertGroupActivity;)I
 
     move-result v1
@@ -116,7 +112,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ConvertGroupActivity$ListAdapter;->this$0:Lorg/telegram/ui/ConvertGroupActivity;
 
-    # getter for: Lorg/telegram/ui/ConvertGroupActivity;->convertRow:I
     invoke-static {v1}, Lorg/telegram/ui/ConvertGroupActivity;->access$000(Lorg/telegram/ui/ConvertGroupActivity;)I
 
     move-result v1
@@ -162,7 +157,6 @@
     .local v1, "textCell":Lorg/telegram/ui/Cells/TextSettingsCell;
     iget-object v2, p0, Lorg/telegram/ui/ConvertGroupActivity$ListAdapter;->this$0:Lorg/telegram/ui/ConvertGroupActivity;
 
-    # getter for: Lorg/telegram/ui/ConvertGroupActivity;->convertRow:I
     invoke-static {v2}, Lorg/telegram/ui/ConvertGroupActivity;->access$000(Lorg/telegram/ui/ConvertGroupActivity;)I
 
     move-result v2
@@ -195,7 +189,6 @@
     .local v0, "privacyCell":Lorg/telegram/ui/Cells/TextInfoPrivacyCell;
     iget-object v2, p0, Lorg/telegram/ui/ConvertGroupActivity$ListAdapter;->this$0:Lorg/telegram/ui/ConvertGroupActivity;
 
-    # getter for: Lorg/telegram/ui/ConvertGroupActivity;->convertInfoRow:I
     invoke-static {v2}, Lorg/telegram/ui/ConvertGroupActivity;->access$300(Lorg/telegram/ui/ConvertGroupActivity;)I
 
     move-result v2
@@ -236,7 +229,6 @@
     :cond_1
     iget-object v2, p0, Lorg/telegram/ui/ConvertGroupActivity$ListAdapter;->this$0:Lorg/telegram/ui/ConvertGroupActivity;
 
-    # getter for: Lorg/telegram/ui/ConvertGroupActivity;->convertDetailRow:I
     invoke-static {v2}, Lorg/telegram/ui/ConvertGroupActivity;->access$400(Lorg/telegram/ui/ConvertGroupActivity;)I
 
     move-result v2

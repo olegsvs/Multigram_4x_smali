@@ -59,7 +59,6 @@
 
     check-cast v0, Lorg/telegram/tgnet/TLRPC$TL_exportedMessageLink;
 
-    # setter for: Lorg/telegram/ui/Components/ShareAlert;->exportedMessageLink:Lorg/telegram/tgnet/TLRPC$TL_exportedMessageLink;
     invoke-static {v1, v0}, Lorg/telegram/ui/Components/ShareAlert;->access$002(Lorg/telegram/ui/Components/ShareAlert;Lorg/telegram/tgnet/TLRPC$TL_exportedMessageLink;)Lorg/telegram/tgnet/TLRPC$TL_exportedMessageLink;
 
     .line 141
@@ -67,7 +66,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/Components/ShareAlert$1;->this$0:Lorg/telegram/ui/Components/ShareAlert;
 
-    # getter for: Lorg/telegram/ui/Components/ShareAlert;->copyLinkOnEnd:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/ShareAlert;->access$100(Lorg/telegram/ui/Components/ShareAlert;)Z
 
     move-result v0
@@ -83,7 +81,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/Components/ShareAlert$1;->val$context:Landroid/content/Context;
 
-    # invokes: Lorg/telegram/ui/Components/ShareAlert;->copyLink(Landroid/content/Context;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/ShareAlert;->access$200(Lorg/telegram/ui/Components/ShareAlert;Landroid/content/Context;)V
 
     .line 145
@@ -94,7 +91,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/ShareAlert;->loadingLink:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/ShareAlert;->access$302(Lorg/telegram/ui/Components/ShareAlert;Z)Z
 
     .line 146

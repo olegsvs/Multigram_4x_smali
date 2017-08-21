@@ -54,7 +54,6 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/messenger/MessagesController;->gettingNewDeleteTask:Z
     invoke-static {v0, v1}, Lorg/telegram/messenger/MessagesController;->access$3002(Lorg/telegram/messenger/MessagesController;Z)Z
 
     .line 1631

@@ -58,7 +58,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/Components/JoinGroupAlert$2;->this$0:Lorg/telegram/ui/Components/JoinGroupAlert;
 
-    # getter for: Lorg/telegram/ui/Components/JoinGroupAlert;->fragment:Lorg/telegram/ui/ActionBar/BaseFragment;
     invoke-static {v4}, Lorg/telegram/ui/Components/JoinGroupAlert;->access$100(Lorg/telegram/ui/Components/JoinGroupAlert;)Lorg/telegram/ui/ActionBar/BaseFragment;
 
     move-result-object v4
@@ -71,7 +70,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/Components/JoinGroupAlert$2;->this$0:Lorg/telegram/ui/Components/JoinGroupAlert;
 
-    # getter for: Lorg/telegram/ui/Components/JoinGroupAlert;->fragment:Lorg/telegram/ui/ActionBar/BaseFragment;
     invoke-static {v4}, Lorg/telegram/ui/Components/JoinGroupAlert;->access$100(Lorg/telegram/ui/Components/JoinGroupAlert;)Lorg/telegram/ui/ActionBar/BaseFragment;
 
     move-result-object v4
@@ -162,7 +160,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/Components/JoinGroupAlert$2;->this$0:Lorg/telegram/ui/Components/JoinGroupAlert;
 
-    # getter for: Lorg/telegram/ui/Components/JoinGroupAlert;->fragment:Lorg/telegram/ui/ActionBar/BaseFragment;
     invoke-static {v4}, Lorg/telegram/ui/Components/JoinGroupAlert;->access$100(Lorg/telegram/ui/Components/JoinGroupAlert;)Lorg/telegram/ui/ActionBar/BaseFragment;
 
     move-result-object v4
@@ -186,7 +183,6 @@
 
     iget-object v4, v4, Lorg/telegram/ui/Components/JoinGroupAlert$2;->this$0:Lorg/telegram/ui/Components/JoinGroupAlert;
 
-    # getter for: Lorg/telegram/ui/Components/JoinGroupAlert;->fragment:Lorg/telegram/ui/ActionBar/BaseFragment;
     invoke-static {v4}, Lorg/telegram/ui/Components/JoinGroupAlert;->access$100(Lorg/telegram/ui/Components/JoinGroupAlert;)Lorg/telegram/ui/ActionBar/BaseFragment;
 
     move-result-object v4
@@ -197,7 +193,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/JoinGroupAlert$2;->this$0:Lorg/telegram/ui/Components/JoinGroupAlert;
 
-    # getter for: Lorg/telegram/ui/Components/JoinGroupAlert;->fragment:Lorg/telegram/ui/ActionBar/BaseFragment;
     invoke-static {v5}, Lorg/telegram/ui/Components/JoinGroupAlert;->access$100(Lorg/telegram/ui/Components/JoinGroupAlert;)Lorg/telegram/ui/ActionBar/BaseFragment;
 
     move-result-object v5
@@ -222,7 +217,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/Components/JoinGroupAlert$2;->this$0:Lorg/telegram/ui/Components/JoinGroupAlert;
 
-    # getter for: Lorg/telegram/ui/Components/JoinGroupAlert;->fragment:Lorg/telegram/ui/ActionBar/BaseFragment;
     invoke-static {v5}, Lorg/telegram/ui/Components/JoinGroupAlert;->access$100(Lorg/telegram/ui/Components/JoinGroupAlert;)Lorg/telegram/ui/ActionBar/BaseFragment;
 
     move-result-object v5

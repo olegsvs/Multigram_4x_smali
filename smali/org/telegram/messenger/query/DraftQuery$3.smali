@@ -240,7 +240,6 @@
     :try_start_1
     iget-wide v6, p0, Lorg/telegram/messenger/query/DraftQuery$3;->val$did:J
 
-    # invokes: Lorg/telegram/messenger/query/DraftQuery;->saveDraftReplyMessage(JLorg/telegram/tgnet/TLRPC$Message;)V
     invoke-static {v6, v7, v3}, Lorg/telegram/messenger/query/DraftQuery;->access$100(JLorg/telegram/tgnet/TLRPC$Message;)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0

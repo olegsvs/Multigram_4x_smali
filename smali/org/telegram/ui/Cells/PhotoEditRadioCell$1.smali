@@ -51,7 +51,6 @@
     .local v0, "radioButton":Lorg/telegram/ui/Components/RadioButton;
     iget-object v1, p0, Lorg/telegram/ui/Cells/PhotoEditRadioCell$1;->this$0:Lorg/telegram/ui/Cells/PhotoEditRadioCell;
 
-    # getter for: Lorg/telegram/ui/Cells/PhotoEditRadioCell;->currentType:I
     invoke-static {v1}, Lorg/telegram/ui/Cells/PhotoEditRadioCell;->access$000(Lorg/telegram/ui/Cells/PhotoEditRadioCell;)I
 
     move-result v1
@@ -63,7 +62,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Cells/PhotoEditRadioCell$1;->this$0:Lorg/telegram/ui/Cells/PhotoEditRadioCell;
 
-    # getter for: Lorg/telegram/ui/Cells/PhotoEditRadioCell;->tintShadowColors:[I
     invoke-static {v1}, Lorg/telegram/ui/Cells/PhotoEditRadioCell;->access$200(Lorg/telegram/ui/Cells/PhotoEditRadioCell;)[I
 
     move-result-object v3
@@ -80,7 +78,6 @@
 
     aget v1, v3, v1
 
-    # setter for: Lorg/telegram/ui/Cells/PhotoEditRadioCell;->currentColor:I
     invoke-static {v2, v1}, Lorg/telegram/ui/Cells/PhotoEditRadioCell;->access$102(Lorg/telegram/ui/Cells/PhotoEditRadioCell;I)I
 
     .line 82
@@ -89,13 +86,11 @@
 
     const/4 v2, 0x1
 
-    # invokes: Lorg/telegram/ui/Cells/PhotoEditRadioCell;->updateSelectedTintButton(Z)V
     invoke-static {v1, v2}, Lorg/telegram/ui/Cells/PhotoEditRadioCell;->access$400(Lorg/telegram/ui/Cells/PhotoEditRadioCell;Z)V
 
     .line 83
     iget-object v1, p0, Lorg/telegram/ui/Cells/PhotoEditRadioCell$1;->this$0:Lorg/telegram/ui/Cells/PhotoEditRadioCell;
 
-    # getter for: Lorg/telegram/ui/Cells/PhotoEditRadioCell;->onClickListener:Landroid/view/View$OnClickListener;
     invoke-static {v1}, Lorg/telegram/ui/Cells/PhotoEditRadioCell;->access$500(Lorg/telegram/ui/Cells/PhotoEditRadioCell;)Landroid/view/View$OnClickListener;
 
     move-result-object v1
@@ -113,7 +108,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Cells/PhotoEditRadioCell$1;->this$0:Lorg/telegram/ui/Cells/PhotoEditRadioCell;
 
-    # getter for: Lorg/telegram/ui/Cells/PhotoEditRadioCell;->tintHighlighsColors:[I
     invoke-static {v1}, Lorg/telegram/ui/Cells/PhotoEditRadioCell;->access$300(Lorg/telegram/ui/Cells/PhotoEditRadioCell;)[I
 
     move-result-object v3
@@ -130,7 +124,6 @@
 
     aget v1, v3, v1
 
-    # setter for: Lorg/telegram/ui/Cells/PhotoEditRadioCell;->currentColor:I
     invoke-static {v2, v1}, Lorg/telegram/ui/Cells/PhotoEditRadioCell;->access$102(Lorg/telegram/ui/Cells/PhotoEditRadioCell;I)I
 
     goto :goto_0

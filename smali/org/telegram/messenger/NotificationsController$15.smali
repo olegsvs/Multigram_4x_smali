@@ -65,7 +65,6 @@
     .line 1534
     iget-object v1, p0, Lorg/telegram/messenger/NotificationsController$15;->this$0:Lorg/telegram/messenger/NotificationsController;
 
-    # getter for: Lorg/telegram/messenger/NotificationsController;->notificationManager:Landroid/support/v4/app/NotificationManagerCompat;
     invoke-static {v1}, Lorg/telegram/messenger/NotificationsController;->access$1400(Lorg/telegram/messenger/NotificationsController;)Landroid/support/v4/app/NotificationManagerCompat;
 
     move-result-object v1
@@ -75,7 +74,6 @@
     .line 1535
     iget-object v1, p0, Lorg/telegram/messenger/NotificationsController$15;->this$0:Lorg/telegram/messenger/NotificationsController;
 
-    # invokes: Lorg/telegram/messenger/NotificationsController;->showOrUpdateNotification(Z)V
     invoke-static {v1, v2}, Lorg/telegram/messenger/NotificationsController;->access$100(Lorg/telegram/messenger/NotificationsController;Z)V
 
     .line 1539
@@ -86,7 +84,6 @@
     :cond_0
     iget-object v1, p0, Lorg/telegram/messenger/NotificationsController$15;->this$0:Lorg/telegram/messenger/NotificationsController;
 
-    # invokes: Lorg/telegram/messenger/NotificationsController;->scheduleNotificationRepeat()V
     invoke-static {v1}, Lorg/telegram/messenger/NotificationsController;->access$2500(Lorg/telegram/messenger/NotificationsController;)V
 
     goto :goto_0

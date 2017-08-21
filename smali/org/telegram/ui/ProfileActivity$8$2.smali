@@ -50,7 +50,6 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/ui/ProfileActivity;->creatingChat:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/ProfileActivity;->access$2502(Lorg/telegram/ui/ProfileActivity;Z)Z
 
     .line 888
@@ -74,7 +73,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/ProfileActivity$8;->this$0:Lorg/telegram/ui/ProfileActivity;
 
-    # getter for: Lorg/telegram/ui/ProfileActivity;->user_id:I
     invoke-static {v3}, Lorg/telegram/ui/ProfileActivity;->access$700(Lorg/telegram/ui/ProfileActivity;)I
 
     move-result v3

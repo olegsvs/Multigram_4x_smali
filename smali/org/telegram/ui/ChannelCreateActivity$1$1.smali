@@ -70,7 +70,6 @@
     const/4 v0, 0x1
 
     :goto_0
-    # setter for: Lorg/telegram/ui/ChannelCreateActivity;->canCreatePublic:Z
     invoke-static {v1, v0}, Lorg/telegram/ui/ChannelCreateActivity;->access$002(Lorg/telegram/ui/ChannelCreateActivity;Z)Z
 
     .line 133

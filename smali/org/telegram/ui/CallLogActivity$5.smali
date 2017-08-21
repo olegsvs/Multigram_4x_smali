@@ -44,7 +44,6 @@
     .line 261
     iget-object v9, p0, Lorg/telegram/ui/CallLogActivity$5;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v9}, Lorg/telegram/ui/CallLogActivity;->access$400(Lorg/telegram/ui/CallLogActivity;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v9
@@ -69,7 +68,6 @@
     .line 264
     iget-object v9, p0, Lorg/telegram/ui/CallLogActivity$5;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->listViewAdapter:Lorg/telegram/ui/CallLogActivity$ListAdapter;
     invoke-static {v9}, Lorg/telegram/ui/CallLogActivity;->access$500(Lorg/telegram/ui/CallLogActivity;)Lorg/telegram/ui/CallLogActivity$ListAdapter;
 
     move-result-object v9
@@ -82,7 +80,6 @@
     .local v7, "totalItemCount":I
     iget-object v9, p0, Lorg/telegram/ui/CallLogActivity$5;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->endReached:Z
     invoke-static {v9}, Lorg/telegram/ui/CallLogActivity;->access$600(Lorg/telegram/ui/CallLogActivity;)Z
 
     move-result v9
@@ -91,7 +88,6 @@
 
     iget-object v9, p0, Lorg/telegram/ui/CallLogActivity$5;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->loading:Z
     invoke-static {v9}, Lorg/telegram/ui/CallLogActivity;->access$700(Lorg/telegram/ui/CallLogActivity;)Z
 
     move-result v9
@@ -100,7 +96,6 @@
 
     iget-object v9, p0, Lorg/telegram/ui/CallLogActivity$5;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v9}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v9
@@ -120,14 +115,12 @@
     .line 266
     iget-object v9, p0, Lorg/telegram/ui/CallLogActivity$5;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v9}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v9
 
     iget-object v10, p0, Lorg/telegram/ui/CallLogActivity$5;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->calls:Ljava/util/ArrayList;
     invoke-static {v10}, Lorg/telegram/ui/CallLogActivity;->access$200(Lorg/telegram/ui/CallLogActivity;)Ljava/util/ArrayList;
 
     move-result-object v10
@@ -168,7 +161,6 @@
 
     const/16 v11, 0x64
 
-    # invokes: Lorg/telegram/ui/CallLogActivity;->getCalls(II)V
     invoke-static {v10, v9, v11}, Lorg/telegram/ui/CallLogActivity;->access$800(Lorg/telegram/ui/CallLogActivity;II)V
 
     .line 271
@@ -177,7 +169,6 @@
     :cond_0
     iget-object v9, p0, Lorg/telegram/ui/CallLogActivity$5;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->floatingButton:Landroid/widget/ImageView;
     invoke-static {v9}, Lorg/telegram/ui/CallLogActivity;->access$900(Lorg/telegram/ui/CallLogActivity;)Landroid/widget/ImageView;
 
     move-result-object v9
@@ -218,7 +209,6 @@
     .local v0, "changed":Z
     iget-object v9, p0, Lorg/telegram/ui/CallLogActivity$5;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->prevPosition:I
     invoke-static {v9}, Lorg/telegram/ui/CallLogActivity;->access$1000(Lorg/telegram/ui/CallLogActivity;)I
 
     move-result v9
@@ -228,7 +218,6 @@
     .line 280
     iget-object v9, p0, Lorg/telegram/ui/CallLogActivity$5;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->prevTop:I
     invoke-static {v9}, Lorg/telegram/ui/CallLogActivity;->access$1100(Lorg/telegram/ui/CallLogActivity;)I
 
     move-result v9
@@ -239,7 +228,6 @@
     .local v6, "topDelta":I
     iget-object v9, p0, Lorg/telegram/ui/CallLogActivity$5;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->prevTop:I
     invoke-static {v9}, Lorg/telegram/ui/CallLogActivity;->access$1100(Lorg/telegram/ui/CallLogActivity;)I
 
     move-result v9
@@ -268,7 +256,6 @@
 
     iget-object v9, p0, Lorg/telegram/ui/CallLogActivity$5;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->scrollUpdated:Z
     invoke-static {v9}, Lorg/telegram/ui/CallLogActivity;->access$1200(Lorg/telegram/ui/CallLogActivity;)Z
 
     move-result v9
@@ -278,20 +265,17 @@
     .line 287
     iget-object v9, p0, Lorg/telegram/ui/CallLogActivity$5;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # invokes: Lorg/telegram/ui/CallLogActivity;->hideFloatingButton(Z)V
     invoke-static {v9, v3}, Lorg/telegram/ui/CallLogActivity;->access$1300(Lorg/telegram/ui/CallLogActivity;Z)V
 
     .line 289
     :cond_2
     iget-object v9, p0, Lorg/telegram/ui/CallLogActivity$5;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # setter for: Lorg/telegram/ui/CallLogActivity;->prevPosition:I
     invoke-static {v9, v2}, Lorg/telegram/ui/CallLogActivity;->access$1002(Lorg/telegram/ui/CallLogActivity;I)I
 
     .line 290
     iget-object v9, p0, Lorg/telegram/ui/CallLogActivity$5;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # setter for: Lorg/telegram/ui/CallLogActivity;->prevTop:I
     invoke-static {v9, v1}, Lorg/telegram/ui/CallLogActivity;->access$1102(Lorg/telegram/ui/CallLogActivity;I)I
 
     .line 291
@@ -299,7 +283,6 @@
 
     const/4 v10, 0x1
 
-    # setter for: Lorg/telegram/ui/CallLogActivity;->scrollUpdated:Z
     invoke-static {v9, v10}, Lorg/telegram/ui/CallLogActivity;->access$1202(Lorg/telegram/ui/CallLogActivity;Z)Z
 
     .line 293
@@ -315,7 +298,6 @@
     :cond_4
     iget-object v9, p0, Lorg/telegram/ui/CallLogActivity$5;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->layoutManager:Lorg/telegram/messenger/support/widget/LinearLayoutManager;
     invoke-static {v9}, Lorg/telegram/ui/CallLogActivity;->access$400(Lorg/telegram/ui/CallLogActivity;)Lorg/telegram/messenger/support/widget/LinearLayoutManager;
 
     move-result-object v9
@@ -358,7 +340,6 @@
     :cond_7
     iget-object v9, p0, Lorg/telegram/ui/CallLogActivity$5;->this$0:Lorg/telegram/ui/CallLogActivity;
 
-    # getter for: Lorg/telegram/ui/CallLogActivity;->prevPosition:I
     invoke-static {v9}, Lorg/telegram/ui/CallLogActivity;->access$1000(Lorg/telegram/ui/CallLogActivity;)I
 
     move-result v9

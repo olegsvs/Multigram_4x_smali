@@ -1695,7 +1695,6 @@
     :goto_1
     iget-object v12, p0, Lorg/telegram/ui/LoginActivity$PhoneView;->this$0:Lorg/telegram/ui/LoginActivity;
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->checkShowPermissions:Z
     invoke-static {v12}, Lorg/telegram/ui/LoginActivity;->access$2200(Lorg/telegram/ui/LoginActivity;)Z
 
     move-result v12
@@ -1709,7 +1708,6 @@
     .line 1099
     iget-object v12, p0, Lorg/telegram/ui/LoginActivity$PhoneView;->this$0:Lorg/telegram/ui/LoginActivity;
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->permissionsShowItems:Ljava/util/ArrayList;
     invoke-static {v12}, Lorg/telegram/ui/LoginActivity;->access$2300(Lorg/telegram/ui/LoginActivity;)Ljava/util/ArrayList;
 
     move-result-object v12
@@ -1722,7 +1720,6 @@
     .line 1101
     iget-object v12, p0, Lorg/telegram/ui/LoginActivity$PhoneView;->this$0:Lorg/telegram/ui/LoginActivity;
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->permissionsShowItems:Ljava/util/ArrayList;
     invoke-static {v12}, Lorg/telegram/ui/LoginActivity;->access$2300(Lorg/telegram/ui/LoginActivity;)Ljava/util/ArrayList;
 
     move-result-object v12
@@ -1738,7 +1735,6 @@
     .line 1104
     iget-object v12, p0, Lorg/telegram/ui/LoginActivity$PhoneView;->this$0:Lorg/telegram/ui/LoginActivity;
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->permissionsShowItems:Ljava/util/ArrayList;
     invoke-static {v12}, Lorg/telegram/ui/LoginActivity;->access$2300(Lorg/telegram/ui/LoginActivity;)Ljava/util/ArrayList;
 
     move-result-object v12
@@ -1751,7 +1747,6 @@
     :cond_1
     iget-object v12, p0, Lorg/telegram/ui/LoginActivity$PhoneView;->this$0:Lorg/telegram/ui/LoginActivity;
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->permissionsShowItems:Ljava/util/ArrayList;
     invoke-static {v12}, Lorg/telegram/ui/LoginActivity;->access$2300(Lorg/telegram/ui/LoginActivity;)Ljava/util/ArrayList;
 
     move-result-object v12
@@ -1889,7 +1884,6 @@
 
     move-result-object v13
 
-    # setter for: Lorg/telegram/ui/LoginActivity;->permissionsShowDialog:Landroid/app/Dialog;
     invoke-static {v12, v13}, Lorg/telegram/ui/LoginActivity;->access$2402(Lorg/telegram/ui/LoginActivity;Landroid/app/Dialog;)Landroid/app/Dialog;
 
     .line 1154
@@ -1928,14 +1922,12 @@
 
     iget-object v12, p0, Lorg/telegram/ui/LoginActivity$PhoneView;->this$0:Lorg/telegram/ui/LoginActivity;
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->permissionsShowItems:Ljava/util/ArrayList;
     invoke-static {v12}, Lorg/telegram/ui/LoginActivity;->access$2300(Lorg/telegram/ui/LoginActivity;)Ljava/util/ArrayList;
 
     move-result-object v12
 
     iget-object v14, p0, Lorg/telegram/ui/LoginActivity$PhoneView;->this$0:Lorg/telegram/ui/LoginActivity;
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->permissionsShowItems:Ljava/util/ArrayList;
     invoke-static {v14}, Lorg/telegram/ui/LoginActivity;->access$2300(Lorg/telegram/ui/LoginActivity;)Ljava/util/ArrayList;
 
     move-result-object v14
@@ -2377,7 +2369,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->checkPermissions:Z
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/LoginActivity;->access$1500(Lorg/telegram/ui/LoginActivity;)Z
 
     move-result v18
@@ -2391,7 +2382,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/LoginActivity;->access$1600(Lorg/telegram/ui/LoginActivity;)Ljava/util/ArrayList;
 
     move-result-object v18
@@ -2408,7 +2398,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/LoginActivity;->access$1600(Lorg/telegram/ui/LoginActivity;)Ljava/util/ArrayList;
 
     move-result-object v18
@@ -2428,7 +2417,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/LoginActivity;->access$1600(Lorg/telegram/ui/LoginActivity;)Ljava/util/ArrayList;
 
     move-result-object v18
@@ -2448,7 +2436,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/LoginActivity;->access$1600(Lorg/telegram/ui/LoginActivity;)Ljava/util/ArrayList;
 
     move-result-object v18
@@ -2464,7 +2451,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/LoginActivity;->access$1600(Lorg/telegram/ui/LoginActivity;)Ljava/util/ArrayList;
 
     move-result-object v18
@@ -2480,7 +2466,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/LoginActivity;->access$1600(Lorg/telegram/ui/LoginActivity;)Ljava/util/ArrayList;
 
     move-result-object v18
@@ -2501,7 +2486,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/LoginActivity;->access$1600(Lorg/telegram/ui/LoginActivity;)Ljava/util/ArrayList;
 
     move-result-object v18
@@ -2546,7 +2530,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/LoginActivity;->access$1600(Lorg/telegram/ui/LoginActivity;)Ljava/util/ArrayList;
 
     move-result-object v18
@@ -2557,7 +2540,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static/range {v20 .. v20}, Lorg/telegram/ui/LoginActivity;->access$1600(Lorg/telegram/ui/LoginActivity;)Ljava/util/ArrayList;
 
     move-result-object v20
@@ -2639,7 +2621,6 @@
 
     move-result-object v20
 
-    # invokes: Lorg/telegram/ui/LoginActivity;->needShowAlert(Ljava/lang/String;Ljava/lang/String;)V
     invoke-static/range {v18 .. v20}, Lorg/telegram/ui/LoginActivity;->access$300(Lorg/telegram/ui/LoginActivity;Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
@@ -2799,7 +2780,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/LoginActivity;->access$1600(Lorg/telegram/ui/LoginActivity;)Ljava/util/ArrayList;
 
     move-result-object v18
@@ -2851,7 +2831,6 @@
 
     move-result-object v19
 
-    # setter for: Lorg/telegram/ui/LoginActivity;->permissionsDialog:Landroid/app/Dialog;
     invoke-static/range {v18 .. v19}, Lorg/telegram/ui/LoginActivity;->access$1702(Lorg/telegram/ui/LoginActivity;Landroid/app/Dialog;)Landroid/app/Dialog;
 
     goto/16 :goto_5
@@ -2911,7 +2890,6 @@
 
     move-object/from16 v18, v0
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static/range {v18 .. v18}, Lorg/telegram/ui/LoginActivity;->access$1600(Lorg/telegram/ui/LoginActivity;)Ljava/util/ArrayList;
 
     move-result-object v18
@@ -2922,7 +2900,6 @@
 
     move-object/from16 v20, v0
 
-    # getter for: Lorg/telegram/ui/LoginActivity;->permissionsItems:Ljava/util/ArrayList;
     invoke-static/range {v20 .. v20}, Lorg/telegram/ui/LoginActivity;->access$1600(Lorg/telegram/ui/LoginActivity;)Ljava/util/ArrayList;
 
     move-result-object v20
@@ -3041,7 +3018,6 @@
 
     move-result-object v20
 
-    # invokes: Lorg/telegram/ui/LoginActivity;->needShowAlert(Ljava/lang/String;Ljava/lang/String;)V
     invoke-static/range {v18 .. v20}, Lorg/telegram/ui/LoginActivity;->access$300(Lorg/telegram/ui/LoginActivity;Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
@@ -3083,7 +3059,6 @@
 
     move-result-object v20
 
-    # invokes: Lorg/telegram/ui/LoginActivity;->needShowAlert(Ljava/lang/String;Ljava/lang/String;)V
     invoke-static/range {v18 .. v20}, Lorg/telegram/ui/LoginActivity;->access$300(Lorg/telegram/ui/LoginActivity;Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_0
@@ -3434,7 +3409,6 @@
 
     move-object/from16 v0, v18
 
-    # invokes: Lorg/telegram/ui/LoginActivity;->needShowProgress(I)V
     invoke-static {v0, v15}, Lorg/telegram/ui/LoginActivity;->access$2100(Lorg/telegram/ui/LoginActivity;I)V
 
     goto/16 :goto_0

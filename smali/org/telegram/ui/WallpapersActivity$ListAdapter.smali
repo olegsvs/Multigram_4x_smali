@@ -47,7 +47,6 @@
     .line 487
     iget-object v1, p0, Lorg/telegram/ui/WallpapersActivity$ListAdapter;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->wallPapers:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/WallpapersActivity;->access$900(Lorg/telegram/ui/WallpapersActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -128,7 +127,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/WallpapersActivity$ListAdapter;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->overrideThemeWallpaper:Z
     invoke-static {v1}, Lorg/telegram/ui/WallpapersActivity;->access$100(Lorg/telegram/ui/WallpapersActivity;)Z
 
     move-result v1
@@ -138,7 +136,6 @@
     :cond_0
     iget-object v1, p0, Lorg/telegram/ui/WallpapersActivity$ListAdapter;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->selectedBackground:I
     invoke-static {v1}, Lorg/telegram/ui/WallpapersActivity;->access$000(Lorg/telegram/ui/WallpapersActivity;)I
 
     move-result v1
@@ -170,7 +167,6 @@
     .line 513
     iget-object v1, p0, Lorg/telegram/ui/WallpapersActivity$ListAdapter;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->overrideThemeWallpaper:Z
     invoke-static {v1}, Lorg/telegram/ui/WallpapersActivity;->access$100(Lorg/telegram/ui/WallpapersActivity;)Z
 
     move-result v1
@@ -182,7 +178,6 @@
     :cond_3
     iget-object v1, p0, Lorg/telegram/ui/WallpapersActivity$ListAdapter;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->themedWallpaper:Landroid/graphics/drawable/Drawable;
     invoke-static {v1}, Lorg/telegram/ui/WallpapersActivity;->access$1000(Lorg/telegram/ui/WallpapersActivity;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
@@ -199,7 +194,6 @@
     :goto_2
     iget-object v1, p0, Lorg/telegram/ui/WallpapersActivity$ListAdapter;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->wallPapers:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/ui/WallpapersActivity;->access$900(Lorg/telegram/ui/WallpapersActivity;)Ljava/util/ArrayList;
 
     move-result-object v1
@@ -218,7 +212,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/WallpapersActivity$ListAdapter;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->overrideThemeWallpaper:Z
     invoke-static {v3}, Lorg/telegram/ui/WallpapersActivity;->access$100(Lorg/telegram/ui/WallpapersActivity;)Z
 
     move-result v3
@@ -228,7 +221,6 @@
     :cond_5
     iget-object v2, p0, Lorg/telegram/ui/WallpapersActivity$ListAdapter;->this$0:Lorg/telegram/ui/WallpapersActivity;
 
-    # getter for: Lorg/telegram/ui/WallpapersActivity;->selectedBackground:I
     invoke-static {v2}, Lorg/telegram/ui/WallpapersActivity;->access$000(Lorg/telegram/ui/WallpapersActivity;)I
 
     move-result v2

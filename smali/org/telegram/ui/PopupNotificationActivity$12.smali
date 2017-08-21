@@ -46,7 +46,6 @@
     .line 997
     iget-object v1, p0, Lorg/telegram/ui/PopupNotificationActivity$12;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->messageContainer:Landroid/view/ViewGroup;
     invoke-static {v1}, Lorg/telegram/ui/PopupNotificationActivity;->access$1400(Lorg/telegram/ui/PopupNotificationActivity;)Landroid/view/ViewGroup;
 
     move-result-object v1
@@ -68,7 +67,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PopupNotificationActivity$12;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->startedMoving:Z
     invoke-static {v1}, Lorg/telegram/ui/PopupNotificationActivity;->access$1500(Lorg/telegram/ui/PopupNotificationActivity;)Z
 
     move-result v1
@@ -78,7 +76,6 @@
     .line 999
     iget-object v1, p0, Lorg/telegram/ui/PopupNotificationActivity$12;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->messageContainer:Landroid/view/ViewGroup;
     invoke-static {v1}, Lorg/telegram/ui/PopupNotificationActivity;->access$1400(Lorg/telegram/ui/PopupNotificationActivity;)Landroid/view/ViewGroup;
 
     move-result-object v1
@@ -115,7 +112,6 @@
     .line 1004
     iget-object v1, p0, Lorg/telegram/ui/PopupNotificationActivity$12;->this$0:Lorg/telegram/ui/PopupNotificationActivity;
 
-    # getter for: Lorg/telegram/ui/PopupNotificationActivity;->messageContainer:Landroid/view/ViewGroup;
     invoke-static {v1}, Lorg/telegram/ui/PopupNotificationActivity;->access$1400(Lorg/telegram/ui/PopupNotificationActivity;)Landroid/view/ViewGroup;
 
     move-result-object v1
@@ -127,7 +123,6 @@
 
     const/4 v2, 0x0
 
-    # invokes: Lorg/telegram/ui/PopupNotificationActivity;->applyViewsLayoutParams(I)V
     invoke-static {v1, v2}, Lorg/telegram/ui/PopupNotificationActivity;->access$1200(Lorg/telegram/ui/PopupNotificationActivity;I)V
 
     .line 1007

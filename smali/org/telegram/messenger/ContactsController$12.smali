@@ -50,7 +50,6 @@
 
     iget-object v1, p0, Lorg/telegram/messenger/ContactsController$12;->val$contactsArray:Ljava/util/ArrayList;
 
-    # invokes: Lorg/telegram/messenger/ContactsController;->performWriteContactsToPhoneBookInternal(Ljava/util/ArrayList;)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/ContactsController;->access$1500(Lorg/telegram/messenger/ContactsController;Ljava/util/ArrayList;)V
 
     .line 1396

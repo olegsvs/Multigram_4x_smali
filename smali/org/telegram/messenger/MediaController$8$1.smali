@@ -62,7 +62,6 @@
 
     iget-wide v2, p0, Lorg/telegram/messenger/MediaController$8$1;->val$pcm:J
 
-    # setter for: Lorg/telegram/messenger/MediaController;->lastPlayPcm:J
     invoke-static {v0, v2, v3}, Lorg/telegram/messenger/MediaController;->access$3002(Lorg/telegram/messenger/MediaController;J)J
 
     .line 1629
@@ -77,7 +76,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/MediaController$8;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->audioTrackPlayer:Landroid/media/AudioTrack;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$2500(Lorg/telegram/messenger/MediaController;)Landroid/media/AudioTrack;
 
     move-result-object v0
@@ -89,7 +87,6 @@
 
     iget-object v0, v0, Lorg/telegram/messenger/MediaController$8;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->audioTrackPlayer:Landroid/media/AudioTrack;
     invoke-static {v0}, Lorg/telegram/messenger/MediaController;->access$2500(Lorg/telegram/messenger/MediaController;)Landroid/media/AudioTrack;
 
     move-result-object v0

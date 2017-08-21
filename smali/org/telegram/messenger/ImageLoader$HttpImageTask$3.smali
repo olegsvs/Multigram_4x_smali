@@ -48,7 +48,6 @@
 
     const/4 v1, 0x1
 
-    # invokes: Lorg/telegram/messenger/ImageLoader;->runHttpTasks(Z)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/ImageLoader;->access$600(Lorg/telegram/messenger/ImageLoader;Z)V
 
     .line 464

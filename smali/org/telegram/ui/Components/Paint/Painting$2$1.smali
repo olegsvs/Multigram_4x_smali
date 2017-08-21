@@ -56,7 +56,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/Components/Paint/Painting$2;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->shaders:Ljava/util/Map;
     invoke-static {v2}, Lorg/telegram/ui/Components/Paint/Painting;->access$400(Lorg/telegram/ui/Components/Paint/Painting;)Ljava/util/Map;
 
     move-result-object v2
@@ -74,7 +73,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/Components/Paint/Painting$2;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->shaders:Ljava/util/Map;
     invoke-static {v2}, Lorg/telegram/ui/Components/Paint/Painting;->access$400(Lorg/telegram/ui/Components/Paint/Painting;)Ljava/util/Map;
 
     move-result-object v3
@@ -83,7 +81,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/Components/Paint/Painting$2;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->brush:Lorg/telegram/ui/Components/Paint/Brush;
     invoke-static {v2}, Lorg/telegram/ui/Components/Paint/Painting;->access$500(Lorg/telegram/ui/Components/Paint/Painting;)Lorg/telegram/ui/Components/Paint/Brush;
 
     move-result-object v2
@@ -123,7 +120,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/Components/Paint/Painting$2;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->projection:[F
     invoke-static {v3}, Lorg/telegram/ui/Components/Paint/Painting;->access$700(Lorg/telegram/ui/Components/Paint/Painting;)[F
 
     move-result-object v3
@@ -168,7 +164,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/Components/Paint/Painting$2;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # invokes: Lorg/telegram/ui/Components/Paint/Painting;->getPaintTexture()I
     invoke-static {v3}, Lorg/telegram/ui/Components/Paint/Painting;->access$200(Lorg/telegram/ui/Components/Paint/Painting;)I
 
     move-result v3
@@ -187,7 +182,6 @@
 
     iget-object v3, v3, Lorg/telegram/ui/Components/Paint/Painting$2;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->vertexBuffer:Ljava/nio/ByteBuffer;
     invoke-static {v3}, Lorg/telegram/ui/Components/Paint/Painting;->access$1300(Lorg/telegram/ui/Components/Paint/Painting;)Ljava/nio/ByteBuffer;
 
     move-result-object v5
@@ -206,7 +200,6 @@
 
     iget-object v2, v2, Lorg/telegram/ui/Components/Paint/Painting$2;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->textureBuffer:Ljava/nio/ByteBuffer;
     invoke-static {v2}, Lorg/telegram/ui/Components/Paint/Painting;->access$1400(Lorg/telegram/ui/Components/Paint/Painting;)Ljava/nio/ByteBuffer;
 
     move-result-object v10

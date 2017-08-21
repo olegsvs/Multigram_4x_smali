@@ -42,7 +42,6 @@
     .line 704
     iget-object v0, p0, Lorg/telegram/ui/Components/StickersAlert$20;->this$0:Lorg/telegram/ui/Components/StickersAlert;
 
-    # getter for: Lorg/telegram/ui/Components/StickersAlert;->stickerPreviewLayout:Landroid/widget/FrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/Components/StickersAlert;->access$3200(Lorg/telegram/ui/Components/StickersAlert;)Landroid/widget/FrameLayout;
 
     move-result-object v0

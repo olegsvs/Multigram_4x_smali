@@ -93,7 +93,6 @@
 
     const/4 v3, 0x2
 
-    # invokes: Lorg/telegram/messenger/MessagesController;->processUpdatesQueue(II)V
     invoke-static {v2, v0, v3}, Lorg/telegram/messenger/MessagesController;->access$5300(Lorg/telegram/messenger/MessagesController;II)V
 
     .line 5080

@@ -72,11 +72,9 @@
     if-eqz v1, :cond_1
 
     .line 436
-    # setter for: Lorg/telegram/messenger/query/StickersQuery;->loadingRecentGifs:Z
     invoke-static {v5}, Lorg/telegram/messenger/query/StickersQuery;->access$102(Z)Z
 
     .line 437
-    # setter for: Lorg/telegram/messenger/query/StickersQuery;->recentGifsLoaded:Z
     invoke-static {v6}, Lorg/telegram/messenger/query/StickersQuery;->access$202(Z)Z
 
     .line 438
@@ -106,7 +104,6 @@
     .line 446
     iget-object v1, p0, Lorg/telegram/messenger/query/StickersQuery$9;->val$documents:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/messenger/query/StickersQuery;->recentGifs:Ljava/util/ArrayList;
     invoke-static {v1}, Lorg/telegram/messenger/query/StickersQuery;->access$002(Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 450
@@ -145,7 +142,6 @@
 
     .line 440
     :cond_1
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->loadingRecentStickers:[Z
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$400()[Z
 
     move-result-object v1
@@ -155,7 +151,6 @@
     aput-boolean v5, v1, v2
 
     .line 441
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->recentStickersLoaded:[Z
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$500()[Z
 
     move-result-object v1
@@ -181,7 +176,6 @@
 
     .line 448
     :cond_2
-    # getter for: Lorg/telegram/messenger/query/StickersQuery;->recentStickers:[Ljava/util/ArrayList;
     invoke-static {}, Lorg/telegram/messenger/query/StickersQuery;->access$300()[Ljava/util/ArrayList;
 
     move-result-object v1

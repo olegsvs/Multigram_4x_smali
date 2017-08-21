@@ -45,7 +45,6 @@
     .line 298
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoPaintView$8;->this$0:Lorg/telegram/ui/Components/PhotoPaintView;
 
-    # invokes: Lorg/telegram/ui/Components/PhotoPaintView;->openStickersView()V
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoPaintView;->access$1000(Lorg/telegram/ui/Components/PhotoPaintView;)V
 
     .line 299

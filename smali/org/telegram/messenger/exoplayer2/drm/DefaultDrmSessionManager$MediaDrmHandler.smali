@@ -56,7 +56,6 @@
     .line 628
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager$MediaDrmHandler;->this$0:Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->openCount:I
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->access$200(Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;)I
 
     move-result v0
@@ -65,7 +64,6 @@
 
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager$MediaDrmHandler;->this$0:Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->state:I
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->access$300(Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;)I
 
     move-result v0
@@ -74,7 +72,6 @@
 
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager$MediaDrmHandler;->this$0:Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->state:I
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->access$300(Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;)I
 
     move-result v0
@@ -98,13 +95,11 @@
     :pswitch_0
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager$MediaDrmHandler;->this$0:Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;
 
-    # setter for: Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->state:I
     invoke-static {v0, v1}, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->access$302(Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;I)I
 
     .line 646
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager$MediaDrmHandler;->this$0:Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->postProvisionRequest()V
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->access$600(Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;)V
 
     goto :goto_0
@@ -113,7 +108,6 @@
     :pswitch_1
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager$MediaDrmHandler;->this$0:Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->doLicense()V
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->access$400(Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;)V
 
     goto :goto_0
@@ -122,7 +116,6 @@
     :pswitch_2
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager$MediaDrmHandler;->this$0:Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->state:I
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->access$300(Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;)I
 
     move-result v0
@@ -132,7 +125,6 @@
     .line 640
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager$MediaDrmHandler;->this$0:Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;
 
-    # setter for: Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->state:I
     invoke-static {v0, v1}, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->access$302(Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;I)I
 
     .line 641
@@ -142,7 +134,6 @@
 
     invoke-direct {v1}, Lorg/telegram/messenger/exoplayer2/drm/KeysExpiredException;-><init>()V
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->onError(Ljava/lang/Exception;)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;->access$500(Lorg/telegram/messenger/exoplayer2/drm/DefaultDrmSessionManager;Ljava/lang/Exception;)V
 
     goto :goto_0

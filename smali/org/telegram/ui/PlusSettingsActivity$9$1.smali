@@ -58,7 +58,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/PlusSettingsActivity;->linkSearchRequestId:I
     invoke-static {v0, v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$8502(Lorg/telegram/ui/PlusSettingsActivity;I)I
 
     .line 1733
@@ -84,7 +83,6 @@
 
     iget-object v0, v0, Lorg/telegram/tgnet/TLRPC$TL_messageMediaWebPage;->webpage:Lorg/telegram/tgnet/TLRPC$WebPage;
 
-    # setter for: Lorg/telegram/ui/PlusSettingsActivity;->foundWebPage:Lorg/telegram/tgnet/TLRPC$WebPage;
     invoke-static {v1, v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$8602(Lorg/telegram/ui/PlusSettingsActivity;Lorg/telegram/tgnet/TLRPC$WebPage;)Lorg/telegram/tgnet/TLRPC$WebPage;
 
     .line 1736
@@ -92,7 +90,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PlusSettingsActivity$9;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->foundWebPage:Lorg/telegram/tgnet/TLRPC$WebPage;
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$8600(Lorg/telegram/ui/PlusSettingsActivity;)Lorg/telegram/tgnet/TLRPC$WebPage;
 
     move-result-object v0
@@ -110,14 +107,12 @@
 
     iget-object v1, v1, Lorg/telegram/ui/PlusSettingsActivity$9;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->foundWebPage:Lorg/telegram/tgnet/TLRPC$WebPage;
     invoke-static {v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$8600(Lorg/telegram/ui/PlusSettingsActivity;)Lorg/telegram/tgnet/TLRPC$WebPage;
 
     move-result-object v1
 
     iget-object v1, v1, Lorg/telegram/tgnet/TLRPC$WebPage;->description:Ljava/lang/String;
 
-    # setter for: Lorg/telegram/ui/PlusSettingsActivity;->userAbout:Ljava/lang/String;
     invoke-static {v0, v1}, Lorg/telegram/ui/PlusSettingsActivity;->access$8702(Lorg/telegram/ui/PlusSettingsActivity;Ljava/lang/String;)Ljava/lang/String;
 
     .line 1741
@@ -138,7 +133,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PlusSettingsActivity$9;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusSettingsActivity;->pass:I
     invoke-static {v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$8800(Lorg/telegram/ui/PlusSettingsActivity;)I
 
     move-result v0
@@ -150,7 +144,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/PlusSettingsActivity$9;->this$0:Lorg/telegram/ui/PlusSettingsActivity;
 
-    # setter for: Lorg/telegram/ui/PlusSettingsActivity;->pass:I
     invoke-static {v0, v2}, Lorg/telegram/ui/PlusSettingsActivity;->access$8802(Lorg/telegram/ui/PlusSettingsActivity;I)I
 
     .line 1745

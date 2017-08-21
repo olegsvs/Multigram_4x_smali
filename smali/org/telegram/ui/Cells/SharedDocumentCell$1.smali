@@ -51,7 +51,6 @@
     .line 91
     iget-object v0, p0, Lorg/telegram/ui/Cells/SharedDocumentCell$1;->this$0:Lorg/telegram/ui/Cells/SharedDocumentCell;
 
-    # getter for: Lorg/telegram/ui/Cells/SharedDocumentCell;->extTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/Cells/SharedDocumentCell;->access$000(Lorg/telegram/ui/Cells/SharedDocumentCell;)Landroid/widget/TextView;
 
     move-result-object v3
@@ -66,7 +65,6 @@
     .line 92
     iget-object v0, p0, Lorg/telegram/ui/Cells/SharedDocumentCell$1;->this$0:Lorg/telegram/ui/Cells/SharedDocumentCell;
 
-    # getter for: Lorg/telegram/ui/Cells/SharedDocumentCell;->placeholderImageView:Landroid/widget/ImageView;
     invoke-static {v0}, Lorg/telegram/ui/Cells/SharedDocumentCell;->access$100(Lorg/telegram/ui/Cells/SharedDocumentCell;)Landroid/widget/ImageView;
 
     move-result-object v0

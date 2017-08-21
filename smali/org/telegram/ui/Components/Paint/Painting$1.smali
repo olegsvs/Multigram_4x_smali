@@ -66,7 +66,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/Paint/Painting$1;->val$path:Lorg/telegram/ui/Components/Paint/Path;
 
-    # setter for: Lorg/telegram/ui/Components/Paint/Painting;->activePath:Lorg/telegram/ui/Components/Paint/Path;
     invoke-static {v3, v4}, Lorg/telegram/ui/Components/Paint/Painting;->access$002(Lorg/telegram/ui/Components/Paint/Painting;Lorg/telegram/ui/Components/Paint/Path;)Lorg/telegram/ui/Components/Paint/Path;
 
     .line 158
@@ -76,7 +75,6 @@
     .local v0, "bounds":Landroid/graphics/RectF;
     iget-object v3, p0, Lorg/telegram/ui/Components/Paint/Painting$1;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # invokes: Lorg/telegram/ui/Components/Paint/Painting;->getReusableFramebuffer()I
     invoke-static {v3}, Lorg/telegram/ui/Components/Paint/Painting;->access$100(Lorg/telegram/ui/Components/Paint/Painting;)I
 
     move-result v3
@@ -88,7 +86,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/Paint/Painting$1;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # invokes: Lorg/telegram/ui/Components/Paint/Painting;->getPaintTexture()I
     invoke-static {v4}, Lorg/telegram/ui/Components/Paint/Painting;->access$200(Lorg/telegram/ui/Components/Paint/Painting;)I
 
     move-result v4
@@ -112,7 +109,6 @@
     .line 167
     iget-object v3, p0, Lorg/telegram/ui/Components/Paint/Painting$1;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->size:Lorg/telegram/ui/Components/Size;
     invoke-static {v3}, Lorg/telegram/ui/Components/Paint/Painting;->access$300(Lorg/telegram/ui/Components/Paint/Painting;)Lorg/telegram/ui/Components/Size;
 
     move-result-object v3
@@ -123,7 +119,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/Paint/Painting$1;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->size:Lorg/telegram/ui/Components/Size;
     invoke-static {v4}, Lorg/telegram/ui/Components/Paint/Painting;->access$300(Lorg/telegram/ui/Components/Paint/Painting;)Lorg/telegram/ui/Components/Size;
 
     move-result-object v4
@@ -151,7 +146,6 @@
     :cond_0
     iget-object v3, p0, Lorg/telegram/ui/Components/Paint/Painting$1;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->shaders:Ljava/util/Map;
     invoke-static {v3}, Lorg/telegram/ui/Components/Paint/Painting;->access$400(Lorg/telegram/ui/Components/Paint/Painting;)Ljava/util/Map;
 
     move-result-object v3
@@ -167,14 +161,12 @@
     :cond_2
     iget-object v3, p0, Lorg/telegram/ui/Components/Paint/Painting$1;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->shaders:Ljava/util/Map;
     invoke-static {v3}, Lorg/telegram/ui/Components/Paint/Painting;->access$400(Lorg/telegram/ui/Components/Paint/Painting;)Ljava/util/Map;
 
     move-result-object v4
 
     iget-object v3, p0, Lorg/telegram/ui/Components/Paint/Painting$1;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->brush:Lorg/telegram/ui/Components/Paint/Brush;
     invoke-static {v3}, Lorg/telegram/ui/Components/Paint/Painting;->access$500(Lorg/telegram/ui/Components/Paint/Painting;)Lorg/telegram/ui/Components/Paint/Brush;
 
     move-result-object v3
@@ -206,7 +198,6 @@
     .line 183
     iget-object v3, p0, Lorg/telegram/ui/Components/Paint/Painting$1;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->brushTexture:Lorg/telegram/ui/Components/Paint/Texture;
     invoke-static {v3}, Lorg/telegram/ui/Components/Paint/Painting;->access$600(Lorg/telegram/ui/Components/Paint/Painting;)Lorg/telegram/ui/Components/Paint/Texture;
 
     move-result-object v3
@@ -220,7 +211,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/Components/Paint/Painting$1;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->brush:Lorg/telegram/ui/Components/Paint/Brush;
     invoke-static {v5}, Lorg/telegram/ui/Components/Paint/Painting;->access$500(Lorg/telegram/ui/Components/Paint/Painting;)Lorg/telegram/ui/Components/Paint/Brush;
 
     move-result-object v5
@@ -231,7 +221,6 @@
 
     invoke-direct {v4, v5}, Lorg/telegram/ui/Components/Paint/Texture;-><init>(Landroid/graphics/Bitmap;)V
 
-    # setter for: Lorg/telegram/ui/Components/Paint/Painting;->brushTexture:Lorg/telegram/ui/Components/Paint/Texture;
     invoke-static {v3, v4}, Lorg/telegram/ui/Components/Paint/Painting;->access$602(Lorg/telegram/ui/Components/Paint/Painting;Lorg/telegram/ui/Components/Paint/Texture;)Lorg/telegram/ui/Components/Paint/Texture;
 
     .line 186
@@ -243,7 +232,6 @@
     .line 187
     iget-object v3, p0, Lorg/telegram/ui/Components/Paint/Painting$1;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->brushTexture:Lorg/telegram/ui/Components/Paint/Texture;
     invoke-static {v3}, Lorg/telegram/ui/Components/Paint/Painting;->access$600(Lorg/telegram/ui/Components/Paint/Painting;)Lorg/telegram/ui/Components/Paint/Texture;
 
     move-result-object v3
@@ -265,7 +253,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/Components/Paint/Painting$1;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->projection:[F
     invoke-static {v5}, Lorg/telegram/ui/Components/Paint/Painting;->access$700(Lorg/telegram/ui/Components/Paint/Painting;)[F
 
     move-result-object v5
@@ -290,7 +277,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/Paint/Painting$1;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->renderState:Lorg/telegram/ui/Components/Paint/RenderState;
     invoke-static {v4}, Lorg/telegram/ui/Components/Paint/Painting;->access$800(Lorg/telegram/ui/Components/Paint/Painting;)Lorg/telegram/ui/Components/Paint/RenderState;
 
     move-result-object v4
@@ -307,7 +293,6 @@
     .line 196
     iget-object v3, p0, Lorg/telegram/ui/Components/Paint/Painting$1;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->delegate:Lorg/telegram/ui/Components/Paint/Painting$PaintingDelegate;
     invoke-static {v3}, Lorg/telegram/ui/Components/Paint/Painting;->access$900(Lorg/telegram/ui/Components/Paint/Painting;)Lorg/telegram/ui/Components/Paint/Painting$PaintingDelegate;
 
     move-result-object v3
@@ -317,7 +302,6 @@
     .line 197
     iget-object v3, p0, Lorg/telegram/ui/Components/Paint/Painting$1;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->delegate:Lorg/telegram/ui/Components/Paint/Painting$PaintingDelegate;
     invoke-static {v3}, Lorg/telegram/ui/Components/Paint/Painting;->access$900(Lorg/telegram/ui/Components/Paint/Painting;)Lorg/telegram/ui/Components/Paint/Painting$PaintingDelegate;
 
     move-result-object v3
@@ -328,7 +312,6 @@
     :cond_5
     iget-object v3, p0, Lorg/telegram/ui/Components/Paint/Painting$1;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->activeStrokeBounds:Landroid/graphics/RectF;
     invoke-static {v3}, Lorg/telegram/ui/Components/Paint/Painting;->access$1000(Lorg/telegram/ui/Components/Paint/Painting;)Landroid/graphics/RectF;
 
     move-result-object v3
@@ -338,7 +321,6 @@
     .line 201
     iget-object v3, p0, Lorg/telegram/ui/Components/Paint/Painting$1;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # getter for: Lorg/telegram/ui/Components/Paint/Painting;->activeStrokeBounds:Landroid/graphics/RectF;
     invoke-static {v3}, Lorg/telegram/ui/Components/Paint/Painting;->access$1000(Lorg/telegram/ui/Components/Paint/Painting;)Landroid/graphics/RectF;
 
     move-result-object v3
@@ -368,7 +350,6 @@
     :cond_7
     iget-object v3, p0, Lorg/telegram/ui/Components/Paint/Painting$1;->this$0:Lorg/telegram/ui/Components/Paint/Painting;
 
-    # setter for: Lorg/telegram/ui/Components/Paint/Painting;->activeStrokeBounds:Landroid/graphics/RectF;
     invoke-static {v3, v0}, Lorg/telegram/ui/Components/Paint/Painting;->access$1002(Lorg/telegram/ui/Components/Paint/Painting;Landroid/graphics/RectF;)Landroid/graphics/RectF;
 
     goto :goto_2

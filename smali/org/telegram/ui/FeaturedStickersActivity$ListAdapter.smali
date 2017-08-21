@@ -47,7 +47,6 @@
     .line 206
     iget-object v0, p0, Lorg/telegram/ui/FeaturedStickersActivity$ListAdapter;->this$0:Lorg/telegram/ui/FeaturedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/FeaturedStickersActivity;->rowCount:I
     invoke-static {v0}, Lorg/telegram/ui/FeaturedStickersActivity;->access$300(Lorg/telegram/ui/FeaturedStickersActivity;)I
 
     move-result v0
@@ -65,7 +64,6 @@
     .line 264
     iget-object v1, p0, Lorg/telegram/ui/FeaturedStickersActivity$ListAdapter;->this$0:Lorg/telegram/ui/FeaturedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/FeaturedStickersActivity;->stickersStartRow:I
     invoke-static {v1}, Lorg/telegram/ui/FeaturedStickersActivity;->access$000(Lorg/telegram/ui/FeaturedStickersActivity;)I
 
     move-result v1
@@ -74,7 +72,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/FeaturedStickersActivity$ListAdapter;->this$0:Lorg/telegram/ui/FeaturedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/FeaturedStickersActivity;->stickersEndRow:I
     invoke-static {v1}, Lorg/telegram/ui/FeaturedStickersActivity;->access$100(Lorg/telegram/ui/FeaturedStickersActivity;)I
 
     move-result v1
@@ -90,7 +87,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/FeaturedStickersActivity$ListAdapter;->this$0:Lorg/telegram/ui/FeaturedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/FeaturedStickersActivity;->stickersShadowRow:I
     invoke-static {v1}, Lorg/telegram/ui/FeaturedStickersActivity;->access$500(Lorg/telegram/ui/FeaturedStickersActivity;)I
 
     move-result v1
@@ -184,7 +180,6 @@
     :goto_0
     iget-object v7, p0, Lorg/telegram/ui/FeaturedStickersActivity$ListAdapter;->this$0:Lorg/telegram/ui/FeaturedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/FeaturedStickersActivity;->unreadStickers:Ljava/util/ArrayList;
     invoke-static {v7}, Lorg/telegram/ui/FeaturedStickersActivity;->access$400(Lorg/telegram/ui/FeaturedStickersActivity;)Ljava/util/ArrayList;
 
     move-result-object v7
@@ -193,7 +188,6 @@
 
     iget-object v7, p0, Lorg/telegram/ui/FeaturedStickersActivity$ListAdapter;->this$0:Lorg/telegram/ui/FeaturedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/FeaturedStickersActivity;->unreadStickers:Ljava/util/ArrayList;
     invoke-static {v7}, Lorg/telegram/ui/FeaturedStickersActivity;->access$400(Lorg/telegram/ui/FeaturedStickersActivity;)Ljava/util/ArrayList;
 
     move-result-object v7
@@ -218,7 +212,6 @@
     .line 217
     iget-object v4, p0, Lorg/telegram/ui/FeaturedStickersActivity$ListAdapter;->this$0:Lorg/telegram/ui/FeaturedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/FeaturedStickersActivity;->installingStickerSets:Ljava/util/HashMap;
     invoke-static {v4}, Lorg/telegram/ui/FeaturedStickersActivity;->access$200(Lorg/telegram/ui/FeaturedStickersActivity;)Ljava/util/HashMap;
 
     move-result-object v4
@@ -248,7 +241,6 @@
     .line 219
     iget-object v4, p0, Lorg/telegram/ui/FeaturedStickersActivity$ListAdapter;->this$0:Lorg/telegram/ui/FeaturedStickersActivity;
 
-    # getter for: Lorg/telegram/ui/FeaturedStickersActivity;->installingStickerSets:Ljava/util/HashMap;
     invoke-static {v4}, Lorg/telegram/ui/FeaturedStickersActivity;->access$200(Lorg/telegram/ui/FeaturedStickersActivity;)Ljava/util/HashMap;
 
     move-result-object v4

@@ -47,7 +47,6 @@
 
     const/16 v1, 0x78
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->showActionBar(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ArticleViewer;->access$8500(Lorg/telegram/ui/ArticleViewer;I)V
 
     .line 3380
@@ -55,7 +54,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->visibleDialog:Landroid/app/Dialog;
     invoke-static {v0, v1}, Lorg/telegram/ui/ArticleViewer;->access$8602(Lorg/telegram/ui/ArticleViewer;Landroid/app/Dialog;)Landroid/app/Dialog;
 
     .line 3381

@@ -70,7 +70,6 @@
     .local v2, "task":Lnet/hockeyapp/android/tasks/ParseFeedbackTask;
     iget-object v3, p0, Lnet/hockeyapp/android/FeedbackManager$1;->val$context:Landroid/content/Context;
 
-    # invokes: Lnet/hockeyapp/android/FeedbackManager;->getURLString(Landroid/content/Context;)Ljava/lang/String;
     invoke-static {v3}, Lnet/hockeyapp/android/FeedbackManager;->access$000(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v3

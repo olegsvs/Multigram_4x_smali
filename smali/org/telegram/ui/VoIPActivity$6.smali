@@ -93,7 +93,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/VoIPActivity$6;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->user:Lorg/telegram/tgnet/TLRPC$User;
     invoke-static {v2}, Lorg/telegram/ui/VoIPActivity;->access$400(Lorg/telegram/ui/VoIPActivity;)Lorg/telegram/tgnet/TLRPC$User;
 
     move-result-object v2

@@ -44,13 +44,11 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/NumberTextView;->animator:Landroid/animation/ObjectAnimator;
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/NumberTextView;->access$002(Lorg/telegram/ui/Components/NumberTextView;Landroid/animation/ObjectAnimator;)Landroid/animation/ObjectAnimator;
 
     .line 87
     iget-object v0, p0, Lorg/telegram/ui/Components/NumberTextView$1;->this$0:Lorg/telegram/ui/Components/NumberTextView;
 
-    # getter for: Lorg/telegram/ui/Components/NumberTextView;->oldLetters:Ljava/util/ArrayList;
     invoke-static {v0}, Lorg/telegram/ui/Components/NumberTextView;->access$100(Lorg/telegram/ui/Components/NumberTextView;)Ljava/util/ArrayList;
 
     move-result-object v0

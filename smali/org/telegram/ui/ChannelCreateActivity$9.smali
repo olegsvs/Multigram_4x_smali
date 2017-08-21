@@ -71,7 +71,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/ChannelCreateActivity$9;->this$0:Lorg/telegram/ui/ChannelCreateActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelCreateActivity;->nameTextView:Landroid/widget/EditText;
     invoke-static {v1}, Lorg/telegram/ui/ChannelCreateActivity;->access$300(Lorg/telegram/ui/ChannelCreateActivity;)Landroid/widget/EditText;
 
     move-result-object v1
@@ -84,7 +83,6 @@
 
     move-result-object v1
 
-    # invokes: Lorg/telegram/ui/ChannelCreateActivity;->checkUserName(Ljava/lang/String;)Z
     invoke-static {v0, v1}, Lorg/telegram/ui/ChannelCreateActivity;->access$1900(Lorg/telegram/ui/ChannelCreateActivity;Ljava/lang/String;)Z
 
     .line 523

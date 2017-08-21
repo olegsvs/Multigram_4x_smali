@@ -64,7 +64,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/Adapters/DialogsSearchAdapter$7;->this$0:Lorg/telegram/ui/Adapters/DialogsSearchAdapter;
 
-    # getter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->lastSearchId:I
     invoke-static {v5}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$900(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;)I
 
     move-result v5
@@ -185,7 +184,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/Adapters/DialogsSearchAdapter$7;->val$result:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->searchResult:Ljava/util/ArrayList;
     invoke-static {v4, v5}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$1202(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 806
@@ -193,7 +191,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/Adapters/DialogsSearchAdapter$7;->val$names:Ljava/util/ArrayList;
 
-    # setter for: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->searchResultNames:Ljava/util/ArrayList;
     invoke-static {v4, v5}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$1302(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 
     .line 807

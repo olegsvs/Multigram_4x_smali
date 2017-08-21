@@ -58,7 +58,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Adapters/DialogsSearchAdapter$3$2;->val$hashMap:Ljava/util/HashMap;
 
-    # invokes: Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->setRecentSearch(Ljava/util/ArrayList;Ljava/util/HashMap;)V
     invoke-static {v0, v1, v2}, Lorg/telegram/ui/Adapters/DialogsSearchAdapter;->access$800(Lorg/telegram/ui/Adapters/DialogsSearchAdapter;Ljava/util/ArrayList;Ljava/util/HashMap;)V
 
     .line 408

@@ -52,7 +52,6 @@
     .line 34
     iget-object v2, p0, Lorg/telegram/ui/Cells/BaseCell$CheckForLongPress;->this$0:Lorg/telegram/ui/Cells/BaseCell;
 
-    # getter for: Lorg/telegram/ui/Cells/BaseCell;->checkingForLongPress:Z
     invoke-static {v2}, Lorg/telegram/ui/Cells/BaseCell;->access$200(Lorg/telegram/ui/Cells/BaseCell;)Z
 
     move-result v2
@@ -71,7 +70,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Cells/BaseCell$CheckForLongPress;->this$0:Lorg/telegram/ui/Cells/BaseCell;
 
-    # getter for: Lorg/telegram/ui/Cells/BaseCell;->pressCount:I
     invoke-static {v3}, Lorg/telegram/ui/Cells/BaseCell;->access$100(Lorg/telegram/ui/Cells/BaseCell;)I
 
     move-result v3
@@ -81,7 +79,6 @@
     .line 35
     iget-object v2, p0, Lorg/telegram/ui/Cells/BaseCell$CheckForLongPress;->this$0:Lorg/telegram/ui/Cells/BaseCell;
 
-    # setter for: Lorg/telegram/ui/Cells/BaseCell;->checkingForLongPress:Z
     invoke-static {v2, v7}, Lorg/telegram/ui/Cells/BaseCell;->access$202(Lorg/telegram/ui/Cells/BaseCell;Z)Z
 
     .line 36

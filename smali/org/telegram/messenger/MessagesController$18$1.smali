@@ -54,7 +54,6 @@
 
     iget-object v3, v3, Lorg/telegram/messenger/MessagesController$18;->this$0:Lorg/telegram/messenger/MessagesController;
 
-    # getter for: Lorg/telegram/messenger/MessagesController;->loadingPeerSettings:Ljava/util/HashMap;
     invoke-static {v3}, Lorg/telegram/messenger/MessagesController;->access$2600(Lorg/telegram/messenger/MessagesController;)Ljava/util/HashMap;
 
     move-result-object v3

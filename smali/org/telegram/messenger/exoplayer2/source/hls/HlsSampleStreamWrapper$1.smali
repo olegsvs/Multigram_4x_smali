@@ -44,7 +44,6 @@
     .line 136
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/source/hls/HlsSampleStreamWrapper$1;->this$0:Lorg/telegram/messenger/exoplayer2/source/hls/HlsSampleStreamWrapper;
 
-    # invokes: Lorg/telegram/messenger/exoplayer2/source/hls/HlsSampleStreamWrapper;->maybeFinishPrepare()V
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/source/hls/HlsSampleStreamWrapper;->access$000(Lorg/telegram/messenger/exoplayer2/source/hls/HlsSampleStreamWrapper;)V
 
     .line 137

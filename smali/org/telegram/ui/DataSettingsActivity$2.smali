@@ -48,7 +48,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/DataSettingsActivity$2;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->wifiDownloadRow:I
     invoke-static {v3}, Lorg/telegram/ui/DataSettingsActivity;->access$000(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v3
@@ -61,7 +60,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/DataSettingsActivity$2;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->mobileDownloadRow:I
     invoke-static {v3}, Lorg/telegram/ui/DataSettingsActivity;->access$100(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v3
@@ -74,7 +72,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/DataSettingsActivity$2;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->roamingDownloadRow:I
     invoke-static {v3}, Lorg/telegram/ui/DataSettingsActivity;->access$200(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v3
@@ -132,7 +129,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/DataSettingsActivity$2;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->mobileDownloadRow:I
     invoke-static {v3}, Lorg/telegram/ui/DataSettingsActivity;->access$100(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v3
@@ -305,7 +301,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/DataSettingsActivity$2;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->wifiDownloadRow:I
     invoke-static {v3}, Lorg/telegram/ui/DataSettingsActivity;->access$000(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v3
@@ -329,7 +324,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/DataSettingsActivity$2;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->roamingDownloadRow:I
     invoke-static {v3}, Lorg/telegram/ui/DataSettingsActivity;->access$200(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v3
@@ -659,7 +653,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/DataSettingsActivity$2;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->storageUsageRow:I
     invoke-static {v3}, Lorg/telegram/ui/DataSettingsActivity;->access$600(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v3
@@ -687,7 +680,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/DataSettingsActivity$2;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->useLessDataForCallsRow:I
     invoke-static {v3}, Lorg/telegram/ui/DataSettingsActivity;->access$700(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v3
@@ -819,7 +811,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/DataSettingsActivity$2;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->mobileUsageRow:I
     invoke-static {v3}, Lorg/telegram/ui/DataSettingsActivity;->access$800(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v3
@@ -849,7 +840,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/DataSettingsActivity$2;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->roamingUsageRow:I
     invoke-static {v3}, Lorg/telegram/ui/DataSettingsActivity;->access$900(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v3
@@ -879,7 +869,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/DataSettingsActivity$2;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->wifiUsageRow:I
     invoke-static {v3}, Lorg/telegram/ui/DataSettingsActivity;->access$1000(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v3
@@ -909,7 +898,6 @@
 
     iget-object v3, v0, Lorg/telegram/ui/DataSettingsActivity$2;->this$0:Lorg/telegram/ui/DataSettingsActivity;
 
-    # getter for: Lorg/telegram/ui/DataSettingsActivity;->proxyRow:I
     invoke-static {v3}, Lorg/telegram/ui/DataSettingsActivity;->access$1100(Lorg/telegram/ui/DataSettingsActivity;)I
 
     move-result v3

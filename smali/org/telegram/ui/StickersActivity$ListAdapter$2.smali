@@ -57,7 +57,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/StickersActivity$ListAdapter;->this$0:Lorg/telegram/ui/StickersActivity;
 
-    # invokes: Lorg/telegram/ui/StickersActivity;->sendReorder()V
     invoke-static {v5}, Lorg/telegram/ui/StickersActivity;->access$400(Lorg/telegram/ui/StickersActivity;)V
 
     .line 433
@@ -100,7 +99,6 @@
 
     iget-object v5, v5, Lorg/telegram/ui/StickersActivity$ListAdapter;->this$0:Lorg/telegram/ui/StickersActivity;
 
-    # getter for: Lorg/telegram/ui/StickersActivity;->currentType:I
     invoke-static {v5}, Lorg/telegram/ui/StickersActivity;->access$500(Lorg/telegram/ui/StickersActivity;)I
 
     move-result v5

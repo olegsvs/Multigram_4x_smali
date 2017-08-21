@@ -47,7 +47,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/CountrySelectActivity$4;->this$0:Lorg/telegram/ui/CountrySelectActivity;
 
-    # getter for: Lorg/telegram/ui/CountrySelectActivity;->searching:Z
     invoke-static {v0}, Lorg/telegram/ui/CountrySelectActivity;->access$000(Lorg/telegram/ui/CountrySelectActivity;)Z
 
     move-result v0
@@ -56,7 +55,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/CountrySelectActivity$4;->this$0:Lorg/telegram/ui/CountrySelectActivity;
 
-    # getter for: Lorg/telegram/ui/CountrySelectActivity;->searchWas:Z
     invoke-static {v0}, Lorg/telegram/ui/CountrySelectActivity;->access$200(Lorg/telegram/ui/CountrySelectActivity;)Z
 
     move-result v0

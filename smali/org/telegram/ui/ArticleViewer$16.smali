@@ -57,7 +57,6 @@
     .local v1, "num":I
     iget-object v2, p0, Lorg/telegram/ui/ArticleViewer$16;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->selectedColor:I
     invoke-static {v2, v1}, Lorg/telegram/ui/ArticleViewer;->access$6002(Lorg/telegram/ui/ArticleViewer;I)I
 
     .line 2249
@@ -72,7 +71,6 @@
     .line 2250
     iget-object v2, p0, Lorg/telegram/ui/ArticleViewer$16;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->colorCells:[Lorg/telegram/ui/ArticleViewer$ColorCell;
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$6100(Lorg/telegram/ui/ArticleViewer;)[Lorg/telegram/ui/ArticleViewer$ColorCell;
 
     move-result-object v2
@@ -101,19 +99,16 @@
     :cond_1
     iget-object v2, p0, Lorg/telegram/ui/ArticleViewer$16;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->updateNightModeButton()V
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$5600(Lorg/telegram/ui/ArticleViewer;)V
 
     .line 2253
     iget-object v2, p0, Lorg/telegram/ui/ArticleViewer$16;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->updatePaintColors()V
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$5700(Lorg/telegram/ui/ArticleViewer;)V
 
     .line 2254
     iget-object v2, p0, Lorg/telegram/ui/ArticleViewer$16;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->adapter:Lorg/telegram/ui/ArticleViewer$WebpageAdapter;
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$5800(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/ArticleViewer$WebpageAdapter;
 
     move-result-object v2

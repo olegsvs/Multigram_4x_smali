@@ -108,7 +108,6 @@
     .local v0, "bitmap":Landroid/graphics/Bitmap;
     iget-object v1, p0, Lorg/telegram/ui/Components/AvatarUpdater$1;->this$0:Lorg/telegram/ui/Components/AvatarUpdater;
 
-    # invokes: Lorg/telegram/ui/Components/AvatarUpdater;->processBitmap(Landroid/graphics/Bitmap;)V
     invoke-static {v1, v0}, Lorg/telegram/ui/Components/AvatarUpdater;->access$000(Lorg/telegram/ui/Components/AvatarUpdater;Landroid/graphics/Bitmap;)V
 
     .line 111

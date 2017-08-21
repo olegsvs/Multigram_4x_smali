@@ -1248,7 +1248,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->vertexBuffer:Ljava/nio/FloatBuffer;
     invoke-static {v5}, Lorg/telegram/ui/Components/InstantCameraView;->access$2300(Lorg/telegram/ui/Components/InstantCameraView;)Ljava/nio/FloatBuffer;
 
     move-result-object v5
@@ -1273,7 +1272,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->textureBuffer:Ljava/nio/FloatBuffer;
     invoke-static {v5}, Lorg/telegram/ui/Components/InstantCameraView;->access$2400(Lorg/telegram/ui/Components/InstantCameraView;)Ljava/nio/FloatBuffer;
 
     move-result-object v5
@@ -1290,7 +1288,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->scaleX:F
     invoke-static {v1}, Lorg/telegram/ui/Components/InstantCameraView;->access$2000(Lorg/telegram/ui/Components/InstantCameraView;)F
 
     move-result v1
@@ -1302,7 +1299,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->scaleY:F
     invoke-static {v1}, Lorg/telegram/ui/Components/InstantCameraView;->access$2100(Lorg/telegram/ui/Components/InstantCameraView;)F
 
     move-result v1
@@ -1318,7 +1314,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->mMVPMatrix:[F
     invoke-static {v3}, Lorg/telegram/ui/Components/InstantCameraView;->access$2800(Lorg/telegram/ui/Components/InstantCameraView;)[F
 
     move-result-object v3
@@ -1335,7 +1330,6 @@
     .line 1581
     iget-object v0, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->oldCameraTexture:[I
     invoke-static {v0}, Lorg/telegram/ui/Components/InstantCameraView;->access$3200(Lorg/telegram/ui/Components/InstantCameraView;)[I
 
     move-result-object v0
@@ -1371,7 +1365,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->moldSTMatrix:[F
     invoke-static {v3}, Lorg/telegram/ui/Components/InstantCameraView;->access$3100(Lorg/telegram/ui/Components/InstantCameraView;)[F
 
     move-result-object v3
@@ -1392,7 +1385,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->oldCameraTexture:[I
     invoke-static {v1}, Lorg/telegram/ui/Components/InstantCameraView;->access$3200(Lorg/telegram/ui/Components/InstantCameraView;)[I
 
     move-result-object v1
@@ -1422,7 +1414,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->mSTMatrix:[F
     invoke-static {v3}, Lorg/telegram/ui/Components/InstantCameraView;->access$2500(Lorg/telegram/ui/Components/InstantCameraView;)[F
 
     move-result-object v3
@@ -1436,7 +1427,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->cameraTextureAlpha:F
     invoke-static {v1}, Lorg/telegram/ui/Components/InstantCameraView;->access$3300(Lorg/telegram/ui/Components/InstantCameraView;)F
 
     move-result v1
@@ -1448,7 +1438,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->cameraTexture:[I
     invoke-static {v1}, Lorg/telegram/ui/Components/InstantCameraView;->access$2700(Lorg/telegram/ui/Components/InstantCameraView;)[I
 
     move-result-object v1
@@ -1532,7 +1521,6 @@
     .line 1605
     iget-object v0, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->oldCameraTexture:[I
     invoke-static {v0}, Lorg/telegram/ui/Components/InstantCameraView;->access$3200(Lorg/telegram/ui/Components/InstantCameraView;)[I
 
     move-result-object v0
@@ -1545,7 +1533,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->cameraTextureAlpha:F
     invoke-static {v0}, Lorg/telegram/ui/Components/InstantCameraView;->access$3300(Lorg/telegram/ui/Components/InstantCameraView;)F
 
     move-result v0
@@ -1561,7 +1548,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->cameraTextureAlpha:F
     invoke-static {v1}, Lorg/telegram/ui/Components/InstantCameraView;->access$3300(Lorg/telegram/ui/Components/InstantCameraView;)F
 
     move-result v1
@@ -1574,13 +1560,11 @@
 
     add-float/2addr v1, v2
 
-    # setter for: Lorg/telegram/ui/Components/InstantCameraView;->cameraTextureAlpha:F
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/InstantCameraView;->access$3302(Lorg/telegram/ui/Components/InstantCameraView;F)F
 
     .line 1607
     iget-object v0, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->cameraTextureAlpha:F
     invoke-static {v0}, Lorg/telegram/ui/Components/InstantCameraView;->access$3300(Lorg/telegram/ui/Components/InstantCameraView;)F
 
     move-result v0
@@ -1606,7 +1590,6 @@
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    # setter for: Lorg/telegram/ui/Components/InstantCameraView;->cameraTextureAlpha:F
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/InstantCameraView;->access$3302(Lorg/telegram/ui/Components/InstantCameraView;F)F
 
     .line 1611
@@ -1614,7 +1597,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->oldCameraTexture:[I
     invoke-static {v1}, Lorg/telegram/ui/Components/InstantCameraView;->access$3200(Lorg/telegram/ui/Components/InstantCameraView;)[I
 
     move-result-object v1
@@ -1626,7 +1608,6 @@
     .line 1612
     iget-object v0, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->oldCameraTexture:[I
     invoke-static {v0}, Lorg/telegram/ui/Components/InstantCameraView;->access$3200(Lorg/telegram/ui/Components/InstantCameraView;)[I
 
     move-result-object v0
@@ -1640,7 +1621,6 @@
     .line 1613
     iget-object v0, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->cameraReady:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/InstantCameraView;->access$800(Lorg/telegram/ui/Components/InstantCameraView;)Z
 
     move-result v0
@@ -1652,7 +1632,6 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/ui/Components/InstantCameraView;->cameraReady:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/InstantCameraView;->access$802(Lorg/telegram/ui/Components/InstantCameraView;Z)Z
 
     goto/16 :goto_2
@@ -1661,7 +1640,6 @@
     :cond_8
     iget-object v0, p0, Lorg/telegram/ui/Components/InstantCameraView$VideoRecorder;->this$0:Lorg/telegram/ui/Components/InstantCameraView;
 
-    # getter for: Lorg/telegram/ui/Components/InstantCameraView;->cameraReady:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/InstantCameraView;->access$800(Lorg/telegram/ui/Components/InstantCameraView;)Z
 
     move-result v0
@@ -1673,7 +1651,6 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/ui/Components/InstantCameraView;->cameraReady:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/InstantCameraView;->access$802(Lorg/telegram/ui/Components/InstantCameraView;Z)Z
 
     goto/16 :goto_2
@@ -2549,7 +2526,6 @@
 
     const-string/jumbo v4, "uniform mat4 uMVPMatrix;\nuniform mat4 uSTMatrix;\nattribute vec4 aPosition;\nattribute vec4 aTextureCoord;\nvarying vec2 vTextureCoord;\nvoid main() {\n   gl_Position = uMVPMatrix * aPosition;\n   vTextureCoord = (uSTMatrix * aTextureCoord).xy;\n}\n"
 
-    # invokes: Lorg/telegram/ui/Components/InstantCameraView;->loadShader(ILjava/lang/String;)I
     invoke-static {v2, v3, v4}, Lorg/telegram/ui/Components/InstantCameraView;->access$2600(Lorg/telegram/ui/Components/InstantCameraView;ILjava/lang/String;)I
 
     move-result v29
@@ -2564,7 +2540,6 @@
 
     const-string/jumbo v4, "#extension GL_OES_EGL_image_external : require\nprecision highp float;\nvarying vec2 vTextureCoord;\nuniform float scaleX;\nuniform float scaleY;\nuniform float alpha;\nuniform samplerExternalOES sTexture;\nvoid main() {\n   vec2 coord = vec2((vTextureCoord.x - 0.5) * scaleX, (vTextureCoord.y - 0.5) * scaleY);\n   float coef = ceil(clamp(0.2601 - dot(coord, coord), 0.0, 1.0));\n   vec3 color = texture2D(sTexture, vTextureCoord).rgb * coef + (1.0 - step(0.001, coef));\n   gl_FragColor = vec4(color * alpha, alpha);\n}\n"
 
-    # invokes: Lorg/telegram/ui/Components/InstantCameraView;->loadShader(ILjava/lang/String;)I
     invoke-static {v2, v3, v4}, Lorg/telegram/ui/Components/InstantCameraView;->access$2600(Lorg/telegram/ui/Components/InstantCameraView;ILjava/lang/String;)I
 
     move-result v20

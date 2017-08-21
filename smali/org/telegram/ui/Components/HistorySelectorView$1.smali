@@ -51,13 +51,11 @@
 
     iget v1, p0, Lorg/telegram/ui/Components/HistorySelectorView$1;->val$color:I
 
-    # invokes: Lorg/telegram/ui/Components/HistorySelectorView;->setColor(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/HistorySelectorView;->access$000(Lorg/telegram/ui/Components/HistorySelectorView;I)V
 
     .line 100
     iget-object v0, p0, Lorg/telegram/ui/Components/HistorySelectorView$1;->this$0:Lorg/telegram/ui/Components/HistorySelectorView;
 
-    # invokes: Lorg/telegram/ui/Components/HistorySelectorView;->onColorChanged()V
     invoke-static {v0}, Lorg/telegram/ui/Components/HistorySelectorView;->access$100(Lorg/telegram/ui/Components/HistorySelectorView;)V
 
     .line 101

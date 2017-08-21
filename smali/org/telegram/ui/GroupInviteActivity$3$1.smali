@@ -63,7 +63,6 @@
 
     check-cast v1, Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
 
-    # setter for: Lorg/telegram/ui/GroupInviteActivity;->invite:Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
     invoke-static {v2, v1}, Lorg/telegram/ui/GroupInviteActivity;->access$202(Lorg/telegram/ui/GroupInviteActivity;Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;)Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
 
     .line 220
@@ -158,7 +157,6 @@
 
     const/4 v2, 0x0
 
-    # setter for: Lorg/telegram/ui/GroupInviteActivity;->loading:Z
     invoke-static {v1, v2}, Lorg/telegram/ui/GroupInviteActivity;->access$602(Lorg/telegram/ui/GroupInviteActivity;Z)Z
 
     .line 232
@@ -166,7 +164,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/GroupInviteActivity$3;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->listAdapter:Lorg/telegram/ui/GroupInviteActivity$ListAdapter;
     invoke-static {v1}, Lorg/telegram/ui/GroupInviteActivity;->access$700(Lorg/telegram/ui/GroupInviteActivity;)Lorg/telegram/ui/GroupInviteActivity$ListAdapter;
 
     move-result-object v1

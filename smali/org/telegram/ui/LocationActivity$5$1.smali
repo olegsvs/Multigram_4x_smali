@@ -46,7 +46,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/LocationActivity$5;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->mapView:Lcom/google/android/gms/maps/MapView;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$1100(Lorg/telegram/ui/LocationActivity;)Lcom/google/android/gms/maps/MapView;
 
     move-result-object v1
@@ -89,7 +88,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/LocationActivity$5;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->mapView:Lcom/google/android/gms/maps/MapView;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$1100(Lorg/telegram/ui/LocationActivity;)Lcom/google/android/gms/maps/MapView;
 
     move-result-object v1
@@ -107,7 +105,6 @@
 
     const/4 v2, 0x1
 
-    # setter for: Lorg/telegram/ui/LocationActivity;->mapsInitialized:Z
     invoke-static {v1, v2}, Lorg/telegram/ui/LocationActivity;->access$1302(Lorg/telegram/ui/LocationActivity;Z)Z
 
     .line 342
@@ -115,7 +112,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/LocationActivity$5;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->onResumeCalled:Z
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$1400(Lorg/telegram/ui/LocationActivity;)Z
 
     move-result v1
@@ -127,7 +123,6 @@
 
     iget-object v1, v1, Lorg/telegram/ui/LocationActivity$5;->this$0:Lorg/telegram/ui/LocationActivity;
 
-    # getter for: Lorg/telegram/ui/LocationActivity;->mapView:Lcom/google/android/gms/maps/MapView;
     invoke-static {v1}, Lorg/telegram/ui/LocationActivity;->access$1100(Lorg/telegram/ui/LocationActivity;)Lcom/google/android/gms/maps/MapView;
 
     move-result-object v1

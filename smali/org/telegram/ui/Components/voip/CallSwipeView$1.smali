@@ -55,7 +55,6 @@
 
     const/4 v1, 0x1
 
-    # setter for: Lorg/telegram/ui/Components/voip/CallSwipeView;->canceled:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/voip/CallSwipeView;->access$102(Lorg/telegram/ui/Components/voip/CallSwipeView;Z)Z
 
     .line 89
@@ -102,7 +101,6 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/Components/voip/CallSwipeView$1;->this$0:Lorg/telegram/ui/Components/voip/CallSwipeView;
 
-    # getter for: Lorg/telegram/ui/Components/voip/CallSwipeView;->canceled:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/voip/CallSwipeView;->access$100(Lorg/telegram/ui/Components/voip/CallSwipeView;)Z
 
     move-result v0
@@ -111,7 +109,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/voip/CallSwipeView$1;->this$0:Lorg/telegram/ui/Components/voip/CallSwipeView;
 
-    # getter for: Lorg/telegram/ui/Components/voip/CallSwipeView;->animatingArrows:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/voip/CallSwipeView;->access$200(Lorg/telegram/ui/Components/voip/CallSwipeView;)Z
 
     move-result v0

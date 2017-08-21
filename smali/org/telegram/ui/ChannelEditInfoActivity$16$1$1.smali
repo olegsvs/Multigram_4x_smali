@@ -60,7 +60,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$16;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->checkReqId:I
     invoke-static {v0, v5}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2802(Lorg/telegram/ui/ChannelEditInfoActivity;I)I
 
     .line 1015
@@ -70,7 +69,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$16;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->lastCheckName:Ljava/lang/String;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2900(Lorg/telegram/ui/ChannelEditInfoActivity;)Ljava/lang/String;
 
     move-result-object v0
@@ -83,7 +81,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$16;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->lastCheckName:Ljava/lang/String;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$2900(Lorg/telegram/ui/ChannelEditInfoActivity;)Ljava/lang/String;
 
     move-result-object v0
@@ -118,7 +115,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$16;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$900(Lorg/telegram/ui/ChannelEditInfoActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -150,7 +146,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$16;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$900(Lorg/telegram/ui/ChannelEditInfoActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -166,7 +161,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$16;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$900(Lorg/telegram/ui/ChannelEditInfoActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -186,7 +180,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$16;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->lastNameAvailable:Z
     invoke-static {v0, v6}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$802(Lorg/telegram/ui/ChannelEditInfoActivity;Z)Z
 
     .line 1033
@@ -219,7 +212,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$16;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->canCreatePublic:Z
     invoke-static {v0, v5}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$202(Lorg/telegram/ui/ChannelEditInfoActivity;Z)Z
 
     .line 1024
@@ -229,7 +221,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$16;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # invokes: Lorg/telegram/ui/ChannelEditInfoActivity;->loadAdminedChannels()V
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$300(Lorg/telegram/ui/ChannelEditInfoActivity;)V
 
     .line 1028
@@ -240,7 +231,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$16;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$900(Lorg/telegram/ui/ChannelEditInfoActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -256,7 +246,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$16;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$900(Lorg/telegram/ui/ChannelEditInfoActivity;)Landroid/widget/TextView;
 
     move-result-object v0
@@ -276,7 +265,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$16;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # setter for: Lorg/telegram/ui/ChannelEditInfoActivity;->lastNameAvailable:Z
     invoke-static {v0, v5}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$802(Lorg/telegram/ui/ChannelEditInfoActivity;Z)Z
 
     goto :goto_0
@@ -289,7 +277,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/ChannelEditInfoActivity$16;->this$0:Lorg/telegram/ui/ChannelEditInfoActivity;
 
-    # getter for: Lorg/telegram/ui/ChannelEditInfoActivity;->checkTextView:Landroid/widget/TextView;
     invoke-static {v0}, Lorg/telegram/ui/ChannelEditInfoActivity;->access$900(Lorg/telegram/ui/ChannelEditInfoActivity;)Landroid/widget/TextView;
 
     move-result-object v0

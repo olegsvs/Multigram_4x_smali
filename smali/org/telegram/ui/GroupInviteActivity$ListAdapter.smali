@@ -47,7 +47,6 @@
     .line 259
     iget-object v0, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->loading:Z
     invoke-static {v0}, Lorg/telegram/ui/GroupInviteActivity;->access$600(Lorg/telegram/ui/GroupInviteActivity;)Z
 
     move-result v0
@@ -62,7 +61,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->rowCount:I
     invoke-static {v0}, Lorg/telegram/ui/GroupInviteActivity;->access$800(Lorg/telegram/ui/GroupInviteActivity;)I
 
     move-result v0
@@ -80,7 +78,6 @@
     .line 324
     iget-object v1, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->copyLinkRow:I
     invoke-static {v1}, Lorg/telegram/ui/GroupInviteActivity;->access$000(Lorg/telegram/ui/GroupInviteActivity;)I
 
     move-result v1
@@ -89,7 +86,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->shareLinkRow:I
     invoke-static {v1}, Lorg/telegram/ui/GroupInviteActivity;->access$300(Lorg/telegram/ui/GroupInviteActivity;)I
 
     move-result v1
@@ -98,7 +94,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->revokeLinkRow:I
     invoke-static {v1}, Lorg/telegram/ui/GroupInviteActivity;->access$400(Lorg/telegram/ui/GroupInviteActivity;)I
 
     move-result v1
@@ -114,7 +109,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->shadowRow:I
     invoke-static {v1}, Lorg/telegram/ui/GroupInviteActivity;->access$900(Lorg/telegram/ui/GroupInviteActivity;)I
 
     move-result v1
@@ -123,7 +117,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->linkInfoRow:I
     invoke-static {v1}, Lorg/telegram/ui/GroupInviteActivity;->access$1000(Lorg/telegram/ui/GroupInviteActivity;)I
 
     move-result v1
@@ -140,7 +133,6 @@
     :cond_3
     iget-object v1, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->linkRow:I
     invoke-static {v1}, Lorg/telegram/ui/GroupInviteActivity;->access$100(Lorg/telegram/ui/GroupInviteActivity;)I
 
     move-result v1
@@ -167,7 +159,6 @@
     .local v0, "position":I
     iget-object v1, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->revokeLinkRow:I
     invoke-static {v1}, Lorg/telegram/ui/GroupInviteActivity;->access$400(Lorg/telegram/ui/GroupInviteActivity;)I
 
     move-result v1
@@ -176,7 +167,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->copyLinkRow:I
     invoke-static {v1}, Lorg/telegram/ui/GroupInviteActivity;->access$000(Lorg/telegram/ui/GroupInviteActivity;)I
 
     move-result v1
@@ -185,7 +175,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->shareLinkRow:I
     invoke-static {v1}, Lorg/telegram/ui/GroupInviteActivity;->access$300(Lorg/telegram/ui/GroupInviteActivity;)I
 
     move-result v1
@@ -194,7 +183,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->linkRow:I
     invoke-static {v1}, Lorg/telegram/ui/GroupInviteActivity;->access$100(Lorg/telegram/ui/GroupInviteActivity;)I
 
     move-result v1
@@ -245,7 +233,6 @@
     .local v3, "textCell":Lorg/telegram/ui/Cells/TextSettingsCell;
     iget-object v4, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->copyLinkRow:I
     invoke-static {v4}, Lorg/telegram/ui/GroupInviteActivity;->access$000(Lorg/telegram/ui/GroupInviteActivity;)I
 
     move-result v4
@@ -269,7 +256,6 @@
     :cond_1
     iget-object v4, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->shareLinkRow:I
     invoke-static {v4}, Lorg/telegram/ui/GroupInviteActivity;->access$300(Lorg/telegram/ui/GroupInviteActivity;)I
 
     move-result v4
@@ -293,7 +279,6 @@
     :cond_2
     iget-object v4, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->revokeLinkRow:I
     invoke-static {v4}, Lorg/telegram/ui/GroupInviteActivity;->access$400(Lorg/telegram/ui/GroupInviteActivity;)I
 
     move-result v4
@@ -324,7 +309,6 @@
     .local v1, "privacyCell":Lorg/telegram/ui/Cells/TextInfoPrivacyCell;
     iget-object v4, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->shadowRow:I
     invoke-static {v4}, Lorg/telegram/ui/GroupInviteActivity;->access$900(Lorg/telegram/ui/GroupInviteActivity;)I
 
     move-result v4
@@ -355,7 +339,6 @@
     :cond_3
     iget-object v4, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->linkInfoRow:I
     invoke-static {v4}, Lorg/telegram/ui/GroupInviteActivity;->access$1000(Lorg/telegram/ui/GroupInviteActivity;)I
 
     move-result v4
@@ -369,7 +352,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->chat_id:I
     invoke-static {v5}, Lorg/telegram/ui/GroupInviteActivity;->access$1100(Lorg/telegram/ui/GroupInviteActivity;)I
 
     move-result v5
@@ -447,7 +429,6 @@
     .local v2, "textBlockCell":Lorg/telegram/ui/Cells/TextBlockCell;
     iget-object v4, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->invite:Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
     invoke-static {v4}, Lorg/telegram/ui/GroupInviteActivity;->access$200(Lorg/telegram/ui/GroupInviteActivity;)Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
 
     move-result-object v4
@@ -456,7 +437,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/GroupInviteActivity$ListAdapter;->this$0:Lorg/telegram/ui/GroupInviteActivity;
 
-    # getter for: Lorg/telegram/ui/GroupInviteActivity;->invite:Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
     invoke-static {v4}, Lorg/telegram/ui/GroupInviteActivity;->access$200(Lorg/telegram/ui/GroupInviteActivity;)Lorg/telegram/tgnet/TLRPC$ExportedChatInvite;
 
     move-result-object v4

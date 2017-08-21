@@ -62,7 +62,6 @@
 
     iget v3, p0, Lorg/telegram/messenger/MessagesStorage$79;->val$channelId:I
 
-    # invokes: Lorg/telegram/messenger/MessagesStorage;->updateDialogsWithDeletedMessagesInternal(Ljava/util/ArrayList;Ljava/util/ArrayList;I)V
     invoke-static {v0, v1, v2, v3}, Lorg/telegram/messenger/MessagesStorage;->access$800(Lorg/telegram/messenger/MessagesStorage;Ljava/util/ArrayList;Ljava/util/ArrayList;I)V
 
     .line 5444

@@ -46,7 +46,6 @@
     .line 7284
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$42;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->captionTextViewOld:Landroid/widget/TextView;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$13900(Lorg/telegram/ui/ArticleViewer;)Landroid/widget/TextView;
 
     move-result-object v1
@@ -58,7 +57,6 @@
     .line 7285
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$42;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->captionTextViewOld:Landroid/widget/TextView;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$13900(Lorg/telegram/ui/ArticleViewer;)Landroid/widget/TextView;
 
     move-result-object v1
@@ -68,14 +66,12 @@
     .line 7286
     iget-object v1, p0, Lorg/telegram/ui/ArticleViewer$42;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->captionTextViewNew:Landroid/widget/TextView;
     invoke-static {v1}, Lorg/telegram/ui/ArticleViewer;->access$14000(Lorg/telegram/ui/ArticleViewer;)Landroid/widget/TextView;
 
     move-result-object v1
 
     iget-object v2, p0, Lorg/telegram/ui/ArticleViewer$42;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->actionBar:Lorg/telegram/ui/ActionBar/ActionBar;
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$13700(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/ActionBar/ActionBar;
 
     move-result-object v2

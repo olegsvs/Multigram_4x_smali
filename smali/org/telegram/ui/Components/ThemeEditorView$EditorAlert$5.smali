@@ -51,7 +51,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->this$0:Lorg/telegram/ui/Components/ThemeEditorView;
 
-    # getter for: Lorg/telegram/ui/Components/ThemeEditorView;->currentThemeName:Ljava/lang/String;
     invoke-static {v0}, Lorg/telegram/ui/Components/ThemeEditorView;->access$1900(Lorg/telegram/ui/Components/ThemeEditorView;)Ljava/lang/String;
 
     move-result-object v0

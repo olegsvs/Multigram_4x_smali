@@ -66,7 +66,6 @@
 
     check-cast v0, Ljava/lang/String;
 
-    # invokes: Lorg/telegram/ui/PlusSettingsActivity;->restoreSettings(Ljava/lang/String;)V
     invoke-static {v1, v0}, Lorg/telegram/ui/PlusSettingsActivity;->access$7200(Lorg/telegram/ui/PlusSettingsActivity;Ljava/lang/String;)V
 
     .line 1235

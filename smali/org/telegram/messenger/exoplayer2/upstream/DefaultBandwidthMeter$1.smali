@@ -56,7 +56,6 @@
     .line 111
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/upstream/DefaultBandwidthMeter$1;->this$0:Lorg/telegram/messenger/exoplayer2/upstream/DefaultBandwidthMeter;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/upstream/DefaultBandwidthMeter;->eventListener:Lorg/telegram/messenger/exoplayer2/upstream/BandwidthMeter$EventListener;
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/upstream/DefaultBandwidthMeter;->access$000(Lorg/telegram/messenger/exoplayer2/upstream/DefaultBandwidthMeter;)Lorg/telegram/messenger/exoplayer2/upstream/BandwidthMeter$EventListener;
 
     move-result-object v0

@@ -45,7 +45,6 @@
     .line 1402
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$7;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->initied:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$1700(Lorg/telegram/ui/Components/WebPlayerView;)Z
 
     move-result v0
@@ -54,7 +53,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$7;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->playVideoUrl:Ljava/lang/String;
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$1900(Lorg/telegram/ui/Components/WebPlayerView;)Ljava/lang/String;
 
     move-result-object v0
@@ -70,7 +68,6 @@
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$7;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->videoPlayer:Lorg/telegram/ui/Components/VideoPlayer;
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$000(Lorg/telegram/ui/Components/WebPlayerView;)Lorg/telegram/ui/Components/VideoPlayer;
 
     move-result-object v0
@@ -84,14 +81,12 @@
     .line 1406
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$7;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # invokes: Lorg/telegram/ui/Components/WebPlayerView;->preparePlayer()V
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$2100(Lorg/telegram/ui/Components/WebPlayerView;)V
 
     .line 1408
     :cond_2
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$7;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->videoPlayer:Lorg/telegram/ui/Components/VideoPlayer;
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$000(Lorg/telegram/ui/Components/WebPlayerView;)Lorg/telegram/ui/Components/VideoPlayer;
 
     move-result-object v0
@@ -105,7 +100,6 @@
     .line 1409
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$7;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->videoPlayer:Lorg/telegram/ui/Components/VideoPlayer;
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$000(Lorg/telegram/ui/Components/WebPlayerView;)Lorg/telegram/ui/Components/VideoPlayer;
 
     move-result-object v0
@@ -116,7 +110,6 @@
     :goto_1
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$7;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # invokes: Lorg/telegram/ui/Components/WebPlayerView;->updatePlayButton()V
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$3600(Lorg/telegram/ui/Components/WebPlayerView;)V
 
     goto :goto_0
@@ -127,13 +120,11 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/Components/WebPlayerView;->isCompleted:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/WebPlayerView;->access$5202(Lorg/telegram/ui/Components/WebPlayerView;Z)Z
 
     .line 1412
     iget-object v0, p0, Lorg/telegram/ui/Components/WebPlayerView$7;->this$0:Lorg/telegram/ui/Components/WebPlayerView;
 
-    # getter for: Lorg/telegram/ui/Components/WebPlayerView;->videoPlayer:Lorg/telegram/ui/Components/VideoPlayer;
     invoke-static {v0}, Lorg/telegram/ui/Components/WebPlayerView;->access$000(Lorg/telegram/ui/Components/WebPlayerView;)Lorg/telegram/ui/Components/VideoPlayer;
 
     move-result-object v0

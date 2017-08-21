@@ -61,7 +61,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/DataUsageActivity$2;->this$0:Lorg/telegram/ui/DataUsageActivity;
 
-    # getter for: Lorg/telegram/ui/DataUsageActivity;->resetRow:I
     invoke-static {v1}, Lorg/telegram/ui/DataUsageActivity;->access$000(Lorg/telegram/ui/DataUsageActivity;)I
 
     move-result v1

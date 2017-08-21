@@ -154,7 +154,6 @@
 
     iget-object v4, v0, Lorg/telegram/messenger/ContactsController$6;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # invokes: Lorg/telegram/messenger/ContactsController;->checkContactsInternal()Z
     invoke-static {v4}, Lorg/telegram/messenger/ContactsController;->access$200(Lorg/telegram/messenger/ContactsController;)Z
 
     .line 593
@@ -163,7 +162,6 @@
 
     iget-object v4, v0, Lorg/telegram/messenger/ContactsController$6;->this$0:Lorg/telegram/messenger/ContactsController;
 
-    # invokes: Lorg/telegram/messenger/ContactsController;->readContactsFromPhoneBook()Ljava/util/HashMap;
     invoke-static {v4}, Lorg/telegram/messenger/ContactsController;->access$500(Lorg/telegram/messenger/ContactsController;)Ljava/util/HashMap;
 
     move-result-object v9
@@ -1258,7 +1256,6 @@
 
     const/4 v5, 0x0
 
-    # setter for: Lorg/telegram/messenger/ContactsController;->completedRequestsCount:I
     invoke-static {v4, v5}, Lorg/telegram/messenger/ContactsController;->access$002(Lorg/telegram/messenger/ContactsController;I)I
 
     .line 808

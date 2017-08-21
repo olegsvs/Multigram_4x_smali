@@ -106,12 +106,10 @@
     .line 750
     iget-object v8, p0, Lorg/telegram/ui/Components/ChatDialogsView$ChatDialogCell;->imageView:Lorg/telegram/ui/Components/BackupImageView;
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->avatarSize:I
     invoke-static {p1}, Lorg/telegram/ui/Components/ChatDialogsView;->access$2200(Lorg/telegram/ui/Components/ChatDialogsView;)I
 
     move-result v0
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->avatarSize:I
     invoke-static {p1}, Lorg/telegram/ui/Components/ChatDialogsView;->access$2200(Lorg/telegram/ui/Components/ChatDialogsView;)I
 
     move-result v1
@@ -158,7 +156,6 @@
 
     const/4 v1, 0x1
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->textSize:I
     invoke-static {p1}, Lorg/telegram/ui/Components/ChatDialogsView;->access$2300(Lorg/telegram/ui/Components/ChatDialogsView;)I
 
     move-result v2
@@ -206,7 +203,6 @@
 
     const/high16 v3, 0x40c00000    # 6.0f
 
-    # getter for: Lorg/telegram/ui/Components/ChatDialogsView;->avatarSize:I
     invoke-static {p1}, Lorg/telegram/ui/Components/ChatDialogsView;->access$2200(Lorg/telegram/ui/Components/ChatDialogsView;)I
 
     move-result v4

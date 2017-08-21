@@ -79,7 +79,6 @@
 
     iget-object v14, v0, Lorg/telegram/messenger/SecretChatHelper$13;->this$0:Lorg/telegram/messenger/SecretChatHelper;
 
-    # getter for: Lorg/telegram/messenger/SecretChatHelper;->acceptingChats:Ljava/util/HashMap;
     invoke-static {v14}, Lorg/telegram/messenger/SecretChatHelper;->access$300(Lorg/telegram/messenger/SecretChatHelper;)Ljava/util/HashMap;
 
     move-result-object v14
@@ -273,7 +272,6 @@
 
     iget-object v14, v0, Lorg/telegram/messenger/SecretChatHelper$13;->this$0:Lorg/telegram/messenger/SecretChatHelper;
 
-    # getter for: Lorg/telegram/messenger/SecretChatHelper;->acceptingChats:Ljava/util/HashMap;
     invoke-static {v14}, Lorg/telegram/messenger/SecretChatHelper;->access$300(Lorg/telegram/messenger/SecretChatHelper;)Ljava/util/HashMap;
 
     move-result-object v14
@@ -574,7 +572,6 @@
 
     iget-object v14, v0, Lorg/telegram/messenger/SecretChatHelper$13;->this$0:Lorg/telegram/messenger/SecretChatHelper;
 
-    # getter for: Lorg/telegram/messenger/SecretChatHelper;->acceptingChats:Ljava/util/HashMap;
     invoke-static {v14}, Lorg/telegram/messenger/SecretChatHelper;->access$300(Lorg/telegram/messenger/SecretChatHelper;)Ljava/util/HashMap;
 
     move-result-object v14

@@ -60,7 +60,6 @@
     .line 695
     iget-object v0, p0, Lorg/telegram/ui/VoIPActivity$13;->this$0:Lorg/telegram/ui/VoIPActivity;
 
-    # getter for: Lorg/telegram/ui/VoIPActivity;->content:Landroid/widget/FrameLayout;
     invoke-static {v0}, Lorg/telegram/ui/VoIPActivity;->access$2100(Lorg/telegram/ui/VoIPActivity;)Landroid/widget/FrameLayout;
 
     move-result-object v0

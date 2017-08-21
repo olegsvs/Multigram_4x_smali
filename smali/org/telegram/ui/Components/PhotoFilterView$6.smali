@@ -49,13 +49,11 @@
 
     const/4 v1, 0x2
 
-    # setter for: Lorg/telegram/ui/Components/PhotoFilterView;->selectedTool:I
     invoke-static {v0, v1}, Lorg/telegram/ui/Components/PhotoFilterView;->access$5202(Lorg/telegram/ui/Components/PhotoFilterView;I)I
 
     .line 1778
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$6;->this$0:Lorg/telegram/ui/Components/PhotoFilterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView;->tuneItem:Landroid/widget/ImageView;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView;->access$5300(Lorg/telegram/ui/Components/PhotoFilterView;)Landroid/widget/ImageView;
 
     move-result-object v0
@@ -65,7 +63,6 @@
     .line 1779
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$6;->this$0:Lorg/telegram/ui/Components/PhotoFilterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView;->blurItem:Landroid/widget/ImageView;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView;->access$5400(Lorg/telegram/ui/Components/PhotoFilterView;)Landroid/widget/ImageView;
 
     move-result-object v0
@@ -75,7 +72,6 @@
     .line 1780
     iget-object v0, p0, Lorg/telegram/ui/Components/PhotoFilterView$6;->this$0:Lorg/telegram/ui/Components/PhotoFilterView;
 
-    # getter for: Lorg/telegram/ui/Components/PhotoFilterView;->curveItem:Landroid/widget/ImageView;
     invoke-static {v0}, Lorg/telegram/ui/Components/PhotoFilterView;->access$5500(Lorg/telegram/ui/Components/PhotoFilterView;)Landroid/widget/ImageView;
 
     move-result-object v0

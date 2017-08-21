@@ -54,7 +54,6 @@
 
     iget-wide v2, p0, Lorg/telegram/ui/DialogsActivity$17;->val$dialog_id:J
 
-    # invokes: Lorg/telegram/ui/DialogsActivity;->didSelectResult(JZZ)V
     invoke-static {v0, v2, v3, v1, v1}, Lorg/telegram/ui/DialogsActivity;->access$2200(Lorg/telegram/ui/DialogsActivity;JZZ)V
 
     .line 2100

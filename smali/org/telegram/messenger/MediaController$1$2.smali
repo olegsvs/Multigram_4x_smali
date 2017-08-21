@@ -66,7 +66,6 @@
 
     iget-object v6, v6, Lorg/telegram/messenger/MediaController$1;->this$0:Lorg/telegram/messenger/MediaController;
 
-    # getter for: Lorg/telegram/messenger/MediaController;->recordStartTime:J
     invoke-static {v6}, Lorg/telegram/messenger/MediaController;->access$1100(Lorg/telegram/messenger/MediaController;)J
 
     move-result-wide v6

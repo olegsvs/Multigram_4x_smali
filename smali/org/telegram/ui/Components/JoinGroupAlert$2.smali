@@ -56,7 +56,6 @@
     .local v0, "req":Lorg/telegram/tgnet/TLRPC$TL_messages_importChatInvite;
     iget-object v1, p0, Lorg/telegram/ui/Components/JoinGroupAlert$2;->this$0:Lorg/telegram/ui/Components/JoinGroupAlert;
 
-    # getter for: Lorg/telegram/ui/Components/JoinGroupAlert;->hash:Ljava/lang/String;
     invoke-static {v1}, Lorg/telegram/ui/Components/JoinGroupAlert;->access$000(Lorg/telegram/ui/Components/JoinGroupAlert;)Ljava/lang/String;
 
     move-result-object v1

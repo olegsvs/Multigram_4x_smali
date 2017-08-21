@@ -54,7 +54,6 @@
 
     move-result v1
 
-    # invokes: Lorg/telegram/messenger/ContactsController;->deleteContactFromPhoneBook(I)V
     invoke-static {v0, v1}, Lorg/telegram/messenger/ContactsController;->access$1600(Lorg/telegram/messenger/ContactsController;I)V
 
     .line 1456

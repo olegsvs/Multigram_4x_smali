@@ -58,7 +58,6 @@
     .line 312
     iget-object v0, p0, Lorg/telegram/ui/StickerPreviewViewer$3;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # getter for: Lorg/telegram/ui/StickerPreviewViewer;->openStickerPreviewRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/ui/StickerPreviewViewer;->access$600(Lorg/telegram/ui/StickerPreviewViewer;)Ljava/lang/Runnable;
 
     move-result-object v0
@@ -97,7 +96,6 @@
     :goto_1
     iget-object v0, p0, Lorg/telegram/ui/StickerPreviewViewer$3;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # setter for: Lorg/telegram/ui/StickerPreviewViewer;->openStickerPreviewRunnable:Ljava/lang/Runnable;
     invoke-static {v0, v1}, Lorg/telegram/ui/StickerPreviewViewer;->access$602(Lorg/telegram/ui/StickerPreviewViewer;Ljava/lang/Runnable;)Ljava/lang/Runnable;
 
     .line 323
@@ -123,7 +121,6 @@
     .line 325
     iget-object v0, p0, Lorg/telegram/ui/StickerPreviewViewer$3;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # getter for: Lorg/telegram/ui/StickerPreviewViewer;->currentStickerPreviewCell:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/StickerPreviewViewer;->access$700(Lorg/telegram/ui/StickerPreviewViewer;)Landroid/view/View;
 
     move-result-object v0
@@ -137,7 +134,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/StickerPreviewViewer$3;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # getter for: Lorg/telegram/ui/StickerPreviewViewer;->currentStickerPreviewCell:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/StickerPreviewViewer;->access$700(Lorg/telegram/ui/StickerPreviewViewer;)Landroid/view/View;
 
     move-result-object v0
@@ -150,7 +146,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/StickerPreviewViewer$3;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # getter for: Lorg/telegram/ui/StickerPreviewViewer;->currentStickerPreviewCell:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/StickerPreviewViewer;->access$700(Lorg/telegram/ui/StickerPreviewViewer;)Landroid/view/View;
 
     move-result-object v0
@@ -166,7 +161,6 @@
     .line 327
     iget-object v0, p0, Lorg/telegram/ui/StickerPreviewViewer$3;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # getter for: Lorg/telegram/ui/StickerPreviewViewer;->currentStickerPreviewCell:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/StickerPreviewViewer;->access$700(Lorg/telegram/ui/StickerPreviewViewer;)Landroid/view/View;
 
     move-result-object v0
@@ -205,7 +199,6 @@
     :cond_4
     iget-object v0, p0, Lorg/telegram/ui/StickerPreviewViewer$3;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # getter for: Lorg/telegram/ui/StickerPreviewViewer;->currentStickerPreviewCell:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/StickerPreviewViewer;->access$700(Lorg/telegram/ui/StickerPreviewViewer;)Landroid/view/View;
 
     move-result-object v0
@@ -219,7 +212,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/StickerPreviewViewer$3;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # getter for: Lorg/telegram/ui/StickerPreviewViewer;->currentStickerPreviewCell:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/StickerPreviewViewer;->access$700(Lorg/telegram/ui/StickerPreviewViewer;)Landroid/view/View;
 
     move-result-object v0
@@ -235,7 +227,6 @@
     .line 330
     iget-object v0, p0, Lorg/telegram/ui/StickerPreviewViewer$3;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # getter for: Lorg/telegram/ui/StickerPreviewViewer;->currentStickerPreviewCell:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/StickerPreviewViewer;->access$700(Lorg/telegram/ui/StickerPreviewViewer;)Landroid/view/View;
 
     move-result-object v0
@@ -250,7 +241,6 @@
     :cond_5
     iget-object v0, p0, Lorg/telegram/ui/StickerPreviewViewer$3;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # getter for: Lorg/telegram/ui/StickerPreviewViewer;->currentStickerPreviewCell:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/StickerPreviewViewer;->access$700(Lorg/telegram/ui/StickerPreviewViewer;)Landroid/view/View;
 
     move-result-object v0
@@ -264,7 +254,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/StickerPreviewViewer$3;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # getter for: Lorg/telegram/ui/StickerPreviewViewer;->currentStickerPreviewCell:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/StickerPreviewViewer;->access$700(Lorg/telegram/ui/StickerPreviewViewer;)Landroid/view/View;
 
     move-result-object v0
@@ -280,7 +269,6 @@
     .line 333
     iget-object v0, p0, Lorg/telegram/ui/StickerPreviewViewer$3;->this$0:Lorg/telegram/ui/StickerPreviewViewer;
 
-    # getter for: Lorg/telegram/ui/StickerPreviewViewer;->currentStickerPreviewCell:Landroid/view/View;
     invoke-static {v0}, Lorg/telegram/ui/StickerPreviewViewer;->access$700(Lorg/telegram/ui/StickerPreviewViewer;)Landroid/view/View;
 
     move-result-object v0

@@ -1429,7 +1429,6 @@
     .line 768
     iget-object v1, p0, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->this$0:Lorg/telegram/ui/Components/ThemeEditorView;
 
-    # getter for: Lorg/telegram/ui/Components/ThemeEditorView;->decelerateInterpolator:Landroid/view/animation/DecelerateInterpolator;
     invoke-static {v1}, Lorg/telegram/ui/Components/ThemeEditorView;->access$2000(Lorg/telegram/ui/Components/ThemeEditorView;)Landroid/view/animation/DecelerateInterpolator;
 
     move-result-object v1
@@ -1460,7 +1459,6 @@
     :cond_0
     iget-object v1, p0, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->this$0:Lorg/telegram/ui/Components/ThemeEditorView;
 
-    # getter for: Lorg/telegram/ui/Components/ThemeEditorView;->parentActivity:Landroid/app/Activity;
     invoke-static {v1}, Lorg/telegram/ui/Components/ThemeEditorView;->access$2300(Lorg/telegram/ui/Components/ThemeEditorView;)Landroid/app/Activity;
 
     move-result-object v1
@@ -1470,7 +1468,6 @@
     .line 781
     iget-object v1, p0, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->this$0:Lorg/telegram/ui/Components/ThemeEditorView;
 
-    # getter for: Lorg/telegram/ui/Components/ThemeEditorView;->parentActivity:Landroid/app/Activity;
     invoke-static {v1}, Lorg/telegram/ui/Components/ThemeEditorView;->access$2300(Lorg/telegram/ui/Components/ThemeEditorView;)Landroid/app/Activity;
 
     move-result-object v1
@@ -1483,7 +1480,6 @@
     :cond_1
     iget-object v1, p0, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->this$0:Lorg/telegram/ui/Components/ThemeEditorView;
 
-    # getter for: Lorg/telegram/ui/Components/ThemeEditorView;->currentThemeName:Ljava/lang/String;
     invoke-static {v1}, Lorg/telegram/ui/Components/ThemeEditorView;->access$1900(Lorg/telegram/ui/Components/ThemeEditorView;)Ljava/lang/String;
 
     move-result-object v1
@@ -1616,7 +1612,6 @@
     .line 797
     iget-object v1, p0, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->this$0:Lorg/telegram/ui/Components/ThemeEditorView;
 
-    # getter for: Lorg/telegram/ui/Components/ThemeEditorView;->decelerateInterpolator:Landroid/view/animation/DecelerateInterpolator;
     invoke-static {v1}, Lorg/telegram/ui/Components/ThemeEditorView;->access$2000(Lorg/telegram/ui/Components/ThemeEditorView;)Landroid/view/animation/DecelerateInterpolator;
 
     move-result-object v1
@@ -1638,7 +1633,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Components/ThemeEditorView$EditorAlert;->this$0:Lorg/telegram/ui/Components/ThemeEditorView;
 
-    # getter for: Lorg/telegram/ui/Components/ThemeEditorView;->currentThemeDesriptionPosition:I
     invoke-static {v2}, Lorg/telegram/ui/Components/ThemeEditorView;->access$1600(Lorg/telegram/ui/Components/ThemeEditorView;)I
 
     move-result v2

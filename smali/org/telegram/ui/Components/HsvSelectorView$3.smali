@@ -48,7 +48,6 @@
     .line 84
     iget-object v0, p0, Lorg/telegram/ui/Components/HsvSelectorView$3;->this$0:Lorg/telegram/ui/Components/HsvSelectorView;
 
-    # getter for: Lorg/telegram/ui/Components/HsvSelectorView;->hsvColorValueView:Lorg/telegram/ui/Components/HsvColorValueView;
     invoke-static {v0}, Lorg/telegram/ui/Components/HsvSelectorView;->access$300(Lorg/telegram/ui/Components/HsvSelectorView;)Lorg/telegram/ui/Components/HsvColorValueView;
 
     move-result-object v0
@@ -58,7 +57,6 @@
     .line 85
     iget-object v0, p0, Lorg/telegram/ui/Components/HsvSelectorView$3;->this$0:Lorg/telegram/ui/Components/HsvSelectorView;
 
-    # getter for: Lorg/telegram/ui/Components/HsvSelectorView;->alphaSelector:Lorg/telegram/ui/Components/HsvAlphaSelectorView;
     invoke-static {v0}, Lorg/telegram/ui/Components/HsvSelectorView;->access$200(Lorg/telegram/ui/Components/HsvSelectorView;)Lorg/telegram/ui/Components/HsvAlphaSelectorView;
 
     move-result-object v0
@@ -67,7 +65,6 @@
 
     const/4 v2, 0x0
 
-    # invokes: Lorg/telegram/ui/Components/HsvSelectorView;->getCurrentColor(Z)I
     invoke-static {v1, v2}, Lorg/telegram/ui/Components/HsvSelectorView;->access$000(Lorg/telegram/ui/Components/HsvSelectorView;Z)I
 
     move-result v1
@@ -79,12 +76,10 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/HsvSelectorView$3;->this$0:Lorg/telegram/ui/Components/HsvSelectorView;
 
-    # invokes: Lorg/telegram/ui/Components/HsvSelectorView;->getCurrentColor(Z)I
     invoke-static {v1, v3}, Lorg/telegram/ui/Components/HsvSelectorView;->access$000(Lorg/telegram/ui/Components/HsvSelectorView;Z)I
 
     move-result v1
 
-    # invokes: Lorg/telegram/ui/Components/HsvSelectorView;->internalSetColor(IZ)V
     invoke-static {v0, v1, v3}, Lorg/telegram/ui/Components/HsvSelectorView;->access$100(Lorg/telegram/ui/Components/HsvSelectorView;IZ)V
 
     .line 87

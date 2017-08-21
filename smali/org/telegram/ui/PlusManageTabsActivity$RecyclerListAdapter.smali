@@ -72,7 +72,6 @@
     .line 341
     iget-object v0, p0, Lorg/telegram/ui/PlusManageTabsActivity$RecyclerListAdapter;->this$0:Lorg/telegram/ui/PlusManageTabsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusManageTabsActivity;->tabs:[I
     invoke-static {v0}, Lorg/telegram/ui/PlusManageTabsActivity;->access$000(Lorg/telegram/ui/PlusManageTabsActivity;)[I
 
     move-result-object v0
@@ -107,7 +106,6 @@
 
     iget-object v2, p0, Lorg/telegram/ui/PlusManageTabsActivity$RecyclerListAdapter;->this$0:Lorg/telegram/ui/PlusManageTabsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusManageTabsActivity;->tabs:[I
     invoke-static {v2}, Lorg/telegram/ui/PlusManageTabsActivity;->access$000(Lorg/telegram/ui/PlusManageTabsActivity;)[I
 
     move-result-object v2
@@ -120,7 +118,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/PlusManageTabsActivity$RecyclerListAdapter;->this$0:Lorg/telegram/ui/PlusManageTabsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusManageTabsActivity;->tabs:[I
     invoke-static {v3}, Lorg/telegram/ui/PlusManageTabsActivity;->access$000(Lorg/telegram/ui/PlusManageTabsActivity;)[I
 
     move-result-object v3
@@ -134,7 +131,6 @@
     .line 328
     iget-object v0, p0, Lorg/telegram/ui/PlusManageTabsActivity$RecyclerListAdapter;->this$0:Lorg/telegram/ui/PlusManageTabsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusManageTabsActivity;->visible:[I
     invoke-static {v0}, Lorg/telegram/ui/PlusManageTabsActivity;->access$100(Lorg/telegram/ui/PlusManageTabsActivity;)[I
 
     move-result-object v0
@@ -148,7 +144,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusManageTabsActivity$RecyclerListAdapter;->this$0:Lorg/telegram/ui/PlusManageTabsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusManageTabsActivity;->disabledColor:I
     invoke-static {v1}, Lorg/telegram/ui/PlusManageTabsActivity;->access$200(Lorg/telegram/ui/PlusManageTabsActivity;)I
 
     move-result v1
@@ -160,7 +155,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusManageTabsActivity$RecyclerListAdapter;->this$0:Lorg/telegram/ui/PlusManageTabsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusManageTabsActivity;->disabledColor:I
     invoke-static {v1}, Lorg/telegram/ui/PlusManageTabsActivity;->access$200(Lorg/telegram/ui/PlusManageTabsActivity;)I
 
     move-result v1
@@ -184,7 +178,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusManageTabsActivity$RecyclerListAdapter;->this$0:Lorg/telegram/ui/PlusManageTabsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusManageTabsActivity;->color:I
     invoke-static {v1}, Lorg/telegram/ui/PlusManageTabsActivity;->access$300(Lorg/telegram/ui/PlusManageTabsActivity;)I
 
     move-result v1
@@ -196,7 +189,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/PlusManageTabsActivity$RecyclerListAdapter;->this$0:Lorg/telegram/ui/PlusManageTabsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusManageTabsActivity;->color:I
     invoke-static {v1}, Lorg/telegram/ui/PlusManageTabsActivity;->access$300(Lorg/telegram/ui/PlusManageTabsActivity;)I
 
     move-result v1
@@ -276,14 +268,12 @@
     .line 347
     iget-object v4, p0, Lorg/telegram/ui/PlusManageTabsActivity$RecyclerListAdapter;->this$0:Lorg/telegram/ui/PlusManageTabsActivity;
 
-    # setter for: Lorg/telegram/ui/PlusManageTabsActivity;->needReorder:Z
     invoke-static {v4, v5}, Lorg/telegram/ui/PlusManageTabsActivity;->access$402(Lorg/telegram/ui/PlusManageTabsActivity;Z)Z
 
     .line 350
     :cond_0
     iget-object v4, p0, Lorg/telegram/ui/PlusManageTabsActivity$RecyclerListAdapter;->this$0:Lorg/telegram/ui/PlusManageTabsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusManageTabsActivity;->tabs:[I
     invoke-static {v4}, Lorg/telegram/ui/PlusManageTabsActivity;->access$000(Lorg/telegram/ui/PlusManageTabsActivity;)[I
 
     move-result-object v4
@@ -294,7 +284,6 @@
     .local v1, "t2":I
     iget-object v4, p0, Lorg/telegram/ui/PlusManageTabsActivity$RecyclerListAdapter;->this$0:Lorg/telegram/ui/PlusManageTabsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusManageTabsActivity;->tabs:[I
     invoke-static {v4}, Lorg/telegram/ui/PlusManageTabsActivity;->access$000(Lorg/telegram/ui/PlusManageTabsActivity;)[I
 
     move-result-object v4
@@ -305,7 +294,6 @@
     .local v0, "t1":I
     iget-object v4, p0, Lorg/telegram/ui/PlusManageTabsActivity$RecyclerListAdapter;->this$0:Lorg/telegram/ui/PlusManageTabsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusManageTabsActivity;->tabs:[I
     invoke-static {v4}, Lorg/telegram/ui/PlusManageTabsActivity;->access$000(Lorg/telegram/ui/PlusManageTabsActivity;)[I
 
     move-result-object v4
@@ -315,7 +303,6 @@
     .line 353
     iget-object v4, p0, Lorg/telegram/ui/PlusManageTabsActivity$RecyclerListAdapter;->this$0:Lorg/telegram/ui/PlusManageTabsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusManageTabsActivity;->tabs:[I
     invoke-static {v4}, Lorg/telegram/ui/PlusManageTabsActivity;->access$000(Lorg/telegram/ui/PlusManageTabsActivity;)[I
 
     move-result-object v4
@@ -325,7 +312,6 @@
     .line 354
     iget-object v4, p0, Lorg/telegram/ui/PlusManageTabsActivity$RecyclerListAdapter;->this$0:Lorg/telegram/ui/PlusManageTabsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusManageTabsActivity;->visible:[I
     invoke-static {v4}, Lorg/telegram/ui/PlusManageTabsActivity;->access$100(Lorg/telegram/ui/PlusManageTabsActivity;)[I
 
     move-result-object v4
@@ -336,7 +322,6 @@
     .local v3, "v2":I
     iget-object v4, p0, Lorg/telegram/ui/PlusManageTabsActivity$RecyclerListAdapter;->this$0:Lorg/telegram/ui/PlusManageTabsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusManageTabsActivity;->visible:[I
     invoke-static {v4}, Lorg/telegram/ui/PlusManageTabsActivity;->access$100(Lorg/telegram/ui/PlusManageTabsActivity;)[I
 
     move-result-object v4
@@ -350,14 +335,12 @@
     .line 357
     iget-object v4, p0, Lorg/telegram/ui/PlusManageTabsActivity$RecyclerListAdapter;->this$0:Lorg/telegram/ui/PlusManageTabsActivity;
 
-    # setter for: Lorg/telegram/ui/PlusManageTabsActivity;->visibleChanged:Z
     invoke-static {v4, v5}, Lorg/telegram/ui/PlusManageTabsActivity;->access$502(Lorg/telegram/ui/PlusManageTabsActivity;Z)Z
 
     .line 359
     :cond_1
     iget-object v4, p0, Lorg/telegram/ui/PlusManageTabsActivity$RecyclerListAdapter;->this$0:Lorg/telegram/ui/PlusManageTabsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusManageTabsActivity;->visible:[I
     invoke-static {v4}, Lorg/telegram/ui/PlusManageTabsActivity;->access$100(Lorg/telegram/ui/PlusManageTabsActivity;)[I
 
     move-result-object v4
@@ -367,7 +350,6 @@
     .line 360
     iget-object v4, p0, Lorg/telegram/ui/PlusManageTabsActivity$RecyclerListAdapter;->this$0:Lorg/telegram/ui/PlusManageTabsActivity;
 
-    # getter for: Lorg/telegram/ui/PlusManageTabsActivity;->visible:[I
     invoke-static {v4}, Lorg/telegram/ui/PlusManageTabsActivity;->access$100(Lorg/telegram/ui/PlusManageTabsActivity;)[I
 
     move-result-object v4

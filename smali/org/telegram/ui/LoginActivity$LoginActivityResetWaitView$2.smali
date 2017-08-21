@@ -44,7 +44,6 @@
     .line 2417
     iget-object v0, p0, Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView$2;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;->timeRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;->access$6500(Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;)Ljava/lang/Runnable;
 
     move-result-object v0
@@ -59,13 +58,11 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView$2;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;
 
-    # invokes: Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;->updateTimeText()V
     invoke-static {v0}, Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;->access$6600(Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;)V
 
     .line 2421
     iget-object v0, p0, Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView$2;->this$1:Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;
 
-    # getter for: Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;->timeRunnable:Ljava/lang/Runnable;
     invoke-static {v0}, Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;->access$6500(Lorg/telegram/ui/LoginActivity$LoginActivityResetWaitView;)Ljava/lang/Runnable;
 
     move-result-object v0

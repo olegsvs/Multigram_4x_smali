@@ -286,7 +286,6 @@
     .line 394
     iget-object v3, p0, Lorg/telegram/ui/Components/StickerMasksView$StickersGridAdapter;->this$0:Lorg/telegram/ui/Components/StickerMasksView;
 
-    # getter for: Lorg/telegram/ui/Components/StickerMasksView;->recentTabBum:I
     invoke-static {v3}, Lorg/telegram/ui/Components/StickerMasksView;->access$1300(Lorg/telegram/ui/Components/StickerMasksView;)I
 
     move-result v3
@@ -298,14 +297,12 @@
     :cond_2
     iget-object v3, p0, Lorg/telegram/ui/Components/StickerMasksView$StickersGridAdapter;->this$0:Lorg/telegram/ui/Components/StickerMasksView;
 
-    # getter for: Lorg/telegram/ui/Components/StickerMasksView;->stickerSets:[Ljava/util/ArrayList;
     invoke-static {v3}, Lorg/telegram/ui/Components/StickerMasksView;->access$1500(Lorg/telegram/ui/Components/StickerMasksView;)[Ljava/util/ArrayList;
 
     move-result-object v3
 
     iget-object v4, p0, Lorg/telegram/ui/Components/StickerMasksView$StickersGridAdapter;->this$0:Lorg/telegram/ui/Components/StickerMasksView;
 
-    # getter for: Lorg/telegram/ui/Components/StickerMasksView;->currentType:I
     invoke-static {v4}, Lorg/telegram/ui/Components/StickerMasksView;->access$600(Lorg/telegram/ui/Components/StickerMasksView;)I
 
     move-result v4
@@ -318,7 +315,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/StickerMasksView$StickersGridAdapter;->this$0:Lorg/telegram/ui/Components/StickerMasksView;
 
-    # getter for: Lorg/telegram/ui/Components/StickerMasksView;->stickersTabOffset:I
     invoke-static {v4}, Lorg/telegram/ui/Components/StickerMasksView;->access$1400(Lorg/telegram/ui/Components/StickerMasksView;)I
 
     move-result v4
@@ -374,7 +370,6 @@
     .line 454
     iget-object v8, p0, Lorg/telegram/ui/Components/StickerMasksView$StickersGridAdapter;->this$0:Lorg/telegram/ui/Components/StickerMasksView;
 
-    # getter for: Lorg/telegram/ui/Components/StickerMasksView;->stickersLayoutManager:Lorg/telegram/messenger/support/widget/GridLayoutManager;
     invoke-static {v8}, Lorg/telegram/ui/Components/StickerMasksView;->access$800(Lorg/telegram/ui/Components/StickerMasksView;)Lorg/telegram/messenger/support/widget/GridLayoutManager;
 
     move-result-object v8
@@ -406,14 +401,12 @@
     .line 459
     iget-object v8, p0, Lorg/telegram/ui/Components/StickerMasksView$StickersGridAdapter;->this$0:Lorg/telegram/ui/Components/StickerMasksView;
 
-    # getter for: Lorg/telegram/ui/Components/StickerMasksView;->stickerSets:[Ljava/util/ArrayList;
     invoke-static {v8}, Lorg/telegram/ui/Components/StickerMasksView;->access$1500(Lorg/telegram/ui/Components/StickerMasksView;)[Ljava/util/ArrayList;
 
     move-result-object v8
 
     iget-object v9, p0, Lorg/telegram/ui/Components/StickerMasksView$StickersGridAdapter;->this$0:Lorg/telegram/ui/Components/StickerMasksView;
 
-    # getter for: Lorg/telegram/ui/Components/StickerMasksView;->currentType:I
     invoke-static {v9}, Lorg/telegram/ui/Components/StickerMasksView;->access$600(Lorg/telegram/ui/Components/StickerMasksView;)I
 
     move-result v9
@@ -452,14 +445,12 @@
     .line 465
     iget-object v8, p0, Lorg/telegram/ui/Components/StickerMasksView$StickersGridAdapter;->this$0:Lorg/telegram/ui/Components/StickerMasksView;
 
-    # getter for: Lorg/telegram/ui/Components/StickerMasksView;->recentStickers:[Ljava/util/ArrayList;
     invoke-static {v8}, Lorg/telegram/ui/Components/StickerMasksView;->access$700(Lorg/telegram/ui/Components/StickerMasksView;)[Ljava/util/ArrayList;
 
     move-result-object v8
 
     iget-object v9, p0, Lorg/telegram/ui/Components/StickerMasksView$StickersGridAdapter;->this$0:Lorg/telegram/ui/Components/StickerMasksView;
 
-    # getter for: Lorg/telegram/ui/Components/StickerMasksView;->currentType:I
     invoke-static {v9}, Lorg/telegram/ui/Components/StickerMasksView;->access$600(Lorg/telegram/ui/Components/StickerMasksView;)I
 
     move-result v9
@@ -702,7 +693,6 @@
     :cond_0
     iget-object v4, p0, Lorg/telegram/ui/Components/StickerMasksView$StickersGridAdapter;->this$0:Lorg/telegram/ui/Components/StickerMasksView;
 
-    # getter for: Lorg/telegram/ui/Components/StickerMasksView;->stickersGridView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v4}, Lorg/telegram/ui/Components/StickerMasksView;->access$000(Lorg/telegram/ui/Components/StickerMasksView;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v4

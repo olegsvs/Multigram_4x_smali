@@ -55,7 +55,6 @@
 
     iget-object v2, p0, Lorg/telegram/messenger/NotificationBadge$ZukHomeBadger$1;->this$0:Lorg/telegram/messenger/NotificationBadge$ZukHomeBadger;
 
-    # getter for: Lorg/telegram/messenger/NotificationBadge$ZukHomeBadger;->CONTENT_URI:Landroid/net/Uri;
     invoke-static {v2}, Lorg/telegram/messenger/NotificationBadge$ZukHomeBadger;->access$200(Lorg/telegram/messenger/NotificationBadge$ZukHomeBadger;)Landroid/net/Uri;
 
     move-result-object v2

@@ -59,7 +59,6 @@
     .line 85
     iget-object v5, p0, Lorg/telegram/ui/ImageListActivity$2;->this$0:Lorg/telegram/ui/ImageListActivity;
 
-    # getter for: Lorg/telegram/ui/ImageListActivity;->arrayId:I
     invoke-static {v5}, Lorg/telegram/ui/ImageListActivity;->access$000(Lorg/telegram/ui/ImageListActivity;)I
 
     move-result v5
@@ -85,7 +84,6 @@
     .local v3, "preferences":Landroid/content/SharedPreferences;
     iget-object v5, p0, Lorg/telegram/ui/ImageListActivity$2;->this$0:Lorg/telegram/ui/ImageListActivity;
 
-    # getter for: Lorg/telegram/ui/ImageListActivity;->arrayId:I
     invoke-static {v5}, Lorg/telegram/ui/ImageListActivity;->access$000(Lorg/telegram/ui/ImageListActivity;)I
 
     move-result v5
@@ -126,7 +124,6 @@
     .line 93
     iget-object v5, p0, Lorg/telegram/ui/ImageListActivity$2;->this$0:Lorg/telegram/ui/ImageListActivity;
 
-    # getter for: Lorg/telegram/ui/ImageListActivity;->arrayId:I
     invoke-static {v5}, Lorg/telegram/ui/ImageListActivity;->access$000(Lorg/telegram/ui/ImageListActivity;)I
 
     move-result v5
@@ -154,7 +151,6 @@
     :cond_0
     iget-object v5, p0, Lorg/telegram/ui/ImageListActivity$2;->this$0:Lorg/telegram/ui/ImageListActivity;
 
-    # getter for: Lorg/telegram/ui/ImageListActivity;->listAdapter:Lorg/telegram/ui/ImageListActivity$CustomListAdapter;
     invoke-static {v5}, Lorg/telegram/ui/ImageListActivity;->access$100(Lorg/telegram/ui/ImageListActivity;)Lorg/telegram/ui/ImageListActivity$CustomListAdapter;
 
     move-result-object v5

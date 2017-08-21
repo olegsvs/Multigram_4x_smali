@@ -55,7 +55,6 @@
 
     const/4 v1, 0x1
 
-    # invokes: Lorg/telegram/ui/Components/Crop/CropView;->fitContentInBounds(ZZZ)V
     invoke-static {v0, v2, v2, v1}, Lorg/telegram/ui/Components/Crop/CropView;->access$1300(Lorg/telegram/ui/Components/Crop/CropView;ZZZ)V
 
     .line 332

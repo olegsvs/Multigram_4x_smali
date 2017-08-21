@@ -83,7 +83,6 @@
     .line 95
     iget-object v1, p0, Lorg/telegram/messenger/exoplayer2/audio/AudioCapabilitiesReceiver$HdmiAudioPlugBroadcastReceiver;->this$0:Lorg/telegram/messenger/exoplayer2/audio/AudioCapabilitiesReceiver;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/audio/AudioCapabilitiesReceiver;->listener:Lorg/telegram/messenger/exoplayer2/audio/AudioCapabilitiesReceiver$Listener;
     invoke-static {v1}, Lorg/telegram/messenger/exoplayer2/audio/AudioCapabilitiesReceiver;->access$100(Lorg/telegram/messenger/exoplayer2/audio/AudioCapabilitiesReceiver;)Lorg/telegram/messenger/exoplayer2/audio/AudioCapabilitiesReceiver$Listener;
 
     move-result-object v1

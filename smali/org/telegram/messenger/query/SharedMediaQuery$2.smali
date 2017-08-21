@@ -102,7 +102,6 @@
 
     const/4 v6, 0x0
 
-    # invokes: Lorg/telegram/messenger/query/SharedMediaQuery;->processLoadedMediaCount(IJIIZ)V
     invoke-static/range {v1 .. v6}, Lorg/telegram/messenger/query/SharedMediaQuery;->access$100(IJIIZ)V
 
     .line 137

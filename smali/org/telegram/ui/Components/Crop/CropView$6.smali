@@ -60,7 +60,6 @@
     .line 776
     iget-object v3, p0, Lorg/telegram/ui/Components/Crop/CropView$6;->this$0:Lorg/telegram/ui/Components/Crop/CropView;
 
-    # setter for: Lorg/telegram/ui/Components/Crop/CropView;->hasAspectRatioDialog:Z
     invoke-static {v3, v5}, Lorg/telegram/ui/Components/Crop/CropView;->access$2302(Lorg/telegram/ui/Components/Crop/CropView;Z)Z
 
     .line 777
@@ -77,7 +76,6 @@
     .local v1, "ratioPair":[Ljava/lang/Integer;
     iget-object v3, p0, Lorg/telegram/ui/Components/Crop/CropView$6;->this$0:Lorg/telegram/ui/Components/Crop/CropView;
 
-    # getter for: Lorg/telegram/ui/Components/Crop/CropView;->areaView:Lorg/telegram/ui/Components/Crop/CropAreaView;
     invoke-static {v3}, Lorg/telegram/ui/Components/Crop/CropView;->access$2500(Lorg/telegram/ui/Components/Crop/CropView;)Lorg/telegram/ui/Components/Crop/CropAreaView;
 
     move-result-object v3
@@ -111,7 +109,6 @@
 
     div-float/2addr v4, v5
 
-    # invokes: Lorg/telegram/ui/Components/Crop/CropView;->setLockedAspectRatio(F)V
     invoke-static {v3, v4}, Lorg/telegram/ui/Components/Crop/CropView;->access$2400(Lorg/telegram/ui/Components/Crop/CropView;F)V
 
     .line 801
@@ -123,12 +120,10 @@
     :pswitch_0
     iget-object v3, p0, Lorg/telegram/ui/Components/Crop/CropView$6;->this$0:Lorg/telegram/ui/Components/Crop/CropView;
 
-    # getter for: Lorg/telegram/ui/Components/Crop/CropView;->state:Lorg/telegram/ui/Components/Crop/CropView$CropState;
     invoke-static {v3}, Lorg/telegram/ui/Components/Crop/CropView;->access$1100(Lorg/telegram/ui/Components/Crop/CropView;)Lorg/telegram/ui/Components/Crop/CropView$CropState;
 
     move-result-object v3
 
-    # invokes: Lorg/telegram/ui/Components/Crop/CropView$CropState;->getBaseRotation()F
     invoke-static {v3}, Lorg/telegram/ui/Components/Crop/CropView$CropState;->access$200(Lorg/telegram/ui/Components/Crop/CropView$CropState;)F
 
     move-result v3
@@ -141,12 +136,10 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Components/Crop/CropView$6;->this$0:Lorg/telegram/ui/Components/Crop/CropView;
 
-    # getter for: Lorg/telegram/ui/Components/Crop/CropView;->state:Lorg/telegram/ui/Components/Crop/CropView$CropState;
     invoke-static {v3}, Lorg/telegram/ui/Components/Crop/CropView;->access$1100(Lorg/telegram/ui/Components/Crop/CropView;)Lorg/telegram/ui/Components/Crop/CropView$CropState;
 
     move-result-object v3
 
-    # invokes: Lorg/telegram/ui/Components/Crop/CropView$CropState;->getHeight()F
     invoke-static {v3}, Lorg/telegram/ui/Components/Crop/CropView$CropState;->access$500(Lorg/telegram/ui/Components/Crop/CropView$CropState;)F
 
     move-result v2
@@ -156,12 +149,10 @@
     :goto_1
     iget-object v3, p0, Lorg/telegram/ui/Components/Crop/CropView$6;->this$0:Lorg/telegram/ui/Components/Crop/CropView;
 
-    # getter for: Lorg/telegram/ui/Components/Crop/CropView;->state:Lorg/telegram/ui/Components/Crop/CropView$CropState;
     invoke-static {v3}, Lorg/telegram/ui/Components/Crop/CropView;->access$1100(Lorg/telegram/ui/Components/Crop/CropView;)Lorg/telegram/ui/Components/Crop/CropView$CropState;
 
     move-result-object v3
 
-    # invokes: Lorg/telegram/ui/Components/Crop/CropView$CropState;->getBaseRotation()F
     invoke-static {v3}, Lorg/telegram/ui/Components/Crop/CropView$CropState;->access$200(Lorg/telegram/ui/Components/Crop/CropView$CropState;)F
 
     move-result v3
@@ -174,12 +165,10 @@
 
     iget-object v3, p0, Lorg/telegram/ui/Components/Crop/CropView$6;->this$0:Lorg/telegram/ui/Components/Crop/CropView;
 
-    # getter for: Lorg/telegram/ui/Components/Crop/CropView;->state:Lorg/telegram/ui/Components/Crop/CropView$CropState;
     invoke-static {v3}, Lorg/telegram/ui/Components/Crop/CropView;->access$1100(Lorg/telegram/ui/Components/Crop/CropView;)Lorg/telegram/ui/Components/Crop/CropView$CropState;
 
     move-result-object v3
 
-    # invokes: Lorg/telegram/ui/Components/Crop/CropView$CropState;->getWidth()F
     invoke-static {v3}, Lorg/telegram/ui/Components/Crop/CropView$CropState;->access$400(Lorg/telegram/ui/Components/Crop/CropView$CropState;)F
 
     move-result v0
@@ -191,7 +180,6 @@
 
     div-float v4, v2, v0
 
-    # invokes: Lorg/telegram/ui/Components/Crop/CropView;->setLockedAspectRatio(F)V
     invoke-static {v3, v4}, Lorg/telegram/ui/Components/Crop/CropView;->access$2400(Lorg/telegram/ui/Components/Crop/CropView;F)V
 
     goto :goto_0
@@ -202,12 +190,10 @@
     :cond_0
     iget-object v3, p0, Lorg/telegram/ui/Components/Crop/CropView$6;->this$0:Lorg/telegram/ui/Components/Crop/CropView;
 
-    # getter for: Lorg/telegram/ui/Components/Crop/CropView;->state:Lorg/telegram/ui/Components/Crop/CropView$CropState;
     invoke-static {v3}, Lorg/telegram/ui/Components/Crop/CropView;->access$1100(Lorg/telegram/ui/Components/Crop/CropView;)Lorg/telegram/ui/Components/Crop/CropView$CropState;
 
     move-result-object v3
 
-    # invokes: Lorg/telegram/ui/Components/Crop/CropView$CropState;->getWidth()F
     invoke-static {v3}, Lorg/telegram/ui/Components/Crop/CropView$CropState;->access$400(Lorg/telegram/ui/Components/Crop/CropView$CropState;)F
 
     move-result v2
@@ -219,12 +205,10 @@
     :cond_1
     iget-object v3, p0, Lorg/telegram/ui/Components/Crop/CropView$6;->this$0:Lorg/telegram/ui/Components/Crop/CropView;
 
-    # getter for: Lorg/telegram/ui/Components/Crop/CropView;->state:Lorg/telegram/ui/Components/Crop/CropView$CropState;
     invoke-static {v3}, Lorg/telegram/ui/Components/Crop/CropView;->access$1100(Lorg/telegram/ui/Components/Crop/CropView;)Lorg/telegram/ui/Components/Crop/CropView$CropState;
 
     move-result-object v3
 
-    # invokes: Lorg/telegram/ui/Components/Crop/CropView$CropState;->getHeight()F
     invoke-static {v3}, Lorg/telegram/ui/Components/Crop/CropView$CropState;->access$500(Lorg/telegram/ui/Components/Crop/CropView$CropState;)F
 
     move-result v0
@@ -236,7 +220,6 @@
     :pswitch_1
     iget-object v3, p0, Lorg/telegram/ui/Components/Crop/CropView$6;->this$0:Lorg/telegram/ui/Components/Crop/CropView;
 
-    # invokes: Lorg/telegram/ui/Components/Crop/CropView;->setLockedAspectRatio(F)V
     invoke-static {v3, v6}, Lorg/telegram/ui/Components/Crop/CropView;->access$2400(Lorg/telegram/ui/Components/Crop/CropView;F)V
 
     goto :goto_0
@@ -264,7 +247,6 @@
 
     div-float/2addr v4, v5
 
-    # invokes: Lorg/telegram/ui/Components/Crop/CropView;->setLockedAspectRatio(F)V
     invoke-static {v3, v4}, Lorg/telegram/ui/Components/Crop/CropView;->access$2400(Lorg/telegram/ui/Components/Crop/CropView;F)V
 
     goto :goto_0

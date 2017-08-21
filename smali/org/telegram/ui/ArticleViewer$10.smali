@@ -58,7 +58,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/ArticleViewer$10;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->currentPage:Lorg/telegram/tgnet/TLRPC$WebPage;
     invoke-static {v5}, Lorg/telegram/ui/ArticleViewer;->access$4600(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/tgnet/TLRPC$WebPage;
 
     move-result-object v5
@@ -68,7 +67,6 @@
     .line 2082
     iget-object v5, p0, Lorg/telegram/ui/ArticleViewer$10;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->previewsReqId:I
     invoke-static {v5}, Lorg/telegram/ui/ArticleViewer;->access$4700(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v5
@@ -106,14 +104,12 @@
     .end local v0    # "object":Lorg/telegram/tgnet/TLObject;
     iget-object v6, p0, Lorg/telegram/ui/ArticleViewer$10;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->currentPage:Lorg/telegram/tgnet/TLRPC$WebPage;
     invoke-static {v6}, Lorg/telegram/ui/ArticleViewer;->access$4600(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/tgnet/TLRPC$WebPage;
 
     move-result-object v6
 
     iget-wide v6, v6, Lorg/telegram/tgnet/TLRPC$WebPage;->id:J
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->openPreviewsChat(Lorg/telegram/tgnet/TLRPC$User;J)V
     invoke-static {v5, v0, v6, v7}, Lorg/telegram/ui/ArticleViewer;->access$4800(Lorg/telegram/ui/ArticleViewer;Lorg/telegram/tgnet/TLRPC$User;J)V
 
     goto :goto_0
@@ -123,7 +119,6 @@
     :cond_2
     iget-object v5, p0, Lorg/telegram/ui/ArticleViewer$10;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->currentPage:Lorg/telegram/tgnet/TLRPC$WebPage;
     invoke-static {v5}, Lorg/telegram/ui/ArticleViewer;->access$4600(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/tgnet/TLRPC$WebPage;
 
     move-result-object v5
@@ -134,7 +129,6 @@
     .local v2, "pageId":J
     iget-object v5, p0, Lorg/telegram/ui/ArticleViewer$10;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->showProgressView(Z)V
     invoke-static {v5, v8}, Lorg/telegram/ui/ArticleViewer;->access$4200(Lorg/telegram/ui/ArticleViewer;Z)V
 
     .line 2091
@@ -163,7 +157,6 @@
 
     move-result v6
 
-    # setter for: Lorg/telegram/ui/ArticleViewer;->previewsReqId:I
     invoke-static {v5, v6}, Lorg/telegram/ui/ArticleViewer;->access$4702(Lorg/telegram/ui/ArticleViewer;I)I
 
     goto :goto_0
@@ -209,7 +202,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/ArticleViewer$10;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->parentFragment:Lorg/telegram/ui/ActionBar/BaseFragment;
     invoke-static {v6}, Lorg/telegram/ui/ArticleViewer;->access$4900(Lorg/telegram/ui/ArticleViewer;)Lorg/telegram/ui/ActionBar/BaseFragment;
 
     move-result-object v6

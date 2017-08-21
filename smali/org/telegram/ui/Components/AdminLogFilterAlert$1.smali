@@ -43,7 +43,6 @@
     .line 182
     iget-object v0, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$1;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->shadowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {v0}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$900(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -52,12 +51,10 @@
 
     iget-object v2, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$1;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->scrollOffsetY:I
     invoke-static {v2}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v2
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->backgroundPaddingTop:I
     invoke-static {}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$800()I
 
     move-result v3
@@ -77,7 +74,6 @@
     .line 183
     iget-object v0, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$1;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->shadowDrawable:Landroid/graphics/drawable/Drawable;
     invoke-static {v0}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$900(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
@@ -102,7 +98,6 @@
 
     iget-object v0, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$1;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->scrollOffsetY:I
     invoke-static {v0}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v0
@@ -115,7 +110,6 @@
 
     iget-object v1, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$1;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->scrollOffsetY:I
     invoke-static {v1}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$000(Lorg/telegram/ui/Components/AdminLogFilterAlert;)I
 
     move-result v1
@@ -161,7 +155,6 @@
     .line 169
     iget-object v0, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$1;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # invokes: Lorg/telegram/ui/Components/AdminLogFilterAlert;->updateLayout()V
     invoke-static {v0}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$700(Lorg/telegram/ui/Components/AdminLogFilterAlert;)V
 
     .line 170
@@ -210,7 +203,6 @@
 
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$1;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->isMegagroup:Z
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$100(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Z
 
     move-result v4
@@ -228,7 +220,6 @@
 
     add-int/2addr v4, v6
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->backgroundPaddingTop:I
     invoke-static {}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$200()I
 
     move-result v6
@@ -239,7 +230,6 @@
     .local v0, "contentSize":I
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$1;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentAdmins:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$300(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -249,7 +239,6 @@
     .line 148
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$1;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->currentAdmins:Ljava/util/ArrayList;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$300(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Ljava/util/ArrayList;
 
     move-result-object v4
@@ -311,7 +300,6 @@
     if-nez v3, :cond_3
 
     .line 156
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->backgroundPaddingTop:I
     invoke-static {}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$400()I
 
     move-result v3
@@ -320,7 +308,6 @@
     :cond_3
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$1;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$500(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v4
@@ -336,13 +323,11 @@
 
     const/4 v6, 0x1
 
-    # setter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->ignoreLayout:Z
     invoke-static {v4, v6}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$602(Lorg/telegram/ui/Components/AdminLogFilterAlert;Z)Z
 
     .line 160
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$1;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->listView:Lorg/telegram/ui/Components/RecyclerListView;
     invoke-static {v4}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$500(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Lorg/telegram/ui/Components/RecyclerListView;
 
     move-result-object v4
@@ -352,7 +337,6 @@
     .line 161
     iget-object v4, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$1;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # setter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->ignoreLayout:Z
     invoke-static {v4, v5}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$602(Lorg/telegram/ui/Components/AdminLogFilterAlert;Z)Z
 
     .line 163
@@ -428,7 +412,6 @@
     .line 174
     iget-object v0, p0, Lorg/telegram/ui/Components/AdminLogFilterAlert$1;->this$0:Lorg/telegram/ui/Components/AdminLogFilterAlert;
 
-    # getter for: Lorg/telegram/ui/Components/AdminLogFilterAlert;->ignoreLayout:Z
     invoke-static {v0}, Lorg/telegram/ui/Components/AdminLogFilterAlert;->access$600(Lorg/telegram/ui/Components/AdminLogFilterAlert;)Z
 
     move-result v0

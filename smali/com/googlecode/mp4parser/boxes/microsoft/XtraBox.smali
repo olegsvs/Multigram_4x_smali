@@ -563,7 +563,6 @@
 
     check-cast v2, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;
 
-    # invokes: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->getContentSize()I
     invoke-static {v2}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->access$0(Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;)I
 
     move-result v2
@@ -628,7 +627,6 @@
 
     .line 298
     .local v0, "tag":Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;
-    # getter for: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->tagName:Ljava/lang/String;
     invoke-static {v0}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->access$2(Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;)Ljava/lang/String;
 
     move-result-object v2
@@ -987,7 +985,6 @@
 
     .line 116
     .local v3, "tag":Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;
-    # invokes: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->parse(Ljava/nio/ByteBuffer;)V
     invoke-static {v3, p1}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->access$4(Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;Ljava/nio/ByteBuffer;)V
 
     .line 117
@@ -1086,7 +1083,6 @@
 
     .line 155
     .local v2, "tag":Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;
-    # getter for: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->tagName:Ljava/lang/String;
     invoke-static {v2}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->access$2(Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;)Ljava/lang/String;
 
     move-result-object v3
@@ -1138,7 +1134,6 @@
 
     check-cast v1, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;
 
-    # invokes: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->getContent(Ljava/nio/ByteBuffer;)V
     invoke-static {v1, p1}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->access$5(Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;Ljava/nio/ByteBuffer;)V
 
     .line 137
@@ -1397,7 +1392,6 @@
     if-eqz v1, :cond_1
 
     .line 220
-    # getter for: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->values:Ljava/util/Vector;
     invoke-static {v1}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->access$1(Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;)Ljava/util/Vector;
 
     move-result-object v3
@@ -1414,7 +1408,6 @@
 
     .local v0, "i":I
     :goto_0
-    # getter for: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->values:Ljava/util/Vector;
     invoke-static {v1}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->access$1(Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;)Ljava/util/Vector;
 
     move-result-object v3
@@ -1433,7 +1426,6 @@
     .line 222
     .restart local v0    # "i":I
     :cond_0
-    # getter for: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->values:Ljava/util/Vector;
     invoke-static {v1}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->access$1(Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;)Ljava/util/Vector;
 
     move-result-object v3
@@ -1444,7 +1436,6 @@
 
     check-cast v3, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraValue;
 
-    # invokes: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraValue;->getValueAsObject()Ljava/lang/Object;
     invoke-static {v3}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraValue;->access$4(Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraValue;)Ljava/lang/Object;
 
     move-result-object v3
@@ -1538,7 +1529,6 @@
 
     .line 292
     .local v0, "tag":Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;
-    # getter for: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->values:Ljava/util/Vector;
     invoke-static {v0}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->access$1(Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;)Ljava/util/Vector;
 
     move-result-object v1
@@ -1621,7 +1611,6 @@
 
     .line 279
     .local v0, "tag":Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;
-    # getter for: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->values:Ljava/util/Vector;
     invoke-static {v0}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->access$1(Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;)Ljava/util/Vector;
 
     move-result-object v1
@@ -1689,7 +1678,6 @@
 
     .line 253
     :cond_0
-    # getter for: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->values:Ljava/util/Vector;
     invoke-static {v1}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->access$1(Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;)Ljava/util/Vector;
 
     move-result-object v2
@@ -1782,7 +1770,6 @@
 
     .line 95
     .local v1, "tag":Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;
-    # getter for: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->values:Ljava/util/Vector;
     invoke-static {v1}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->access$1(Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;)Ljava/util/Vector;
 
     move-result-object v4
@@ -1806,7 +1793,6 @@
 
     .line 96
     .local v2, "value":Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraValue;
-    # getter for: Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->tagName:Ljava/lang/String;
     invoke-static {v1}, Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;->access$2(Lcom/googlecode/mp4parser/boxes/microsoft/XtraBox$XtraTag;)Ljava/lang/String;
 
     move-result-object v5

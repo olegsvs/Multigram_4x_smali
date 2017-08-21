@@ -49,7 +49,6 @@
     .line 241
     iget-object v0, p0, Lorg/telegram/ui/Components/Crop/CropView$1;->this$0:Lorg/telegram/ui/Components/Crop/CropView;
 
-    # getter for: Lorg/telegram/ui/Components/Crop/CropView;->imageView:Landroid/widget/ImageView;
     invoke-static {v0}, Lorg/telegram/ui/Components/Crop/CropView;->access$100(Lorg/telegram/ui/Components/Crop/CropView;)Landroid/widget/ImageView;
 
     move-result-object v0

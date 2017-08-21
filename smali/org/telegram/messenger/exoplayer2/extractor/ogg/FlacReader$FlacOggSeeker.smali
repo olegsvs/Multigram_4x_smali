@@ -75,7 +75,6 @@
     .line 202
     iget-object v0, p0, Lorg/telegram/messenger/exoplayer2/extractor/ogg/FlacReader$FlacOggSeeker;->this$0:Lorg/telegram/messenger/exoplayer2/extractor/ogg/FlacReader;
 
-    # getter for: Lorg/telegram/messenger/exoplayer2/extractor/ogg/FlacReader;->streamInfo:Lorg/telegram/messenger/exoplayer2/util/FlacStreamInfo;
     invoke-static {v0}, Lorg/telegram/messenger/exoplayer2/extractor/ogg/FlacReader;->access$000(Lorg/telegram/messenger/exoplayer2/extractor/ogg/FlacReader;)Lorg/telegram/messenger/exoplayer2/util/FlacStreamInfo;
 
     move-result-object v0

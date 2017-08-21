@@ -58,7 +58,6 @@
 
     iget v2, p0, Lorg/telegram/messenger/ImageLoader$2$5;->val$canceled:I
 
-    # invokes: Lorg/telegram/messenger/ImageLoader;->fileDidFailedLoad(Ljava/lang/String;I)V
     invoke-static {v0, v1, v2}, Lorg/telegram/messenger/ImageLoader;->access$2800(Lorg/telegram/messenger/ImageLoader;Ljava/lang/String;I)V
 
     .line 1240

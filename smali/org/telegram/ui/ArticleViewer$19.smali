@@ -43,12 +43,10 @@
 
     iget-object v2, p0, Lorg/telegram/ui/ArticleViewer$19;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->currentIndex:I
     invoke-static {v2}, Lorg/telegram/ui/ArticleViewer;->access$6500(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v2
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->getMediaFile(I)Ljava/io/File;
     invoke-static {v1, v2}, Lorg/telegram/ui/ArticleViewer;->access$6600(Lorg/telegram/ui/ArticleViewer;I)Ljava/io/File;
 
     move-result-object v0
@@ -113,7 +111,6 @@
 
     iget-object v5, p0, Lorg/telegram/ui/ArticleViewer$19;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->parentActivity:Landroid/app/Activity;
     invoke-static {v5}, Lorg/telegram/ui/ArticleViewer;->access$1900(Lorg/telegram/ui/ArticleViewer;)Landroid/app/Activity;
 
     move-result-object v5
@@ -129,7 +126,6 @@
     .line 2390
     iget-object v5, p0, Lorg/telegram/ui/ArticleViewer$19;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->parentActivity:Landroid/app/Activity;
     invoke-static {v5}, Lorg/telegram/ui/ArticleViewer;->access$1900(Lorg/telegram/ui/ArticleViewer;)Landroid/app/Activity;
 
     move-result-object v5
@@ -152,12 +148,10 @@
 
     iget-object v6, p0, Lorg/telegram/ui/ArticleViewer$19;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->currentIndex:I
     invoke-static {v6}, Lorg/telegram/ui/ArticleViewer;->access$6500(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v6
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->getMediaFile(I)Ljava/io/File;
     invoke-static {v5, v6}, Lorg/telegram/ui/ArticleViewer;->access$6600(Lorg/telegram/ui/ArticleViewer;I)Ljava/io/File;
 
     move-result-object v2
@@ -179,7 +173,6 @@
 
     iget-object v6, p0, Lorg/telegram/ui/ArticleViewer$19;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->parentActivity:Landroid/app/Activity;
     invoke-static {v6}, Lorg/telegram/ui/ArticleViewer;->access$1900(Lorg/telegram/ui/ArticleViewer;)Landroid/app/Activity;
 
     move-result-object v6
@@ -188,12 +181,10 @@
 
     iget-object v8, p0, Lorg/telegram/ui/ArticleViewer$19;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->currentIndex:I
     invoke-static {v8}, Lorg/telegram/ui/ArticleViewer;->access$6500(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v8
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->isMediaVideo(I)Z
     invoke-static {v7, v8}, Lorg/telegram/ui/ArticleViewer;->access$6700(Lorg/telegram/ui/ArticleViewer;I)Z
 
     move-result v7
@@ -216,7 +207,6 @@
 
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$19;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->parentActivity:Landroid/app/Activity;
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer;->access$1900(Lorg/telegram/ui/ArticleViewer;)Landroid/app/Activity;
 
     move-result-object v3
@@ -279,7 +269,6 @@
     .line 2404
     iget-object v3, p0, Lorg/telegram/ui/ArticleViewer$19;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->onSharePressed()V
     invoke-static {v3}, Lorg/telegram/ui/ArticleViewer;->access$6800(Lorg/telegram/ui/ArticleViewer;)V
 
     goto/16 :goto_0
@@ -296,19 +285,16 @@
 
     iget-object v4, p0, Lorg/telegram/ui/ArticleViewer$19;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->currentIndex:I
     invoke-static {v4}, Lorg/telegram/ui/ArticleViewer;->access$6500(Lorg/telegram/ui/ArticleViewer;)I
 
     move-result v4
 
-    # invokes: Lorg/telegram/ui/ArticleViewer;->getMedia(I)Lorg/telegram/tgnet/TLObject;
     invoke-static {v3, v4}, Lorg/telegram/ui/ArticleViewer;->access$6900(Lorg/telegram/ui/ArticleViewer;I)Lorg/telegram/tgnet/TLObject;
 
     move-result-object v3
 
     iget-object v4, p0, Lorg/telegram/ui/ArticleViewer$19;->this$0:Lorg/telegram/ui/ArticleViewer;
 
-    # getter for: Lorg/telegram/ui/ArticleViewer;->parentActivity:Landroid/app/Activity;
     invoke-static {v4}, Lorg/telegram/ui/ArticleViewer;->access$1900(Lorg/telegram/ui/ArticleViewer;)Landroid/app/Activity;
 
     move-result-object v4

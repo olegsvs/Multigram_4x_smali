@@ -423,7 +423,6 @@
 
     move-result-object v5
 
-    # invokes: Lorg/telegram/messenger/TgChooserTargetService;->createRoundBitmap(Ljava/io/File;)Landroid/graphics/drawable/Icon;
     invoke-static {v2, v5}, Lorg/telegram/messenger/TgChooserTargetService;->access$000(Lorg/telegram/messenger/TgChooserTargetService;Ljava/io/File;)Landroid/graphics/drawable/Icon;
 
     move-result-object v4
@@ -649,7 +648,6 @@
 
     move-result-object v5
 
-    # invokes: Lorg/telegram/messenger/TgChooserTargetService;->createRoundBitmap(Ljava/io/File;)Landroid/graphics/drawable/Icon;
     invoke-static {v2, v5}, Lorg/telegram/messenger/TgChooserTargetService;->access$000(Lorg/telegram/messenger/TgChooserTargetService;Ljava/io/File;)Landroid/graphics/drawable/Icon;
 
     move-result-object v4

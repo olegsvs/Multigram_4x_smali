@@ -46,7 +46,6 @@
     .line 1235
     iget-object v0, p0, Lorg/telegram/messenger/ImageLoader$2;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->fileProgresses:Ljava/util/concurrent/ConcurrentHashMap;
     invoke-static {v0}, Lorg/telegram/messenger/ImageLoader;->access$100(Lorg/telegram/messenger/ImageLoader;)Ljava/util/concurrent/ConcurrentHashMap;
 
     move-result-object v0
@@ -93,7 +92,6 @@
     .line 1218
     iget-object v0, p0, Lorg/telegram/messenger/ImageLoader$2;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->fileProgresses:Ljava/util/concurrent/ConcurrentHashMap;
     invoke-static {v0}, Lorg/telegram/messenger/ImageLoader;->access$100(Lorg/telegram/messenger/ImageLoader;)Ljava/util/concurrent/ConcurrentHashMap;
 
     move-result-object v0
@@ -157,7 +155,6 @@
     .line 1247
     iget-object v2, p0, Lorg/telegram/messenger/ImageLoader$2;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->fileProgresses:Ljava/util/concurrent/ConcurrentHashMap;
     invoke-static {v2}, Lorg/telegram/messenger/ImageLoader;->access$100(Lorg/telegram/messenger/ImageLoader;)Ljava/util/concurrent/ConcurrentHashMap;
 
     move-result-object v2
@@ -177,7 +174,6 @@
     .local v0, "currentTime":J
     iget-object v2, p0, Lorg/telegram/messenger/ImageLoader$2;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->lastProgressUpdateTime:J
     invoke-static {v2}, Lorg/telegram/messenger/ImageLoader;->access$2600(Lorg/telegram/messenger/ImageLoader;)J
 
     move-result-wide v2
@@ -190,7 +186,6 @@
 
     iget-object v2, p0, Lorg/telegram/messenger/ImageLoader$2;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->lastProgressUpdateTime:J
     invoke-static {v2}, Lorg/telegram/messenger/ImageLoader;->access$2600(Lorg/telegram/messenger/ImageLoader;)J
 
     move-result-wide v2
@@ -207,7 +202,6 @@
     :cond_0
     iget-object v2, p0, Lorg/telegram/messenger/ImageLoader$2;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # setter for: Lorg/telegram/messenger/ImageLoader;->lastProgressUpdateTime:J
     invoke-static {v2, v0, v1}, Lorg/telegram/messenger/ImageLoader;->access$2602(Lorg/telegram/messenger/ImageLoader;J)J
 
     .line 1251
@@ -232,7 +226,6 @@
     .line 1170
     iget-object v2, p0, Lorg/telegram/messenger/ImageLoader$2;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->fileProgresses:Ljava/util/concurrent/ConcurrentHashMap;
     invoke-static {v2}, Lorg/telegram/messenger/ImageLoader;->access$100(Lorg/telegram/messenger/ImageLoader;)Ljava/util/concurrent/ConcurrentHashMap;
 
     move-result-object v2
@@ -252,7 +245,6 @@
     .local v0, "currentTime":J
     iget-object v2, p0, Lorg/telegram/messenger/ImageLoader$2;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->lastProgressUpdateTime:J
     invoke-static {v2}, Lorg/telegram/messenger/ImageLoader;->access$2600(Lorg/telegram/messenger/ImageLoader;)J
 
     move-result-wide v2
@@ -265,7 +257,6 @@
 
     iget-object v2, p0, Lorg/telegram/messenger/ImageLoader$2;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # getter for: Lorg/telegram/messenger/ImageLoader;->lastProgressUpdateTime:J
     invoke-static {v2}, Lorg/telegram/messenger/ImageLoader;->access$2600(Lorg/telegram/messenger/ImageLoader;)J
 
     move-result-wide v2
@@ -282,7 +273,6 @@
     :cond_0
     iget-object v2, p0, Lorg/telegram/messenger/ImageLoader$2;->this$0:Lorg/telegram/messenger/ImageLoader;
 
-    # setter for: Lorg/telegram/messenger/ImageLoader;->lastProgressUpdateTime:J
     invoke-static {v2, v0, v1}, Lorg/telegram/messenger/ImageLoader;->access$2602(Lorg/telegram/messenger/ImageLoader;J)J
 
     .line 1175

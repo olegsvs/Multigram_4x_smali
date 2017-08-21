@@ -74,7 +74,6 @@
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/ThemingActivity$4;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->themeColorRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingActivity;->access$200(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v0
@@ -86,7 +85,6 @@
 
     const v1, -0xff6978
 
-    # invokes: Lorg/telegram/ui/ThemingActivity;->commitInt(I)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ThemingActivity;->access$300(Lorg/telegram/ui/ThemingActivity;I)V
 
     .line 484
@@ -100,7 +98,6 @@
     :cond_2
     iget-object v0, p0, Lorg/telegram/ui/ThemingActivity$4;->this$0:Lorg/telegram/ui/ThemingActivity;
 
-    # getter for: Lorg/telegram/ui/ThemingActivity;->dialogColorRow:I
     invoke-static {v0}, Lorg/telegram/ui/ThemingActivity;->access$400(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v0
@@ -112,7 +109,6 @@
 
     const-string/jumbo v1, "dialogColor"
 
-    # invokes: Lorg/telegram/ui/ThemingActivity;->resetPref(Ljava/lang/String;)V
     invoke-static {v0, v1}, Lorg/telegram/ui/ThemingActivity;->access$2300(Lorg/telegram/ui/ThemingActivity;Ljava/lang/String;)V
 
     goto :goto_1

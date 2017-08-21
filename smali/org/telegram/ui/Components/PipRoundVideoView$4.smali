@@ -89,7 +89,6 @@
     :goto_0
     iget-object v0, p0, Lorg/telegram/ui/Components/PipRoundVideoView$4;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->textureView:Landroid/view/TextureView;
     invoke-static {v0}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$500(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/view/TextureView;
 
     move-result-object v0
@@ -112,7 +111,6 @@
     .line 235
     iget-object v0, p0, Lorg/telegram/ui/Components/PipRoundVideoView$4;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->rect:Landroid/graphics/RectF;
     invoke-static {v0}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$600(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/graphics/RectF;
 
     move-result-object v0
@@ -154,7 +152,6 @@
     .line 236
     iget-object v0, p0, Lorg/telegram/ui/Components/PipRoundVideoView$4;->this$0:Lorg/telegram/ui/Components/PipRoundVideoView;
 
-    # getter for: Lorg/telegram/ui/Components/PipRoundVideoView;->rect:Landroid/graphics/RectF;
     invoke-static {v0}, Lorg/telegram/ui/Components/PipRoundVideoView;->access$600(Lorg/telegram/ui/Components/PipRoundVideoView;)Landroid/graphics/RectF;
 
     move-result-object v1

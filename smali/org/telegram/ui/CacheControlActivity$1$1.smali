@@ -48,7 +48,6 @@
 
     const/4 v1, 0x0
 
-    # setter for: Lorg/telegram/ui/CacheControlActivity;->calculating:Z
     invoke-static {v0, v1}, Lorg/telegram/ui/CacheControlActivity;->access$1002(Lorg/telegram/ui/CacheControlActivity;Z)Z
 
     .line 139
@@ -56,7 +55,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/CacheControlActivity$1;->this$0:Lorg/telegram/ui/CacheControlActivity;
 
-    # getter for: Lorg/telegram/ui/CacheControlActivity;->listAdapter:Lorg/telegram/ui/CacheControlActivity$ListAdapter;
     invoke-static {v0}, Lorg/telegram/ui/CacheControlActivity;->access$1100(Lorg/telegram/ui/CacheControlActivity;)Lorg/telegram/ui/CacheControlActivity$ListAdapter;
 
     move-result-object v0
@@ -68,7 +66,6 @@
 
     iget-object v0, v0, Lorg/telegram/ui/CacheControlActivity$1;->this$0:Lorg/telegram/ui/CacheControlActivity;
 
-    # getter for: Lorg/telegram/ui/CacheControlActivity;->listAdapter:Lorg/telegram/ui/CacheControlActivity$ListAdapter;
     invoke-static {v0}, Lorg/telegram/ui/CacheControlActivity;->access$1100(Lorg/telegram/ui/CacheControlActivity;)Lorg/telegram/ui/CacheControlActivity$ListAdapter;
 
     move-result-object v0
