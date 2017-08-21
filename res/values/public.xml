@@ -709,6 +709,8 @@
     <public type="layout" name="player_small_notification" id="0x7f030011" />
     <public type="layout" name="seek_bar_preference" id="0x7f030012" />
     <public type="layout" name="tabs_bg" id="0x7f030013" />
+	<public type="layout" name="user_list_item" id="0x7f030014" />
+	<public type="layout" name="activity_change_user" id="0x7f030015" />
     <public type="anim" name="no_animation" id="0x7f040000" />
     <public type="anim" name="popup_in" id="0x7f040001" />
     <public type="anim" name="popup_out" id="0x7f040002" />
@@ -2807,6 +2809,18 @@
     <public type="string" name="google_app_id" id="0x7f07081f" />
     <public type="string" name="google_crash_reporting_api_key" id="0x7f070820" />
     <public type="string" name="hockeyapp_update_version_details_label" id="0x7f070821" />
+	<public type="string" name="Change_another_user" id="0x7f070822" />
+	<public type="string" name="DeleteFirstUser" id="0x7f070823" />
+	<public type="string" name="DialogSure" id="0x7f070824" />
+	<public type="string" name="DialogDeleteUser" id="0x7f070825" />
+	<public type="string" name="DialogYes" id="0x7f070826" />
+	<public type="string" name="DialogNo" id="0x7f070827" />
+	<public type="string" name="DialogAddSure" id="0x7f070828" />
+	<public type="string" name="DialogAddUser" id="0x7f070829" />
+	<public type="string" name="DialogAddYes" id="0x7f07082A" />
+	<public type="string" name="DialogAddNo" id="0x7f07082B" />
+	<public type="string" name="MaxUsersCount" id="0x7f07082C" />
+	<public type="string" name="IsCurrentUser" id="0x7f07082D" />
     <public type="bool" name="isTablet" id="0x7f080000" />
     <public type="bool" name="useHardwareAcceleration" id="0x7f080001" />
     <public type="style" name="myBackgroundStyle" id="0x7f090000" />
@@ -2995,5 +3009,10 @@
     <public type="id" name="seekBarPrefBarContainer" id="0x7f0c0077" />
     <public type="id" name="tabsLayout" id="0x7f0c0078" />
     <public type="id" name="tabsText" id="0x7f0c0079" />
+	<public type="id" name="userPhoto" id="0x7f0c007A" />
+	<public type="id" name="userCurrent" id="0x7f0c007B" />
+	<public type="id" name="userName" id="0x7f0c007C" />
+	<public type="id" name="userPhone" id="0x7f0c007D" />
+	<public type="id" name="users_listview" id="0x7f0c007E" />
     <public type="integer" name="google_play_services_version" id="0x7f0d0000" />
 </resources>
