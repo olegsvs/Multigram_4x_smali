@@ -26,8 +26,6 @@
 
 .field private static callLogContentObserver:Landroid/database/ContentObserver; = null
 
-.field public static dataconfig:Ljava/lang/String; = null
-
 .field public static decelerateInterpolator:Landroid/view/animation/DecelerateInterpolator; = null
 
 .field public static final defColor:I = -0xff6978
