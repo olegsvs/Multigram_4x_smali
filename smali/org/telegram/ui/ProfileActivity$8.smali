@@ -1501,7 +1501,7 @@
 
     .line 877
     .local v8, "builder":Lorg/telegram/ui/ActionBar/AlertDialog$Builder;
-    sget-object v23, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v23, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const v24, 0x7f0704dc
 

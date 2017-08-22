@@ -76,7 +76,7 @@
     :cond_0
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v3, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -273,7 +273,7 @@
     :cond_9
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v3, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -454,7 +454,7 @@
     :try_start_0
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v3, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -903,7 +903,7 @@
     .line 314
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v3, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -971,7 +971,7 @@
     .line 320
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v3, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -1039,7 +1039,7 @@
     .line 326
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v3, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -1107,7 +1107,7 @@
     .line 332
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v3, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -1193,7 +1193,7 @@
     .line 339
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v3, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -1261,7 +1261,7 @@
     .line 345
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v3, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -1347,7 +1347,7 @@
     .line 352
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v3, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -1415,7 +1415,7 @@
     .line 358
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v3, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -1483,7 +1483,7 @@
     .line 364
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v3, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -1569,7 +1569,7 @@
     .line 371
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v3, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -1661,7 +1661,7 @@
     .line 382
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v3, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/4 v4, 0x0
 

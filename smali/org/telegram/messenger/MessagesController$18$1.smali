@@ -82,7 +82,7 @@
     .local v2, "res":Lorg/telegram/tgnet/TLRPC$TL_peerSettings;
     sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v4, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v4, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     invoke-virtual {v3, v4, v8}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 

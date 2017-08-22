@@ -388,7 +388,7 @@
 
     .line 167
     .local v1, "button1String":Ljava/lang/String;
-    const v5, 0x7f07082B
+    const v5, 0x7f070827
 
     invoke-virtual {p0, v5}, Lorg/telegram/ui/ChangeUserActivity;->getText(I)Ljava/lang/CharSequence;
 
@@ -926,6 +926,9 @@
 
     invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
+    .line 210
+    invoke-direct {p0}, Lorg/telegram/ui/ChangeUserActivity;->showAlertAddUser()V
+
     .line 211
     return-void
 .end method
@@ -1065,7 +1068,7 @@
     if-gt v0, v1, :cond_0
 
     .line 106
-	invoke-direct {p0}, Lorg/telegram/ui/ChangeUserActivity;->showAlertAddUser()V
+    invoke-virtual {p0}, Lorg/telegram/ui/ChangeUserActivity;->addUser()V
 
     .line 109
     :goto_0
@@ -1073,7 +1076,7 @@
 
     .line 108
     :cond_0
-    const v0, 0x7f07074b
+    const v0, 0x7f07082C
 
     invoke-virtual {p0, v0}, Lorg/telegram/ui/ChangeUserActivity;->getText(I)Ljava/lang/CharSequence;
 

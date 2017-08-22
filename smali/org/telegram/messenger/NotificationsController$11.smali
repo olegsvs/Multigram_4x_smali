@@ -113,7 +113,7 @@
     .line 745
     sget-object v20, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v21, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v21, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/16 v22, 0x0
 

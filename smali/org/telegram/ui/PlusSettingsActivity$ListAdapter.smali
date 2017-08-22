@@ -2526,7 +2526,7 @@
 
     move-result-object v28
 
-    sget-object v29, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v29, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const v30, 0x7f0704dc
 

@@ -405,7 +405,7 @@
     .local v12, "textCell":Lorg/telegram/ui/Cells/TextSettingsCell;
     sget-object v14, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v15, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v15, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/16 v16, 0x0
 
@@ -1737,7 +1737,7 @@
     .local v12, "textCell":Lorg/telegram/ui/Cells/TextColorCell;
     sget-object v14, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v15, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v15, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/16 v16, 0x0
 
@@ -1920,7 +1920,7 @@
     .local v11, "radioCell":Lorg/telegram/ui/Cells/RadioCell;
     sget-object v14, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v15, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v15, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/16 v16, 0x0
 
@@ -2130,7 +2130,7 @@
     .local v3, "cell":Lorg/telegram/ui/Cells/TextCheckBoxCell;
     sget-object v14, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v15, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v15, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/16 v16, 0x0
 

@@ -46,8 +46,6 @@
     .line 174
     iget-object v0, p0, Lorg/telegram/ui/ChangeUserActivity$4;->this$0:Lorg/telegram/ui/ChangeUserActivity;
 
-	invoke-virtual {p0}, Lorg/telegram/ui/ChangeUserActivity;->addUser()V
-	
     invoke-virtual {v0}, Lorg/telegram/ui/ChangeUserActivity;->restart()V
 
     .line 175

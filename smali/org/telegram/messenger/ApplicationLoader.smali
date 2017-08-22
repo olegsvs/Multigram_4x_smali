@@ -12,6 +12,22 @@
 
 .field public static USE_DEVICE_FONT:Z
 
+.field public static Notifications:Ljava/lang/String; = null
+
+.field public static mainconfig:Ljava/lang/String;
+
+.field public static userconfig:Ljava/lang/String;
+
+.field public static themeconfig:Ljava/lang/String;
+
+.field public static theme:Ljava/lang/String;
+
+.field public static stats:Ljava/lang/String;
+
+.field public static logininfo2:Ljava/lang/String;
+
+.field public static drafts:Ljava/lang/String;
+
 .field public static volatile applicationContext:Landroid/content/Context;
     .annotation build Landroid/annotation/SuppressLint;
         value = {
@@ -46,6 +62,37 @@
 
     const/4 v0, 0x0
 
+	const-string v0, "mainconfig"
+
+    sput-object v0, Lorg/telegram/messenger/ApplicationLoader;->mainconfig:Ljava/lang/String;
+
+	const-string v0, "Notifications"
+
+    sput-object v0, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
+	
+	const-string v0, "userconfig"
+
+    sput-object v0, Lorg/telegram/messenger/ApplicationLoader;->userconfig:Ljava/lang/String;
+
+	const-string v0, "themeconfig"
+
+    sput-object v0, Lorg/telegram/messenger/ApplicationLoader;->themeconfig:Ljava/lang/String;
+
+	const-string v0, "theme"
+
+    sput-object v0, Lorg/telegram/messenger/ApplicationLoader;->theme:Ljava/lang/String;
+
+	const-string v0, "stats"
+
+    sput-object v0, Lorg/telegram/messenger/ApplicationLoader;->stats:Ljava/lang/String;
+
+	const-string v0, "drafts"
+
+    sput-object v0, Lorg/telegram/messenger/ApplicationLoader;->drafts:Ljava/lang/String;
+
+	const-string v0, "logininfo2"
+
+    sput-object v0, Lorg/telegram/messenger/ApplicationLoader;->logininfo2:Ljava/lang/String;
     .line 56
     sput-boolean v0, Lorg/telegram/messenger/ApplicationLoader;->applicationInited:Z
 
@@ -683,6 +730,197 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
+	new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->mainconfig:Ljava/lang/String;
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getUserTag()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    sput-object v1, Lorg/telegram/messenger/ApplicationLoader;->mainconfig:Ljava/lang/String;
+	
+	new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getUserTag()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    sput-object v1, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
+
+	new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->userconfig:Ljava/lang/String;
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getUserTag()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    sput-object v1, Lorg/telegram/messenger/ApplicationLoader;->userconfig:Ljava/lang/String;
+
+	new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->themeconfig:Ljava/lang/String;
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getUserTag()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    sput-object v1, Lorg/telegram/messenger/ApplicationLoader;->themeconfig:Ljava/lang/String;
+
+	new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->theme:Ljava/lang/String;
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getUserTag()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    sput-object v1, Lorg/telegram/messenger/ApplicationLoader;->theme:Ljava/lang/String;
+	
+	new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->stats:Ljava/lang/String;
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getUserTag()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    sput-object v1, Lorg/telegram/messenger/ApplicationLoader;->stats:Ljava/lang/String;
+	
+	new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->logininfo2:Ljava/lang/String;
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getUserTag()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    sput-object v1, Lorg/telegram/messenger/ApplicationLoader;->logininfo2:Ljava/lang/String;
+
+	new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->drafts:Ljava/lang/String;
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getUserTag()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    sput-object v1, Lorg/telegram/messenger/ApplicationLoader;->drafts:Ljava/lang/String;
     .line 138
     invoke-static {}, Lorg/telegram/messenger/ApplicationLoader;->convertConfig()V
 
@@ -974,7 +1212,7 @@
     :cond_4
     sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v3, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/4 v4, 0x0
 
@@ -1186,7 +1424,7 @@
     .line 263
     sget-object v1, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v2, Lorg/telegram/messenger/AndroidUtilities;->Notifications:Ljava/lang/String;
+    sget-object v2, Lorg/telegram/messenger/ApplicationLoader;->Notifications:Ljava/lang/String;
 
     const/4 v3, 0x0
 
