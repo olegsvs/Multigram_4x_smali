@@ -7602,7 +7602,7 @@
     if-lt v8, v11, :cond_9
 
     .line 1577
-    const-string/jumbo v8, "org.telegram.plus.provider"
+    const-string/jumbo v8, "org.telegram.multi.provider"
 
     invoke-static {p1, v8, v2}, Landroid/support/v4/content/FileProvider;->getUriForFile(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)Landroid/net/Uri;
 
@@ -7677,7 +7677,7 @@
     if-lt v8, v11, :cond_b
 
     .line 1586
-    const-string/jumbo v8, "org.telegram.plus.provider"
+    const-string/jumbo v8, "org.telegram.multi.provider"
 
     invoke-static {p1, v8, v2}, Landroid/support/v4/content/FileProvider;->getUriForFile(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)Landroid/net/Uri;
 
@@ -7851,7 +7851,7 @@
     if-lt v8, v11, :cond_6
 
     .line 1623
-    const-string/jumbo v8, "org.telegram.plus.provider"
+    const-string/jumbo v8, "org.telegram.multi.provider"
 
     invoke-static {p1, v8, v2}, Landroid/support/v4/content/FileProvider;->getUriForFile(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)Landroid/net/Uri;
 
@@ -7889,7 +7889,7 @@
     if-lt v8, v11, :cond_8
 
     .line 1632
-    const-string/jumbo v8, "org.telegram.plus.provider"
+    const-string/jumbo v8, "org.telegram.multi.provider"
 
     invoke-static {p1, v8, v2}, Landroid/support/v4/content/FileProvider;->getUriForFile(Landroid/content/Context;Ljava/lang/String;Ljava/io/File;)Landroid/net/Uri;
 
