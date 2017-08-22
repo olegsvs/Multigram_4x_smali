@@ -98,10 +98,10 @@
     <string name="All">Все</string>
     <string name="AllMedia">Все медиа</string>
     <string name="AllPhotos">Все фото</string>
-    <string name="AllowFillNumber">Пожалуйста, разрешите Telegram+ принимать звонки и SMS, чтобы мы могли заполнить ваш номер телефона, отправить код авторизации и ввести его самостоятельно.</string>
-    <string name="AllowReadCall">Пожалуйста, разрешите Telegram+ принимать звонки, чтобы мы могли автоматически вводить ваш код за вас.</string>
-    <string name="AllowReadCallAndSms">Пожалуйста, разрешите Telegram+ принимать звонки и получать SMS, чтобы мы могли автоматически вводить ваш код за вас.</string>
-    <string name="AllowReadSms">Пожалуйста, разрешите Telegram+ получать SMS, чтобы мы могли автоматически вводить ваш код за вас.</string>
+    <string name="AllowFillNumber">Пожалуйста, разрешите Telegram Multi принимать звонки и SMS, чтобы мы могли заполнить ваш номер телефона, отправить код авторизации и ввести его самостоятельно.</string>
+    <string name="AllowReadCall">Пожалуйста, разрешите Telegram Multi принимать звонки, чтобы мы могли автоматически вводить ваш код за вас.</string>
+    <string name="AllowReadCallAndSms">Пожалуйста, разрешите Telegram Multi принимать звонки и получать SMS, чтобы мы могли автоматически вводить ваш код за вас.</string>
+    <string name="AllowReadSms">Пожалуйста, разрешите Telegram Multi получать SMS, чтобы мы могли автоматически вводить ваш код за вас.</string>
     <string name="AlsoFavorites">а также избранное</string>
     <string name="AlwaysAllow">Всегда разрешать</string>
     <string name="AlwaysAllowPlaceholder">Всегда разрешать...</string>
@@ -122,7 +122,7 @@
     <string name="AndOther_other">и %1$d других</string>
     <string name="AndOther_two">и %1$d других</string>
     <string name="AndOther_zero">и %1$d других</string>
-    <string name="AppName">Telegram+</string>
+    <string name="AppName">Telegram Multi</string>
     <string name="AppWillRestart">Telegram будет перезапущен</string>
     <string name="ApplyLocalizationFile">Применить файл локализации</string>
     <string name="ApplyTheme">ПРИМЕНИТЬ</string>
@@ -972,7 +972,7 @@
     <string name="IsSendingVideo">%1$s отправляет видео...</string>
     <string name="IsTyping">печатает…</string>
     <string name="Italic">Курсив</string>
-    <string name="JoinChannel">Присоединяйтесь к группе Telegram+:</string>
+    <string name="JoinChannel">Присоединяйтесь к группе Telegram Multi:</string>
     <string name="JoinGroup">ВСТУПИТЬ В ГРУППУ</string>
     <string name="JoinToGroup">Хотите присоединиться к чату «%1$s»?</string>
     <string name="JoinToGroupErrorFull">Извините, эта группа уже заполнена.</string>
@@ -1331,7 +1331,7 @@
     <string name="NumberUnknown">Неизвестен</string>
     <string name="OK">OK</string>
     <string name="Of">%1$d из %2$d</string>
-    <string name="OfficialChannel">Группа Telegram+</string>
+    <string name="OfficialChannel">Группа Telegram Multi</string>
     <string name="Online">в сети</string>
     <string name="OnlineColor">Цвет статуса \"онлайн\"</string>
     <string name="OnlineCount_few">%1$d в сети</string>
@@ -1360,7 +1360,7 @@
     <string name="OwnNameSize">Размер имени</string>
     <string name="Page1Message">"Самый &lt;b>быстрый&lt;/b> мессенджер в мире.
 А также &lt;b>бесплатный&lt;/b> и &lt;b>безопасный&lt;/b>."</string>
-    <string name="Page1Title">Telegram+</string>
+    <string name="Page1Title">Telegram Multi</string>
     <string name="Page2Message">"&lt;b>Telegram&lt;/b> доставляет сообщения быстрее
 любого другого приложения."</string>
     <string name="Page2Title">Быстрый</string>
@@ -1447,15 +1447,15 @@
     <string name="PaymentWarning">Внимание</string>
     <string name="PaymentWarningText">Ни Telegram, ни %1$s не будут иметь доступа к вашей платёжной информации. Все данные карт обрабатываются только платёжной системой, %2$s. Оплата осуществляется напрямую разработчику %1$s. Telegram не может предоставлять никаких гарантий. В случае любых проблем, пожалуйста, свяжитесь с разработчиком %1$s или с вашим банком.</string>
     <string name="PendingEmailText">Ваш адрес электронной почты для восстановления %1$s ещё не активирован и ожидает подтверждения.</string>
-    <string name="PermissionContacts">Telegram+ необходим доступ к вашим контактам, чтобы вы могли оставаться на связи с вашими друзьями с любого устройства.</string>
-    <string name="PermissionDrawAboveOtherApps">Telegram+ необходим доступ к рисованию поверх других приложений для воспроизведения видео в режиме картинка в картинке.</string>
-    <string name="PermissionNoAudio">Telegram+ необходим доступ к вашему микрофону, чтобы вы могли отправлять голосовые сообщения.</string>
-    <string name="PermissionNoAudioVideo">Telegram+ необходим доступ к вашему микрофону, чтобы вы могли снимать видео.</string>
-    <string name="PermissionNoCamera">Telegram+ необходим доступ к вашей камере, чтобы вы могли снимать фото и видео.</string>
-    <string name="PermissionNoLocation">Telegram+ необходим доступ к вашему расположению, чтобы вы могли делиться им со своими друзьями.</string>
-    <string name="PermissionNoLocationPosition">Telegram+ необходим доступ к вашему расположению.</string>
+    <string name="PermissionContacts">Telegram Multi необходим доступ к вашим контактам, чтобы вы могли оставаться на связи с вашими друзьями с любого устройства.</string>
+    <string name="PermissionDrawAboveOtherApps">Telegram Multi необходим доступ к рисованию поверх других приложений для воспроизведения видео в режиме картинка в картинке.</string>
+    <string name="PermissionNoAudio">Telegram Multi необходим доступ к вашему микрофону, чтобы вы могли отправлять голосовые сообщения.</string>
+    <string name="PermissionNoAudioVideo">Telegram Multi необходим доступ к вашему микрофону, чтобы вы могли снимать видео.</string>
+    <string name="PermissionNoCamera">Telegram Multi необходим доступ к вашей камере, чтобы вы могли снимать фото и видео.</string>
+    <string name="PermissionNoLocation">Telegram Multi необходим доступ к вашему расположению, чтобы вы могли делиться им со своими друзьями.</string>
+    <string name="PermissionNoLocationPosition">Telegram Multi необходим доступ к вашему расположению.</string>
     <string name="PermissionOpenSettings">НАСТРОЙКИ</string>
-    <string name="PermissionStorage">Telegram+ необходим доступ к вашему накопителю, чтобы вы могли отправлять и сохранять фото, видео, музыку и прочее медиа.</string>
+    <string name="PermissionStorage">Telegram Multi необходим доступ к вашему накопителю, чтобы вы могли отправлять и сохранять фото, видео, музыку и прочее медиа.</string>
     <string name="Phone">Телефон</string>
     <string name="PhoneColor">Цвет номера телефона</string>
     <string name="PhoneHome">Дом</string>
@@ -1492,7 +1492,7 @@
     <string name="PleaseEnterFirstPassword">Введите ваш пароль</string>
     <string name="PleaseEnterPassword">Введите ваш новый пароль</string>
     <string name="PleaseReEnterPassword">Повторите ваш пароль</string>
-    <string name="PlusSettings">Настройки Telegram+</string>
+    <string name="PlusSettings">Настройки Telegram Multi</string>
     <string name="Points_few">%1$d</string>
     <string name="Points_many">%1$d</string>
     <string name="Points_one">%1$d</string>
@@ -1623,7 +1623,7 @@
     <string name="Satellite">Спутник</string>
     <string name="Saturation">Насыщенность</string>
     <string name="Save">Сохранить</string>
-    <string name="SaveErrorMsg0">Тема ещё не создана. Примените сначала любой мод Telegram+</string>
+    <string name="SaveErrorMsg0">Тема ещё не создана. Примените сначала любой мод Telegram Multi</string>
     <string name="SaveSettings">Сохранить настройки</string>
     <string name="SaveSettingsSum">Сохранить настройки в папку Telegram</string>
     <string name="SaveTheme">СОХРАНИТЬ ТЕМУ</string>
@@ -1823,7 +1823,7 @@
     <string name="TapToEmojify">Показать в виде эмодзи</string>
     <string name="TelegramFaq">FAQ по Telegram</string>
     <string name="TelegramFaqUrl">https://tlgrm.ru/faq</string>
-    <string name="TelegramForAndroid">Telegram+ mod from Unga007</string>
+    <string name="TelegramForAndroid">Telegram Multi mod from Unga007</string>
     <string name="TelegramVersion">Telegram для Android %1$s</string>
     <string name="TerminateAllSessions">Завершить все другие сеансы</string>
     <string name="TerminateSessionInfo">Нажмите на сеанс для завершения.</string>
@@ -1837,7 +1837,7 @@
     <string name="ThemePreview">Предпросмотр темы</string>
     <string name="ThemeUpdated">%s обновлена</string>
     <string name="Themes">Темы</string>
-    <string name="ThemesAppMsg">Хотите посмотреть темы, созданные другими пользователями Telegram+?</string>
+    <string name="ThemesAppMsg">Хотите посмотреть темы, созданные другими пользователями Telegram Multi?</string>
     <string name="Theming">Кастомизация</string>
     <string name="TimeDateColor">Цвет времени/даты</string>
     <string name="TimeDateSize">Размер времени/даты</string>
@@ -2092,7 +2092,7 @@
     <string name="ShowUserBio">Показать BIO пользователя</string>
     <string name="SortUnmutedFirst">Сначала неприглушенные</string>
     <string name="AppNameBeta">Telegram Beta</string>
-    <string name="PlusVersion">Версия Telegram+</string>
-    <string name="ShortAppName">Telegram+</string>
+    <string name="PlusVersion">Версия Telegram Multi</string>
+    <string name="ShortAppName">Telegram Multi</string>
     <string name="ShowMySettings">Показать мои настройки</string>
 </resources>

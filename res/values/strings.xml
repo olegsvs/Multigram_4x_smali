@@ -2206,8 +2206,8 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="hockeyapp_update_dialog_title">Update Available</string>
     <string name="hockeyapp_update_mandatory_toast">%s is available and is a mandatory update!</string>
     <string name="AppNameBeta">Plus Messenger Beta</string>
-    <string name="PlusVersion">Telegram+ Version</string>
-    <string name="ShortAppName">Telegram+</string>
+    <string name="PlusVersion">Telegram Multi Version</string>
+    <string name="ShortAppName">Telegram Multi</string>
     <string name="ShowMySettings">Show my settings</string>
     <string name="gcm_defaultSenderId">326898382893</string>
     <string name="google_api_key" />
