@@ -55,9 +55,10 @@
 
 .field public static final tabs_bg:I = 0x7f030013
 
+.field public static final user_list_item:I = 0x7f030014
+
 .field public static final activity_change_user:I = 0x7f030015
 
-.field public static final user_list_item:I = 0x7f030014
 
 # direct methods
 .method public constructor <init>()V

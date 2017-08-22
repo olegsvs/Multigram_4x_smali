@@ -340,9 +340,9 @@
 
     const/16 v2, 0xc
 
-    const-string/jumbo v3, "OfficialChannel"
+    const-string/jumbo v3, "VendorChannels"
 
-    const v4, 0x7f0704f7
+    const v4, 0x7f07082e
 
     invoke-static {v3, v4}, Lorg/telegram/messenger/LocaleController;->getString(Ljava/lang/String;I)Ljava/lang/String;
 

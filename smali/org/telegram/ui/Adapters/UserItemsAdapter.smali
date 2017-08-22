@@ -158,7 +158,7 @@
     move-result-object p2
 
     .line 83
-    const v2, 0x7f0c007A
+    const v2, 0x7f0c007a
 
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -169,7 +169,7 @@
     iput-object v2, v0, Lorg/telegram/ui/Adapters/UserItemsAdapter$ViewHolder;->imgViewPhoto:Landroid/widget/ImageView;
 
     .line 84
-    const v2, 0x7f0c007B
+    const v2, 0x7f0c007b
 
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -180,7 +180,7 @@
     iput-object v2, v0, Lorg/telegram/ui/Adapters/UserItemsAdapter$ViewHolder;->imgViewCurrent:Landroid/widget/ImageView;
 
     .line 85
-    const v2, 0x7f0c007C
+    const v2, 0x7f0c007c
 
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -191,7 +191,7 @@
     iput-object v2, v0, Lorg/telegram/ui/Adapters/UserItemsAdapter$ViewHolder;->txtViewName:Landroid/widget/TextView;
 
     .line 86
-    const v2, 0x7f0c007D
+    const v2, 0x7f0c007d
 
     invoke-virtual {p2, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

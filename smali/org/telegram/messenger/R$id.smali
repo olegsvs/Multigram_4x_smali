@@ -259,13 +259,13 @@
 
 .field public static final wrapper_messages_buttons:I = 0x7f0c0057
 
-.field public static final userCurrent:I = 0x7f0c007B
+.field public static final userCurrent:I = 0x7f0c007b
 
-.field public static final userName:I = 0x7f0c007C
+.field public static final userName:I = 0x7f0c007c
 
-.field public static final userPhone:I = 0x7f0c007D
+.field public static final userPhone:I = 0x7f0c007d
 
-.field public static final userPhoto:I = 0x7f0c007A
+.field public static final userPhoto:I = 0x7f0c007a
 
 # direct methods
 .method public constructor <init>()V

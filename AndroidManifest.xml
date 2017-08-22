@@ -276,6 +276,7 @@
         <activity android:name="net.hockeyapp.android.LoginActivity"/>
         <activity android:name="net.hockeyapp.android.ExpiryInfoActivity"/>
 		<activity android:name="org.telegram.ui.ChangeUserActivity"/>
+		<activity android:name="org.telegram.ui.VendorChannelsActivity"/>
         <receiver android:enabled="true" android:exported="true" android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
             <intent-filter>
                 <action android:name="com.android.vending.INSTALL_REFERRER"/>

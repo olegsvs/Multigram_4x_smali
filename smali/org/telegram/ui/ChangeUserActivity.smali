@@ -1679,7 +1679,7 @@
     iput-object v3, p0, Lorg/telegram/ui/ChangeUserActivity;->itemList:Ljava/util/ArrayList;
 
     .line 81
-    const v3, 0x7f0c007E
+    const v3, 0x7f0c007e
 
     invoke-virtual {p0, v3}, Lorg/telegram/ui/ChangeUserActivity;->findViewById(I)Landroid/view/View;
 
