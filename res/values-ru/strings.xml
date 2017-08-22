@@ -1823,7 +1823,7 @@
     <string name="TapToEmojify">Показать в виде эмодзи</string>
     <string name="TelegramFaq">FAQ по Telegram</string>
     <string name="TelegramFaqUrl">https://tlgrm.ru/faq</string>
-    <string name="TelegramForAndroid">Telegram Multi mod from Unga007</string>
+    <string name="TelegramForAndroid">Telegram Multi for android</string>
     <string name="TelegramVersion">Telegram для Android %1$s</string>
     <string name="TerminateAllSessions">Завершить все другие сеансы</string>
     <string name="TerminateSessionInfo">Нажмите на сеанс для завершения.</string>
@@ -2088,7 +2088,7 @@
 · Если вкладка Супергруппы скрыта, все супергруппы будут отображаться на вкладке групп
 · Для того, чтобы вкладки были видны, минимум 2 вкладки должны быть отмечены"</string>
     <string name="Unread">Непрочитанные</string>
-    <string name="UsePlusTheme">Использовать темы Плюса</string>
+    <string name="UsePlusTheme">Использовать Мульти тему</string>
     <string name="ShowUserBio">Показать BIO пользователя</string>
     <string name="SortUnmutedFirst">Сначала неприглушенные</string>
     <string name="AppNameBeta">Telegram Beta</string>
