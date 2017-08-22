@@ -912,7 +912,7 @@
     .line 422
     sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v4, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
+    sget-object v4, Lorg/telegram/messenger/ApplicationLoader;->mainconfig:Ljava/lang/String;
 
     const/4 v6, 0x0
 
@@ -1031,7 +1031,7 @@
     :try_start_0
     sget-object v3, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v4, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
+    sget-object v4, Lorg/telegram/messenger/ApplicationLoader;->mainconfig:Ljava/lang/String;
 
     const/4 v6, 0x0
 

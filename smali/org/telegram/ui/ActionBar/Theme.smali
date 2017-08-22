@@ -10865,7 +10865,7 @@
     .line 1988
     sget-object v10, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v11, Lorg/telegram/messenger/AndroidUtilities;->themeconfig:Ljava/lang/String;
+    sget-object v11, Lorg/telegram/messenger/ApplicationLoader;->themeconfig:Ljava/lang/String;
 
     const/4 v12, 0x0
 
@@ -10970,7 +10970,7 @@
     :try_start_1
     sget-object v10, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v11, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
+    sget-object v11, Lorg/telegram/messenger/ApplicationLoader;->mainconfig:Ljava/lang/String;
 
     const/4 v12, 0x0
 
@@ -15106,7 +15106,7 @@
     .line 2431
     sget-object v4, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v5, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
+    sget-object v5, Lorg/telegram/messenger/ApplicationLoader;->mainconfig:Ljava/lang/String;
 
     const/4 v6, 0x0
 
@@ -15224,7 +15224,7 @@
     .line 2446
     sget-object v4, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v5, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
+    sget-object v5, Lorg/telegram/messenger/ApplicationLoader;->mainconfig:Ljava/lang/String;
 
     const/4 v6, 0x0
 
@@ -21197,7 +21197,7 @@
     .line 2512
     sget-object v6, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v7, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
+    sget-object v7, Lorg/telegram/messenger/ApplicationLoader;->mainconfig:Ljava/lang/String;
 
     invoke-virtual {v6, v7, v8}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
@@ -23024,7 +23024,7 @@
     .line 2626
     sget-object v10, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v11, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
+    sget-object v11, Lorg/telegram/messenger/ApplicationLoader;->mainconfig:Ljava/lang/String;
 
     const/4 v12, 0x0
 
@@ -23222,7 +23222,7 @@
     .line 2536
     sget-object v5, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v6, Lorg/telegram/messenger/AndroidUtilities;->themeconfig:Ljava/lang/String;
+    sget-object v6, Lorg/telegram/messenger/ApplicationLoader;->themeconfig:Ljava/lang/String;
 
     const/4 v7, 0x0
 
@@ -28839,7 +28839,7 @@
     .line 3605
     sget-object v0, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v1, Lorg/telegram/messenger/AndroidUtilities;->mainconfig:Ljava/lang/String;
+    sget-object v1, Lorg/telegram/messenger/ApplicationLoader;->mainconfig:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
