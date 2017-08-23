@@ -1,1 +1,3 @@
 IntroActivity
+Drawables in IntroActivity
+Users count in multiuser
