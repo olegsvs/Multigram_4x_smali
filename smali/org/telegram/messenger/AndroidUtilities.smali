@@ -28,7 +28,7 @@
 
 .field public static decelerateInterpolator:Landroid/view/animation/DecelerateInterpolator; = null
 
-.field public static final defColor:I = -0xff6978
+.field public static final defColor:I = -0xab8a62
 
 .field public static density:F
 
@@ -4276,7 +4276,7 @@
 
     move-result v1
 
-    const v2, -0xff6978
+    const v2, -0xab8a62
 
     if-eq v1, v2, :cond_0
 
@@ -4423,7 +4423,7 @@
 
     .line 1819
     .local v0, "themePrefs":Landroid/content/SharedPreferences;
-    const v1, -0xff6978
+    const v1, -0xab8a62
 
     invoke-interface {v0, p0, v1}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
 
@@ -4451,7 +4451,7 @@
 
     .line 1853
     .local v1, "themePrefs":Landroid/content/SharedPreferences;
-    const v2, -0xff6978
+    const v2, -0xab8a62
 
     invoke-interface {v1, p0, v2}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
 
@@ -4512,7 +4512,7 @@
     .local v1, "themePrefs":Landroid/content/SharedPreferences;
     const-string/jumbo v2, "themeColor"
 
-    const v3, -0xff6978
+    const v3, -0xab8a62
 
     invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
 

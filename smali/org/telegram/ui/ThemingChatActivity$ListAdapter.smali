@@ -2670,7 +2670,7 @@
     .local v6, "textCell":Lorg/telegram/ui/Cells/TextColorCell;
     const-string/jumbo v10, "themeColor"
 
-    const v11, -0xff6978
+    const v11, -0xab8a62
 
     invoke-interface {v7, v10, v11}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
 

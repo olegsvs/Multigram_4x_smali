@@ -2278,7 +2278,7 @@
 
     const-string/jumbo v11, "themeColor"
 
-    const v12, -0xff6978
+    const v12, -0xab8a62
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2291,7 +2291,7 @@
 
     const-string/jumbo v11, "dialogColor"
 
-    const v12, -0xff6978
+    const v12, -0xab8a62
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2317,7 +2317,7 @@
 
     const-string/jumbo v11, "chatsChecksColor"
 
-    const v12, -0xff6978
+    const v12, -0xab8a62
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2369,7 +2369,7 @@
 
     const-string/jumbo v11, "chatsFloatingBGColor"
 
-    const v12, -0xff6978
+    const v12, -0xab8a62
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2434,7 +2434,7 @@
 
     const-string/jumbo v11, "chatHeaderColor"
 
-    const v12, -0xff6978
+    const v12, -0xab8a62
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2460,7 +2460,7 @@
 
     const-string/jumbo v11, "chatHeaderGradientColor"
 
-    const v12, -0xff6978
+    const v12, -0xab8a62
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2681,7 +2681,7 @@
 
     const-string/jumbo v11, "chatRLinkColor"
 
-    const v12, -0xff6978
+    const v12, -0xab8a62
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2707,7 +2707,7 @@
 
     const-string/jumbo v11, "chatLLinkColor"
 
-    const v12, -0xff6978
+    const v12, -0xab8a62
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2733,7 +2733,7 @@
 
     const-string/jumbo v11, "chatCommandColor"
 
-    const v12, -0xff6978
+    const v12, -0xab8a62
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2785,7 +2785,7 @@
 
     const-string/jumbo v11, "chatChecksColor"
 
-    const v12, -0xff6978
+    const v12, -0xab8a62
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2876,7 +2876,7 @@
 
     const-string/jumbo v11, "chatContactNameColor"
 
-    const v12, -0xff6978
+    const v12, -0xab8a62
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2915,7 +2915,7 @@
 
     const-string/jumbo v11, "chatSendIconColor"
 
-    const v12, -0xff6978
+    const v12, -0xab8a62
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3045,7 +3045,7 @@
 
     const-string/jumbo v11, "chatAttachTextColor"
 
-    const v12, -0xff6978
+    const v12, -0xab8a62
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -3201,7 +3201,7 @@
 
     const-string/jumbo v11, "prefActionbarColor"
 
-    const v12, -0xff6978
+    const v12, -0xab8a62
 
     invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -30446,7 +30446,7 @@
     .line 3872
     const-string/jumbo v1, "themeColor"
 
-    const v2, -0xff6978
+    const v2, -0xab8a62
 
     invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
 
