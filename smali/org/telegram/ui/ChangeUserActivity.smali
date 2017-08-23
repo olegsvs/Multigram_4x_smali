@@ -1056,7 +1056,7 @@
     .param p1, "v"    # Landroid/view/View;
 
     .prologue
-    .line 105
+    .line 135
     iget-object v0, p0, Lorg/telegram/ui/ChangeUserActivity;->lvUserList:Landroid/widget/ListView;
 
     invoke-virtual {v0}, Landroid/widget/ListView;->getCount()I
@@ -1067,14 +1067,14 @@
 
     if-gt v0, v1, :cond_0
 
-    .line 106
-    invoke-virtual {p0}, Lorg/telegram/ui/ChangeUserActivity;->addUser()V
+    .line 136
+    invoke-direct {p0}, Lorg/telegram/ui/ChangeUserActivity;->showAlertAddUser()V
 
-    .line 109
+    .line 140
     :goto_0
     return-void
 
-    .line 108
+    .line 138
     :cond_0
     const v0, 0x7f07082C
 

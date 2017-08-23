@@ -44,9 +44,12 @@
 
     .prologue
     .line 174
-    iget-object v0, p0, Lorg/telegram/ui/ChangeUserActivity$4;->this$0:Lorg/telegram/ui/ChangeUserActivity;
+	iget-object v0, p0, Lorg/telegram/ui/ChangeUserActivity$4;->this$0:Lorg/telegram/ui/ChangeUserActivity;
 
-    invoke-virtual {v0}, Lorg/telegram/ui/ChangeUserActivity;->restart()V
+    invoke-virtual {v0}, Lorg/telegram/ui/ChangeUserActivity;->addUser()V
+
+    .line 205
+    invoke-static {}, Lorg/telegram/messenger/Utilities;->restartApp()V
 
     .line 175
     return-void
