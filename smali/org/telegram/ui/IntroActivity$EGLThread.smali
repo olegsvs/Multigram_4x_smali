@@ -55,42 +55,42 @@
     .param p2, "surface"    # Landroid/graphics/SurfaceTexture;
 
     .prologue
-    .line 559
+    .line 521
     iput-object p1, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->this$0:Lorg/telegram/ui/IntroActivity;
 
-    .line 560
+    .line 522
     const-string/jumbo v0, "EGLThread"
 
     invoke-direct {p0, v0}, Lorg/telegram/messenger/DispatchQueue;-><init>(Ljava/lang/String;)V
 
-    .line 542
+    .line 504
     const/16 v0, 0x3098
 
     iput v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->EGL_CONTEXT_CLIENT_VERSION:I
 
-    .line 543
+    .line 505
     const/4 v0, 0x4
 
     iput v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->EGL_OPENGL_ES2_BIT:I
 
-    .line 552
+    .line 514
     const/16 v0, 0x17
 
     new-array v0, v0, [I
 
     iput-object v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->textures:[I
 
-    .line 687
+    .line 649
     new-instance v0, Lorg/telegram/ui/IntroActivity$EGLThread$1;
 
     invoke-direct {v0, p0}, Lorg/telegram/ui/IntroActivity$EGLThread$1;-><init>(Lorg/telegram/ui/IntroActivity$EGLThread;)V
 
     iput-object v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->drawRunnable:Ljava/lang/Runnable;
 
-    .line 561
+    .line 523
     iput-object p2, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->surfaceTexture:Landroid/graphics/SurfaceTexture;
 
-    .line 562
+    .line 524
     return-void
 .end method
 
@@ -99,7 +99,7 @@
     .param p0, "x0"    # Lorg/telegram/ui/IntroActivity$EGLThread;
 
     .prologue
-    .line 540
+    .line 502
     iget-boolean v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->initied:Z
 
     return v0
@@ -110,7 +110,7 @@
     .param p0, "x0"    # Lorg/telegram/ui/IntroActivity$EGLThread;
 
     .prologue
-    .line 540
+    .line 502
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->egl10:Ljavax/microedition/khronos/egl/EGL10;
 
     return-object v0
@@ -121,7 +121,7 @@
     .param p0, "x0"    # Lorg/telegram/ui/IntroActivity$EGLThread;
 
     .prologue
-    .line 540
+    .line 502
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglContext:Ljavax/microedition/khronos/egl/EGLContext;
 
     return-object v0
@@ -132,7 +132,7 @@
     .param p0, "x0"    # Lorg/telegram/ui/IntroActivity$EGLThread;
 
     .prologue
-    .line 540
+    .line 502
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglSurface:Ljavax/microedition/khronos/egl/EGLSurface;
 
     return-object v0
@@ -143,7 +143,7 @@
     .param p0, "x0"    # Lorg/telegram/ui/IntroActivity$EGLThread;
 
     .prologue
-    .line 540
+    .line 502
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->drawRunnable:Ljava/lang/Runnable;
 
     return-object v0
@@ -154,7 +154,7 @@
     .param p0, "x0"    # Lorg/telegram/ui/IntroActivity$EGLThread;
 
     .prologue
-    .line 540
+    .line 502
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglDisplay:Ljavax/microedition/khronos/egl/EGLDisplay;
 
     return-object v0
@@ -164,7 +164,7 @@
     .locals 19
 
     .prologue
-    .line 565
+    .line 527
     invoke-static {}, Ljavax/microedition/khronos/egl/EGLContext;->getEGL()Ljavax/microedition/khronos/egl/EGL;
 
     move-result-object v2
@@ -175,7 +175,7 @@
 
     iput-object v2, v0, Lorg/telegram/ui/IntroActivity$EGLThread;->egl10:Ljavax/microedition/khronos/egl/EGL10;
 
-    .line 567
+    .line 529
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lorg/telegram/ui/IntroActivity$EGLThread;->egl10:Ljavax/microedition/khronos/egl/EGL10;
@@ -190,7 +190,7 @@
 
     iput-object v2, v0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglDisplay:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    .line 568
+    .line 530
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglDisplay:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -199,7 +199,7 @@
 
     if-ne v2, v3, :cond_0
 
-    .line 569
+    .line 531
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -232,17 +232,17 @@
 
     invoke-static {v2}, Lorg/telegram/messenger/FileLog;->e(Ljava/lang/String;)V
 
-    .line 570
+    .line 532
     invoke-virtual/range {p0 .. p0}, Lorg/telegram/ui/IntroActivity$EGLThread;->finish()V
 
-    .line 571
+    .line 533
     const/4 v2, 0x0
 
-    .line 668
+    .line 630
     :goto_0
     return v2
 
-    .line 574
+    .line 536
     :cond_0
     const/4 v2, 0x2
 
@@ -250,7 +250,7 @@
 
     move-object/from16 v18, v0
 
-    .line 575
+    .line 537
     .local v18, "version":[I
     move-object/from16 v0, p0
 
@@ -268,7 +268,7 @@
 
     if-nez v2, :cond_1
 
-    .line 576
+    .line 538
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -301,27 +301,27 @@
 
     invoke-static {v2}, Lorg/telegram/messenger/FileLog;->e(Ljava/lang/String;)V
 
-    .line 577
+    .line 539
     invoke-virtual/range {p0 .. p0}, Lorg/telegram/ui/IntroActivity$EGLThread;->finish()V
 
-    .line 578
+    .line 540
     const/4 v2, 0x0
 
     goto :goto_0
 
-    .line 581
+    .line 543
     :cond_1
     const/4 v2, 0x1
 
     new-array v7, v2, [I
 
-    .line 582
+    .line 544
     .local v7, "configsCount":[I
     const/4 v2, 0x1
 
     new-array v5, v2, [Ljavax/microedition/khronos/egl/EGLConfig;
 
-    .line 583
+    .line 545
     .local v5, "configs":[Ljavax/microedition/khronos/egl/EGLConfig;
     const/16 v2, 0x13
 
@@ -329,7 +329,7 @@
 
     fill-array-data v4, :array_0
 
-    .line 595
+    .line 557
     .local v4, "configSpec":[I
     move-object/from16 v0, p0
 
@@ -347,7 +347,7 @@
 
     if-nez v2, :cond_2
 
-    .line 596
+    .line 558
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -380,15 +380,15 @@
 
     invoke-static {v2}, Lorg/telegram/messenger/FileLog;->e(Ljava/lang/String;)V
 
-    .line 597
+    .line 559
     invoke-virtual/range {p0 .. p0}, Lorg/telegram/ui/IntroActivity$EGLThread;->finish()V
 
-    .line 598
+    .line 560
     const/4 v2, 0x0
 
     goto/16 :goto_0
 
-    .line 599
+    .line 561
     :cond_2
     const/4 v2, 0x0
 
@@ -396,7 +396,7 @@
 
     if-lez v2, :cond_3
 
-    .line 600
+    .line 562
     const/4 v2, 0x0
 
     aget-object v2, v5, v2
@@ -405,7 +405,7 @@
 
     iput-object v2, v0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglConfig:Ljavax/microedition/khronos/egl/EGLConfig;
 
-    .line 607
+    .line 569
     const/4 v2, 0x3
 
     new-array v0, v2, [I
@@ -414,7 +414,7 @@
 
     fill-array-data v17, :array_1
 
-    .line 608
+    .line 570
     .local v17, "attrib_list":[I
     move-object/from16 v0, p0
 
@@ -440,14 +440,14 @@
 
     iput-object v2, v0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglContext:Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 609
+    .line 571
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglContext:Ljavax/microedition/khronos/egl/EGLContext;
 
     if-nez v2, :cond_4
 
-    .line 610
+    .line 572
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -480,30 +480,30 @@
 
     invoke-static {v2}, Lorg/telegram/messenger/FileLog;->e(Ljava/lang/String;)V
 
-    .line 611
+    .line 573
     invoke-virtual/range {p0 .. p0}, Lorg/telegram/ui/IntroActivity$EGLThread;->finish()V
 
-    .line 612
+    .line 574
     const/4 v2, 0x0
 
     goto/16 :goto_0
 
-    .line 602
+    .line 564
     .end local v17    # "attrib_list":[I
     :cond_3
     const-string/jumbo v2, "eglConfig not initialized"
 
     invoke-static {v2}, Lorg/telegram/messenger/FileLog;->e(Ljava/lang/String;)V
 
-    .line 603
+    .line 565
     invoke-virtual/range {p0 .. p0}, Lorg/telegram/ui/IntroActivity$EGLThread;->finish()V
 
-    .line 604
+    .line 566
     const/4 v2, 0x0
 
     goto/16 :goto_0
 
-    .line 615
+    .line 577
     .restart local v17    # "attrib_list":[I
     :cond_4
     move-object/from16 v0, p0
@@ -514,7 +514,7 @@
 
     if-eqz v2, :cond_6
 
-    .line 616
+    .line 578
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lorg/telegram/ui/IntroActivity$EGLThread;->egl10:Ljavax/microedition/khronos/egl/EGL10;
@@ -541,7 +541,7 @@
 
     iput-object v2, v0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglSurface:Ljavax/microedition/khronos/egl/EGLSurface;
 
-    .line 622
+    .line 584
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglSurface:Ljavax/microedition/khronos/egl/EGLSurface;
@@ -556,7 +556,7 @@
 
     if-ne v2, v3, :cond_7
 
-    .line 623
+    .line 585
     :cond_5
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -590,24 +590,24 @@
 
     invoke-static {v2}, Lorg/telegram/messenger/FileLog;->e(Ljava/lang/String;)V
 
-    .line 624
+    .line 586
     invoke-virtual/range {p0 .. p0}, Lorg/telegram/ui/IntroActivity$EGLThread;->finish()V
 
-    .line 625
+    .line 587
     const/4 v2, 0x0
 
     goto/16 :goto_0
 
-    .line 618
+    .line 580
     :cond_6
     invoke-virtual/range {p0 .. p0}, Lorg/telegram/ui/IntroActivity$EGLThread;->finish()V
 
-    .line 619
+    .line 581
     const/4 v2, 0x0
 
     goto/16 :goto_0
 
-    .line 627
+    .line 589
     :cond_7
     move-object/from16 v0, p0
 
@@ -635,7 +635,7 @@
 
     if-nez v2, :cond_8
 
-    .line 628
+    .line 590
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -668,15 +668,15 @@
 
     invoke-static {v2}, Lorg/telegram/messenger/FileLog;->e(Ljava/lang/String;)V
 
-    .line 629
+    .line 591
     invoke-virtual/range {p0 .. p0}, Lorg/telegram/ui/IntroActivity$EGLThread;->finish()V
 
-    .line 630
+    .line 592
     const/4 v2, 0x0
 
     goto/16 :goto_0
 
-    .line 632
+    .line 594
     :cond_8
     move-object/from16 v0, p0
 
@@ -690,7 +690,7 @@
 
     iput-object v2, v0, Lorg/telegram/ui/IntroActivity$EGLThread;->gl:Ljavax/microedition/khronos/opengles/GL;
 
-    .line 634
+    .line 596
     const/16 v2, 0x17
 
     move-object/from16 v0, p0
@@ -701,8 +701,8 @@
 
     invoke-static {v2, v3, v6}, Landroid/opengl/GLES20;->glGenTextures(I[II)V
 
-    .line 635
-    const v2, 0x7f0200ea
+    .line 597
+    const v2, 0x7f020124
 
     const/4 v3, 0x0
 
@@ -710,8 +710,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 636
-    const v2, 0x7f0200e9
+    .line 598
+    const v2, 0x7f020123
 
     const/4 v3, 0x1
 
@@ -719,8 +719,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 637
-    const v2, 0x7f0200eb
+    .line 599
+    const v2, 0x7f020125
 
     const/4 v3, 0x2
 
@@ -728,8 +728,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 638
-    const v2, 0x7f0200ec
+    .line 600
+    const v2, 0x7f020126
 
     const/4 v3, 0x3
 
@@ -737,8 +737,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 639
-    const v2, 0x7f0200ee
+    .line 601
+    const v2, 0x7f020128
 
     const/4 v3, 0x4
 
@@ -746,8 +746,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 640
-    const v2, 0x7f0200ed
+    .line 602
+    const v2, 0x7f020127
 
     const/4 v3, 0x5
 
@@ -755,8 +755,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 641
-    const v2, 0x7f0200f0
+    .line 603
+    const v2, 0x7f02012a
 
     const/4 v3, 0x6
 
@@ -764,8 +764,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 642
-    const v2, 0x7f0200ef
+    .line 604
+    const v2, 0x7f020129
 
     const/4 v3, 0x7
 
@@ -773,8 +773,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 643
-    const v2, 0x7f0200f1
+    .line 605
+    const v2, 0x7f02012b
 
     const/16 v3, 0x8
 
@@ -782,8 +782,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 644
-    const v2, 0x7f0200f2
+    .line 606
+    const v2, 0x7f02012c
 
     const/16 v3, 0x9
 
@@ -791,8 +791,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 645
-    const v2, 0x7f0200f4
+    .line 607
+    const v2, 0x7f02012e
 
     const/16 v3, 0xa
 
@@ -800,8 +800,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 646
-    const v2, 0x7f0200f3
+    .line 608
+    const v2, 0x7f02012d
 
     const/16 v3, 0xb
 
@@ -809,8 +809,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 647
-    const v2, 0x7f0200f5
+    .line 609
+    const v2, 0x7f02012f
 
     const/16 v3, 0xc
 
@@ -818,8 +818,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 648
-    const v2, 0x7f0200f6
+    .line 610
+    const v2, 0x7f020130
 
     const/16 v3, 0xd
 
@@ -827,8 +827,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 649
-    const v2, 0x7f0200f7
+    .line 611
+    const v2, 0x7f020131
 
     const/16 v3, 0xe
 
@@ -836,8 +836,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 650
-    const v2, 0x7f0200f9
+    .line 612
+    const v2, 0x7f020133
 
     const/16 v3, 0xf
 
@@ -845,8 +845,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 651
-    const v2, 0x7f0200f8
+    .line 613
+    const v2, 0x7f020132
 
     const/16 v3, 0x10
 
@@ -854,8 +854,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 652
-    const v2, 0x7f0200fa
+    .line 614
+    const v2, 0x7f020134
 
     const/16 v3, 0x11
 
@@ -863,8 +863,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 653
-    const v2, 0x7f0200fb
+    .line 615
+    const v2, 0x7f020135
 
     const/16 v3, 0x12
 
@@ -872,8 +872,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 654
-    const v2, 0x7f0200fc
+    .line 616
+    const v2, 0x7f020136
 
     const/16 v3, 0x13
 
@@ -881,8 +881,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 655
-    const v2, 0x7f0200fd
+    .line 617
+    const v2, 0x7f020137
 
     const/16 v3, 0x14
 
@@ -890,8 +890,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 656
-    const v2, 0x7f0200fe
+    .line 618
+    const v2, 0x7f020138
 
     const/16 v3, 0x15
 
@@ -899,8 +899,8 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 657
-    const v2, 0x7f0200ff
+    .line 619
+    const v2, 0x7f020139
 
     const/16 v3, 0x16
 
@@ -908,7 +908,7 @@
 
     invoke-direct {v0, v2, v3}, Lorg/telegram/ui/IntroActivity$EGLThread;->loadTexture(II)V
 
-    .line 659
+    .line 621
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lorg/telegram/ui/IntroActivity$EGLThread;->textures:[I
@@ -927,7 +927,7 @@
 
     invoke-static {v2, v3}, Lorg/telegram/messenger/Intro;->setTelegramTextures(II)V
 
-    .line 660
+    .line 622
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lorg/telegram/ui/IntroActivity$EGLThread;->textures:[I
@@ -962,7 +962,7 @@
 
     invoke-static {v2, v3, v6, v8}, Lorg/telegram/messenger/Intro;->setPowerfulTextures(IIII)V
 
-    .line 661
+    .line 623
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lorg/telegram/ui/IntroActivity$EGLThread;->textures:[I
@@ -981,7 +981,7 @@
 
     invoke-static {v2, v3}, Lorg/telegram/messenger/Intro;->setPrivateTextures(II)V
 
-    .line 662
+    .line 624
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lorg/telegram/ui/IntroActivity$EGLThread;->textures:[I
@@ -1000,7 +1000,7 @@
 
     invoke-static {v2, v3}, Lorg/telegram/messenger/Intro;->setFreeTextures(II)V
 
-    .line 663
+    .line 625
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lorg/telegram/ui/IntroActivity$EGLThread;->textures:[I
@@ -1035,7 +1035,7 @@
 
     invoke-static {v2, v3, v6, v8}, Lorg/telegram/messenger/Intro;->setFastTextures(IIII)V
 
-    .line 664
+    .line 626
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lorg/telegram/ui/IntroActivity$EGLThread;->textures:[I
@@ -1110,10 +1110,10 @@
 
     invoke-static/range {v8 .. v16}, Lorg/telegram/messenger/Intro;->setIcTextures(IIIIIIIII)V
 
-    .line 665
+    .line 627
     invoke-static {}, Lorg/telegram/messenger/Intro;->onSurfaceCreated()V
 
-    .line 666
+    .line 628
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lorg/telegram/ui/IntroActivity$EGLThread;->this$0:Lorg/telegram/ui/IntroActivity;
@@ -1126,14 +1126,15 @@
 
     sub-long/2addr v8, v10
 
+    # setter for: Lorg/telegram/ui/IntroActivity;->currentDate:J
     invoke-static {v2, v8, v9}, Lorg/telegram/ui/IntroActivity;->access$1502(Lorg/telegram/ui/IntroActivity;J)J
 
-    .line 668
+    .line 630
     const/4 v2, 0x1
 
     goto/16 :goto_0
 
-    .line 583
+    .line 545
     :array_0
     .array-data 4
         0x3040
@@ -1157,7 +1158,7 @@
         0x3038
     .end array-data
 
-    .line 607
+    .line 569
     :array_1
     .array-data 4
         0x3098
@@ -1180,7 +1181,7 @@
 
     const/16 v3, 0xde1
 
-    .line 716
+    .line 678
     iget-object v2, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->this$0:Lorg/telegram/ui/IntroActivity;
 
     invoke-virtual {v2}, Lorg/telegram/ui/IntroActivity;->getResources()Landroid/content/res/Resources;
@@ -1191,13 +1192,13 @@
 
     move-result-object v1
 
-    .line 717
+    .line 679
     .local v1, "drawable":Landroid/graphics/drawable/Drawable;
     instance-of v2, v1, Landroid/graphics/drawable/BitmapDrawable;
 
     if-eqz v2, :cond_0
 
-    .line 718
+    .line 680
     check-cast v1, Landroid/graphics/drawable/BitmapDrawable;
 
     .end local v1    # "drawable":Landroid/graphics/drawable/Drawable;
@@ -1205,7 +1206,7 @@
 
     move-result-object v0
 
-    .line 719
+    .line 681
     .local v0, "bitmap":Landroid/graphics/Bitmap;
     iget-object v2, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->textures:[I
 
@@ -1213,30 +1214,30 @@
 
     invoke-static {v3, v2}, Landroid/opengl/GLES20;->glBindTexture(II)V
 
-    .line 720
+    .line 682
     const/16 v2, 0x2801
 
     invoke-static {v3, v2, v5}, Landroid/opengl/GLES20;->glTexParameteri(III)V
 
-    .line 721
+    .line 683
     const/16 v2, 0x2800
 
     invoke-static {v3, v2, v5}, Landroid/opengl/GLES20;->glTexParameteri(III)V
 
-    .line 722
+    .line 684
     const/16 v2, 0x2802
 
     invoke-static {v3, v2, v6}, Landroid/opengl/GLES20;->glTexParameteri(III)V
 
-    .line 723
+    .line 685
     const/16 v2, 0x2803
 
     invoke-static {v3, v2, v6}, Landroid/opengl/GLES20;->glTexParameteri(III)V
 
-    .line 724
+    .line 686
     invoke-static {v3, v4, v0, v4}, Landroid/opengl/GLUtils;->texImage2D(IILandroid/graphics/Bitmap;I)V
 
-    .line 726
+    .line 688
     .end local v0    # "bitmap":Landroid/graphics/Bitmap;
     :cond_0
     return-void
@@ -1250,12 +1251,12 @@
     .prologue
     const/4 v5, 0x0
 
-    .line 672
+    .line 634
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglSurface:Ljavax/microedition/khronos/egl/EGLSurface;
 
     if-eqz v0, :cond_0
 
-    .line 673
+    .line 635
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->egl10:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v1, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglDisplay:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -1268,7 +1269,7 @@
 
     invoke-interface {v0, v1, v2, v3, v4}, Ljavax/microedition/khronos/egl/EGL10;->eglMakeCurrent(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLSurface;Ljavax/microedition/khronos/egl/EGLSurface;Ljavax/microedition/khronos/egl/EGLContext;)Z
 
-    .line 674
+    .line 636
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->egl10:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v1, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglDisplay:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -1277,16 +1278,16 @@
 
     invoke-interface {v0, v1, v2}, Ljavax/microedition/khronos/egl/EGL10;->eglDestroySurface(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLSurface;)Z
 
-    .line 675
+    .line 637
     iput-object v5, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglSurface:Ljavax/microedition/khronos/egl/EGLSurface;
 
-    .line 677
+    .line 639
     :cond_0
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglContext:Ljavax/microedition/khronos/egl/EGLContext;
 
     if-eqz v0, :cond_1
 
-    .line 678
+    .line 640
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->egl10:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v1, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglDisplay:Ljavax/microedition/khronos/egl/EGLDisplay;
@@ -1295,26 +1296,26 @@
 
     invoke-interface {v0, v1, v2}, Ljavax/microedition/khronos/egl/EGL10;->eglDestroyContext(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLContext;)Z
 
-    .line 679
+    .line 641
     iput-object v5, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglContext:Ljavax/microedition/khronos/egl/EGLContext;
 
-    .line 681
+    .line 643
     :cond_1
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglDisplay:Ljavax/microedition/khronos/egl/EGLDisplay;
 
     if-eqz v0, :cond_2
 
-    .line 682
+    .line 644
     iget-object v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->egl10:Ljavax/microedition/khronos/egl/EGL10;
 
     iget-object v1, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglDisplay:Ljavax/microedition/khronos/egl/EGLDisplay;
 
     invoke-interface {v0, v1}, Ljavax/microedition/khronos/egl/EGL10;->eglTerminate(Ljavax/microedition/khronos/egl/EGLDisplay;)Z
 
-    .line 683
+    .line 645
     iput-object v5, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->eglDisplay:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    .line 685
+    .line 647
     :cond_2
     return-void
 .end method
@@ -1323,17 +1324,17 @@
     .locals 1
 
     .prologue
-    .line 749
+    .line 711
     invoke-direct {p0}, Lorg/telegram/ui/IntroActivity$EGLThread;->initGL()Z
 
     move-result v0
 
     iput-boolean v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->initied:Z
 
-    .line 750
+    .line 712
     invoke-super {p0}, Lorg/telegram/messenger/DispatchQueue;->run()V
 
-    .line 751
+    .line 713
     return-void
 .end method
 
@@ -1345,13 +1346,13 @@
     .prologue
     const/high16 v2, 0x43140000    # 148.0f
 
-    .line 742
+    .line 704
     iput p1, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->surfaceWidth:I
 
-    .line 743
+    .line 705
     iput p2, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->surfaceHeight:I
 
-    .line 744
+    .line 706
     iget v0, p0, Lorg/telegram/ui/IntroActivity$EGLThread;->surfaceWidth:I
 
     int-to-float v0, v0
@@ -1372,7 +1373,7 @@
 
     invoke-static {p1, p2, v0, v1}, Lorg/telegram/messenger/Intro;->onSurfaceChanged(IIFI)V
 
-    .line 745
+    .line 707
     return-void
 .end method
 
@@ -1380,13 +1381,13 @@
     .locals 1
 
     .prologue
-    .line 729
+    .line 691
     new-instance v0, Lorg/telegram/ui/IntroActivity$EGLThread$2;
 
     invoke-direct {v0, p0}, Lorg/telegram/ui/IntroActivity$EGLThread$2;-><init>(Lorg/telegram/ui/IntroActivity$EGLThread;)V
 
     invoke-virtual {p0, v0}, Lorg/telegram/ui/IntroActivity$EGLThread;->postRunnable(Ljava/lang/Runnable;)V
 
-    .line 739
+    .line 701
     return-void
 .end method
