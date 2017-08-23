@@ -50,7 +50,7 @@
 
 .field public static themeconfig:Ljava/lang/String;
 
-.field public static userconfig:Ljava/lang/String;
+.field public static userconfing:Ljava/lang/String;
 
 # direct methods
 .method static constructor <clinit>()V
@@ -753,7 +753,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v2, "userconfig"
+    const-string v2, "userconfing"
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -771,7 +771,7 @@
 
     move-result-object v1
 
-    sput-object v1, Lorg/telegram/messenger/ApplicationLoader;->userconfig:Ljava/lang/String;
+    sput-object v1, Lorg/telegram/messenger/ApplicationLoader;->userconfing:Ljava/lang/String;
 
     .line 237
     new-instance v1, Ljava/lang/StringBuilder;

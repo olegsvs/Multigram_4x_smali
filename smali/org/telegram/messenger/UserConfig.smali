@@ -1116,7 +1116,7 @@
     .line 220
     sget-object v29, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v31, Lorg/telegram/messenger/ApplicationLoader;->userconfig:Ljava/lang/String;
+    sget-object v31, Lorg/telegram/messenger/ApplicationLoader;->userconfing:Ljava/lang/String;
 
     const/16 v32, 0x0
 
@@ -1269,7 +1269,7 @@
     :try_start_5
     sget-object v29, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v31, Lorg/telegram/messenger/ApplicationLoader;->userconfig:Ljava/lang/String;
+    sget-object v31, Lorg/telegram/messenger/ApplicationLoader;->userconfing:Ljava/lang/String;
 
     const/16 v32, 0x0
 
@@ -2812,7 +2812,7 @@
     :try_start_0
     sget-object v5, Lorg/telegram/messenger/ApplicationLoader;->applicationContext:Landroid/content/Context;
 
-    sget-object v7, Lorg/telegram/messenger/ApplicationLoader;->userconfig:Ljava/lang/String;
+    sget-object v7, Lorg/telegram/messenger/ApplicationLoader;->userconfing:Ljava/lang/String;
 
     const/4 v8, 0x0
 

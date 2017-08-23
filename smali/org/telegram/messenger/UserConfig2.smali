@@ -148,7 +148,7 @@
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string/jumbo v9, "userconfig"
+    const-string/jumbo v9, "userconfing"
 
     invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
