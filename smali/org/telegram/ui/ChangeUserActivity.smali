@@ -30,6 +30,8 @@
 
 .field lvUserList:Landroid/widget/ListView;
 
+.field tvMultiuser:Landroid/widget/TextView;
+
 .field private userItems:Lorg/telegram/ui/Components/UserItems;
 
 
@@ -1614,6 +1616,15 @@
 
     invoke-virtual {p0, v3}, Lorg/telegram/ui/ChangeUserActivity;->setContentView(I)V
 
+	const v3, 0x7f0c0081
+
+    invoke-virtual {p0, v3}, Lorg/telegram/ui/ChangeUserActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v3
+
+    check-cast v3, Landroid/widget/TextView;
+
+    iput-object v3, p0, Lorg/telegram/ui/ChangeUserActivity;->tvMultiuser:Landroid/widget/TextView;
     .line 68
     invoke-virtual {p0}, Lorg/telegram/ui/ChangeUserActivity;->getIntent()Landroid/content/Intent;
 
@@ -1882,110 +1893,158 @@
 .end method
 
 .method public prepareArrayList()V
-    .locals 8
+    .locals 9
 
     .prologue
-    .line 308
+    .line 314
+    const/4 v5, 0x0
+
+    .line 315
+    .local v5, "usersEnabled":I
     :try_start_0
-    new-instance v5, Ljava/util/ArrayList;
+    new-instance v6, Ljava/util/ArrayList;
 
-    invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
+    invoke-direct {v6}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v5, p0, Lorg/telegram/ui/ChangeUserActivity;->itemList:Ljava/util/ArrayList;
+    iput-object v6, p0, Lorg/telegram/ui/ChangeUserActivity;->itemList:Ljava/util/ArrayList;
 
-    .line 309
+    .line 316
     const/4 v1, 0x0
 
     .local v1, "i":I
     :goto_0
     invoke-virtual {p0}, Lorg/telegram/ui/ChangeUserActivity;->getUsersEnabled()Ljava/util/List;
 
-    move-result-object v5
+    move-result-object v6
 
-    invoke-interface {v5}, Ljava/util/List;->size()I
+    invoke-interface {v6}, Ljava/util/List;->size()I
 
-    move-result v5
+    move-result v6
 
-    if-ge v1, v5, :cond_2
+    if-ge v1, v6, :cond_1
 
-    .line 310
+    .line 317
     invoke-virtual {p0}, Lorg/telegram/ui/ChangeUserActivity;->getUsersEnabled()Ljava/util/List;
 
-    move-result-object v5
+    move-result-object v6
 
-    invoke-interface {v5, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v6, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
-    move-result-object v5
+    move-result-object v6
 
-    check-cast v5, Ljava/lang/Integer;
+    check-cast v6, Ljava/lang/Integer;
 
-    invoke-virtual {v5}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {v6}, Ljava/lang/Integer;->intValue()I
 
     move-result v2
 
-    .line 311
+    .line 318
     .local v2, "k":I
-    const-string v5, "TGM"
+    const-string v6, "TGM"
 
-    new-instance v6, Ljava/lang/StringBuilder;
+    new-instance v7, Ljava/lang/StringBuilder;
 
-    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v7, "prepareArrayLits: "
+    const-string v8, "prepareArrayLits: "
 
-    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    invoke-virtual {v6, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v6
-
-    invoke-static {v5, v6}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 312
-    const-string v5, "TGM"
-
-    new-instance v6, Ljava/lang/StringBuilder;
-
-    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v7, "prepareArrayList: getUsersEnabled().size "
-
-    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    invoke-virtual {p0}, Lorg/telegram/ui/ChangeUserActivity;->getUsersEnabled()Ljava/util/List;
+    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v7
 
-    invoke-interface {v7}, Ljava/util/List;->size()I
+    invoke-virtual {v7, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    move-result v7
+    move-result-object v7
 
-    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v7
+
+    invoke-static {v6, v7}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 319
+    invoke-virtual {p0}, Lorg/telegram/ui/ChangeUserActivity;->getUsersEnabled()Ljava/util/List;
 
     move-result-object v6
 
-    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-interface {v6}, Ljava/util/List;->size()I
 
-    move-result-object v6
+    move-result v5
 
-    invoke-static {v5, v6}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+    .line 320
+    const-string v6, "TGM"
 
-    .line 313
-    const-string v5, "TGM"
+    new-instance v7, Ljava/lang/StringBuilder;
 
+    invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v8, "prepareArrayList: getUsersEnabled().size "
+
+    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v7
+
+    invoke-virtual {p0}, Lorg/telegram/ui/ChangeUserActivity;->getUsersEnabled()Ljava/util/List;
+
+    move-result-object v8
+
+    invoke-interface {v8}, Ljava/util/List;->size()I
+
+    move-result v8
+
+    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v7
+
+    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v7
+
+    invoke-static {v6, v7}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 321
+    const-string v6, "TGM"
+
+    new-instance v7, Ljava/lang/StringBuilder;
+
+    invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v8, "prepareArrayList: getUsersEnabled().get(i) "
+
+    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v7
+
+    invoke-virtual {v7, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v7
+
+    const-string v8, " i = "
+
+    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v7
+
+    invoke-virtual {v7, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v7
+
+    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v7
+
+    invoke-static {v6, v7}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 322
+    const-string v0, "null"
+
+    .line 323
+    .local v0, "first_name":Ljava/lang/String;
     new-instance v6, Ljava/lang/StringBuilder;
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v7, "prepareArrayList: getUsersEnabled().get(i) "
+    const-string v7, "_user_"
 
     invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1995,13 +2054,28 @@
 
     move-result-object v6
 
-    const-string v7, " i = "
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-direct {p0, v6}, Lorg/telegram/ui/ChangeUserActivity;->getUserByTag(Ljava/lang/String;)Lorg/telegram/tgnet/TLRPC$User;
+
+    move-result-object v6
+
+    iget-object v0, v6, Lorg/telegram/tgnet/TLRPC$User;->first_name:Ljava/lang/String;
+
+    .line 324
+    new-instance v6, Ljava/lang/StringBuilder;
+
+    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v7, "_user_"
 
     invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v6
 
-    invoke-virtual {v6, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     move-result-object v6
 
@@ -2009,259 +2083,156 @@
 
     move-result-object v6
 
-    invoke-static {v5, v6}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-direct {p0, v6}, Lorg/telegram/ui/ChangeUserActivity;->getUserByTag(Ljava/lang/String;)Lorg/telegram/tgnet/TLRPC$User;
 
-    .line 314
-    const-string v0, "null"
+    move-result-object v6
 
-    .line 315
-    .local v0, "first_name":Ljava/lang/String;
-    new-instance v5, Ljava/lang/StringBuilder;
+    iget-object v3, v6, Lorg/telegram/tgnet/TLRPC$User;->phone:Ljava/lang/String;
 
-    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v6, "_user_"
-
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-direct {p0, v5}, Lorg/telegram/ui/ChangeUserActivity;->getUserByTag(Ljava/lang/String;)Lorg/telegram/tgnet/TLRPC$User;
-
-    move-result-object v5
-
-    iget-object v5, v5, Lorg/telegram/tgnet/TLRPC$User;->last_name:Ljava/lang/String;
-
-    if-nez v5, :cond_0
-
-    .line 316
-    new-instance v5, Ljava/lang/StringBuilder;
-
-    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v6, "_user_"
-
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-direct {p0, v5}, Lorg/telegram/ui/ChangeUserActivity;->getUserByTag(Ljava/lang/String;)Lorg/telegram/tgnet/TLRPC$User;
-
-    move-result-object v5
-
-    iget-object v0, v5, Lorg/telegram/tgnet/TLRPC$User;->first_name:Ljava/lang/String;
-
-    .line 319
-    :goto_1
-    new-instance v5, Ljava/lang/StringBuilder;
-
-    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v6, "_user_"
-
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-direct {p0, v5}, Lorg/telegram/ui/ChangeUserActivity;->getUserByTag(Ljava/lang/String;)Lorg/telegram/tgnet/TLRPC$User;
-
-    move-result-object v5
-
-    iget-object v3, v5, Lorg/telegram/tgnet/TLRPC$User;->phone:Ljava/lang/String;
-
-    .line 320
+    .line 325
     .local v3, "phone":Ljava/lang/String;
-    new-instance v5, Ljava/lang/StringBuilder;
+    new-instance v6, Ljava/lang/StringBuilder;
 
-    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v6, "_user_"
+    const-string v7, "_user_"
 
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    move-result-object v5
+    move-result-object v6
 
-    invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    move-result-object v5
+    move-result-object v6
 
-    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    move-result-object v5
+    move-result-object v6
 
-    invoke-direct {p0, v5}, Lorg/telegram/ui/ChangeUserActivity;->getUserByTag(Ljava/lang/String;)Lorg/telegram/tgnet/TLRPC$User;
+    invoke-direct {p0, v6}, Lorg/telegram/ui/ChangeUserActivity;->getUserByTag(Ljava/lang/String;)Lorg/telegram/tgnet/TLRPC$User;
 
-    move-result-object v5
+    move-result-object v6
 
-    invoke-virtual {p0, v5}, Lorg/telegram/ui/ChangeUserActivity;->getBitmap(Lorg/telegram/tgnet/TLRPC$User;)Landroid/graphics/Bitmap;
+    invoke-virtual {p0, v6}, Lorg/telegram/ui/ChangeUserActivity;->getBitmap(Lorg/telegram/tgnet/TLRPC$User;)Landroid/graphics/Bitmap;
 
     move-result-object v4
 
-    .line 321
+    .line 326
     .local v4, "photo":Landroid/graphics/Bitmap;
     invoke-static {}, Lorg/telegram/messenger/ChangeUserHelper;->getID()I
 
-    move-result v5
+    move-result v6
 
-    if-ne v5, v2, :cond_1
+    if-ne v6, v2, :cond_0
 
     invoke-virtual {p0, v4, v0, v3, v1}, Lorg/telegram/ui/ChangeUserActivity;->AddObjectToList(Landroid/graphics/Bitmap;Ljava/lang/String;Ljava/lang/String;I)V
 
-    .line 309
-    :goto_2
+    .line 316
+    :goto_1
     add-int/lit8 v1, v1, 0x1
 
     goto/16 :goto_0
 
-    .line 318
-    .end local v3    # "phone":Ljava/lang/String;
-    .end local v4    # "photo":Landroid/graphics/Bitmap;
+    .line 327
     :cond_0
-    new-instance v5, Ljava/lang/StringBuilder;
-
-    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
-
-    new-instance v6, Ljava/lang/StringBuilder;
-
-    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v7, "_user_"
-
-    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    invoke-virtual {v6, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v6
-
-    invoke-direct {p0, v6}, Lorg/telegram/ui/ChangeUserActivity;->getUserByTag(Ljava/lang/String;)Lorg/telegram/tgnet/TLRPC$User;
-
-    move-result-object v6
-
-    iget-object v6, v6, Lorg/telegram/tgnet/TLRPC$User;->first_name:Ljava/lang/String;
-
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    const-string v6, " "
-
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    new-instance v6, Ljava/lang/StringBuilder;
-
-    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v7, "_user_"
-
-    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    invoke-virtual {v6, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v6
-
-    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v6
-
-    invoke-direct {p0, v6}, Lorg/telegram/ui/ChangeUserActivity;->getUserByTag(Ljava/lang/String;)Lorg/telegram/tgnet/TLRPC$User;
-
-    move-result-object v6
-
-    iget-object v6, v6, Lorg/telegram/tgnet/TLRPC$User;->last_name:Ljava/lang/String;
-
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    goto/16 :goto_1
-
-    .line 322
-    .restart local v3    # "phone":Ljava/lang/String;
-    .restart local v4    # "photo":Landroid/graphics/Bitmap;
-    :cond_1
     invoke-virtual {p0, v4, v0, v3}, Lorg/telegram/ui/ChangeUserActivity;->AddObjectToList(Landroid/graphics/Bitmap;Ljava/lang/String;Ljava/lang/String;)V
 
-    goto :goto_2
+    goto :goto_1
 
-    .line 327
+    .line 333
     .end local v0    # "first_name":Ljava/lang/String;
     .end local v1    # "i":I
     .end local v2    # "k":I
     .end local v3    # "phone":Ljava/lang/String;
     .end local v4    # "photo":Landroid/graphics/Bitmap;
     :catch_0
-    move-exception v5
+    move-exception v6
 
-    .line 328
-    :goto_3
+    .line 334
+    :goto_2
     return-void
 
-    .line 324
+    .line 329
     .restart local v1    # "i":I
-    :cond_2
-    new-instance v5, Lorg/telegram/ui/Adapters/UserItemsAdapter;
+    :cond_1
+    new-instance v6, Lorg/telegram/ui/Adapters/UserItemsAdapter;
 
-    iget-object v6, p0, Lorg/telegram/ui/ChangeUserActivity;->itemList:Ljava/util/ArrayList;
+    iget-object v7, p0, Lorg/telegram/ui/ChangeUserActivity;->itemList:Ljava/util/ArrayList;
 
-    invoke-direct {v5, p0, v6}, Lorg/telegram/ui/Adapters/UserItemsAdapter;-><init>(Landroid/app/Activity;Ljava/util/ArrayList;)V
+    invoke-direct {v6, p0, v7}, Lorg/telegram/ui/Adapters/UserItemsAdapter;-><init>(Landroid/app/Activity;Ljava/util/ArrayList;)V
 
-    iput-object v5, p0, Lorg/telegram/ui/ChangeUserActivity;->adapter:Lorg/telegram/ui/Adapters/UserItemsAdapter;
+    iput-object v6, p0, Lorg/telegram/ui/ChangeUserActivity;->adapter:Lorg/telegram/ui/Adapters/UserItemsAdapter;
 
-    .line 325
-    iget-object v5, p0, Lorg/telegram/ui/ChangeUserActivity;->lvUserList:Landroid/widget/ListView;
+    .line 330
+    iget-object v6, p0, Lorg/telegram/ui/ChangeUserActivity;->lvUserList:Landroid/widget/ListView;
 
-    iget-object v6, p0, Lorg/telegram/ui/ChangeUserActivity;->adapter:Lorg/telegram/ui/Adapters/UserItemsAdapter;
+    iget-object v7, p0, Lorg/telegram/ui/ChangeUserActivity;->adapter:Lorg/telegram/ui/Adapters/UserItemsAdapter;
 
-    invoke-virtual {v5, v6}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
+    invoke-virtual {v6, v7}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
-    .line 326
-    const-string v5, "TGM"
+    .line 331
+    iget-object v6, p0, Lorg/telegram/ui/ChangeUserActivity;->tvMultiuser:Landroid/widget/TextView;
 
-    const-string v6, "prepareArrayLits: setAdapters"
+    new-instance v7, Ljava/lang/StringBuilder;
 
-    invoke-static {v5, v6}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
+
+    const v8, 0x7f070830
+
+    invoke-virtual {p0, v8}, Lorg/telegram/ui/ChangeUserActivity;->getText(I)Ljava/lang/CharSequence;
+
+    move-result-object v8
+
+    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v7
+
+    invoke-static {v5}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+
+    move-result-object v8
+
+    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v7
+
+    const-string v8, " "
+
+    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v7
+
+    const v8, 0x7f07082f
+
+    invoke-virtual {p0, v8}, Lorg/telegram/ui/ChangeUserActivity;->getText(I)Ljava/lang/CharSequence;
+
+    move-result-object v8
+
+    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v7
+
+    rsub-int/lit8 v8, v5, 0x63
+
+    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v7
+
+    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v7
+
+    invoke-virtual {v6, v7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 332
+    const-string v6, "TGM"
+
+    const-string v7, "prepareArrayLits: setAdapters"
+
+    invoke-static {v6, v7}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_0
     .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
 
-    goto :goto_3
+    goto :goto_2
 .end method
 
 .method public restart()V

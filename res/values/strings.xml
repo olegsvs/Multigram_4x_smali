@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="users_max">Total: </string>
+    <string name="users_left">Left: </string>
 	<string name="DialogAddNo">No</string>
     <string name="DialogAddSure">Continue?</string>
     <string name="DialogAddUser">The application will quit and automatically start in a couple of seconds to add a new user</string>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	    <string name="DialogAddSure">Продолжить?</string>
+    <string name="users_max">Всего: </string>
+    <string name="users_left">Осталось: </string>
+	<string name="DialogAddSure">Продолжить?</string>
     <string name="DialogAddUser">Приложение завершит работу и автоматически запустится через пару секунд для добавления нового пользователя</string>
     <string name="DialogAddYes">Да</string>
     <string name="DialogDeleteUser">Удалить пользователя?</string>
