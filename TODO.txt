@@ -1,5 +1,4 @@
 IntroActivity
-Drawables in IntroActivity
 Users count in multiuser
 
 Set Settings - Theme - Back - Customize - Theme Multi - run only in double click.
