@@ -218,15 +218,6 @@
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 199
-    invoke-static {}, Lorg/telegram/messenger/MessagesController;->getInstance()Lorg/telegram/messenger/MessagesController;
-
-    move-result-object v0
-
-    iget-boolean v0, v0, Lorg/telegram/messenger/MessagesController;->callsEnabled:Z
-
-    if-eqz v0, :cond_1
-
     .line 200
     iget-object v0, p0, Lorg/telegram/ui/Adapters/DrawerLayoutAdapter;->items:Ljava/util/ArrayList;
 
