@@ -1,0 +1,40 @@
+V4.2.1.1
+- Setting P2.25, which allows you to enable the display of the user's biography, from the top of the dialog with it).
+- Various fixes and improvements.
+- Fixed defects in the work of the multiuser
+- Fixed colors in common activities
+- In the window of the multiuser added the number of the maximum remaining to add users.
+
+V4.2.1.0
+- Ability to send self-destructing photos / videos in private messages outside secret chat rooms.
+- Updated video and photo editor.
+- Ability to fill out short information about yourself (up to 70 characters).
+- Ability to open a list of stickers and emoji in the chat on the full screen.
+- Article scroll bar in Instant View mode.
+- Uploading media files in large public channels (for more than 100,000 participants) is faster, thanks to a new encrypted CDN.
+- Various fixes and improvements.
+
+V4.1.1.0
+- Payment system for bots.
+- Video messages.
+- A large update of the Instant View platform.
+- Granting of rights to administrators of supergroups.
+- Restrictions and temporary prohibitions for participants of supergroups.
+- Event log: all actions of participants and administration in the last 48 hours - with search and filters.
+- Admins can now search for specific users among the group members and the channel.
+- Support Android Pay for Bot Payments.
+- Support for proxy servers.
+- Added 2 new tabs: one shows all the groups and channels you created, and the other shows unread chats.
+- Setting P 1.17 will show the chats where you are Admin.
+- Various fixes and improvements.
+
+V3.18.0.2
+- The maximum number of assigned chats is increased to 10 (More than 5 fixed chats will be available only locally, without synchronization with Telegram servers)
+- Now fixed chats will always be on top when sorting by unread messages
+- Added view of recent colors when creating Telegram themes (as in Plus themes)
+- Added decimal values ​​for colors in RGB format when creating Plus themes (this will make it easier to compare colors with topics from Telegram)
+- New mod - the background color of the fixed chats (1.2.4)
+- Swap for answer now also works for voice messages
+- New mod - move the version of Plus Messenger from the menu to the settings (P3.2)
+- By pressing the Call Now button, you can choose whether to call through the cellular network or via Telegram
+- Error correction
