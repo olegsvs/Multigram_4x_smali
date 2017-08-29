@@ -1,3 +1,4 @@
 Set Settings - Theme - Back - Customize - Theme Multi - run only in double click.
 Change locale not work - auto set to English.
 Rename to Multigram
+Custom settings - contacts error
