@@ -27,7 +27,7 @@
     .param p1, "this$0"    # Lorg/telegram/messenger/LocaleController;
 
     .prologue
-    .line 1606
+    .line 1442
     iput-object p1, p0, Lorg/telegram/messenger/LocaleController$4;->this$0:Lorg/telegram/messenger/LocaleController;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,17 +43,17 @@
     .param p2, "error"    # Lorg/telegram/tgnet/TLRPC$TL_error;
 
     .prologue
-    .line 1609
+    .line 1445
     if-eqz p1, :cond_0
 
-    .line 1610
+    .line 1446
     new-instance v0, Lorg/telegram/messenger/LocaleController$4$1;
 
     invoke-direct {v0, p0, p1}, Lorg/telegram/messenger/LocaleController$4$1;-><init>(Lorg/telegram/messenger/LocaleController$4;Lorg/telegram/tgnet/TLObject;)V
 
     invoke-static {v0}, Lorg/telegram/messenger/AndroidUtilities;->runOnUIThread(Ljava/lang/Runnable;)V
 
-    .line 1617
+    .line 1453
     :cond_0
     return-void
 .end method

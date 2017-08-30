@@ -33,7 +33,7 @@
     .locals 0
 
     .prologue
-    .line 95
+    .line 94
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -46,7 +46,7 @@
     .prologue
     const/4 v4, 0x4
 
-    .line 109
+    .line 108
     if-eqz p0, :cond_0
 
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -55,16 +55,16 @@
 
     if-nez v2, :cond_2
 
-    .line 110
+    .line 109
     :cond_0
     const/4 v1, 0x0
 
-    .line 124
+    .line 123
     :cond_1
     :goto_0
     return-object v1
 
-    .line 112
+    .line 111
     :cond_2
     const-string/jumbo v2, "\\|"
 
@@ -72,23 +72,23 @@
 
     move-result-object v0
 
-    .line 113
+    .line 112
     .local v0, "args":[Ljava/lang/String;
     const/4 v1, 0x0
 
-    .line 114
+    .line 113
     .local v1, "localeInfo":Lorg/telegram/messenger/LocaleController$LocaleInfo;
     array-length v2, v0
 
     if-lt v2, v4, :cond_1
 
-    .line 115
+    .line 114
     new-instance v1, Lorg/telegram/messenger/LocaleController$LocaleInfo;
 
     .end local v1    # "localeInfo":Lorg/telegram/messenger/LocaleController$LocaleInfo;
     invoke-direct {v1}, Lorg/telegram/messenger/LocaleController$LocaleInfo;-><init>()V
 
-    .line 116
+    .line 115
     .restart local v1    # "localeInfo":Lorg/telegram/messenger/LocaleController$LocaleInfo;
     const/4 v2, 0x0
 
@@ -96,35 +96,35 @@
 
     iput-object v2, v1, Lorg/telegram/messenger/LocaleController$LocaleInfo;->name:Ljava/lang/String;
 
-    .line 117
+    .line 116
     const/4 v2, 0x1
 
     aget-object v2, v0, v2
 
     iput-object v2, v1, Lorg/telegram/messenger/LocaleController$LocaleInfo;->nameEnglish:Ljava/lang/String;
 
-    .line 118
+    .line 117
     const/4 v2, 0x2
 
     aget-object v2, v0, v2
 
     iput-object v2, v1, Lorg/telegram/messenger/LocaleController$LocaleInfo;->shortName:Ljava/lang/String;
 
-    .line 119
+    .line 118
     const/4 v2, 0x3
 
     aget-object v2, v0, v2
 
     iput-object v2, v1, Lorg/telegram/messenger/LocaleController$LocaleInfo;->pathToFile:Ljava/lang/String;
 
-    .line 120
+    .line 119
     array-length v2, v0
 
     const/4 v3, 0x5
 
     if-lt v2, v3, :cond_1
 
-    .line 121
+    .line 120
     aget-object v2, v0, v4
 
     invoke-static {v2}, Lorg/telegram/messenger/Utilities;->parseInt(Ljava/lang/String;)Ljava/lang/Integer;
@@ -146,7 +146,7 @@
     .locals 2
 
     .prologue
-    .line 135
+    .line 134
     iget-object v0, p0, Lorg/telegram/messenger/LocaleController$LocaleInfo;->pathToFile:Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -161,7 +161,7 @@
 
     if-nez v0, :cond_0
 
-    .line 136
+    .line 135
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -182,7 +182,7 @@
 
     move-result-object v0
 
-    .line 138
+    .line 137
     :goto_0
     return-object v0
 
@@ -196,14 +196,14 @@
     .locals 4
 
     .prologue
-    .line 128
+    .line 127
     invoke-virtual {p0}, Lorg/telegram/messenger/LocaleController$LocaleInfo;->isRemote()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 129
+    .line 128
     new-instance v0, Ljava/io/File;
 
     invoke-static {}, Lorg/telegram/messenger/ApplicationLoader;->getFilesDirFixed()Ljava/io/File;
@@ -238,7 +238,7 @@
 
     invoke-direct {v0, v1, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 131
+    .line 130
     :goto_0
     return-object v0
 
@@ -269,7 +269,7 @@
     .locals 2
 
     .prologue
-    .line 105
+    .line 104
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -339,7 +339,7 @@
     .locals 1
 
     .prologue
-    .line 150
+    .line 149
     iget-boolean v0, p0, Lorg/telegram/messenger/LocaleController$LocaleInfo;->builtIn:Z
 
     return v0
@@ -349,7 +349,7 @@
     .locals 1
 
     .prologue
-    .line 146
+    .line 145
     iget-object v0, p0, Lorg/telegram/messenger/LocaleController$LocaleInfo;->pathToFile:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -376,11 +376,17 @@
 .end method
 
 .method public isRemote()Z
-    .locals 1
+    .locals 2
 
     .prologue
-    .line 142
-    const/4 v0, 0x0
+    .line 141
+    const-string/jumbo v0, "remote"
+
+    iget-object v1, p0, Lorg/telegram/messenger/LocaleController$LocaleInfo;->pathToFile:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
 
     return v0
 .end method

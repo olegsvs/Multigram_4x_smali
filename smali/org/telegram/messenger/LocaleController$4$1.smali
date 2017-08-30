@@ -29,7 +29,7 @@
     .param p1, "this$1"    # Lorg/telegram/messenger/LocaleController$4;
 
     .prologue
-    .line 1610
+    .line 1446
     iput-object p1, p0, Lorg/telegram/messenger/LocaleController$4$1;->this$1:Lorg/telegram/messenger/LocaleController$4;
 
     iput-object p2, p0, Lorg/telegram/messenger/LocaleController$4$1;->val$response:Lorg/telegram/tgnet/TLObject;
@@ -45,7 +45,7 @@
     .locals 2
 
     .prologue
-    .line 1613
+    .line 1449
     iget-object v0, p0, Lorg/telegram/messenger/LocaleController$4$1;->this$1:Lorg/telegram/messenger/LocaleController$4;
 
     iget-object v1, v0, Lorg/telegram/messenger/LocaleController$4;->this$0:Lorg/telegram/messenger/LocaleController;
@@ -56,6 +56,6 @@
 
     invoke-virtual {v1, v0}, Lorg/telegram/messenger/LocaleController;->saveRemoteLocaleStrings(Lorg/telegram/tgnet/TLRPC$TL_langPackDifference;)V
 
-    .line 1614
+    .line 1450
     return-void
 .end method

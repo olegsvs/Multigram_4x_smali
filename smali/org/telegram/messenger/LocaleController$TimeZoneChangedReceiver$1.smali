@@ -27,7 +27,7 @@
     .param p1, "this$1"    # Lorg/telegram/messenger/LocaleController$TimeZoneChangedReceiver;
 
     .prologue
-    .line 84
+    .line 83
     iput-object p1, p0, Lorg/telegram/messenger/LocaleController$TimeZoneChangedReceiver$1;->this$1:Lorg/telegram/messenger/LocaleController$TimeZoneChangedReceiver;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,7 +41,7 @@
     .locals 2
 
     .prologue
-    .line 87
+    .line 86
     iget-object v0, p0, Lorg/telegram/messenger/LocaleController$TimeZoneChangedReceiver$1;->this$1:Lorg/telegram/messenger/LocaleController$TimeZoneChangedReceiver;
 
     iget-object v0, v0, Lorg/telegram/messenger/LocaleController$TimeZoneChangedReceiver;->this$0:Lorg/telegram/messenger/LocaleController;
@@ -62,14 +62,14 @@
 
     if-nez v0, :cond_0
 
-    .line 88
+    .line 87
     invoke-static {}, Lorg/telegram/messenger/LocaleController;->getInstance()Lorg/telegram/messenger/LocaleController;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lorg/telegram/messenger/LocaleController;->recreateFormatters()V
 
-    .line 90
+    .line 89
     :cond_0
     return-void
 .end method

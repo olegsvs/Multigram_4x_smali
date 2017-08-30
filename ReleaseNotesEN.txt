@@ -1,4 +1,7 @@
-http://www.naijacliqspot.ml/2017/08/awesome-telegram-with-multi-account.html
+v4.2.1.2
+– Rename to Multigram.
+- Fix change lang in settings and apply localization files.
+- Others bug fixes.
 
 V4.2.1.1
 - Setting P2.25, which allows you to enable the display of the user's biography, from the top of the dialog with it).
