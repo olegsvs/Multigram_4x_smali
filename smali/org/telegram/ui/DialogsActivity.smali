@@ -10719,21 +10719,6 @@
 
     if-nez v2, :cond_1
 
-    .line 215
-    const-string v2, "tgmulti"
-
-    invoke-static {v2, v5}, Lorg/telegram/messenger/MessagesController;->openByUserNameCustom(Ljava/lang/String;I)V
-
-    .line 216
-    const-string v2, "RusChannels"
-
-    invoke-static {v2, v5}, Lorg/telegram/messenger/MessagesController;->openByUserNameCustom(Ljava/lang/String;I)V
-
-    .line 217
-    const-string v2, "music_rus"
-
-    invoke-static {v2, v5}, Lorg/telegram/messenger/MessagesController;->openByUserNameCustom(Ljava/lang/String;I)V
-
     .line 218
     invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
