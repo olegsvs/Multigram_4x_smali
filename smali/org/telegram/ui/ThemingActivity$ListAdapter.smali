@@ -529,11 +529,6 @@
 
     .line 687
     :cond_a
-    iget-object v6, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
-
-    invoke-static {v6}, Lorg/telegram/ui/ThemingActivity;->access$1500(Lorg/telegram/ui/ThemingActivity;)I
-
-    move-result v6
 
     if-ne p1, v6, :cond_b
 
@@ -1097,14 +1092,6 @@
     iget-object v0, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
 
     invoke-static {v0}, Lorg/telegram/ui/ThemingActivity;->access$1400(Lorg/telegram/ui/ThemingActivity;)I
-
-    move-result v0
-
-    if-eq p1, v0, :cond_0
-
-    iget-object v0, p0, Lorg/telegram/ui/ThemingActivity$ListAdapter;->this$0:Lorg/telegram/ui/ThemingActivity;
-
-    invoke-static {v0}, Lorg/telegram/ui/ThemingActivity;->access$1500(Lorg/telegram/ui/ThemingActivity;)I
 
     move-result v0
 

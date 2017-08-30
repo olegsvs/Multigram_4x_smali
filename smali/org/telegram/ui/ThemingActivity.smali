@@ -186,17 +186,6 @@
     return v0
 .end method
 
-.method static synthetic access$1500(Lorg/telegram/ui/ThemingActivity;)I
-    .locals 1
-    .param p0, "x0"    # Lorg/telegram/ui/ThemingActivity;
-
-    .prologue
-    .line 63
-    iget v0, p0, Lorg/telegram/ui/ThemingActivity;->contactsRow:I
-
-    return v0
-.end method
-
 .method static synthetic access$1600(Lorg/telegram/ui/ThemingActivity;)I
     .locals 1
     .param p0, "x0"    # Lorg/telegram/ui/ThemingActivity;
@@ -1226,15 +1215,6 @@
     iput v2, p0, Lorg/telegram/ui/ThemingActivity;->rowCount:I
 
     iput v1, p0, Lorg/telegram/ui/ThemingActivity;->chatRow:I
-
-    .line 114
-    iget v1, p0, Lorg/telegram/ui/ThemingActivity;->rowCount:I
-
-    add-int/lit8 v2, v1, 0x1
-
-    iput v2, p0, Lorg/telegram/ui/ThemingActivity;->rowCount:I
-
-    iput v1, p0, Lorg/telegram/ui/ThemingActivity;->contactsRow:I
 
     .line 115
     iget v1, p0, Lorg/telegram/ui/ThemingActivity;->rowCount:I

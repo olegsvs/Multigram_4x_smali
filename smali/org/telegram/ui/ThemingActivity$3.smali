@@ -715,31 +715,6 @@
 
     .line 402
     :cond_a
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lorg/telegram/ui/ThemingActivity$3;->this$0:Lorg/telegram/ui/ThemingActivity;
-
-    invoke-static {v3}, Lorg/telegram/ui/ThemingActivity;->access$1500(Lorg/telegram/ui/ThemingActivity;)I
-
-    move-result v3
-
-    move/from16 v0, p3
-
-    if-ne v0, v3, :cond_b
-
-    .line 403
-    move-object/from16 v0, p0
-
-    iget-object v3, v0, Lorg/telegram/ui/ThemingActivity$3;->this$0:Lorg/telegram/ui/ThemingActivity;
-
-    new-instance v4, Lorg/telegram/ui/ThemingContactsActivity;
-
-    invoke-direct {v4}, Lorg/telegram/ui/ThemingContactsActivity;-><init>()V
-
-    invoke-virtual {v3, v4}, Lorg/telegram/ui/ThemingActivity;->presentFragment(Lorg/telegram/ui/ActionBar/BaseFragment;)Z
-
-    goto/16 :goto_0
-
     .line 404
     :cond_b
     move-object/from16 v0, p0

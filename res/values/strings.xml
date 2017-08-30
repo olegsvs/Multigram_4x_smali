@@ -143,8 +143,8 @@
     <string name="AndOther_other">and %1$d others</string>
     <string name="AndOther_two">and %1$d others</string>
     <string name="AndOther_zero">and %1$d others</string>
-    <string name="AppName">Telegram Multi</string>
-    <string name="AppWillRestart">Telegram Multi will restart</string>
+    <string name="AppName">Multigram</string>
+    <string name="AppWillRestart">Multigram will restart</string>
     <string name="ApplyLocalizationFile">Apply localization file</string>
     <string name="ApplyTheme">APPLY</string>
     <string name="ApplyThemeFile">Apply theme file</string>
@@ -1002,7 +1002,7 @@ about Telegram?"</string>
     <string name="Italic">Italic</string>
     <string name="JoinChannel">"
 
-Join Telegram Multi official channel:"</string>
+Join Multigram official channel:"</string>
     <string name="JoinGroup">JOIN GROUP</string>
     <string name="JoinToGroup">"Do you want to join the chat '%1$s'?"</string>
     <string name="JoinToGroupErrorFull">Sorry, this group is already full.</string>
@@ -1397,20 +1397,20 @@ The Telegram Team"</string>
     <string name="OwnNameSize">Name size</string>
     <string name="Page1Message">"The world's &lt;b>fastest&lt;/b> messaging app.
 It is &lt;b>free&lt;/b> and &lt;b>secure&lt;/b>.&lt;br/>And also &lt;b>themeable&lt;/b>!"</string>
-    <string name="Page1Title">Telegram Multi</string>
-    <string name="Page2Message">"&lt;b>Telegram Multi&lt;/b> delivers messages faster than
+    <string name="Page1Title">Multigram</string>
+    <string name="Page2Message">"&lt;b>Multigram&lt;/b> delivers messages faster than
 any other application."</string>
     <string name="Page2Title">Fast</string>
-    <string name="Page3Message">"&lt;b>Telegram Multi&lt;/b> is free forever. No ads.
+    <string name="Page3Message">"&lt;b>Multigram&lt;/b> is free forever. No ads.
 No subscription fees."</string>
     <string name="Page3Title">Free</string>
-    <string name="Page4Message">"&lt;b>Telegram Multi&lt;/b> keeps your messages safe
+    <string name="Page4Message">"&lt;b>Multigram&lt;/b> keeps your messages safe
 from hacker attacks."</string>
     <string name="Page4Title">Secure</string>
-    <string name="Page5Message">"&lt;b>Telegram Multi&lt;/b> has no limits on the size of
+    <string name="Page5Message">"&lt;b>Multigram&lt;/b> has no limits on the size of
 your media and chats."</string>
     <string name="Page5Title">Powerful</string>
-    <string name="Page6Message">"&lt;b>Telegram Multi&lt;/b> lets you access your messages
+    <string name="Page6Message">"&lt;b>Multigram&lt;/b> lets you access your messages
 from multiple devices."</string>
     <string name="Page6Title">Cloud-Based</string>
     <string name="PaintDelete">Delete</string>
@@ -1864,7 +1864,7 @@ Don't take it, Telegram will process everything automatically."</string>
     <string name="TapToEmojify">Tap to emojify</string>
     <string name="TelegramFaq">Telegram FAQ</string>
     <string name="TelegramFaqUrl">https://telegram.org/faq</string>
-    <string name="TelegramForAndroid">Telegram Multi for Android</string>
+    <string name="TelegramForAndroid">Multigram for Android</string>
     <string name="TelegramVersion">Telegram for Android %1$s</string>
     <string name="TerminateAllSessions">Terminate All Other Sessions</string>
     <string name="TerminateSessionInfo">Tap on a session to terminate.</string>
@@ -1878,7 +1878,7 @@ Don't take it, Telegram will process everything automatically."</string>
     <string name="ThemePreview">Theme Preview</string>
     <string name="ThemeUpdated">%s has been updated</string>
     <string name="Themes">Themes</string>
-    <string name="ThemesAppMsg">Would you like to check some themes created by other Telegram Multi users?</string>
+    <string name="ThemesAppMsg">Would you like to check some themes created by other Multigram users?</string>
     <string name="Theming">Theming</string>
     <string name="TimeDateColor">Time/Date color</string>
     <string name="TimeDateSize">Time/Date size</string>
@@ -1960,8 +1960,8 @@ Don't take it, Telegram will process everything automatically."</string>
     <string name="UsernameAvailable">%1$s is available.</string>
     <string name="UsernameChecking">Checking username...</string>
     <string name="UsernameEmpty">None</string>
-    <string name="UsernameHelp">You can choose a username on &lt;b>Telegram Multi&lt;/b>. If you do, other people will be able to find you by this username and contact you without knowing your phone number.&lt;br>&lt;br>You can use &lt;b>a–z&lt;/b>, &lt;b>0–9&lt;/b> and underscores. Minimum length is &lt;b>5&lt;/b> characters.</string>
-    <string name="UsernameHelpLink">"This link opens a chat with you on Telegram Multi:
+    <string name="UsernameHelp">You can choose a username on &lt;b>Multigram&lt;/b>. If you do, other people will be able to find you by this username and contact you without knowing your phone number.&lt;br>&lt;br>You can use &lt;b>a–z&lt;/b>, &lt;b>0–9&lt;/b> and underscores. Minimum length is &lt;b>5&lt;/b> characters.</string>
+    <string name="UsernameHelpLink">"This link opens a chat with you on Multigram:
 %1$s"</string>
     <string name="UsernameInUse">Sorry, this username is already taken.</string>
     <string name="UsernameInvalid">Sorry, this username is invalid.</string>
@@ -2207,9 +2207,9 @@ If you forget your password, you will lose access to your Telegram account. Ther
     <string name="hockeyapp_update_dialog_positive_button">Show</string>
     <string name="hockeyapp_update_dialog_title">Update Available</string>
     <string name="hockeyapp_update_mandatory_toast">%s is available and is a mandatory update!</string>
-    <string name="AppNameBeta">Telegram Multi</string>
-    <string name="PlusVersion">Telegram Multi Version</string>
-    <string name="ShortAppName">Telegram Multi</string>
+    <string name="AppNameBeta">Multigram</string>
+    <string name="PlusVersion">Multigram Version</string>
+    <string name="ShortAppName">Multigram</string>
     <string name="ShowMySettings">Show my settings</string>
     <string name="gcm_defaultSenderId">326898382893</string>
     <string name="google_api_key" />
