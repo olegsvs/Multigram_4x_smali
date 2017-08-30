@@ -59,22 +59,22 @@
     sput-object v0, Lorg/telegram/messenger/BuildVars;->BUILD_VERSION_STRING:Ljava/lang/String;
 
     .line 16
-    const/16 v0, 0x40ef
+    const v0, 0x21970
 
     sput v0, Lorg/telegram/messenger/BuildVars;->APP_ID:I
 
     .line 17
-    const-string/jumbo v0, "8c9dbfe58437d1739540f5d53c72ae4b"
+    const-string/jumbo v0, "a4914ed1a0525366bd21b51e6ed9de9f"
 
     sput-object v0, Lorg/telegram/messenger/BuildVars;->APP_HASH:Ljava/lang/String;
 
     .line 18
-    const-string/jumbo v0, "9602f502a85552c90543497e91a071f0"
+    const-string/jumbo v0, "c614c5bc44dc43b59b05b68474ad0ef6"
 
     sput-object v0, Lorg/telegram/messenger/BuildVars;->HOCKEY_APP_HASH:Ljava/lang/String;
 
     .line 19
-    const-string/jumbo v0, "0bf574d05ea448cea56617c5fcb9a6b3"
+    const-string/jumbo v0, "c614c5bc44dc43b59b05b68474ad0ef6"
 
     sput-object v0, Lorg/telegram/messenger/BuildVars;->HOCKEY_APP_HASH_DEBUG:Ljava/lang/String;
 
